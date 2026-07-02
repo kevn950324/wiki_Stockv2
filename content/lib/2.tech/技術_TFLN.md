@@ -5,7 +5,7 @@ tags:
   - 產業/光通訊
   - 環節/光電芯片
 maturity: developing
-updated: 2026-06-29
+updated: 2026-07-02
 aliases:
   - TFLN
   - 薄膜鈮酸鋰
@@ -29,15 +29,11 @@ TFLN 的核心優勢：低半波電壓（Vπ < 1V）、超高頻寬（>100 GHz�
 
 ## 圖解
 
-```mermaid
-gantt
-    title TFLN 市場規模與出貨節奏（全球）
-    dateFormat YYYY-MM
-    section 出貨量（萬顆）
-    2025A：~30 萬顆  :done, 2025-01, 2025-12
-    2026E：50-60 萬顆 :active, 2026-01, 2026-12
-    2028E：大規模量產放量 :2028-01, 2028-12
-```
+![[202503光通訊簡報AmyCiou_009.png]]
+*圖（光通訊簡報，2025-03）：直接調製（Direct Modulation）vs 外部調製（External Modulation）。TFLN 調製器屬於外部調製器——CW 光源持續輸出連續波光，TFLN 依電訊號進行高速相位調製，兩者分離使 TFLN 可達 >100 GHz 電光頻寬而不受雷射驅動電流限制。*
+
+![[WinWay CPO技術論壇_027.png]]
+*圖（WinWay CPO技術論壇，2026-05）：MZM（Mach-Zehnder Modulator）調製器架構。TFLN 採用 MZM 原理：光在 Y 形分光器分成兩臂，各臂電極施加 ±V 相位差，重組時發生干涉完成強度調製。低半波電壓（Vπ < 1V）是 TFLN 相較傳統鈮酸鋰體材料的關鍵優勢。*
 
 ## 技術原理
 

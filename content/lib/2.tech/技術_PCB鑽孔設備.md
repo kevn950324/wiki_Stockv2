@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/PCB
 maturity: mature
-updated: 2026-06-29
+updated: 2026-07-02
 aliases:
   - PCB鑽孔設備
   - 激光鑽孔設備
@@ -27,6 +27,9 @@ aliases:
 PCB 鑽孔設備是加工 PCB 通孔（Through Hole）和盲孔（Blind Via）的關鍵製造設備，決定了 PCB 的最小孔徑、孔位精度與產能。AI 伺服器 PCB 世代升級（M9/M10 材料 + Q布石英布）對鑽孔設備提出全新要求：**CO₂ 熱加工導致 Q布分層，皮秒超快激光成為 AI PCB 唯一可行方案**，帶動設備單價和台數同步上升。
 
 ## 圖解
+
+![[事件分析TPCA_Day 2_20251023_002.png]]
+*圖（TPCA Show，2025-10）：PCB 銅箔應用規格對照表（Dual Copper Solution）——RTF（粗糙銅箔，Rz 3.0µm）對應 10–25 Gbps 基本應用；HVLP3（Rz 0.6µm）對應 NVLink；HVLP5（Rz 0.4µm）對應 UALink / AI server 極高頻率（200+ Gbps/lane）應用。Q布材料 + HVLP5 超低粗糙度銅箔在 AI 伺服器超高層 PCB（正交背板、LPU 計算板）的同步採用，使傳統 CO₂ 激光鑽孔（孔徑 ≥50µm）無法滿足 <30µm 盲孔需求，推動皮秒超快激光鑽孔設備成為唯一可行方案。*
 
 ```mermaid
 quadrantChart

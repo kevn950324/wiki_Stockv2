@@ -54,7 +54,20 @@ FY26 指引上調：4060-4100M to 4300-4340M (+240M)
 
 風險：股價升130% 估值25x EV/S OpenAI風險（Truist確認穩定）
 
+## 5. LT Thesis（長期投資論述，by 韭菜王 2026）
+
+| 主題 | 論點 | 相關標的 | 信心 |
+|------|------|---------|------|
+| AI Training + Inference 爆發 | 大型 AI 實驗室（OpenAI、Anthropic）訂單持續擴大；GPU Monitoring 成為新切入點；2Q25 財報揭露兩個最大 AI 研究團隊各有 7/8 位數 ARR 合約 | [[DDOG.US(datadog)]] | 高 |
+| Security 平台化 | Cloud Security + SIEM + Code Security + AI Security 持續整合；有機會複製 CrowdStrike 成功模式；DDOG 目前為唯一主流 Observability + Security 整合廠商 | [[DDOG.US(datadog)]] | 中 |
+| Enterprise Consolidation | 企業希望 5 個工具 → 1 個平台；DDOG 是最大受惠者；1Q26 多個案例均來自替換 Splunk / Open Source / Legacy monitoring tools | [[DDOG.US(datadog)]] | 中 |
+
+DDOG 本質上是 AI 時代的「數位世界控制塔」，ARR 已突破 $4B，AI 產品組合（MCP Server、Bits AI、LLM Observability、GPU Monitoring）成為下一輪加速成長核心動能。
+
+來源：[[memo_DDOG_深度分析_韭菜王_20260500]]
+
 相關連結：
 - [[DDOG.US(datadog)]]
 - [[DDOG 260211_MS 4Q25 Results]]
 - [[DDOG 260508_MS 1Q26 Results]]
+- [[分析_DevSecOps_AI安全衝擊]]

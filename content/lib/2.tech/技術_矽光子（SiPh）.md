@@ -6,7 +6,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光電芯片
 maturity: developing
-updated: 2026-06-29
+updated: 2026-07-02
 aliases:
   - SiPh
   - Silicon Photonics
@@ -29,25 +29,11 @@ aliases:
 
 ## 圖解
 
-```mermaid
-flowchart TD
-    A[矽晶圓<br/>CMOS 相容製程] --> B[PIC 光子積體電路<br/>調變器 + 波導 + PD]
-    C[EIC 電子 IC<br/>Driver / TIA / 控制] --> D[3D 整合<br/>SoIC / HB]
-    B --> D
-    D --> E[光引擎<br/>CPO / NPO / LPO]
-    E --> F1[scale-up 光互連<br/>NVLink / OCI]
-    E --> F2[scale-out 可插拔模組<br/>400G / 800G / 1.6T]
+![[國泰證期研究部_半導體產業_PIC推動晶圓代工邁向AI光電異質整合新平台_20260525_001.png]]
+*圖（國泰證期，2026-05）：矽光子芯片三維示意圖——SOI 晶圓上集成 Germanium PIN Photodetector（鍺 PIN 光偵測器，接收端 O→E）、Silicon waveguides（矽波導佈線）、Electro-optic Modulator（電光調製器，發射端 E→O）與 Optical coupler（光柵耦合器，芯片↔光纖 I/O）。所有器件在 CMOS 產線製造，與電子 IC 單片或異質整合（HB/SoIC），是矽光子的根本競爭力所在。*
 
-    subgraph 代工平台
-        G1[GF Fotonix 300mm] 
-        G2[TSMC COUPE N65]
-        G3[Tower Semiconductor]
-    end
-    A --> G1
-    A --> G2
-    A --> G3
-    G1 & G2 & G3 --> B
-```
+![[國泰證期研究部_半導體產業_PIC推動晶圓代工邁向AI光電異質整合新平台_20260525_002.png]]
+*圖（國泰證期，2026-05）：PIC（Photonic Integrated Circuit）布局俯視圖——包含 Laser（光源輸入）、Optical ring resonator（環形共振器，波長選擇/濾波）、Optical modulator（電光調製器）、Optical waveguide（波導佈線）、Couplers（分光/合光）、Photonic crystal（特殊波長轉換）、Photo diode（光偵測器 O→E）與 Optical fiber（光纖 I/O）。PIC 把傳統多顆分立光子器件整合到單片芯片，是 1.6T 光模塊與 CPO 光引擎成本下降的核心路徑。*
 
 ## 技術原理
 

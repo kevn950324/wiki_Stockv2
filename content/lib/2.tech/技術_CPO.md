@@ -100,12 +100,57 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 | 封裝整合平台 | [[2330_台積電（市）]] | COUPE（PIC N65 + EIC N7，SoIC 混合鍵合） |
 | 雷射 / ELS | [[LITE.US(lumentum)]] | Nvidia 首批 CPO ELS 預期主供應商 |
 | FAU / 光纖被動件 | [[3363_上詮（櫃）]] | 光纖被動元件、FAU 相關 |
-| CPO 設備 / 測試 | [[2360_致茂（市）]] | 雷射二極體 / 光通訊測試，潛在切入 CPO 測試 |
+| CPO Insertion 3/4 ATE + 光學對準 | [[2360_致茂（市）]] | Insertion 1 驗證中、Insertion 3 ATE+光學對準切入確認、Insertion 4 FT/SLT 核心強項 |
+| CPO Insertion 1-3 探針台 | [[6223_旺矽（櫃）]] | Insertion 1 驗證中、Insertion 2 雙面探針台認證中、Insertion 3 確認 |
+| CPO Insertion 3 光通量檢測 | [[6710_汎銓（市）]] | IR-OM 光損偵測裝置，漏光偵測與精準定位 |
+| CPO Insertion 2-3 光耦合設備 | [[6187_萬潤（市）]] | FAU 貼合 + 光耦合機台；UPH 聲稱優於主競 ficonTEC；3Q26 首現 CPO 業績（SRS 期中，信心：中）|
 | CPO 自動光纖耦合設備（主供）| ficonTEC（飛控泰克，德國未上市）| 博通傳統首供；5 nm 級運動控制精度，單台約 $500 萬 USD，CPO 耦合良率 80–90%，交付周期 9–12 個月；產能瓶頸源於製造周期長、無法完全自動化；當前實質壟斷 CPO 耦合設備 |
 | CPO 自動光纖耦合設備（第二供）| 科瑞技術（中國，未建頁）| 2026-01 小批量導入博通產線；當前精度亞微米級，良率約 60%（量產門檻需達 80%）；與 ficonTEC 存在約 2 年技術代際差距；博通引入邏輯：降成本 + 供應鏈安全，非技術不滿 |
 | CPO 耦合設備（硅光方向）| ASMPT（新加坡上市，未建頁）| 技術水平接近 ficonTEC，主聚焦矽光工藝，尚未切入 CPO 賽道 |
 
 CPO 純玩家（本次未建頁）：Ayar Labs（TeraPHY，UCIe 光 retimer chiplet）、Nubis（2025/10 被 Ciena 收購，MZM、2D 光纖陣列）、Celestial AI（被 Marvell 收購，EAM、Photonic Fabric）、Lightmatter（Passage M1000 光中介層）、Xscape Photonics（ChromX 可程式雷射）、Ranovus（Odin OE）、Scintil（LEAF Light）。整合測試端（未建頁）：GlobalFoundries、Tower、ASE/SPIL、[[AMKR.US(amkor)]]、Fabrinet、Keysight、Teradyne。
+
+## CPO 光測試流程（Insertion 1-4）
+
+CPO 測試隨製程展開，分為四個插入測試階段（Insertion 1-4），由終端驗證擴展嵌入全製造流程。光測試設備需求隨此轉型大幅增加（CPO ATE 320 萬 USD + 探針台 320 萬 USD = 系統合計 > 640 萬 USD，遠高於傳統電測試 5-300 萬 USD）。
+
+![[光測試期中產業報告_008.png]]
+*圖（SRS，2026）：CPO Insertion 1-4 測試全流程——從 PIC 晶圓級到 ASIC+OE 系統封裝後 FT/SLT，測試嵌入製造每個關鍵節點。*
+
+| 階段 | 製程位置 | 測試目標 | 主要設備廠 | 台廠切入 |
+|------|---------|---------|----------|---------|
+| **Insertion 1** | PIC 鍵合前，晶圓級 | 基礎光學探測，篩檢裸粒性能 | Teradyne ATE、ficonTEC 探針台、Keysight | 致茂（ATE，驗證中）、旺矽（探針台，驗證中）|
+| **Insertion 2** | EIC+PIC 鍵合後、切割前 | 光電轉換效率 + 雙面光電同測 | Teradyne/Advantest ATE、ficonTEC 探針台 | 旺矽（雙面探針台，認證中）|
+| **Insertion 3** | 晶圓切割後、系統封裝前，Die Level | OE + FAU 整合功能驗證 | ATE + 光學對準 + 探針台 + 光通量檢測 | 致茂（ATE + 光學對準）、旺矽（探針台）、汎銓（光通量檢測）、[[6187_萬潤（市）]]（光耦合設備）|
+| **Insertion 4** | ASIC + OE 系統封裝後 FT/SLT | 整機光電相容性 + 熱穩定性驗證 | ATE + Handler（3,000W 功耗）| 致茂（FT/SLT，核心強項）|
+
+### Hybrid Bonding 良率與成本壓力
+
+![[光測試期中產業報告_007.png]]
+*圖（SRS，2026）：COUPE 異質整合難度大幅提升——Hybrid bonding 初期良率僅 35%，推動光測試成為良率控管關鍵（報廢成本每顆 OE 額外增加約 32 美元，佔系統 BOM 約 50%）。*
+
+> [!warning] 重要數字（SRS 研究，信心：中）
+> - Hybrid bonding 初期良率：~35%（量產門檻估 >80%）
+> - 35% 良率假設下，每顆光學引擎額外增加約 **32 美元成本**（良品分攤報廢）
+> - 單一良率損失佔系統 BOM 約 **50%**
+> - 2026 年 OE 需求：121.6 萬顆；2027 年：783.9 萬顆（年增 **6.4 倍**）
+> - CPO 2030 年滲透率目標：**35%**
+
+### Quantum x800 Q3450 BOM
+
+| 元件 | 數量 | 總價（USD）| 佔比 |
+|------|------|-----------|------|
+| FAU | 72 | $2,880 | 4% |
+| 1.6T 光引擎（OE）| 72 | $4,680 | 7% |
+| Substrate Interposer | 24 | $22,320 | 33% |
+| Switch Chip | 4 | $3,200 | 5% |
+| ELS | 18 | $6,300 | 9% |
+| MPO 連接器、跳線 | 144 | $5,760 | 9% |
+| Shuffle Box | 1 | $3,000 | 4% |
+| Others | — | $18,800 | 29% |
+| **合計** | — | **$66,940** | 100% |
+
+（光引擎 OE + FAU 合計僅佔 11%，系統成本由運算晶片與先進封裝主導）
 
 ## CPO 設備生態
 

@@ -5,7 +5,7 @@ tags:
   - 產業/光通訊
   - 環節/光通訊
 maturity: mature
-updated: 2026-06-29
+updated: 2026-07-02
 aliases:
   - FAU
   - Fiber Attach Unit
@@ -30,15 +30,8 @@ DFAU（Discrete FAU）/ CPO FAU 是 CPO 光引擎端使用的 FAU，需要在晶
 
 ## 圖解
 
-```mermaid
-flowchart LR
-    A[光纖陣列] --> B[FAU\n精確對準封裝]
-    B --> C[光芯片端面]
-    
-    D[光模塊中FAU\n400G: 2×4ch\n800G: 3 FAU\n1.6T: 供需缺口15%] --> E[普通可插拔光模塊]
-    
-    F[CPO FAU / DFAU\nMPC/TeraMount/Corning 方案\n不可插拔，需晶圓廠封裝\n單價150-200 USD] --> G[CPO 光引擎]
-```
+![[報告_Semianalysis_CPO_20260102_010.png]]
+*圖（SemiAnalysis，2026-01）：NPO（Near-Packaged Optics）架構剖面——FAU（Fiber Array Unit）標示於 PIC+EIC 光引擎（Optical Engine）與光纖陣列的對接界面。FAU 精確固定多根光纖（間距 127µm 或 250µm）對準 PIC 端面光柵或懸空面，對準公差 <±0.5µm；CPO FAU（DFAU）為永久性封裝接合，不可拔插。NPO 是 CPO 過渡方案，FAU 仍是光引擎與光纖鏈路最關鍵的光學對準元件。*
 
 ## 技術原理
 

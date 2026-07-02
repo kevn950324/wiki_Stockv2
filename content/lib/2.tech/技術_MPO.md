@@ -5,7 +5,7 @@ tags:
   - 產業/光通訊
   - 環節/光通訊
 maturity: mature
-updated: 2026-06-29
+updated: 2026-07-02
 aliases:
   - MPO
   - Multi-Fiber Push On
@@ -37,16 +37,8 @@ aliases:
 
 ## 圖解
 
-```mermaid
-flowchart LR
-    A[交換機 / AI GPU 板] -->|MPO 跳線| B[光配線架]
-    B -->|MPO 跳線| C[OCS 全光交換機]
-    C -->|MPO 跳線| D[AI GPU 板]
-    
-    E[AI GPU 板] -->|AOC 有源光纜| F[交換機]
-    
-    style C fill:#ffe0b2
-```
+![[AI驅動光通訊產業前進-20260119_007.png]]
+*圖（群益投顧，2026-01）：矽光 Transceiver（左）vs 傳統 Transceiver（右）零組件對比。左側矽光模塊標示 MPO connector（多芯光纖連接器）← Fiber array → Silicon Photonics IC + Electronics IC；右側傳統模塊用 Laser Diode TOSA + PIN+TIA ROSA 分立結構。MPO 是矽光模塊的光纖 I/O 標準接口——一個 MPO-16 同時傳遞 16 根光纖，對應 800G（8+8）或 1.6T（16+16）通道需求，是高密度矽光模塊不可或缺的機械對準元件。*
 
 ## 技術原理
 

@@ -6,7 +6,7 @@ tags:
   - 技術/CPO
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-07-01
+updated: 2026-07-02
 ---
 
 # 供應鏈_CPO
@@ -28,7 +28,7 @@ flowchart TD
     ELS["外部雷射源 ELS<br/>Lumentum / Coherent / Furukawa"]
     FAU["FAU 光纖耦合<br/>TFC / Senko / 上詮"]
     SHF["Shuffle Box / MT Ferrule<br/>T&S / US Conec / Corning"]
-    EQ["耦合 & E/O 測試設備<br/>FiconTEC / 致茂 / Keysight / Teradyne"]
+    EQ["耦合 & E/O 測試設備<br/>FiconTEC / 萬潤 / 致茂 / 旺矽 / Teradyne / Keysight"]
 
     NV --> CSP
     AVGO --> CSP
@@ -99,12 +99,30 @@ FAU（未建頁）：TFC Optical（300394.SH，與 Nvidia 合作 3-4 年、Q3450
 | MPO 連接器 | US Conec、T&S、Senko、Broadex、Optec | X800-Q3450 需 144 個 |
 | MT Ferrule | US Conec、Fukushima、Senko、FOCI、Sumitomo、TFC、T&S | US Conec 三十年經驗，Q3450 主供之一 |
 
+### CPO 光學鏡頭（光學元件）
+| 廠商 | 地位 | 備註 |
+|------|------|------|
+| [[3008_大立光（市）]] | 積極擴張中 | 全球手機鏡頭龍頭切入 CPO 光學元件；GS Buy TP NT$6,231，2026-07-01；CPO 鏡頭帶動估值重估（re-rating），TP PE 從 17.9x 上調至 29.5x |
+
+CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為 AI 伺服器供應鏈提供多元化。
+
+### 光耦合設備（上游設備）
+| 廠商 | 地位 | 備註 |
+|------|------|------|
+| ficonTEC（德，未上市）| 實質壟斷 | 精度 < 0.3µm，單台 ~$500 萬 USD，交期 9-12 個月 |
+| [[6187_萬潤（市）]] | 台廠切入 | CPO 光耦合 + FAU 貼合設備；掌握 Insertion 2-3 環節；SRS 估 3Q26 首現 CPO 業績（信心：中）；聲稱 UPH 優於 ficonTEC |
+
+耦合設備（未建頁）：ADST（台廠，與萬潤同環節）；ASMPT（新加坡，技術接近 ficonTEC，尚未切入 CPO）
+
 ### E/O 測試設備（上游設備）
 | 廠商 | 地位 | 備註 |
 |------|------|------|
-| [[2360_致茂（市）]] | 潛在切入 | 雷射二極體/光通訊測試起家，可延伸 CPO die/系統級測試 |
+| [[2360_致茂（市）]] | Insertion 3/4 主導 | Insertion 1 ATE 驗證中；Insertion 3 ATE + 光學對準切入確認；Insertion 4 FT/SLT 核心強項（高功耗 3,000W 能力）|
+| [[6515_穎崴（市）]] | 全環節卡位 | CPO 測試三環節：① Die Level 探針卡、② Package Level 獨家 Double Sided Probing System、③ Module Level HyperSocket；公司認為 2028 年是 CPO 確定量產年；CTBC TP NT$10,000（2026-07-01）|
+| [[6223_旺矽（櫃）]] | Insertion 1-3 探針台 | Insertion 1 驗證中、Insertion 2 雙面探針台認證中、Insertion 3 確認；「CPO 不論誰贏，旺矽都受益」；MS OW，2025–2028E EPS CAGR 105% |
+| [[6710_汎銓（市）]] | Insertion 3 光通量檢測 | IR-OM 光損偵測裝置（漏光偵測與精準定位）；與光焱科技並列 |
 
-測試設備（未建頁）：Keysight（高速測試龍頭）、Teradyne（NVDA 認證領先、ficonTEC 夥伴）、FormFactor（晶圓探針）、Advantest、Anritsu、Multilane、Hon Precision 鴻勁（AI/HPC 終測 handler）。
+測試設備（未建頁）：Keysight（高速測試龍頭）、Teradyne（NVDA 認證領先、ficonTEC 夥伴）、FormFactor（晶圓探針，光學對準模組）、Advantest、Anritsu、Multilane、Hon Precision 鴻勁（AI/HPC 終測 handler）、光焱科技（Insertion 3 光通量，未建頁）。
 
 ## 競爭格局
 
@@ -122,6 +140,11 @@ FAU（未建頁）：TFC Optical（300394.SH，與 Nvidia 合作 3-4 年、Q3450
 
 ## 相關頁面
 
+- [[3008_大立光（市）]]（CPO 鏡頭）
+- [[6187_萬潤（市）]]（CPO 光耦合 + FAU 貼合設備）
+- [[6515_穎崴（市）]]（CPO 全環節測試）
+- [[6223_旺矽（櫃）]]（Insertion 1-3 探針台）
+- [[6710_汎銓（市）]]（Insertion 3 光通量檢測）
 - [[2455_全新（市）]]
 - [[3081_LandMark光電（市）]]
 - [[3105_穩懋（市）]]
@@ -135,3 +158,7 @@ FAU（未建頁）：TFC Optical（300394.SH，與 Nvidia 合作 3-4 年、Q3450
 
 - [[報告_Semianalysis_CPO_20260102]]（CPO Book Part 5：Nvidia CPO 供應鏈，2026-01-02）
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（CPO 個股 read-across，2026-06-09）
+- [[報告_GS_大立光3008_20260701]]（GS，大立光 CPO 鏡頭擴張，2026-07-01）
+- [[報告_MS_測試耗材_旺矽6223_穎崴6515_20260630]]（MS，測試耗材 OW，旺矽/穎崴 CPO 測試布局，2026-06-30）
+- [[報告_CTBC_穎崴6515_20260701]]（CTBC，穎崴 CPO 三環節卡位，TP NT$10,000，2026-07-01）
+- [[光測試期中產業報告]]（SRS，Insertion 1-4 流程、設備廠商、萬潤/致茂/旺矽/汎銓台廠布局，2026-07-01）

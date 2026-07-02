@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/PCB原材料
 maturity: developing
-updated: 2026-06-29
+updated: 2026-07-02
 aliases:
   - Q布
   - 石英布
@@ -24,20 +24,8 @@ Q布（石英布，Quartz Fiber Cloth）是以高純石英玻璃纖維（SiO₂ 
 
 ## 圖解
 
-```mermaid
-flowchart LR
-    A[石英砂 SiO₂ 99.95%+] --> B[石英纖維絲]
-    B --> C[Q布 250-400元/米]
-    C --> D1[M9/M9Q CCL\n台光/松下]
-    C --> D2[M10 CCL\n台光驗證中]
-    D1 --> E1[LPU計算板 52層]
-    D1 --> E2[正交中板 78層]
-    D2 --> E3[超高層交換背板 120層+]
-    
-    style C fill:#ffeecc
-    style E2 fill:#ffcccc
-    style E3 fill:#ff9999
-```
+![[報告_Semianalysis_PCB_20250826_003.png]]
+*圖（Semianalysis/Doosan，2025-08）：CCL（覆銅板）材料堆疊截面——最底層 GLASS FABRIC（玻纖布）即 PCB 結構補強層。Q布（石英布）即以此層替換傳統 E-glass（Dk ~6）：石英（SiO₂）Dk ~3.7，使整體 CCL 在 AI 超算應用（200+ Gbps / lane，UALink / NVLink）下顯著降低訊號損耗；圖中 RESIN SYSTEM 層（樹脂，低 Dk/Df）與 COPPER FOIL 層（HVLP 超低粗糙銅箔）是 M9Q/M10 頂級 CCL 三大材料組合的另兩個構成要素。*
 
 ## 技術原理
 

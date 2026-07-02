@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/PCB
 maturity: developing
-updated: 2026-06-29
+updated: 2026-07-02
 aliases:
   - mSAP
   - Modified Semi-Additive Process
@@ -22,6 +22,9 @@ aliases:
 mSAP（Modified Semi-Additive Process，改良半加成工藝）是一種 PCB 精細線路製造工藝，可實現 20µm 以下的線寬/間距，是 1.6T 光模塊 PCB 和次世代 AI 伺服器 Ultra Rubin OAM 的核心工藝。傳統減成法受限於蝕刻精度，在 30µm 以下線寬困難；mSAP 以電鍍方式生長銅線路，精度大幅提升。
 
 ## 圖解
+
+![[報告_Semianalysis_PCB_20250826_003.png]]
+*圖（Semianalysis/Doosan，2025-08）：CCL（覆銅板）材料堆疊截面——COPPER FOIL（導電層）/ FILLER SYSTEM（填充，控制絕緣穩定性）/ RESIN SYSTEM（樹脂，決定耐熱、低 CTE、低 Dk/Df）/ GLASS FABRIC（玻纖布補強）。mSAP 工藝在此材料上以薄銅種子層（<1µm）替代傳統厚銅箔，透過電鍍選擇性生長銅線，再快速蝕刻僅移除種子層而非大面積銅，實現線寬 15–25µm——是 1.6T 光模塊高密度 PCB 和 AI 伺服器 OAM 的製程基礎。*
 
 ```mermaid
 flowchart LR

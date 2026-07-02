@@ -6,7 +6,7 @@ tags:
   - 產業/光通訊
   - 產業/AI伺服器
 maturity: developing
-updated: 2026-06-29
+updated: 2026-07-02
 aliases:
   - OCI
   - Optical Compute Interconnect
@@ -29,19 +29,8 @@ OCI（Optical Compute Interconnect）是由 Meta、Broadcom、AMD 三家聯手�
 
 ## 圖解
 
-```mermaid
-graph LR
-    ELS[外接雷射 ELS<br/>OIF ELSFP<br/>線寬 1 MHz<br/>功率 6 dBm] --> OCI[OCI chiplet<br/>微環 DWDM<br/>4λ × 53.125 Gbaud NRZ<br/>= 212.5 Gbps / 方向]
-    OCI -- 單纖雙向<br/>Group A/B 反向 --> Fiber[SMF-28<br/>500m / 2.5 dB 插損]
-    Fiber --> OCI2[遠端 OCI chiplet]
-
-    subgraph 速率階梯
-        S1[200G OCI 1:4]
-        S2[400G OCI 2:8]
-        S3[800G OCI 4:16]
-        S4[1.6T OCI 8:32]
-    end
-```
+![[報告_Semianalysis_CPO_20260102_005.png]]
+*圖（SemiAnalysis，2026-01）：Nvidia Oberon（GB300 NVL72，72 GPU / 1 機柜）vs Kyber（Rubin Ultra NVL576，576 GPU / 9 機柜）Scale-up 架構對比。NVL72 以 NVLink Switch 銅互連在機柜內互連；NVL576 跨 9 機柜需突破銅互連 ~2m 物理限制，OCI（Optical Compute Interconnect）或 NVLink 光互連是把 Scale-up 域延伸至 500m SMF 的核心方案，讓 576-GPU「World Size」成為可能。OCI 主要場景即 NVL576 跨機柜光學 Scale-up 互連。*
 
 ## 技術原理
 
