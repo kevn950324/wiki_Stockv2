@@ -53,6 +53,11 @@ flowchart TD
     class CSP cust
 ```
 
+## 供應鏈整合演進圖
+
+![[報告_金正禾論壇_CPO光電共封裝_20260325_024.png]]
+圖說：（金正禾論壇，2026-03-25）Scale-Up CPO 供應鏈全景——左側為系統整合路徑（Switch ASIC → OE module → ODM → End User），中間為 Hybrid-bond 設備 / 測試設備 / 耦合設備分工，右側為 FAU（ASP $50）→ E/PIC pair → OE module（ASP $1,000）的元件價值層次，以及 TSMC/GlobalFoundries/Intel 代工與 ASE/SPIL/Amkor OSAT 位置。
+
 ## 各環節廠商
 
 ### 平台 / 交換器 ASIC（核心）
@@ -82,6 +87,9 @@ OSAT（未建頁）：ASE/SPIL（3711.TW，Nvidia 供應鏈關鍵，含未來 Ru
 | [[LITE.US(lumentum)]] | 首批主供 | Nvidia 初期 CPO ELS 預期唯一供應商（June note 因 CPO 延後轉保守） |
 
 ELS（未建頁）：Coherent（COHR，估 2026 下半進入第二供應）、Furukawa、Broadcom 自供、源傑 Yuanjie（中）、仕佳 Shijia（中）。CW DFB 每顆 ~350mW；高功率雷射仍有護城河。
+
+> [!warning] ELS 中系供應商技術門檻
+> Scale-Up CPO ELS 目前最低需 **100mW DFB @1310nm**；中系廠商在此規格下勉強達標。若升至 200mW/DFB 或 400mW/DFB，或引入 CWDM 多波長規格（1270/1290/1310/1330/1350nm），中系廠商在輸出功率與多波長均勻性上暫時無法滿足，技術護城河短期支撐 Lumentum/Coherent 地位。（來源：[[報告_金正禾論壇_CPO光電共封裝_20260325]]，2026-03-25）
 
 ### FAU / 光纖耦合（外部材料）
 | 廠商 | 地位 | 備註 |
@@ -156,6 +164,8 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 
 ## 來源
 
+- [[報告_金正禾論壇_InP晶圓代工CPO_20260130]] — 金正禾論壇（CPO 供應鏈前段圖），2026-01-30
+- [[報告_金正禾論壇_CPO光電共封裝_20260325]] — 金正禾論壇（供應鏈整合演進、ELS 門檻），2026-03-25
 - [[報告_Semianalysis_CPO_20260102]]（CPO Book Part 5：Nvidia CPO 供應鏈，2026-01-02）
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（CPO 個股 read-across，2026-06-09）
 - [[報告_GS_大立光3008_20260701]]（GS，大立光 CPO 鏡頭擴張，2026-07-01）

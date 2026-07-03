@@ -49,6 +49,9 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 ![[報告_Semianalysis_CPO_20260102_008.png]]
 *圖（SemiAnalysis，2026-01）：CPO 系統內 PIC（光子）／EIC（電子）與光纖耦合的封裝關係示意。*
 
+![[報告_金正禾論壇_CPO光電共封裝_20260325_004.png]]
+*圖（金正禾論壇，2026-03-25）：NVIDIA GTC 2026 完整路線圖——Blackwell（NVL72 銅）→ Rubin（2026，NVL72/NVL576/NVL144）→ Feynman（2028，NVLink 8 CPO、Spectrum7 204T CPO、NVL1152 CPO 光學 Scale-Up）。*
+
 ## 技術原理
 
 **互連演進**：銅 →（co-packaged copper）→ DSP 光模組 → LPO（線性可插拔，去 DSP）→ CPO。每一步都在拿掉訊號鏈上的耗電元件。
@@ -63,7 +66,39 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 - **MZM（馬赫–曾德）**：最易實作、熱穩定佳，但體積大、需高電壓擺幅、耗電。
 - **EAM（電吸收）**：體積小、熱容忍度高（可容忍瞬間 35°C），是 Celestial AI 的差異化選擇（GeSi EAM，C-band），但較難進入開放 chiplet 生態。
 
-**外部雷射源（ELS）**：CPO 需較高功率的 CW DFB 雷射（每顆約 350 mW）。Nvidia Q3450 用 18 個 ELS 模組、每模組 8 顆 CW DFB chip。
+**AI 互連三層架構（Scale-Up / Scale-Out / Scale-Across）**：
+
+| 維度 | Scale-Up（機架內）| Scale-Out（叢集內）| Scale-Across（跨叢集）|
+|------|-----------------|-------------------|----------------------|
+| 傳輸距離 | 2m–5m | 500m–2km | >100km |
+| 現行方案 | 銅纜（NVLink）| 光（PAM）| 光（Coherent）|
+| 連接 xPU 數 | >72 | >500 | >10,000 |
+| 頻寬/xPU | ~7,200 Gbps | ~800 Gbps | ~100 Gbps |
+| 延遲 | ~100 nS | ~µS | ~mS |
+
+**CPO 的主戰場在 Scale-Up**：Scale-Out CPO 已起步（Nvidia Quantum-X/Spectrum-X），但 TAM 主要由 Scale-Up 主導——銅纜（NVLink）在 2m 限制內難以支撐 NVL144→NVL576→NVL1152 的擴展需求，光互連是突破機架邊界的必要路徑（Yole 預測 2024–2030 Scale-Up OE 出貨量遠超 Scale-Out）。
+
+**NVIDIA Scale-Up 光學 Roadmap**：
+- **Rubin 世代（2026）**：NVL576 採用 **Optical Scale-Up**（ETL256），NVL72/NVL144 仍用銅
+- **Feynman 世代（2028）**：NVLink 8 CPO、Spectrum7 204T CPO，NVL1152 採 **CPO-based Optical Scale-Up**
+
+**NV「Optics on Interposer」架構下的光學元件計算**：
+
+| 單位 | CPO OE | FAU | ELS |
+|------|--------|-----|-----|
+| 每 GPU（Scale-Up）| 2 | 2 | 0.5（4 個 OE 共享 1 個 ELS）|
+| 每 Tray（4 GPU）| 8 | 8 | 2 |
+
+全機架 Full CPO（Scale-Up + Scale-Out）情境：
+
+| 情境 | 每機架 OE | 每機架 FAU | 每機架 ELS |
+|------|----------|-----------|-----------|
+| A：純 Scale-Out CPO | 72 | 72 | 18 |
+| B：Full CPO（Scale-Up + Scale-Out）| **360** | **360** | **90** |
+
+→ 啟動 Scale-Up CPO 後光學元件需求 **5×**（72→360 OE/架）；ELS 需求同步 5×（18→90/架）。
+
+**外部雷射源（ELS）**：CPO 需較高功率的 CW DFB 雷射。Nvidia Q3450 用 18 個 ELS 模組、每模組 8 顆 CW DFB chip。**ELS 功率門檻（2026 現況）**：最低需 100mW @1310nm；中系廠商在此規格下勉強達標。若升至 200mW/DFB、400mW/DFB，或引入 CWDM 多波長（1270/1290/1310/1330/1350nm），中系廠商在強度與多波長均勻性上暫時無法滿足。詳見 [[技術_InP磷化銦]]。
 
 **光纖耦合（FAU）**：邊緣耦合（edge coupling）vs 光柵耦合（grating coupling，GC）。GC 利於 2D 密度與晶圓級測試，TSMC COUPE 偏好 GC + MRM。
 
@@ -179,15 +214,21 @@ CPO 光纖耦合是整條光模塊產線台數最多、精度要求最高的環�
 
 ```mermaid
 gantt
-    title CPO 導入節奏（SemiAnalysis 觀點）
+    title CPO 導入節奏（SemiAnalysis / 金正禾論壇綜合）
     dateFormat YYYY
     section Scale-out（橫向）
     Nvidia Quantum/Spectrum CPO 試水溫 :active, 2025, 2027
     出貨低於市場預期（June note 下修）  :2026, 2028
     section Scale-up（縱向，TAM 主場）
-    銅互連為主（NVLink）              :done, 2024, 2027
+    銅互連為主（NVLink，NVL72/144）   :done, 2024, 2027
+    NVL576 Optical Scale-Up（Rubin）  :milestone, 2026, 2026
     scale-up CPO 起步                 :2026, 2028
+    NVL1152 CPO（Feynman）            :milestone, 2028, 2028
     真正放量（AWS/AMD/Feynman）       :2028, 2030
+    section TSMC CPO 製程
+    Test Vehicle PIC                  :done, 2025, 2026
+    Pilot Pre-MP                      :2027, 2028
+    量產 MP                           :milestone, 2028, 2028
     section Broadcom CPO 設備驗證
     科瑞技術導入博通產線（小批量）     :active, 2026, 2027
     CPO 出貨量驗證節點（3-5萬支）     :milestone, 2027, 2027
@@ -249,6 +290,7 @@ Google CPO 態度：會採用但需等故障率極低後才大規模部署；每
 
 ## 相關技術（補充）
 
+- [[技術_InP磷化銦]]（CPO ELS/雷射光源的核心材料；InP vs SiPh 競合）
 - [[技術_TFLN]]（TFLN 調製器在 1.6T CPO 中的角色）
 - [[技術_FAU]]（CPO FAU/DFAU 規格與供需）
 - [[技術_光電芯片]]（CPO 光引擎中 PD/Driver/TIA 配置）
@@ -284,6 +326,8 @@ Google CPO 態度：會採用但需等故障率極低後才大規模部署；每
 
 ## 來源
 
+- [[報告_金正禾論壇_InP晶圓代工CPO_20260130]] — 金正禾論壇（產業專家 Terry），2026-01-30
+- [[報告_金正禾論壇_CPO光電共封裝_20260325]] — 金正禾論壇，2026-03-25
 - [[報告_Semianalysis_CPO_20260102]]（CPO Book，2026-01-02）
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（CPO/800VDC 重設預期，2026-06-09）
 - [[memo_光模块及CPO设备学习总结_acecamptech_20260416]]（設備生態、ficonTEC 壟斷格局、科瑞技術驗證進度、設備需求三重乘數）

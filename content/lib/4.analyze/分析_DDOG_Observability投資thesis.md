@@ -5,7 +5,7 @@ tags:
   - 公司/Datadog
 related_companies:
   - "[[DDOG.US(datadog)]]"
-updated: 2026-06-26
+updated: 2026-07-03
 ---
 
 # DDOG 投資論文：從 Observability Leader 到 AI Winner
@@ -16,11 +16,15 @@ updated: 2026-06-26
 
 | 時間 | 評等 | PT | 轉折 |
 |------|------|-----|------|
-| 2026-01 | EW to OW | 180 | Core 加速 |
-| 2026-05 | OW | 225 | +32% 加速 全年指引大幅上調 |
-| 2026-06 | Hold to Buy | 300 | Agentic AI 早期 |
+| 2026-01 | EW to OW（MS） | 180 | Core 加速 |
+| 2026-01 | 大和首次覆蓋 Buy | 190 | AI 推論用量 → de facto standard 論述 |
+| 2026-02 | 4Q25 財報 | — | +29% YoY、guide +19-20% 優於買方 bogey（17-18%），股價單日 +16%；JPM 五點論證 Anthropic 成為最大新客戶 |
+| 2026-05 | OW（MS） | 225 | +32% 加速 全年指引大幅上調 |
+| 2026-06 | DASH 2026 | BofA 280 / Evercore 265 / Truist 300 | Agentic AI 早期；LLM spans +30x YoY |
 
 股價：98.7 (3/2025) to 229.90 (6/2026) +133%
+
+> ⚠️ 目標價分布已拉寬：Jefferies/Barclays $160-165（估值紀律派）vs BofA/Truist $280-300（動能派），分歧本身反映估值已 price in 大量成長（25x EV/S → 19x CY27 EV/S 為多方新錨點）。
 
 ## 2. 三層成長引擎
 
@@ -36,6 +40,11 @@ updated: 2026-06-26
 
 ### Agentic AI 需求（3-5 年 S-curve）
 AI agents 非決定論 創造全新故障模式 Observability 從 nice-to-have 變 must-have
+
+- **OpenAI 集中度空方論點弱化**：4Q25 法說揭露 8-figure「biggest new-logo deal to date」（JPM 判斷為 Anthropic，一次整併 >5 產品）；14 of top 20 AI-natives 為客戶（Evercore DASH：10 of 10 top AI companies）
+- **MCP Server 為 agentic 變現先行指標**：connector volume 六個月 +11x（Barclays 2026-03），未來按消費制計價；LLM spans 送入量一年 +30x（Evercore 2026-06）
+- **AI coding 放大遙測消費**：客戶因 AI 加速出貨軟體，DDOG 支出一年 +40-50%（BofA DASH 客戶訪談）——AI 寫的 code 進 production 就需要監控，DDOG 是「AI 生產力紅利」的下游收費站
+- **Gartner 背書 + 警示**（First Take 2026-06-10）：自主維運方向正確，但 guardrails/治理是採用門檻，變現斜率取決於企業信任建立速度
 
 ## 3. 關鍵數字（1Q26）
 
@@ -68,6 +77,7 @@ DDOG 本質上是 AI 時代的「數位世界控制塔」，ARR 已突破 $4B，
 
 相關連結：
 - [[DDOG.US(datadog)]]
+- [[DT.US(dynatrace)]]
 - [[DDOG 260211_MS 4Q25 Results]]
 - [[DDOG 260508_MS 1Q26 Results]]
 - [[分析_DevSecOps_AI安全衝擊]]

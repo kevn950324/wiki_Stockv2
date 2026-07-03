@@ -8,7 +8,7 @@ tags:
   - 公司/Dynatrace
   - 產業/觀測性
   - 環節/SaaS平台
-updated: 2026-07-02
+updated: 2026-07-03
 aliases:
   - Dynatrace
   - DT
@@ -109,6 +109,8 @@ graph TD
 | 2020-07 | 4 大可觀測性競品比較（不誤正業R 文章） | 市場分析 | Gartner 將 DT 評為「領導者」 |
 | 2023 | NEWR 私有化，SPLK 被 Cisco 收購 | 競爭格局 | 可觀測性市場主要獨立上市廠商剩 DDOG + DT |
 | 2024 以後 | 與 DDOG 的對比更集中（市場僅剩兩強獨立上市） | 競爭格局 | 詳見 [[分析_DDOG_Observability投資thesis]] |
+| 2025-07 | Gartner Critical Capabilities：SRE / AI Engineering 兩情境均第一（4.30 / 4.29，小幅領先 DDOG） | 第三方評比 | [[Critical_Capabilitie_822673_ndx\|Gartner CC 2025-07-08]] |
+| 2025-10 | Gartner MQ DEM 列 **Leader**（Completeness of Vision 全場最右） | 第三方評比 | 強項：config-as-code（Monaco CLI）、多層 PII 遮罩、Davis AI/CoPilot 白話洞察；弱項：IPM 基礎、STM 無 IdP 聯邦、新手上手門檻。[[Magic_Quadrant_for_D_823799_ndx\|Gartner MQ DEM 2025-10-27]] |
 
 ---
 
