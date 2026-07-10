@@ -106,6 +106,7 @@ ECTC 2026 論文：Lumentum 與 NVIDIA、[[2330_台積電（市）]] COUPE 平�
 
 ## 相關頁面
 
+- [[技術_InP磷化銦]]
 - [[3105_穩懋（市）]]
 - [[3450_聯鈞（市）]]
 - [[AAOI.US(applied optoelectronics)]]

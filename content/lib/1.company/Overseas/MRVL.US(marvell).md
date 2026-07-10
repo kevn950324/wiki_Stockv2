@@ -97,11 +97,22 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 
 - June note 偏好「槓桿可插拔 transceiver / DSP 而非 CPO 量」的光學名單，Marvell 列為偏好標的之一。
 
+## MS Bus Tour 更新（Morgan Stanley，2026-06-15）
+
+管理層展現「新高度的信心」，主要訊息：
+
+- **全棧廣度成競爭優勢**：Marvell 是少數同時橫跨 DCI、die-to-die IP、scale-out switching、scale-up switching、optics、SerDes、CXL、NICs、客製矽 的廠商。在供應鏈受限、整合複雜度高的環境下，全棧位置愈來愈重要。
+- **Scale-up optics 預計名列第一**：在 merchant（非客製）scale-up 光學解決方案中，管理層預期 Marvell 排名第一。客戶傾向非 Broadcom 替代選項，支撐 Marvell 地位。
+- **Scale-up switching 仍是多方競爭**：UAL、ESUN、NVL Fusion 都在選項中。
+- **財務規模框架**：客製業務 ~$4B 成長至 ~$10B；legacy 部門（儲存/網路）以 GDP 速度成長；連接業務 ~$10B、成長 ~70%（短期無放緩跡象）。Agentic AI 增加 NIC、CXL、交換器需求（未納入當前預估）。
+- **估值爭議**：MS 態度正面但承認「2.5× NVDA 本益比倍數、但 Marvell 尚未比 NVDA 成長更快」是評價壓力。
+
 ## 來源
 
 - [[報告_Semianalysis_CPO_20260102]]（CPO Book，2026-01-02）
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（2026-06-09）
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（Polariton 收購；調變器路線多元化 Si/TFLN/plasmonics/EML 四線並進，2026-06-29）
+- [[Semiconductors 260615 MS public company bus tour ALAB MRVL INTC]]（MS bus tour，2026-06-15）
 
 ## 相關頁面
 

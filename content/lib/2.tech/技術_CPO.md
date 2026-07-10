@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-06-29
+updated: 2026-07-07
 aliases:
   - CPO
   - Co-Packaged Optics
@@ -98,9 +98,20 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 
 → 啟動 Scale-Up CPO 後光學元件需求 **5×**（72→360 OE/架）；ELS 需求同步 5×（18→90/架）。
 
-**外部雷射源（ELS）**：CPO 需較高功率的 CW DFB 雷射。Nvidia Q3450 用 18 個 ELS 模組、每模組 8 顆 CW DFB chip。**ELS 功率門檻（2026 現況）**：最低需 100mW @1310nm；中系廠商在此規格下勉強達標。若升至 200mW/DFB、400mW/DFB，或引入 CWDM 多波長（1270/1290/1310/1330/1350nm），中系廠商在強度與多波長均勻性上暫時無法滿足。詳見 [[技術_InP磷化銦]]。
+**外部雷射源（ELS）**：CPO 需較高功率的 CW DFB 雷射。Nvidia Q3450 用 18 個 ELS 模組、每模組 8 顆 CW DFB chip，每顆 ~350mW。**ELS 功率門檻（2026 現況）**：最低需 100mW @1310nm；中系廠商在此規格下勉強達標。若升至 200mW/DFB、400mW/DFB，或引入 CWDM 多波長（1270/1290/1310/1330/1350nm），中系廠商在強度與多波長均勻性上暫時無法滿足。供應商：[[LITE.US(lumentum)]] 為 Nvidia 初批 CPO ELS 獨家供應商；[[COHR.US(coherent)]] 預計 2026H2 進入成為第二供應商；中國（Yuanjie、Shijia）因技術門檻暫不在短期供應鏈。詳見 [[技術_InP磷化銦]]。
+
+**光纖耦合（FAU）**：FAU 測試仍高度依賴人工，每個 FAU 測試約 10–15 分鐘（Corning 估算 Spectrum X 系統）。每個 1.6T OE 有 20 根光纖（8 Tx + 8 Rx + 4 ELS），全機架 X800-Q3450 共 1,440 根光纖。FAU 廠商分工：TFC Optical（300394.SH，中國）主供 Nvidia X800-Q3450 FAU；Senko（9069.JP，日本）主供 Nvidia Spectrum X CPO + Broadcom Tomahawk6；[[3363_上詮（櫃）]]（FOCI）聚焦 Nvidia Scale-Up CPO FAU。
 
 **光纖耦合（FAU）**：邊緣耦合（edge coupling）vs 光柵耦合（grating coupling，GC）。GC 利於 2D 密度與晶圓級測試，TSMC COUPE 偏好 GC + MRM。
+
+![[20260522_矽光子發展趨勢：技術演進與機會_015.png]]
+*圖（知識力科技，2026-05）：TSMC COUPE 光柵耦合（GC）架構——FAU 從上方對準 PIC 的 GC 接口，EIC 堆疊於 PIC 之上（microbump 互連），整體封裝在 Si Carrier 上。*
+
+![[20260522_矽光子發展趨勢：技術演進與機會_016.png]]
+*圖（知識力科技，2026-05）：EIC-on-PIC 3D 堆疊示意——EIC 在上層透過 microbump 連接 PIC（下層），PIC 底部再透過 BGA ball 連接 Host PCB，是 TSMC COUPE 的 SoIC-based 整合架構。*
+
+![[報告_SemiAnalysis_CPO_Part5_001.png]]
+*圖（SemiAnalysis CPO Book，2026-01）：Nvidia Silicon Photonic Engine 實物——200 Gb/s MRM、1.6 Tb/s、3.5X 省電；右側放大圖顯示 OE、Fiber Connector（FAU）與 Optical Fibers 的整合關係。*
 
 **頻寬擴展的多重向量**：更多光纖、WDM（波長多工）、更高階調變、提高 baud rate——這是 CPO 相對銅（只能靠更快 SerDes 硬拚）的結構優勢。
 
@@ -139,9 +150,17 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 | CPO Insertion 1-3 探針台 | [[6223_旺矽（櫃）]] | Insertion 1 驗證中、Insertion 2 雙面探針台認證中、Insertion 3 確認 |
 | CPO Insertion 3 光通量檢測 | [[6710_汎銓（市）]] | IR-OM 光損偵測裝置，漏光偵測與精準定位 |
 | CPO Insertion 2-3 光耦合設備 | [[6187_萬潤（市）]] | FAU 貼合 + 光耦合機台；UPH 聲稱優於主競 ficonTEC；3Q26 首現 CPO 業績（SRS 期中，信心：中）|
-| CPO 自動光纖耦合設備（主供）| ficonTEC（飛控泰克，德國未上市）| 博通傳統首供；5 nm 級運動控制精度，單台約 $500 萬 USD，CPO 耦合良率 80–90%，交付周期 9–12 個月；產能瓶頸源於製造周期長、無法完全自動化；當前實質壟斷 CPO 耦合設備 |
-| CPO 自動光纖耦合設備（第二供）| 科瑞技術（中國，未建頁）| 2026-01 小批量導入博通產線；當前精度亞微米級，良率約 60%（量產門檻需達 80%）；與 ficonTEC 存在約 2 年技術代際差距；博通引入邏輯：降成本 + 供應鏈安全，非技術不滿 |
-| CPO 耦合設備（硅光方向）| ASMPT（新加坡上市，未建頁）| 技術水平接近 ficonTEC，主聚焦矽光工藝，尚未切入 CPO 賽道 |
+| CPO 自動光纖耦合設備（主供）| ficonTEC（飛控泰克，德國未上市）| 博通傳統首供；$300K+/台（SemiAnalysis）；5 nm 精度；CPO 耦合良率 80–90%；實質壟斷 |
+| FAU 光纖耦合設備（台灣第二入口）| [[6187_萬潤（市）]]（All Ring Tech）| 2026 開始貢獻耦合設備營收，約 10% 人力投入此領域（SemiAnalysis CPO Book Part 5）|
+| FAU 製造（主供，Nvidia X800-Q3450）| TFC Optical（300394.SH，中國，未建頁）| 與 Nvidia 合作設計 CPO 逾 3 年，X800-Q3450 主要 FAU 供應商；亦供 ELS 模組 |
+| FAU 製造（Spectrum X / Broadcom）| Senko（9069.JP，日本，未建頁）| SEAT 可拆 FAU 平台；與 GFS 合作邊緣耦合；Spectrum X + Broadcom Tomahawk6 主要 FAU 供應商 |
+| FAU 製造（Nvidia Scale-Up）| [[3363_上詮（櫃）]]（FOCI）| 聚焦 Nvidia Scale-Up CPO FAU；FAU 被動元件 |
+| Shuffle Box 主供 | T&S Communications（300570.SH，中國，未建頁）| CPO Shuffle Box 市場第一；500 芯版 $1,600；Corning 設計後轉包 T&S 生產 |
+| OSAT（Nvidia Rubin-rack CPO）| [[3711_日月光投控（市）]] | Nvidia Rubin-rack CPO 核心 OSAT，異質整合封裝 |
+| OSAT（Broadcom CPO，緊密合作）| 訊芯-KY（6451.TW，未建頁）| 與博通 CPO 供應鏈緊密合作（SemiAnalysis CPO Book Part 5）|
+| CPO 組裝（Nvidia + 博通候選）| Fabrinet（SFN.US，未建頁）| 傳統 Nvidia 光模組模組商；積極建立 OE 封裝/測試能力；博通 CPO 系統組裝候選 |
+| CPO 自動光纖耦合設備（第二供）| 科瑞技術（中國，未建頁）| 2026-01 小批量導入博通產線；良率約 60%（門檻 80%）；博通：降成本 + 供應鏈安全 |
+| CPO 耦合設備（硅光方向）| ASMPT（新加坡上市，未建頁）| 技術接近 ficonTEC，主聚焦矽光，尚未切入 CPO |
 
 CPO 純玩家（本次未建頁）：Ayar Labs（TeraPHY，UCIe 光 retimer chiplet）、Nubis（2025/10 被 Ciena 收購，MZM、2D 光纖陣列）、Celestial AI（被 Marvell 收購，EAM、Photonic Fabric）、Lightmatter（Passage M1000 光中介層）、Xscape Photonics（ChromX 可程式雷射）、Ranovus（Odin OE）、Scintil（LEAF Light）。整合測試端（未建頁）：GlobalFoundries、Tower、ASE/SPIL、[[AMKR.US(amkor)]]、Fabrinet、Keysight、Teradyne。
 
@@ -186,6 +205,11 @@ CPO 測試隨製程展開，分為四個插入測試階段（Insertion 1-4），
 | **合計** | — | **$66,940** | 100% |
 
 （光引擎 OE + FAU 合計僅佔 11%，系統成本由運算晶片與先進封裝主導）
+
+SemiAnalysis AI Networking Model 估算（2026-01）：
+- BOM 合計 ~$70,640；毛利率 ~60%；售價 $176,600；含 3 年服務 $204,856
+- 每顆 1.6T OE 含 FAU（20 根光纖：8 Tx + 8 Rx + 4 ELS）；未來 3.2T OE 每顆 ~$1,000（含 FAU）
+- 初批 OE 總成本 $35–40K（3.2T OE 版本）
 
 ## CPO 設備生態
 
@@ -324,6 +348,57 @@ Google CPO 態度：會採用但需等故障率極低後才大規模部署；每
 | [[COHR.US(coherent)]] 德州 InP 廠 | 6 吋 InP 廠快速擴產，NVIDIA $20 億入股鎖定產能 |
 | 台灣（聯亞光電等 InP 磊晶）| 布局 TSMC COUPE 上游，與 [[4971_IET-KY（市）]] 並列 |
 
+## 市場規模更新（Daiwa，2026-07-03）
+
+大和在「光通 AIDC 互連大報告」中提出：
+
+| 指標 | 預測 |
+|------|------|
+| 2027–2028 全球 CPO switch 需求 | **$12–24B** |
+| 對應高功率 CW 雷射需求 | $432–864M |
+| 對應 FAU（光纖陣列單元）需求 | $720–1,440M |
+
+**大和觀點**：CPO 製造良率（良率問題是阻礙量產的最大挑戰）與**昂貴的維護成本**仍是主因推遲採用。短期 1–2 年，**NPO（Near-Package Optics）**仍是商用上可行的首選方案——NPO 供應鏈已成熟，CPO 等到 2027–2028E 才開始放量。
+
+### TrendForce 預測（CPO 在光模組滲透率，2026-03）
+
+![[20260522_矽光子發展趨勢：技術演進與機會_005.png]]
+*圖（TrendForce，2026-03，來源：知識力科技簡報）：CPO 在 800G+1.6T+3.2T 光模組出貨中的滲透率；真正放量在 2028–2030，與 Rubin Ultra/Feynman 世代吻合。*
+
+| 年份 | CPO 滲透率 |
+|------|-----------|
+| 2025 | 0.05% |
+| 2026F | 0.55% |
+| 2027F | 2.21% |
+| 2028F | 7.23% |
+| 2029F | 22.07% |
+| 2030F | 35.74% |
+
+### LightCounting 預測（CPO/LPO 滲透率）
+
+![[CPO 250815 Latitude silicon photonics supply chain_025.png]]
+*圖（LightCounting，來源 Latitude，2025-08）：2026–2030 800G、1.6T、3.2T LPO/CPO 端口數量（紅）vs TRX 和 AOC（藍），預測 CPO/LPO 在 2029–2030 年開始大幅擴大佔比。*
+
+## NVIDIA CPO 產品路線圖（Daiwa，2026-07）
+
+| 型號 | Quantum-3 450 CPO | Spectrum-6 810 CPO | Spectrum-6 800 CPO |
+|------|-------------------|---------------------|---------------------|
+| 上市時間 | 2H25 | 2H26 | 2H26 |
+| 網路協議 | InfiniBand | Ethernet | Ethernet |
+| 交換 ASIC | Quantum-3 | Spectrum-6 | Spectrum-6 |
+| 吞吐量 / 封裝 | 28.8 Tbps | 102.4 Tbps | 102.4 Tbps |
+| ASIC 數量 | 4 | 1 | 4 |
+| 總頻寬 | **115.2 Tbps** | 102.4 Tbps | **409.6 Tbps** |
+| SerDes 速率 | 200 Gb/s | 200 Gb/s | 200 Gb/s |
+| MPO 端口數 | 144 | 128 | 512 |
+| 每 OE 頻寬 | 1.6T | 3.2T | 3.2T |
+| OE 數量 | 72 | 32 | 32 |
+| CW 雷射數量 | 144 | 128 | 512 |
+| FAU 數量 | 72 | 32 | 32 |
+| CPO 交換器 ASP（USD）| $120,000 | $120,000 | **$500,000** |
+
+資料來源：SemiAnalysis / Daiwa Research
+
 ## 來源
 
 - [[報告_金正禾論壇_InP晶圓代工CPO_20260130]] — 金正禾論壇（產業專家 Terry），2026-01-30
@@ -336,9 +411,20 @@ Google CPO 態度：會採用但需等故障率極低後才大規模部署；每
 - [[memo_OCS_ASIC設計_光通信_LPU_AOC_acecamptech_20260517]]（OCS 格局、MEMS 芯片成本、Google 3.2T NPO 計劃）
 - [[memo_1.6T_800G光模块出货更新_NPO_CPO_acecamptech_20260507]]（3.2T NPO 訂單、各 CSP 採購計劃）
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（OCI 200G MSA；1.6T 850K +280%；GB300 55K +129%；InP 供應鏈更新，2026-06-29）
+- [[報告_SemiAnalysis_CPOBook_Part5供應鏈_20260103]]（SemiAnalysis CPO Book Part 5 — Nvidia Q3450 供應鏈地圖：ELS/FAU/Shuffle Box/MPO 廠商全圖；TFC/Senko/FOCI FAU 分工；Lumentum 初批獨供→Coherent 2H26 入局，2026-01-03）
+- [[Optical 260703 Daiwa AIDC interconnect OT NPO CPO OCS]]（Daiwa，2026-07-03；CPO 2027–28 市場 $12–24B；NPO 首選；NVIDIA CPO 路線圖）
+- [[CPO 250815 Latitude silicon photonics supply chain]]（Latitude Design Systems，2025-08-15；CPO/SiPh 供應鏈；LightCounting 滲透率預測）
+- [[Silicon Photonics 260528 TrendForce forum OCI CPO OCS memo]]（TrendForce 論壇，2026-05-28；CPO 2028 Rubin 強制導入；台積電 CPO 產能 2028 需擴 20 倍）
+- [[報告_矽光子發展趨勢技術演進與機會_20260522]]（知識力科技 張勤煜，2026-05-22；TrendForce Mar 2026 CPO 滲透率逐年數字；MRM 3D-CPO 相容性分析）
+- [[報告_分子尼奧_奈米光學新時代_NIL技術_20260522]]（分子尼奧，2026-05-22；NIL 奈米壓印微影用於 InP DFB/EML 雷射光柵量產 1500+ 片；CPO 模組 PCSEL+Metasurface 異質整合；$20-30B 光轉收器市場）
 
 ## 相關頁面
 
+- [[分子尼奧（私）]]
+- [[供應鏈_AI伺服器散熱]]
+- [[供應鏈_光測試設備]]
+- [[供應鏈_半導體測試設備]]
+- [[技術_CoWoS與先進封裝]]
 - [[APH.US(amphenol)]]
 - [[CIEN.US(ciena)]]
 - [[KYOCERA（未）]]

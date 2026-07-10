@@ -1,4 +1,4 @@
-﻿---
+---
 title: "DDOG.US(datadog)"
 ticker: "DDOG"
 market: US
@@ -9,7 +9,7 @@ tags:
   - 產業/觀測性
   - 產業/資安
   - 環節/SaaS平台
-updated: 2026-07-03
+updated: 2026-07-07
 aliases:
   - Datadog
   - DDOG
@@ -18,7 +18,9 @@ related_companies:
   - "[[技術_可觀測性]]"
   - "[[DT.US(dynatrace)]]"
   - "[[SNOW.US(snowflake)]]"
-  - "Palo Alto Networks（未建頁）"
+  - "[[PANW.US(palo alto networks)]]"
+  - "[[CRWD.US(crowdstrike)]]"
+  - "[[ZS.US(zscaler)]]"
 ---
 
 # DDOG.US(datadog)
@@ -96,18 +98,18 @@ DDOG 的資安業務從可觀測性資料自然延伸，利用已有的遙測上
 
 ## 產品與應用
 
-| 產品 / 服務 | 類別 | ARR 規模（2025） | 應用 |
-|---|---|---|---|
-| Infrastructure Monitoring | 主業核心 | >$1.6B ARR（4Q25） | 雲端主機、容器、網路；三柱中最大 |
-| APM | 主業核心 | >$1B ARR（4Q25，mid-30% YoY，成長最快） | 分散式應用追蹤；4Q25 為三柱成長最快 |
-| Log Management | 主業核心 | >$1B ARR（4Q25） | 大規模日誌收集與分析 |
-| Flex Logs | 日誌延伸 | approaching $100M ARR（4Q25） | 彈性日誌儲存，6 個月最快達標；4Q25 接近 $100M |
-| Digital Experience / RUM | 使用者體驗 | >$300M（Macquarie 3Q25 引用） | 瀏覽器 / 行動端真實使用者監控 |
-| Database Monitoring | APM 延伸 | ~$50M（1Q25，+60% YoY） | 資料庫查詢效能分析 |
-| Cloud Security（SIEM+ASM+CSPM/CWPP） | 副業資安 | >$100M（2Q25，+mid-50% YoY） | 雲端威脅偵測與合規 |
-| LLM Observability | AI 新品 | 首季有意義帳單（Truist 2026） | LLM 應用效能追蹤 |
-| GPU Monitoring | AI 新品 | GA（2026） | GPU 叢集健康、成本、效能 |
-| Bits AI（SRE / Dev / Security） | AI Agent 平台 | Preview（多數 2026） | 自動化運維、開發、資安工作流 |
+| 產品 / 服務                            | 類別          | ARR 規模（2025）                    | 應用                            |
+| ---------------------------------- | ----------- | ------------------------------- | ----------------------------- |
+| Infrastructure Monitoring          | 主業核心        | >$1.6B ARR（4Q25）                | 雲端主機、容器、網路；三柱中最大              |
+| APM                                | 主業核心        | >$1B ARR（4Q25，mid-30% YoY，成長最快） | 分散式應用追蹤；4Q25 為三柱成長最快          |
+| Log Management                     | 主業核心        | >$1B ARR（4Q25）                  | 大規模日誌收集與分析                    |
+| Flex Logs                          | 日誌延伸        | approaching $100M ARR（4Q25）     | 彈性日誌儲存，6 個月最快達標；4Q25 接近 $100M |
+| Digital Experience / RUM           | 使用者體驗       | >$300M（Macquarie 3Q25 引用）       | 瀏覽器 / 行動端真實使用者監控              |
+| Database Monitoring                | APM 延伸      | ~$50M（1Q25，+60% YoY）            | 資料庫查詢效能分析                     |
+| Cloud Security（SIEM+ASM+CSPM/CWPP） | 副業資安        | >$100M（2Q25，+mid-50% YoY）       | 雲端威脅偵測與合規                     |
+| LLM Observability                  | AI 新品       | 首季有意義帳單（Truist 2026）            | LLM 應用效能追蹤                    |
+| GPU Monitoring                     | AI 新品       | GA（2026）                        | GPU 叢集健康、成本、效能                |
+| Bits AI（SRE / Dev / Security）      | AI Agent 平台 | Preview（多數 2026）                | 自動化運維、開發、資安工作流                |
 
 ---
 
@@ -489,10 +491,10 @@ DDOG 最大的單一客戶風險與機會同時集中在 frontier lab 客戶身�
 | 主要競品：可觀測性（開源） | Grafana（未建頁） | 開放架構，成本優勢，但無原生資安整合；DDOG 視其為主要競爭對手（by韭菜王 2026） |
 | 主要競品：可觀測性 | New Relic（未建頁） | 已私有化，觀測性市場競品 |
 | 主要競品：可觀測性 | Elastic（未建頁） | 日誌管理 / 搜尋引擎，部分重疊 |
-| 主要競品：資安 + 觀測性整合 | Palo Alto Networks（未建頁） | 併購 Chronosphere，直接衝擊 DDOG 資安 + 觀測性業務 |
-| 主要競品：資安 | CrowdStrike（未建頁） | 終端安全，資安市場重疊 |
+| 主要競品：資安 + 觀測性整合 | [[PANW.US(palo alto networks)]] | 併購 Chronosphere，直接衝擊 DDOG 資安 + 觀測性業務；BMO TP $335 |
+| 主要競品：資安 | [[CRWD.US(crowdstrike)]] | 終端安全，資安市場重疊；BMO TP $745，Glasswing 創始夥伴 |
 | 主要競品：雲端資安 | Wiz（未建頁） | CSPM / 雲端資安，2024 年 Google 嘗試收購 |
-| 主要競品：雲端資安 | Zscaler（未建頁） | SSE / ZTNA，資安市場重疊 |
+| 主要競品：雲端資安 | [[ZS.US(zscaler)]] | SSE / ZTNA，資安市場重疊；BMO TP $178 |
 | AI 研究平台競品 | [[SNOW.US(snowflake)]] | 資料平台，部分 AI 觀測性重疊；UBS（2026-02-10）視 DDOG 核心加速為 SNOW/MDB 的正面讀秒 |
 | 基礎設施雲端 | AWS / GCP / Azure（未建頁） | 超大客戶，同時也是競爭者（捆綁監控工具） |
 | 相關技術頁 | [[技術_可觀測性]] | 可觀測性三柱技術詳情 |
@@ -519,6 +521,7 @@ gantt
     BofA BUY TP $170 下調（1Q26 Preview）:milestone, 2026-04-30, 0d
     MS OW PT上調 $225（1Q26後）:milestone, 2026-05-08, 0d
     Macquarie Outperform TP $230 :milestone, 2026-06-10, 0d
+    BMO TP $220→$260（AI Perception Leader） :milestone, 2026-06-12, 0d
     Truist 升評 Buy TP $300  :milestone, 2026-06-15, 0d
     section 產品 / 里程碑
     Security ARR 突破 $100M  :milestone, 2025-06-01, 0d
@@ -538,6 +541,7 @@ gantt
 
 ## 來源
 
+- [[報告_BMO_資安可觀測性_20260612]] — BMO，資安可觀測性（DDOG AI Perception Leader、TP $220→$260、NTM EV/FCF 67x vs CRWD 83.5x），2026-06-12
 - [[報告_BNP_DDOG季末IR電話會議_20250314]] — BNP Paribas，季末 IR 電話會議短評，2025-03-14
 - [[報告_MS_DDOG升評OW_20260112]] — Morgan Stanley，升評 Overweight，2026-01-12
 - [[DDOG 260210 BofA_4Q25 results]] — BofA Securities，4Q25 季報評析，Buy TP $215，2026-02-10

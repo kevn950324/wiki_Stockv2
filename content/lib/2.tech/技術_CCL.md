@@ -91,6 +91,19 @@ flowchart LR
 > - **純 M9**：>7,000 元/㎡，台光主推
 > 若採 PTFE 方案，台光 M9 份額不如預期。
 
+#### 板卡 → CCL 供應對應（SemiAnalysis，2026-07-02）
+
+[[報告_SemiAnalysis_NvidiaCCL_20260702]] 以 VR NVL72 BoM 模型量化各板卡 CCL 分工，並確認 EMC 自 **2026-06** 起價值反超斗山：
+
+| 世代 | [[000150.KR(doosan)]] 斗山 | [[2383_台光電（市）]] EMC |
+|------|------|------|
+| GB300 | Bianca 板 | NVSwitch(Rosalind) 板 |
+| VR NVL72 | Strata 板 | CX(Orchid)、Bluefield、Midplane、NVSwitch(Rosalind) |
+
+- VR NVL72 世代 EMC 內容加總為斗山 **1.51x**；EMC 較斗山多約 **50%** 採購價值。
+- **第二來源**：[[1303_南亞（市）]] M7/M8 通過 NVIDIA 認證、M10 用於 Kyber Midplane 送樣，可望成 NVLink Switch(Rosalind)、CX(Orchid) 第二來源（超低損耗 NPG 系列）。
+- EMC 月產能 2026 ~1.15m → 2027 底 1.5m sheets，2028 崑山/中山再增 1.8m（總產能倍增），並切入高階 IC 載板 CCL。
+
 ### 電子布（Electronic Glass Fiber Cloth）供需
 
 AI 伺服器主要用**薄布**（1067 等規格），vs 消費電子常用厚布（7628）。薄布生產速度慢、Dk/Df 要求嚴苛，若全轉產 AI 薄布，產能效率損失三分之二。
@@ -170,6 +183,7 @@ AI 伺服器主要用**薄布**（1067 等規格），vs 消費電子常用厚�
 
 ## 來源
 
+- [[報告_SemiAnalysis_NvidiaCCL_20260702]]（SemiAnalysis，2026-07-02；板卡→CCL 供應對應、EMC 反超斗山、南亞第二來源、產能倍增）
 - [[memo_PCB_CCL调研_GB200_300_Rubin_M9_acecamptech_20260519]]
 - [[memo_PCB调研_Rubin_正交背板_M8PTFE_acecamptech_20260518]]
 - [[memo_CCL全产业链_电子布供需_acecamptech_20260427]]
@@ -182,4 +196,6 @@ AI 伺服器主要用**薄布**（1067 等規格），vs 消費電子常用厚�
 
 ## 相關頁面
 
+- [[NVDA.US(nvidia)]]
+- [[技術_HBM高頻寬記憶體]]
 - [[技術_mSAP]]

@@ -65,3 +65,7 @@ Vertiv 是資料中心電源與熱管理（含 UPS、power rack、配電、液�
 ## 來源
 
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（800VDC Pushout & CPO Delays，2026-06-09）
+
+## 相關頁面
+
+- [[供應鏈_AI伺服器散熱]]

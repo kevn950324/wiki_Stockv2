@@ -129,12 +129,37 @@ ECTC 2026 Intel 發表 V-groove 矽光子 → 光纖被動對準玻璃耦合器�
 
 Intel V-groove 路線與 [[GFS.US(globalfoundries)]] × [[GLW.US(corning)]] GLASSBRIDGE 路線並列為 2026 ECTC 主要玻璃光互連解法，詳見 [[技術_玻璃基板]]。
 
+## 晶圓代工與 CPU 策略更新（Morgan Stanley Bus Tour，2026-06-15）
+
+CEO Lip-Bu Tan 接任後的核心重點：
+
+**14A 製程里程碑（晶圓廠關鍵節點）**：
+- 2026-06 現況：缺陷密度 0.5 / yield ~40%
+- 目標：2027 Q1 前達 0.1–0.2 缺陷密度
+- 14A 0.5 PDK 已發布；0.9 PDK 預計 2026 年 10 月
+- Risk production：2028；Volume：2029（與 TSMC 時程相當）
+- Intel 自家產品將全數移至 14A；2027 年起內部測試晶片先跑，建立外部客戶量產前的實戰基礎
+
+**EMIB（嵌入式多晶片互連橋接）**：被 Lip-Bu 形容為「秘密武器」——技術強，個別客戶機會可達數十億美元，但複雜度與可靠度問題仍需克服（自動化、可靠度驗證）。MS Asia 查核 EMIB 反應略為複雜，部分勝利還未完全確定。
+
+**CPU 策略**：
+- 重新加回 SMT 與 P-core / E-core 架構
+- 聘 Alex Katouzian 提升低功耗競爭力（深化 ARM 相關能力）
+- 若 Intel 執行得宜，管理層認為 9 個月內可停止對 AMD 的份額流失
+- Agentic AI 可能帶動 CPU 需求，CPU:GPU 比例在某些場景達 4:1
+
+**晶圓廠產能擴張**：Oregon、Arizona 仍有空間擴充；Ohio 加速推進；Germany 廠已關閉。Memory 短缺是 Intel 及其夥伴的關注點。
+
+> MS 評語：「我們錯過了英特爾股票的這波上漲，主要是對路線圖的疑慮；我們認為市場預期份額對 AMD 的回升過於樂觀——AMD 的 Venice 仍具更多晶圓採購能力。短期來看，先進製程與 CPU 短缺提供正面盈餘環境。」
+
 ## 來源
 - [[報告_其他_玻璃基板_20260511]]（國金證券「玻璃基板行業深度」，2026-05-11；分析師李陽 S1130524120003）
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（V-groove 玻璃耦合器 ECTC 2026；450 TC IL <0.7dB 被動對準，2026-06-29）
+- [[Semiconductors 260615 MS public company bus tour ALAB MRVL INTC]]（MS bus tour，2026-06-15）
 
 ## 相關頁面
 
+- [[2303_聯電（市）]]
 - [[技術_ABF載板]]
 - [[技術_玻璃基板]]
 - [[NVDA.US(nvidia)]]

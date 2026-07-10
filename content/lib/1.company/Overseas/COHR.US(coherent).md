@@ -136,6 +136,7 @@ image_status: "待補來源圖"
 
 ## 相關頁面
 
+- [[技術_InP磷化銦]]
 - [[CIEN.US(ciena)]]
 - [[CRDO.US(credo)]]
 - [[GFS.US(globalfoundries)]]

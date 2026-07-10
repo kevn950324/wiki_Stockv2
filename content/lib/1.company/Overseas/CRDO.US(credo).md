@@ -8,8 +8,10 @@ tags:
   - 產業/半導體
   - 環節/AEC銅纜
   - 環節/SerDes
-updated: 2026-06-29
+updated: 2026-07-09
 image_status: "待補來源圖"
+related_companies:
+  - "[[3665_貿聯-KY（市）]]"
 ---
 
 # CRDO.US — Credo Technology Group
@@ -39,9 +41,15 @@ image_status: "待補來源圖"
 
 ### AEC（Active Electrical Cable）優勢
 - 400G/800G AEC市場先行者；FY24-1HFY26市占率 **~70%+**
-- 有效距離：≤7公尺（NIC-to-ToR scale-out）
+- 有效距離：1-7公尺（NIC-to-ToR scale-out）；ALC 則支援 30-50m
 - vs AOC 優勢：耗電少25-50%、成本低~50%、可靠性更高（無光纖易損問題）
 - 主要客戶（FY3Q26占比）：Amazon ~39% / Microsoft ~32% / xAI ~17%；另有Meta、Oracle
+- **主要製造夥伴**：[[3665_貿聯-KY（市）]]（BizLink）為 AEC 和 ALC 的主要製造供應商
+
+### AEC 技術路線（2026-07 更新）
+- 100gig/lane 仍為主流出貨；預計 200gig/lane 方案約 2028-29 年超越
+- 1.6T 傳輸設計可用 8條×200gig 或 2埠×8條×100gig；部分超大規模客戶 Rubin 世代仍傾向 800G
+- rack-rack 距離多為 ~5m；AEC 1-7m，ALC 30-50m
 
 ### AEC定價
 | 規格 | 單價 |
@@ -86,8 +94,11 @@ image_status: "待補來源圖"
 | 產品 | 技術 | 量產時程 |
 |------|------|---------|
 | Zero Flap Optics | 客製DSP+交換器SDK整合，解決訊號抖動 | FY1Q27（2026年中） |
-| Active LED Cables（ALC） | microLED雷射，可達30m；購自Hyperlume（US$92M，Sep 2025） | FY27送樣，FY28營收 |
+| Active LED Cables（ALC） | microLED雷射，可達30-50m；購自Hyperlume（US$92M，Sep 2025）；[[3665_貿聯-KY（市）]]為主要製造夥伴 | OCP展示 2026-08/10；客戶樣品認證 FY27末-FY28上半 |
 | OmniConnect Weaver Gearbox | 112G VSR SerDes記憶體-運算連接；10x I/O密度；支援6.4TB記憶體 | FY28 |
+
+> [!info] ALC 進展更新（UBS NDR，2026-07-07）
+> Credo 計畫於 2026 年 8月/10月 OCP 活動展示 ALC 方案；MediaTek 和 AUO 已開始探索 ALC 解決方案。Credo 確信其產品路線圖，客戶樣品認證目標 FY27 末至 FY28 上半年。[[3665_貿聯-KY（市）]]（BizLink）為 Credo AEC 與 ALC 的**主要製造夥伴**，並透過規格開發與競爭定價協助 Credo 贏得訂單。
 
 ## CPO風險
 
@@ -107,9 +118,21 @@ image_status: "待補來源圖"
 - 現金：FY2Q26末US$8.14億（含ATM增資）；净現金無負債
 - 客戶集中度高：前4大貢獻93%營收（FY2Q26）；FY25單一客戶67%
 
+## TD Cowen 啟動覆蓋（2025-09-30）
+
+| 項目 | 內容 |
+|------|------|
+| 評等 | **Buy** |
+| 分析師 | Sean O'Loughlin（TD Cowen 資料中心連接專題） |
+
+主要論點：Credo 在銅纜（AEC）和可插拔光學（LRO：Linear Receive-only Optics）兩個方向均為關鍵創新者，定位最佳。TD Cowen 認為 MRVL DSP 在 LRO 場景中有 >10% 市佔流失風險，而 Credo 的 LRO 解法是主要受益者之一。同時，Credo 在 AEC 市場的先發優勢（~70% 市占）使其在連接密集化趨勢中具強防禦性。
+
 ## 關聯頁面
 
+- [[3665_貿聯-KY（市）]]（BizLink，主要 AEC/ALC 製造夥伴）
 - [[COHR.US(coherent)]]（ZeroFlap Optics對比，Rosenblatt提及更有競爭優勢）
 - [[LITE.US(lumentum)]]（光學競爭）
 - [[技術_光互連]]
 - [[AVGO.US(broadcom)]]（競爭者，CPO主要玩家）
+- [[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]（TD Cowen 啟動覆蓋）
+- [[報告_UBS_貿聯-KY_CredoNDR_20260707]]（2026-07-07，ALC/AEC 最新進展）

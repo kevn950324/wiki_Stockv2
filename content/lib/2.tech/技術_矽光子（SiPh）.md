@@ -6,7 +6,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光電芯片
 maturity: developing
-updated: 2026-07-02
+updated: 2026-07-07
 aliases:
   - SiPh
   - Silicon Photonics
@@ -56,14 +56,34 @@ aliases:
 
 > ⚠️ **路線轉向（規則 #14）**：Marvell 2026 年收購 Polariton（ETH Zurich 血統），把 plasmonics 調變器路線收進 SiPh 生態——調變器不再只有 Si 一條線，TFLN、EML、plasmonics 三線並進，對供應鏈格局影響深遠。
 
+![[20260522_矽光子發展趨勢：技術演進與機會_008.png]]
+*圖（知識力科技，2026-05）：馬赫任德調變器（MZM）結構——光分入上下兩臂，相位差控制干涉輸出（亮/暗），典型長度 >1000µm，不相容 3D-CPO。*
+
+### MZM vs MRM 3D-CPO 相容性（知識力科技，2026-05）
+
+| 指標 | MZM | SiGe/Ge EAM | MRM |
+|------|-----|-------------|-----|
+| 3D-CPO 相容？ | ❌ 過大（>1000µm） | ❌ 過大（50-100µm） | ✅ **~15µm 直徑** |
+| 需額外多工器？ | 是 | 是 | **否**（自帶多工功能） |
+| 熱穩定性 | 穩定（兩臂溫差影響） | 需 feedback loop | 需 feedback loop（0–105°C）|
+| 功耗 | ~50 mW | ~10 mW | **~1 mW** |
+| 傳輸懲罰 | <5 dB | <10 dB | <5 dB |
+| 工作波段 | O-band + C-band | **C-band 限定** | O-band + C-band |
+
+**結論**：MRM 是 3D-CPO 架構唯一相容的矽調變器，因其尺寸極小（15µm）且自帶 WDM 多工能力，是 CPO 光引擎整合的關鍵技術路線。（來源：[[報告_矽光子發展趨勢技術演進與機會_20260522]]）
+
 ### 代工平台格局（2026）
 
 | 平台 | 業者 | 市占 / 特色 | 代表客戶 |
 |------|------|------------|---------|
-| Tower Semiconductor | 美商，IDM | 全球 SiPh 市占 60–70% | 廣泛 |
+| **Tower Semiconductor** | 美商（Nasdaq:TSEM），純晶圓代工 | 全球 SiPh 市占 60–70%；1.6T 量產中，3.2T InP 異質整合中；2025 Q4 季營收 $80–95M，5× 擴產中；2027E 年化 $1.6–1.9B | 廣泛 AI 資料中心客戶，簽 $1.3B 2027 產能預訂 |
 | **GF Fotonix** | GlobalFoundries | 300mm 單片 O/C-band；含 SiN SSC、V-groove | Coherent 等 |
 | **TSMC COUPE** | 台積電 | N65 PIC + N7 EIC，SoIC 混合鍵合；23× 頻寬密度 | NVIDIA、Broadcom、Ayar |
+| SilTerra | 馬來西亞，私人 | 較小型，利基市場 | — |
 | Intel | IDM | 自用為主；CPO V-groove 玻璃耦合器 | 自家平台 |
+
+![[CPO 250815 Latitude silicon photonics supply chain_015.png]]
+*圖（Latitude Design Systems，2025-08）：SiPh 收發引擎架構——Laser（光源）→ SiPh Tx/Rx Engine（含調變器、PD、波導）→ Prism™ 模組（TX Driver IC + DSP）→ 光學 I/O / 電氣 I/O。這是矽光子可插拔模組的典型訊號流程，CPO 版本省去 DSP 並將 Laser 改為外部 CW 連續波雷射。*
 
 ## 關鍵參數 / 判斷指標
 
@@ -82,6 +102,9 @@ aliases:
 - **雷射光源**：CW DFB 雷射仍採 InP 異質整合，功率/可靠度/成本三角
 
 ## 關鍵廠商
+
+![[20260522_矽光子發展趨勢：技術演進與機會_019.png]]
+*圖（知識力科技，2026-05）：SiPh 生態系 IC 設計與製造廠商全圖——ASIC/xPU（NVDA/MRVL/AVGO/INTC/AMD/聯發科）→ 光子IC（NVDA/MRVL/AVGO/Lumentum/Coherent）→ 電子IC（+ MACOM MTSI）→ 晶圓代工（TSM/Tower TSEM/GF GFS/UMC）。*
 
 | 環節 | 廠商 | 角色 |
 |------|------|------|
@@ -111,13 +134,52 @@ aliases:
 - [[技術_光互連]]
 - [[技術_光模塊]]
 
+## 市場規模與 CPO 滲透率
+
+![[20260522_矽光子發展趨勢：技術演進與機會_001.png]]
+*圖（知識力科技，2026-05）：Silicon PIC 收入按應用分類——2024 $404M → 2030 ~$2.1B（CAGR 31%）；Datacom pluggables 主導，CPO（scale-out + scale-up）從 ~$4M 成長至 $761M（+188x）為最快成長子類別。*
+
+![[20260522_矽光子發展趨勢：技術演進與機會_005.png]]
+*圖（TrendForce，2026-03）：CPO 在 800G+1.6T+3.2T 光模組出貨中的滲透率——2025: 0.05% → 2026F: 0.55% → 2027F: 2.21% → 2028F: 7.23% → 2029F: 22.07% → 2030F: 35.74%。CPO 真正放量在 2028-2030，與 Rubin Ultra/Feynman 世代時程吻合。*
+
+| 年份 | CPO 滲透率（TrendForce Mar 2026） |
+|------|--------------------------------|
+| 2025 | 0.05% |
+| 2026F | 0.55% |
+| 2027F | 2.21% |
+| 2028F | 7.23% |
+| 2029F | 22.07% |
+| 2030F | 35.74% |
+
+## 光傳輸技術光源比較
+
+| 技術 | 最大傳輸距離 | 速率（Gbps/lane）| 能耗（pJ/bit）| CMOS 整合難度 | 相對成本 |
+|------|-----------|----------------|-------------|-------------|---------|
+| PCIe（銅）| 1m | 4 | >10 | 易 | 低 |
+| Micro LED | 10–50m | 2–4 | 1–2 | 易 | 低 |
+| VCSEL | 100m | 10–50 | 4 | 中 | 中 |
+| **CW 雷射（SiPh CPO）** | **1,000m** | **50** | **5** | 難 | 高 |
+| EML | 40,000m | 100 | 4.5 | 中 | 中 |
+
+MicroLED CPO 為短距（<50m）低成本方案，適合伺服器內部 scale-up 光互連；SiPh CW 雷射 CPO 適合跨機架 scale-out（1,000m）。（來源：[[報告_矽光子發展趨勢技術演進與機會_20260522]]）
+
+## 關鍵廠商更新
+
+Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重要的獨立 SiPh 純晶圓代工廠：2025 年 Q4 季營收 $80–95M → 5× 擴產後 2027E 年化 $1.6–1.9B；已與客戶簽署 2027 年 $1.3B 產能保留合約（20% 預付款），顯示超算 AI 資料中心客戶對 SiPh 產能長期鎖定的信心。即使 CPO 封裝最終交由 TSMC COUPE 執行，Tower 的 SiPh 晶圓仍可獨立供應（不綁定 TSMC 生態）。
+
 ## 來源
 
+- [[報告_矽光子發展趨勢技術演進與機會_20260522]]（知識力科技 張勤煜，臺大電機博士，2026-05-22；MRM vs MZM 比較、CPO 滲透率 TrendForce、SiPh 生態系圖、MicroLED vs CW 雷射 CPO）
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（STT 20 篇，2026-06-29）
 - [[技術_光互連]]（全球 SiPh 代工格局）
+- [[Yuanta Tower Semiconductor silicon photonics AI datacenter capacity reservation 260701]]（元大，2026-07-01；Tower SiPh 業務深度）
+- [[CPO 250815 Latitude silicon photonics supply chain]]（Latitude，2025-08-15；SiPh Tx/Rx 引擎架構、供應鏈格局）
+- [[Optical Networking 260417 GS AI scale out scale up]]（Goldman Sachs，2026-04-17；全球光通供應鏈地圖）
 
 ## 相關頁面
 
+- [[技術_InP磷化銦]]
+- [[TSEM.US(tower semiconductor)]]
 - [[KYOCERA（未）]]
 - [[Mitsubishi Electric（未）]]
 - [[Nokia Bell Labs（未）]]

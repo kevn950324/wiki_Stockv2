@@ -7,7 +7,7 @@ tags:
   - 產業/半導體
   - 環節/封測
 maturity: developing
-updated: 2026-07-03
+updated: 2026-07-09
 aliases:
   - CoWoS
   - Chip-on-Wafer-on-Substrate
@@ -88,6 +88,76 @@ CoWoS（Chip-on-Wafer-on-Substrate）是 TSMC 的旗艦 2.5D 先進封裝平台�
 | **玻璃基板** | 矽 → 玻璃中介層，降翹曲、提高密度（見 [[技術_玻璃基板]]）| 2027-2028 初期導入 |
 | **Hybrid Bonding 普及** | SoIC 從 HBM→chiplet 全面擴展（見 [[技術_混合鍵合]]）| 已量產，滲透加速 |
 
+## 2027 全球 CoWoS 需求分配（MS，2026-07-08）
+
+> 來源：[[報告_MS_AI供應鏈_CoWoS2027分配_20260708]]（Morgan Stanley，Charlie Chan，2026-07-08）
+
+**2027e 總需求：2,664k 片（YoY +91% vs 2026e 1,394k）**
+
+| AI 晶片商 | 2026e（k 片） | 2027e（k 片） | 2027 占比 | YoY |
+|-----------|------------|------------|---------|-----|
+| NVIDIA | 780 | 1,222 | 45% | +57% |
+| Broadcom（含 Google TPU） | 300 | 484 | 18% | +61% |
+| AMD | 130 | 530 | 20% | **+308%** |
+| MediaTek（Google TPU Zebrafish） | 40 | 180 | 7% | — |
+| AWS/Annapurna | 62 | 90 | 3% | +45% |
+| Marvell | 17 | 64 | 2% | +276% |
+| GUC 客戶 | 14 | 60 | 2% | +329% |
+| Microsoft（Maia） | 9 | 50 | 2% | — |
+| Meta（MTIA 3） | 15 | 55 | 2% | — |
+| Others | 27 | 28 | 1% | — |
+| **合計** | **1,394** | **2,694** | 100% | **+93%** |
+
+**AI HBM 需求：2027e 約 50bn Gb（2026e 約 30bn Gb）**
+
+### NVIDIA Rubin 出貨預估
+- **7mn Rubin + Rubin Ultra** chips in 2027（R200: 5,920k + Ultra: 1,040k）
+- **90k NVL72 server racks** in 2027（Rubin 啟動 3Q26，racks 4Q26 起出貨）
+- 2026 Blackwell 庫存為供應鏈 buffer，將於 2026 年底全數消耗完畢
+
+### AMD 詳細規格（2027）
+- **MI455（標準版）**：2 compute dies + 12 HBM4 12hi；搭配 Helios rack（18 CPU + 72 GPU）；主要客戶 Microsoft、AWS、Oracle
+- **MI450（Meta 定制版）**：半尺寸，1 compute die + 6 HBM4 12hi（9 CPU + 36 GPU）
+- **Venice CPU**：AMD 首款 CoWoS 製程 CPU；CoW 生產集中在 OSATs（ASE/SPIL、Amkor、Powertech）；2027 CPU 出貨 5.7-6mn
+- 2027 AMD CoWoS 合計 530k（AI 晶片 240k+Venice CPU 270k）；執行風險存在（2026 曾縮減訂單）
+
+### Google TPU 進度
+- KYEC 3Q26 約 +10% QoQ（低於初估 15%），主因 Rubin 與 Sunfish 輕微延後 + MediaTek 手機 SoC 砍單
+- **Sunfish**（TPU v8i，Broadcom）：主要出貨集中 4Q26，全年量 960k
+- **Zebrafish**（TPU v8t，MediaTek）：4Q26 爬產不變
+- **Humufish**（TPU v9，MediaTek）：2027e 400k
+
+### Meta ASIC（Apollo）
+- 原 Olympus（2nm ASIC）被取消，由 **Apollo** 接續（同為 2nm，Broadcom 繼續設計服務）
+- 量產時程 1Q28；**GUC** 可能贏得 Meta Rivos 團隊旗下另一 ASIC 專案，tape-out 1H27，CoWoS 2027 年底-1H28
+
+## OSAT CoWoS 容量預測
+
+TSMC 本身維持 CoWoS 核心產能，但將 oS（Substrate on Substrate）與 CP（Chip on Substrate）大量外包。各方預估：
+
+### ASE + Amkor 外包 CoWoS（kwpm，季底最大值）
+
+| 時間點 | ASE | Amkor | 合計 | 來源 |
+|--------|-----|-------|------|------|
+| 3Q25A  | 8   | 6     | ~14  | GFHK |
+| 4Q25A  | 9   | 6     | ~15  | GFHK |
+| 4Q26E  | **15**  | 10 | ~25  | GFHK |
+| 4Q27E  | **45**  | 33 | ~78  | GFHK |
+| 4Q28E  | **55**  | 45 | ~100 | GFHK |
+
+![[GFHK - ASE update_002.png]]
+> ASE/SPIL 與 Amkor CoWoS 容量預測（kwpm，季底）。2027 年合計接近 78kwpm，2028 年達 100kwpm（來源：廣發香港，2026-07-01）
+
+### 各方 end-2027 ASE CoWoS 估值比較
+
+| 機構          | ASE end-2027 CoWoS（kwpm） | 口徑說明       |
+| ----------- | ------------------------ | ---------- |
+| UBS         | **50**                   | 年底最大值      |
+| 廣發香港        | **45**                   | 年底最大值（季底）  |
+| 定錨（ASE 管理層） | **42** 年均                | 2027 年年均產能 |
+
+> 三者口徑略有差異（年底最大值 vs 年均），實質接近 40-50kwpm。
+
 ## 供給瓶頸
 
 CoWoS 是近年 NVIDIA 出貨最主要的產能限制：
@@ -97,6 +167,9 @@ CoWoS 是近年 NVIDIA 出貨最主要的產能限制：
 
 ## 相關頁面
 
+- [[NVDA.US(nvidia)]]
+- [[技術_HBM高頻寬記憶體]]
+- [[技術_NAND快閃記憶體]]
 - [[技術_混合鍵合]]（SoIC Hybrid Bonding 技術原理）
 - [[技術_CPO]]（COUPE 光引擎封裝整合）
 - [[技術_玻璃基板]]（Glass Substrate / CoPoS 下一步）
@@ -104,6 +177,9 @@ CoWoS 是近年 NVIDIA 出貨最主要的產能限制：
 
 ## 來源
 
+- [[報告_MS_AI供應鏈_CoWoS2027分配_20260708]]（Morgan Stanley，Charlie Chan，2026-07-08；2027 全球 CoWoS 分配 2,664k 片、Rubin 7mn 晶片/90k racks、AMD MI455/MI450、Google TPU 進度、Meta Apollo）
+- [[報告_廣發香港_日月光3711_20260701]]（廣發香港，2026-07-01；ASE LEAP 容量 15/45/55kwpm（end-2026/27/28）；Amkor 10/33/45kwpm；CoWoS 外包漲價 10-20%）
+- [[260702_gs_TSMC]]（高盛，2026-07-02；台積電 2027E CoWoS 含 WMCM 產能上修至 280kwpm／年 2,730k 片、2026-28 年 1,275k/2,730k/3,480k，2027E capex US$78bn；詳見 [[2330_台積電（市）]]）
 - [[研究導引_AI硬體架構資源總覽_202607]]（自研讀書導引，2025-07 至 2026-07 文獻彙整，2026-07）
 - TSMC ECTC 2025 論文：Direct-to-Silicon Liquid Cooling Integrated on CoWoS Platform（量測 0.055°C/W，>2.6kW TDP）
 - JEDEC JESD270-4（HBM4 規格）；SK Hynix、Samsung、Micron 2026-06 完成 Rubin 認證

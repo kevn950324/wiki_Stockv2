@@ -1,23 +1,55 @@
 ---
 title: "分析_DevSecOps_AI安全衝擊"
-query_date: 2026-07-02
-updated: 2026-07-02
+query_date: 2026-07-07
+updated: 2026-07-07
 sources:
   - "[[memo_資安_ClaudeCode安全衝擊_凱基_2025]]"
   - "[[memo_DDOG_深度分析_韭菜王_20260500]]"
+  - "[[報告_JPMorgan_資安_20260427]]"
+  - "[[報告_Truist_MythosAndDaybreak_20260608]]"
 tags:
   - 分析/產業
   - 產業/資安
   - 公司/Datadog
+  - 主題/Mythos資安衝擊
 related_companies:
   - "[[DDOG.US(datadog)]]"
   - "[[FROG.US(jfrog)]]"
   - "[[GTLB.US(gitlab)]]"
+  - "[[CRWD.US(crowdstrike)]]"
+  - "[[PANW.US(palo alto networks)]]"
 related_topics:
   - "[[技術_可觀測性]]"
+  - "[[技術_EDR與XDR]]"
+  - "[[技術_SASE]]"
 ---
 
 # 分析：Claude Code Security 衝擊—DevSecOps 受壓 > SASE/EDR
+
+> **⚠️ 重要更新（2026-07-07）：原始論點（Claude Code Security 衝擊集中在 DevSecOps，SASE/EDR 不受影響）在 Anthropic Project Glasswing 與 Mythos 發布（2026-04-07）後已需大幅修訂。**
+>
+> Mythos 不是 Claude Code Security 的延伸——Mythos 是專為全域資安設計的前沿 AI 模型，影響 EDR、SASE、Threat Intel、Incident Response 全領域。原論點「SASE/EDR 護城河不受 AI 衝擊」仍成立（基礎建設護城河不變），但「AI 對資安的衝擊集中在 DevSecOps」的論述已過時。更完整的框架請見 [[分析_AI驅動資安支出2026]]。
+
+---
+
+## 2026 年 Mythos 後的論點修訂
+
+### 原始論點（2025 年凱基）
+> Claude Code Security 衝擊集中在 DevSecOps（FROG/GTLB），SASE/EDR 護城河來自基礎建設，短期不受影響。
+
+### 修訂後的理解（2026-07，基於 Glasswing / JPM / Truist）
+
+| 領域 | 原論點 | 2026 修訂 |
+|---|---|---|
+| DevSecOps（FROG/GTLB） | 衝擊高（Code Security 重疊） | 維持：AI 繼續壓縮 Code Security 點工具 |
+| SASE（PANW/ZS/NET） | 護城河強，不受 AI 衝擊 | **更新**：Mythos 強化 SASE 需求（AI Agent 流量控管），SASE 廠商是受益者，非受害者 |
+| EDR/XDR（CRWD/S） | 護城河強，不受 AI 衝擊 | **更新**：Mythos 大幅加速 EDR 升級需求（攻擊自動化），CRWD 是最大受益者（Glasswing 創始夥伴） |
+| 可觀測性（DDOG） | 相對受益（競品受損） | **更新**：DDOG 在 BMO 的 AI 感知四象限中被列為「AI 感知領導者」，DASH 2026 強化 Agentic Ops 定位 |
+| Anthropic 自身 | 短期非威脅（無基礎建設） | **更新**：Anthropic 透過 Glasswing 商業化，選擇以合作而非競爭方式進入資安生態系 |
+
+**核心修正**：AI 對資安的衝擊不是「集中在 DevSecOps」——而是**驅動全域資安需求加速**，同時壓縮點工具（DevSecOps）和強化平台廠商（CRWD/PANW/ZS/DDOG）的護城河。
+
+---
 
 ## 問題背景
 
@@ -87,3 +119,7 @@ Anthropic 於 2025 年釋出 Claude Code Security 工具，可掃描程式庫並
 
 - [[memo_資安_ClaudeCode安全衝擊_凱基_2025]] — 凱基証券，約 2025 年
 - [[memo_DDOG_深度分析_韭菜王_20260500]] — 韭菜王，2026 年（DDOG + Grafana 競爭部分）
+
+## 相關頁面
+
+- [[分析_DDOG_Observability投資thesis]]

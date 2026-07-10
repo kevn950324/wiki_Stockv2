@@ -81,7 +81,13 @@ Broadcom（AVGO），全球 AI ASIC 及雲端網路半導體霸主，同時擁�
 | 2025E | ~USD 20bn | ~75% | — |
 | 2027E | >USD 80bn | ~75% | USD 56-95bn（敏感度分析）|
 
-AI ASIC 市場 CAGR 2025-28E：72%（Bernstein）
+AI ASIC 市場 CAGR 2025-28E：72%（Bernstein）；$60-70B in CY26（JPM 2026-06-18）
+
+| 券商 | 報告日 | AVGO AI 營收預測 | 備註 |
+|------|--------|----------------|------|
+| JPMorgan | 2026-06-18 | **$60B+ FY26**（↑from ~$20B FY25）→ $150B+ FY27 | Meta MTIA 3nm、Google TPUv7/v8 3nm、Anthropic TPU、OpenAI、SoftBank/ARM 等 | 
+
+來源：[[報告_JPM_AI推動ASIC復興_半導體市場概覽_20260618]]
 
 ### 主要 ASIC 客戶與 Broadcom 角色
 
@@ -165,6 +171,10 @@ AI ASIC 市場 CAGR 2025-28E：72%（Bernstein）
 
 ## 相關頁面
 
+- [[2345_智邦（市）]]
+- [[8046_南電（市）]]
+- [[惠特（TW-ticker待確認）]]
+- [[技術_InP磷化銦]]
 - [[3711_日月光投控（市）]]
 - [[CRDO.US(credo)]]
 - [[LITE.US(lumentum)]]

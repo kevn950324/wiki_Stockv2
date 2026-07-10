@@ -106,9 +106,18 @@ InP 底材（歐日廠）→ LandMark（磊晶+晶圓代工）→ SiPh 模組廠
 - **SiPh 滲透速度**：若 EML 供給改善，SiPh/CW Laser 滲透放緩
 - **領導廠競爭**：LITE.US（Lumentum）等規模更大的 CW Laser 廠
 
+## Goldman Sachs 供應鏈定位（GS，2026-04-17）
+
+GS 光互連供應鏈全景圖（`Optical Networking 260417 GS AI scale out scale up_005.png`）中，LandMark 光電被列為：
+
+- **InP 磊晶（epiwafer）**供應商（Scale-up 光互連光源上游）
+- 與[[2455_全新（市）]]並列台灣 InP epiwafer 主要廠商
+- 下游對接 CW Laser / EML 封裝廠（Lumentum / Coherent）再供 NVIDIA CPO 光引擎
+
 ## 來源報告
 
 - [[報告_Macquarie_3081LandMark_20251113]]（Outperform，TP NT$480）
+- [[Optical Networking 260417 GS AI scale out scale up]]（Goldman Sachs，2026-04-17；InP epiwafer 供應鏈位置確認）
 
 ## 相關頁面
 
