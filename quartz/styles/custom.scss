@@ -86,6 +86,95 @@ body:not([data-slug="index"]) article th { background: rgba(34,72,82,.55); color
 body:not([data-slug="index"]) article td,
 body:not([data-slug="index"]) article th { border-color: var(--wiki-line); }
 
+/* Folder and category pages: turn Quartz lists into reference-style cards. */
+body[data-slug="lib/1.company"] .article-title { font-size: 0; }
+body[data-slug="lib/1.company"] .article-title::after { content: "公司"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug="lib/1.company/tw"] .article-title { font-size: 0; }
+body[data-slug="lib/1.company/tw"] .article-title::after { content: "台股公司"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug="lib/1.company/overseas"] .article-title { font-size: 0; }
+body[data-slug="lib/1.company/overseas"] .article-title::after { content: "海外公司"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug="lib/1.company/unlisted"] .article-title { font-size: 0; }
+body[data-slug="lib/1.company/unlisted"] .article-title::after { content: "未上市公司"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug^="lib/1.company"] article > p:first-child { color: var(--wiki-muted); font-size: .84rem; }
+body[data-slug^="lib/1.company"] ul.section-ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+  gap: .75rem;
+  margin: 1.25rem 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+body[data-slug^="lib/1.company"] li.section-li { margin: 0; }
+body[data-slug^="lib/1.company"] .section {
+  height: 100%;
+  padding: .9rem 1rem;
+  border: 1px solid var(--wiki-line);
+  border-radius: 12px;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--wiki-card) 94%, #173c45), var(--wiki-card));
+  box-shadow: 0 4px 14px rgba(0,0,0,.1);
+  transition: transform .15s ease, border-color .15s ease, background .15s ease;
+}
+body[data-slug^="lib/1.company"] .section:hover { transform: translateY(-2px); border-color: #647e82; }
+body[data-slug^="lib/1.company"] .section .meta { margin: 0 0 .35rem; color: var(--wiki-muted); font-size: .72rem; }
+body[data-slug^="lib/1.company"] .section .desc h3 { margin: 0; font-size: 1rem; }
+body[data-slug^="lib/1.company"] .section .desc h3 a { color: var(--wiki-title); text-decoration: none; }
+body[data-slug^="lib/1.company"] .section .desc h3 a:hover { color: var(--wiki-accent); }
+body[data-slug^="lib/1.company"] .section > .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .32rem;
+  margin: .65rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+body[data-slug^="lib/1.company"] .section > .tags a {
+  display: inline-block;
+  padding: .2rem .45rem;
+  border: 1px solid #3b5055;
+  border-radius: 999px;
+  background: rgba(18,34,40,.68);
+  color: var(--wiki-muted);
+  font-size: .68rem;
+  text-decoration: none;
+}
+body[data-slug^="lib/1.company"] .section > .tags a:hover { border-color: var(--wiki-accent); color: var(--wiki-accent); }
+
+/* The same card treatment applies to every knowledge-base section. */
+body[data-slug^="lib/"] article > ul.section-ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+  gap: .75rem;
+  margin: 1.25rem 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+body[data-slug^="lib/"] li.section-li { margin: 0; }
+body[data-slug^="lib/"] .section {
+  height: 100%;
+  padding: .9rem 1rem;
+  border: 1px solid var(--wiki-line);
+  border-radius: 12px;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--wiki-card) 94%, #173c45), var(--wiki-card));
+  box-shadow: 0 4px 14px rgba(0,0,0,.1);
+  transition: transform .15s ease, border-color .15s ease;
+}
+body[data-slug^="lib/"] .section:hover { transform: translateY(-2px); border-color: #647e82; }
+body[data-slug^="lib/"] .section .meta { margin: 0 0 .35rem; color: var(--wiki-muted); font-size: .72rem; }
+body[data-slug^="lib/"] .section .desc h3 { margin: 0; font-size: 1rem; }
+body[data-slug^="lib/"] .section .desc h3 a { color: var(--wiki-title); text-decoration: none; }
+body[data-slug^="lib/"] .section .desc h3 a:hover { color: var(--wiki-accent); }
+body[data-slug^="lib/"] .section > .tags { display: flex; flex-wrap: wrap; gap: .32rem; margin: .65rem 0 0; padding: 0; list-style: none; }
+body[data-slug^="lib/"] .section > .tags a { display: inline-block; padding: .2rem .45rem; border: 1px solid #3b5055; border-radius: 999px; background: rgba(18,34,40,.68); color: var(--wiki-muted); font-size: .68rem; text-decoration: none; }
+body[data-slug^="lib/"] .section > .tags a:hover { border-color: var(--wiki-accent); color: var(--wiki-accent); }
+body[data-slug="lib/2.tech"] .article-title,
+body[data-slug="lib/3.supply_chain"] .article-title,
+body[data-slug="lib/4.analyze"] .article-title,
+body[data-slug="lib/5.schedule"] .article-title { font-size: 0; }
+body[data-slug="lib/2.tech"] .article-title::after { content: "技術"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug="lib/3.supply_chain"] .article-title::after { content: "供應鏈"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug="lib/4.analyze"] .article-title::after { content: "分析"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug="lib/5.schedule"] .article-title::after { content: "時程"; font-size: clamp(1.45rem, 3vw, 2rem); }
+
 /* Mermaid: quiet slate/sage palette with stronger legibility on dark pages. */
 pre:has(> code.mermaid) {
   padding: .8rem;
