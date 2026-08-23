@@ -1,4 +1,4 @@
-import { cp, mkdir, readFile, readdir, rm, stat } from "node:fs/promises"
+import { cp, mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises"
 import { existsSync } from "node:fs"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
@@ -15,6 +15,26 @@ const sourceRawData = path.join(vaultRoot, "data_base", "Raw_data")
 const targetRawData = path.join(siteRoot, "..", "content", "raw-data")
 const sourceMemo = path.join(sourceRawData, "memo")
 const maxPublishBytes = 100 * 1024 * 1024
+
+async function writeRawDataSearchPage(targetFile, kind) {
+  const title = path.basename(targetFile, path.extname(targetFile))
+  const downloadName = encodeURI(path.basename(targetFile))
+  const page = `---
+title: ${JSON.stringify(title)}
+tags:
+  - Raw_data
+  - ${kind}
+---
+
+# ${title}
+
+這是 Stock Wiki 公開原始資料索引頁。
+
+- 類型：${kind}
+- [下載原始檔案](./${downloadName})
+`
+  await writeFile(`${targetFile}.md`, page, "utf8")
+}
 
 if (!existsSync(sourceLib)) throw new Error(`找不到 vault lib/: ${sourceLib}`)
 
@@ -72,6 +92,7 @@ if (existsSync(sourceRawData)) {
     const target = path.join(targetRawData, relative)
     await mkdir(path.dirname(target), { recursive: true })
     await cp(source, target)
+    await writeRawDataSearchPage(target, "PDF")
   }
 }
 
@@ -91,6 +112,7 @@ if (existsSync(sourceMemo)) {
     const target = path.join(targetRawData, relative)
     await mkdir(path.dirname(target), { recursive: true })
     await cp(source, target)
+    await writeRawDataSearchPage(target, "DOCX")
   }
 }
 
