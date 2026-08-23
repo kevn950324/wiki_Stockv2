@@ -1,0 +1,25 @@
+{
+  "name": "stock-wiki-site-brand",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "quartz": {
+    "name": "site-brand",
+    "displayName": "Stock Wiki Brand",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "defaultOrder": 5,
+    "defaultEnabled": true,
+    "components": {
+      "SiteBrand": {
+        "displayName": "Stock Wiki Brand",
+        "defaultPosition": "left",
+        "defaultPriority": 5
+      }
+    }
+  }
+}
