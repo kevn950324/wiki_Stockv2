@@ -229,3 +229,8 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 圖說：來源演講展示電子伺服器走向光子電子整合伺服器，對應 AI 資料中心降低互連距離、功耗與佈線密度的供應鏈方向。
 
 來源：[[2026-08-04-AI 時代光纖到晶片的新賽局-群益證劵-83]]、[[事件分析_AMD Advancing AI Day_20260727]]、[[260723_ms_google-results-implication]]。
+
+## 2026-08-23 申萬宏源光電整合補充
+
+- [[報告_申万宏源_光通信光電集成深度_20260630]] 將 AI 光互聯的價值量上移歸納為三條路線：EML 向矽光子 PIC 遷移、單通道速率提升，以及 CPO／NPO 的光電整合；2027 年 400G 以上光模組／光引擎需求 1.55 億支、TAM 超過 700 億美元為券商估計，信心中。
+- 供應鏈觀察由交換晶片／SerDes 鏈主（[[AVGO.US(broadcom)]]、[[MRVL.US(marvell)]]）延伸至 CW 光源（[[LITE.US(lumentum)]]、[[COHR.US(coherent)]]、[[7907_源傑科技（興）]]）及光電封裝（[[3450_聯鈞（市）]]）；個別客戶份額仍須驗證。
