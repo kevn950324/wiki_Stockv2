@@ -31,14 +31,14 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        light: "#17262c"
+        lightgray: "#31434a"
+        gray: "#73868d"
+        darkgray: "#d8e1e4"
+        dark: "#edf2f3"
+        secondary: "#8ea6ad"
+        tertiary: "#a5a797"
+        highlight: rgba(160, 170, 170, 0.14)
         textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/created-modified-date

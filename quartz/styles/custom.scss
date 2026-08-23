@@ -86,6 +86,47 @@ body:not([data-slug="index"]) article th { background: rgba(34,72,82,.55); color
 body:not([data-slug="index"]) article td,
 body:not([data-slug="index"]) article th { border-color: var(--wiki-line); }
 
+/* Mermaid: quiet slate/sage palette with stronger legibility on dark pages. */
+pre:has(> code.mermaid) {
+  padding: .8rem;
+  border: 1px solid #3b4c52;
+  border-radius: 12px;
+  background: #101f24;
+}
+pre:has(> code.mermaid) > code.mermaid { color: #dbe4e6; }
+.mermaid svg { font-family: var(--bodyFont), "Noto Sans TC", sans-serif; }
+.mermaid .node rect,
+.mermaid .node polygon,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node path {
+  fill: #26363c !important;
+  stroke: #9aa8aa !important;
+  stroke-width: 1.5px !important;
+}
+.mermaid .cluster rect {
+  fill: #1b2b30 !important;
+  stroke: #788b8f !important;
+  stroke-width: 1.4px !important;
+}
+.mermaid .label,
+.mermaid .nodeLabel,
+.mermaid .cluster-label,
+.mermaid text {
+  color: #dbe4e6 !important;
+  fill: #dbe4e6 !important;
+  font-weight: 600;
+}
+.mermaid .edgePath .path,
+.mermaid .flowchart-link,
+.mermaid line {
+  stroke: #aab5b5 !important;
+  stroke-width: 1.6px !important;
+}
+.mermaid marker path { fill: #aab5b5 !important; stroke: #aab5b5 !important; }
+.mermaid .edgeLabel rect { fill: #17272c !important; opacity: .98 !important; }
+.mermaid .edgeLabel { color: #dbe4e6 !important; background: #17272c !important; }
+
 @media all and (max-width: 800px) {
   #quartz-body > .left.sidebar { padding: .55rem .8rem; gap: .55rem; }
   #quartz-body > .center { width: min(100% - 1.4rem, 980px); padding-top: 1.2rem; }
