@@ -216,6 +216,41 @@ pre:has(> code.mermaid) > code.mermaid { color: #dbe4e6; }
 .mermaid .edgeLabel rect { fill: #17272c !important; opacity: .98 !important; }
 .mermaid .edgeLabel { color: #dbe4e6 !important; background: #17272c !important; }
 
+/* Tags are pills everywhere they appear: card lists, search results, and tag pages. */
+ul.tags,
+.note-properties-tags,
+.note-properties-list {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: .38rem;
+}
+ul.tags > li,
+.note-properties-tags > li,
+.note-properties-list > li { margin: 0; list-style: none; }
+ul.tags > li > a.tag-link,
+.note-properties .tag-link,
+.note-properties .note-properties-link {
+  display: inline-flex !important;
+  align-items: center;
+  min-height: 1.55rem;
+  padding: .22rem .62rem !important;
+  border: 1px solid #536b70 !important;
+  border-radius: 999px !important;
+  background: rgba(24, 43, 49, .9) !important;
+  color: #b8c9cc !important;
+  font-size: .74rem;
+  line-height: 1.15;
+  text-decoration: none;
+  transition: border-color .15s ease, color .15s ease, background .15s ease;
+}
+ul.tags > li > a.tag-link:hover,
+.note-properties .tag-link:hover,
+.note-properties .note-properties-link:hover {
+  border-color: var(--wiki-accent) !important;
+  background: rgba(49, 58, 48, .92) !important;
+  color: var(--wiki-accent) !important;
+}
+
 @media all and (max-width: 800px) {
   #quartz-body > .left.sidebar { padding: .55rem .8rem; gap: .55rem; }
   #quartz-body > .center { width: min(100% - 1.4rem, 980px); padding-top: 1.2rem; }
