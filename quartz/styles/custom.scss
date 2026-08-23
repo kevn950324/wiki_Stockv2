@@ -19,7 +19,8 @@ a { color: var(--wiki-brand); }
 #quartz-body { display: block; min-height: 100vh; }
 #quartz-body > .left.sidebar {
   position: sticky; top: 0; z-index: 20; width: 100%; max-width: none; min-height: 0;
-  display: flex; align-items: center; gap: 1rem; padding: .65rem max(1.4rem, calc((100vw - 1180px) / 2));
+  display: flex; flex-direction: row; align-items: center; align-self: start; height: auto;
+  gap: 1rem; padding: .65rem max(1.4rem, calc((100vw - 1180px) / 2));
   margin: 0; background: color-mix(in srgb, var(--wiki-bg) 92%, transparent);
   border-bottom: 1px solid var(--wiki-line); backdrop-filter: blur(10px);
 }
