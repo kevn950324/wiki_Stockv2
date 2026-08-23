@@ -51,8 +51,8 @@ body[data-slug="index"] .page-header { display: none; }
 .home-link-row a { padding: .48rem .8rem; border: 1px solid var(--wiki-line); border-radius: 999px; background: var(--wiki-card); font-size: .82rem; font-weight: 700; text-decoration: none; }
 .home-link-row a:hover { border-color: var(--wiki-brand); }
 
-[data-theme="dark"] { --wiki-bg: #0c171c; --wiki-card: #12222a; --wiki-ink: #d8dee2; --wiki-title: #e8eef1; --wiki-brand: #7fc4dd; --wiki-line: #1e333d; --wiki-muted: #8fa0aa; }
-[data-theme="dark"] .home-hero { box-shadow: 0 8px 24px rgba(0,0,0,.35); }
+[saved-theme="dark"] { --wiki-bg: #0c171c; --wiki-card: #12222a; --wiki-ink: #d8dee2; --wiki-title: #e8eef1; --wiki-brand: #7fc4dd; --wiki-line: #1e333d; --wiki-muted: #8fa0aa; }
+[saved-theme="dark"] .home-hero { box-shadow: 0 8px 24px rgba(0,0,0,.35); }
 
 @media all and (max-width: 800px) {
   #quartz-body > .left.sidebar { padding: .55rem .8rem; gap: .55rem; }
