@@ -10,7 +10,7 @@ title: 我的股票研究知識庫
 
 ## 快速入口
 
-- [[lib/1.company/README|公司]] — 台股 / 海外個股
+- [[lib/1.company|公司]] — 台股 / 海外個股
 - [[lib/2.tech|技術]] — 製程、封裝、光通訊等技術深掘
 - [[lib/3.supply_chain|供應鏈]] — 客戶鏈 / 平台鏈 / 主題鏈
 - [[lib/4.analyze|分析]] — 投資 thesis、格局比較、受惠鏈
