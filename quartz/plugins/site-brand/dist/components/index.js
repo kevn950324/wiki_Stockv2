@@ -19,7 +19,7 @@ const SiteBrandComponent = ({ fileData }) => {
   return h("div", { class: "site-brand" }, [
     h("a", { class: "site-brand-link", href: root, "aria-label": "回到 Stock LLM Wiki 首頁" }, [
       h("span", { class: "site-brand-logo", "aria-hidden": "true" }, "S"),
-      h("span", { class: "site-brand-name" }, "Stock LLM Wiki"),
+      h("span", { class: "site-brand-name" }, "Database"),
     ]),
     h("nav", { class: "site-nav", "aria-label": "主要導覽" },
       items.map(([label, path]) => h("a", { href: link(path), class: "site-nav-link" }, label)),

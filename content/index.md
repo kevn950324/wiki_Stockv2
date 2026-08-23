@@ -3,7 +3,7 @@ title: 我的股票研究知識庫
 ---
 
 <section class="home-hero">
-  <p class="home-kicker">STOCK LLM WIKI</p>
+  <p class="home-kicker">DATABASE</p>
   <h1>台股／美股深度研究知識庫</h1>
   <p class="home-subtitle">公司、技術、供應鏈與投資分析的結構化研究工作台。</p>
   <div class="home-stats">
