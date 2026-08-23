@@ -87,14 +87,14 @@ body:not([data-slug="index"]) article td,
 body:not([data-slug="index"]) article th { border-color: var(--wiki-line); }
 
 /* Folder and category pages: turn Quartz lists into reference-style cards. */
-body[data-slug="lib/1.company"] .article-title { font-size: 0; }
-body[data-slug="lib/1.company"] .article-title::after { content: "公司"; font-size: clamp(1.45rem, 3vw, 2rem); }
-body[data-slug="lib/1.company/tw"] .article-title { font-size: 0; }
-body[data-slug="lib/1.company/tw"] .article-title::after { content: "台股公司"; font-size: clamp(1.45rem, 3vw, 2rem); }
-body[data-slug="lib/1.company/overseas"] .article-title { font-size: 0; }
-body[data-slug="lib/1.company/overseas"] .article-title::after { content: "海外公司"; font-size: clamp(1.45rem, 3vw, 2rem); }
-body[data-slug="lib/1.company/unlisted"] .article-title { font-size: 0; }
-body[data-slug="lib/1.company/unlisted"] .article-title::after { content: "未上市公司"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug="lib/1.company/index"] .article-title { font-size: 0; }
+body[data-slug="lib/1.company/index"] .article-title::after { content: "公司"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug="lib/1.company/tw/index"] .article-title { font-size: 0; }
+body[data-slug="lib/1.company/tw/index"] .article-title::after { content: "台股公司"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug="lib/1.company/overseas/index"] .article-title { font-size: 0; }
+body[data-slug="lib/1.company/overseas/index"] .article-title::after { content: "海外公司"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug="lib/1.company/unlisted/index"] .article-title { font-size: 0; }
+body[data-slug="lib/1.company/unlisted/index"] .article-title::after { content: "未上市公司"; font-size: clamp(1.45rem, 3vw, 2rem); }
 body[data-slug^="lib/1.company"] article > p:first-child { color: var(--wiki-muted); font-size: .84rem; }
 body[data-slug^="lib/1.company"] ul.section-ul {
   display: grid;
@@ -166,14 +166,14 @@ body[data-slug^="lib/"] .section .desc h3 a:hover { color: var(--wiki-accent); }
 body[data-slug^="lib/"] .section > .tags { display: flex; flex-wrap: wrap; gap: .32rem; margin: .65rem 0 0; padding: 0; list-style: none; }
 body[data-slug^="lib/"] .section > .tags a { display: inline-block; padding: .2rem .45rem; border: 1px solid #3b5055; border-radius: 999px; background: rgba(18,34,40,.68); color: var(--wiki-muted); font-size: .68rem; text-decoration: none; }
 body[data-slug^="lib/"] .section > .tags a:hover { border-color: var(--wiki-accent); color: var(--wiki-accent); }
-body[data-slug="lib/2.tech"] .article-title,
-body[data-slug="lib/3.supply_chain"] .article-title,
-body[data-slug="lib/4.analyze"] .article-title,
-body[data-slug="lib/5.schedule"] .article-title { font-size: 0; }
-body[data-slug="lib/2.tech"] .article-title::after { content: "技術"; font-size: clamp(1.45rem, 3vw, 2rem); }
-body[data-slug="lib/3.supply_chain"] .article-title::after { content: "供應鏈"; font-size: clamp(1.45rem, 3vw, 2rem); }
-body[data-slug="lib/4.analyze"] .article-title::after { content: "分析"; font-size: clamp(1.45rem, 3vw, 2rem); }
-body[data-slug="lib/5.schedule"] .article-title::after { content: "時程"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug="lib/2.tech/index"] .article-title,
+body[data-slug="lib/3.supply_chain/index"] .article-title,
+body[data-slug="lib/4.analyze/index"] .article-title,
+body[data-slug="lib/5.schedule/index"] .article-title { font-size: 0; }
+body[data-slug="lib/2.tech/index"] .article-title::after { content: "技術"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug="lib/3.supply_chain/index"] .article-title::after { content: "供應鏈"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug="lib/4.analyze/index"] .article-title::after { content: "分析"; font-size: clamp(1.45rem, 3vw, 2rem); }
+body[data-slug="lib/5.schedule/index"] .article-title::after { content: "時程"; font-size: clamp(1.45rem, 3vw, 2rem); }
 
 /* Mermaid: quiet slate/sage palette with stronger legibility on dark pages. */
 pre:has(> code.mermaid) {
