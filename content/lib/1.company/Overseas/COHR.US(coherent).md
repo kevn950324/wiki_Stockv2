@@ -6,7 +6,8 @@ aliases:
 tags:
   - 公司/Overseas
   - 產業/光通訊
-  - 環節/光模組
+  - 環節/光收發模組
+  - 環節/光收發模組
   - 環節/InP磊晶
   - 環節/OCS
 updated: 2026-06-29
@@ -71,7 +72,7 @@ image_status: "待補來源圖"
 - Coherent未披露具體訂單量，但確認已有大型AI DC客戶大量CPO CW Laser訂單
 - 德州6吋InP廠為CPO CW Laser主要供應基地；預期**2027年後顯著貢獻營收**
 
-## 財務數據
+## EPS 記錄
 
 | 項目 | FY24A | FY25F | FY26F | FY27F |
 |------|-------|-------|-------|-------|
@@ -130,12 +131,18 @@ image_status: "待補來源圖"
 - [[4971_IET-KY（市）]]（InP磊晶代工；供應Coherent德州廠6吋產線）
 - [[2455_全新（市）]]（InP磊晶競爭）
 
-## 來源補充
+## 來源
 
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（NVIDIA 入股 USD 20 億；FY3Q26 beat -9%；光通訊三雄 beat & drop 模式，2026-06-29）
 
 ## 相關頁面
 
+- [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
+- [[3450_聯鈞（市）]]
+- [[7907_源傑科技（興）]]
+- [[MTSI.US(macom)]]
+- [[TSEM.US(tower semiconductor)]]
+- [[供應鏈_AI光互聯]]
 - [[技術_InP磷化銦]]
 - [[CIEN.US(ciena)]]
 - [[CRDO.US(credo)]]

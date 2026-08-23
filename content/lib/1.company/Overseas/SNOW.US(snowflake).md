@@ -29,7 +29,7 @@ Snowflake（SNOW.US）是全球領先的資料雲端平台，以消費型計費�
 
 ---
 
-## 核心技術 / 競爭優勢
+## 核心技術／競爭優勢
 
 - **Cortex Code（CoCo）**：general-purpose coding agent，可直接建立 applications、pipelines、agents 與 workflows；支援 Amazon Glue、Airflow、DBT Cloud、Databricks；7,100+ 帳戶（F1Q27），為公司史上導入最快新產品
 - **Snowflake Intelligence**：AI 賦能 BI 產品，使用帳戶 QoQ 翻倍（F1Q27）
@@ -39,7 +39,7 @@ Snowflake（SNOW.US）是全球領先的資料雲端平台，以消費型計費�
 
 ---
 
-## 財務摘要
+## EPS 記錄
 
 ### 近期季報
 
@@ -76,7 +76,7 @@ Snowflake（SNOW.US）是全球領先的資料雲端平台，以消費型計費�
 
 ---
 
-## 時間軸（關鍵事件）
+## 時間軸
 
 | 時間 | 事件 | 重要性 | 備註 |
 |------|------|--------|------|

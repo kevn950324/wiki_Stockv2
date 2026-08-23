@@ -9,7 +9,8 @@ tags:
   - 產業/AI伺服器
   - 技術/CPO
   - 技術/矽光子
-  - 環節/光通訊
+  - 環節/光纖與光通訊
+  - 環節/光纖與光通訊
 updated: 2026-06-29
 aliases:
   - Marvell
@@ -23,6 +24,7 @@ related_companies:
   - "[[AVGO.US(broadcom)]]"
   - "[[2330_台積電（市）]]"
   - "[[Polariton（未）]]"
+  - "[[2360_致茂（市）]]"
 ---
 
 # MRVL.US(marvell)
@@ -46,7 +48,7 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 
 資料來源：[[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]
 
-## 核心技術 / 競爭優勢
+## 核心技術／競爭優勢
 
 - **Celestial AI「Photonic Fabric™（PF）」**：把光子元件（調變器、PD、波導）做進中介層，對外經 GC + FAU。
   - **PF Chiplet**（TSMC 5nm，UCIe/MAX PHY）：第一代 16 Tbit/s，第二代 64 Tbit/s。
@@ -87,6 +89,7 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 | [[AVGO.US(broadcom)]] | 同業 / ASIC 競對 | 客製 ASIC 與 CPO 競爭 |
 | [[2330_台積電（市）]] | 製造夥伴 | Celestial PF chiplet 5nm 代工 |
 | [[Polariton（未）]] | 收購對象 | 2026 年收購，plasmonics 調變器技術整合中 |
+| [[2360_致茂（市）]] | 客戶／測試設備鏈 | Aletheia 將 Marvell 列為致茂高功耗高 site-count SLT 的潛在成長客戶，屬券商觀點 |
 
 ## 券商觀點與催化劑
 
@@ -116,6 +119,19 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 
 ## 相關頁面
 
+- [[時程_2026記憶體與AI催化劑]]
+- [[2303_聯電（市）]]
+- [[3711_日月光投控（市）]]
+- [[ALAB.US(astera labs)]]
+- [[MTSI.US(macom)]]
 - [[技術_CPO]]
 - [[技術_TFLN]]
 - [[技術_矽光子（SiPh）]]
+
+## 廣發香港 2026-07-17 更新
+
+- 維持 Buy、目標價 US$280；FY27E／FY28E EPS 估為 US$4.2／7.6，FY29E custom ASIC 營收估逾 US$15bn，均屬券商 estimate。
+- 管理層將 FY27 interconnect 成長展望上修至年增逾 70%，800G／1.6T optics、DSP、retimer、AEC 與 scale-up networking 是主要驅動。
+- NPO 專案由客戶驗證進入初始量產；Google CXL／DPU、Trainium 4 與 Maia 300 出貨屬券商推估，需與公司後續揭露交叉驗證。
+
+來源：[[GFHK - Marvell Preview]]（廣發香港，2026-07-17）。

@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-07-07
+updated: 2026-08-22
 aliases:
   - CPO
   - Co-Packaged Optics
@@ -31,6 +31,8 @@ aliases:
   - Photonic Fabric
   - Quantum-X Photonics
   - Spectrum-X Photonics
+  - Pluggable CPO
+  - CPX
 ---
 
 # 技術_CPO
@@ -40,6 +42,8 @@ aliases:
 CPO（Co-Packaged Optics，共封裝光學）是把「光引擎（Optical Engine, OE）」直接封裝在 XPU 或交換器 ASIC 旁邊的互連技術。傳統可插拔光模組（transceiver）插在前面板的 cage 上，距離 ASIC 約 15–30 cm，訊號得先用長距（LR）SerDes 拉過去、再經模組內的 DSP 還原與轉光；CPO 把光引擎移到 ASIC 旁，省掉 DSP、改用低功耗短距 SerDes，較 DSP 可插拔光模組可省電 50% 以上（業界目標上看 80%）。
 
 CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰場是 **scale-up（縱向擴展，GPU 對 GPU 高頻寬低延遲互連）**——銅互連的觸及距離只有約 2 公尺，限制了單一 scale-up 域的「world size」，光互連是突破機櫃邊界把 world size 做大的關鍵。SemiAnalysis 判斷 CPO 的 TAM 會由 scale-up 主導。
+
+**NPO 是 CPO 前的風險折衷，而不是 CPO 的同義詞。**NPO（Near-Packaged Optics）把 OE 放在 ASIC 封裝旁、但保留獨立基板與可插拔／socketed 介面；高速電通道約 150 mm，介於前面板可插拔模組與 CPO 的 <10 mm 通道之間。[[報告_SemiAnalysis_NPO光互連接棒_20260713]] 認為，它可在保留較低功耗、供應商彈性與部分可維修性的同時，避開 CPO 的 attach yield 與供應商鎖定風險；這是研究機構情境推演，並非各平台已定案的採用承諾。
 
 ## 圖解
 
@@ -51,6 +55,12 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 
 ![[報告_金正禾論壇_CPO光電共封裝_20260325_004.png]]
 *圖（金正禾論壇，2026-03-25）：NVIDIA GTC 2026 完整路線圖——Blackwell（NVL72 銅）→ Rubin（2026，NVL72/NVL576/NVL144）→ Feynman（2028，NVLink 8 CPO、Spectrum7 204T CPO、NVL1152 CPO 光學 Scale-Up）。*
+
+![[報告_元大_光通訊產業_20260723_original_004.png]]
+*圖（元大投顧，2026-07-23）：可插拔、LPO/LRO 與 CPO 的位置比較；CPO 將 OE 靠近 ASIC，ELS 留在板緣，降低高速電通道上的介面損耗。*
+
+![[報告_SemiAnalysis_NPO光互連接棒_20260713_original_003.png]]
+*圖（SemiAnalysis，2026-07-13）：NPO 把可 socket 的光引擎放在 ASIC 鄰近的高性能基板上；約 150 mm 電通道是其相對 CPO 的功耗、訊號完整性與可維修性取捨。*
 
 ## 技術原理
 
@@ -124,17 +134,75 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 | 每 lane 速率 | 200G PAM4 為現階段主流 | MRM 能否穩定跑 200G |
 | 每位元能耗（pJ/bit） | CPO 賣點 | 較 DSP 光模組省 >50%，目標 80% |
 | 調變器熱穩定性 | 直接影響可靠度 | MRM 敏感、EAM 容忍度高 |
+| NPO 電通道與 socket 可靠度 | NPO 以約 150 mm 高性能基板通道換取可拆換 OE | 能否在 200G/lane PAM4 下維持訊號完整性，決定它是否可作為 CPO 的過渡方案 |
 
 ## 技術瓶頸 / 風險
 
 - **系統級整合良率是主要關卡**：在 32 顆 COUPE 規模下，attach 良率複利效應使系統良率極低，且焊接式 OE 無返工路徑。
 - **可靠度與可維修性**：Google 因可靠度疑慮短期不採 CPO。
 - **時程下修風險**（見下方衝突 callout）。
+- **NPO 並非零風險替代**：雖可降低 CPO attach yield 與鎖定風險，仍須驗證 socket、較長電通道、OE 量產與現場維修流程；未必適合每一個 scale-up 或 scale-out 拓撲。
 
 > [!warning] 資訊衝突：CPO 量產時程（觀點演進）
 > - [[報告_Semianalysis_CPO_20260102]]（報告日：2026-01-02）：結構性看多，scale-up CPO 自 2026 起放量（AWS/AMD/Feynman），scale-out 由 Nvidia/Broadcom 2025–2026 帶動；Celestial AI 在 Marvell 旗下估 2028 年底達 $1B run-rate。
 > - [[報告_Semianalysis_CPOand800VDC_20260609]]（報告日：2026-06-09）：**重設預期**——「2027 CPO 預期太積極」，將下修 2026/2027 的 scale-out CPO 出貨；Spectrum 6 CPO（SN810/SN800）滑期逾兩季、4.5 dB 插損問題未解；市場估 2027 年產 7–10 萬台以上 scale-out CPO 交換器「過於積極」；scale-up CPO 仍自 2026 爬升，但 2028 的跳升「看起來樂觀」。
+> - [[memo_日月光_CoWoS_CPO_專家會議_20260520]]（日月光矽品/環旭電子封測商視角，2026-05）：TSMC CPO OE 良率 75%（5月），從 50-60%（2025 Q4）爬升；量產門檻 90-95% 未達；外包給矽品時程 7 月→9 月→**11 月**持續延遲；2026 全年 CPO 交換機出貨估 **約 1.5 萬台**（基於 70% 良率推算）。
 > - 狀態：同機構（作者群含 Nishball）半年後對自身積極時間表的下修，較新且含實測數字者可信度較高。
+> - [[報告_MS_AI供應鏈_20260810]]（2026-08-10）：Kyber blade rack 因 PCB 與散熱挑戰延後、尚無明確時程；首代 Rubin Ultra 可能延用 Oberon NVL72，但 MS 仍認為跨機櫃 CPO 是 NVIDIA 偏好方向。這進一步支持「短期機架延後、中長期光互連不變」的分流判斷。
+> - [[報告_SemiAnalysis_NPO光互連接棒_20260713]]（2026-07-13）：將 NPO／Pluggable CPO 視為較低風險的先行路徑，並以 AWS Trainium3、華為與 Meta 多路徑探索為例；文中關於 NVIDIA Rubin Ultra、特定客戶與供應商配置均屬研究機構模型，須待設計定案、驗證與量產資料交叉確認。
+
+### TSMC CPO 良率軌跡（2026-05 封測商管道）
+
+> 來源：[[memo_日月光_CoWoS_CPO_專家會議_20260520]]（信心：中高，直接接觸 TSMC 外包團隊）
+
+| 時間點 | TSMC PIC OE 全流程良率 |
+|--------|---------------------|
+| 2025 Q4（11-12 月）| 50–60% |
+| 2026 年 4 月 | ~70% |
+| 2026 年 5 月（目前）| ~75%（未突破 80%）|
+| 量產門檻 | **90–95%**（尚未達到）|
+
+**良率損耗主要環節**：
+1. **PIC + EIC 晶圓鍵合**（TSMC 執行，不外包）：~10% 損耗
+2. **FAU 貼合 + 光耦合校準**：信號完整性/斷層問題
+3. **Burn-in + FT + SLT 多重測試**：累積良率損耗
+
+→ 兩環節良率相乘後，整體良率約剩 **70-75%**。
+
+**TSMC PIC 月產能規劃**：
+
+| 時間點 | TSMC PIC 月投入量 |
+|--------|-----------------|
+| 2026 年 5 月（目前）| ~2,000 片/月 |
+| 2026 Q3-Q4 目標 | 5,000–7,000 片/月 |
+| 2027 Q1 目標 | **10,000 片/月** |
+| 2027 年底目標 | ~20,000 片/月 |
+
+> 注意：上述為「投入量（input）」而非產出量；實際有效產出需乘以良率。良率若維持 75%，相當於 25% 的晶圓成本損耗，台積電需多增 ~25% 設備投資（約 US$40-50億）。
+
+**2026 年 TSMC CPO 交付時程演變**：
+
+| 時間點 | 計畫交付給外包商（矽品） |
+|--------|----------------------|
+| 原計畫（2025 設定）| 2026 年 7 月 |
+| 2026 年 3 月調整 | 2026 年 9 月 |
+| 最新（2026 年 5 月）| **2026 年 11 月** |
+
+初期外包模式：overflow 形式，約 10-20% 比例，每月約 500-600 片 PIC 晶圓。
+
+**2026 年全年 CPO 交換機出貨估算**：
+
+以 70% 良率 × TSMC PIC 產能計算：
+- PIC 每片切出 ~500 顆 OE；一台 102.4T 交換機需 **64 顆 OE**
+- 估計 2026 全年 CPO 交換機：**約 15,000 台**
+- 2027 Q1 若良率達標（1 萬片/月 × 500 顆 × 12 個月 / 64 OE/台）：理論 **~100 萬台/年**（但良率達標高度不確定）
+
+### AMD CPO 進度（矽品視角）
+
+- AMD CPO 目標導入：**MI6 系列**（MI500 或最遲 MI600），預計量產 **2028 H2**
+- AMD PIC 同時與 TSMC 及 GlobalFoundries 合作
+- 矽品為 AMD 建設 CPO 實驗線（EIC + PIC 後段 + 測試），使用 Teradyne V93K + FormFactor 探針卡進行晶圓雙面測試
+- AMD + 矽品 CPO 第一批 sample：預計 **2027 Q1** 在實驗線產出
 
 ## 關鍵廠商
 
@@ -142,8 +210,9 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 |------|------|------|
 | 交換器 / GPU 平台 | [[NVDA.US(nvidia)]] | Quantum-X / Spectrum-X Photonics；首批 COUPE 產品 |
 | 交換器 ASIC | [[AVGO.US(broadcom)]] | Humboldt→Bailly→Davisson；CPO 老將，未來轉 COUPE |
-| 客製 ASIC / 光互連 | [[MRVL.US(marvell)]] | 收購 Celestial AI，切入 scale-up 光互連 |
+| 客製 ASIC / 光互連 | [[MRVL.US(marvell)]] | 收購 Celestial AI（EAM），目標 scale-up optics **#1 merchant**（MS bus tour，2026-06-15）；全棧佈局 DCI/scale-out/scale-up/optics/custom silicon |
 | 封裝整合平台 | [[2330_台積電（市）]] | COUPE（PIC N65 + EIC N7，SoIC 混合鍵合） |
+| CPO 精密散熱 | [[3017_奇鋐（市）]] | 光引擎溫控與液冷方案驗證中；中信估 2027 年起隨 CPO 新產品逐步貢獻 |
 | 雷射 / ELS | [[LITE.US(lumentum)]] | Nvidia 首批 CPO ELS 預期主供應商 |
 | FAU / 光纖被動件 | [[3363_上詮（櫃）]] | 光纖被動元件、FAU 相關 |
 | CPO Insertion 3/4 ATE + 光學對準 | [[2360_致茂（市）]] | Insertion 1 驗證中、Insertion 3 ATE+光學對準切入確認、Insertion 4 FT/SLT 核心強項 |
@@ -154,13 +223,16 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 | FAU 光纖耦合設備（台灣第二入口）| [[6187_萬潤（市）]]（All Ring Tech）| 2026 開始貢獻耦合設備營收，約 10% 人力投入此領域（SemiAnalysis CPO Book Part 5）|
 | FAU 製造（主供，Nvidia X800-Q3450）| TFC Optical（300394.SH，中國，未建頁）| 與 Nvidia 合作設計 CPO 逾 3 年，X800-Q3450 主要 FAU 供應商；亦供 ELS 模組 |
 | FAU 製造（Spectrum X / Broadcom）| Senko（9069.JP，日本，未建頁）| SEAT 可拆 FAU 平台；與 GFS 合作邊緣耦合；Spectrum X + Broadcom Tomahawk6 主要 FAU 供應商 |
-| FAU 製造（Nvidia Scale-Up）| [[3363_上詮（櫃）]]（FOCI）| 聚焦 Nvidia Scale-Up CPO FAU；FAU 被動元件 |
+| FAU 製造（Nvidia Scale-Up）| [[3363_上詮（櫃）]]（FOCI）| 聚焦 Nvidia Scale-Up CPO FAU；FAU 被動元件；下游組裝 HIMX 提供的光學塊 |
+| NIL 微光學（CPO FAU 光學塊）| HIMX.US(himax)（HIMX US，2379.TW，未建頁）| NIL 奈米壓印製程生產 FAU 光學塊：22-lens 微透鏡陣列 + 45° 稜鏡 + V-groove 底板；FOCI 下游組裝；TSMC COUPE 供應鏈候選；2026 小量出貨，2027-28 放量（Citrini，2026-03）|
+| MOCVD 設備（III-V / InP 磊晶）| AIXTRON（AIXA.GR，德國，未建頁）| MOCVD 70-90% 市場份額；光子學訂單 2026E >+100% YoY（FY26 管理層指引）；Lumentum/Coherent/Nokia InP 擴產必備設備；GaN 800V 資料中心電源次催化（Citrini，2026-03）|
 | Shuffle Box 主供 | T&S Communications（300570.SH，中國，未建頁）| CPO Shuffle Box 市場第一；500 芯版 $1,600；Corning 設計後轉包 T&S 生產 |
 | OSAT（Nvidia Rubin-rack CPO）| [[3711_日月光投控（市）]] | Nvidia Rubin-rack CPO 核心 OSAT，異質整合封裝 |
 | OSAT（Broadcom CPO，緊密合作）| 訊芯-KY（6451.TW，未建頁）| 與博通 CPO 供應鏈緊密合作（SemiAnalysis CPO Book Part 5）|
 | CPO 組裝（Nvidia + 博通候選）| Fabrinet（SFN.US，未建頁）| 傳統 Nvidia 光模組模組商；積極建立 OE 封裝/測試能力；博通 CPO 系統組裝候選 |
 | CPO 自動光纖耦合設備（第二供）| 科瑞技術（中國，未建頁）| 2026-01 小批量導入博通產線；良率約 60%（門檻 80%）；博通：降成本 + 供應鏈安全 |
-| CPO 耦合設備（硅光方向）| ASMPT（新加坡上市，未建頁）| 技術接近 ficonTEC，主聚焦矽光，尚未切入 CPO |
+ | CPO 耦合設備（矽光方向）| ASMPT（新加坡上市，未建頁）| 技術接近 ficonTEC，主聚焦矽光，尚未切入 CPO |
+| 矽光子晶圓代工（光模組）| Tower Semiconductor（TSEM US，未建頁）| end-2026 矽光子月產能目標 **9,500 片/月**，主力客戶含 旭創科技 等光模組廠 |
 
 CPO 純玩家（本次未建頁）：Ayar Labs（TeraPHY，UCIe 光 retimer chiplet）、Nubis（2025/10 被 Ciena 收購，MZM、2D 光纖陣列）、Celestial AI（被 Marvell 收購，EAM、Photonic Fabric）、Lightmatter（Passage M1000 光中介層）、Xscape Photonics（ChromX 可程式雷射）、Ranovus（Odin OE）、Scintil（LEAF Light）。整合測試端（未建頁）：GlobalFoundries、Tower、ASE/SPIL、[[AMKR.US(amkor)]]、Fabrinet、Keysight、Teradyne。
 
@@ -264,15 +336,37 @@ NPO（Near-Package Optics）是 2026–2027 年市場的主流過渡方案：
 
 | 比較項目 | NPO | CPO |
 |---------|-----|-----|
-| 可維護性 | 較好（靠近芯片但仍可換）| 差（晶圓廠封裝後不可換）|
+ | 可維護性 | 較好（靠近晶片但仍可換）| 差（晶圓廠封裝後不可換）|
 | 功耗降低 | 中等 | CPO 可低至 14–15 W（vs NPO 降幅 30%+）|
 | 量產節點 | 2026–2027 主流 | 2028 年市場爆發預期 |
 | 2026 CPO 價格 | — | 比 NPO 高 1.5–2 倍 |
 
+**NPO 市場規模預測（定錨，2026-07-22）**：
+
+| 年份 | NPO 出貨量 |
+|------|-----------|
+| 2027E | **1,000 萬支** |
+| 2028E | **2,000 萬支** |
+| 2029E | **4,000 萬支** |
+
+NPO 成長更確定性高於 CPO：出貨量年複合增速接近 100%，且良率/維護性壓力遠低於 CPO。
+
+**廣發月會更新（2026-08-14）**：另一組 channel check 將 2027／2028 全產業 NPO 需求估為 1,000 萬支以上／約 3,700 萬支，對應 OE 約 1,100 萬／4,000 萬顆；並預期 2027H2 Rubin Ultra、2028H2 Feynman 的 scale-up 先以 NPO 為主。客戶規格口徑為 NVIDIA 3.2T、AWS 6.4T，兩者自 2027 年底開始部署。
+
+> [!warning] 資訊衝突：NPO 數量與客戶規格
+> - [[報告_先進封裝技術發展方向_20260722]]（2026-07-22）：2028E NPO 2,000 萬支。
+> - [[memo_廣發海外電子通信月度電話會議_20260814]]（2026-08-14）：2028E NPO 約 3,700 萬支、OE 約 4,000 萬顆；AWS 採 6.4T、NVIDIA 採 3.2T。
+> - 既有產業訪談另稱 Google／AWS 有 3.2T 採購規畫。不同來源可能混用 NPO 模組、OE 顆數與專案世代，暫不合併成單一基準；追蹤時應分清「模組數、OE 數、lane 速率與客戶平台」。
+
+> [!warning] CSP 對 CPO 態度不激進
+> 主要 CSP（Google、AWS、Microsoft）對 CPO 採較保守態度，要求故障率極低後才大規模部署。2026-2027 年 CPO 主要需求來自 **NVIDIA NeoCloud 客戶**（非 Hyperscaler 自建），而非大型 CSP 主動推動。這解釋了 CPO 出貨量集中在小規模 NeoCloud 部署而非 Hyperscaler 大規模採購的現象。
+>
+> （來源：[[報告_先進封裝技術發展方向_20260722]]，定錨，2026-07-22）
+
 **NVIDIA Spectrum X CPO 進展（2026Q2 調研）**：
 - 計劃 2026 年 Q4 啟動量產流程，但仍面臨 DFAU 良率問題和外置光源燒毀端面問題
 - Spectrum X 單台售價 ~10 萬 USD，較電交換機高 20–30%（差距 ≤50%）
-- Spectrum X：可插拔式 FAU，單個 OE 對應 36 芯；1 台需 16 個外置光源（每個對應兩個 3.2T 光通路），使用 400 mW 激光器
+ - Spectrum X：可插拔式 FAU，單個 OE 對應 36 芯；1 台需 16 個外置光源（每個對應兩個 3.2T 光通路），使用 400 mW 雷射器
 - Quantum X：固定式 FAU，對應 18 芯；2025 計劃交付 2,000–3,000 台但至今未交付
 
 **1.6T CPO 市場規模**（2026 年）：
@@ -288,7 +382,7 @@ NPO（Near-Package Optics）是 2026–2027 年市場的主流過渡方案：
 | 2028 | 8–10 萬台 | — |
 | 合計 | **20 萬台**（3 年）| 2025-11 TPU v7 後德州 $400 億投資推動 |
 
-Google CPO 態度：會採用但需等故障率極低後才大規模部署；每年給 Lumentum 光芯片 forecast 激進（每年翻倍）。
+ Google CPO 態度：會採用但需等故障率極低後才大規模部署；每年給 Lumentum 光晶片 forecast 激進（每年翻倍）。
 
 **3.2T NPO 訂單**：
 - 谷歌計劃 2027 H2 採購 3.2T NPO，2027–2028 總需求 1,200 萬只
@@ -317,7 +411,7 @@ Google CPO 態度：會採用但需等故障率極低後才大規模部署；每
 - [[技術_InP磷化銦]]（CPO ELS/雷射光源的核心材料；InP vs SiPh 競合）
 - [[技術_TFLN]]（TFLN 調製器在 1.6T CPO 中的角色）
 - [[技術_FAU]]（CPO FAU/DFAU 規格與供需）
-- [[技術_光電芯片]]（CPO 光引擎中 PD/Driver/TIA 配置）
+ - [[技術_光電芯片]]（CPO 光引擎中 PD/Driver/TIA 配置）
 - [[技術_MPO]]（CPO 交換機中板 32 芯 MPO 連接）
 
 ## OCI 200G MSA（規則 #14 — 關係更新）
@@ -379,6 +473,53 @@ Google CPO 態度：會採用但需等故障率極低後才大規模部署；每
 ![[CPO 250815 Latitude silicon photonics supply chain_025.png]]
 *圖（LightCounting，來源 Latitude，2025-08）：2026–2030 800G、1.6T、3.2T LPO/CPO 端口數量（紅）vs TRX 和 AOC（藍），預測 CPO/LPO 在 2029–2030 年開始大幅擴大佔比。*
 
+## GS AI 光互連 TAM 升級（Goldman Sachs，2026-04-17）
+
+Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→Rubin Ultra NVL576 的機架美元含量升級與整體 TAM 空間（9× TAM unlock to US$154B）。
+
+### 機架美元含量（Dollar Content，Scale-up + Scale-out 合計）
+
+| 機型 | 出貨期 | Scale-up | Scale-out | 網路成本/架（USD） |
+|------|-------|---------|---------|----------------|
+| GB300 NVL72 | 2H25-2026 | 銅纜 | 光模塊 1.6T | **$315K** |
+| Vera Rubin NVL72 | 2H26-2027 | 銅纜 | 光模塊 1.6T | $489K |
+| Vera Rubin NVL72（25% CPO） | 2H26-2027 | 銅纜 | CPO TOR + 光模塊 | $504K |
+| Rubin Ultra NVL144（29% CPO） | 2H27-2028 | PCB 中板 | CPO TOR + 光模塊 | $1,113K |
+| **Rubin Ultra NVL576**（29% CPO） | 2H27-2028 | 銅纜 + CPO | CPO TOR + 光模塊 | **$1,169K/架**（8架合計 ~$9.4M） |
+
+> NVL576 = 8-rack computing unit；每個 computing unit 合計 ~$9.4M，較 GB300 $315K/架升 **29×**。GS 預估：48K GB300 racks → TAM **$15B**；16.5K Rubin Ultra computing units（132K racks）→ TAM **$154B**（Scale-up 佔 69%，CPO 佔 59%）。
+
+### CPO TAM 逐年預測（高端 Spec B；含 Scale-up + Scale-out CPO 合計）
+
+| 年度 | CPO TAM | 其中 Optical Engine & FAU | ELS | Fiber + Shufflebox |
+|------|---------|--------------------------|-----|-------------------|
+| 2026E | **$1.0B** | $0.9B | $0.1B | ~$0.05B |
+| 2027E | **$24.8B** | $16.3B | $2.8B | $5.8B |
+| 2028E | **$70.9B** | $43.9B | $8.0B | $19.1B |
+
+> 低端情境（Spec A）差異顯著：2026 $0、2027 $3.6B、2028 $12.1B，差異主因 CPO scale-out 滲透率假設（Spec B 25-29% vs Spec A 0-27%）。
+
+### CPO Switch BoM（Nvidia Quantum-X Photonics，GS 估算）
+
+| BoM 合計（USD） | 售價（USD） | 毛利率 |
+|---------------|------------|-------|
+| $75,803 | $130,000 | ~42% |
+
+> [!warning] GlassBridge 風險（Corning，2026-06-24）
+> Corning 於首爾 AI 資料中心光學互連技術研討會正式發表 **GlassBridge**——一種 fiber-to-PIC 連接器平台，可將光纖直接耦合到 PIC（繞過傳統 FAU）。
+> - **FAU 廠商顛覆風險**：晶圓級被動對準替代方案，支援更高光纖密度，TFC / FOCI / Senko 面臨潛在競爭
+> - **短期 AI 轉收器影響**：未來 1–2 年影響有限；GlassBridge 可同時用於 CPO 和 NPO，NPO 應用可能抵消 CPO 風險
+> - **商業落地時程**：不確定；已納入 Corning 光子 $10B 業務目標規劃（Analyst Day 2025-09）
+>
+> 來源：[[AI optical GlassBridge Fiber-to-PIC implications 260629 MS]]（Morgan Stanley，2026-06-28）
+
+### MS bus tour：MRVL / ALAB 光互連更新（2026-06-15）
+
+- **MRVL**：全棧光互連佈局（DCI / scale-out / scale-up / optics / SerDes / custom silicon）；**scale-up optics 目標 #1 merchant**；非 AVGO 替代需求撐盤；scale-up switch 仍為競爭局面但光學優先
+- **ALAB**：**NPO 首批部署 2027**；CPO scale-up **2028+**（最少一個客戶可能更早）；aiXscale 收購預計 2027 年貢獻 qualifying revenue；銅互連機架內仍維持多年相關性
+
+來源：[[Semiconductors 260615 MS public company bus tour ALAB MRVL INTC]]（Morgan Stanley，2026-06-15）
+
 ## NVIDIA CPO 產品路線圖（Daiwa，2026-07）
 
 | 型號 | Quantum-3 450 CPO | Spectrum-6 810 CPO | Spectrum-6 800 CPO |
@@ -401,28 +542,54 @@ Google CPO 態度：會採用但需等故障率極低後才大規模部署；每
 
 ## 來源
 
+## 本次 ingest 更新（2026-08-14）
+
+- [[6223_旺矽（櫃）]] 的 CPO Insertion 2／3 認證、工程機與量產窗口，補充了光引擎封裝後測試設備的落地節奏；來源為 Citi、Goldman Sachs 與 BofA，仍屬公司展望／券商 estimate。
+- 旺矽的 microbump probe-card 測試案預計 4Q26 可能進入生產，顯示 2nm AI ASIC 的測試複雜度會把 CPO 以外的探針卡內容值一併推高。
+
+- [[memo_OCPAPAC_CPO_NPO_XPO專家會議_20260820]]（OCP APAC panel，2026-08-20；CPO／NPO／XPO 分化、409.6T 密度轉折、EIC/PIC、熱循環與標準化）
+- [[260521_2360致茂_aletheia_ATE]]（Aletheia Capital，2026-05-21）：預估致茂於 2026-06 開始 CPO Insertion 3 OE tester pilot-run、2026Q3 末前後交付 Insertion 4 optical tester；屬券商 estimate，實際量產節奏仍待客戶驗證。
+
+- [[報告_MS_AI供應鏈_20260810]]（Morgan Stanley，2026-08-10；Kyber 延後、Oberon NVL72 與跨機櫃 CPO 方向）
+- [[報告_中信_奇鋐_20260813]]（中信投顧，2026-08-13；奇鋐 CPO 散熱產品時程與液冷升級）
+- [[報告_先進封裝技術發展方向_20260722]]（定錨，2026-07-22；NPO市場 2027 1,000萬→2028 2,000萬→2029 4,000萬支；CSP對CPO不激進/NeoCloud主導；COUPE量産2026H2確認）
 - [[報告_金正禾論壇_InP晶圓代工CPO_20260130]] — 金正禾論壇（產業專家 Terry），2026-01-30
 - [[報告_金正禾論壇_CPO光電共封裝_20260325]] — 金正禾論壇，2026-03-25
 - [[報告_Semianalysis_CPO_20260102]]（CPO Book，2026-01-02）
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（CPO/800VDC 重設預期，2026-06-09）
-- [[memo_光模块及CPO设备学习总结_acecamptech_20260416]]（設備生態、ficonTEC 壟斷格局、科瑞技術驗證進度、設備需求三重乘數）
-- [[memo_光通信大厂调研_TFLN_CPO_OCS_acecamptech_20260417]]（TFLN CPO 出貨量、OCS Google 需求 20 萬台、NPO vs CPO 過渡）
-- [[memo_光通信大厂调研_CPO出货量_FAU_MPC方案_acecamptech_20260529]]（Spectrum X/Quantum X 進展、DFAU 良率問題、CPO 取代電交換機速度）
-- [[memo_OCS_ASIC設計_光通信_LPU_AOC_acecamptech_20260517]]（OCS 格局、MEMS 芯片成本、Google 3.2T NPO 計劃）
-- [[memo_1.6T_800G光模块出货更新_NPO_CPO_acecamptech_20260507]]（3.2T NPO 訂單、各 CSP 採購計劃）
+- [[報告_SemiAnalysis_NPO光互連接棒_20260713]]（SemiAnalysis，2026-07-13；NPO／Pluggable CPO 與 CPO 的架構、良率和供應彈性取捨）
+ - [[memo_光模块及CPO设备学习总结_acecamptech_20260416]]（設備生態、ficonTEC 壟斷格局、科瑞技術驗證進度、設備需求三重乘數）
+ - [[memo_光通信大厂调研_TFLN_CPO_OCS_acecamptech_20260417]]（TFLN CPO 出貨量、OCS Google 需求 20 萬台、NPO vs CPO 過渡）
+ - [[memo_光通信大厂调研_CPO出货量_FAU_MPC方案_acecamptech_20260529]]（Spectrum X/Quantum X 進展、DFAU 良率問題、CPO 取代電交換機速度）
+ - [[memo_OCS_ASIC設計_光通信_LPU_AOC_acecamptech_20260517]]（OCS 格局、MEMS 晶片成本、Google 3.2T NPO 計劃）
+ - [[memo_1.6T_800G光模块出货更新_NPO_CPO_acecamptech_20260507]]（3.2T NPO 訂單、各 CSP 採購計劃）
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（OCI 200G MSA；1.6T 850K +280%；GB300 55K +129%；InP 供應鏈更新，2026-06-29）
-- [[報告_SemiAnalysis_CPOBook_Part5供應鏈_20260103]]（SemiAnalysis CPO Book Part 5 — Nvidia Q3450 供應鏈地圖：ELS/FAU/Shuffle Box/MPO 廠商全圖；TFC/Senko/FOCI FAU 分工；Lumentum 初批獨供→Coherent 2H26 入局，2026-01-03）
+- [[報告_Semianalysis_CPO_Book_PaywallCapture_20260103_original]]（SemiAnalysis CPO Book Part 5 — Nvidia Q3450 供應鏈地圖：ELS/FAU/Shuffle Box/MPO 廠商全圖；TFC/Senko/FOCI FAU 分工；Lumentum 初批獨供→Coherent 2H26 入局，2026-01-03）
 - [[Optical 260703 Daiwa AIDC interconnect OT NPO CPO OCS]]（Daiwa，2026-07-03；CPO 2027–28 市場 $12–24B；NPO 首選；NVIDIA CPO 路線圖）
 - [[CPO 250815 Latitude silicon photonics supply chain]]（Latitude Design Systems，2025-08-15；CPO/SiPh 供應鏈；LightCounting 滲透率預測）
+- [[Optical Networking 260417 GS AI scale out scale up]]（Goldman Sachs，2026-04-17；GB300 $315K/rack → Rubin Ultra $9.4M/computing unit；TAM $15B → $154B；CPO TAM 高端 2026 $1B/2027 $24.8B/2028 $70.9B；Quantum-X BoM $75,803；scale-up 佔 69%）
+- [[AI optical GlassBridge Fiber-to-PIC implications 260629 MS]]（Morgan Stanley，2026-06-28；GlassBridge fiber-to-PIC 發表；FAU 廠商顛覆風險；1-2 年影響有限）
+- [[Optical Networking 260312 Citrini AI connectivity optics]]（Citrini Research，2026-03-12；HIMX NIL 微光學 FAU 光學塊、FOCI 組裝、AIXTRON MOCVD +100%；CPO photonics 供應鏈深度）
+- [[Semiconductors 260615 MS public company bus tour ALAB MRVL INTC]]（Morgan Stanley，2026-06-15；MRVL scale-up optics #1 merchant；ALAB NPO 2027/CPO 2028+）
 - [[Silicon Photonics 260528 TrendForce forum OCI CPO OCS memo]]（TrendForce 論壇，2026-05-28；CPO 2028 Rubin 強制導入；台積電 CPO 產能 2028 需擴 20 倍）
-- [[報告_矽光子發展趨勢技術演進與機會_20260522]]（知識力科技 張勤煜，2026-05-22；TrendForce Mar 2026 CPO 滲透率逐年數字；MRM 3D-CPO 相容性分析）
-- [[報告_分子尼奧_奈米光學新時代_NIL技術_20260522]]（分子尼奧，2026-05-22；NIL 奈米壓印微影用於 InP DFB/EML 雷射光柵量產 1500+ 片；CPO 模組 PCSEL+Metasurface 異質整合；$20-30B 光轉收器市場）
+- [[20260522_矽光子發展趨勢：技術演進與機會]]（知識力科技 張勤煜，2026-05-22；TrendForce Mar 2026 CPO 滲透率逐年數字；MRM 3D-CPO 相容性分析）
+- [[20260522 奈米光學的新時代-分子尼奧]]（分子尼奧，2026-05-22；NIL 奈米壓印微影用於 InP DFB/EML 雷射光柵量產 1500+ 片；CPO 模組 PCSEL+Metasurface 異質整合；$20-30B 光轉收器市場）
+- [[memo_廣發海外電子通信月度電話會議_20260814]]（廣發海外電子通信，2026-08-14；Rubin Ultra／Feynman NPO 路線、2027–2028 NPO／OE 數量與 3.2T／6.4T 客戶規格）
 
 ## 相關頁面
 
+- [[3019_亞光（市）]]
+- [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
+- [[6526_達發（市）]]
+- [[TER.US(teradyne)]]
+- [[分析_MS_AI供應鏈_HBM降規與Kyber延遲_20260810]]
+- [[7907_源傑科技（興）]]
+- [[分析_日月光深度報告]]
 - [[分子尼奧（私）]]
 - [[供應鏈_AI伺服器散熱]]
 - [[供應鏈_光測試設備]]
+- HIMX.US(himax)
+- [[供應鏈_AI光互聯]]
 - [[供應鏈_半導體測試設備]]
 - [[技術_CoWoS與先進封裝]]
 - [[APH.US(amphenol)]]
@@ -435,3 +602,32 @@ Google CPO 態度：會採用但需等故障率極低後才大規模部署；每
 - [[技術_光模塊]]
 - [[技術_混合鍵合]]
 - [[技術_聚合物波導]]
+- [[3017_奇鋐（市）]]
+
+### 本次 ingest 更新（DIGITIMES，2026-08-21）
+
+- DIGITIMES 將 CPO 發展課題拆成製造、布建與未來擴大三層：第一階段量產瓶頸偏向封裝、陣列測試與產能；中長期則轉向系統級熱串擾、材料導熱與標準化。
+- 交換器端已出現 51.2T CPO、3.2T 光引擎與 200G/lane 的路線，Leaf-to-Spine 以 800G 為主流、1.6T 開始導入；具體平台採用仍屬產業研究整理，非公司訂單事實。
+- MicroLED／MOSAIC 被列為雷射式光互連以外的長期路線，DIGITIMES 引述 800G 完整光鏈路約 3.9–6.6 pJ/bit 的論文口徑；該數字需與傳統光模組的系統邊界一致後再比較。
+
+來源：[[CPO時代來臨，AI_高速互連中長期技術演進與挑戰_DIGITIMES]]（DIGITIMES，2026-08-21）。
+## 2026-08 測試與設備更新
+
+- [[260818_ubs_allring]] 與 [[260820_MS_MPI 旺矽(6223)]] 顯示 CPO 仍會拉動光學耦合、測試與高 pin density 相關設備；但專案導入速度與客戶採用仍是主要不確定性。
+- [[260818_ml_hon-precision]] 另指出 CPO Insertion 4 O/E 測試工程設備預計 2026-10 交付客戶；此為券商估計，並非已確認量產訂單。
+
+## 2026-08 萬潤更新
+
+- [[6187_萬潤（市）]] 2Q26 初步結果顯示 CoWoS 相關高毛利業務改善產品組合；高盛並將 CPO 視為 2027–2028 長期成長驅動，但營收數字仍屬券商估計。來源：[[260811_gs_allring]]（高盛，2026-08-11）。
+- 高盛模型估計萬潤 CPO 營收 2027E／2028E 約 NT$1,861m／9,726m；此數字不能直接視為已確認客戶訂單或量產承諾。
+
+## 2026-08-23 路線與系統整合補充
+
+- 小馬光學將 CPO 放在 Pluggable、LPO、XPO、NPO 到 CPO 的連續演進中，強調 FAU／coupling 精度、光電整合與 EPIC 平台是量產瓶頸；此為演講觀點。
+- AMD Helios 將 800G NIC、交換晶片與光／銅互連放入同一 rack roadmap；CPO／NPO 的價值需放回 scale-up、scale-out 與系統維護性評估，不能簡化為單一路線取代。
+
+![[2026-08-04-AI 時代光纖到晶片的新賽局-群益證劵-83_006.png]]
+
+圖說：來源演講以電子互連走向光子電子整合的尺寸、功耗與佈線密度目標，說明 CPO／光 I/O 為資料中心互連演進的一部分。
+
+來源：[[2026-08-04-AI 時代光纖到晶片的新賽局-群益證劵-83]]、[[事件分析_AMD Advancing AI Day_20260727]]。

@@ -14,8 +14,8 @@ tags:
   - 主題/Mythos資安衝擊
 related_companies:
   - "[[DDOG.US(datadog)]]"
-  - "[[FROG.US(jfrog)]]"
-  - "[[GTLB.US(gitlab)]]"
+  - "FROG.US(jfrog)"
+  - "GTLB.US(gitlab)"
   - "[[CRWD.US(crowdstrike)]]"
   - "[[PANW.US(palo alto networks)]]"
 related_topics:
@@ -69,7 +69,7 @@ Anthropic 於 2025 年釋出 Claude Code Security 工具，可掃描程式庫並
 
 | 重點 | 投資含義 | 相關標的 | 信心 |
 |------|----------|----------|------|
-| DevSecOps 業者論述受損 | FROG/GTLB Code Security 業務敘事核心被 AI 顛覆，近期估值重估風險 | [[FROG.US(jfrog)]]（未建頁）、[[GTLB.US(gitlab)]]（未建頁） | 中 |
+| DevSecOps 業者論述受損 | FROG/GTLB Code Security 業務敘事核心被 AI 顛覆，近期估值重估風險 | FROG.US(jfrog)（未建頁）、GTLB.US(gitlab)（未建頁） | 中 |
 | SASE/EDR 影響有限 | PoP 網路 / Kernel 層部署護城河短期不受 AI Code Security 衝擊 | [[DDOG.US(datadog)]]（SASE 競品 PANW/ZS/NET 未建頁） | 高 |
 | DDOG 相對受益 | 唯一同時具備 Observability + Security 的主流平台，競品受損反而突顯整合平台優勢 | [[DDOG.US(datadog)]] | 中 |
 | VM/EM 業者中期承壓 | QLYS、TENB、RPD 等漏洞管理業者技術護城河較淺，MSFT/PANW/CRWD/Wiz 平台化已在侵蝕其市場 | 未建頁（QLYS、TENB、RPD、Wiz） | 中 |

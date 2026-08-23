@@ -134,3 +134,8 @@ EDR 廠商的應對策略：
 - [[報告_Truist_MythosAndDaybreak_20260608]] — Truist，AI 攻防雙面刃，2026-06-08
 - [[報告_UBS_Gartner資安峰會_20260609]] — UBS，Charlotte AI 自主調查數據，2026-06-09
 - [[報告_CybersecForecast2026_en_20260101]] — Google Cloud / Mandiant，2026 年威脅預測，2026-01-01
+
+## 相關頁面
+
+- [[FTNT.US(fortinet)]]
+- [[分析_DevSecOps_AI安全衝擊]]

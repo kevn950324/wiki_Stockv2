@@ -6,7 +6,8 @@ aliases:
 tags:
   - 公司/Overseas
   - 產業/光通訊
-  - 環節/光模組
+  - 環節/光收發模組
+  - 環節/光收發模組
   - 環節/CW雷射
 updated: 2026-06-29
 related_companies:

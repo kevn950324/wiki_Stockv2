@@ -116,5 +116,6 @@ TrendForce 矽光子論壇補充：業界三大標準化組織並行，各自對
 
 ## 來源
 
+- [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（STT Article 14 OCI 200G 線側規範解析，2026-06-29）
 - [[Silicon Photonics 260528 TrendForce forum OCI CPO OCS memo]]（TrendForce 矽光子論壇，2026-05-28；OCI/Open CPX/XPO 三大標準化組織全景）

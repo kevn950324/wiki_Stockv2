@@ -51,7 +51,7 @@ Datadog 是全球領先的雲端可觀測性（Observability）與監控平台�
 
 ---
 
-## 核心技術 / 競爭優勢
+## 核心技術／競爭優勢
 
 ### 主業：可觀測性三柱（Observability Three Pillars）
 
@@ -501,7 +501,7 @@ DDOG 最大的單一客戶風險與機會同時集中在 frontier lab 客戶身�
 
 ---
 
-## 時間軸 / 關鍵催化劑
+## 時間軸
 
 ```mermaid
 gantt
@@ -576,4 +576,9 @@ gantt
 - [[memo_DDOG_NEWR_SPLK_DT_四強比較_不誤正業R_20220101]] — 不誤正業R，四強比較整理
 - [[分析_DevSecOps_AI安全衝擊]] — Claude Code Security 衝擊分析，DDOG 相對受益論點
 
+## 相關頁面
 
+- [[RBRK.US(rubrik)]]
+- [[分析_AI驅動資安支出2026]]
+- [[技術_EDR與XDR]]
+- [[技術_SASE]]

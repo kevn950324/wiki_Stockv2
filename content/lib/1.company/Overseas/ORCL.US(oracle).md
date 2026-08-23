@@ -34,7 +34,7 @@ Oracle Corporation（ORCL.US）是全球最大的企業資料庫廠商，近年�
 
 ---
 
-## 核心技術 / 競爭優勢
+## 核心技術／競爭優勢
 
 - **OCI 差異化**：相較 AWS/Azure/GCP，OCI 以更低延遲的 RDMA 叢集網路架構及較具成本競爭力的 GPU 定價吸引 Frontier Labs（Cohere、NVIDIA 等）及大型企業
 - **Multi-cloud Database**：Oracle Database @Azure / @AWS 讓企業在不遷移 workload 的前提下享用 Oracle DB 功能；F4Q26 Multi-cloud DB 營收 YoY +404%（Bookings +325%）
@@ -43,7 +43,7 @@ Oracle Corporation（ORCL.US）是全球最大的企業資料庫廠商，近年�
 
 ---
 
-## 財務摘要
+## EPS 記錄
 
 ### 近期季報
 
@@ -70,7 +70,7 @@ Oracle Corporation（ORCL.US）是全球最大的企業資料庫廠商，近年�
 
 ---
 
-## 時間軸（關鍵事件）
+## 時間軸
 
 | 時間 | 事件 | 重要性 | 備註 |
 |------|------|--------|------|
@@ -94,3 +94,8 @@ Oracle Corporation（ORCL.US）是全球最大的企業資料庫廠商，近年�
 ## 來源
 
 - [[報告_凱基投顧_美國軟體產業_ORCL_SNOW_MDB_20260611]]（凱基，2026-06-11；F4Q26 財報 + FY27 展望）
+
+## 相關頁面
+
+- [[META.US(meta)]]
+- [[技術_GPU_Backstop]]

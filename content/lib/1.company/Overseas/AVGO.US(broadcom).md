@@ -5,6 +5,7 @@ market: US
 exchange: NASDAQ
 sector: AI ASIC / 網路半導體 / 基礎設施軟體
 tags:
+  - 產業/半導體
   - 公司/Broadcom
   - 技術/CPO
   - 技術/OCI
@@ -13,7 +14,7 @@ tags:
   - 供應鏈/AI伺服器PCB
   - 環節/AI晶片設計
   - 產業/AI伺服器
-updated: 2026-06-29
+updated: 2026-08-10
 aliases:
   - Broadcom
   - 博通
@@ -54,7 +55,7 @@ Broadcom（AVGO），全球 AI ASIC 及雲端網路半導體霸主，同時擁�
 | Industrial | 1% | — | 工業感測器 |
 | 基礎設施軟體（VMware+CA+Symantec）| 42% | 93% | VMware Cloud Foundation |
 
-## 財務摘要
+## EPS 記錄
 
 | 年度 | 營收（USD bn） | EBITDA | EPS（adj USD）| EPS YoY | P/E |
 |------|-------------|--------|------------|--------|-----|
@@ -87,7 +88,7 @@ AI ASIC 市場 CAGR 2025-28E：72%（Bernstein）；$60-70B in CY26（JPM 2026-0
 |------|--------|----------------|------|
 | JPMorgan | 2026-06-18 | **$60B+ FY26**（↑from ~$20B FY25）→ $150B+ FY27 | Meta MTIA 3nm、Google TPUv7/v8 3nm、Anthropic TPU、OpenAI、SoftBank/ARM 等 | 
 
-來源：[[報告_JPM_AI推動ASIC復興_半導體市場概覽_20260618]]
+來源：報告_JPM_AI推動ASIC復興_半導體市場概覽_20260618
 
 ### 主要 ASIC 客戶與 Broadcom 角色
 
@@ -120,6 +121,7 @@ AI ASIC 市場 CAGR 2025-28E：72%（Bernstein）；$60-70B in CY26（JPM 2026-0
 | 2026 | Apple Baltra 量產（3nm TSMC，Broadcom ASIC 設計服務）| 客戶 | ⭐⭐⭐ | Apple AI server chip |
 | 2026-01 | 引入科瑞技術為 CPO 自動光纖耦合第二供應商（小批量），原首供 ficonTEC 仍主導（良率 80–90% vs 科瑞 60%）| CPO 供應鏈 | ⭐⭐ | 背後邏輯：降成本 + 供應鏈安全，非技術換供應商 |
 | 2026 | 系統性增加自動光纖耦合設備投資，CPO 設備從單一供應商走向雙軌 | CPO 設備 | ⭐⭐ | 拉動光模塊設備需求，參見 [[技術_CPO]] |
+| 2026 H2 | AMD Helios Rack 量產：**Broadcom TH6（102.4T）作為唯一 Scale-up Switch**；~550 顆 Broadcom Ethernet Retimer / 架（85% Scale-up 鏈路需 Retiming）| 客戶出貨 | ⭐⭐⭐ | AMD SerDes 不足 → Broadcom 獨佔 Helios Switch + Retimer，成 AMD 系統隱形受惠 |
 | 2027 | CPO 出貨量目標 3–5 萬支（驗證節點）；科瑞技術能否達 80% 良率是關鍵觀察點 | CPO | ⭐⭐⭐ | 市場用以判斷 CPO 規模化的前哨指標 |
 | 2027 | Rapidus 2nm 原型晶圓（潛在未來代工多元化）| 技術 | ⭐⭐ | 日本 TSMC 替代方案 |
 
@@ -133,7 +135,7 @@ AI ASIC 市場 CAGR 2025-28E：72%（Bernstein）；$60-70B in CY26（JPM 2026-0
 - **光學**：PCL Technologies（4977 TT，CPO 雷射光學封裝）
 - **所屬供應鏈**：[[供應鏈_先進封裝載板]]、[[供應鏈_AI伺服器PCB]]、[[技術_CPO]]
 
-## 風險
+## 風險與注意事項
 
 - 大型 CSP AI capex 正常化或放緩
 - 失去主要 ASIC 設計贏單（大客戶自建晶片）
@@ -155,7 +157,7 @@ AI ASIC 市場 CAGR 2025-28E：72%（Bernstein）；$60-70B in CY26（JPM 2026-0
 
 資料來源：[[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]
 
-## 相關公司（新增）
+## 相關公司
 
 | 公司 | 關係 | 說明 |
 |------|------|------|
@@ -168,9 +170,18 @@ AI ASIC 市場 CAGR 2025-28E：72%（Bernstein）；$60-70B in CY26（JPM 2026-0
 - [[memo_光模块及CPO设备学习总结_acecamptech_20260416]]（AceCamp Tech，2026-04-16；CPO 設備雙供應商策略、科瑞技術進博通產線、2027 CPO 出貨量驗證節點）
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（OCI 200G MSA 共編；Meta+Broadcom+AMD 開放生態對抗 NVIDIA NVLink，2026-06-29）
 - [[報告_MS_AI供應鏈_20251112]]（摩根士丹利，AI 供應鏈，2025-11-12）
+- [[報告_SemiAnalysis_AMD_AdvancingAI2026_20260724]]（SemiAnalysis，Helios TH6 Switch + Retimer 獨家供應，2026-07-24）
 
 ## 相關頁面
 
+- [[6239_力成（市）]]
+- [[QCOM.US(qualcomm)]]
+- [[時程_2026記憶體與AI催化劑]]
+- [[2454_聯發科（市）]]
+- [[分析_聯發科AI_ASIC]]
+- [[4768_英特磊（市）]]
+- [[ALAB.US(astera labs)]]
+- [[MTSI.US(macom)]]
 - [[2345_智邦（市）]]
 - [[8046_南電（市）]]
 - [[惠特（TW-ticker待確認）]]
@@ -183,3 +194,7 @@ AI ASIC 市場 CAGR 2025-28E：72%（Bernstein）；$60-70B in CY26（JPM 2026-0
 - [[技術_光互連]]
 - [[技術_光模塊]]
 - [[技術_矽光子（SiPh）]]
+## JPMorgan 2026-08-20 更新
+
+- [[260820_BroadcomAVGO_JPM_FY26_AI營收上看560億美元,_TPU設計贏單藍圖不變（非完整報告）]] 聚焦 FY26 AI 營收上看約 560 億美元與 TPU 設計贏單延續；因來源為非完整報告，僅作方向性紀錄。
+- AI ASIC／網通需求與客戶設計贏單屬券商判斷，需以 Broadcom 法說與正式文件交叉驗證；信心水準：中低。

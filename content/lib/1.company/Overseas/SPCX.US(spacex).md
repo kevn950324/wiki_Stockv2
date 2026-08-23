@@ -13,6 +13,7 @@ tags:
   - 產業/衛星
   - 產業/AI基礎建設
   - 地區/美國
+  - 環節/衛星通訊
 updated: 2026-07-08
 aliases:
   - SpaceX
@@ -27,7 +28,7 @@ related_companies: []
 
 SpaceX（Space Exploration Technologies Corp.）是全球最大商業航太公司，同時擁有 Starlink 全球衛星寬頻網路與 xAI（2026-02 收購）AI 算力業務。2026-06 IPO 於 Nasdaq（代號 SPCX），主承銷商 Goldman Sachs、Morgan Stanley、JPMorgan 等。
 
-主要資料來源：[[說明書_SpaceX_IPO路演簡報_20260606]]
+主要資料來源：說明書_SpaceX_IPO路演簡報_20260606
 
 ## IPO 概覽
 
@@ -140,3 +141,7 @@ SpaceX 與 Tesla、Intel 戰略合作打造全球最大晶片製造廠（Terafab
 | 2026-H2 | Starship V3 開始軌道運送；Broadband V3 衛星開始部署 | 里程碑 |
 | 2027 | Starlink Mobile V2（5G 速度）+ Colossus II 400MW+ | 里程碑 |
 | 2028 | AI 算力衛星開始部署（100KW/噸）| 里程碑 |
+
+## 相關頁面
+
+- [[Anthropic（未）]]

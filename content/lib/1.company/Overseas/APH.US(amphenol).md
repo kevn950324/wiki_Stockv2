@@ -7,7 +7,8 @@ sector: 連接器 / 互連
 tags:
   - 公司/Amphenol
   - 產業/AI伺服器
-  - 環節/光通訊
+  - 環節/光纖與光通訊
+  - 環節/光纖與光通訊
 updated: 2026-06-26
 aliases:
   - Amphenol
@@ -27,7 +28,7 @@ image_status: "待補來源圖"
 
 Amphenol 是全球連接器與互連龍頭，在 AI 伺服器題材中的定位是**銅互連（copper interconnect）受惠者**——CPO 延後反而強化「銅仍是 scale-up 主要互連、可插拔光學續守 scale-out」的格局。營收驅動來自高速連接器、AEC（主動電纜）與互連方案。供應鏈位置：scale-up/scale-out 銅互連與連接器供應。資料來源：SemiAnalysis 800VDC/CPO note（2026-06-09）。
 
-## 核心技術 / 競爭優勢
+## 核心技術／競爭優勢
 
 - 高速銅互連與連接器：CPO 良率/物理瓶頸使銅在 scale-up 維持主力，pluggable 續守 scale-out，兩者需求同步成長。
 - **AEC（主動電纜）**：與 Nubis 合作，基於 Nubis 的 Nitro 線性 redriver 打造 ACC，把 200G 銅互連觸及距離延伸到數公尺。

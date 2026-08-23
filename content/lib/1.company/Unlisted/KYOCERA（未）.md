@@ -9,11 +9,12 @@ tags:
   - 技術/CPO
   - 技術/聚合物波導
   - 產業/光通訊
+  - 環節/光纖與光通訊
+  - 環節/光纖與光通訊
 updated: 2026-06-29
 aliases:
   - KYOCERA
   - 京瓷
-  - Kyocera
   - 6971
 related_companies:
   - "[[Sumitomo Electric（未）]]"

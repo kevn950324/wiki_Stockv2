@@ -133,7 +133,7 @@ ZS 是覆蓋範圍中最便宜的 best-of-breed 資安股（EV/FCF to Rev Growth
 
 ---
 
-## 時間軸 / 關鍵催化劑
+## 時間軸
 
 ```mermaid
 gantt
@@ -160,3 +160,10 @@ gantt
 - [[報告_UBS_Gartner資安峰會_20260609]] — UBS，Gartner 安全峰會，2026-06-09
 - [[報告_BMO_資安可觀測性_20260612]] — BMO，資安可觀測性（Zenith Live 26），2026-06-12
 - [[報告_Jefferies_資安_20260416]] — Jefferies VAR Survey，2026-04-16
+
+## 相關頁面
+
+- [[FTNT.US(fortinet)]]
+- [[DDOG.US(datadog)]]
+- [[分析_AI驅動資安支出2026]]
+- [[技術_SASE]]

@@ -65,3 +65,7 @@ MACOM 是罕見同時具備 **RF、毫米波、光通訊 TIA/Driver** 的整合�
 - **CPO 場景**中 EIC 需求（OE 的電子驅動側）具長期成長空間
 
 資料來源：[[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]、[[Optical Networking 260417 GS AI scale out scale up]]
+
+## 相關頁面
+
+- [[SMTC.US(semtech)]]

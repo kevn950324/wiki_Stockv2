@@ -8,8 +8,9 @@ tags:
   - 公司/Lumentum
   - 產業/AI伺服器
   - 技術/CPO
-  - 環節/光通訊
-updated: 2026-06-29
+  - 環節/光纖與光通訊
+  - 環節/光纖與光通訊
+updated: 2026-08-22
 aliases:
   - Lumentum
   - LITE
@@ -28,7 +29,7 @@ image_status: "待補來源圖"
 
 Lumentum 是光通訊與雷射元件大廠，在 CPO 浪潮中的關鍵角色是**外部雷射源（ELS）供應商**——CPO 系統需較高功率的 CW DFB 雷射（每顆約 350mW）。SemiAnalysis 預期 Lumentum 為 Nvidia 初期 CPO 交換器出貨的**首批主要（甚至唯一）ELS 供應商**。供應鏈位置：光元件/雷射上游，供 CPO 光引擎所需雷射光源。資料來源：SemiAnalysis CPO Book（2026-01-02）。
 
-## 核心技術 / 競爭優勢
+## 核心技術／競爭優勢
 
 - **高功率 CW DFB 雷射**：CPO 用雷射雖被視為相對標準化，但高功率雷射仍有一定護城河；Nvidia CPO 交換器 ELS 首批主要供應商
 - **OCS（Optical Coherent Solution）**：Lumentum 為 Google 最主要的 OCS 供應商，OCS 較傳統可插拔光模組**節省 65% 功耗**，是超大規模資料中心降耗關鍵
@@ -106,8 +107,14 @@ ECTC 2026 論文：Lumentum 與 NVIDIA、[[2330_台積電（市）]] COUPE 平�
 
 ## 相關頁面
 
+- [[技術_光電芯片]]
+- [[時程_2026記憶體與AI催化劑]]
+- [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
+- [[MTSI.US(macom)]]
+- [[TSEM.US(tower semiconductor)]]
+- [[供應鏈_AI光互聯]]
 - [[技術_InP磷化銦]]
-- [[3105_穩懋（市）]]
+- [[3105_穩懋（櫃）]]
 - [[3450_聯鈞（市）]]
 - [[AAOI.US(applied optoelectronics)]]
 - [[CIEN.US(ciena)]]
@@ -119,3 +126,8 @@ ECTC 2026 論文：Lumentum 與 NVIDIA、[[2330_台積電（市）]] COUPE 平�
 - [[技術_光模塊]]
 - [[技術_光電芯片]]
 - [[技術_矽光子（SiPh）]]
+
+### 2026-08-12 更新
+
+- Morgan Stanley 將目標價由 USD 900 上調至 USD 1,000，維持 Equal-weight；FQ2 毛利率受價格、產品組合與良率改善支撐，2027E／2028E EPS 為 USD 21.10／34.64，屬券商 estimate。[[ms_LITE_20260812]]
+- 下一個催化劑仍是 NPO 合約、時程與毛利結構的更正式揭露；公司表示可能要再過數季，故 NPO 放量不可視為已確定事件。[[ms_LITE_20260812]]

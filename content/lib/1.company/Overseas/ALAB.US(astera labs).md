@@ -85,3 +85,7 @@ related_companies:
 - **vs Credo（CRDO）**：兩者都在 AEC 互連；CRDO 在銅纜（AEC）更強，ALAB 在 PCIe switch 無競爭者
 
 資料來源：[[Semiconductors 260615 MS public company bus tour ALAB MRVL INTC]]、[[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]、[[Optical Networking 260312 Citrini AI connectivity optics]]
+
+## 相關頁面
+
+- [[SMTC.US(semtech)]]

@@ -16,7 +16,6 @@ aliases:
   - GF
   - GF Fotonix
   - Fotonix
-  - GLOBALFOUNDRIES
 related_companies:
   - "[[GLW.US(corning)]]"
   - "[[COHR.US(coherent)]]"
@@ -32,7 +31,7 @@ GlobalFoundries（GF）是全球第三大晶圓代工廠，以特殊製程（RF�
 
 資料來源：[[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（2026-06-29）
 
-## 核心技術 / 競爭優勢
+## 核心技術／競爭優勢
 
 ### GF Fotonix × Corning GLASSBRIDGE 可拆連接器（ECTC 2026）
 
@@ -102,5 +101,7 @@ flowchart LR
 
 ## 相關頁面
 
+- [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
+- [[TSEM.US(tower semiconductor)]]
 - [[INTC.US(intel)]]
 - [[技術_玻璃基板]]

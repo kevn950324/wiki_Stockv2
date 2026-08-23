@@ -120,3 +120,8 @@ SSE  = ZTNA + SWG + CASB（+ 選配：CASB, DLP, RBI, FWaaS）
 - [[報告_JPMorgan_資安_20260427]] — JPM，AI 時代資安，2026-04-27
 - [[報告_BMO_資安可觀測性_20260612]] — BMO，資安可觀測性（Zenith Live 26 ZS SASE 新品），2026-06-12
 - [[報告_Truist_MythosAndDaybreak_20260608]] — Truist，Agentic Security Stack，2026-06-08
+
+## 相關頁面
+
+- [[FTNT.US(fortinet)]]
+- [[分析_DevSecOps_AI安全衝擊]]

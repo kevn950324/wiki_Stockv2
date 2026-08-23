@@ -63,7 +63,7 @@ related_companies:
 - AEC需求產值估~US$23億；Credo為唯一供應商
 - 每GPU對應AEC：設計依存，實際2-12條（理論最高18-24條）
 
-## 財務數據
+## EPS 記錄
 
 | 項目 | FY24A | FY25A | FY26E（凱基） | FY27E（凱基） |
 |------|-------|-------|------------|------------|
@@ -135,4 +135,9 @@ related_companies:
 - [[技術_光互連]]
 - [[AVGO.US(broadcom)]]（競爭者，CPO主要玩家）
 - [[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]（TD Cowen 啟動覆蓋）
-- [[報告_UBS_貿聯-KY_CredoNDR_20260707]]（2026-07-07，ALC/AEC 最新進展）
+- 報告_UBS_貿聯-KY_CredoNDR_20260707（2026-07-07，ALC/AEC 最新進展）
+
+## 相關頁面
+
+- [[ALAB.US(astera labs)]]
+- [[SMTC.US(semtech)]]

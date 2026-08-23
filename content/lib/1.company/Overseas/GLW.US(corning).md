@@ -35,7 +35,7 @@ Corning（康寧，NYSE: GLW）是全球最大的特殊玻璃製造商，業務�
 
 資料來源：[[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（2026-06-29）；[[技術_玻璃基板]]
 
-## 核心技術 / 競爭優勢
+## 核心技術／競爭優勢
 
 ### GLASSBRIDGE 可拆光連接器（ECTC 2026）
 

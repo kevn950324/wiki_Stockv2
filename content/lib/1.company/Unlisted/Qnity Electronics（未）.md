@@ -9,6 +9,8 @@ tags:
   - 技術/聚合物波導
   - 技術/CPO
   - 產業/光通訊
+  - 環節/光纖與光通訊
+  - 環節/光纖與光通訊
 updated: 2026-06-29
 aliases:
   - Qnity
@@ -30,7 +32,7 @@ ECTC 2026 發表 BCB 乾膜多模聚合物波導研究（Ross Johnson et al.）�
 
 資料來源：[[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（2026-06-29）
 
-## 核心技術 / 競爭優勢
+## 核心技術／競爭優勢
 
 ### BCB 乾膜多模聚合物波導（ECTC 2026）
 

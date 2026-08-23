@@ -70,7 +70,7 @@ aliases:
 | 傳輸懲罰 | <5 dB | <10 dB | <5 dB |
 | 工作波段 | O-band + C-band | **C-band 限定** | O-band + C-band |
 
-**結論**：MRM 是 3D-CPO 架構唯一相容的矽調變器，因其尺寸極小（15µm）且自帶 WDM 多工能力，是 CPO 光引擎整合的關鍵技術路線。（來源：[[報告_矽光子發展趨勢技術演進與機會_20260522]]）
+**結論**：MRM 是 3D-CPO 架構唯一相容的矽調變器，因其尺寸極小（15µm）且自帶 WDM 多工能力，是 CPO 光引擎整合的關鍵技術路線。（來源：[[20260522_矽光子發展趨勢：技術演進與機會]]）
 
 ### 代工平台格局（2026）
 
@@ -161,7 +161,7 @@ aliases:
 | **CW 雷射（SiPh CPO）** | **1,000m** | **50** | **5** | 難 | 高 |
 | EML | 40,000m | 100 | 4.5 | 中 | 中 |
 
-MicroLED CPO 為短距（<50m）低成本方案，適合伺服器內部 scale-up 光互連；SiPh CW 雷射 CPO 適合跨機架 scale-out（1,000m）。（來源：[[報告_矽光子發展趨勢技術演進與機會_20260522]]）
+MicroLED CPO 為短距（<50m）低成本方案，適合伺服器內部 scale-up 光互連；SiPh CW 雷射 CPO 適合跨機架 scale-out（1,000m）。（來源：[[20260522_矽光子發展趨勢：技術演進與機會]]）
 
 ## 關鍵廠商更新
 
@@ -169,7 +169,7 @@ Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重�
 
 ## 來源
 
-- [[報告_矽光子發展趨勢技術演進與機會_20260522]]（知識力科技 張勤煜，臺大電機博士，2026-05-22；MRM vs MZM 比較、CPO 滲透率 TrendForce、SiPh 生態系圖、MicroLED vs CW 雷射 CPO）
+- [[20260522_矽光子發展趨勢：技術演進與機會]]（知識力科技 張勤煜，臺大電機博士，2026-05-22；MRM vs MZM 比較、CPO 滲透率 TrendForce、SiPh 生態系圖、MicroLED vs CW 雷射 CPO）
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（STT 20 篇，2026-06-29）
 - [[技術_光互連]]（全球 SiPh 代工格局）
 - [[Yuanta Tower Semiconductor silicon photonics AI datacenter capacity reservation 260701]]（元大，2026-07-01；Tower SiPh 業務深度）
@@ -178,6 +178,8 @@ Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重�
 
 ## 相關頁面
 
+- [[供應鏈_AI光互聯]]
+- [[分子尼奧（私）]]
 - [[技術_InP磷化銦]]
 - [[TSEM.US(tower semiconductor)]]
 - [[KYOCERA（未）]]
@@ -186,3 +188,8 @@ Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重�
 - [[Polariton（未）]]
 - [[Sumitomo Electric（未）]]
 - [[技術_玻璃基板]]
+## 本次 ingest 更新（2026-08-22）
+
+- DIGITIMES 報告整理矽光子晶片業者的競合策略，重點從單一光元件競爭轉向光電整合、共同封裝與 AI 互連平台競爭；來源仍屬產業觀察，信心中。
+- 需持續追蹤 CPO、光引擎、雷射與封裝測試的分工變化，避免把「合作夥伴」誤寫成已確認供應商。
+- 來源：[[矽光子晶片業者的競合策略 - DIGITIMES]]。

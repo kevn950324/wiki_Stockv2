@@ -13,7 +13,6 @@ tags:
 updated: 2026-07-07
 aliases:
   - Okta
-  - OKTA
 related_companies:
   - "[[SAIL.US(sailpoint)]]"
   - "[[CRWD.US(crowdstrike)]]"
@@ -116,3 +115,7 @@ BMO（Keith Bachman）在 2026 年初升評後，將 OKTA 列為**首選（Top P
 - [[報告_UBS_Gartner資安峰會_20260609]] — UBS，Gartner 安全峰會，2026-06-09
 - [[報告_BMO_資安可觀測性_20260612]] — BMO，資安可觀測性（OKTA Top Pick），2026-06-12
 - [[報告_Jefferies_資安_20260416]] — Jefferies VAR Survey（Agentic Identity），2026-04-16
+
+## 相關頁面
+
+- [[分析_AI驅動資安支出2026]]

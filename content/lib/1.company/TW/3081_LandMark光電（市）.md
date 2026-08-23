@@ -1,8 +1,19 @@
 ---
 title: "3081_LandMark光電（市）"
-aliases: ["LandMark", "LandMark Optoelectronics", "3081"]
-tags: ["公司/TW", "光通訊", "磊晶", "InP", "CW_Laser", "SiPh", "CPO"]
+aliases:
+  - LandMark
+  - LandMark Optoelectronics
+  - "3081"
+tags:
+  - 公司/LandMark光電
+  - 產業/光通訊
+  - 環節/磊晶
+  - 技術/InP
+  - 技術/CW_Laser
+  - 技術/SiPh
+  - 技術/CPO
 updated: 2026-06-29
+related_companies: []
 image_status: "待補來源圖"
 ---
 
@@ -49,7 +60,7 @@ InP 底材 → LandMark 自有磊晶（MOCVD/MBE）→ 晶圓代工（自有）�
 
 `[待補來源圖]` 需官方 IR 光纖元件或模塊實拍佐證，現有研究筆記不足以支撐產品示意圖。
 
-## 財務數據
+## EPS 記錄
 
 ### EPS 預估（Macquarie 2025-11）
 
@@ -116,7 +127,14 @@ GS 光互連供應鏈全景圖（`Optical Networking 260417 GS AI scale out scal
 
 ## 來源報告
 
-- [[報告_Macquarie_3081LandMark_20251113]]（Outperform，TP NT$480）
+## Goldman Sachs 2026-07-28 更新
+
+- Goldman Sachs 維持買進，報告頁面列示 12 個月目標價 NT$4,307；以 2029E EPS 與 61 倍 P/E 折現估值，屬券商 estimate。
+- LandMark 已取得擴產核准，布局 InP epiwafer 與 CW Laser，並持續受惠 SiPh 光模組需求；產能與客戶認證進度為主要驗證點。
+
+來源：[[gs 3081]]（Goldman Sachs，2026-07-28）。
+
+- 報告_Macquarie_3081LandMark_20251113（Outperform，TP NT$480）
 - [[Optical Networking 260417 GS AI scale out scale up]]（Goldman Sachs，2026-04-17；InP epiwafer 供應鏈位置確認）
 
 ## 相關頁面

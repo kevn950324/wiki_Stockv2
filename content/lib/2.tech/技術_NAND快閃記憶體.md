@@ -71,8 +71,8 @@ flowchart LR
 
 ## 產業動能
 - **KV Cache 帶動 eSSD**：[[大和 韓國記憶體產業電話會議摘要]]（2026-07-02）指 KV SSD 由三星、美光為主，TLC 為關鍵，大容量 QLC eSSD 快速增加。
-- **Boot Drive 標準化**：[[260702_ms_nand-industry]]（2026-07-02）指 [[SIMO.US(silicon_motion)]] 佔 BlueField-3 boot drive 控制器 100%；Vera Rubin 標準化後 BlueField-4 加入 [[8299_群聯（櫃）]]、[[2379_瑞昱（市）]]。
-- **利基 SLC/MLC 緊俏**：MS 看好 [[2337_旺宏（市）]]（Top Pick，SLC/MLC）、[[2344_華邦電（市）]]（SLC）；3Q 漲 50–60%，enterprise HDD 轉用高密度 SLC。
+- **Boot Drive 標準化**：[[260702_ms_nand-industry]]（2026-07-02）指 SIMO.US(silicon_motion) 佔 BlueField-3 boot drive 控制器 100%；Vera Rubin 標準化後 BlueField-4 加入 [[8299_群聯（櫃）]]、[[2379_瑞昱（市）]]。
+- **利基 SLC/MLC 緊俏**：MS 看好 [[2337_旺宏（市）]]（Top Pick，SLC/MLC）、[[2344_華邦電子（市）]]（SLC）；3Q 漲 50–60%，enterprise HDD 轉用高密度 SLC。
 - **模組廠模式改變**：LTA 使記憶體高檔維持 3–5 年，低成本庫存耗盡後模組廠毛利趨穩（[[分析_記憶體超級循環2026]]）。
 
 ## 概念股 / 族群
@@ -81,9 +81,9 @@ flowchart LR
 | NAND 原廠 | [[285A.JP(kioxia)]] | 純 NAND、hybrid bonding | MS 日本 Top Pick |
 | NAND 原廠 | [[SNDK.US(sandisk)]] | QLC eSSD、DC 轉型 | datacenter 占比拉升 |
 | NAND 原廠 | [[MU.US(micron)]]、[[005930.KR(samsung)]] | KV SSD 主供 | ASP、eSSD 產能 |
-| SSD 控制器 | [[SIMO.US(silicon_motion)]] | boot drive/eSSD 控制器 | MonTitan eSSD、BlueField |
+| SSD 控制器 | SIMO.US(silicon_motion) | boot drive/eSSD 控制器 | MonTitan eSSD、BlueField |
 | SSD 控制器 | [[8299_群聯（櫃）]] | 模組 + 控制器 | Kioxia dummy die 支援、3Q26 高峰 |
-| 利基 NAND | [[2337_旺宏（市）]]、[[2344_華邦電（市）]] | SLC/MLC | 資料中心/HDD 拉貨 |
+| 利基 NAND | [[2337_旺宏（市）]]、[[2344_華邦電子（市）]] | SLC/MLC | 資料中心/HDD 拉貨 |
 
 > [!note] 信心水準
 > Boot drive 控制器市占、SLC/MLC 緊俏、eSSD 漲價來自 MS 2026-07-02 產業報告與大和賣方會議，屬賣方研判與 channel check；個別台廠進入特定 NVIDIA 平台、MonTitan 客戶數仍待公司公告確認。台廠控制/利基股（慧榮 SIMO、群聯 8299、旺宏 2337、華邦 2344、瑞昱）本批尚未建個股頁，先整理於 [[供應鏈_記憶體]]。
@@ -101,8 +101,11 @@ flowchart LR
 ## 來源
 - [[260702_ms_nand-industry]] — 摩根士丹利，2026-07-02
 - [[大和 韓國記憶體產業電話會議摘要]] — 大和，2026-07-02
-- [[報告_統一證_記憶體技術概論與大廠現況分析_20260520]] — 統一證券，2026-05-20（3D NAND Roadmap Ver.MN-2509-01；廠商製程節點路線圖）
+- [[20260521_0807_統一證to群益投信_記憶體技術概論與大廠現況分析_260520]] — 統一證券，2026-05-20（3D NAND Roadmap Ver.MN-2509-01；廠商製程節點路線圖）
 
 ## 相關頁面
+
+- [[技術_邊緣AI]]
+- [[分析_CXMT_DRAM_IPO分析]]
 - [[供應鏈_記憶體]]
 - [[分析_記憶體超級循環2026]]

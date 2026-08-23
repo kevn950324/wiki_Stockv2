@@ -100,3 +100,7 @@ Truist（2026-06-08）將 SailPoint 定位為「Agentic AI 時代 Identity Secur
 - [[報告_Truist_MythosAndDaybreak_20260608]] — Truist，Rise of the Models，2026-06-08
 - [[報告_BMO_資安可觀測性_20260612]] — BMO，資安可觀測性，2026-06-12
 - [[報告_Jefferies_資安_20260416]] — Jefferies VAR Survey，2026-04-16
+
+## 相關頁面
+
+- [[分析_AI驅動資安支出2026]]

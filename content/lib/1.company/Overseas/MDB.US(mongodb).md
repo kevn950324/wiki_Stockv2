@@ -28,7 +28,7 @@ MongoDB（MDB.US）是全球領先的文件資料庫（Document Database）廠�
 
 ---
 
-## 核心技術 / 競爭優勢
+## 核心技術／競爭優勢
 
 - **JSON 原生架構**：非結構化資料處理能力優於關聯式資料庫，更適合 Agent 開發（動態 schema、Transactional Memory）
 - **Atlas Vector Search / Voyage AI**：語意搜尋 + embedding 能力，Voyage AI Embeddings 已進入 Public Preview
@@ -39,7 +39,7 @@ MongoDB（MDB.US）是全球領先的文件資料庫（Document Database）廠�
 
 ---
 
-## 財務摘要
+## EPS 記錄
 
 ### 近期季報
 
@@ -77,7 +77,7 @@ MongoDB（MDB.US）是全球領先的文件資料庫（Document Database）廠�
 
 ---
 
-## 時間軸（關鍵事件）
+## 時間軸
 
 | 時間 | 事件 | 重要性 | 備註 |
 |------|------|--------|------|

@@ -6,7 +6,7 @@ tags:
   - 技術/CPO
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-07-02
+updated: 2026-08-22
 ---
 
 # 供應鏈_CPO
@@ -127,7 +127,7 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 |------|------|------|
 | [[2360_致茂（市）]] | Insertion 3/4 主導 | Insertion 1 ATE 驗證中；Insertion 3 ATE + 光學對準切入確認；Insertion 4 FT/SLT 核心強項（高功耗 3,000W 能力）|
 | [[6515_穎崴（市）]] | 全環節卡位 | CPO 測試三環節：① Die Level 探針卡、② Package Level 獨家 Double Sided Probing System、③ Module Level HyperSocket；公司認為 2028 年是 CPO 確定量產年；CTBC TP NT$10,000（2026-07-01）|
-| [[6223_旺矽（櫃）]] | Insertion 1-3 探針台 | Insertion 1 驗證中、Insertion 2 雙面探針台認證中、Insertion 3 確認；「CPO 不論誰贏，旺矽都受益」；MS OW，2025–2028E EPS CAGR 105% |
+| [[6223_旺矽（櫃）]] | Insertion 1-3 探針台 | Insertion 1 驗證中、Insertion 2 雙面探針台認證中、Insertion 3 確認；MS 2026-08-04 稱 Insertion 3 預計 4Q26 出貨、Insertion 2 可能 2027 年中開始；「CPO 不論誰贏，旺矽都受益」 |
 | [[6710_汎銓（市）]] | Insertion 3 光通量檢測 | IR-OM 光損偵測裝置（漏光偵測與精準定位）；與光焱科技並列 |
 
 測試設備（未建頁）：Keysight（高速測試龍頭）、Teradyne（NVDA 認證領先、ficonTEC 夥伴）、FormFactor（晶圓探針，光學對準模組）、Advantest、Anritsu、Multilane、Hon Precision 鴻勁（AI/HPC 終測 handler）、光焱科技（Insertion 3 光通量，未建頁）。
@@ -138,6 +138,7 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 - **雷射 ELS 短期由 Lumentum 主導**，Coherent 第二、中系廠商伺機切入標準化品項。
 - **FAU/被動件**：精密對位與技術人力是門檻；台廠（上詮、FOCI）與中、日（TFC、Senko）並進。
 - **測試是 picks-and-shovels**：系統整合良率是 CPO 最大瓶頸，測試需求領先量產。
+- **NPO／Pluggable CPO 成為分流路線**：[[報告_SemiAnalysis_NPO光互連接棒_20260713]] 認為，將可更換 OE 置於 ASIC 鄰近的 NPO 可降低 attach yield、維修與供應商鎖定風險；相對地，它仍需處理約 150 mm 電通道、socket 與 OE 量產可靠度。AWS、Meta、NVIDIA 等個別平台採用敘述皆屬該報告模型，須以客戶設計定案與實際驗證為準。
 
 ## 觀察重點（投資視角）
 
@@ -148,6 +149,7 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 
 ## 相關頁面
 
+- [[供應鏈_AI光互聯]]
 - [[6442_光聖（市）]]
 - [[7769_鴻勁精密（市）]]
 - [[7856_漢測（興）]]
@@ -164,7 +166,7 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 - [[6710_汎銓（市）]]（Insertion 3 光通量檢測）
 - [[2455_全新（市）]]
 - [[3081_LandMark光電（市）]]
-- [[3105_穩懋（市）]]
+- [[3105_穩懋（櫃）]]
 - [[3450_聯鈞（市）]]
 - [[3711_日月光投控（市）]]
 - [[APH.US(amphenol)]]
@@ -173,11 +175,20 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 
 ## 來源
 
+- [[memo_OCPAPAC_CPO_NPO_XPO專家會議_20260820]]（OCP APAC panel，2026-08-20；CPO／NPO／XPO 路線分化、409.6T forcing function、25.6T+ CPO 標準化）
 - [[報告_金正禾論壇_InP晶圓代工CPO_20260130]] — 金正禾論壇（CPO 供應鏈前段圖），2026-01-30
 - [[報告_金正禾論壇_CPO光電共封裝_20260325]] — 金正禾論壇（供應鏈整合演進、ELS 門檻），2026-03-25
 - [[報告_Semianalysis_CPO_20260102]]（CPO Book Part 5：Nvidia CPO 供應鏈，2026-01-02）
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（CPO 個股 read-across，2026-06-09）
+- [[報告_SemiAnalysis_NPO光互連接棒_20260713]]（SemiAnalysis，2026-07-13；NPO／Pluggable CPO 的架構取捨與平台情境）
 - [[報告_GS_大立光3008_20260701]]（GS，大立光 CPO 鏡頭擴張，2026-07-01）
 - [[報告_MS_測試耗材_旺矽6223_穎崴6515_20260630]]（MS，測試耗材 OW，旺矽/穎崴 CPO 測試布局，2026-06-30）
 - [[報告_CTBC_穎崴6515_20260701]]（CTBC，穎崴 CPO 三環節卡位，TP NT$10,000，2026-07-01）
+- [[報告_GoldmanSachs_旺矽6223_20260727]]（Goldman Sachs，旺矽 MEMS 擴產與 CPO 展望，2026-07-27）
+- [[報告_MorganStanley_測試耗材_旺矽6223_穎崴6515_20260804]]（Morgan Stanley，CPO insertion 測試進度，2026-08-04）
 - [[光測試期中產業報告]]（SRS，Insertion 1-4 流程、設備廠商、萬潤/致茂/旺矽/汎銓台廠布局，2026-07-01）
+
+## 本次 ingest 更新
+
+- [[CPO時代來臨，AI_高速互連中長期技術演進與挑戰_DIGITIMES]]（DIGITIMES，2026-08-21）補充 51.2T CPO、3.2T 光引擎、800G／1.6T 交換器升速，以及封裝、熱管理、陣列測試與標準化的量產瓶頸。
+- [[Scale全棧式方案成形，伺服器連網晶片業者競爭升級_DIGITIMES]]（DIGITIMES，2026-08-21）將 AI Fabric 供應鏈從 GPU／交換器 ASIC 擴展至 SerDes、DSP、CPO、客製 ASIC 與跨機櫃光互連；平台採用仍屬研究整理。

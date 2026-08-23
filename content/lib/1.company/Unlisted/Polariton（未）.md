@@ -9,6 +9,8 @@ tags:
   - 技術/矽光子
   - 技術/CPO
   - 產業/光通訊
+  - 環節/光纖與光通訊
+  - 環節/光纖與光通訊
 updated: 2026-06-29
 aliases:
   - Polariton

@@ -95,3 +95,8 @@ Truist（2026-06-08）的 Agentic Security Stack 中，NET 是「AI Gateway & Ed
 
 - [[報告_Truist_MythosAndDaybreak_20260608]] — Truist，Rise of the Models（Cloudflare Buy），2026-06-08
 - [[報告_Jefferies_資安_20260416]] — Jefferies VAR Survey（NET 相對強勁），2026-04-16
+
+## 相關頁面
+
+- [[分析_AI驅動資安支出2026]]
+- [[技術_SASE]]

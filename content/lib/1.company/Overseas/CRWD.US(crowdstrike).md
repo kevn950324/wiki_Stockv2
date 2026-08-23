@@ -17,7 +17,7 @@ aliases:
 related_companies:
   - "[[PANW.US(palo alto networks)]]"
   - "[[ZS.US(zscaler)]]"
-  - "[[S.US(sentinelone)]]"
+  - "S.US(sentinelone)"
   - "[[DDOG.US(datadog)]]"
 ---
 
@@ -122,7 +122,7 @@ QuiltWorks 是 CRWD 於 2026 年 4 月 23 日發布的業界聯盟，整合 Anth
 | 關係 | 公司 | 備註 |
 |---|---|---|
 | 主要競品 | [[PANW.US(palo alto networks)]] | 雙雄格局，同為 Glasswing 創始夥伴，PANW 更偏平台整合 |
-| 主要競品（終端） | [[S.US(sentinelone)]] | EDR 直接競品，SentinelOne Purple AI |
+| 主要競品（終端） | S.US(sentinelone) | EDR 直接競品，SentinelOne Purple AI |
 | 相關技術 | [[技術_可觀測性]] | CRWD Falcon 與 DDOG Observability 整合 |
 | AI 模型合作夥伴 | Anthropic（未建頁） | Glasswing + QuiltWorks |
 | AI 模型合作夥伴 | OpenAI（未建頁） | QuiltWorks，TAC |
@@ -130,7 +130,7 @@ QuiltWorks 是 CRWD 於 2026 年 4 月 23 日發布的業界聯盟，整合 Anth
 
 ---
 
-## 時間軸 / 關鍵催化劑
+## 時間軸
 
 ```mermaid
 gantt
@@ -158,3 +158,15 @@ gantt
 - [[報告_BMO_資安可觀測性_20260612]] — BMO，資安可觀測性，2026-06-12
 - [[報告_Jefferies_資安_20260416]] — Jefferies VAR Survey，2026-04-16
 - [[報告_Jefferies_資安_20260427]] — Jefferies 小型資安股 Preview，2026-04-27
+
+## 相關頁面
+
+- [[FTNT.US(fortinet)]]
+- [[NET.US(cloudflare)]]
+- [[OKTA.US(okta)]]
+- [[RBRK.US(rubrik)]]
+- [[SAIL.US(sailpoint)]]
+- [[分析_AI驅動資安支出2026]]
+- [[分析_DevSecOps_AI安全衝擊]]
+- [[技術_EDR與XDR]]
+- [[技術_SASE]]

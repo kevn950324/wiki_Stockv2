@@ -94,7 +94,7 @@ EML 方案因每通道各自含調製雷射，BOM 高出約 $110（+42%）；SiP
 |------|------|------|--------|
 | ELS / InP Laser IDM | [[LITE.US(lumentum)]] | Nvidia 首批 CPO ELS 主供、VCSEL/EEL 整合 | CPO 時程下修影響 2H26 ELS 出貨；長期受益於 ELS 需求爆發 |
 | ELS / InP Laser IDM | [[COHR.US(coherent)]] | ELS 第二供、德州 6 吋 InP 擴產、PIC/EML 全線 | NVIDIA $20 億入股確認長期供應地位 |
-| InP 磊晶（台灣）| [[3105_穩懋（市）]] | InP 磊晶代工（GaAs 為主，InP 待確認）| CPO 時程若 2027 放量，InP 磊晶訂單能否外溢給穩懋 |
+| InP 磊晶（台灣）| [[3105_穩懋（櫃）]] | InP 磊晶代工（GaAs 為主，InP 待確認）| CPO 時程若 2027 放量，InP 磊晶訂單能否外溢給穩懋 |
 | InP 磊晶（台灣）| [[4971_IET-KY（市）]] | InP 磊晶，TSMC COUPE 上游 | 與聯亞光電並列布局 TSMC COUPE 上游 |
 | SiPho 代工（搶 InP 場景）| [[2330_台積電（市）]] | COUPE PIC N65：矽光取代 InP 調製器 | TSMC COUPE 推進節奏決定 InP EML 需求能否被 SiPho 局部替代 |
 
@@ -157,5 +157,5 @@ gantt
 - [[COHR.US(coherent)]]
 - [[NVDA.US(nvidia)]]
 - [[AVGO.US(broadcom)]]
-- [[3105_穩懋（市）]]
+- [[3105_穩懋（櫃）]]
 - [[4971_IET-KY（市）]]

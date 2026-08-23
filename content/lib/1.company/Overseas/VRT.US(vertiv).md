@@ -9,15 +9,15 @@ tags:
   - 產業/AI伺服器
   - 技術/800VDC
   - 環節/電源
-updated: 2026-06-26
+updated: 2026-08-14
 aliases:
   - Vertiv
   - 維諦
   - VRT
-  - power rack
   - UPS
 related_companies:
   - "[[NVDA.US(nvidia)]]"
+  - "[[GEV.US(ge_vernova)]]"
 image_status: "待補來源圖"
 ---
 
@@ -27,7 +27,7 @@ image_status: "待補來源圖"
 
 Vertiv 是資料中心電源與熱管理（含 UPS、power rack、配電、液冷）的領導廠商，是 AI 機櫃供電架構轉換（含 800VDC / HVDC sidecar）的核心受惠者之一。營收驅動來自 AI 資料中心的電力與散熱基礎設施擴張。供應鏈位置：資料中心電力鏈核心廠商，服務 hyperscaler 與 Neocloud 的機櫃級供電。資料來源：SemiAnalysis 800VDC note（2026-06-09）。
 
-## 核心技術 / 競爭優勢
+## 核心技術／競爭優勢
 
 - **電源機櫃 / sidecar 轉型**：無論匯流排是 400V 或單端 800V，sidecar/power rack 轉型照走，使 Vertiv 對架構選擇相對中性。
 - **Computex 2026 展示 grey-space power rack**：把 PSU 與 PDU 移到 IT room 外，保留珍貴的 white space，獲 SemiAnalysis 正面評價。
@@ -68,4 +68,38 @@ Vertiv 是資料中心電源與熱管理（含 UPS、power rack、配電、液�
 
 ## 相關頁面
 
+- [[分析_AI資料中心供電與電熱整合]]
 - [[供應鏈_AI伺服器散熱]]
+
+
+## 2026Q2 電話會議更新（大和，2026-08-10）
+
+Q2 北美 organic growth 為 20%，低於原 guidance 30%，主因 SmartRun／One Core 等整合系統任一 point product 缺件即延後整套出貨。公司表示 7 月已見改善，下半年北美 guidance 隱含約 40%，全年 organic growth guidance 為 30–32%（management guidance，信心：中）。
+
+![[報告_大和_Vertiv電話會議摘要_20260810_001.png]]
+
+*圖（大和，2026-08-10）：Vertiv 預製化基礎建設方案；多項 power／thermal point products 整合交付，使專案協調與供應鏈同步成為營收認列瓶頸。*
+
+![[報告_大和_Vertiv電話會議摘要_20260810_002.png]]
+
+*圖（Vertiv／大和，2026-08-10）：資料中心高壓供電需求由 rack、pod 演進至 data hall；公司預期 AC、DC sidecar 與完整 800VDC 長期並存。*
+
+| 時間 | 事件 | 類型 | 重要性 | 備註 |
+|------|------|------|--------|------|
+| 2026H2 | 北美 organic growth 修復至約 40%（guidance） | 營運修復 | ⭐⭐⭐ | 產能、供應商認證、工程與 PMO 強化 |
+| 2027 | rack／pod 層級 HVDC 設計驗證 | 技術驗證 | ⭐⭐ | 放量由次世代晶片規格主導 |
+| 2028+ | data hall 級 800VDC／中伏 UPS／SST | 規格升級 | ⭐⭐⭐ | 每 MW content 可能提高 |
+
+> [!warning] 風險更新
+> - 大型整合方案具「缺一件、整套延遲」特性；修復若不如 guidance，營收認列仍可能後移。
+> - 800VDC、SST 與 two-phase liquid cooling 尚在驗證，實際採用由晶片功耗與客戶架構決定。
+
+- [[報告_大和_Vertiv電話會議摘要_20260810]] — 大和 sales note，2026-08-10
+
+- 催化劑時程：[[時程_2026記憶體與AI催化劑]]
+
+### 2026-08 電熱整合研究更新
+
+- 永豐投顧 2026-08-23 將 Vertiv 定位為資料中心電力、熱管理、模組化建置與服務整合度最高的純資料中心平台之一；每 MW 可服務市場估約 US$3.25–3.75M，屬券商整理與估計，信心：中。
+- 研究指出 AI 機櫃功率由 140kW 走向 Vera Rubin Ultra 約 600kW，供電與散熱需作為同一系統設計；Vertiv 受惠於電熱整合，但大型專案仍有「缺一件、整套延遲」風險。
+- 來源：[[Sinopac_電力設備]]（永豐投顧，2026-08-23）。

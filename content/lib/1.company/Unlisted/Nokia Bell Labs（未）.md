@@ -9,6 +9,8 @@ tags:
   - 技術/TFLN
   - 技術/CPO
   - 產業/光通訊
+  - 環節/光纖與光通訊
+  - 環節/光纖與光通訊
 updated: 2026-06-29
 aliases:
   - Nokia Bell Labs
@@ -30,7 +32,7 @@ Nokia 上市公司（NYSE: NOK；HEL: NOKIA）；Bell Labs 為旗下非獨立上
 
 資料來源：[[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（2026-06-29）
 
-## 核心技術 / 競爭優勢
+## 核心技術／競爭優勢
 
 ### TFLN CPO 發射器（ECTC 2026）
 

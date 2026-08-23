@@ -11,14 +11,16 @@ tags:
   - 環節/AI訓練
   - 環節/API服務
 maturity: private
-updated: 2026-07-09
+updated: 2026-08-12
 aliases:
   - Anthropic
   - Claude
   - Anthropic PBC
 related_companies:
-  - "[[AMZN.US(amazon)]]"
+  - "AMZN.US(amazon)"
   - "[[GOOGL.US(alphabet)]]"
+  - "[[AMD.US(amd)]]"
+  - "[[META.US(meta)]]"
 ---
 
 # Anthropic（未）
@@ -90,7 +92,7 @@ Anthropic 是美國 AI 安全公司，旗下 **Claude** 模型系列為主力產
 | Claude Sonnet 4.6 | $3 | $15 | 當前版本 |
 | Claude Haiku 4.5 | $1 | $5 | 低成本高速 |
 
-## 財務概況（SemiAnalysis 估算）
+## EPS 記錄
 
 - **3Q2026 Non-GAAP 淨利**：>$1B（報告標題直接揭示）
 - **ARR（2026-07）**：>$60B（2025 年底 $9B，+6-7x YoY）
@@ -117,12 +119,48 @@ Anthropic 是美國 AI 安全公司，旗下 **Claude** 模型系列為主力產
 - **模型領先地位能否持續**：開源（Meta LLaMA 等）及中系模型仍在追趕
 - **頁面 7-21 解析不完整**：原報告財務細節（SemiAnalysis Tokenomics Model 深度數字）因 PDF 解析 OOM 遺失，敘述數字為文字層資訊，圖表為估算
 
+## Meta-Anthropic 算力夥伴關係（2026 年潛在協議）
+
+SemiAnalysis（2026-07-02）獨家報導：**Meta 正處於與 Anthropic 洽談私有 Claude 實例的最終階段**，模式類似 AWS Bedrock。可能包含：
+1. Meta 內部員工使用（安全隔離的私有實例）
+2. Meta 對外銷售 Claude API（類似 Bedrock TaaS）
+3. Meta 整合 Claude 進廣告/行銷 SaaS 應用
+
+> [!warning] 資料衝突風險
+> Anthropic Claude Code 平台目前 Meta 是約 35% 客戶（SemiAnalysis Tokenomics 估計）；但「私有算力換托管」計畫若實現，意義遠大於普通企業訂閱關係。此資訊目前僅 SemiAnalysis 一家，claim 類型 exclusive/rumor，信心低。
+
+SpaceX 方面，SpaceX 已簽署向 Anthropic 提供 $26B/yr GPU 算力的合約（SemiAnalysis 2026-07-09 提及），SpaceX compute deal 結構：3 年但雙方 90 天可取消。
+
+來源：報告_SemiAnalysis_Meta算力Neocloud策略_20260702
+
+## 企業 Token 消費（2026 年企業調查）
+
+SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
+
+| 指標 | 數字 |
+|------|------|
+| Meta 員工月消費（list price 估算）| ~$50,000/year/employee |
+| Meta 2 月份 token 消費 | 70T/月 |
+| Anthropic Claude Code 平均開發者消費 | $150-250/月 |
+| Anthropic Claude Code 前 10% 用戶 | >$30/day |
+| Anthropic ARR 來自 coding 用途 | >70%（含 OpenAI，coding > 70%）|
+| 99th 百分位 Ramp 客戶年花費 | $90,000/employee |
+| 中位 Fortune 500 企業花費 | < $100/employee/yr |
+
+企業 token 預算上限範圍：$250-$4,000/月（依職級/產業而異）。SemiAnalysis 結論：tokenmaxxing 衝擊被媒體誇大，**2H26 AI Lab API 業務無材料性風險**（estimate，信心中）。
+
+來源：報告_SemiAnalysis_企業Token預算調查_20260630
+
 ## 來源
 
-- [[報告_SemiAnalysis_Anthropic_IPO財務分析_20260708]]（SemiAnalysis，Joey Brookhart/Crystal Huang/Dylan Patel，2026-07-08；Anthropic 3Q2026 non-GAAP 淨利 >$1B；ARR $60B+；融資歷史；Claude Code 7.3% GitHub commits；模型定價；IPO 背景）
+- 報告_SemiAnalysis_Anthropic_IPO財務分析_20260708（SemiAnalysis，Joey Brookhart/Crystal Huang/Dylan Patel，2026-07-08；Anthropic 3Q2026 non-GAAP 淨利 >$1B；ARR $60B+；融資歷史；Claude Code 7.3% GitHub commits；模型定價；IPO 背景）
+- 報告_SemiAnalysis_Meta算力Neocloud策略_20260702（SemiAnalysis，2026-07-02；Meta-Anthropic 私有 Claude 潛在協議）
+- 報告_SemiAnalysis_企業Token預算調查_20260630（SemiAnalysis，2026-06-30；50+ 企業 token 消費調查）
 
 ## 相關頁面
 
-- [[AMZN.US(amazon)]]（Amazon $4B 戰略投資者）
+- [[SPCX.US(spacex)]]
+- [[技術_RL訓練系統_GRPO]]
+- AMZN.US(amazon)（Amazon $4B 戰略投資者）
 - [[GOOGL.US(alphabet)]]（Google $2B 戰略投資者；模型部署 GCP）
-- [[SPCX.US(spacex)]]（Anthropic 可能向 SpaceX/Meta 採購算力）
+- [[META.US(meta)]]（潛在私有 Claude 實例夥伴；算力客戶）

@@ -81,3 +81,7 @@ DDOG 本質上是 AI 時代的「數位世界控制塔」，ARR 已突破 $4B，
 - [[DDOG 260211_MS 4Q25 Results]]
 - [[DDOG 260508_MS 1Q26 Results]]
 - [[分析_DevSecOps_AI安全衝擊]]
+
+## 相關頁面
+
+- [[分析_AI驅動資安支出2026]]
