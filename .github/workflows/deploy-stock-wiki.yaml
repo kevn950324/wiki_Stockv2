@@ -1,0 +1,48 @@
+name: Deploy Stock Wiki to Cloudflare Pages
+
+on:
+  push:
+    branches: [v5]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  deployments: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx quartz plugin install --from-config
+      - run: npx quartz build -d content
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stock-wiki-public
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: stock-wiki-public
+          path: public
+      - name: Deploy to Cloudflare Pages
+        uses: AdrianGonz97/refined-cf-pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          projectName: wiki-stockv2
+          deploymentName: Stock Wiki v5
+          branch: v5
+          directory: public
