@@ -1,15 +1,15 @@
 @use "./variables.scss" as *;
 
-/* Stock LLM Wiki visual system: warm paper, deep teal, amber accents. */
+/* Stock LLM Wiki visual system: dark research console, deep teal, amber accents. */
 :root {
-  --wiki-bg: #fbfaf8;
-  --wiki-card: #ffffff;
-  --wiki-ink: #1b1b1b;
-  --wiki-title: #0e2f3a;
-  --wiki-brand: #0e4d64;
-  --wiki-accent: #f0b350;
-  --wiki-line: #e6e2da;
-  --wiki-muted: #646f79;
+  --wiki-bg: #0b171b;
+  --wiki-card: #10242c;
+  --wiki-ink: #d7e0e3;
+  --wiki-title: #eef4f5;
+  --wiki-brand: #82c8dc;
+  --wiki-accent: #efb84c;
+  --wiki-line: #1e3943;
+  --wiki-muted: #8fa5ad;
 }
 
 html { background: var(--wiki-bg); }
@@ -53,6 +53,38 @@ body[data-slug="index"] .page-header { display: none; }
 
 [saved-theme="dark"] { --wiki-bg: #0c171c; --wiki-card: #12222a; --wiki-ink: #d8dee2; --wiki-title: #e8eef1; --wiki-brand: #7fc4dd; --wiki-line: #1e333d; --wiki-muted: #8fa0aa; }
 [saved-theme="dark"] .home-hero { box-shadow: 0 8px 24px rgba(0,0,0,.35); }
+[saved-theme="light"] { --wiki-bg: #fbfaf8; --wiki-card: #ffffff; --wiki-ink: #1b1b1b; --wiki-title: #0e2f3a; --wiki-brand: #0e4d64; --wiki-line: #e6e2da; --wiki-muted: #646f79; }
+
+/* Inner pages follow the reference site's dark metadata-card layout. */
+body:not([data-slug="index"]) #quartz-body > .center { width: min(100% - 2.8rem, 1120px); padding-top: 1.25rem; }
+body:not([data-slug="index"]) #quartz-body > .center > .page-header { margin-bottom: 1.4rem; }
+body:not([data-slug="index"]) .breadcrumb-container { margin: .1rem 0 1.35rem; color: var(--wiki-muted); font-size: .82rem; }
+body:not([data-slug="index"]) .breadcrumb-container a { color: var(--wiki-muted); }
+body:not([data-slug="index"]) .page-header > .popover-hint { overflow: hidden; padding: 1.15rem 1.25rem 1.25rem; border: 1px solid var(--wiki-line); border-radius: 14px; background: linear-gradient(145deg, color-mix(in srgb, var(--wiki-card) 96%, #0d5367), var(--wiki-card)); box-shadow: 0 10px 30px rgba(0,0,0,.16); }
+body:not([data-slug="index"]) .article-title { display: inline-block; margin: 0; color: var(--wiki-title); font-size: clamp(1.45rem, 3vw, 2rem); letter-spacing: -.02em; }
+body:not([data-slug="index"]) .content-meta { float: right; margin: .45rem .1rem 0 1rem; color: var(--wiki-muted); font-size: .78rem; }
+body:not([data-slug="index"]) .note-properties { clear: both; margin: .75rem 0 0; border: 0; border-radius: 0; background: transparent; }
+body:not([data-slug="index"]) .note-properties-header { display: none; }
+body:not([data-slug="index"]) .note-properties-table,
+body:not([data-slug="index"]) .note-properties tbody { display: block; }
+body:not([data-slug="index"]) .note-properties-row { display: block; border: 0; }
+body:not([data-slug="index"]) .note-properties-key { display: none; }
+body:not([data-slug="index"]) .note-properties-value { display: block; padding: .3rem 0; }
+body:not([data-slug="index"]) .note-properties-row:nth-child(2) { display: none; }
+body:not([data-slug="index"]) .note-properties-tags,
+body:not([data-slug="index"]) .note-properties-list { display: flex; flex-wrap: wrap; gap: .38rem; }
+body:not([data-slug="index"]) .note-properties .tag-link,
+body:not([data-slug="index"]) .note-properties .note-properties-link { display: inline-block; padding: .28rem .58rem; border: 1px solid #53604d; border-radius: 999px; background: rgba(17,34,40,.8); color: var(--wiki-brand); font-size: .76rem; line-height: 1.15; text-decoration: none; }
+body:not([data-slug="index"]) .note-properties .tag-link:hover,
+body:not([data-slug="index"]) .note-properties .note-properties-link:hover { border-color: var(--wiki-accent); color: var(--wiki-accent); }
+body:not([data-slug="index"]) article { max-width: none; padding: .25rem .2rem 2rem; }
+body:not([data-slug="index"]) article > h1:first-child { display: none; }
+body:not([data-slug="index"]) article h2 { margin-top: 2rem; padding-left: .7rem; border-left: 4px solid var(--wiki-accent); color: var(--wiki-title); }
+body:not([data-slug="index"]) article blockquote { border-left-color: var(--wiki-accent); background: rgba(22,54,64,.42); }
+body:not([data-slug="index"]) article table { overflow: hidden; border: 1px solid var(--wiki-line); border-radius: 10px; }
+body:not([data-slug="index"]) article th { background: rgba(34,72,82,.55); color: var(--wiki-title); }
+body:not([data-slug="index"]) article td,
+body:not([data-slug="index"]) article th { border-color: var(--wiki-line); }
 
 @media all and (max-width: 800px) {
   #quartz-body > .left.sidebar { padding: .55rem .8rem; gap: .55rem; }
