@@ -7,6 +7,11 @@ sources:
   - "[[2026-07-30-CHKP.OQ-JPMorgan-Check Point Software GTM Disruption Persists as Unchanged FY...-123497989]]"
   - "[[2026-08-03-CHKP.OQ-Barclays-Check Point Software Technologies Ltd. Takeaways from Our M...-123591707]]"
   - "[[2026-08-14-CHKP.OQ-Zacks Equity Researc-Check Point Software Technologies Ltd(CHKP) Zacks Company Re...-123866992]]"
+  - "[[CHKP 260713_2Q26 preview TD]]"
+  - "[[CHKP 260721_2Q26 preview WF]]"
+  - "[[CHKP 260730_2Q26 results Barclays]]"
+  - "[[CHKP 260730_2Q26 results JP]]"
+  - "[[CHKP 260730_2Q26 results TD]]"
 tags:
   - 分析/產業
   - 公司/Check Point
@@ -32,6 +37,13 @@ Check Point 2026Q2 顯示傳統 appliance／維護收入承壓，但訂閱與 AI
 - [[2026-08-03-CHKP.OQ-Barclays-Check Point Software Technologies Ltd. Takeaways from Our M...-123591707]]（2026-08-03）：25–30% 客戶在 1Q 更換 account manager，約 300 名 quota-bearing reps 計畫中約 100–150 名為淨新增。
 - [[2026-08-14-CHKP.OQ-Zacks Equity Researc-Check Point Software Technologies Ltd(CHKP) Zacks Company Re...-123866992]]（2026-08-14）：Email Security、CTEM、AI Security 合計 ARR 年增逾 40%，但產品收入弱勢仍未被完全抵銷。
 - [[2026-07-30-CHKP.OQ-Deutsche Bank-Check Point 2Q - A business still in transition-123496190]]（2026-07-30）：新興產品可支撐訂閱，但新銷售人力的實質貢獻預期不早於 2027 年。
+
+### 本批新增來源
+
+- TD Cowen（2026-07-13）在 2Q26 前瞻估計 billings 年減 3%、產品收入年減 20%，但認為 SASE／CTEM 與平台策略支持 2H26、FY27；目標價 $180，屬券商 estimate／thesis。
+- Wells Fargo（2026-07-21）通路調查指向高續約率與黏著裝機基礎，但新 logo、SASE traction 與 Email Security 動能較混合；維持 Equal Weight、目標價 $140。
+- 2Q26 實際結果接近預期：TD Cowen 記錄營收 $674M、billings $636.3M、產品收入 $113.4M（年減 14%）、訂閱收入 $332.6M（年增 12%）；Barclays 記錄 RPO bookings 年增約 7%，但維護收入受 refresh 與專業服務減少拖累。
+- J.P. Morgan 與 Barclays 均把 3Q 視為低谷、4Q 視為主要執行驗證；J.P. Morgan 認為 FY26 指引隱含 4Q 營收年增約 6.5%，Barclays 則因回升斜率過陡而採較保守估值。
 
 ## 投資重點 memo
 
@@ -69,6 +81,8 @@ Check Point 2026Q2 顯示傳統 appliance／維護收入承壓，但訂閱與 AI
 | Email Security／CTEM／AI Security ARR 年增逾 40% | fact／company disclosure | [[2026-08-14-CHKP.OQ-Zacks Equity Researc-Check Point Software Technologies Ltd(CHKP) Zacks Company Re...-123866992]] | 2026-08-14 | 中 |
 | 約 100–150 名淨新增銷售人力可能造成約 100bps FY27 margin 影響 | estimate | [[2026-08-03-CHKP.OQ-Barclays-Check Point Software Technologies Ltd. Takeaways from Our M...-123591707]] | 2026-08-03 | 中 |
 | 4Q 回升可支持 FY27 重加速 | thesis | [[2026-07-30-CHKP.OQ-BofA Global Research-Check Point Software Technologies Big pipeline energy, smal...-123498847]] | 2026-07-30 | 中 |
+| 3Q 為 trough、4Q 隱含約 6.5% 營收年增 | company outlook／estimate | [[2026-07-30-CHKP.OQ-JPMorgan-Check Point Software GTM Disruption Persists as Unchanged FY...-123497989]] | 2026-07-30 | 中 |
+| 約 300 名 quota-bearing reps 中約半數為淨新增，FY27 可能帶來約 1 個百分點 margin 壓力 | estimate | [[CHKP 260730_2Q26 results Barclays]] | 2026-07-30 | 中 |
 
 > [!todo] 待確認事項
 > - [ ] 2026Q4 大型 appliance deals 是否如期 close，且產品收入是否轉正。
@@ -84,6 +98,11 @@ Check Point 2026Q2 顯示傳統 appliance／維護收入承壓，但訂閱與 AI
 - [[2026-07-30-CHKP.OQ-JPMorgan-Check Point Software GTM Disruption Persists as Unchanged FY...-123497989]] — J.P. Morgan，2026-07-30
 - [[2026-08-03-CHKP.OQ-Barclays-Check Point Software Technologies Ltd. Takeaways from Our M...-123591707]] — Barclays，2026-08-03
 - [[2026-08-14-CHKP.OQ-Zacks Equity Researc-Check Point Software Technologies Ltd(CHKP) Zacks Company Re...-123866992]] — Zacks，2026-08-14
+- [[CHKP 260713_2Q26 preview TD]] — TD Cowen，2026-07-13
+- [[CHKP 260721_2Q26 preview WF]] — Wells Fargo Securities，2026-07-21
+- [[CHKP 260730_2Q26 results Barclays]] — Barclays，2026-07-30
+- [[CHKP 260730_2Q26 results JP]] — J.P. Morgan，2026-07-30
+- [[CHKP 260730_2Q26 results TD]] — TD Cowen，2026-07-30
 
 ## 相關頁面
 

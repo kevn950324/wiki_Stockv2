@@ -52,6 +52,9 @@ Check Point Software Technologies 是以網路安全為核心的以色列軟體�
 ![[2026-08-14-CHKP.OQ-Zacks Equity Researc-Check Point Software Technologies Ltd(CHKP) Zacks Company Re...-123866992_003.png]]
 *Zacks（2026-08-14）：Check Point 股價與 12 個月 EPS 共識預估走勢；圖中 2026E–2027E EPS 預估仍受 2026 年轉型期壓力，供追蹤估值修復。*
 
+![[CHKP 260721_2Q26 preview WF_003.png]]
+*Wells Fargo（2026-07-21）：收入組合、管理層季度指引與 billings／RPO 預估，顯示 2026Q3 低谷後，模型將主要回升壓在 2026Q4。*
+
 ## EPS 記錄
 
 | 季度 | Non-GAAP EPS | 營收 | 備註 |
@@ -60,10 +63,10 @@ Check Point Software Technologies 是以網路安全為核心的以色列軟體�
 
 ## EPS 預估
 
-| 年度 | Barclays（2026-07-30） | BofA（2026-07-30） | JPMorgan（2026-07-30） | Zacks（2026-08-14） |
-|---|---:|---:|---:|---:|
-| 2026E | $10.45 | $10.39 | $10.63 | $10.45 |
-| 2027E | $11.40 | $11.37 | $11.71 | $11.30 |
+| 年度 | TD Cowen（2026-07-13） | Wells Fargo（2026-07-21） | Barclays（2026-07-30） | BofA（2026-07-30） | JPMorgan（2026-07-30） | Zacks（2026-08-14） |
+|---|---:|---:|---:|---:|---:|---:|
+| 2026E | $10.55 | — | $10.45 | $10.39 | $10.63 | $10.45 |
+| 2027E | $11.55 | — | $11.40 | $11.37 | $11.71 | $11.30 |
 
 ## 目標價與評等
 
@@ -75,16 +78,19 @@ Check Point Software Technologies 是以網路安全為核心的以色列軟體�
 | BofA | 2026-07-30 | Neutral | $140 | 約 10x 2027E EV/FCF |
 | Jefferies | 2026-07-30 | Buy | $150 | 11x EV/2027E FCF |
 | Zacks | 2026-08-14 | Neutral | $141 | 4.94x forward 12M sales |
+| TD Cowen | 2026-07-13 | Buy | $180 | 平台策略與 2H26／FY27 回升 |
+| Wells Fargo | 2026-07-21 | Equal Weight | $140 | 約 11x forward NTM estimates |
 
 ## 時間軸
 
 | 時間 | 事件 | 類型 | 重要性 | 備註 |
 |---|---|---|---|---|
 | 2026Q2 | 2Q 營收 $673.6M、訂閱年增 11.6%、產品年減 14% | 財報 | ⭐⭐⭐ | [[2026-07-30-CHKP.OQ-Barclays-Check Point Software Technologies Ltd. 4Q Ramp Is Main Push...-123496484]] |
-| 2026Q3 | 管理層預期產品收入仍年減、業務處於 trough | 財報／低谷 | ⭐⭐⭐ | FY26 指引維持；3Q guidance revenue $655–685M |
+| 2026Q3 | 管理層預期產品收入仍年減、業務處於 trough | 財報／低谷 | ⭐⭐⭐ | 3Q guidance revenue $655–685M、訂閱 $332–343M；Wells Fargo 估產品年減 17% |
 | 2026Q4 | 大型 appliance deal 與產品收入預期回升 | 放量 | ⭐⭐⭐ | 高度後置，需觀察 close rate 與 pipeline |
 | 2026H2 | 約 300 名 quota-bearing reps 招募，其中約 100–150 名淨新增 | 組織 | ⭐⭐ | 主要效益預期自 2027 年顯現，可能先壓 FY27 margin |
 | 2026H2 | AI Network Firewall、價格調整與新興產品 pipeline | 新產品／價格 | ⭐⭐ | 未納入部分券商 FY26 基準估計 |
+| 2026H2 | 3Q 可能再調價以抵銷記憶體成本 | 價格 | ⭐⭐ | J.P. Morgan；價格上調與 AI Network Firewall 尚未納入其基準展望 |
 
 → 跨公司催化劑詳見 [[時程_2026Q3Q4_AI網通與硬體催化劑]]。
 
@@ -119,6 +125,11 @@ Check Point Software Technologies 是以網路安全為核心的以色列軟體�
 - [[2026-08-03-CHKP.OQ-Barclays-Check Point Software Technologies Ltd. Takeaways from Our M...-123591707]] — Barclays 管理層會議，2026-08-03
 - [[2026-08-06-CHKP.OQ-Zacks Equity Researc-Check Point Software Technologies Ltd(CHKP) Zacks Company Re...-123707143]] — Zacks，2026-08-06
 - [[2026-08-14-CHKP.OQ-Zacks Equity Researc-Check Point Software Technologies Ltd(CHKP) Zacks Company Re...-123866992]] — Zacks，2026-08-14
+- [[CHKP 260713_2Q26 preview TD]] — TD Cowen，2026-07-13
+- [[CHKP 260721_2Q26 preview WF]] — Wells Fargo Securities，2026-07-21
+- [[CHKP 260730_2Q26 results Barclays]] — Barclays，2026-07-30
+- [[CHKP 260730_2Q26 results JP]] — J.P. Morgan，2026-07-30
+- [[CHKP 260730_2Q26 results TD]] — TD Cowen，2026-07-30
 
 ## 相關頁面
 
