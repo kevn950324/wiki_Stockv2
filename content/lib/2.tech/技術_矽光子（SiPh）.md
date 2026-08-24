@@ -4,7 +4,7 @@ tags:
   - 技術/矽光子
   - 產業/光通訊
   - 產業/AI伺服器
-  - 環節/光電芯片
+  - 環節/光電晶片
 maturity: developing
 updated: 2026-07-07
 aliases:
@@ -30,10 +30,10 @@ aliases:
 ## 圖解
 
 ![[國泰證期研究部_半導體產業_PIC推動晶圓代工邁向AI光電異質整合新平台_20260525_001.png]]
-*圖（國泰證期，2026-05）：矽光子芯片三維示意圖——SOI 晶圓上集成 Germanium PIN Photodetector（鍺 PIN 光偵測器，接收端 O→E）、Silicon waveguides（矽波導佈線）、Electro-optic Modulator（電光調製器，發射端 E→O）與 Optical coupler（光柵耦合器，芯片↔光纖 I/O）。所有器件在 CMOS 產線製造，與電子 IC 單片或異質整合（HB/SoIC），是矽光子的根本競爭力所在。*
+*圖（國泰證期，2026-05）：矽光子晶片三維示意圖——SOI 晶圓上整合 Germanium PIN Photodetector（鍺 PIN 光偵測器，接收端 O→E）、Silicon waveguides（矽波導佈線）、Electro-optic Modulator（電光調製器，發射端 E→O）與 Optical coupler（光柵耦合器，晶片↔光纖 I/O）。所有元件在 CMOS 產線製造，與電子 IC 單片或異質整合（HB/SoIC），是矽光子的根本競爭力所在。*
 
 ![[國泰證期研究部_半導體產業_PIC推動晶圓代工邁向AI光電異質整合新平台_20260525_002.png]]
-*圖（國泰證期，2026-05）：PIC（Photonic Integrated Circuit）布局俯視圖——包含 Laser（光源輸入）、Optical ring resonator（環形共振器，波長選擇/濾波）、Optical modulator（電光調製器）、Optical waveguide（波導佈線）、Couplers（分光/合光）、Photonic crystal（特殊波長轉換）、Photo diode（光偵測器 O→E）與 Optical fiber（光纖 I/O）。PIC 把傳統多顆分立光子器件整合到單片芯片，是 1.6T 光模塊與 CPO 光引擎成本下降的核心路徑。*
+*圖（國泰證期，2026-05）：PIC（Photonic Integrated Circuit）布局俯視圖——包含 Laser（光源輸入）、Optical ring resonator（環形共振器，波長選擇/濾波）、Optical modulator（電光調製器）、Optical waveguide（波導佈線）、Couplers（分光/合光）、Photonic crystal（特殊波長轉換）、Photo diode（光偵測器 O→E）與 Optical fiber（光纖 I/O）。PIC 把傳統多顆分立光子元件整合到單片晶片，是 1.6T 光模組與 CPO 光引擎成本下降的核心路徑。*
 
 ## 技術原理
 
@@ -168,6 +168,18 @@ MicroLED CPO 為短距（<50m）低成本方案，適合伺服器內部 scale-up
 Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重要的獨立 SiPh 純晶圓代工廠：2025 年 Q4 季營收 $80–95M → 5× 擴產後 2027E 年化 $1.6–1.9B；已與客戶簽署 2027 年 $1.3B 產能保留合約（20% 預付款），顯示超算 AI 資料中心客戶對 SiPh 產能長期鎖定的信心。即使 CPO 封裝最終交由 TSMC COUPE 執行，Tower 的 SiPh 晶圓仍可獨立供應（不綁定 TSMC 生態）。
 
 ## 來源
+
+## 2026-08-24 代工平台更新
+
+[[報告_開源證券_Tower半導體矽光代工_20260818]] 估算 2025 年 Tower 在矽光晶圓代工市占約 42%，並指出其差異化在於開放型「矽光＋矽鍺」協同量產平台，可同步製造 PIC 與 TIA／Driver 高速電晶片；2025–2031 年全球矽光晶圓代工市場 CAGR 約 29.5%–30.4% 為券商估計，需與其他市場資料交叉驗證。
+
+### 代工擴產與路線觀察
+
+- Tower 規劃投入約 49.2 億美元於 Fab 2、Fab 3、Fab 7、Fab 9 的矽光／矽鍺產能；日本 Arai Fab 6 改造的 300mm 產線目標 2027Q4 具備量產能力，屬公司規劃／券商整理。
+- 矽光子需求不只由 CPO 驅動，也包含 1.6T 可插拔模組、NPO 與外部 CW 雷射架構；因此 CPO 滲透若延後，仍可能由可插拔與 NPO 需求支撐部分晶圓代工量。
+- 主要風險為「銅改光」速度、Fab 7 重組執行與其他代工廠同步擴產；不得把產能預訂、客戶名單或市占估算改寫為已確認訂單。
+
+來源：[[報告_開源證券_Tower半導體矽光代工_20260818]]（開源證券，2026-08-18）。
 
 - [[20260522_矽光子發展趨勢：技術演進與機會]]（知識力科技 張勤煜，臺大電機博士，2026-05-22；MRM vs MZM 比較、CPO 滲透率 TrendForce、SiPh 生態系圖、MicroLED vs CW 雷射 CPO）
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（STT 20 篇，2026-06-29）
