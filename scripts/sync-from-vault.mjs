@@ -5,10 +5,11 @@ import { fileURLToPath } from "node:url"
 
 const vaultRoot = path.resolve(process.argv[2] ?? "..")
 const siteRoot = path.dirname(fileURLToPath(import.meta.url))
+const targetContent = path.join(siteRoot, "..", "content")
 const sourceLib = path.join(vaultRoot, "lib")
-const targetLib = path.join(siteRoot, "..", "content", "lib")
+const targetLib = path.join(targetContent, "lib")
 const sourceAttachments = path.join(vaultRoot, "data_base", "attachment")
-const targetAttachments = path.join(siteRoot, "..", "content", "attachments")
+const targetAttachments = path.join(targetContent, "attachments")
 const sourceReports = path.join(vaultRoot, "output")
 const targetReports = path.join(siteRoot, "..", "content", "reports")
 const sourceRawData = path.join(vaultRoot, "data_base", "Raw_data")
@@ -67,7 +68,12 @@ if (existsSync(sourceAttachments)) {
   for (const name of imageNames) {
     const source = path.join(sourceAttachments, name)
     const report = path.join(sourceReports, name)
-    if (existsSync(source)) await cp(source, path.join(targetAttachments, name))
+    if (existsSync(source)) {
+      // Quartz resolves ![[image.png]] from content/ root. Keep attachments/
+      // as an organized copy, while publishing the renderable asset at root.
+      await cp(source, path.join(targetAttachments, name))
+      await cp(source, path.join(targetContent, name))
+    }
     else if (existsSync(report)) await cp(report, path.join(targetReports, name))
   }
 }
