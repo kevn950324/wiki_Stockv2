@@ -44,6 +44,9 @@ Check Point 2026Q2 顯示傳統 appliance／維護收入承壓，但訂閱與 AI
 - Wells Fargo（2026-07-21）通路調查指向高續約率與黏著裝機基礎，但新 logo、SASE traction 與 Email Security 動能較混合；維持 Equal Weight、目標價 $140。
 - 2Q26 實際結果接近預期：TD Cowen 記錄營收 $674M、billings $636.3M、產品收入 $113.4M（年減 14%）、訂閱收入 $332.6M（年增 12%）；Barclays 記錄 RPO bookings 年增約 7%，但維護收入受 refresh 與專業服務減少拖累。
 - J.P. Morgan 與 Barclays 均把 3Q 視為低谷、4Q 視為主要執行驗證；J.P. Morgan 認為 FY26 指引隱含 4Q 營收年增約 6.5%，Barclays 則因回升斜率過陡而採較保守估值。
+- 公司 2Q26 財報簡報／法說確認 Q2 營收 $674M、訂閱 $333M（年增 12%）、Non-GAAP EPS $2.55、調整後 FCF $161M；Deferred Revenue 與 RPO 均年增 7%，屬 company disclosure / fact。
+- 公司正式推出 AI Network Firewall 與 AI Defense Plane，將 prompt、agent action、model interaction 的可視性與控管放到 perimeter、data center、cloud 與 SASE；這提高 AI 資安產品的可驗證性，但目前仍應視為產品發布與需求訊號，不直接等同新增收入。
+- 管理層表示 2026 指引未納入新增數百名 salespeople 的 ramp，銷售生產力主要預期在 2027Q1–Q2 反映；因此 4Q execution 與 2027 GTM 投資是兩個不同驗證階段。
 
 ## 投資重點 memo
 
@@ -83,6 +86,9 @@ Check Point 2026Q2 顯示傳統 appliance／維護收入承壓，但訂閱與 AI
 | 4Q 回升可支持 FY27 重加速 | thesis | [[2026-07-30-CHKP.OQ-BofA Global Research-Check Point Software Technologies Big pipeline energy, smal...-123498847]] | 2026-07-30 | 中 |
 | 3Q 為 trough、4Q 隱含約 6.5% 營收年增 | company outlook／estimate | [[2026-07-30-CHKP.OQ-JPMorgan-Check Point Software GTM Disruption Persists as Unchanged FY...-123497989]] | 2026-07-30 | 中 |
 | 約 300 名 quota-bearing reps 中約半數為淨新增，FY27 可能帶來約 1 個百分點 margin 壓力 | estimate | [[CHKP 260730_2Q26 results Barclays]] | 2026-07-30 | 中 |
+| Q2 營收 $674M、訂閱 $333M、Non-GAAP EPS $2.55、調整後 FCF $161M | fact／company disclosure | [[CHKP_2Q26_Earnings_Presentation]] | 2026-07-30 | 高 |
+| AI Network Firewall 已正式發布，並整合至 AI Defense Plane／SASE | fact／company disclosure | [[CHKP_2Q26_Earnings_Presentation]] | 2026-07-30 | 高 |
+| 新增數百名 salespeople 的效益主要落在 2027Q1–Q2 | company outlook | [[Check Point Software Technologies Ltd Earnings Call 2026730 DN000000003114523854 (1)]] | 2026-07-30 | 中 |
 
 > [!todo] 待確認事項
 > - [ ] 2026Q4 大型 appliance deals 是否如期 close，且產品收入是否轉正。
@@ -103,6 +109,8 @@ Check Point 2026Q2 顯示傳統 appliance／維護收入承壓，但訂閱與 AI
 - [[CHKP 260730_2Q26 results Barclays]] — Barclays，2026-07-30
 - [[CHKP 260730_2Q26 results JP]] — J.P. Morgan，2026-07-30
 - [[CHKP 260730_2Q26 results TD]] — TD Cowen，2026-07-30
+- [[CHKP_2Q26_Earnings_Presentation]] — Check Point Software Technologies，2026-07-30
+- [[Check Point Software Technologies Ltd Earnings Call 2026730 DN000000003114523854 (1)]] — Bloomberg transcript，2026-07-30
 
 ## 相關頁面
 

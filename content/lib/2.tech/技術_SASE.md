@@ -4,7 +4,7 @@ tags:
   - 技術/SASE
   - 技術/零信任
   - 產業/資安
-updated: 2026-07-07
+updated: 2026-08-24
 aliases:
   - SASE
   - Secure Access Service Edge
@@ -64,6 +64,10 @@ SSE  = ZTNA + SWG + CASB（+ 選配：CASB, DLP, RBI, FWaaS）
 
 ## AI 時代的 SASE 延伸：Agentic 安全
 
+### Check Point 的 AI Defense Plane 整合
+
+Check Point 在 2026-07-30 法說發布 AI Network Firewall，並表示 AI Defense Plane 將嵌入網路、私有／公有雲與 SASE。其定位不是另立一套孤立的 AI gateway，而是把 AI app、agent、prompt 與 model interaction 的可視性、存取控制與資料保護放進既有 firewall／hybrid mesh 管理架構；公司表示 SASE 已準備擴展至企業級，正整合至 unified management。這是公司產品路線與管理層展望，尚待客戶採用與 ARR／billings 驗證。
+
 2026 年的新需求：AI 代理人在企業中以非人類身份存取大量系統，SASE 廠商開始延伸為 AI 代理人提供流量過濾與治理功能：
 
 | 廠商       | AI Agent 相關 SASE 功能                                      |
@@ -72,6 +76,7 @@ SSE  = ZTNA + SWG + CASB（+ 選配：CASB, DLP, RBI, FWaaS）
 | **NET**  | AI Gateway（LLM 流量管控）、Workers（邊緣 AI 執行環境）、MCP 安全          |
 | **PANW** | Cortex AISPM（AI Shadow IT 發現）、Precision AI（AI 流量分類）      |
 | **CRWD** | Falcon Exposure Management（AI 攻擊面）、Charlotte AI（AI-SOC）  |
+| **CHKP** | AI Network Firewall、AI Defense Plane；將 AI agent／LLM 流量與既有 firewall、cloud 與 SASE 管理整合 |
 
 ---
 
@@ -126,4 +131,6 @@ SSE  = ZTNA + SWG + CASB（+ 選配：CASB, DLP, RBI, FWaaS）
 - [[分析_Check Point_GTM轉型與AI資安2026]]
 - [[FTNT.US(fortinet)]]
 - [[CHKP.US(check point software)]]
+- [[CHKP_2Q26_Earnings_Presentation]] — Check Point，2026-07-30
+- [[Check Point Software Technologies Ltd Earnings Call 2026730 DN000000003114523854 (1)]] — Bloomberg transcript，2026-07-30
 - [[分析_DevSecOps_AI安全衝擊]]
