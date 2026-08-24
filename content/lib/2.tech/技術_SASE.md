@@ -124,4 +124,5 @@ SSE  = ZTNA + SWG + CASB（+ 選配：CASB, DLP, RBI, FWaaS）
 ## 相關頁面
 
 - [[FTNT.US(fortinet)]]
+- [[CHKP.US(check point software)]]
 - [[分析_DevSecOps_AI安全衝擊]]
