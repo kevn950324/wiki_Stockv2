@@ -126,5 +126,6 @@ Latitude Design Systems（之光半導體）是 Tower SiPh 平台的 EDA 合作�
 
 ## 相關頁面
 
+- [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[供應鏈_AI光互聯]]
 - [[技術_矽光子（SiPh）]]

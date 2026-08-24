@@ -59,3 +59,7 @@ TD Cowen 評語：「Semtech 在 AECs 和 LPO 方面位置良好，雖多元化�
 隨 AI 叢集規模擴大，銅纜互連（AEC）在機架內和短距機架間保持強勁需求——TD Cowen 認為投資人低估了銅纜和可插拔光模組的長期成長潛力。Semtech 是 AEC SerDes 的關鍵晶片供應商，隨 AI 叢集從 800G 升至 1.6T，AEC SerDes 的規格與 ASP 都在上升。
 
 資料來源：[[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]
+
+## 相關頁面
+
+- [[TSEM.US(tower semiconductor)]]

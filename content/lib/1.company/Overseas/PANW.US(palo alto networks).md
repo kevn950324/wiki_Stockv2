@@ -223,6 +223,8 @@ gantt
 
 ## 相關頁面
 
+- [[CHKP.US(check point software)]]
+- [[分析_Check Point_GTM轉型與AI資安2026]]
 - [[FTNT.US(fortinet)]]
 - [[NET.US(cloudflare)]]
 - [[RBRK.US(rubrik)]]

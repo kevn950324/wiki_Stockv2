@@ -163,6 +163,7 @@ gantt
 
 ## 相關頁面
 
+- [[CHKP.US(check point software)]]
 - [[FTNT.US(fortinet)]]
 - [[DDOG.US(datadog)]]
 - [[分析_AI驅動資安支出2026]]

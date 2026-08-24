@@ -161,6 +161,7 @@ gantt
 
 ## 相關頁面
 
+- [[CHKP.US(check point software)]]
 - [[FTNT.US(fortinet)]]
 - [[NET.US(cloudflare)]]
 - [[OKTA.US(okta)]]

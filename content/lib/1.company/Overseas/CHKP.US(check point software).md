@@ -133,6 +133,7 @@ Check Point Software Technologies 是以網路安全為核心的以色列軟體�
 
 ## 相關頁面
 
+- [[分析_Check Point_GTM轉型與AI資安2026]]
 - [[技術_SASE]]
 - [[技術_EDR與XDR]]
 - [[分析_AI驅動資安支出2026]]

@@ -160,6 +160,8 @@ TD Cowen 2Q26E Beat-and-Raise 前景：
 
 ## 相關頁面
 
+- [[CHKP.US(check point software)]]
+- [[分析_Check Point_GTM轉型與AI資安2026]]
 - [[分析_AI驅動資安支出2026]]
 - [[技術_SASE]]
 - [[技術_EDR與XDR]]

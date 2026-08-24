@@ -239,6 +239,8 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 ## 相關頁面
 
+- [[3665_貿聯-KY（市）]]
+- [[TSEM.US(tower semiconductor)]]
 - [[688836.SH(unitree robotics)]]
 - [[2486_一詮（市）]]
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]

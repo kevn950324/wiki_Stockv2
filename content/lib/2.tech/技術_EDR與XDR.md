@@ -137,5 +137,6 @@ EDR 廠商的應對策略：
 
 ## 相關頁面
 
+- [[CHKP.US(check point software)]]
 - [[FTNT.US(fortinet)]]
 - [[分析_DevSecOps_AI安全衝擊]]
