@@ -70,3 +70,7 @@ Microsoft 以 Azure、Microsoft 365、Copilot、Windows、企業資安與開發�
 ## 來源
 
 - [[MSFT Q4 Earnings Call memo_Fubon 20260730]]（富邦證券，2026-07-30）
+
+## 相關頁面
+
+- [[2480_敦陽科（市）]]
