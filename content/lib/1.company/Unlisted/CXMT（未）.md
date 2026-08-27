@@ -109,9 +109,12 @@ SemiAnalysis 估 FY2026 全年營收 $50B+（來源：報告_SemiAnalysis_CXMT_D
 > - **地緣政治**：中美科技脫鉤壓力下，HBM 取得受限（HBM2E 以上無法進口）；CXMT 同時是中國 AI 算力自主化的政策標的，可能被迫加速 HBM 投資犧牲商品 DRAM 利潤
 
 ## 來源
+- [[報告_MorganStanley_CXMT_DRAM_20260826]]（Morgan Stanley，2026-08-26；OW、RMB88，DRAM／HBM 產能與 3D DRAM 估計）
 - 報告_SemiAnalysis_CXMT_DRAM_IPO_20260623 — SemiAnalysis（Ray Wang, Myron Xie, Dylan Patel），2026-06-23
 
 ## 相關頁面
 
 - [[分析_CXMT_DRAM_IPO分析]]
 - [[分析_記憶體超級循環2026]]
+- [[技術_HBM高頻寬記憶體]]
+- [[時程_2026記憶體與AI催化劑]]

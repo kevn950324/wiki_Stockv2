@@ -166,3 +166,11 @@ flowchart TB
 - [[技術_功率MOSFET]]
 - [[供應鏈_記憶體]]
 - [[分析_記憶體超級循環2026]]
+
+## 2026-08-27 新來源更新
+
+- Morgan Stanley 對 [[CXMT（未）]] 啟動 Overweight、目標價 RMB 88；報告估 2026 年 CXMT 產能約 300kwpm，2027 年可生產 3–4 百萬顆 HBM3E stacks，惟屬 channel check／券商 estimate。
+- Fubon／Cantor 專家會議則認為 CXMT 目前仍以 DDR4 等較舊世代為主，HBM3E 與 3D DRAM 的量產能力尚待驗證；兩者對 CXMT HBM 時程與技術成熟度的差異以資訊邊界並列保留。
+- HBF 不被業界視為 HBM 的直接替代品；客製化 HBM 比 HBM／HBF 混合方案更具發展潛力，仍屬專家觀點而非已定案產品路線。
+
+來源：[[報告_MorganStanley_CXMT_DRAM_20260826]]、[[報告_Fubon_Cantor_HBM專家電話會_20260827]]。

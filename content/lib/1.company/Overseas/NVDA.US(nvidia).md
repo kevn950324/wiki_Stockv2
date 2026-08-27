@@ -236,6 +236,8 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 圖說：SemiAnalysis／NVIDIA 研究圖將 Rubin Ultra NVL576 的 9+18+9 rack 與 NPO／CPO scale-up 選項並列；架構尚非 NVIDIA 最終規格。
 
 ## 來源
+- [[報告_CTBC_NVIDIA_20260827]]（中信投顧，2026-08-27；2QFY27 營收、Rubin／Vera CPU 與供應鏈瓶頸）
+- [[報告_Daiwa_NVIDIA_2QFY27_20260827]]（大和，2026-08-27；法說摘要，供應鏈與 AI factory 需求）
 - [[20260709_0823_800VDC_UBS_20260707]]（UBS，2026-07-07；800VDC 三層部署選項與 AI 資料中心電力架構）
 - [[memo_OCPAPAC_CPO_NPO_XPO專家會議_20260820]]（OCP APAC panel，2026-08-20；NVIDIA CPO 系統設計、MMC／ELS／800G fabric 與 CPO 路線）
 - 報告_SemiAnalysis_NVIDIA_GPU_Backstop_AI_Trinity_20260706（SemiAnalysis，2026-07-06；GPU Backstop 計畫、AI Project Trinity、Neocloud 融資）
