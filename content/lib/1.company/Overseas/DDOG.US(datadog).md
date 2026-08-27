@@ -578,6 +578,7 @@ gantt
 
 ## 相關頁面
 
+- [[分析_RBRK_Rubrik]]
 - [[RBRK.US(rubrik)]]
 - [[分析_AI驅動資安支出2026]]
 - [[技術_EDR與XDR]]

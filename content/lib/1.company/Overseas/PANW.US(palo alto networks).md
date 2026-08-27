@@ -238,6 +238,8 @@ gantt
 
 ## 相關頁面
 
+- [[分析_RBRK_Rubrik]]
+- [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[CHKP.US(check point software)]]
 - [[分析_Check Point_GTM轉型與AI資安2026]]
 - [[FTNT.US(fortinet)]]

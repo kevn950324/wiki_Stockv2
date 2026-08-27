@@ -61,3 +61,7 @@ Navitas Semiconductor（NVTS）聚焦 GaN 與 SiC 功率半導體，產品應用
 
 ## 來源
 - [[NVTS 260506 Craig Hallum]]（Craig-Hallum，2026-05-06）
+
+## 相關頁面
+
+- [[分析_2026-08_AI半導體與電源供應鏈新來源]]

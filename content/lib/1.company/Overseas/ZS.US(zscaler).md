@@ -177,6 +177,7 @@ gantt
 
 ## 相關頁面
 
+- [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[CHKP.US(check point software)]]
 - [[FTNT.US(fortinet)]]
 - [[DDOG.US(datadog)]]

@@ -15,7 +15,6 @@ aliases:
   - LITE
   - 外部雷射源
   - ELS
-  - ELSFP
   - CW DFB laser
   - Optical Circuit Switching
 related_companies:
@@ -246,11 +245,11 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 
 - [[技術_InP磷化銦]]
 ---
-## 基本資料
+### 基本資料（歷史補充）
 
 Lumentum 是光通訊與雷射元件大廠，在 CPO 浪潮中的關鍵角色是**外部雷射源（ELS）供應商**——CPO 系統需較高功率的 CW DFB 雷射（每顆約 350mW）。SemiAnalysis 預期 Lumentum 為 Nvidia 初期 CPO 交換器出貨的**首批主要（甚至唯一）ELS 供應商**。供應鏈位置：光元件/雷射上游，供 CPO 光引擎所需雷射光源。資料來源：SemiAnalysis CPO Book（2026-01-02）。
 
-## 核心技術／競爭優勢
+### 核心技術／競爭優勢（歷史補充）
 
 - **高功率 CW DFB 雷射**：CPO 用雷射雖被視為相對標準化，但高功率雷射仍有一定護城河；Nvidia CPO 交換器 ELS 首批主要供應商
 - **OCS（Optical Coherent Solution）**：Lumentum 為 Google 最主要的 OCS 供應商，OCS 較傳統可插拔光模組**節省 65% 功耗**，是超大規模資料中心降耗關鍵
@@ -258,7 +257,7 @@ Lumentum 是光通訊與雷射元件大廠，在 CPO 浪潮中的關鍵角色是
 - **EML 定價話語權**：100G / 200G EML 雷射元件報價持續上揚，受益 AI DC 互連需求擴張
 - 既有可插拔 transceiver / 雷射元件業務基礎，跨足 CPO ELS
 
-## 產品與應用
+### 產品與應用（歷史補充）
 
 | 產品 / 服務 | 應用 | 相關客戶 / 下游 |
 |-------------|------|-----------------|
@@ -267,7 +266,7 @@ Lumentum 是光通訊與雷射元件大廠，在 CPO 浪潮中的關鍵角色是
 | EML（電致吸收調製雷射）| 800G / 1.6T 光模組雷射源 | Coherent、Broadcom 光模組廠；ASP 上行（100G/200G） |
 | 可插拔光元件 / 雷射 | scale-out 光模組 | 模組廠 |
 
-## 圖片/架構圖
+### 圖片／架構圖（歷史補充）
 
 `[待補來源圖]` 需官方 IR 泵浦雷射或光源產品圖佐證，現有研究筆記不足以支撐產品示意圖。
 
@@ -284,13 +283,13 @@ Lumentum 是光通訊與雷射元件大廠，在 CPO 浪潮中的關鍵角色是
 |------|----|------|
 | 小作文研究（2026-01）| USD 472 | OCS + CPO ELS 雙引擎；EML ASP 上行 |
 
-## 供應鏈位置
+### 供應鏈位置（歷史補充）
 
 - 下游客戶：[[NVDA.US(nvidia)]]（CPO 交換器 ELS）、Google（OCS）
 - 所屬供應鏈：[[供應鏈_CPO]]（外部雷射源環節）
 - 同環節（未建頁）：Coherent（COHR，預期第二供應）、Furukawa、Broadcom 自供、源傑/仕佳（中）
 
-## 相關公司
+### 相關公司（歷史補充）
 
 | 公司 | 關係 | 說明 |
 |------|------|------|
@@ -320,7 +319,7 @@ ECTC 2026 論文：Lumentum 與 NVIDIA、[[2330_台積電（市）]] COUPE 平�
 - ELSFP（External Laser SFP）：OCI 200G MSA 定義的外部雷射規格，Lumentum 為主要供應候選
 - 詳見 [[技術_OCI]]（OCI ELSFP 規格）
 
-## 來源
+### 來源（歷史補充）
 
 - [[報告_Semianalysis_CPO_20260102]]（CPO Book，2026-01-02）
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（2026-06-09）
@@ -370,12 +369,12 @@ ECTC 2026 論文：Lumentum 與 NVIDIA、[[2330_台積電（市）]] COUPE 平�
 > [!warning] 本批資訊邊界
 > 各券商對 NPO／CPO 導入節奏與目標價差異很大；NPO 客戶評估、ELS 首張訂單、OCS 收入與 2H27 超高功率雷射出貨，均須持續以公司公告、客戶部署與實際營收驗證，不視為已確認大規模量產。
 
-## 圖片 / 架構圖（2026-08-27 來源附件）
+### 圖片 / 架構圖（2026-08-27 來源附件）
 
 ![[2026-08-11-LITE.OQ-Jefferies-Delivering on Multiple Growth Vectors, NPO a New Leg to Scal...-123789110_003.png]]
 *圖：Jefferies 2026-08-11 報告的 Lumentum 營收與 EPS 更新頁，反映 1.6T、OCS、EML／CW 雷射及 NPO／CPO 時程對模型的共同影響。*
 
-## 來源（2026-08-27 更新）
+### 來源（2026-08-27 更新）
 
 - [[2026-08-11-LITE.OQ-Jefferies-Delivering on Multiple Growth Vectors, NPO a New Leg to Scal...-123789110]]（Jefferies，2026-08-11）
 - [[2026-08-11-LITE.OQ-TD Cowen-Continued Strong Execution, But Cycle Questions Linger-123788973]]（TD Cowen，2026-08-11）

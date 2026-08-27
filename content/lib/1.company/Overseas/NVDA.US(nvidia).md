@@ -256,6 +256,9 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 ## 相關頁面
 
+- [[AEHR.US(aehr)]]
+- [[供應鏈_AI光互聯]]
+- [[分析_2026-08_AI半導體與電源供應鏈新來源]]
 - [[3665_貿聯-KY（市）]]
 - [[TSEM.US(tower semiconductor)]]
 - [[688836.SH(unitree robotics)]]
