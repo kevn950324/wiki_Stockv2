@@ -10,7 +10,7 @@ tags:
   - 環節/SaaS平台
   - 主題/SASE
   - 主題/零信任
-updated: 2026-07-07
+updated: 2026-08-27
 aliases:
   - Zscaler
   - ZS
@@ -119,6 +119,12 @@ ZS 是覆蓋範圍中最便宜的 best-of-breed 資安股（EV/FCF to Rev Growth
 
 ---
 
+## 2026Q2 資安通路與 AI 安全更新
+
+- Truist（2026-06-08）將 ZS 定位為 agent-driven AI 的 Zero Trust Exchange／治理層；UBS（2026-06-09／07-14）則觀察企業優先採用既有零信任、身份與資料控制點，AI 安全支出仍在評估期。
+- Barclays（2026-07-07）通路預期 ZS 7 月可達計畫，主要由既有客戶續約與加購支撐，但大型企業新 logo 競爭升高，Netskope 開始向大型企業市場上攻。
+- Wells Fargo（2026-07-20）SASE 調查中 Cloudflare 上升至第 3，ZS／PANW 仍爭奪大型企業；因此 ZS 的後續驗證點是新客戶取得、AI／SASE 加購與競爭下的折扣紀律。
+
 ## 相關公司
 
 | 關係 | 公司 | 備註 |
@@ -160,6 +166,14 @@ gantt
 - [[報告_UBS_Gartner資安峰會_20260609]] — UBS，Gartner 安全峰會，2026-06-09
 - [[報告_BMO_資安可觀測性_20260612]] — BMO，資安可觀測性（Zenith Live 26），2026-06-12
 - [[報告_Jefferies_資安_20260416]] — Jefferies VAR Survey，2026-04-16
+
+### 本批新增來源
+
+- [[Cybersec 260608 Truist_The age of Mythos & Daybreak]] — Truist，2026-06-08
+- [[Cybersec 260609 UBS_Themes from Gartner security conference]] — UBS，2026-06-09
+- [[Cybersec 260707 Barclays_Security VaR Call]] — Barclays，2026-07-07
+- [[Cybersec 260714 UBS_Positive June Q checks]] — UBS，2026-07-14
+- [[Cybersec 260720 WF_2Q26 on-cycle security reseller survey]] — Wells Fargo，2026-07-20
 
 ## 相關頁面
 

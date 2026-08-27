@@ -9,7 +9,7 @@ tags:
   - 產業/資安
   - 環節/SaaS平台
   - 主題/AI驅動資安
-updated: 2026-07-07
+updated: 2026-08-27
 aliases:
   - CrowdStrike
   - CRWD
@@ -117,6 +117,12 @@ QuiltWorks 是 CRWD 於 2026 年 4 月 23 日發布的業界聯盟，整合 Anth
 
 ---
 
+## 2026Q2 資安通路與 AI 安全更新
+
+- Truist（2026-06-08）將 CRWD 列為 AI-native 平台首選，重點在 Falcon、Charlotte AI、AgentWorks 與 QuiltWorks 的資料／工作流飛輪；Project Glasswing 創始夥伴地位屬券商 thesis，非公司財務承諾。
+- UBS（2026-06-09）與 Wells Fargo（2026-07-10／07-20）均觀察到企業優先採用既有平台；AI-SOC、自動化調查與端點／雲端控制點的採購優先於全面自動修補。Wells Fargo 調查的整體通路 2Q26 加權「高於計畫」淨比率為 +39%，但非 CRWD 單一公司財測。
+- Evercore（2026-07-07）與 Barclays（2026-07-07／07-10）指出 PANW、CRWD 的平台化與 XSIAM／AI-SOC 需求仍具韌性；競爭重點轉向 SIEM、暴露管理與 AI 控制點整合。
+
 ## 相關公司
 
 | 關係 | 公司 | 備註 |
@@ -158,6 +164,15 @@ gantt
 - [[報告_BMO_資安可觀測性_20260612]] — BMO，資安可觀測性，2026-06-12
 - [[報告_Jefferies_資安_20260416]] — Jefferies VAR Survey，2026-04-16
 - [[報告_Jefferies_資安_20260427]] — Jefferies 小型資安股 Preview，2026-04-27
+
+### 本批新增來源
+
+- [[Cybersec 260608 Truist_The age of Mythos & Daybreak]] — Truist，2026-06-08
+- [[Cybersec 260609 UBS_Themes from Gartner security conference]] — UBS，2026-06-09
+- [[Cybersec 260707 Evercore_Cybercheck round 1]] — Evercore ISI，2026-07-07
+- [[Cybersec 260710 WF_Preventive security sees temporary boost]] — Wells Fargo，2026-07-10
+- [[Cybersec 260714 UBS_Positive June Q checks]] — UBS，2026-07-14
+- [[Cybersec 260720 WF_2Q26 on-cycle security reseller survey]] — Wells Fargo，2026-07-20
 
 ## 相關頁面
 

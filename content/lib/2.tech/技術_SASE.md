@@ -4,7 +4,7 @@ tags:
   - 技術/SASE
   - 技術/零信任
   - 產業/資安
-updated: 2026-08-24
+updated: 2026-08-27
 aliases:
   - SASE
   - Secure Access Service Edge
@@ -110,6 +110,12 @@ Check Point 在 2026-07-30 法說發布 AI Network Firewall，並表示 AI Defen
 
 - [[技術_可觀測性]] — SASE + 可觀測性整合（DDOG 安全模組在 SASE 架構中的位置）
 - [[技術_EDR與XDR]] — SASE 的流量保護與 EDR 的終端保護形成互補防線
+
+## 2026Q2–Q3 AI 安全與通路觀察
+
+- UBS（2026-06-09／07-14）與 Truist（2026-06-08）指出，SASE／Zero Trust 是 AI agent 存取控制、資料外洩防護與影子 AI 治理的重要控制點，但企業多先評估既有平台，尚未全面啟動獨立 AI 安全採購。
+- Barclays（2026-07-07）觀察 ZS 大型交易管線仍在，但以既有客戶續約／加購為主；Wells Fargo（2026-07-20）則觀察 Cloudflare 在 SASE／SSE 動能排名上升，競爭加劇。
+- 技術驗證重點由「是否採用 SASE」轉向 AI 流量可視性、代理身份政策、資料／提示防護與跨平台整合；新 logo、加購率與折扣紀律是商業化驗證點。
 
 ## 相關公司
 

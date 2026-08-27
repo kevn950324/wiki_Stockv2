@@ -87,6 +87,12 @@ TD Cowen 2Q26E Beat-and-Raise 前景：
 
 ---
 
+## 2026Q2 資安通路與硬體刷新更新
+
+- Barclays（2026-07-07／07-10）通路觀察 FTNT 2Q26 硬體防火牆與 SD-WAN 動能仍強，部分約 10–15% 可能是漲價前拉貨；目前尚未看到 FortiBleed 對交易流造成明顯影響，均屬通路觀察。
+- Wells Fargo（2026-07-20）調查顯示 FTNT 2Q26 加權淨高於計畫約 +26%，低於 1Q26 的 +39%；防火牆刷新仍在，但拉貨前移降溫，OT 是較具差異化的中期機會，SASE／SecOps／CNAPP 仍偏早期或以下行市場。
+- UBS（2026-07-14）認為防火牆仍成長但相對其他資安次領域承壓；因此 2H26 應同時追蹤刷新週期尾端、OT 新需求與非硬體產品滲透。
+
 ## EPS 記錄
 
 | 年度 | 季度 | 指標 | 數值 | 備註 |
@@ -157,6 +163,14 @@ TD Cowen 2Q26E Beat-and-Raise 前景：
 
 - [[報告_TD_Fortinet_2Q26Preview_20260713]]（TD Cowen，2026-07-13；Buy TP $215、2Q26E Beat-and-Raise 預覽、VAR checks、AI/DC 需求）
 - [[報告_Zacks_Fortinet_20260715]]（Zacks，2026-07-14；Outperform TP $192、Zacks Rank 1、1Q26 Product +41%、deal >$1M +63%）
+
+### 本批新增來源
+
+- [[Cybersec 260707 Barclays_Security VaR Call]] — Barclays，2026-07-07
+- [[Cybersec 260710 Barclays_Another Security VaR Call]] — Barclays，2026-07-10
+- [[Cybersec 260710 WF_Preventive security sees temporary boost]] — Wells Fargo，2026-07-10
+- [[Cybersec 260714 UBS_Positive June Q checks]] — UBS，2026-07-14
+- [[Cybersec 260720 WF_2Q26 on-cycle security reseller survey]] — Wells Fargo，2026-07-20
 
 ## 相關頁面
 

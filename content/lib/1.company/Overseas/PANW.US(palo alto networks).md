@@ -10,7 +10,7 @@ tags:
   - 環節/SaaS平台
   - 主題/AI驅動資安
   - 主題/SASE
-updated: 2026-07-24
+updated: 2026-08-27
 aliases:
   - Palo Alto Networks
   - PANW
@@ -175,6 +175,12 @@ Barclays（Saket Kalia）與 PANW IR Hamza Fodderwala 會後三大要點：
 
 ---
 
+## 2026Q2 資安通路與 AI 安全更新
+
+- Truist（2026-06-08）與 UBS（2026-06-09／07-14）將 PANW 視為平台化與 AI-SOC 受惠者；Project Glasswing 創始夥伴、Cortex XSIAM、Prisma AIRS 與既有平台整合是正面 thesis，仍須由訂單與 ARR 驗證。
+- Barclays（2026-07-07）通路回饋顯示硬體刷新、Prisma Browser、Chronosphere、Prisma AIRS 與 XSIAM 可擴大企業協議金額；XSIAM 取代舊 SIEM 的案例使單筆機會增加約 30–40%，屬通路觀察。
+- Evercore（2026-07-07）維持對 PANW 正面，並指出 AI 資安急迫性升高、硬體需求仍強；Wells Fargo（2026-07-20）將 CYBR／PANW 列為調查中較佳的 2Q26 表現組合，評價與後續執行仍需觀察。
+
 ## 相關公司
 
 | 關係 | 公司 | 備註 |
@@ -220,6 +226,15 @@ gantt
 - [[報告_Jefferies_資安_20260416]] — Jefferies VAR Survey，2026-04-16
 - [[報告_Barclays_PANW_IRMeeting_20260608]] — Barclays，IR Meeting 三大要點，2026-06-08
 - [[報告_Zacks_PANW_20260630]] — Zacks，Neutral TP $349，3Q FY26 beat 詳析，2026-06-30
+
+### 本批新增來源
+
+- [[Cybersec 260608 Truist_The age of Mythos & Daybreak]] — Truist，2026-06-08
+- [[Cybersec 260609 UBS_Themes from Gartner security conference]] — UBS，2026-06-09
+- [[Cybersec 260707 Barclays_Security VaR Call]] — Barclays，2026-07-07
+- [[Cybersec 260707 Evercore_Cybercheck round 1]] — Evercore ISI，2026-07-07
+- [[Cybersec 260714 UBS_Positive June Q checks]] — UBS，2026-07-14
+- [[Cybersec 260720 WF_2Q26 on-cycle security reseller survey]] — Wells Fargo，2026-07-20
 
 ## 相關頁面
 
