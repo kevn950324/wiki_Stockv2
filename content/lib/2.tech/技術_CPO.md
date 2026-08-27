@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-08-22
+updated: 2026-08-27
 aliases:
   - CPO
   - Co-Packaged Optics
@@ -44,6 +44,13 @@ CPO（Co-Packaged Optics，共封裝光學）是把「光引擎（Optical Engine
 CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰場是 **scale-up（縱向擴展，GPU 對 GPU 高頻寬低延遲互連）**——銅互連的觸及距離只有約 2 公尺，限制了單一 scale-up 域的「world size」，光互連是突破機櫃邊界把 world size 做大的關鍵。SemiAnalysis 判斷 CPO 的 TAM 會由 scale-up 主導。
 
 **NPO 是 CPO 前的風險折衷，而不是 CPO 的同義詞。**NPO（Near-Packaged Optics）把 OE 放在 ASIC 封裝旁、但保留獨立基板與可插拔／socketed 介面；高速電通道約 150 mm，介於前面板可插拔模組與 CPO 的 <10 mm 通道之間。[[報告_SemiAnalysis_NPO光互連接棒_20260713]] 認為，它可在保留較低功耗、供應商彈性與部分可維修性的同時，避開 CPO 的 attach yield 與供應商鎖定風險；這是研究機構情境推演，並非各平台已定案的採用承諾。
+
+## Rubin Ultra NVL576 的 NPO／CPO 分流
+
+[[報告_SemiAnalysis_RubinUltraNVL576_20260810]] 將 NVL576 expandable Portia switch tray 描述為 NPO 與 CPO 並行開發：兩者都把每架 NVLink Switch ASIC 增至 72 顆的 scale-up 架構，但 NPO 模組可 socket 到 ASIC 旁的 PCB，CPO 則每顆 switch ASIC 配置 4 個不可更換的 optical engine。SemiAnalysis 判斷 NPO 因 form factor 成熟度較高，可能先於 CPO 成為上市版本；這是研究模型，Rubin Ultra 規格仍可能變動。
+
+![[報告_SemiAnalysis_Rubin_Ultra_NVL576_Flash_Overview_20260810_004.png]]
+*圖（SemiAnalysis／NVIDIA，2026-08-10）：Portia expandable switch 的 NPO／CPO 配置差異；NPO 保留 socketed 模組，CPO 將 optical engine 固定於 switch ASIC 周邊。*
 
 ## 圖解
 
@@ -558,6 +565,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - [[報告_Semianalysis_CPO_20260102]]（CPO Book，2026-01-02）
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（CPO/800VDC 重設預期，2026-06-09）
 - [[報告_SemiAnalysis_NPO光互連接棒_20260713]]（SemiAnalysis，2026-07-13；NPO／Pluggable CPO 與 CPO 的架構、良率和供應彈性取捨）
+- [[報告_SemiAnalysis_RubinUltraNVL576_20260810]]（SemiAnalysis，2026-08-10；NVL576／Oberon rack、NPO／CPO switch tray 與 PCB／背板變化）
  - [[memo_光模块及CPO设备学习总结_acecamptech_20260416]]（設備生態、ficonTEC 壟斷格局、科瑞技術驗證進度、設備需求三重乘數）
  - [[memo_光通信大厂调研_TFLN_CPO_OCS_acecamptech_20260417]]（TFLN CPO 出貨量、OCS Google 需求 20 萬台、NPO vs CPO 過渡）
  - [[memo_光通信大厂调研_CPO出货量_FAU_MPC方案_acecamptech_20260529]]（Spectrum X/Quantum X 進展、DFAU 良率問題、CPO 取代電交換機速度）

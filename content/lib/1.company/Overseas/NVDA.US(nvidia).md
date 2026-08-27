@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-08-16
+updated: 2026-08-27
 aliases:
   - NVIDIA
   - 輝達
@@ -221,11 +221,26 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 詳見 [[技術_TileRT]]
 
+## Rubin Ultra NVL576／Oberon 架構更新（2026-08-10）
+
+[[報告_SemiAnalysis_RubinUltraNVL576_20260810]] 將 Rubin Ultra 的 NVL576 Oberon 描述為 9+18+9 rack：18 個 compute tray 平分於上下方，18 個 0.75U NVLink Switch tray 置中；相較 Rubin，交換器 tray 數量加倍，以控制最遠銅背板通道距離。可擴充 Portia switch tray 有 NPO 與 CPO 兩種版本，每架 72 顆 NVLink Switch ASIC；報告認為 NPO 因 form factor 成熟度較高，可能先於 CPO 上市。上述為 SemiAnalysis 研究模型，且來源註明規格仍可能變動。
+
+| 架構項目 | Rubin Ultra NVL576 研究模型 | 投資觀察 |
+|---|---|---|
+| Compute tray | 18 個，9+9 配置 | 機架與滑軌內容值增加 |
+| NVLink Switch tray | 18 個、每個 0.75U | [[2059_川湖（市）]] 等機構供應商受惠方向 |
+| Expandable switch | 4 顆 ASIC／tray、72 顆／rack | NPO socketed；CPO 為不可更換 optical engine |
+| Tachyon HPM | PCB 26 層升至 30 層，材料不變 | 高層數 PCB／CCL 認證與良率需追蹤 |
+
+![[報告_SemiAnalysis_Rubin_Ultra_NVL576_Flash_Overview_20260810_003.png]]
+圖說：SemiAnalysis／NVIDIA 研究圖將 Rubin Ultra NVL576 的 9+18+9 rack 與 NPO／CPO scale-up 選項並列；架構尚非 NVIDIA 最終規格。
+
 ## 來源
 - [[20260709_0823_800VDC_UBS_20260707]]（UBS，2026-07-07；800VDC 三層部署選項與 AI 資料中心電力架構）
 - [[memo_OCPAPAC_CPO_NPO_XPO專家會議_20260820]]（OCP APAC panel，2026-08-20；NVIDIA CPO 系統設計、MMC／ELS／800G fabric 與 CPO 路線）
 - 報告_SemiAnalysis_NVIDIA_GPU_Backstop_AI_Trinity_20260706（SemiAnalysis，2026-07-06；GPU Backstop 計畫、AI Project Trinity、Neocloud 融資）
 - [[報告_SemiAnalysis_TileRT_InferenceX_20260809]]（SemiAnalysis，2026-08-09；TileRT on GPU 超低延遲推理；InferenceX 基準）
+- [[報告_SemiAnalysis_RubinUltraNVL576_20260810]]（SemiAnalysis，2026-08-10；Rubin Ultra NVL576／Oberon rack、NPO／CPO 與 PCB／背板變化）
 - [[報告_SemiAnalysis_NvidiaCCL_20260702]]（SemiAnalysis，2026-07-02；GB300／VR NVL72／Rubin 板卡 CCL 供應：EMC/斗山/南亞，見 [[技術_CCL]]）
 - [[260702_gs_TSMC]]（高盛，2026-07-02；台積電為 NVIDIA AI 加速器加速擴 CoWoS 產能、2027E 280kwpm，見 [[技術_CoWoS與先進封裝]]）
 - [[報告_其他_玻璃基板_20260511]]（國金證券「玻璃基板行業深度」，2026-05-11；分析師李陽 S1130524120003）

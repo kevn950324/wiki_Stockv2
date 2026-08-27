@@ -6,7 +6,7 @@ tags:
   - 技術/銅箔
   - 產業/AI伺服器
   - 環節/PCB材料
-updated: 2026-08-17
+updated: 2026-08-27
 ---
 
 # 供應鏈_AI伺服器PCB
@@ -298,6 +298,18 @@ GS 觀點：看好 HDI 升級趨勢——AI PCB 規格從 3+N+3 HDI（26L MLB �
 | 上游材料 | 銅箔、電子布、樹脂價格上行，形成 CCL 量價齊升但也壓縮下游毛利的雙面效果 | 需區分材料漲價受惠與 PCB 廠成本傳導能力 |
 
 來源：[[報告_銀河證券_PCB_CCL_AI深度_20260812]]（中國銀河證券，2026-08-12）。
+
+## 2026-08-27 Rubin Ultra NVL576 補充
+
+[[報告_SemiAnalysis_RubinUltraNVL576_20260810]] 指出 Tachyon HPM PCB 由 26 層升至 30 層、材料維持不變；NVL576 的 Portia expandable switch tray 則是 NPO／CPO 兩種不同 PCB／光互連配置。背板架構在 expandable 與 non-expandable 版本間可共用，PHD2 connector 升級至 PHD3，DP 數量維持不變。上述為研究模型，需待 NVIDIA 與板材／PCB 供應鏈正式規格確認。
+
+| 觀察項目 | 變化 | 投資含義 |
+|---|---|---|
+| Tachyon HPM | PCB 26→30 層，材料不變 | 高層數板製程、良率與認證重要性上升 |
+| Portia expandable | NPO／CPO 版本 PCB 複雜度不同 | NPO 先上市情境下，socket、光耦合與測試需求先行 |
+| Rack backplane | PHD2→PHD3、DP 數量不變，兩版本可共用 | 連接器升級但平台共用可降低供應鏈切換成本 |
+
+來源：[[報告_SemiAnalysis_RubinUltraNVL576_20260810]]（SemiAnalysis，2026-08-10）。
 
 | 環節 | 公司 | 觀察 |
 |---|---|---|

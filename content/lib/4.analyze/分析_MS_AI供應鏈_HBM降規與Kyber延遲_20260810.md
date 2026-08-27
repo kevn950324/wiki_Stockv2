@@ -6,6 +6,7 @@ sources:
   - "[[報告_MS_AI供應鏈_20260810]]"
   - "[[報告_富邦_Kyber機櫃延後_20260721]]"
   - "[[memo_廣發海外電子通信月度電話會議_20260814]]"
+  - "[[報告_SemiAnalysis_RubinUltraNVL576_20260810]]"
 tags:
   - 產業/AI伺服器
 related_companies:
@@ -37,6 +38,7 @@ Morgan Stanley 2026-08-10 的供應鏈查核顯示，記憶體短缺與超級節
 - 富邦估 Kyber 約 600kW，需 800VDC power rack；MCL 與雙相液冷仍受測試標準、流量均勻、快接頭／管線壓力與幫浦設計制約。
 - [[memo_廣發海外電子通信月度電話會議_20260814]]（2026-08-14）進一步稱 Rubin Ultra 以 8-Hi 為主要降配方向，列出 HBM4 192GB／HBM4E 256GB 與 12-Hi 288GB／384GB 四種版本；192GB 偏推論、384GB 偏訓練。
 - 同份來源預期 Rubin Ultra 2027H2 與 Feynman 2028H2 的 scale-up 先採 NPO，顯示「跨機櫃光互連方向不變，但 CPO 形態與時程可能後移」。
+- [[報告_SemiAnalysis_RubinUltraNVL576_20260810]]（2026-08-10）進一步描述 NVL576 的 Oberon rack：18 個 compute tray、18 個 0.75U NVLink Switch tray；可擴充版本每架 72 顆 NVLink Switch ASIC，NPO／CPO 並行開發，但 NPO 因成熟度較高較可能先上市。
 
 ![[報告_富邦_Kyber機櫃延後_20260721_003.png]]
 
@@ -50,6 +52,7 @@ Morgan Stanley 2026-08-10 的供應鏈查核顯示，記憶體短缺與超級節
 | Kyber 延遲 | 機架 PCB／散熱難度仍是 supernode 瓶頸 | [[3017_奇鋐（市）]] | 中 |
 | Oberon 承接過渡需求 | ODM 整機需求未必消失；Kyber 專屬 M10／78 層 PCB、MCL／雙相液冷與高階滑軌收入較可能遞延 | [[2059_川湖（市）]]、[[3017_奇鋐（市）]]、[[3653_健策（市）]] | 中 |
 | 跨機櫃光互連方向不變 | CPO 短期時程有風險，中長期 scale-up 需求仍在 | [[NVDA.US(nvidia)]] | 中高 |
+| NVL576 將交換器數量與光互連選項前置到機架設計 | 機構、背板、PCB 與 NPO 光模組內容值提升；CPO 仍是後續選項 | [[2059_川湖（市）]]、[[2383_台光電（市）]]、[[3363_上詮（櫃）]] | 中 |
 
 ## Insight 結論
 
@@ -71,6 +74,7 @@ Morgan Stanley 2026-08-10 的供應鏈查核顯示，記憶體短缺與超級節
 | CPO 是 NVIDIA 偏好的跨機櫃方向 | thesis | [[報告_MS_AI供應鏈_20260810]] | 2026-08-10 | 中高 |
 | Rubin Ultra 準備四種 8-Hi／12-Hi HBM4／HBM4E 容量，192GB 為推論主流 | estimate／channel check | [[memo_廣發海外電子通信月度電話會議_20260814]] | 2026-08-14 | 中 |
 | Rubin Ultra／Feynman scale-up 先以 NPO 為主 | estimate／channel check | [[memo_廣發海外電子通信月度電話會議_20260814]] | 2026-08-14 | 中 |
+| NVL576 expandable rack 每架 72 顆 NVLink Switch ASIC，NPO／CPO 為兩種方案 | estimate／研究模型 | [[報告_SemiAnalysis_RubinUltraNVL576_20260810]] | 2026-08-10 | 中 |
 
 > [!warning] 資訊衝突
 > - [[報告_摩根大通_台灣能源南亞目標價調升_20260713]]（報告日：2026-07-13）：記錄 NVIDIA 否認 Kyber 延遲，表示 roadmap intact。
@@ -83,9 +87,11 @@ Morgan Stanley 2026-08-10 的供應鏈查核顯示，記憶體短缺與超級節
 > - [ ] NVIDIA 是否在 2026Q3 末正式公布 HBM SKU。
 > - [ ] 若 HBM 供給快速改善，降規與 GPU 數量補償 thesis 可能失效。
 > - [ ] 驗證 Kyber 是否恢復具體量產時間，以及 Oberon 延用範圍。
+> - [ ] NVIDIA 是否正式確認 NVL576 的 9+18+9 rack、72 顆 switch ASIC 與 NPO／CPO 選擇；來源明確註記 spec／architecture 尚在變動。
 
 ## 來源引用
 
 - [[報告_MS_AI供應鏈_20260810]] — Morgan Stanley，2026-08-10
 - [[報告_富邦_Kyber機櫃延後_20260721]] — 富邦投顧，2026-07-21
 - [[memo_廣發海外電子通信月度電話會議_20260814]] — 廣發海外電子通信，2026-08-14
+- [[報告_SemiAnalysis_RubinUltraNVL576_20260810]] — SemiAnalysis，2026-08-10

@@ -8,7 +8,7 @@ tags:
   - 技術/矽光子（SiPh）
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-08-22
+updated: 2026-08-27
 ---
 
 # 供應鏈_AI光互聯
@@ -234,3 +234,14 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 
 - [[報告_申万宏源_光通信光電集成深度_20260630]] 將 AI 光互聯的價值量上移歸納為三條路線：EML 向矽光子 PIC 遷移、單通道速率提升，以及 CPO／NPO 的光電整合；2027 年 400G 以上光模組／光引擎需求 1.55 億支、TAM 超過 700 億美元為券商估計，信心中。
 - 供應鏈觀察由交換晶片／SerDes 鏈主（[[AVGO.US(broadcom)]]、[[MRVL.US(marvell)]]）延伸至 CW 光源（[[LITE.US(lumentum)]]、[[COHR.US(coherent)]]、[[7907_源傑科技（興）]]）及光電封裝（[[3450_聯鈞（市）]]）；個別客戶份額仍須驗證。
+
+## 2026-08-27 Rubin Ultra NVL576 架構補充
+
+[[報告_SemiAnalysis_RubinUltraNVL576_20260810]] 描述 NVL576 將 expandable scale-up switch 增至每架 72 顆 ASIC，並在 NPO／CPO 兩種方案間並行開發；報告判斷 NPO 因 socketed form factor 成熟度較高，較可能先上市。這使短期光互聯觀察重點由「CPO 是否立即量產」轉為「NPO 是否先承接跨機櫃 scale-up」，但來源仍註明 Rubin Ultra 規格尚在變動。
+
+| 路線 | NVL576 角色 | 近期觀察 |
+|---|---|---|
+| NPO | socketed optical module，較可能先上市 | 光模組、FAU、PCB socket 與測試驗證 |
+| CPO | 每顆 switch ASIC 配 4 個不可更換 optical engine | attach 良率、維修性與量產時程 |
+
+來源：[[報告_SemiAnalysis_RubinUltraNVL576_20260810]]（SemiAnalysis，2026-08-10）。
