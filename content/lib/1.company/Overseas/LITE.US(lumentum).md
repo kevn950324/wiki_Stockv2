@@ -232,6 +232,7 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 - [Lumentum FY26 Q4／全年正式財報新聞稿](https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results/default.aspx)（2026-08-11；公司正式數字與 FY27 Q1 guidance）
 - [SEC Form 8-K，Lumentum FY26 Q4](https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite-20260811.htm)（2026-08-11；監管文件）
 - [Lumentum Q4 FY26 Earnings Call Transcript](https://www.fool.com/earnings/call-transcripts/2026/08/18/lumentum-lite-q4-2026-earnings-call-transcript/)（2026-08-18；第三方逐字稿，Q&A 以公司 webcast／SEC 為準）
+- [[活動_Lumentum_FY2026Q4法說_20260827]]（2026-08-27；使用者提供之中英對照逐字稿，原始紀錄）
 - [[ms_LITE_20260812]]（Morgan Stanley，2026-08-12；券商估計與目標價）
 - [[Lumentum H-2025-07-07-LITE.OQ-Wolfe Research-Structural Winner_ Initiate at Outperform-116406363]]（Wolfe Research，2025-07-07；初始覆蓋）
 - [[報告_元大_光通訊產業_20260723]]（元大，2026-07-23；市場與競品背景）
