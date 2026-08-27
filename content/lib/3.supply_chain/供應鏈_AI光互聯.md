@@ -245,3 +245,16 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 | CPO | 每顆 switch ASIC 配 4 個不可更換 optical engine | attach 良率、維修性與量產時程 |
 
 來源：[[報告_SemiAnalysis_RubinUltraNVL576_20260810]]（SemiAnalysis，2026-08-10）。
+
+## 2026-08-27 Lumentum 券商交叉驗證
+
+五份 2026-08-11～12 券商報告共同確認近期主線仍是 800G／1.6T、EML／CW／pump laser 與 OCS；差異集中在 NPO／CPO 時程與毛利 mix。Jefferies、Barclays、BNP Paribas 與 JPMorgan 對 NPO／ELS 的增量機會較正面，TD Cowen 則提醒 CW 擴產與中國 InP 供給可能帶來週期性供過於求。
+
+| 環節 | 觀察公司 | 本批來源結論 | 信心 |
+|---|---|---|---|
+| EML／CW／pump laser | [[LITE.US(lumentum)]]、[[COHR.US(coherent)]] | EML 需求仍超過供給 30% 以上；pump laser 未來數季可能增至約 4 倍，但 CW／InP 擴產需防供給反轉 | 中 |
+| 800G／1.6T transceiver | [[LITE.US(lumentum)]] | 800G 出貨創高、1.6T 已開始出貨，FY27 Q1 起加速；1.6T 可能提高 CW／矽光子占比 | 中高 |
+| OCS | [[LITE.US(lumentum)]]、[[GOOGL.US(alphabet)]] | FY26 下半年收入目標 USD 400m 以上，首個 triple-digit quarter 進入驗證；客戶與 port-count 擴展仍待追蹤 | 中 |
+| NPO／CPO／ELS | [[LITE.US(lumentum)]]、[[NVDA.US(nvidia)]] | NPO 客戶興趣較廣，CPO 基準為 2H27 出貨／2028 部署；ELS 首張訂單與超高功率雷射出貨仍屬展望 | 中 |
+
+來源：[[2026-08-11-LITE.OQ-Jefferies-Delivering on Multiple Growth Vectors, NPO a New Leg to Scal...-123789110]]、[[2026-08-11-LITE.OQ-TD Cowen-Continued Strong Execution, But Cycle Questions Linger-123788973]]、[[2026-08-12-LITE.OQ-Barclays-Lumentum Holdings Inc. Several Moving Pieces, All in Right ...-123789088]]、[[2026-08-12-LITE.OQ-BNP Paribas-LUMENTUM HOLDINGS (+)  Lighting The Way-123789795]]、[[2026-08-12-LITE.OQ-JPMorgan-Lumentum F4Q26 Review Executing Ahead of Plan With Incremen...-123791452]]。

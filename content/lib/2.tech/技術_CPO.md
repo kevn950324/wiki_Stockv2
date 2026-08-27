@@ -651,3 +651,13 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 
 > [!warning] 來源邊界
 > 以上 TAM、需求量與公司受惠排序均屬申萬宏源研究估計或產業判斷；未改寫為已確認訂單、量產承諾或特定客戶供應關係。
+
+## 2026-08 券商對 NPO／CPO 的交叉驗證
+
+- [[2026-08-11-LITE.OQ-Jefferies-Delivering on Multiple Growth Vectors, NPO a New Leg to Scal...-123789110]] 與 [[2026-08-12-LITE.OQ-JPMorgan-Lumentum F4Q26 Review Executing Ahead of Plan With Incremen...-123791452]] 均把 NPO 視為 CPO 之外的增量機會；JPMorgan 估計 scale-up NPO 可能在 2027 年底開始爬坡，但屬券商估計。
+- [[2026-08-12-LITE.OQ-Barclays-Lumentum Holdings Inc. Several Moving Pieces, All in Right ...-123789088]] 指出客戶對 NPO 的興趣比 CPO 更廣，並把 CPO 出貨／部署基準放在 2H27／2028；這支持 NPO 作為可插拔與 CPO 間的過渡路線。
+- [[2026-08-12-LITE.OQ-BNP Paribas-LUMENTUM HOLDINGS (+)  Lighting The Way-123789795]] 認為 NPO 可整合中功率 CW 雷射或搭配外部超高功率 CW 雷射；具體 OE、封裝與客戶平台仍未公開定案。
+- [[2026-08-11-LITE.OQ-TD Cowen-Continued Strong Execution, But Cycle Questions Linger-123788973]] 提醒 1.6T 世代可能更偏 CW／矽光子，且中國 InP 擴產可能造成中長期供過於求；因此 CPO／NPO 的光源需求不等於所有雷射產品都維持相同毛利。
+
+![[2026-08-11-LITE.OQ-Jefferies-Delivering on Multiple Growth Vectors, NPO a New Leg to Scal...-123789110_003.png]]
+*圖：Jefferies 2026-08-11 估計表把 1.6T、OCS、CPO 與 NPO 相關雷射需求放在同一成長模型；數字屬券商 estimate，不是公司承諾。*

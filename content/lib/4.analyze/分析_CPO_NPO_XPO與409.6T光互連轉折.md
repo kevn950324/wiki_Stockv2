@@ -77,3 +77,18 @@ OCP APAC 專家會議把 CPO、NPO、XPO 與可插拔模組放回同一個系統
 
 - [[memo_OCPAPAC_CPO_NPO_XPO專家會議_20260820]] — OCP APAC panel transcript，2026-08-20
 - [[技術_CPO]] — CPO 技術與供應鏈彙整
+
+## 2026-08-27 Lumentum 券商交叉驗證
+
+五份 2026-08-11～12 券商報告把 NPO 的位置從「CPO 延後時的替代」進一步具體化為可插拔與 CPO 之間的增量路線：Barclays 認為 NPO 客戶興趣較廣，JPMorgan 估計 2027 年底可能開始 scale-up；但 TD Cowen 提醒 CW／InP 擴產的供過於求與毛利風險。這使 Lumentum 的短期驗證點仍是 1.6T／OCS，NPO／CPO 則是中期合約與出貨驗證。
+
+| Claim | 類型 | 來源 | 日期 | 信心 |
+|---|---|---|---|---|
+| NPO 客戶興趣可能比 CPO 更廣，且可成為過渡路線 | thesis | [[2026-08-12-LITE.OQ-Barclays-Lumentum Holdings Inc. Several Moving Pieces, All in Right ...-123789088]] | 2026-08-12 | 中 |
+| Lumentum 首張 ELS module 訂單預計 2H27 交付 | company outlook／estimate | [[2026-08-12-LITE.OQ-JPMorgan-Lumentum F4Q26 Review Executing Ahead of Plan With Incremen...-123791452]] | 2026-08-12 | 中 |
+| 1.6T、OCS 與 EML／CW／pump laser 先於 NPO／CPO 形成近期收入驗證 | thesis | [[2026-08-11-LITE.OQ-Jefferies-Delivering on Multiple Growth Vectors, NPO a New Leg to Scal...-123789110]] | 2026-08-11 | 中 |
+
+> [!todo] 新增待確認事項
+> - [ ] 追蹤 NPO 是否在 2027H2 前取得正式客戶合約與量產窗口。
+> - [ ] 比對 ELS module 首張訂單是否轉為可辨識收入，及其毛利是否高於公司平均。
+> - [ ] 若 CW／InP 產能擴張先於需求，則需下修雷射環節受惠排序與估值倍數。
