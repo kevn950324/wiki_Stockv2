@@ -102,6 +102,9 @@ Jefferies VAR 調查（2026-04-16）報告顯示 PANW 已完成對 CyberArk（CY
 | 2026-06-08 | Truist Securities | Buy | — | $272.05 | Rise of the Models |
 | 2026-04-27 | J.P. Morgan | Overweight | — | $178.54（4/24） | Glasswing 創始夥伴 |
 | 2026-04-16 | Jefferies VAR | 正面 | — | — | PANW 2H26 net score 64%（全場最高） |
+| 2026-08-05 | Barclays | Overweight | $370（由 $315 上調） | FY27 NGS ARR 約 $10.9B；FY28 FCF margin 40% 路徑 |
+| 2026-08-17 | TD Securities | Buy | $400（由 $360 上調） | FY27 營收成長估計 21%；Prisma AIRS 仍處早期評估 |
+| 2026-08-18 | UBS | Neutral | $390（由 $300 上調） | CY28 FCF margin 41%；估值已反映中高雙位數成長 |
 
 ---
 
@@ -114,6 +117,21 @@ Barclays（Saket Kalia）與 PANW IR Hamza Fodderwala 會後三大要點：
 - **NetSec 佔 70% 且加速 → 支撐 FY28 FCF 40% 路徑**：TTM 防火牆訂單 +19%（vs 11%），SASE ARR YoY +40%；NetSec 加速可縮短 billings duration 下行，疊加 CYBR 費用協同效應，強化 FY28 FCF margin 40% 目標
 
 > 訂閱收入成長討論：軟體防火牆 rev-rec 前置比例從 30% 升至 40%（導致訂閱比例下降），加上 Prisma Cloud 拖累，是「訂閱收入減速」的機制性原因而非基本面惡化。FY27 起將改為揭露三產品族（NetSec / Identity / Cortex）及 Total Recurring Revenue，雜訊將降低。
+
+## 2026-08 財報前更新
+
+本批 Barclays、TD、Deutsche Bank 與 UBS 報告共同指向：PANW F4Q26（2026-09-01 盤後）仍有防火牆刷新、平台化與大型企業 ELA 擴張支撐，但對 AI 資安需求的短期變現速度看法分歧。
+
+| 面向 | 新資訊 | 判讀 | 信心 |
+|---|---|---|---|
+| F4Q26 預估 | Barclays 估 NGS NNARR 約 $795M、NGS ARR 約 $8.925B；TD 估營收 $3.35B、調整後 EPS $0.99 | 季節性與硬體刷新偏正面，屬券商 estimate | 中 |
+| FY27 | Barclays 估 NGS ARR 約 $10.9B；TD 估營收 $13.8B、年增 21%；UBS 估營收 $14.059B、NGS ARR $10.978B | 新分部揭露有助拆解成長，但 ARR 與營收不會完全同步 | 中 |
+| 平台與產品 | TD 指 organic platformization deals 3Q 年增 32%；AIRS 被管理層稱為歷史成長最快產品，但仍在早期評估 | 平台交叉銷售較接近近期收入，AIRS 的 ARR 仍待驗證 | 中 |
+| AI 資安需求 | Barclays 通路認為 Mythos 使大型交易較容易成交；Deutsche Bank 訪談則認為客戶 AI security 需求落後供應商敘事約一年 | 安全預算改善不等同 AI SKU 立即放量，保留並列 | 中 |
+| XSIAM／SIEM | UBS 通路仍看好 XSIAM，但對大規模 Splunk displacement 較保守 | XSIAM 成長可持續，全面替換既有 SIEM 的速度仍是執行風險 | 中 |
+
+![[報告_UBS_PANW_4Q26Preview_20260818_005.png]]
+*UBS（2026-08-18）估值情境：基準價 $390、上行 $550、下行 $175；上行需要更快的 Network Security、AIRS／XSIAM 交叉銷售與 CyberArk 整合。*
 
 ---
 
@@ -213,6 +231,7 @@ gantt
     Zacks Neutral TP $349（3Q FY26 beat；FY26E $11.36B；Prisma AIRS 300+客戶） :milestone, 2026-06-30, 0d
     section 財報
     FY4Q26 / FY26 Full Year 財報發布 :milestone, 2026-08-17, 0d
+    F4Q26 財報與 FY27 指引（預計 2026-09-01 盤後） :milestone, 2026-09-01, 0d
 ```
 
 ---
@@ -226,6 +245,10 @@ gantt
 - [[報告_Jefferies_資安_20260416]] — Jefferies VAR Survey，2026-04-16
 - [[報告_Barclays_PANW_IRMeeting_20260608]] — Barclays，IR Meeting 三大要點，2026-06-08
 - [[報告_Zacks_PANW_20260630]] — Zacks，Neutral TP $349，3Q FY26 beat 詳析，2026-06-30
+- [[報告_Barclays_PANW_4Q26Preview_20260805]] — Barclays，F4Q26 preview，2026-08-05
+- [[報告_DeutscheBank_PANW_4Q26_20260810]] — Deutsche Bank，Black Hat 2026 AI 資安觀察，2026-08-10
+- [[報告_TD_PANW_4Q26Preview_20260817]] — TD Securities，F4Q26 preview，2026-08-17
+- [[報告_UBS_PANW_4Q26Preview_20260818]] — UBS，F4Q26 preview，2026-08-18
 
 ### 本批新增來源
 
