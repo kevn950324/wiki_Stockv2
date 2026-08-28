@@ -223,6 +223,11 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 ## Rubin Ultra NVL576／Oberon 架構更新（2026-08-10）
 
+### 2026-08-27 台灣供應鏈交叉觀察
+
+- [[260827_ms_NVDA-implication]] 與 [[260827_citi_nvda-implication]] 均指向 FY/CY27 約 70% 營收成長展望、Rubin 已進入量產；瓶頸由 GPU 延伸至 HBM、CoWoS、網路、rack 整合、電力與資料中心實體容量。MS 估 NVIDIA 2027 年 CoWoS-L 用量約 910k wafers、年增約 40%（estimate，信心：中）。
+- 台灣受惠鏈由 [[2330_台積電（市）]]、[[3711_日月光投控（市）]] 延伸至 [[2317_鴻海（市）]]、[[2382_廣達（市）]]、[[3231_緯創（市）]]；Citi 另強調 [[2308_台達電（市）]] 的電力基礎設施角色。
+
 [[報告_SemiAnalysis_RubinUltraNVL576_20260810]] 將 Rubin Ultra 的 NVL576 Oberon 描述為 9+18+9 rack：18 個 compute tray 平分於上下方，18 個 0.75U NVLink Switch tray 置中；相較 Rubin，交換器 tray 數量加倍，以控制最遠銅背板通道距離。可擴充 Portia switch tray 有 NPO 與 CPO 兩種版本，每架 72 顆 NVLink Switch ASIC；報告認為 NPO 因 form factor 成熟度較高，可能先於 CPO 上市。上述為 SemiAnalysis 研究模型，且來源註明規格仍可能變動。
 
 | 架構項目 | Rubin Ultra NVL576 研究模型 | 投資觀察 |

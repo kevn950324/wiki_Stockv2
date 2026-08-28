@@ -232,6 +232,11 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 
 ## 2026-08-23 申萬宏源光電整合補充
 
+### 2026-08-27 NVIDIA 供應鏈與光互聯延伸
+
+- [[260827_citi_nvda-implication]] 指出 AI factory 的瓶頸已由晶片擴大至 rack integration、電力與實體資料中心容量，光元件、網通、液冷與電力管理因此成為同一部署週期的延伸受惠環節。
+- [[260827_ms_NVDA-implication]] 估 NVIDIA 2027 年 CoWoS-L 消耗約 910k wafers、年增約 40%；光互聯需求仍與 Rubin rack 出貨、HBM／先進封裝與整機同步，屬券商 estimate，信心：中。
+
 - [[報告_申万宏源_光通信光電集成深度_20260630]] 將 AI 光互聯的價值量上移歸納為三條路線：EML 向矽光子 PIC 遷移、單通道速率提升，以及 CPO／NPO 的光電整合；2027 年 400G 以上光模組／光引擎需求 1.55 億支、TAM 超過 700 億美元為券商估計，信心中。
 - 供應鏈觀察由交換晶片／SerDes 鏈主（[[AVGO.US(broadcom)]]、[[MRVL.US(marvell)]]）延伸至 CW 光源（[[LITE.US(lumentum)]]、[[COHR.US(coherent)]]、[[7907_源傑科技（興）]]）及光電封裝（[[3450_聯鈞（市）]]）；個別客戶份額仍須驗證。
 
