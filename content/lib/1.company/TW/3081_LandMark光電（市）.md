@@ -139,6 +139,7 @@ GS 光互連供應鏈全景圖（`Optical Networking 260417 GS AI scale out scal
 
 ## 相關頁面
 
+- [[4979_華星光（櫃）]]
 - [[4971_IET-KY（市）]]
 - [[AAOI.US(applied optoelectronics)]]
 - [[COHR.US(coherent)]]

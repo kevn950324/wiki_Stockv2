@@ -97,5 +97,7 @@ Oracle Corporation（ORCL.US）是全球最大的企業資料庫廠商，近年�
 
 ## 相關頁面
 
+- [[DELL.US(dell)]]
+- [[時程_2026記憶體與AI催化劑]]
 - [[META.US(meta)]]
 - [[技術_GPU_Backstop]]

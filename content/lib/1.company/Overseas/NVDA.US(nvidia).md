@@ -261,6 +261,8 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 ## 相關頁面
 
+- [[分析_20260827_NVIDIA供應鏈與AI伺服器]]
+- [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[AEHR.US(aehr)]]
 - [[供應鏈_AI光互聯]]
 - [[分析_2026-08_AI半導體與電源供應鏈新來源]]

@@ -184,6 +184,8 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 
 ## 相關頁面
 
+- [[4979_華星光（櫃）]]
+- [[分析_20260827_NVIDIA供應鏈與AI伺服器]]
 - [[3702_大聯大（市）]]
 - [[4966_譜瑞-KY（櫃）]]
 - [[6526_達發（市）]]

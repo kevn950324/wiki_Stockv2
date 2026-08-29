@@ -64,3 +64,7 @@ graph LR
 
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（光通訊三雄 W26 市場，2026-06-29）
 - [[技術_CPO]]（Nubis → Ciena 收購記載）
+
+## 相關頁面
+
+- [[4979_華星光（櫃）]]
