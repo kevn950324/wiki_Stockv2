@@ -661,3 +661,11 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 
 ![[2026-08-11-LITE.OQ-Jefferies-Delivering on Multiple Growth Vectors, NPO a New Leg to Scal...-123789110_003.png]]
 *圖：Jefferies 2026-08-11 估計表把 1.6T、OCS、CPO 與 NPO 相關雷射需求放在同一成長模型；數字屬券商 estimate，不是公司承諾。*
+
+## 2026-08-28 Marvell 連結與光互連更新
+
+- [[報告_GFHK_Marvell_20260828]] 將 800G、快速爬坡的 1.6T DSP、51.2T switch 與 1.6T ZR／ZR+ coherent DSP 視為 FY28 營收成長主軸；這使 scale-out 與 scale-across 的光互連需求先於大規模 CPO 量產落地。
+- Marvell 透過 Celestial AI 強化 scale-up CPO／NPO 與 optical fabric；GFHK 指出 FY28 scale-up optical 機會高於先前 US$300m，但金額與實際客戶導入仍屬管理層／券商估計。
+- Marvell 約 US$1bn supplier prepayments 反映供應能力可能成為限制因素，但不等同於特定光元件供應商已取得訂單。
+
+來源：[[報告_GFHK_Marvell_20260828]]（GF Securities，2026-08-28）。

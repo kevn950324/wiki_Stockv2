@@ -9,13 +9,15 @@ tags:
   - 產業/AI伺服器
   - 產業/企業IT
   - 環節/AI伺服器組裝
-updated: 2026-07-10
+updated: 2026-08-29
 aliases:
   - Dell
   - Dell Technologies
 related_companies:
   - "[[NVDA.US(nvidia)]]"
   - "[[MU.US(micron)]]"
+  - "[[2317_鴻海（市）]]"
+  - "[[ORCL.US(oracle)]]"
 ---
 
 # DELL.US(dell)
@@ -51,6 +53,10 @@ Dell FY27（Feb 2026–Jan 2027）Q1 創歷史紀錄：
 | PC / 工作站（CSG）| 商用 PC、AI PC | 企業、消費者 |
 
 ## 圖片 / 架構圖
+
+![[報告_GFHK_Dell_20260828_001.png]]
+
+圖說：GF Securities 對 Dell 資本回報與自由現金流的預測；AI 伺服器擴張提高營收規模，但傳統企業／PC 需求與毛利率仍需同步追蹤（2026-08-28）。
 
 ```mermaid
 flowchart LR
@@ -129,6 +135,20 @@ flowchart LR
 
 - [[活動_Dell法說_20260528]]（FY27 Q1 法說，2026-05-28；Jeff Clarke CEO / David Kennedy CFO）
 - 報告_MS_IT硬體企業伺服器_20260623（MS IT Hardware 企業伺服器需求報告，2026-06-23）
+- [[報告_GFHK_Dell_20260828]]（GF Securities，2026-08-28；Neocloud AI 伺服器需求、Rubin 競爭、FY27/FY28E EPS 與目標價）
+
+## GF Securities 2026-08-28 更新
+
+- 維持 **Hold**、目標價 **US$428**，以 FY28E EPS 18 倍估值；FY27E／FY28E EPS 上修 11%／6% 至 US$22.0／23.8，均屬券商 estimate。
+- Tier-2 Neocloud（IREN、NScale、Crusoe）AI 伺服器部署，以及 Oracle／SpaceX 的 Vera CPU 機架，支撐 Dell AI backlog；券商預估 FY27／FY28 NVL72 出貨 17k／20k。
+- 風險轉向：企業與 PC 需求在 1H26 提前拉貨後出現放緩，記憶體供應亦限制傳統業務；GFHK 另判斷鴻海取得 SpaceX 多千套訂單，Dell 在 Rubin 週期的領先地位可能被侵蝕，仍屬券商 supply-chain check。
+
+## 相關公司
+
+| 公司 | 關係 | 說明 |
+|------|------|------|
+| [[2317_鴻海（市）]] | AI 伺服器競爭者 | GFHK 認為鴻海可能取得 SpaceX 多千套 Rubin 相關訂單，Dell 份額需驗證 |
+| [[ORCL.US(oracle)]] | 下游客戶 | Vera CPU 機架出貨對象之一，來源為券商整理 |
 
 ## 相關頁面
 

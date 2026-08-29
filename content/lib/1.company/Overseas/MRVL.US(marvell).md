@@ -11,7 +11,7 @@ tags:
   - 技術/矽光子
   - 環節/光纖與光通訊
   - 環節/光纖與光通訊
-updated: 2026-06-29
+updated: 2026-08-29
 aliases:
   - Marvell
   - 邁威爾
@@ -116,6 +116,7 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（2026-06-09）
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（Polariton 收購；調變器路線多元化 Si/TFLN/plasmonics/EML 四線並進，2026-06-29）
 - [[Semiconductors 260615 MS public company bus tour ALAB MRVL INTC]]（MS bus tour，2026-06-15）
+- [[報告_GFHK_Marvell_20260828]]（GF Securities，2026-08-28；F2Q、custom ASIC、800G／1.6T、CPO／NPO 與 FY27/FY28E 展望）
 
 ## 相關頁面
 
@@ -130,6 +131,24 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 - [[技術_CPO]]
 - [[技術_TFLN]]
 - [[技術_矽光子（SiPh）]]
+
+## GF Securities 2026-08-28 更新
+
+- F2Q 營收 **US$2.74bn**（季增 13%、年增 37%）、non-GAAP EPS **US$0.94**；F3Q 指引營收 **US$3.15bn**，管理層預期 custom ASIC mix 使毛利率季減，但營業槓桿可推動 non-GAAP OPM 朝 38%–40% 目標。
+- 管理層將 FY27／FY28 營收展望上修至約 **US$12bn／18bn**（原 US$11.5bn／16.5bn）；GFHK 將 FY27E／FY28E EPS 上修 7%／3% 至 US$4.41／7.96，均屬 estimate。
+- Google 多年期框架協議涵蓋 inference accelerator、storage controller、NIC、CXL 與 near-memory compute；另一大型 hyperscaler XPU 專案仍在推進，實際認列節奏需驗證。
+- 800G 維持強勁、1.6T DSP 加速，51.2T switch 營收預期本財年倍增；Celestial AI 強化 CPO／NPO 與 optical fabric，FY28 scale-up optical 機會高於先前 US$300m，另配置約 US$1bn supplier prepayments 保供，均屬管理層／券商口徑。
+
+## 關鍵財務與評等更新
+
+| 券商 | 報告發布日 | 評等 | 目標價 | 評價基礎 | 來源 |
+|---|---|---|---:|---|---|
+| GF Securities | 2026-08-28 | Buy | US$290 | 20x FY29E EPS | [[報告_GFHK_Marvell_20260828]] |
+
+| 年度 | GFHK EPS | 備註 |
+|---|---:|---|
+| FY27E | US$4.41 | 較前次 +7%，custom silicon／connectivity 成長 |
+| FY28E | US$7.96 | 較前次 +3%，1.6T、51.2T switch 與 scale-up optics |
 
 ## 廣發香港 2026-07-17 更新
 
