@@ -94,6 +94,12 @@ image_status: "待補來源圖"
 - Coherent未披露具體訂單量，但確認已有大型AI DC客戶大量CPO CW Laser訂單
 - 德州6吋InP廠為CPO CW Laser主要供應基地；預期**2027年後顯著貢獻營收**
 
+## CPO 的 FAU／dFAU 名詞邊界
+
+Coherent 於 2026-03-17 的官方技術簡報把 **Fiber Attach Unit（FAU）**、Micro Lens Array、PM Fiber、ELS 與 InP CW Laser 列入 CPO 技術堆疊，並展示 6.4T（32×200G）socketed CPO。官方資料只寫 FAU，未顯示 Coherent 有一項名為「DFU」的獨立產品。
+
+dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表可拆卸、可重新插入的 CPO 光纖陣列介面；它是 FAU 的一種設計，而不是 Coherent 專屬縮寫。供應鏈訪談若寫作「Discrete FAU」或把所有 CPO FAU 都視為固定式，應回到實際連接器與可插拔規格確認。詳見 [[技術_FAU]] 與 [[research_dFAU_Coherent_CPO_20260830]]。
+
 ## EPS 記錄
 
 | 項目 | FY24A | FY25F | FY26F | FY27F |
@@ -168,6 +174,7 @@ image_status: "待補來源圖"
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（NVIDIA 入股 USD 20 億；FY3Q26 beat -9%；光通訊三雄 beat & drop 模式，2026-06-29）
 - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（Coherent 3→6 吋 InP、EML／CW 產能分配、ELS／NPO／CPO；日期不詳，2026-08-30 收錄，信心低）
 - [[memo_使用者澄清_COHR專家_20260830]]（使用者確認講者為 Coherent 專家、文中「公司」為 Coherent，2026-08-30）
+- [[research_dFAU_Coherent_CPO_20260830]]（Coherent OFC 2026 官方簡報／新聞稿與 Lightmatter dFAU 官方規格，2026-03-17、2026-08-30 擷取）
 
 ## 相關頁面
 

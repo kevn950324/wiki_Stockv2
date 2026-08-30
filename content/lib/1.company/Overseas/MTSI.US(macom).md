@@ -9,7 +9,7 @@ tags:
   - 產業/光通訊
   - 環節/EIC電子IC
   - 環節/RF功率
-updated: 2026-07-07
+updated: 2026-08-30
 aliases:
   - MACOM
   - MTSI
@@ -46,6 +46,7 @@ MACOM 在光通訊供應鏈中的角色是 **EIC（Electronic Integrated Circuit
 | 領域 | 代表產品 |
 |------|---------|
 | 光通訊（資料中心）| TIA、CDR、EML Driver、線性 Driver（LPO 場景）|
+| 光電晶片／次模組 | 背照式 PIN Chip-on-Carrier（CoC），應用於 100G／400G PAM4 |
 | 電信基礎設施 | ROADM 模組、功率放大器、微波 |
 | 國防 / 航太 | 高功率 RF 放大器、毫米波 GaN |
 | 工業 | 毫米波雷達、物聯網 |
@@ -64,8 +65,9 @@ MACOM 是罕見同時具備 **RF、毫米波、光通訊 TIA/Driver** 的整合�
 - **LPO/LRO 場景**（省掉 DSP → 對 TIA 線性度要求高）獲益明確
 - **CPO 場景**中 EIC 需求（OE 的電子驅動側）具長期成長空間
 
-資料來源：[[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]、[[Optical Networking 260417 GS AI scale out scale up]]
+資料來源：[[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]、[[Optical Networking 260417 GS AI scale out scale up]]、[[research_COC_Chip_on_Carrier_20260830]]
 
 ## 相關頁面
 
 - [[SMTC.US(semtech)]]
+- [[技術_COC光模組封裝]]

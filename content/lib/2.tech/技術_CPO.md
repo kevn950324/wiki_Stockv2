@@ -599,6 +599,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 
 ## 相關頁面
 
+- [[技術_COC光模組封裝]]
 - [[3019_亞光（市）]]
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
 - [[6526_達發（市）]]
