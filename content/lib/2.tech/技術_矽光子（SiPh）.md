@@ -6,7 +6,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光電晶片
 maturity: developing
-updated: 2026-07-07
+updated: 2026-08-30
 aliases:
   - SiPh
   - Silicon Photonics
@@ -94,12 +94,22 @@ aliases:
 | 光纖耦合方式 | 耦合方案 | 邊緣耦合 vs 光柵耦合、主動 vs 被動對位 |
 | 晶片整合良率 | 量產可行性 | COUPE 32 顆 OE 複利 >99.5% 才夠 |
 
+### 200G per lane 的短距離互連轉換
+
+[[活動_JPM_頎邦訪談_20260527]] 指出，當光模組由 100G per lane 升至 200G per lane，PD→TIA 與 Driver→Modulator 之間較長的 Wire Bond 容易放大寄生電感、電容與訊號損耗，使 SNR 下降。Gold Bump／Flip-Chip 將高速電性互連距離縮短，並非改變 PIC 的光子原理，而是解決 PIC 與 EIC 異質整合的電性封裝瓶頸。
+
+| 光電路徑 | 關鍵元件 | Gold Bump 的作用 |
+|----------|----------|--------------------|
+| 接收端 | PD → TIA → DSP | 縮短微弱 PD 電流至 TIA 的電性路徑，降低寄生效應與訊號損耗 |
+| 發射端 | DSP → Driver → Modulator | 縮短 Driver 至調變器的高速輸出路徑，支援 200G per lane 訊號完整性 |
+
 ## 技術瓶頸 / 風險
 
 - **矽調變器 RC 頻寬牆**：50–60 GHz 上限（電導率 + 自由電子吸收），需要 TFLN 或 plasmonics 接棒
 - **光纖耦合**：邊緣耦合（±1 µm 精度需求）vs 光柵耦合（溫度敏感），CPO 量產的隱形關卡
 - **散熱管理**：光元件與 ASIC 共封裝後散熱路徑複雜（KYOCERA 面朝下散熱方案：雷射溫降 15.3°C）
 - **雷射光源**：CW DFB 雷射仍採 InP 異質整合，功率/可靠度/成本三角
+- **電性互連寄生效應**：200G per lane 後 Wire Bond 路徑對 SNR 的影響放大，Gold Bump／Flip-Chip 的製程能力、良率與客製化報價成為新瓶頸
 
 ## 關鍵廠商
 
@@ -114,6 +124,7 @@ aliases:
 | TFLN 調變器 | Nokia Bell Labs（研究）| ECTC 2026 TFLN CPO 發射器 |
 | 光源 ELS | [[LITE.US(lumentum)]] | NVIDIA CPO 光源主供 |
 | 光源 / 光模組 | [[COHR.US(coherent)]] | NVIDIA 入股 $20億 |
+| Gold Bump 與後段延伸 | [[6147_頎邦（櫃）]] | TIA／PD／Driver／Modulator 的短距離電性互連；由 Bumping 向 Testing／Dicing 延伸 |
 | CPO 平台客戶 | [[NVDA.US(nvidia)]] | COUPE，Spectrum-X CPO |
 | CPO 平台客戶 | [[AVGO.US(broadcom)]] | COUPE，Humboldt → Davisson |
 | 可拆連接器 | [[GLW.US(corning)]] | GLASSBRIDGE 離子交換玻璃連接器 |
@@ -187,10 +198,12 @@ Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重�
 - [[Yuanta Tower Semiconductor silicon photonics AI datacenter capacity reservation 260701]]（元大，2026-07-01；Tower SiPh 業務深度）
 - [[CPO 250815 Latitude silicon photonics supply chain]]（Latitude，2025-08-15；SiPh Tx/Rx 引擎架構、供應鏈格局）
 - [[Optical Networking 260417 GS AI scale out scale up]]（Goldman Sachs，2026-04-17；全球光通供應鏈地圖）
+- [[活動_JPM_頎邦訪談_20260527]]（J.P. Morgan NDR 訪談，2026-05-27；200G per lane 的 Wire Bond → Gold Bump 轉換、TIA／PD／Driver／Modulator 後段製程）
 
 ## 相關頁面
 
 - [[供應鏈_AI光互聯]]
+- [[分析_頎邦矽光GoldBump與營運轉型2026]]
 - [[分子尼奧（私）]]
 - [[技術_InP磷化銦]]
 - [[TSEM.US(tower semiconductor)]]

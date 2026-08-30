@@ -8,7 +8,7 @@ tags:
   - 技術/矽光子（SiPh）
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-08-27
+updated: 2026-08-30
 ---
 
 # 供應鏈_AI光互聯
@@ -76,6 +76,10 @@ flowchart TD
         SPIL["矽品SPIL\nTSMC CPO 外包"]
     end
 
+    subgraph SIPHBE["SiPh 元件後段"]
+        CHIPBOND["頎邦 (6147)\nTIA / PD / Driver / Modulator\nGold Bump"]
+    end
+
     subgraph ELS["外部雷射源 ELS"]
         LITE["Lumentum (LITE)\n初批主供"]
         COHR["Coherent (COHR)\n2H26 第二供"]
@@ -105,6 +109,8 @@ flowchart TD
     MRVL --> CSP
     CPO封裝 --> NV
     CPO封裝 --> AVGO
+    MRVL --> CHIPBOND
+    CHIPBOND -. Gold Bump .-> CPO封裝
     ELS --> CPO封裝
     FAU --> CPO封裝
     HIMX --> FOCI
@@ -119,7 +125,7 @@ flowchart TD
     classDef mat fill:#ffd8a8,stroke:#333
     classDef equip fill:#ffc9c9,stroke:#333
     class NV,AVGO,MRVL core
-    class TSMC,SPIL fab
+    class TSMC,SPIL,CHIPBOND fab
     class LITE,COHR,HIMX,FOCI,TFC,SENKO,BROWAVE,GLW mat
     class AIXT,TSEM,WANR,ZIMED equip
 ```
@@ -138,6 +144,7 @@ flowchart TD
 | **Shuffle Box** | Browave（3. 深交所） | NVIDIA COUPE shuffle 主供 | CN |
 | **MOCVD 設備** | AIXTRON（AIXA.GR） | 70-90% 市場份額；光子訂單 2026E >+100% | DE |
 | **SiPh 代工** | [[TSEM.US(tower semiconductor)]] | SiPh 5× 擴產；$1.3B 2027 合約；3.2T 路線圖 | US/IL |
+| **SiPh 元件 Gold Bump** | [[6147_頎邦（櫃）]] | TIA／PD／Driver／Modulator 短距離互連；2026-05-27 時 [[MRVL.US(marvell)]] 已大量下單，Testing／Dicing 延伸待驗證 | TW |
 | **OSAT（Nvidia Rubin-rack）** | [[3711_日月光投控（市）]] | Rubin-rack CPO 核心 OSAT | TW |
 | **FAU 光耦合設備** | [[6187_萬潤（市）]] | FAU 貼合 + 光耦合機台；CPO 3Q26 首現業績 | TW |
 | **CPO ATE + 光對準** | [[2360_致茂（市）]] | Insertion 3 ATE + 光對準；Insertion 4 FT/SLT | TW |
@@ -200,6 +207,8 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 - [[COHR.US(coherent)]]
 - [[3363_上詮（櫃）]]
 - [[6488_環球晶（櫃）]]
+- [[6147_頎邦（櫃）]]
+- [[分析_頎邦矽光GoldBump與營運轉型2026]]
 - HIMX.US(himax)
 
 ## 來源
@@ -211,6 +220,7 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 - [[報告_Nomura_環球晶_大中華半導體_20260520]]（Nomura，2026-05-20；大中華半導體復興；光互聯相關材料選股）
 - [[CRWV.US(coreweave)]]
 - [[分析_2026-08_AI網通與硬體報告更新]]
+- [[活動_JPM_頎邦訪談_20260527]]（J.P. Morgan NDR 訪談，2026-05-27；Gold Bump 客戶驗證、短距離互連、Testing／Dicing 延伸）
 ## 2026-08-20 更新
 
 - [[260820_GS_WNC 啟碁(6285)]] 補充啟碁在高速網通與 AI networking 的觀察；800G 以上規格的驗證、出貨與客戶集中度仍需追蹤。
