@@ -5,7 +5,7 @@ tags:
   - 產業/光通訊
   - 環節/光通訊
 maturity: mature
-updated: 2026-07-02
+updated: 2026-08-30
 aliases:
   - FAU
   - Fiber Attach Unit
@@ -18,6 +18,9 @@ aliases:
   - 天孚
   - 蘅東光
   - 光庫FAU
+  - 36芯 FAU
+  - 32芯 FAU
+  - 保偏光纖 FAU
 ---
 
 # 技術_FAU
@@ -57,6 +60,15 @@ DFAU（Discrete FAU）/ CPO FAU 是 CPO 光引擎端使用的 FAU，需要在晶
 NVIDIA Spectrum X：可插拔式 FAU，單個 OE 對應 36 芯 FAU；需 **32 個 FAU**/台機器。
 NVIDIA Quantum X：固定式 FAU，對應 18 芯；僅幾千台規模（2025 計劃未交付）。
 
+### 外置／內置光源的 FAU 辨識線索
+
+[[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] 提供一組供應鏈辨識口徑：外置 ELS 配套多準備 36 芯 FAU，垂直耦合與邊緣耦合可用來區分不同 CPO／NPO 設計；另一種把 150／200mW CW 放在 NPO 光引擎內的方案則可能採 32 芯 FAU。這是 Coherent 相關專家對特定設計的描述，不是全產業統一規格，應與平台 BOM、耦合方式及 FAU 圖面交叉驗證。
+
+| 光源形態 | 訪談中的 FAU 線索 | 光路含義 |
+|----------|-------------------|----------|
+| 外置 ELS | 36 芯、搭配保偏光纖；再依垂直／邊緣耦合區分平台 | 外部高功率 CW 經 PMF 傳至 PIC，光路較長、耦合損失較高 |
+| 內置 NPO CW | 32 芯；150／200mW CW 直接放在 ASIC 鄰近光引擎 | 不需外置 ELS 的 PMF 路徑，成本與維修性取捨不同 |
+
 ## 關鍵參數 / 判斷指標
 
 | 指標 | 意義 | 2026 觀察重點 |
@@ -65,6 +77,8 @@ NVIDIA Quantum X：固定式 FAU，對應 18 芯；僅幾千台規模（2025 計
 | CPO FAU 認證進度 | NVIDIA/Google 雙驗線 | NVIDIA ORT 已通過（口頭通知）；Google 2026 年 6 月前 2/4 階段通過 |
 | V 槽/鍍膜 零部件 | 瓶頸關注點 | 鍍膜外包仍是 2026 主模式；mini 鍍膜線 2027 才量產 |
 | CPO FAU 單價 | 上行週期 | 可插拔光模塊 FAU 十幾 USD → CPO FAU 150–200 USD |
+| 32／36 芯與耦合方式 | 反推內置／外置光源及 NPO／CPO 架構 | 規格不是一對一標準，需用平台 BOM 與樣品共同驗證 |
+| PMF 耦合效率 | 外置光源的功率預算 | Coherent 相關專家估約 60%～70%，低於內置透鏡／隔離器直接耦合的 90%+；信心低 |
 
 ## 技術瓶頸 / 風險
 
@@ -109,8 +123,10 @@ Coherent 供應鏈中：蘅東光占 **約 40%** 份額（第二大）。
 - [[memo_无源光器件大厂调研_FAU_MMC_acecamptech_20260522]]（FAU 供需缺口、CPO FAU 認證、競爭格局、光纖供應）
 - [[memo_光通信大厂调研_TFLN_CPO_OCS_acecamptech_20260417]]（DFAU 方案比較、Spectrum X/Quantum X FAU 規格、MPC/TeraMount/Corning 路線）
 - [[memo_光通信大厂调研_CPO出货量_FAU_MPC方案_acecamptech_20260529]]（FAU 單價 150–200 USD、CPO FAU 架構、蘅東光地位）
+- [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] — Coherent 相關專家訪談，日期不詳（2026-08-30 收錄；32／36 芯 FAU、內外置光源、PMF 與耦合效率，信心低）
 
 ## 相關頁面
 
 - [[技術_MPO]]
 - [[技術_TFLN]]
+- [[分析_CPO_NPO_XPO與409.6T光互連轉折]]

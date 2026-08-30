@@ -11,14 +11,14 @@ tags:
   - 產業/光通訊
   - 環節/光纖與光通訊
   - 環節/光纖與光通訊
-updated: 2026-06-29
+updated: 2026-08-30
 aliases:
   - Sumitomo Electric
   - 住友電工
   - Sumitomo
   - 5802
 related_companies:
-  - "[[技術_矽光子（SiPh）]]"
+  - "[[COHR.US(coherent)]]"
 image_status: "待補來源圖"
 ---
 
@@ -51,6 +51,16 @@ image_status: "待補來源圖"
 
 住友電工掌握 6N 級高純度 Nb₂O₅——鈮酸鋰晶體的核心原料，與巴西 CBMM 戰略合作。中國管控稀有材料後，住友擴產計劃停止（詳見 [[技術_TFLN]]）。
 
+### 100G EML 外部供應
+
+[[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] 中的 Coherent 專家稱，[[COHR.US(coherent)]] 可能增加向住友採購 100G EML，把更多自有 InP 產能轉向 200G EML 與 200／400mW CW。此為日期不詳的 channel claim，尚待雙方公告、法說或供應鏈資料驗證。
+
+## 相關公司
+
+| 公司 | 關係 | 說明 |
+|------|------|------|
+| [[COHR.US(coherent)]] | 潛在客戶／EML 採購 | Coherent 專家稱 100G EML 外採增加；信心低 |
+
 ## 圖片/架構圖
 
 `[待補來源圖]` 需官方 IR 光纖或電線電纜產品圖佐證，現有研究筆記不足以支撐產品示意圖。
@@ -65,6 +75,7 @@ image_status: "待補來源圖"
 
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（Shingo Nakamura et al., Sumitomo Electric × FICT, ECTC 2026，2026-06-29）
 - [[技術_TFLN]]（Nb₂O₅ 上游壟斷記載）
+- [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（Coherent 向住友採購 100G EML 的專家說法；日期不詳，2026-08-30 收錄，信心低）
 
 ## 相關頁面
 

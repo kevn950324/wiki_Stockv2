@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-08-27
+updated: 2026-08-30
 aliases:
   - CPO
   - Co-Packaged Optics
@@ -18,6 +18,10 @@ aliases:
   - ELS
   - External Laser Source
   - 外部雷射源
+  - 內置光源
+  - 外置光源
+  - PMF
+  - 保偏光纖
   - FAU
   - Fiber Attach Unit
   - MRM
@@ -117,6 +121,13 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 
 **外部雷射源（ELS）**：CPO 需較高功率的 CW DFB 雷射。Nvidia Q3450 用 18 個 ELS 模組、每模組 8 顆 CW DFB chip，每顆 ~350mW。**ELS 功率門檻（2026 現況）**：最低需 100mW @1310nm；中系廠商在此規格下勉強達標。若升至 200mW/DFB、400mW/DFB，或引入 CWDM 多波長（1270/1290/1310/1330/1350nm），中系廠商在強度與多波長均勻性上暫時無法滿足。供應商：[[LITE.US(lumentum)]] 為 Nvidia 初批 CPO ELS 獨家供應商；[[COHR.US(coherent)]] 預計 2026H2 進入成為第二供應商；中國（Yuanjie、Shijia）因技術門檻暫不在短期供應鏈。詳見 [[技術_InP磷化銦]]。
 
+**內置與外置 CW 的功率預算**：[[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] 認為，外置 ELS 經保偏光纖傳輸後耦合效率約 60%～70%，因此需使用約 350／400mW 高功率 CW；內置光源透過透鏡與隔離器直接耦合 PIC，效率可達 90% 以上，且可把 200mW 額定元件降額運行在約 120～150mW以改善溫漂與壽命。這些效率與功率數字為匿名訪談 estimate，須用實際平台 link budget 驗證。
+
+| 架構 | 光源位置 | 訪談中的典型配置 | 維修／可靠度取捨 |
+|------|----------|------------------|------------------|
+| 外置 ELS | 光引擎外，經 PMF 導光 | 350／400mW CW；3.2T ELS 可對應兩個光引擎 | 光源故障可直接更換，但 PMF、連接器與較低耦合效率提高成本與功率 |
+| 內置 NPO CW | ASIC 鄰近光引擎內 | 3.2T 光引擎可用 4×200mW CW；單顆約對應 800G | 省 PMF、成本較低；需降額與功率冗餘降低高溫失效率 |
+
 **光纖耦合（FAU）**：FAU 測試仍高度依賴人工，每個 FAU 測試約 10–15 分鐘（Corning 估算 Spectrum X 系統）。每個 1.6T OE 有 20 根光纖（8 Tx + 8 Rx + 4 ELS），全機架 X800-Q3450 共 1,440 根光纖。FAU 廠商分工：TFC Optical（300394.SH，中國）主供 Nvidia X800-Q3450 FAU；Senko（9069.JP，日本）主供 Nvidia Spectrum X CPO + Broadcom Tomahawk6；[[3363_上詮（櫃）]]（FOCI）聚焦 Nvidia Scale-Up CPO FAU。
 
 **光纖耦合（FAU）**：邊緣耦合（edge coupling）vs 光柵耦合（grating coupling，GC）。GC 利於 2D 密度與晶圓級測試，TSMC COUPE 偏好 GC + MRM。
@@ -142,6 +153,8 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 | 每位元能耗（pJ/bit） | CPO 賣點 | 較 DSP 光模組省 >50%，目標 80% |
 | 調變器熱穩定性 | 直接影響可靠度 | MRM 敏感、EAM 容忍度高 |
 | NPO 電通道與 socket 可靠度 | NPO 以約 150 mm 高性能基板通道換取可拆換 OE | 能否在 200G/lane PAM4 下維持訊號完整性，決定它是否可作為 CPO 的過渡方案 |
+| 外置 ELS 光路效率 | 決定 CW 額定功率、熱與供給需求 | 追蹤 PMF／FAU／連接器總插損；不能只用晶片 mW 規格比較平台效率 |
+| 內置 CW 降額幅度 | 壽命、溫漂與故障率管理 | 額定 200mW 若僅運行 120～150mW，冗餘有助可靠度但提高單位頻寬的晶片用量 |
 
 ## 技術瓶頸 / 風險
 
@@ -669,3 +682,16 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - Marvell 約 US$1bn supplier prepayments 反映供應能力可能成為限制因素，但不等同於特定光元件供應商已取得訂單。
 
 來源：[[報告_GFHK_Marvell_20260828]]（GF Securities，2026-08-28）。
+
+## 2026-08-30 EML／CW／ELS 專家訪談補充
+
+- Coherent 相關專家把 NPO 與 CPO 的並存原因歸結為客戶機櫃／Switch Tray 佈局、維修性及光源位置，而非單一路線淘汰；其判斷 AWS、Meta 偏向內置方案、NVIDIA 仍偏外置，但未提供具名平台文件，信心低。
+- 訪談估計 2027 年 400mW CW 需求可能達 8,000 萬～1 億顆，並以 NVIDIA 對 [[COHR.US(coherent)]] 約 500 萬個 ELS、每個 8 顆 CW 的說法推導；此屬 channel estimate，不能視為 NVIDIA 指引或已確認訂單。
+- 3.2T／6.4T 顆數口徑會隨「光引擎、ELS 模組、CW die」而變化；後續追蹤必須先統一單位，避免把模組數與晶片數相乘兩次。
+
+> [!warning] 與既有 ELS 時程／需求估計並列
+> - [[2026-08-12-LITE.OQ-JPMorgan-Lumentum F4Q26 Review Executing Ahead of Plan With Incremen...-123791452]]（2026-08-12）：Lumentum 首張 ELS module 訂單預計 2H27 交付，屬公司展望／券商 estimate。
+> - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（日期不詳）：稱 Coherent 2026Q4 開始出貨、2027 年 NVIDIA 對 Coherent 給出 500 萬 ELS 指引，並推估全市場 400mW CW 需求 8,000 萬～1 億顆。
+> - 狀態：產品定義與時間基準不一致，兩組估計暫不合併；須等待 Coherent 法說、訂單或平台 BOM 驗證。
+
+來源：[[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（Coherent 相關專家訪談，日期不詳；2026-08-30 收錄，信心低）。

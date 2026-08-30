@@ -10,10 +10,11 @@ tags:
   - 環節/光收發模組
   - 環節/InP磊晶
   - 環節/OCS
-updated: 2026-06-29
+updated: 2026-08-30
 related_companies:
   - "[[NVDA.US(nvidia)]]"
   - "[[LITE.US(lumentum)]]"
+  - "[[Sumitomo Electric（未）]]"
   - "[[AAOI.US(applied optoelectronics)]]"
   - "[[META.US(meta)]]"
   - "[[AMD.US(amd)]]"
@@ -59,6 +60,27 @@ image_status: "待補來源圖"
 - **馬來西亞檳城**：設立第2工廠生產光收發模組
 - **越南工廠**：計畫光收發模組生產
 - 1.6T EML+SiPh並行；VCSEL方案預計2H26量產，均價高於800G，初期毛利率更高
+
+> [!warning] 6 吋 InP 名目產能與有效產出的差異
+> - 既有公司／研究口徑：德州 6 吋 InP 廠維持 4Q26 產能翻倍計畫，FY2Q26 時稱已達目標約 80%。
+> - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（日期不詳）：Coherent 相關專家稱 6 吋仍在分批轉線、MOCVD recipe、應力與溫循良率摸索，短期仍以 3 吋為主；估計 100G／200G EML 供給壓力到 2027Q2 才逐步緩解。
+> - 狀態：前者可能指設備／名目產能建置，後者指有效良品與可交付量，兩者不必然互斥；需以連續批次良率與實際出貨交叉驗證。
+
+訪談另稱 Coherent 會把更多自有 InP 產能轉向 200G EML 與 200／400mW CW，100G EML 增加向 [[Sumitomo Electric（未）]] 採購；此為 channel claim，尚非公司正式揭露。
+
+## 供應鏈位置
+
+- 上游 EML 第二來源：[[Sumitomo Electric（未）]]；Coherent 專家稱 100G EML 外採增加，使自有產能可轉向 200G EML 與高功率 CW。
+- 下游客戶／策略投資人：[[NVDA.US(nvidia)]]；ELS 與 CW 數量仍待正式指引驗證。
+- 所屬主題：[[供應鏈_AI光互聯]]。
+
+## 相關公司
+
+| 公司 | 關係 | 說明 |
+|------|------|------|
+| [[Sumitomo Electric（未）]] | 上游／EML 外採 | 專家稱 Coherent 增加採購 100G EML；尚待公司公告驗證 |
+| [[NVDA.US(nvidia)]] | 客戶／策略投資人 | NVIDIA 投資 Coherent 並鎖定 InP／CW 供給；500 萬 ELS 為低信心 channel estimate |
+| [[LITE.US(lumentum)]] | 同業／替代供應商 | EML、CW 與 ELS 競爭；訪談給出 100G EML 價差口徑 |
 
 ## NVIDIA 戰略投資（規則 #14 — 關係更新）
 
@@ -121,6 +143,16 @@ image_status: "待補來源圖"
 - AI資料中心需求不如預期
 - 工業部門（28%收入）持續拖累整體增速
 
+## 時間軸
+
+| 時間 | 事件 | 類型 | 重要性 | 備註 |
+|------|------|------|--------|------|
+| 2026Q4（估計） | 矽光光模組與 ELS 進入較大批量爬坡 | 放量／驗證 | ⭐⭐⭐ | [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]；日期不詳的專家說法，需法說驗證 |
+| 2027Q2（估計） | 3→6 吋 InP 轉線後，EML 供給壓力可能逐步緩解 | 擴產／良率 | ⭐⭐⭐ | 追蹤 MOCVD、應力／溫循良率與有效良品，不只看名目面積 |
+| 2027（估計） | NVIDIA 對 Coherent 約 500 萬個 ELS、對應 4,000 萬顆 CW 的 channel estimate | 需求／驗證 | ⭐⭐⭐ | 非 NVIDIA 或 Coherent 正式指引；須確認 ELS／CW 計量單位 |
+
+→ 跨公司比較詳見 [[時程_2026Q3Q4_AI網通與硬體催化劑]]
+
 ## 關聯頁面
 
 - [[技術_光互連]]
@@ -134,6 +166,8 @@ image_status: "待補來源圖"
 ## 來源
 
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（NVIDIA 入股 USD 20 億；FY3Q26 beat -9%；光通訊三雄 beat & drop 模式，2026-06-29）
+- [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（Coherent 3→6 吋 InP、EML／CW 產能分配、ELS／NPO／CPO；日期不詳，2026-08-30 收錄，信心低）
+- [[memo_使用者澄清_COHR專家_20260830]]（使用者確認講者為 Coherent 專家、文中「公司」為 Coherent，2026-08-30）
 
 ## 相關頁面
 

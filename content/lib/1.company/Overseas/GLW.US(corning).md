@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 環節/光纖
   - 產業/光通訊
-updated: 2026-06-29
+updated: 2026-08-30
 aliases:
   - Corning
   - 康寧
@@ -73,6 +73,7 @@ flowchart LR
 |-------------|------|-----------------|
 | GLASSBRIDGE 連接器 | CPO 可拆光 I/O | [[GFS.US(globalfoundries)]] Fotonix PIC |
 | 光纖 | AI 叢集光纖佈線 | [[NVDA.US(nvidia)]] + 雲端大廠 |
+| 保偏光纖（PMF）| 外置 ELS 至 CPO／NPO 光引擎的偏振維持光路 | 匿名專家列 Corning 與長飛為主要玩家；需以公司揭露驗證 |
 | 玻璃基板原片 | 先進封裝 | [[INTC.US(intel)]] 3DGS、[[2330_台積電（市）]] CoPoS |
 | 顯示器玻璃 | 電視 / 行動裝置面板 | 三星、LG、BOE |
 
@@ -94,9 +95,11 @@ flowchart LR
 
 - [[技術_玻璃基板]]（Corning 是先進封裝玻璃原片主要供應商之一）
 - [[技術_矽光子（SiPh）]]（GLASSBRIDGE 連接矽光子 PIC 與光纖）
+- [[分析_CPO_NPO_XPO與409.6T光互連轉折]]（內／外置光源、PMF 與 FAU 價值量分流）
 
 ## 來源
 
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（GF×Corning ECTC 2026，2026-06-29）
 - [[技術_光互連]]（NVIDIA×Corning 戰略合作 2026-05-06）
 - [[技術_玻璃基板]]（玻璃基板原片供應）
+- [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（匿名專家將 Corning 列為保偏光纖主要玩家；日期不詳，2026-08-30 收錄，信心低）

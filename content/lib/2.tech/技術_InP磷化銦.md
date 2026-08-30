@@ -6,7 +6,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-07-03
+updated: 2026-08-30
 aliases:
   - InP
   - 磷化銦
@@ -22,6 +22,9 @@ aliases:
   - EML
   - Electro-absorption Modulated Laser
   - PD光檢測
+  - 3吋 InP
+  - 6吋 InP
+  - InP 晶圓尺寸轉換
 ---
 
 # 技術_InP磷化銦
@@ -55,6 +58,24 @@ AI 算力擴張使 CPU/GPU 間的高速傳輸需求暴增：AI 模型每兩年�
 
 InP 元件功能高度差異化：每種元件對應不同的物理結構、製程步驟與測試條件，不像 TSMC/UMC 的標準化 CMOS 製程可快速調配產能或擴產。這是 InP 長期由 IDM（如 Broadcom 自供 PD）或垂直整合廠主導的根因。
 
+### 3 吋轉 6 吋不是即時的 4 倍供給
+
+晶圓直徑由 3 吋增至 6 吋，面積在幾何上約增為 4 倍，但有效產出還要乘上「實際轉線比例 × 各站良率 × 封裝／分測良率」。[[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] 指出，6 吋初期要重新摸索 MOCVD、外延均勻性、晶圓應力與升溫後應力釋放；業者通常以少量批次驗證後再逐段增加 10%～20% 轉線比例，因此成熟 3 吋產能不會立即全部被 6 吋替代。
+
+```mermaid
+flowchart LR
+    A[6 吋基板／MOCVD 改裝] --> B[外延與晶圓均勻性]
+    B --> C[應力／溫度循環篩選]
+    C --> D[EML 調製或高功率 CW 製程]
+    D --> E[COB 封裝與分測]
+    E --> F[有效可交付良品]
+    classDef process fill:#a5d8ff,stroke:#1c7ed6,color:#111;
+    classDef risk fill:#fff3bf,stroke:#f08c00,color:#111;
+    class A,B,D process;
+    class C,E,F risk;
+```
+圖說：6 吋晶圓的面積優勢必須逐站轉化成穩定良率；應力、溫循與封裝分測使有效供給不會隨面積一步跳升。
+
 ### 800G Transceiver 成本拆解（SiPho vs EML）
 
 | 元件 | SiPho 方案（$）| EML 方案（$）|
@@ -79,6 +100,8 @@ EML 方案因每通道各自含調製雷射，BOM 高出約 $110（+42%）；SiP
 | InP 元件良率 | IDM 與純晶圓代工的核心競爭力 | Broadcom 自供 PD 良率優勢；第三方 InP 代工（如 GCS）能否接近 IDM 水準決定外溢訂單空間 |
 | 從 IDM 移轉外包比例 | 供應鏈彈性指標 | Broadcom 外包量增加 → 台廠（穩懋等 InP 磊晶）受益 |
 | ELS 供應商多樣化 | CPO 系統整合風險 | Lumentum 當前主導；Coherent、中系廠商能否在 100mW 規格認證後切入第二供 |
+| 6 吋轉線比例與批次穩定性 | 決定面積優勢能否轉成有效產出 | 追蹤連續批次良率、MOCVD 改裝完成度與 3／6 吋產能並存期，而非只看名目晶圓尺寸 |
+| 基板認證／出口資格 | 多來源供應能否真正落地 | Coherent 相關專家訪談稱新供應商多以 6 吋為目標，但看廠、送樣不等於取得北美客戶資格或可出口供貨 |
 
 ## 產業動能
 
@@ -87,6 +110,7 @@ EML 方案因每通道各自含調製雷射，BOM 高出約 $110（+42%）；SiP
 - **Coherent（II-VI）德州 InP 廠擴產**：6 吋 InP 廠快速擴產，[[NVDA.US(nvidia)]] 入股 $20 億鎖定 InP 產能（來源：[[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]，2026-06-29）。
 - **從獨立元件移轉到垂直整合**：傳統 InP IDM（Broadcom）自供 OE Engine；TSMC COUPE 路線需要外部 InP 雷射供應商，釋放訂單給 Lumentum、Coherent 等——但同時對傳統 CM 廠議價能力形成壓力（來源：[[報告_金正禾論壇_InP晶圓代工CPO_20260130]]，2026-01-30）。
 - **TSMC CPO 時程**：2025Q1 Test Vehicle PIC → 2027Q1 Pilot Pre-MP；MP 最快 2026 年底至 2027 年初；至 2028 年進入批量量產（來源：[[報告_金正禾論壇_InP晶圓代工CPO_20260130]]，2026-01-30，講者為業內人士，信心：中）。
+- **3→6 吋有效供給爬坡**：[[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] 認為 [[COHR.US(coherent)]] 6 吋 InP 仍處製程與良率摸索，短期以 3 吋為主；其估計供給壓力可能到 2027Q2 才逐步緩解，但訪談日期與講者身分未提供，信心低。
 
 ## 概念股 / 族群
 
@@ -104,6 +128,7 @@ EML 方案因每通道各自含調製雷射，BOM 高出約 $110（+42%）；SiP
 ## 技術瓶頸 / 風險
 
 - **InP 非標準化製程是擴產障礙**：InP 主被動元件功能差異極大（PD、DFB、EML、PIC 各自製程），不能像 TSMC CMOS 標準化產能調配；IDM 廠難以快速擴產回應 AI 需求激增，純晶圓代工路線尚未成熟。
+- **晶圓尺寸的產能幻覺**：3→6 吋的面積 4 倍只是理論上限；分批轉線、應力釋放、MOCVD recipe 與高功率／高速產品低良率，可能讓有效產出增幅顯著低於面積增幅。
 - **ELS 功率規格持續升級**：100mW→200mW→400mW DFB，或 CWDM 多波長（1270/1290/1310/1330/1350nm），每次升級都是新的技術門檻；中系廠商在高強度與多波長均勻性上具系統性落後。
 - **SiPh 替代風險（局部）**：矽光子技術成熟後，調製器（MZM/MRM）功能已被 SiPh 取代；剩餘 InP 不可取代的環節主要是高功率 CW DFB 雷射和 PD——但若矽光+混合整合進一步突破，技術壁壘可能收窄。
 - **CPO 時程不確定性**：Spectrum 6 CPO（DFAU 良率問題、插損 4.5 dB）導致 2026/2027 ELS 出貨低於預期，詳見 [[技術_CPO]] 衝突 callout。
@@ -149,10 +174,12 @@ gantt
 - [[報告_金正禾論壇_InP晶圓代工CPO_20260130]] — 金正禾論壇（產業專家 Terry），2026-01-30
 - [[報告_金正禾論壇_CPO光電共封裝_20260325]] — 金正禾論壇，2026-03-25
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]] — InP 供應鏈更新，2026-06-29
+- [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] — Coherent 相關專家訪談，日期不詳（2026-08-30 收錄；3→6 吋製程爬坡、基板認證與 EML／CW 有效供給，信心低）
 
 ## 相關頁面
 
 - [[供應鏈_CPO]]
+- [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
 - [[LITE.US(lumentum)]]
 - [[COHR.US(coherent)]]
 - [[NVDA.US(nvidia)]]
