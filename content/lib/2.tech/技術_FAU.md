@@ -37,7 +37,8 @@ dFAU／DFAU 的官方全名是 **Detachable Fiber Array Unit（可拆卸式光�
 > [!warning] 名詞校正
 > - 既有供應鏈訪談曾把 DFAU 展開為「Discrete FAU」，並把 CPO FAU 描述成固定式。
 > - [[research_dFAU_Coherent_CPO_20260830]] 收錄的 Lightmatter 官方規格明確寫作 **Detachable fiber array unit (dFAU)**，且支援插拔與重新插入。
-> - 因官方產品定義優先，本頁已校正全名；舊訪談中的「DFAU 良率」仍保留為原始 channel 用語，解讀時需確認其實際指固定式 FAU、可拆式 dFAU，或特定 MPC 方案。
+> - [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]] 又交替使用「DFU」與「DFAU」，只描述專案仍在投入、尚未產出，未提供結構或正式全名。
+> - 因官方產品定義優先，本頁已校正全名；舊訪談中的「DFU／DFAU 良率」仍保留為原始 channel 用語，解讀時需確認其實際指固定式 FAU、可拆式 dFAU，或特定 MPC 方案。
 
 ## 圖解
 
@@ -90,6 +91,7 @@ NVIDIA Quantum X：固定式 FAU，對應 18 芯；僅幾千台規模（2025 計
 | 32／36 芯與耦合方式 | 反推內置／外置光源及 NPO／CPO 架構 | 規格不是一對一標準，需用平台 BOM 與樣品共同驗證 |
 | PMF 耦合效率 | 外置光源的功率預算 | Coherent 相關專家估約 60%～70%，低於內置透鏡／隔離器直接耦合的 90%+；信心低 |
 | 可重複插拔與插損 | dFAU 的維修性與光功率預算 | Lightmatter vClick 規格為 <1.5 dB、50+ 次插拔；量產需追蹤多次插拔後的一致性 |
+| Coherent 相關專案產出 | 驗證 channel claim 是否進入收入階段 | 專家估計 2026Q4～2027Q1 小批量出貨；需公司公告與產品規格確認 |
 
 ## 技術瓶頸 / 風險
 
@@ -136,6 +138,7 @@ Coherent 供應鏈中：蘅東光占 **約 40%** 份額（第二大）。
 - [[memo_光通信大厂调研_CPO出货量_FAU_MPC方案_acecamptech_20260529]]（FAU 單價 150–200 USD、CPO FAU 架構、蘅東光地位）
 - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] — Coherent 相關專家訪談，日期不詳（2026-08-30 收錄；32／36 芯 FAU、內外置光源、PMF 與耦合效率，信心低）
 - [[research_dFAU_Coherent_CPO_20260830]] — Lightmatter／Coherent 官方資料，2026-03-17、2026-08-30 擷取（dFAU 正式全名、規格與 Coherent CPO 技術堆疊）
+- [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]] — Coherent 相關專家訪談，日期不詳（DFU／DFAU 投入與小批量時程，名詞仍待產品規格確認）
 
 ## 相關頁面
 
@@ -143,3 +146,4 @@ Coherent 供應鏈中：蘅東光占 **約 40%** 份額（第二大）。
 - [[技術_MPO]]
 - [[技術_TFLN]]
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
+- [[分析_Coherent毛利率與1.6T良率爬坡]]

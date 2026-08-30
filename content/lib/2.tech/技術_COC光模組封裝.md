@@ -74,6 +74,7 @@ flowchart LR
 - **高速光模組直接採用**：[[research_COC_Chip_on_Carrier_20260830]] 收錄的 MACOM 官方產品頁，把背照式 PIN 明列為 Chip-on-Carrier，應用涵蓋 100G 與 400G PAM4；顯示 CoC 是實際可交付的光電晶片封裝型態。
 - **EML／OSA 平台延伸**：同一來源收錄 NTT Innovative Devices 的 EA-DFB＋SOA CoC，應用涵蓋 25G～400G Ethernet，說明發射端雷射也可先以 CoC 次模組交付。
 - **台廠強化高精度封裝**：[[活動_華星光法說_20260828]] 記錄 [[4979_華星光（櫃）]] 已布局 COC、COV、KLM 與 BOX，並表示 Die Bond 設備精度可達 0.3 微米；後續觀察 1.6T／NPO 量產時 COC 良率與稼動率。
+- **累積直通率前移管理**：[[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]] 把 COC 放在晶片採購之後、透鏡耦合之前，並以「晶片採購到終測」計算整體直通率；這使 COC 的 early screening 能力直接影響後段耦合成本。
 
 ## 概念股 / 族群
 
@@ -104,8 +105,9 @@ flowchart LR
 
 - [[research_COC_Chip_on_Carrier_20260830]] — MACOM、NTT Innovative Devices 官方產品頁，2026-08-30 擷取
 - [[活動_華星光法說_20260828]] — 華星光，2026-08-28
+- [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]] — Coherent 相關專家訪談，日期不詳（2026-08-30 收錄）
 
 ## 相關頁面
 
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
-
+- [[分析_Coherent毛利率與1.6T良率爬坡]]

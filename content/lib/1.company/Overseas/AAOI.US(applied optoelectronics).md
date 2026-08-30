@@ -129,5 +129,6 @@ image_status: "待補來源圖"
 
 ## 相關頁面
 
+- [[分析_Coherent毛利率與1.6T良率爬坡]]
 - [[CIEN.US(ciena)]]
 - [[技術_光模塊]]
