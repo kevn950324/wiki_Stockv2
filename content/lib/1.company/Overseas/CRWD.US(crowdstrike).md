@@ -156,6 +156,12 @@ gantt
 
 ---
 
+## 本次 ingest 更新（2026-08-31）
+
+- FY2027Q2 法說逐字稿（2026-08-26）稱 ARR $5.84bn（年增 25%）、淨新增 ARR $333m（年增 51%）、Falcon Flex ARR $2.29bn（年增 101%），FY27 淨新增 ARR 指引約 $1.35bn。
+- AIDR、Agentic SOC 與 Quiltworks 為平台整合的主要觀察指標；XM Cyber 併購尚未提供可量化 ARR 貢獻。
+- 來源：[[活動_CrowdStrike_FY2027Q2法說_20260826]]。
+
 ## 來源
 
 - [[報告_JPMorgan_資安_20260427]] — J.P. Morgan，Weapons of Mass Disruption，2026-04-27

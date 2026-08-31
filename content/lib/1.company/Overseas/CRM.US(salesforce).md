@@ -101,6 +101,12 @@ Salesforce（CRM.US）是全球最大的 CRM（客戶關係管理）SaaS 廠商�
 
 ---
 
+## 本次 ingest 更新（2026-08-31）
+
+- FY2027Q2（2026-08-26）營收 $11.35bn、FCF $1.1bn、Agentforce ARR $1.5bn、CRPO $33.5bn；FY27 營收指引上調至 $46.1–46.4bn。
+- Agentic 使用量季增約 6 倍、Slackbot 用戶季增 150% 為管理層指標；Claudeforce／AIforce 預計 9 月推出，仍屬產品展望。
+- 來源：[[活動_Salesforce_FY2027Q2法說_20260826]]。
+
 ## 來源
 
 - [[報告_中信證券_Salesforce_20250618]]（中信，2025-06-18；OW TP $296.6，FY1Q26 財報回顧）

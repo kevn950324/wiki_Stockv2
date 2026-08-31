@@ -240,6 +240,11 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 ![[報告_SemiAnalysis_Rubin_Ultra_NVL576_Flash_Overview_20260810_003.png]]
 圖說：SemiAnalysis／NVIDIA 研究圖將 Rubin Ultra NVL576 的 9+18+9 rack 與 NPO／CPO scale-up 選項並列；架構尚非 NVIDIA 最終規格。
 
+## 本次 ingest 更新（2026-08-31）
+
+- FY2027Q2 法說逐字稿（2026-08-26）稱 Q3 營收指引約 $108bn，Vera Rubin 開始出貨；供應約為需求的 70%，FY2028 成長受供應限制。
+- AWS、OpenAI 與其他 AI 實驗室的採購／融資敘述為管理層與客戶說法，需與正式申報交叉驗證；來源：[[活動_NVIDIA_FY2027Q2法說_20260826]]。
+
 ## 來源
 - [[報告_CTBC_NVIDIA_20260827]]（中信投顧，2026-08-27；2QFY27 營收、Rubin／Vera CPU 與供應鏈瓶頸）
 - [[報告_Daiwa_NVIDIA_2QFY27_20260827]]（大和，2026-08-27；法說摘要，供應鏈與 AI factory 需求）
