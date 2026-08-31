@@ -266,6 +266,9 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 ## 相關頁面
 
+- [[8121_越峰（市）]]
+- [[SNPS.US(synopsys)]]
+- [[分析_20260826_AI軟體與晶片平台法說]]
 - [[分析_20260827_NVIDIA供應鏈與AI伺服器]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[AEHR.US(aehr)]]

@@ -11,7 +11,6 @@ aliases:
   - Fiber Attach Unit
   - Fiber Array Unit
   - 光纖接頭
-  - DFAU
   - dFAU
   - Detachable Fiber Array Unit
   - 可拆卸式光纖陣列單元

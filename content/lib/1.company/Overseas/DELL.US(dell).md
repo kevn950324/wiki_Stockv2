@@ -143,7 +143,7 @@ flowchart LR
 - Tier-2 Neocloud（IREN、NScale、Crusoe）AI 伺服器部署，以及 Oracle／SpaceX 的 Vera CPU 機架，支撐 Dell AI backlog；券商預估 FY27／FY28 NVL72 出貨 17k／20k。
 - 風險轉向：企業與 PC 需求在 1H26 提前拉貨後出現放緩，記憶體供應亦限制傳統業務；GFHK 另判斷鴻海取得 SpaceX 多千套訂單，Dell 在 Rubin 週期的領先地位可能被侵蝕，仍屬券商 supply-chain check。
 
-## 相關公司
+### 相關公司補充（GF Securities，2026-08-28）
 
 | 公司 | 關係 | 說明 |
 |------|------|------|

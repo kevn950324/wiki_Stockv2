@@ -118,7 +118,7 @@ Barclays（Saket Kalia）與 PANW IR Hamza Fodderwala 會後三大要點：
 
 > 訂閱收入成長討論：軟體防火牆 rev-rec 前置比例從 30% 升至 40%（導致訂閱比例下降），加上 Prisma Cloud 拖累，是「訂閱收入減速」的機制性原因而非基本面惡化。FY27 起將改為揭露三產品族（NetSec / Identity / Cortex）及 Total Recurring Revenue，雜訊將降低。
 
-## 2026-08 財報前更新
+### 財報前更新（2026-08）
 
 本批 Barclays、TD、Deutsche Bank 與 UBS 報告共同指向：PANW F4Q26（2026-09-01 盤後）仍有防火牆刷新、平台化與大型企業 ELA 擴張支撐，但對 AI 資安需求的短期變現速度看法分歧。
 

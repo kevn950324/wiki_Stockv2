@@ -9,7 +9,6 @@ updated: 2026-08-30
 image_status: "待補來源圖"
 aliases:
   - COC
-  - CoC
   - Chip on Carrier
   - Chip-on-Carrier
   - 晶片載體
