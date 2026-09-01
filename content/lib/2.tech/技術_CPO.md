@@ -603,6 +603,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - [[3019_亞光（市）]]
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
 - [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
+- [[分析_光通_CPO與ELS-COS_20260901]]
 - [[6526_達發（市）]]
 - [[TER.US(teradyne)]]
 - [[分析_MS_AI供應鏈_HBM降規與Kyber延遲_20260810]]
@@ -702,4 +703,10 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 
 - [[活動_Lumentum_Fubon_LITE_IR_20260820]] 指出，Lumentum 的 CPO 營收剛超過 US$10m，4Q26 預期進入較有意義的量產；NVIDIA ELS 訂單預計 2027H2 開始出貨。
 - NVIDIA ELS 業務中，Lumentum 封裝份額約 20%，但雷射晶片份額接近 100%；若 Scale-up CPO 放量，產品組合較偏高毛利雷射晶片，可能推升公司平均毛利率。此為 company claim，信心中。
+
+## 2026-09-01 ELS-COS 與 Q3450-LD 待查證觀察
+
+- [[memo_光通_CPO_ELS_COS_20260901]] 轉述 NVIDIA 2026-08-21 IB Switch System User Manual 可能寫有「一個 CPO 搭配 18 個 ELS」，並將第一代 CPO InfiniBand scale-out switch 稱為 Q3450-LD；原始文件未收錄，屬低信心 rumor，不能直接改寫為 NVIDIA 已確認規格。
+- 同一 memo 轉述 SemiAnalysis 上週末提出 ELS-COS：位置介於傳統 ELSFP 與 ILS，更靠近 OE 但仍位於 ASIC 封裝之外，主張較短光路與遠離熱源的折衷。是否用於 NVL756 尚未確認。
+- 若該架構成立，CoS／COS 可能成為 CPO 外部雷射與光引擎之間的關鍵封裝環節；[[3450_聯鈞（市）]] 的潛在受惠仍須以 design-in、客戶驗證與量產資料確認。
 - NPO 尚在研發，約一半機會為外部光源封裝搭配超高功率雷射，另一半為機櫃內／板級中功率雷射與光學引擎；未來 3–4 個月可能公布成果或訂單，但不等於已確認量產。

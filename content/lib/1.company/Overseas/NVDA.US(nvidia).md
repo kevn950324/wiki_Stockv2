@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-08-27
+updated: 2026-09-01
 aliases:
   - NVIDIA
   - 輝達
@@ -244,6 +244,11 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 - FY2027Q2 法說逐字稿（2026-08-26）稱 Q3 營收指引約 $108bn，Vera Rubin 開始出貨；供應約為需求的 70%，FY2028 成長受供應限制。
 - AWS、OpenAI 與其他 AI 實驗室的採購／融資敘述為管理層與客戶說法，需與正式申報交叉驗證；來源：[[活動_NVIDIA_FY2027Q2法說_20260826]]。
+
+## 2026-09-01 CPO／ELS 待查證觀察
+
+- 使用者轉述 NVIDIA 2026-08-21 新版 IB Switch System User Manual 提到一個 CPO 搭配 18 個 ELS，並將第一代 CPO InfiniBand scale-out switch 稱為 Q3450-LD；原始 manual 尚未收錄，不能視為 NVIDIA 正式規格。
+- 相關觀察與 ELS-COS 架構假說詳見 [[分析_光通_CPO與ELS-COS_20260901]]；目前僅列為低信心 rumor／thesis。
 
 ## 來源
 - [[報告_CTBC_NVIDIA_20260827]]（中信投顧，2026-08-27；2QFY27 營收、Rubin／Vera CPU 與供應鏈瓶頸）

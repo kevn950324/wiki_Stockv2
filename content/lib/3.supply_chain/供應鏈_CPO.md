@@ -6,7 +6,7 @@ tags:
   - 技術/CPO
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-08-22
+updated: 2026-09-01
 ---
 
 # 供應鏈_CPO
@@ -87,6 +87,10 @@ OSAT（未建頁）：ASE/SPIL（3711.TW，Nvidia 供應鏈關鍵，含未來 Ru
 | [[LITE.US(lumentum)]] | 首批主供 | Nvidia 初期 CPO ELS 預期唯一供應商（June note 因 CPO 延後轉保守） |
 
 ELS（未建頁）：Coherent（COHR，估 2026 下半進入第二供應）、Furukawa、Broadcom 自供、源傑 Yuanjie（中）、仕佳 Shijia（中）。CW DFB 每顆 ~350mW；高功率雷射仍有護城河。
+
+### ELS-COS（待查證架構）
+
+[[memo_光通_CPO_ELS_COS_20260901]] 轉述 SemiAnalysis 將 ELS-COS 描述為介於傳統 ELSFP 與 ILS 之間、更靠近 OE 但仍位於 ASIC 封裝之外的方案。若此路線成立，CoS／COS 封裝可能成為外部雷射與 OE 之間的關鍵製造環節；[[3450_聯鈞（市）]] 的切入仍須以 design-in、客戶驗證與量產資料確認，不能由架構描述直接推導為訂單。
 
 > [!warning] ELS 中系供應商技術門檻
 > Scale-Up CPO ELS 目前最低需 **100mW DFB @1310nm**；中系廠商在此規格下勉強達標。若升至 200mW/DFB 或 400mW/DFB，或引入 CWDM 多波長規格（1270/1290/1310/1330/1350nm），中系廠商在輸出功率與多波長均勻性上暫時無法滿足，技術護城河短期支撐 Lumentum/Coherent 地位。（來源：[[報告_金正禾論壇_CPO光電共封裝_20260325]]，2026-03-25）
@@ -171,6 +175,7 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 - [[3081_LandMark光電（市）]]
 - [[3105_穩懋（櫃）]]
 - [[3450_聯鈞（市）]]
+- [[分析_光通_CPO與ELS-COS_20260901]]
 - [[3711_日月光投控（市）]]
 - [[APH.US(amphenol)]]
 - 技術：[[技術_CPO]]
@@ -184,6 +189,7 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 - [[報告_Semianalysis_CPO_20260102]]（CPO Book Part 5：Nvidia CPO 供應鏈，2026-01-02）
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（CPO 個股 read-across，2026-06-09）
 - [[報告_SemiAnalysis_NPO光互連接棒_20260713]]（SemiAnalysis，2026-07-13；NPO／Pluggable CPO 的架構取捨與平台情境）
+- [[memo_光通_CPO_ELS_COS_20260901]]（使用者提供筆記，2026-09-01；NVIDIA manual／Q3450-LD 與 ELS-COS 待查證觀察）
 - [[報告_GS_大立光3008_20260701]]（GS，大立光 CPO 鏡頭擴張，2026-07-01）
 - [[報告_MS_測試耗材_旺矽6223_穎崴6515_20260630]]（MS，測試耗材 OW，旺矽/穎崴 CPO 測試布局，2026-06-30）
 - [[報告_CTBC_穎崴6515_20260701]]（CTBC，穎崴 CPO 三環節卡位，TP NT$10,000，2026-07-01）
