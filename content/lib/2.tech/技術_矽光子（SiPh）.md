@@ -6,7 +6,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光電晶片
 maturity: developing
-updated: 2026-08-30
+updated: 2026-09-01
 aliases:
   - SiPh
   - Silicon Photonics
@@ -213,6 +213,11 @@ Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重�
 - [[Polariton（未）]]
 - [[Sumitomo Electric（未）]]
 - [[技術_玻璃基板]]
+
+## 2026-08-20 Lumentum IR：SiPh 光源需求延伸至 CPO／NPO
+
+- [[活動_Lumentum_Fubon_LITE_IR_20260820]] 顯示，200G lane speed CW 雷射已開始供應矽光子光模組；其重新設計使占用空間縮小 30%，反映 SiPh 光引擎對高密度、可整合外部光源的需求。
+- SiPh 的需求不只來自可插拔 1.6T，也延伸至 CPO 的 ELS 與 NPO 的中／高功率雷射；因此 CPO 時程若延後，仍可能由 1.6T 可插拔與 NPO 需求支撐部分光源需求。這是由來源產品組合推導的產業 inference，信心中低。
 ## 本次 ingest 更新（2026-08-22）
 
 - DIGITIMES 報告整理矽光子晶片業者的競合策略，重點從單一光元件競爭轉向光電整合、共同封裝與 AI 互連平台競爭；來源仍屬產業觀察，信心中。

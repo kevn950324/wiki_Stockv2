@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-08-30
+updated: 2026-09-01
 aliases:
   - CPO
   - Co-Packaged Optics
@@ -602,6 +602,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - [[技術_COC光模組封裝]]
 - [[3019_亞光（市）]]
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
+- [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
 - [[6526_達發（市）]]
 - [[TER.US(teradyne)]]
 - [[分析_MS_AI供應鏈_HBM降規與Kyber延遲_20260810]]
@@ -696,3 +697,9 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 > - 狀態：產品定義與時間基準不一致，兩組估計暫不合併；須等待 Coherent 法說、訂單或平台 BOM 驗證。
 
 來源：[[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（Coherent 相關專家訪談，日期不詳；2026-08-30 收錄，信心低）。
+
+## 2026-08-20 Lumentum IR：CPO／NPO 光源與量產節奏
+
+- [[活動_Lumentum_Fubon_LITE_IR_20260820]] 指出，Lumentum 的 CPO 營收剛超過 US$10m，4Q26 預期進入較有意義的量產；NVIDIA ELS 訂單預計 2027H2 開始出貨。
+- NVIDIA ELS 業務中，Lumentum 封裝份額約 20%，但雷射晶片份額接近 100%；若 Scale-up CPO 放量，產品組合較偏高毛利雷射晶片，可能推升公司平均毛利率。此為 company claim，信心中。
+- NPO 尚在研發，約一半機會為外部光源封裝搭配超高功率雷射，另一半為機櫃內／板級中功率雷射與光學引擎；未來 3–4 個月可能公布成果或訂單，但不等於已確認量產。

@@ -198,6 +198,7 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 - [[報告_JPMorgan_Google2Q26伺服器供應鏈_20260723]]（J.P. Morgan，2026-07-23；2Q26 Cloud／backlog、US$195–205bn capex、外部 TPU 與亞洲伺服器供應鏈）
 
 ## 相關頁面
+- [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
 
 - [[供應鏈_AI光互聯]]
 - [[2480_敦陽科（市）]]

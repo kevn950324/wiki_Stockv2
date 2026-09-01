@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 技術/CPO
   - 環節/光纖與光通訊
-updated: 2026-08-27
+updated: 2026-09-01
 aliases:
   - Lumentum
   - LITE
@@ -22,6 +22,7 @@ related_companies:
   - "[[AVGO.US(broadcom)]]"
   - "[[COHR.US(coherent)]]"
   - "[[MTSI.US(macom)]]"
+  - "[[AAOI.US(applied optoelectronics)]]"
   - "[[3105_穩懋（櫃）]]"
   - "[[3450_聯鈞（市）]]"
 image_status: "Mermaid 架構圖；官方產品頁含產品圖"
@@ -191,6 +192,10 @@ FY26 GAAP net loss $6.9bn 不代表本業同幅度惡化：Q4 債券換股使公
 | 2027H2 | 首張 ELS module 交付、超高功率雷射放量前段 | 出貨 | ⭐⭐⭐ | 管理層展望，非已實現收入 |
 | 2028 初 | Greensboro 首批 InP revenue | 技術下線／放量 | ⭐⭐ | GaAs → InP 轉換，2028–29 爬坡 |
 | 2027–28 | NPO／CPO 新 XPU／rack 世代導入 | 規格升級 | ⭐⭐⭐ | NPO 略早於 lead CPO，正式合約待公告 |
+| 2026Q4 | CPO 進入較有意義的量產 | 放量 | ⭐⭐⭐ | [[活動_Lumentum_Fubon_LITE_IR_20260820]]；公司交流口徑 |
+| 2027Q1 | 1.6T 成為光模組營收大宗（最早） | 放量 | ⭐⭐⭐ | 以光模組營收占比計，非公司總營收 |
+| 2027H2 | NVIDIA ELS 光源開始出貨 | 出貨 | ⭐⭐⭐ | 雷射晶片份額近 100%、封裝約 20%；公司交流口徑 |
+| 2026–2027 | EML／超高功率雷射供需缺口延續 | 產能／瓶頸 | ⭐⭐⭐ | 未來 2–4 季未必能彌合，追蹤有效產能與良率 |
 
 → 跨公司節點詳見 [[時程_2026記憶體與AI催化劑]]；技術背景詳見 [[技術_CPO]] 與 [[技術_InP磷化銦]]。
 
@@ -244,6 +249,7 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 ## 相關頁面
 
 - [[分析_Coherent毛利率與1.6T良率爬坡]]
+- [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
 - [[技術_InP磷化銦]]
 ---
 ### 基本資料（歷史補充）
@@ -332,6 +338,9 @@ ECTC 2026 論文：Lumentum 與 NVIDIA、[[2330_台積電（市）]] COUPE 平�
 - [[時程_2026記憶體與AI催化劑]]
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
 - [[MTSI.US(macom)]]
+- [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
+- [[時程_2026Q3Q4_AI網通與硬體催化劑]]
+
 - [[TSEM.US(tower semiconductor)]]
 - [[供應鏈_AI光互聯]]
 - [[技術_InP磷化銦]]
@@ -382,3 +391,11 @@ ECTC 2026 論文：Lumentum 與 NVIDIA、[[2330_台積電（市）]] COUPE 平�
 - [[2026-08-12-LITE.OQ-Barclays-Lumentum Holdings Inc. Several Moving Pieces, All in Right ...-123789088]]（Barclays，2026-08-12）
 - [[2026-08-12-LITE.OQ-BNP Paribas-LUMENTUM HOLDINGS (+)  Lighting The Way-123789795]]（BNP Paribas，2026-08-12）
 - [[2026-08-12-LITE.OQ-JPMorgan-Lumentum F4Q26 Review Executing Ahead of Plan With Incremen...-123791452]]（JPMorgan，2026-08-12）
+
+## 本次 ingest 更新（2026-09-01）
+
+- [[活動_Lumentum_Fubon_LITE_IR_20260820]]（富邦證券 x LITE IR，2026-08-20）指出：CPO 營收剛超過 US$10m，4Q26 預期進入較有意義的量產；NVIDIA ELS 封裝份額約 20%，但雷射晶片份額近 100%，首批 ELS 光源預計 2027H2 出貨。以上為公司交流口徑，屬 company claim，信心中。
+- NPO 仍在研發，市場機會約一半為外部光源封裝搭配超高功率雷射、另一半為 inside-the-box 中功率雷射與光學引擎；未來 3–4 個月可能公布成果或訂單，尚非已確認大單。
+- June 季度 OCS 營收剛超過 US$50m、較上季翻倍；公司維持 2026H2 約 US$400m 出貨目標，並觀察機櫃內動態分割與冗餘網路等 Google 以外應用。
+- EML 仍有約 30% 供需缺口；2026 年底單位產能較去年底增 50%，200G EML 將約占 EML 營收一半。公司預期 1.6T 最早於 1Q27 成為光模組營收大宗。
+- 產能是當前最大出貨瓶頸；超高功率雷射可能成為 CPO／NPO 產業瓶頸。未來 2–4 季缺口未必能彌合，需追蹤實際良率、產出與資本支出。

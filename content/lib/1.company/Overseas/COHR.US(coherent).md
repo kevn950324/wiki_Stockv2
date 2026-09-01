@@ -194,6 +194,7 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]]（毛利率組合、1.6T 良率、北美份額外溢與 OCS／ELS／dFAU 爬坡；日期不詳，2026-08-30 收錄，信心低）
 
 ## 相關頁面
+- [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
 
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
 - [[分析_Coherent毛利率與1.6T良率爬坡]]

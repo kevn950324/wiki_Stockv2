@@ -265,6 +265,7 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 - [[報告_美股專題_NVIDIA_GTC2026台廠評析_20260319]]（美股專題，GTC2026，2026-03-19）
 
 ## 相關頁面
+- [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
 
 - [[8121_越峰（市）]]
 - [[SNPS.US(synopsys)]]
