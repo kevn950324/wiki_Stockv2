@@ -362,3 +362,12 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 ### 2026-08-23 OpenAI 資料中心合作新聞
 
 - [[Nvidia in Talks to Back OpenAI Lease of $500 Billion]]（Bloomberg，2026-07-28）報導 NVIDIA 與 OpenAI 資料中心租賃／融資安排的討論；屬新聞 rumor，未視為已簽署合約或已確認訂單。
+
+## 2026-09-01 Rubin 平台分化觀察
+
+- 使用者轉述 NVL72 TTM 資源集中，勝宏板子問題解決後 VR200 已進入 PVT，NVL72 的 L11 目標於 4Q 中出貨；這些節點仍待 NVIDIA 與供應鏈實際公告／出貨驗證。
+- NVL8 的 QS 被描述為大幅遞延，可能難以在 2026 年內形成量產；屬時程風險觀察。
+- L10 從既有 roadmap 轉為 Group A 的傳聞，據稱在新版 roadmap 的某一 model 開始實施，可能影響下游生態系統，但目前缺乏原始 roadmap 文件。
+- Vera rack 的 use case 仍偏 GPU server control plane；使用者據此認為短期不足以衝擊 x86 enterprise application，並不構成放空 Intel／AMD 的理由。以上為使用者觀點，信心低。
+
+來源：[[memo_富世達_Lumentum_Rubin_20260901]]（使用者 Rubin 觀察，2026-09-01）；詳見 [[分析_富世達_Lumentum_Rubin_20260901]]。

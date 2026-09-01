@@ -202,3 +202,4 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 
 - [[CPO時代來臨，AI_高速互連中長期技術演進與挑戰_DIGITIMES]]（DIGITIMES，2026-08-21）補充 51.2T CPO、3.2T 光引擎、800G／1.6T 交換器升速，以及封裝、熱管理、陣列測試與標準化的量產瓶頸。
 - [[Scale全棧式方案成形，伺服器連網晶片業者競爭升級_DIGITIMES]]（DIGITIMES，2026-08-21）將 AI Fabric 供應鏈從 GPU／交換器 ASIC 擴展至 SerDes、DSP、CPO、客製 ASIC 與跨機櫃光互連；平台採用仍屬研究整理。
+- [[分析_富世達_Lumentum_Rubin_20260901]]：補充 UHP／ELS／COS、OCS 與 Rubin 平台時程的交叉觀察；使用者轉述部分保留低至中信心。
