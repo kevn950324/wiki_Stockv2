@@ -352,6 +352,7 @@ ECTC 2026 論文：Lumentum 與 NVIDIA、[[2330_台積電（市）]] COUPE 平�
 - [[CRDO.US(credo)]]
 - [[META.US(meta)]]
 - [[技術_CPO]]
+- [[分析_光通_CPO與ELS-COS_20260901]]
 - [[技術_光互連]]
 - [[技術_光模塊]]
 - [[技術_光電芯片]]

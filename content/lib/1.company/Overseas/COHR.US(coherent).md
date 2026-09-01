@@ -208,6 +208,7 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - [[CRDO.US(credo)]]
 - [[GFS.US(globalfoundries)]]
 - [[技術_CPO]]
+- [[分析_光通_CPO與ELS-COS_20260901]]
 - [[技術_FAU]]
 - [[技術_OCI]]
 - [[技術_光模塊]]

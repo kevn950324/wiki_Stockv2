@@ -24,6 +24,8 @@ related_topics:
 
 使用者整理的 2026-09-01 光通訊筆記，將 NVIDIA 8/21 上傳的 IB Switch manual、8/18 Judge 對 ELS 規格的暗示，以及 SemiAnalysis 上週末對 ELS-COS 的描述串在一起。核心 thesis 是：CPO 的 ELS 數量與封裝位置逐步具體化，可能提高 CoS／COS 封裝在光互連供應鏈中的重要性；但目前仍缺少可直接引用的原始文件與 NVIDIA／客戶正式確認。
 
+技術背景見 [[技術_CPO]] 與 [[技術_光互連]]；追蹤節點見 [[時程_2026Q3Q4_AI網通與硬體催化劑]]。
+
 ## 關鍵發現
 
 - 使用者轉述 NVIDIA 2026-08-21 新版 IB Switch System User Manual 寫有「一個 CPO 搭配 18 個 ELS」，並與 2026-08-18 Judge 對新客戶 ELS spec 的描述相符；原始文件尚未收錄，屬待查證觀察。

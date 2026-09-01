@@ -604,6 +604,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
 - [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
 - [[分析_光通_CPO與ELS-COS_20260901]]
+- [[分析_大量與聯鈞_2Q26法說_20260818]]
 - [[6526_達發（市）]]
 - [[TER.US(teradyne)]]
 - [[分析_MS_AI供應鏈_HBM降規與Kyber延遲_20260810]]
@@ -709,4 +710,9 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - [[memo_光通_CPO_ELS_COS_20260901]] 轉述 NVIDIA 2026-08-21 IB Switch System User Manual 可能寫有「一個 CPO 搭配 18 個 ELS」，並將第一代 CPO InfiniBand scale-out switch 稱為 Q3450-LD；原始文件未收錄，屬低信心 rumor，不能直接改寫為 NVIDIA 已確認規格。
 - 同一 memo 轉述 SemiAnalysis 上週末提出 ELS-COS：位置介於傳統 ELSFP 與 ILS，更靠近 OE 但仍位於 ASIC 封裝之外，主張較短光路與遠離熱源的折衷。是否用於 NVL756 尚未確認。
 - 若該架構成立，CoS／COS 可能成為 CPO 外部雷射與光引擎之間的關鍵封裝環節；[[3450_聯鈞（市）]] 的潛在受惠仍須以 design-in、客戶驗證與量產資料確認。
+
+## 2026-08-18 法說補充：CPO／1.6T 與 CCD 設備
+
+- [[memo_大量聯鈞_2Q26法說_20260818]] 轉述 [[3167_大量科技（市）]] 開始強攻 CPO 與 1.6T 光模組設備市場；其高階 CCD 成型／鑽孔設備與 TM4 量測回饋，原本由 224G SerDes AI server 背鑽需求帶動，應用範圍可能向光模組板延伸。
+- 這是 PCB／光模組設備端的需求擴張觀察，不代表 CPO 光引擎本身已採用 CCD 或大量科技設備；實際客戶驗證與設備出貨仍待確認。
 - NPO 尚在研發，約一半機會為外部光源封裝搭配超高功率雷射，另一半為機櫃內／板級中功率雷射與光學引擎；未來 3–4 個月可能公布成果或訂單，但不等於已確認量產。
