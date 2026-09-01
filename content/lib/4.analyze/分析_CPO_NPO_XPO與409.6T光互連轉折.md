@@ -1,11 +1,13 @@
 ---
 title: "分析_CPO_NPO_XPO與409.6T光互連轉折"
 query_date: 2026-08-20
-updated: 2026-08-30
+updated: 2026-09-01
 sources:
   - "[[memo_OCPAPAC_CPO_NPO_XPO專家會議_20260820]]"
   - "[[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]"
   - "[[memo_使用者澄清_COHR專家_20260830]]"
+  - "[[活動_華星光法說_20260828]]"
+  - "[[web_Threads_華星光2Q法說_20260831]]"
   - "[[技術_CPO]]"
 tags:
   - 技術/CPO
@@ -13,6 +15,7 @@ tags:
   - 產業/AI伺服器
   - 分析/產業
 related_companies:
+  - "[[4979_華星光（櫃）]]"
   - "[[NVDA.US(nvidia)]]"
   - "[[GFS.US(globalfoundries)]]"
   - "[[COHR.US(coherent)]]"
@@ -40,6 +43,7 @@ OCP APAC 專家會議把 CPO、NPO、XPO 與可插拔模組放回同一個系統
 - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（日期不詳）：3→6 吋 InP 的幾何面積約 4 倍，但 MOCVD、應力、溫循、調製與封裝分測使有效供給只能分批爬坡。
 - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（日期不詳）：外置 ELS 因 PMF 光路與耦合損失需較高功率 CW；內置 NPO 可省 PMF，並以降額／功率冗餘換取壽命。
 - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（日期不詳）：Coherent 相關專家推估 2027 年 400mW CW 需求 8,000 萬～1 億顆，推導依賴 NVIDIA 對 [[COHR.US(coherent)]] 500 萬 ELS 的說法，尚未經公告驗證。
+- [[活動_華星光法說_20260828]]：[[4979_華星光（櫃）]] 把 2027H2 定為 NPO 量產設備開發目標、2028 年定為 NPO 較大業績期，並把 CPO 延伸放在 2030 年附近；[[web_Threads_華星光2Q法說_20260831]] 將此概括為「NPO 先行、CPO 接力」。
 
 ## 投資重點 memo
 
@@ -50,6 +54,7 @@ OCP APAC 專家會議把 CPO、NPO、XPO 與可插拔模組放回同一個系統
 | 系統級 PDK、機械／電氣介面標準化 | 標準化可降低跨晶圓廠與設備供應鏈碎片化，但短期仍屬產業協作議題 | [[GFS.US(globalfoundries)]] | 中低 |
 | InP 名目擴產不等於有效供給 | 3→6 吋轉線期間，MOCVD、應力篩選與高速／高功率良率可能讓 EML／CW 瓶頸延續 | [[LITE.US(lumentum)]]、[[COHR.US(coherent)]] | 低 |
 | 內置／外置光源並存 | 外置 ELS 拉動高功率 CW、PMF 與 36 芯 FAU；內置 NPO 偏向中功率 CW 與不同 FAU 配置 | [[NVDA.US(nvidia)]]、[[GLW.US(corning)]] | 低 |
+| 華星光以 NPO 先行、CPO 後移安排擴產 | 2027–2028 的先行驗證點應放在 EML／CW Laser、InP 前段與 NPO 封裝，而非直接把 2030 CPO roadmap 提前認列 | [[4979_華星光（櫃）]] | 中 |
 
 ## 受惠鏈
 
@@ -59,6 +64,7 @@ OCP APAC 專家會議把 CPO、NPO、XPO 與可插拔模組放回同一個系統
 | [[COHR.US(coherent)]] | 雷射／光電元件 | CPO、NPO、可插拔路線均需要光源與光引擎供應 | 中 | 400G／更高速調變與可靠性認證 |
 | [[LITE.US(lumentum)]] | 外部雷射源 | NVIDIA CPO 生態中的 ELS 供應地位 | 中 | ELS 多供策略與量產節奏 |
 | [[GFS.US(globalfoundries)]] | SiPho／EIC-PIC 製造 | 具光子平台與 EIC/PIC 異質整合路線 | 中低 | 45µm micro-bump 向 hybrid bonding 的量產落地 |
+| [[4979_華星光（櫃）]] | InP 雷射、光封裝與 NPO | 先以 EML／CW Laser 與 NPO 封裝承接 2027–2028 成長，再延伸至 CPO | 中 | 2027H2 NPO 設備完成度、2028 業績與 2030 CPO roadmap 是否維持 |
 
 ## Insight 結論
 
@@ -82,6 +88,7 @@ OCP APAC 專家會議把 CPO、NPO、XPO 與可插拔模組放回同一個系統
 | 3→6 吋面積約 4 倍，但有效供給須分批轉線且受應力／溫循／封裝良率限制 | thesis | [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] | 日期不詳 | 低 |
 | 2027 年 400mW CW 需求可能達 8,000 萬～1 億顆 | estimate／rumor | [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] | 日期不詳 | 低 |
 | 外置 PMF 耦合效率約 60%～70%，內置直接耦合可達 90%+ | estimate | [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] | 日期不詳 | 低 |
+| 華星光規劃 2027H2 完成 NPO 量產設備開發、2028 年放大 NPO 業績，CPO 延伸至約 2030 年 | company outlook；Threads 為二次解讀 | [[活動_華星光法說_20260828]]、[[web_Threads_華星光2Q法說_20260831]] | 2026-08-28／2026-08-31 | 中 |
 
 > [!todo] 反證條件／待確認
 > - [ ] 追蹤 409.6T 交換器是否如專家所述在約 18 個月內進入量產部署。
@@ -90,12 +97,15 @@ OCP APAC 專家會議把 CPO、NPO、XPO 與可插拔模組放回同一個系統
 > - [ ] 用 Coherent 法說或平台 BOM 驗證「500 萬 ELS、8,000 萬～1 億顆 400mW CW」的口徑與單位。
 > - [ ] 追蹤 6 吋 InP 連續批次良率與實際轉線比例；若有效產出接近面積 4 倍，短缺 thesis 失效並轉為供過於求風險。
 > - [ ] 核對 32／36 芯 FAU 是否能穩定對應內置／外置方案，避免把單一平台設計泛化成產業標準。
+> - [ ] 追蹤華星光 2027H2 NPO 量產設備、2028 收入與 2030 CPO roadmap；若 NPO 驗證延後，則其「先 NPO、後 CPO」受惠節奏需同步後移。
 
 ## 來源引用
 
 - [[memo_OCPAPAC_CPO_NPO_XPO專家會議_20260820]] — OCP APAC panel transcript，2026-08-20
 - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] — Coherent 相關專家訪談，日期不詳（2026-08-30 收錄；信心低）
 - [[memo_使用者澄清_COHR專家_20260830]] — 使用者確認講者與「公司」均對應 Coherent，2026-08-30
+- [[活動_華星光法說_20260828]] — 華星光 2026Q2 法說逐字稿，2026-08-28
+- [[web_Threads_華星光2Q法說_20260831]] — Klu（@klu_jfk）法說二次解讀，2026-08-31
 - [[技術_CPO]] — CPO 技術與供應鏈彙整
 
 ## 2026-08-27 Lumentum 券商交叉驗證
