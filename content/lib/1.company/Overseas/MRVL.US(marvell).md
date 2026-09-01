@@ -11,7 +11,7 @@ tags:
   - 技術/矽光子
   - 環節/光纖與光通訊
   - 環節/光纖與光通訊
-updated: 2026-08-29
+updated: 2026-09-01
 aliases:
   - Marvell
   - 邁威爾
@@ -57,6 +57,12 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 - **差異化：採 EAM（電吸收調變器）**——熱穩定佳（可容忍瞬間 35°C），適合放在高功率 XPU 下方的中介層；但需自行把 EAM 整合進晶圓廠，C-band 雷射生態較 O-band 不利。
 - 在光學端同時保有可插拔 transceiver / DSP / AEC 業務（June note 視為相對 CPO 量曝險較低的偏好標的）。
 
+## 2026-03-12 官方 1.6T 光學 DSP 平台更新
+
+- Marvell 宣布擴充 3nm 1.6T 光學 DSP 平台，Ara T、Ara X、Petra 與 Aquila M 分別對應 transmit-retimed optics、鏈路可靠性、8x100G↔4x200G gearbox，以及 O-band coherent-lite／MACsec 安全需求。
+- 公司表示 Ara 已向全球客戶大量出貨，Ara X、Ara T、Petra 與 Aquila M 自 2026Q1 起向客戶送樣；以上為公司官方產品與供貨說法，並不等同於特定客戶訂單或收入承諾。
+- Marvell 將 DSP、SerDes、交換器、互連、Driver、TIA、Silicon Photonics Light Engine 與 RELIANT telemetry 串成 scale-up、scale-out、scale-across 的端到端連結平台，強化其在 AI 資料中心互連的全棧定位。
+
 ## 圖片 / 架構圖
 
 ![[報告_Semianalysis_CPO_20260102_016.png]]
@@ -93,6 +99,10 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 
 ## 券商觀點與催化劑
 
+| 時間 | 事件 | 類型 | 重要性 | 備註 |
+|---|---|---|---|---|
+| 2026-03-12 | Ara T／Ara X／Petra／Aquila M 1.6T DSP 平台宣布；OFC 2026 展示 | 新產品／驗證 | ⭐⭐⭐ | 公司公告 Ara 已大量出貨；四款新品自 2026Q1 起送樣，需追蹤客戶採用與量產收入 |
+
 > [!warning] 關鍵 claim：Celestial AI 營收 run-rate（需追蹤時程）
 > - 來源：[[報告_Semianalysis_CPO_20260102]]（2026-01-02）轉述 Marvell 交易摘要與 Barclays 會議。
 > - Marvell 估 Celestial 在 **F1/28（2028 年 1 月底）達 $500M run-rate**，並於 **2028 曆年底翻倍至 $1B**，隱含至 2027 年底約 2 年達商業化。
@@ -117,6 +127,7 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（Polariton 收購；調變器路線多元化 Si/TFLN/plasmonics/EML 四線並進，2026-06-29）
 - [[Semiconductors 260615 MS public company bus tour ALAB MRVL INTC]]（MS bus tour，2026-06-15）
 - [[報告_GFHK_Marvell_20260828]]（GF Securities，2026-08-28；F2Q、custom ASIC、800G／1.6T、CPO／NPO 與 FY27/FY28E 展望）
+- [[web_Marvell_1.6T光學DSP_20260312]]（Marvell 官方新聞稿，2026-03-12；Ara T／Ara X／Petra／Aquila M 與端到端互連平台）
 
 ## 相關頁面
 

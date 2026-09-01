@@ -188,6 +188,7 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 | 2026-03（GTC） | NVIDIA 發表 Vera Rubin + Feynman CPO 路線圖；$2B 入股 LITE + $2B 入股 COHR | ⭐⭐⭐ |
 | 2026-02 | AIXTRON FY26 管理層指引：光子訂單 >+100% YoY，GaN 800V 加速 | ⭐⭐ |
 | 2026-01 | Marvell 完成 Celestial AI 收購（EAM CPO Scale-up） | ⭐⭐⭐ |
+| 2026-03-12 | Marvell 發表 Ara T／Ara X／Petra／Aquila M 3nm 1.6T DSP；四款產品自 2026Q1 起送樣 | ⭐⭐⭐ |
 
 ## 相關頁面
 
@@ -221,6 +222,7 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 - [[CRWV.US(coreweave)]]
 - [[分析_2026-08_AI網通與硬體報告更新]]
 - [[活動_JPM_頎邦訪談_20260527]]（J.P. Morgan NDR 訪談，2026-05-27；Gold Bump 客戶驗證、短距離互連、Testing／Dicing 延伸）
+- [[web_Marvell_1.6T光學DSP_20260312]]（Marvell 官方新聞稿，2026-03-12；1.6T DSP、SerDes 與端到端互連平台）
 ## 2026-08-20 更新
 
 - [[260820_GS_WNC 啟碁(6285)]] 補充啟碁在高速網通與 AI networking 的觀察；800G 以上規格的驗證、出貨與客戶集中度仍需追蹤。
