@@ -25,6 +25,7 @@ related_companies:
   - "[[2330_台積電（市）]]"
   - "[[META.US(meta)]]"
   - "[[AMD.US(amd)]]"
+  - "[[供應鏈_CPO]]"
 image_status: "待補來源圖"
 ---
 
@@ -109,7 +110,19 @@ AI ASIC 市場 CAGR 2025-28E：72%（Bernstein）；$60-70B in CY26（JPM 2026-0
 
 ## 圖片/架構圖
 
-`[待補來源圖]` 需官方 investor day 網路晶片架構圖或 AI ASIC 區塊示意圖佐證，現有研究筆記不足以支撐架構示意圖。
+```mermaid
+flowchart LR
+    ASIC[Tomahawk 5<br/>51.2T switch ASIC] --> OE[8 × 6.4T<br/>Bailly silicon photonics engines]
+    OE --> FIB[128 × 400G FR4<br/>single-mode fiber]
+    RLM[Remote laser modules<br/>field replaceable] --> OE
+    classDef core fill:#a5d8ff,stroke:#1c7ed6,color:#111;
+    classDef optical fill:#d0bfff,stroke:#7048e8,color:#111;
+    classDef link fill:#b2f2bb,stroke:#2b8a3e,color:#111;
+    class ASIC core;
+    class OE,RLM optical;
+    class FIB link;
+```
+圖說：Bailly 將 Tomahawk 5、8 個 6.4T 矽光子引擎、可現場更換的遠端雷射模組與 400G 光纖埠整合為 51.2T CPO 交換器；架構依 Broadcom 2024-03-14 官方公告整理。
 
 ## 時間軸
 
@@ -121,6 +134,7 @@ AI ASIC 市場 CAGR 2025-28E：72%（Bernstein）；$60-70B in CY26（JPM 2026-0
 | 2026 | Apple Baltra 量產（3nm TSMC，Broadcom ASIC 設計服務）| 客戶 | ⭐⭐⭐ | Apple AI server chip |
 | 2026-01 | 引入科瑞技術為 CPO 自動光纖耦合第二供應商（小批量），原首供 ficonTEC 仍主導（良率 80–90% vs 科瑞 60%）| CPO 供應鏈 | ⭐⭐ | 背後邏輯：降成本 + 供應鏈安全，非技術換供應商 |
 | 2026 | 系統性增加自動光纖耦合設備投資，CPO 設備從單一供應商走向雙軌 | CPO 設備 | ⭐⭐ | 拉動光模塊設備需求，參見 [[技術_CPO]] |
+| 2024-03-14 | Broadcom 宣布交付 Bailly 51.2T CPO Ethernet switch 給客戶 | CPO／產品交付 | ⭐⭐⭐ | 官方公告；8×6.4T 矽光子引擎、70% 光互連功耗改善與 128×400G FR4 埠為公司說法 |
 | 2026 H2 | AMD Helios Rack 量產：**Broadcom TH6（102.4T）作為唯一 Scale-up Switch**；~550 顆 Broadcom Ethernet Retimer / 架（85% Scale-up 鏈路需 Retiming）| 客戶出貨 | ⭐⭐⭐ | AMD SerDes 不足 → Broadcom 獨佔 Helios Switch + Retimer，成 AMD 系統隱形受惠 |
 | 2027 | CPO 出貨量目標 3–5 萬支（驗證節點）；科瑞技術能否達 80% 良率是關鍵觀察點 | CPO | ⭐⭐⭐ | 市場用以判斷 CPO 規模化的前哨指標 |
 | 2027 | Rapidus 2nm 原型晶圓（潛在未來代工多元化）| 技術 | ⭐⭐ | 日本 TSMC 替代方案 |
@@ -165,6 +179,8 @@ AI ASIC 市場 CAGR 2025-28E：72%（Bernstein）；$60-70B in CY26（JPM 2026-0
 | [[AMD.US(amd)]] | OCI MSA 共編 | 同上 |
 
 ## 來源
+
+- [[報告_Broadcom_Bailly_51.2T_CPO_20240314]]（Broadcom 公司公告，2024-03-14；Bailly 51.2T CPO、Tomahawk 5、光引擎與 RLM）
 
 - [[報告_Bernstein_Broadcom_20250915]]（Bernstein/Macquarie，2025-09-15；首次覆蓋，AI ASIC 霸主地位、SerDes 護城河、VMware 轉型）
 - [[memo_光模块及CPO设备学习总结_acecamptech_20260416]]（AceCamp Tech，2026-04-16；CPO 設備雙供應商策略、科瑞技術進博通產線、2027 CPO 出貨量驗證節點）

@@ -188,6 +188,7 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 - 對照供應鏈：[[供應鏈_先進封裝載板]]、[[供應鏈_AI伺服器PCB]]
 
 ## 來源
+- [[報告_Broadcom_Bailly_51.2T_CPO_20240314]] — Broadcom 公司公告，2024-03-14（Bailly 51.2T CPO 與 remote laser module）
 - [[web_NVIDIA_CPO_industry_collaboration_20250826]] — NVIDIA Technical Blog，2025-08-26
 
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31

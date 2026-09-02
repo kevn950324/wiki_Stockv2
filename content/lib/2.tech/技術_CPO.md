@@ -576,6 +576,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 資料來源：SemiAnalysis / Daiwa Research
 
 ## 來源
+- [[報告_Broadcom_Bailly_51.2T_CPO_20240314]] — Broadcom 公司公告，2024-03-14（Bailly 51.2T CPO：8×6.4T 光引擎、70% 光互連功耗節省、RLM 可維修設計）
 - [[web_NVIDIA_CPO_industry_collaboration_20250826]] — NVIDIA Technical Blog，2025-08-26
 
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31
