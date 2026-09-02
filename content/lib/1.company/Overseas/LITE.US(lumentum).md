@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 技術/CPO
   - 環節/光纖與光通訊
-updated: 2026-09-01
+ updated: 2026-09-02
 aliases:
   - Lumentum
   - LITE
@@ -232,6 +232,8 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 未來幾季優先追蹤：FY27 Q1 revenue／EPS 是否落在指引、1.6T 量與 yield、OCS 是否超過 triple-digit、EML unit growth、pump laser 長約與出貨、NPO／ELS 客戶公告、毛利 mix、inventory／CapEx／FCF，以及 Greensboro 轉換進度。
 
 ## 來源
+
+- [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]]（Simple Tech Trend，2026-08-31；InP／VCSEL／OCS 與 CPO 外部雷射觀察）
 
 - [Lumentum FY26 Q4／全年正式財報新聞稿](https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results/default.aspx)（2026-08-11；公司正式數字與 FY27 Q1 guidance）
 - [SEC Form 8-K，Lumentum FY26 Q4](https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite-20260811.htm)（2026-08-11；監管文件）

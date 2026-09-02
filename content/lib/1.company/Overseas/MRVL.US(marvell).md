@@ -11,7 +11,7 @@ tags:
   - 技術/矽光子
   - 環節/光纖與光通訊
   - 環節/光纖與光通訊
-updated: 2026-09-01
+ updated: 2026-09-02
 aliases:
   - Marvell
   - 邁威爾
@@ -121,6 +121,8 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 - **估值爭議**：MS 態度正面但承認「2.5× NVDA 本益比倍數、但 Marvell 尚未比 NVDA 成長更快」是評價壓力。
 
 ## 來源
+
+- [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]]（Simple Tech Trend，2026-08-31；pJ/bit、plasmonics 與光子互連觀察）
 
 - [[報告_Semianalysis_CPO_20260102]]（CPO Book，2026-01-02）
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（2026-06-09）

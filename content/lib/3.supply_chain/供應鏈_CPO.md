@@ -6,7 +6,7 @@ tags:
   - 技術/CPO
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-09-01
+ updated: 2026-09-02
 ---
 
 # 供應鏈_CPO
@@ -54,6 +54,9 @@ flowchart TD
 ```
 
 ## 供應鏈整合演進圖
+
+![[web_semicon_taiwan_2026_siph_summit_20260831_07.png]]
+圖說：（Simple Tech Trend，2026-08-31）CPO 從晶圓到系統的四道測試插入點與失效成本階梯，凸顯量產瓶頸由「能否做出」轉向測試、良率與失效成本控制。
 
 ![[報告_金正禾論壇_CPO光電共封裝_20260325_024.png]]
 圖說：（金正禾論壇，2026-03-25）Scale-Up CPO 供應鏈全景——左側為系統整合路徑（Switch ASIC → OE module → ODM → End User），中間為 Hybrid-bond 設備 / 測試設備 / 耦合設備分工，右側為 FAU（ASP $50）→ E/PIC pair → OE module（ASP $1,000）的元件價值層次，以及 TSMC/GlobalFoundries/Intel 代工與 ASE/SPIL/Amkor OSAT 位置。
@@ -183,6 +186,8 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 - 對照供應鏈：[[供應鏈_先進封裝載板]]、[[供應鏈_AI伺服器PCB]]
 
 ## 來源
+
+- [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31
 
 - [[memo_OCPAPAC_CPO_NPO_XPO專家會議_20260820]]（OCP APAC panel，2026-08-20；CPO／NPO／XPO 路線分化、409.6T forcing function、25.6T+ CPO 標準化）
 - [[報告_金正禾論壇_InP晶圓代工CPO_20260130]] — 金正禾論壇（CPO 供應鏈前段圖），2026-01-30

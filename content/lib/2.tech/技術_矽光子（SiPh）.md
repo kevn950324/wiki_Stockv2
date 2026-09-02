@@ -6,7 +6,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光電晶片
 maturity: developing
-updated: 2026-09-01
+ updated: 2026-09-02
 aliases:
   - SiPh
   - Silicon Photonics
@@ -28,6 +28,9 @@ aliases:
 2026 年 SiPh 在光模組的滲透率已超 50%（2026 OFC 確認），是 1.6T 出貨的主要技術路線（估 50–70% 滲透率）。
 
 ## 圖解
+
+![[web_semicon_taiwan_2026_siph_summit_20260831_05.png]]
+*圖（Simple Tech Trend，2026-08-31）：400G/lane 材料決策樹；來源整理將 Si MZM、Si MRM 與 SiGe EAM 的瓶頸歸因於頻寬、溫度敏感度與色散，並列出 TFLN、InP、BTO、有機聚合物與電漿子候選路線。*
 
 ![[國泰證期研究部_半導體產業_PIC推動晶圓代工邁向AI光電異質整合新平台_20260525_001.png]]
 *圖（國泰證期，2026-05）：矽光子晶片三維示意圖——SOI 晶圓上整合 Germanium PIN Photodetector（鍺 PIN 光偵測器，接收端 O→E）、Silicon waveguides（矽波導佈線）、Electro-optic Modulator（電光調製器，發射端 E→O）與 Optical coupler（光柵耦合器，晶片↔光纖 I/O）。所有元件在 CMOS 產線製造，與電子 IC 單片或異質整合（HB/SoIC），是矽光子的根本競爭力所在。*
@@ -179,6 +182,8 @@ MicroLED CPO 為短距（<50m）低成本方案，適合伺服器內部 scale-up
 Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重要的獨立 SiPh 純晶圓代工廠：2025 年 Q4 季營收 $80–95M → 5× 擴產後 2027E 年化 $1.6–1.9B；已與客戶簽署 2027 年 $1.3B 產能保留合約（20% 預付款），顯示超算 AI 資料中心客戶對 SiPh 產能長期鎖定的信心。即使 CPO 封裝最終交由 TSMC COUPE 執行，Tower 的 SiPh 晶圓仍可獨立供應（不綁定 TSMC 生態）。
 
 ## 來源
+
+- [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31
 
 ## 2026-08-24 代工平台更新
 

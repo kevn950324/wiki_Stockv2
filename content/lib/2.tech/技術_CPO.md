@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-09-01
+ updated: 2026-09-02
 aliases:
   - CPO
   - Co-Packaged Optics
@@ -57,6 +57,12 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 *圖（SemiAnalysis／NVIDIA，2026-08-10）：Portia expandable switch 的 NPO／CPO 配置差異；NPO 保留 socketed 模組，CPO 將 optical engine 固定於 switch ASIC 周邊。*
 
 ## 圖解
+
+![[web_semicon_taiwan_2026_siph_summit_20260831_02.png]]
+*圖（Simple Tech Trend，2026-08-31）：可插拔、NPO、CPO 與光學 I/O 的光引擎位置比較；電氣路徑縮短換取能效，但可維修性與封裝／測試難度同步上升。*
+
+![[web_semicon_taiwan_2026_siph_summit_20260831_04.png]]
+*圖（Simple Tech Trend，2026-08-31）：TSMC COUPE 以通道速率、通道數與 WDM 波長數兩條路線，從 2026 年 3.2 Tb/s 走向 2027 年後更高頻寬。*
 
 ![[報告_Semianalysis_CPO_20260102_001.png]]
 *圖（SemiAnalysis，2026-01）：CPO 概念——光引擎緊鄰 XPU/ASIC，省去 DSP 與長距 SerDes，較 DSP 光模組大幅降低每位元能耗。*
@@ -561,6 +567,8 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 資料來源：SemiAnalysis / Daiwa Research
 
 ## 來源
+
+- [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31
 
 ## 本次 ingest 更新（2026-08-14）
 

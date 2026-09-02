@@ -8,7 +8,7 @@ tags:
   - 技術/矽光子（SiPh）
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-08-30
+ updated: 2026-09-02
 ---
 
 # 供應鏈_AI光互聯
@@ -213,6 +213,8 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 - HIMX.US(himax)
 
 ## 來源
+
+- [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31
 
 - [[Optical Networking 260417 GS AI scale out scale up]]（Goldman Sachs，2026-04-17；TAM $15B→$154B；CPO TAM 逐年；BoM breakdown；Scale-up 佔 69%）
 - [[Optical Networking 260312 Citrini AI connectivity optics]]（Citrini Research，2026-03-12；HIMX NIL 光學塊、FOCI 組裝、AIXTRON MOCVD；光子供應鏈深度分析）
