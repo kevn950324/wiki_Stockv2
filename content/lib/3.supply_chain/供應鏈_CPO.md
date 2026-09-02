@@ -15,6 +15,8 @@ tags:
 
 > 以 **Nvidia CPO 生態**為主軸的供應鏈地圖（來源：SemiAnalysis CPO Book Part 5）。涵蓋光引擎、外部雷射源（ELS）、FAU、光纖 shuffle box、MPO 連接器、MT ferrule、晶圓代工／封測、E/O 測試。
 
+NVIDIA 2025-08-26 官方 Blog 進一步把平台拆成 Micro Ring Modulator、COUPE 光引擎、光纖／封裝／連接器與 ELS；Quantum-X 與 Spectrum-X 的公開規格可作為觀察 CPO 供應鏈由元件走向系統整合的基準，但合作夥伴的實際供應份額仍未由該文逐一揭露。
+
 ## 供應鏈結構圖
 
 ```mermaid
@@ -186,6 +188,7 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 - 對照供應鏈：[[供應鏈_先進封裝載板]]、[[供應鏈_AI伺服器PCB]]
 
 ## 來源
+- [[web_NVIDIA_CPO_industry_collaboration_20250826]] — NVIDIA Technical Blog，2025-08-26
 
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31
 

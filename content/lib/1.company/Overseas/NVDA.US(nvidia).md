@@ -31,6 +31,7 @@ related_companies:
   - "[[3711_日月光投控（市）]]"
   - "[[CBRS.US(cerebras)]]"
   - "[[2357_華碩（市）]]"
+  - "[[技術_CPO]]"
 ---
 
 # NVDA.US(nvidia)
@@ -57,6 +58,9 @@ NVIDIA（輝達），全球 AI GPU 龍頭。本次主題範圍內的角色是**�
 | Rubin 部分 CoWoS（外溢部分） | 同上 | [[AMKR.US(amkor)]] + 日月光（OSAT 外包） |
 
 ## 圖片 / 架構圖
+
+![[web_NVIDIA_CPO_20250826_001.webp]]
+*圖（NVIDIA Technical Blog，2025-08-26）：Quantum-X／Spectrum-X CPO 交換器的實體系統配置，對應光子引擎、光纖介面、液冷與 ELS 的整合。*
 
 ![[nvidia-800-vdc-industry-alignment-white-paper_001.png]]
 *圖（NVIDIA，2026-08-20）：800VDC 由 Power Rack、Power Center 到 DC Power Block 的三層部署選項，說明其由 AI 機櫃供應延伸至 cluster 與 data hall 的系統定位。*
@@ -103,12 +107,15 @@ flowchart LR
 | 2025 | 與 Google/AMD/Amazon 共占 TSMC CoWoS/HBM 90%/92% 產能 | 產能分配 | ⭐⭐⭐ | 國金引 Epoch AI 數據 |
 | 2026（Rubin 時程） | Rubin 部分 CoWoS 外包给 [[AMKR.US(amkor)]] 與日月光 | 供應鏈外溢 | ⭐⭐⭐ | TSMC CoWoS 產能不足首次公開信號 |
 | 2026-08-20 | 發布 800VDC Architecture: Industry Alignment & Execution 白皮書 | 技術路線 | ⭐⭐⭐ | Power Rack／Power Center／DC Power Block；系統級保護、認證與驗證框架，屬 roadmap／execution framework |
+| 2025-08-26 | 公開 Quantum-X／Spectrum-X CPO 平台與 ELS 架構 | 技術下線／驗證 | ⭐⭐⭐ | 官方 Blog；200Gbps PAM4、TSMC COUPE、Q3450 115.2Tbps 全雙工與模組化 ELS 數字為公司說法 |
 
 ## 供應鏈位置
 - **上游晶圓代工**：[[2330_台積電（市）]]（CoWoS 主代工）
 - **上游 ABF 載板**：[[3037_欣興（市）]]、[[8046_南電（市）]]、Ibiden（日）、Shinko（日）
 - **上游 OSAT（Rubin 外溢）**：[[AMKR.US(amkor)]]、日月光（3711.TW，未建頁）
 - **下游 AI 資料中心客戶**：Google、AMD、Amazon 等（與 NVIDIA 共同占用 CoWoS/HBM 產能）
+- **CPO 光互連合作生態**：[[2330_台積電（市）]] COUPE、光纖／封裝／連接器與 ELS 供應商共同構成 Quantum-X／Spectrum-X 平台；具體合作份額仍需供應鏈資料確認。
+- **所屬光互連供應鏈**：[[供應鏈_CPO]]
 - **所屬供應鏈**：[[供應鏈_先進封裝載板]]
 
 ## 相關公司
@@ -251,6 +258,7 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 - 相關觀察與 ELS-COS 架構假說詳見 [[分析_光通_CPO與ELS-COS_20260901]]；目前僅列為低信心 rumor／thesis。
 
 ## 來源
+- [[web_NVIDIA_CPO_industry_collaboration_20250826]] — NVIDIA Technical Blog，2025-08-26
 - [[報告_CTBC_NVIDIA_20260827]]（中信投顧，2026-08-27；2QFY27 營收、Rubin／Vera CPU 與供應鏈瓶頸）
 - [[報告_Daiwa_NVIDIA_2QFY27_20260827]]（大和，2026-08-27；法說摘要，供應鏈與 AI factory 需求）
 - [[20260709_0823_800VDC_UBS_20260707]]（UBS，2026-07-07；800VDC 三層部署選項與 AI 資料中心電力架構）

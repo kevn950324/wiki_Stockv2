@@ -37,6 +37,10 @@ aliases:
   - Spectrum-X Photonics
   - Pluggable CPO
   - CPX
+  - Micro Ring Modulator
+  - Quantum-X
+  - Spectrum-X Ethernet Photonics
+  - Q3450
 ---
 
 # 技術_CPO
@@ -57,6 +61,9 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 *圖（SemiAnalysis／NVIDIA，2026-08-10）：Portia expandable switch 的 NPO／CPO 配置差異；NPO 保留 socketed 模組，CPO 將 optical engine 固定於 switch ASIC 周邊。*
 
 ## 圖解
+
+![[web_NVIDIA_CPO_20250826_001.webp]]
+*圖（NVIDIA Technical Blog，2025-08-26）：Quantum-X／Spectrum-X CPO 交換器的系統實體配置，將交換器 ASIC、光子引擎、光纖介面、液冷與 ELS 放在同一平台脈絡中。*
 
 ![[web_semicon_taiwan_2026_siph_summit_20260831_02.png]]
 *圖（Simple Tech Trend，2026-08-31）：可插拔、NPO、CPO 與光學 I/O 的光引擎位置比較；電氣路徑縮短換取能效，但可維修性與封裝／測試難度同步上升。*
@@ -87,6 +94,8 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 *圖（SemiAnalysis，2026-01）：從 DSP-based transceiver 演進到 LPO 再到 CPO 的訊號鏈簡化。*
 
 **封裝整合：TSMC COUPE（Compact Universal Photonic Engine）成為主流選項。** PIC（含調變器、波導、光偵測器）用成熟的 N65 製程（光元件不靠微縮、大尺寸反而更好）；EIC（驅動器、TIA、控制邏輯）用先進的 N7。兩顆 die 以 TSMC SoIC 無凸塊混合鍵合，在 iso-power 下較凸塊整合提供逾 23 倍的頻寬密度。採 COUPE 等於綁定 TSMC 製造的 PIC（TSMC 不替其他晶圓廠的 SiPho 晶圓做封裝）。Nvidia、Broadcom、Ayar Labs 等都把 COUPE 納入路線。
+
+**NVIDIA 官方平台案例（2025-08-26）**：NVIDIA 表示其 Micro Ring Modulator 可對每一波長直接進行 200Gbps PAM4 調變；Quantum-X 每個光學子組件由 3 個 COUPE 光引擎組成，提供 4.8Tbps Tx 與 4.8Tbps Rx。Q3450 液冷系統以 4 顆 Quantum-X 晶片提供 115.2Tbps 全雙工、144 個 800Gbps 埠；Spectrum-X Ethernet Photonics 則在單一多晶片模組整合 32 個矽光子引擎，每引擎 3.2Tbps。上述為 NVIDIA 官方產品說法，仍需以實際量產與客戶部署驗證。
 
 **調變器三選一（MZM／MRM／EAM）**：
 - **MRM（微環）**：體積小、可直接做波長多工，但對溫度極敏感（約 70–90 pm/°C，2°C 漂移就可能讓共振失效），需加熱器穩定。Nvidia/TSMC 已能量產 200G MRM。
@@ -567,6 +576,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 資料來源：SemiAnalysis / Daiwa Research
 
 ## 來源
+- [[web_NVIDIA_CPO_industry_collaboration_20250826]] — NVIDIA Technical Blog，2025-08-26
 
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31
 
