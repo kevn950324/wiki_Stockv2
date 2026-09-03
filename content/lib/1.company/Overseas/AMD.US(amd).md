@@ -228,6 +228,7 @@ AMD 將 ROCm 升級為 **ROCm.AI**，整合 **Hyperloom AI 最佳化引擎**：
 
 ## 相關頁面
 
+- [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]
 - [[分析_2026Q3半導體供需與AI伺服器供應鏈]]
 - [[AMKR.US(amkor)]]
 - [[時程_2026記憶體與AI催化劑]]

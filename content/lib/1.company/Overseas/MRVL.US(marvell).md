@@ -57,7 +57,7 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 - **差異化：採 EAM（電吸收調變器）**——熱穩定佳（可容忍瞬間 35°C），適合放在高功率 XPU 下方的中介層；但需自行把 EAM 整合進晶圓廠，C-band 雷射生態較 O-band 不利。
 - 在光學端同時保有可插拔 transceiver / DSP / AEC 業務（June note 視為相對 CPO 量曝險較低的偏好標的）。
 
-## 2026-03-12 官方 1.6T 光學 DSP 平台更新
+### 2026-03-12 官方 1.6T 光學 DSP 平台更新
 
 - Marvell 宣布擴充 3nm 1.6T 光學 DSP 平台，Ara T、Ara X、Petra 與 Aquila M 分別對應 transmit-retimed optics、鏈路可靠性、8x100G↔4x200G gearbox，以及 O-band coherent-lite／MACsec 安全需求。
 - 公司表示 Ara 已向全球客戶大量出貨，Ara X、Ara T、Petra 與 Aquila M 自 2026Q1 起向客戶送樣；以上為公司官方產品與供貨說法，並不等同於特定客戶訂單或收入承諾。
@@ -133,6 +133,8 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 
 ## 相關頁面
 
+- [[分析_SEMICON_Taiwan_2026矽光子量產瓶頸]]
+- [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[6147_頎邦（櫃）]]
 - [[分析_頎邦矽光GoldBump與營運轉型2026]]
 - [[4979_華星光（櫃）]]

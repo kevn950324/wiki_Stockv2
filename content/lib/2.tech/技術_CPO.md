@@ -743,3 +743,8 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - ELS 與 COS 的封裝位置、雷射功率、熱耦合及可維修性，將影響 CPO／NPO 的系統取捨；Judge（聯鈞）的 COS 角色仍須以 design-in 與量產資料確認。
 
 來源：[[memo_富世達_Lumentum_Rubin_20260901]]；詳見 [[分析_富世達_Lumentum_Rubin_20260901]]。
+
+## 2026-08-18 NVIDIA CPO 量產訊號
+
+- [[報告_華鑫證券_AI算力與CPO及CCL_20260818]]（華鑫證券，2026-08-18）轉述 NVIDIA Spectrum-X 200G/lane CPO 乙太網路交換器進入全面量產，並稱相較傳統可插拔方案網路功耗效率提升約 5 倍；此為公司公告口徑，尚不等於所有供應商已取得訂單。
+- 該報告描述數百個矽光子引擎與交換晶片共封裝，支持 CPO 從技術驗證進入產品化觀察階段；後續仍需追蹤出貨規模、光引擎良率與測試設備導入。

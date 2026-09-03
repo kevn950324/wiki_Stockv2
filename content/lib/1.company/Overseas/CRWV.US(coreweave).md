@@ -52,6 +52,8 @@ CoreWeave 是提供 GPU 雲端與 AI 基礎設施的雲端服務商，核心成�
 - [[CoreWeave（CRWV US）0818]] — 券商研究，2026-08-18
 
 ## 相關頁面
+
+- [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]
 - [[供應鏈_AI伺服器PCB]]
 - [[供應鏈_AI光互聯]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]

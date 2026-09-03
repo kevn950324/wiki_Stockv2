@@ -252,7 +252,7 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 - FY2027Q2 法說逐字稿（2026-08-26）稱 Q3 營收指引約 $108bn，Vera Rubin 開始出貨；供應約為需求的 70%，FY2028 成長受供應限制。
 - AWS、OpenAI 與其他 AI 實驗室的採購／融資敘述為管理層與客戶說法，需與正式申報交叉驗證；來源：[[活動_NVIDIA_FY2027Q2法說_20260826]]。
 
-## 2026-09-01 CPO／ELS 待查證觀察
+### 2026-09-01 CPO／ELS 待查證觀察
 
 - 使用者轉述 NVIDIA 2026-08-21 新版 IB Switch System User Manual 提到一個 CPO 搭配 18 個 ELS，並將第一代 CPO InfiniBand scale-out switch 稱為 Q3450-LD；原始 manual 尚未收錄，不能視為 NVIDIA 正式規格。
 - 相關觀察與 ELS-COS 架構假說詳見 [[分析_光通_CPO與ELS-COS_20260901]]；目前僅列為低信心 rumor／thesis。
@@ -278,6 +278,8 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 - [[報告_美股專題_NVIDIA_GTC2026台廠評析_20260319]]（美股專題，GTC2026，2026-03-19）
 
 ## 相關頁面
+
+- [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]
 - [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
 
 - [[8121_越峰（市）]]
@@ -371,7 +373,7 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 - [[Nvidia in Talks to Back OpenAI Lease of $500 Billion]]（Bloomberg，2026-07-28）報導 NVIDIA 與 OpenAI 資料中心租賃／融資安排的討論；屬新聞 rumor，未視為已簽署合約或已確認訂單。
 
-## 2026-09-01 Rubin 平台分化觀察
+### 2026-09-01 Rubin 平台分化觀察
 
 - 使用者轉述 NVL72 TTM 資源集中，勝宏板子問題解決後 VR200 已進入 PVT，NVL72 的 L11 目標於 4Q 中出貨；這些節點仍待 NVIDIA 與供應鏈實際公告／出貨驗證。
 - NVL8 的 QS 被描述為大幅遞延，可能難以在 2026 年內形成量產；屬時程風險觀察。

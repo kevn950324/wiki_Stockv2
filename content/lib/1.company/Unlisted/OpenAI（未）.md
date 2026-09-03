@@ -53,4 +53,5 @@ OpenAI 為美國 AI 模型公司，開發並運營 ChatGPT、GPT-4o、o3 等大�
 
 ## 相關頁面
 
+- [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]
 - [[NBIS.US(nebius)]]
