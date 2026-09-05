@@ -744,6 +744,12 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 
 來源：[[memo_富世達_Lumentum_Rubin_20260901]]；詳見 [[分析_富世達_Lumentum_Rubin_20260901]]。
 
+## 2026-09-04 SEMICON 參展補充
+
+- [[SEMICON參展評析-260904]] 整理台積電於 CPO 論壇展示 COUPE 平台的 GC（Grating Coupler）與 EC（Edge Coupler）路線；這表示耦合器並非單一路線押注，實際量產仍需觀察良率與客戶導入。
+- 同份參展整理轉述台積電觀點：矽光子預計 2027 年供應占比有機會超過 50%，涵蓋 CPO、NPO 與可插拔光收發器；屬論壇／券商整理觀點，非公司財測。
+- 日月光投控展示 FOCoS-Bridge，並以 300 mm 晶圓與 310／600 mm panel 支援光通訊封裝；其 coupling loss 由目前約 0.5–1 dB 降至 0.3 dB 以下，是後續測試與封裝的關鍵指標。
+
 ## 2026-08-18 NVIDIA CPO 量產訊號
 
 - [[報告_華鑫證券_AI算力與CPO及CCL_20260818]]（華鑫證券，2026-08-18）轉述 NVIDIA Spectrum-X 200G/lane CPO 乙太網路交換器進入全面量產，並稱相較傳統可插拔方案網路功耗效率提升約 5 倍；此為公司公告口徑，尚不等於所有供應商已取得訂單。

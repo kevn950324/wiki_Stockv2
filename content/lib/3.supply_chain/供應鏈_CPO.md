@@ -208,6 +208,7 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 - [[報告_GoldmanSachs_旺矽6223_20260727]]（Goldman Sachs，旺矽 MEMS 擴產與 CPO 展望，2026-07-27）
 - [[報告_MorganStanley_測試耗材_旺矽6223_穎崴6515_20260804]]（Morgan Stanley，CPO insertion 測試進度，2026-08-04）
 - [[光測試期中產業報告]]（SRS，Insertion 1-4 流程、設備廠商、萬潤/致茂/旺矽/汎銓台廠布局，2026-07-01）
+- [[SEMICON參展評析-260904]]（中信投顧，2026-09-04；TSMC COUPE GC/EC、ASEH FOCoS-Bridge 與 CPO 測試瓶頸）
 
 ## 本次 ingest 更新
 
