@@ -195,6 +195,11 @@ PCB 壓合後通孔（Through-hole Via）貫穿全板，但訊號往往只在特
 - [[memo_PCB多層板製程_20260524]]（多層板製程全流程、Stub Effect 原理、背鑽製程說明）
 - [[memo_大量科技背鑽CCD_TM4_20260524]]（CCD 背鑽機需求、TM4 量測、大量科技競爭地位）
 
+## 2026-08-24 Rubin／TPU 材料觀察
+
+- [[研究_半導體AI供應鏈_20260824]] 轉述：AWS T4 compute board 可能為 6+ HDI、34 層，CCL 偏 M9／M8.5；TPU V9 可能為 6+ HDI、24 層，CCL 偏 M9／M8.5。這些是研究筆記估計，並非正式平台規格。
+- 同來源認為 Rubin compute board 仍較可能使用 M10+Q-glass，PTFE 若導入可能先落在較小的 IO board；台虹與生益的認證／供應關係仍需以 WUS、板廠與客戶資料確認。
+
 ## 相關頁面
 
 - [[技術_矽微粉]]
