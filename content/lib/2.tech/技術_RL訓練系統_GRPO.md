@@ -4,7 +4,7 @@ tags:
   - 技術/RL訓練
   - 技術/GRPO
   - 產業/AI
-updated: 2026-08-12
+updated: 2026-09-05
 aliases:
   - GRPO
   - PipelineRL
@@ -12,7 +12,14 @@ aliases:
   - RL Training Infrastructure
   - Async RL
   - 非同步強化學習
+  - Slime
+  - Slime framework
+  - asynchronous rollout
+  - self-verifying coding reward
 image_status: 有來源圖
+related_companies:
+  - "[[2513.HK(z.ai)]]"
+  - "[[Anthropic（未）]]"
 ---
 
 # 技術_RL訓練系統_GRPO
@@ -98,6 +105,11 @@ RL 訓練系統三 Actor 架構：Generator（藍）→ RL Env（綠）→ Train
 - 推理模型（Claude Opus 4.8：SWE-bench Pro 69.2%，RL 為主要推動力）
 - Agentic 系統訓練
 
+## 中國模型公司實作更新（2026-09）
+
+- [[2513.HK(z.ai)]] 表示 GLM coding／agent 的 post-training 使用超過 10,000 個真實軟體工程環境，透過編譯與測試產生較客觀、可擴張的 reward signal；其 Slime asynchronous RL 將 generation 與 training 解耦，以降低 long-horizon agent 工作負載的 GPU 閒置。來源：[[報告_Daiwa_中國基礎模型產業啟動覆蓋_20260811]]（2026-08-11）。
+- 是否能把 benchmark 改善轉成 API 留存與定價，仍需搭配 [[技術_大模型推理經濟學]] 的每任務成本、token 用量與毛利指標驗證。
+
 ## 相關公司
 
 | 公司 | 角色 | 說明 |
@@ -109,3 +121,5 @@ RL 訓練系統三 Actor 架構：Generator（藍）→ RL Env（綠）→ Train
 
 ## 來源
 - 報告_SemiAnalysis_RL_Systems_Mind_The_Gap_20260616 — SemiAnalysis（Kimbo Chen, Cheang Kang Wen, Dylan Patel），2026-06-16
+- [[報告_Daiwa_中國基礎模型產業啟動覆蓋_20260811]] — Daiwa，2026-08-11
+- [[報告_JPM_GLM5.3與DeepSeek重新定價_20260816]] — J.P. Morgan，2026-08-16

@@ -4,7 +4,7 @@ tags:
   - 技術/GPU推理
   - 技術/LLM推理
   - 環節/AI推理
-updated: 2026-08-15
+updated: 2026-09-05
 aliases:
   - TileRT
   - TileRT Engine
@@ -12,6 +12,8 @@ aliases:
   - 持久核推理引擎
 related_companies:
   - "[[NVDA.US(nvidia)]]"
+  - "[[1810.HK(xiaomi)]]"
+  - "[[2513.HK(z.ai)]]"
 image_status: "有來源圖"
 ---
 
@@ -96,9 +98,13 @@ SemiAnalysis 結論：TileRT 重新定義大多數買家的需求——不再是
 
 ## 生產部署
 
-- **Xiaomi**：MiMo V2.5 Pro UltraSpeed（2026）
-- **Z.ai**：GLM5.1 HighSpeed（2026）
+- **[[1810.HK(xiaomi)]]**：MiMo V2.5 Pro UltraSpeed（2026）
+- **[[2513.HK(z.ai)]]**：GLM5.1 HighSpeed（2026）
 
 ## 來源
 
 - [[報告_SemiAnalysis_TileRT_InferenceX_20260809]] — SemiAnalysis，2026-08-09
+
+## 相關頁面
+
+- [[技術_大模型推理經濟學]]

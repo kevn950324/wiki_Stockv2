@@ -95,3 +95,7 @@ flowchart LR
 ## 相關頁面
 
 - [[時程_2026記憶體與AI催化劑]]
+
+## 2026-08-25 類比半導體產業回顧
+
+[[20260902_0842_4_Global_Technology_Analog_Recap_Margins_Overshadow_Data_Center]]（Morgan Stanley，2026-08-25）指出，ON Semiconductor 的 AI 資料中心電源半導體訂單能見度延伸至 2027–2028，2026 年相關銷售預期超過 2025 年 US$250m 且有望翻倍；此為券商整理與估計，仍需以公司法說及財報驗證。

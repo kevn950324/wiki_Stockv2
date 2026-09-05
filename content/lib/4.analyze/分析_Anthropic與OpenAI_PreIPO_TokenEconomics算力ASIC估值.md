@@ -68,13 +68,13 @@ Anthropic 與 OpenAI 的私募估值已接近兆美元，但兩者仍缺乏完�
 
 ## 關鍵 Claim
 
-| Claim | 類型 | 來源 | 日期 | 信心 |
-|---|---|---|---|---|
-| Anthropic Series H post-money valuation 為 $965B | fact | Anthropic Series H 官方公告 | 2026-05-28 | 高 |
-| OpenAI 最新公司公告 post-money valuation 為 $852B | fact | OpenAI funding 官方公告 | 2026-03-31 | 高 |
-| OpenAI 2025 推算 gross margin 約 42.6% | inference | FT 核驗之外洩 audited figures | 2025 | 中 |
-| Anthropic 2Q26 adjusted operating income 為正 | estimate | Bloomberg 見內部文件 | 2026Q2 | 中 |
-| SpaceX 向 Anthropic 提供 $26B/year compute | rumor | [[20260709_0823_Anthropic_3Q26_Profit_Over_$1B_The_Anthropic_IPO_Financials_Sneak]]；官方未披露 | 2026 | 低 |
+| Claim                                           | 類型        | 來源                                                                                        | 日期         | 信心  |
+| ----------------------------------------------- | --------- | ----------------------------------------------------------------------------------------- | ---------- | --- |
+| Anthropic Series H post-money valuation 為 $965B | fact      | Anthropic Series H 官方公告                                                                   | 2026-05-28 | 高   |
+| OpenAI 最新公司公告 post-money valuation 為 $852B      | fact      | OpenAI funding 官方公告                                                                       | 2026-03-31 | 高   |
+| OpenAI 2025 推算 gross margin 約 42.6%             | inference | FT 核驗之外洩 audited figures                                                                  | 2025       | 中   |
+| Anthropic 2Q26 adjusted operating income 為正     | estimate  | Bloomberg 見內部文件                                                                           | 2026Q2     | 中   |
+| SpaceX 向 Anthropic 提供 $26B/year compute         | rumor     | [[20260709_0823_Anthropic_3Q26_Profit_Over_$1B_The_Anthropic_IPO_Financials_Sneak]]；官方未披露 | 2026       | 低   |
 
 > [!todo] 反證條件／待確認
 > - [ ] S-1 顯示 Anthropic GAAP gross margin 明顯低於 50%，且 adjusted profit 主要靠排除 SBC／訓練成本。
