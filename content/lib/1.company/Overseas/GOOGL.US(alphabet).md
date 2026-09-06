@@ -200,6 +200,8 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 ## 相關頁面
 
 - [[分析_生成式AI商業化與TokenFinOps_20260906]]
+- [[分析_Gartner生成式AI模型市場與Token效率_20260906]]
+- [[分析_Gartner生成式AI模型市場與Token效率_20260906]]
 - [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
 
 - [[供應鏈_AI光互聯]]

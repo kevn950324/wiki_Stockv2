@@ -74,5 +74,7 @@ Microsoft 以 Azure、Microsoft 365、Copilot、Windows、企業資安與開發�
 ## 相關頁面
 
 - [[分析_生成式AI商業化與TokenFinOps_20260906]]
+- [[分析_Gartner生成式AI模型市場與Token效率_20260906]]
+- [[分析_Gartner生成式AI模型市場與Token效率_20260906]]
 
 - [[2480_敦陽科（市）]]

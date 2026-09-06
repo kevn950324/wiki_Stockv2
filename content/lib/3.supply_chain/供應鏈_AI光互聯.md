@@ -280,3 +280,7 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 | NPO／CPO／ELS | [[LITE.US(lumentum)]]、[[NVDA.US(nvidia)]] | NPO 客戶興趣較廣，CPO 基準為 2H27 出貨／2028 部署；ELS 首張訂單與超高功率雷射出貨仍屬展望 | 中 |
 
 來源：[[2026-08-11-LITE.OQ-Jefferies-Delivering on Multiple Growth Vectors, NPO a New Leg to Scal...-123789110]]、[[2026-08-11-LITE.OQ-TD Cowen-Continued Strong Execution, But Cycle Questions Linger-123788973]]、[[2026-08-12-LITE.OQ-Barclays-Lumentum Holdings Inc. Several Moving Pieces, All in Right ...-123789088]]、[[2026-08-12-LITE.OQ-BNP Paribas-LUMENTUM HOLDINGS (+)  Lighting The Way-123789795]]、[[2026-08-12-LITE.OQ-JPMorgan-Lumentum F4Q26 Review Executing Ahead of Plan With Incremen...-123791452]]。
+
+## 2026-09-06 貿聯法說補充
+
+[[3665_貿聯-KY（市）]] 在 2026-08-21 法說將光纖組件／線束、XFS 與光學連接列為 AI 基礎設施內容升級方向，並強調銅與光互連依部署條件共存。此為公司策略說法，尚不等同特定客戶新增訂單；後續應追蹤光互連出貨與毛利率。來源：[[活動_貿聯-KY_2026Q2法說_20260821]]。

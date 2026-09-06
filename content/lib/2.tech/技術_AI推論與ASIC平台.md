@@ -60,4 +60,5 @@ flowchart LR
 
 - [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]
 - [[分析_2026-08_AI網通與硬體報告更新]]
+- [[分析_Gartner生成式AI模型市場與Token效率_20260906]]
 - [[報告_DIGITIMES_AI運算架構與演進趨勢_20260822]] — DIGITIMES／MediaTek 講座，2026-08-20
