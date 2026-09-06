@@ -160,6 +160,10 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 ## 相關頁面
 
 - [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]
+- [[分析_生成式AI商業化與TokenFinOps_20260906]]
+- [[AI_Vendor_Race_Cons_854892_ndx]]
+- [[AI_Coding_Agent_Buyi_856492_ndx]]
+- [[Avoid_AI_Budget_Blow_846413_ndx]]
 - [[SPCX.US(spacex)]]
 - [[技術_RL訓練系統_GRPO]]
 - AMZN.US(amazon)（Amazon $4B 戰略投資者）

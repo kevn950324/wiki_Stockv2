@@ -73,4 +73,6 @@ Microsoft 以 Azure、Microsoft 365、Copilot、Windows、企業資安與開發�
 
 ## 相關頁面
 
+- [[分析_生成式AI商業化與TokenFinOps_20260906]]
+
 - [[2480_敦陽科（市）]]
