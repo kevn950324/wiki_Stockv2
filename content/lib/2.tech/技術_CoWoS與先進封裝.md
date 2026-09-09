@@ -15,6 +15,15 @@ aliases:
   - CoWoS-S
   - CoWoS-R
   - CoWoS-L
+  - CoWoS-L TSV
+  - LSI TSV
+  - TSV
+  - Through-Silicon Via
+  - 矽穿孔
+  - TIV
+  - Through-Insulator Via
+  - 穿絕緣體通孔
+  - TSV深寬比
   - SoIC
   - CoPoS
   - HBM4
@@ -46,7 +55,7 @@ aliases:
   - RL
   - Laser Release Layer
   - 鐳射離型層
-updated: 2026-08-22
+updated: 2026-09-09
 ---
 
 # 技術_CoWoS與先進封裝
@@ -77,6 +86,20 @@ CoWoS（Chip-on-Wafer-on-Substrate）是 TSMC 的旗艦 2.5D 先進封裝平台�
 | CoWoS-S | 矽（Silicon Interposer） | 最成熟，高密度 TSV 互連；最大 3.3× reticle | A100、H100、H200 世代；AMD MI300（2025延至 CoWoS-L）|
 | CoWoS-R | RDL（Redistribution Layer） | 低成本替代（降 20-30% vs S）；無矽橋；100% 外包 OSAT | NVIDIA Vera CPU（2025 Q4 小量）；Qualcomm、Xilinx chiplet |
 | CoWoS-L | 局部矽橋（Silicon Bridge + RDL）| 可達 4× reticle → 目標 9×；B200 只需 10 個 silicon bridge（1,000 mm² vs 4,900 mm² for S）| GB300、Rubin Ultra；Google TPU 主力 |
+
+### CoWoS-L 的 TSV、TIV 與深寬比
+
+CoWoS-L 不是「完全無 TSV」。TSMC ECTC 2023 論文顯示，其 LSI-1 與 LSI-2 局部矽基互連晶片均保留 TSV 與 M1 結構；但重組中介層（Reconstituted Interposer, RI）的大範圍垂直訊號與供電路徑，主要由穿過模封絕緣材料的 TIV（Through-Insulator Via）承擔。因此，討論「CoWoS-L TSV 深寬比」時，應限定為 **LSI 矽晶片內的 TSV**，不可直接套用到 TIV，也不是 HBM 堆疊內的 TSV。
+
+| 參數 | 目前可用口徑 | 判讀與信心 |
+|------|--------------|------------|
+| LSI TSV 孔徑 | 約 **3–5 µm** | [[memo_日月光_CoWoS_CPO_專家會議_20260520]] 對 CoWoS 應用的專家口徑；非 TSMC 公開量產規格，信心：中 |
+| TSV 深寬比（深度／孔徑） | 約 **10:1–20:1**；建模中心值可取 **15:1** | 原始紀錄寫作「1:10 或 1:20」，本頁依業界常用的深度／孔徑順序標準化；estimate，信心：中 |
+| 對應幾何深度 | 約 **30–100 µm** | 由 3–5 µm 孔徑與 10:1–20:1 的兩端值換算，只用於尺度合理性檢查，inference，信心：中低 |
+| TSMC 公開量產深寬比 | **未揭露** | TSMC 官方頁面與 ECTC 2023 論文確認 LSI TSV／RI TIV 結構，但未提供量產版 TSV 孔深與孔徑組合 |
+
+> [!note] 使用建議
+> 供應鏈或設備模型可先用 **15:1** 作基準，並用 **10:1–20:1** 做敏感度區間；若要估算單一產品的蝕刻時間、ALD 覆蓋或填銅 throughput，仍需客戶 recipe 或橫截面量測值。
 
 ### CoWoS-S vs CoWoS-L 成本比較
 
@@ -463,6 +486,9 @@ CoWoS 是近年 NVIDIA 出貨最主要的產能限制：
 
 ## 來源
 
+- [[memo_日月光_CoWoS_CPO_專家會議_20260520]] — 日月光／矽品供應鏈專家會議，2026-05-20；CoWoS TSV 孔徑 3–5 µm、深寬比約 10:1–20:1，屬專家估計、信心中
+- [TSMC CoWoS® 官方技術頁](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm) — TSMC，2026-09-09 擷取；CoWoS-L 的 RDL-based interposer、嵌入式 LSI 與 eDTC 官方定義
+- [CoWoS Architecture Evolution for Next Generation HPC on 2.5D System in Package](https://doi.org/10.1109/ECTC51909.2023.00174) — TSMC，IEEE ECTC 2023；LSI-1／LSI-2 保留 TSV，RI 使用 TIV 作垂直互連
 - [[報告_DIGITIMES_AI扇出型面板級封裝_20260822]] — DIGITIMES，下載日 2026-08-21；FOPLP 面積效率、RDL、翹曲與 TGV 瓶頸
 - [[報告_先進封裝技術發展方向_20260722]]（定錨産業筆記，2026-07-22；CoPoS 台股映射表、WMCM産能爬坡、EMIB-T ECTC 2026、JPM SBR 07-21 執行風險）
 - [[報告_IMAPS_JohnLau_2.3D整合FOCoS綜述_20230501]] — IMAPSource Proceedings（John H. Lau，Unimicron），2023-05-01；2.3D 整合定義、FOCoS chip-first/chip-last 製程與各家（STATSChipPac/MediaTek/TSMC InFO/Amkor SWIFT/Samsung/SPIL/Shinko/Unimicron）2.3D 方案
