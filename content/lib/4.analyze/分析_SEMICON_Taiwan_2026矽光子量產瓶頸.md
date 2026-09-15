@@ -1,9 +1,10 @@
 ---
 title: "分析_SEMICON Taiwan 2026 矽光子量產瓶頸"
 query_date: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-15
 sources:
   - "[[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]]"
+  - "[[報告_MorganStanley_台灣半導體_20260906]]"
 tags:
   - 技術/CPO
   - 技術/矽光子
@@ -33,6 +34,7 @@ related_topics:
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — TSMC COUPE 路線圖列出 2026 年 3.2 Tb/s、約 2027 年 6.4 Tb/s，後續由通道速率／數量或 WDM 波長數擴張（2026-08-31）。
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — 聯電將 400G/lane 視為材料題；TFLN、InP、BTO、有機聚合物與電漿子仍是候選路線（2026-08-31）。
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — ficonTEC、Advantest、Onto 與光焱科技的議程顯示測試、量測與良率學習占據量產核心位置（2026-08-31）。
+- [[報告_MorganStanley_台灣半導體_20260906]] — 現場供應商仍在 major customer qualification，CPO 測試規格未完全定義；光學對位速度與精度是吞吐量限制（2026-09-06）。
 
 ## 投資重點 memo
 
@@ -41,6 +43,7 @@ related_topics:
 | 架構由競爭轉為共存 | 不宜把 CPO 放量解讀成可插拔立即消失；不同場景將分流供應鏈 | [[供應鏈_CPO]]、[[MRVL.US(marvell)]] | 中 |
 | 400G/lane 材料升級 | 材料與異質整合的驗證週期可能比單純 SerDes 設計更決定量產速度 | [[2303_聯電（市）]]、[[LITE.US(lumentum)]] | 中 |
 | 測試與良率成為防火牆 | 測試插入點越早，越能避免高價值模組在後段失效；設備與量測商的黏著度上升 | [[6857.JP(advantest)]]、[[3711_日月光投控（市）]] | 中 |
+| 對位吞吐量尚未標準化 | 應優先追蹤 customer qualification、alignment precision 與單位時間測試量，而非僅追蹤展會 demo | [[6223_旺矽（櫃）]]、[[3711_日月光投控（市）]] | 中 |
 | 台灣整合生態系受惠 | 封裝、對準、測試與材料協作是台灣相對完整的切入點 | [[2330_台積電（市）]]、[[3711_日月光投控（市）]] | 中 |
 
 ## 論點彙整
@@ -78,6 +81,7 @@ related_topics:
 | CPO 從 3.2T 世代開始轉換 | company_comment／estimate | [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] | 2026-08-31 | 中 |
 | 400G/lane 的主要瓶頸轉向材料 | thesis | [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] | 2026-08-31 | 中 |
 | 測試與良率是量產主要瓶頸 | thesis | [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] | 2026-08-31 | 中 |
+| CPO 測試規格尚未完全定義，光學對位速度與精度限制吞吐量 | channel_check／thesis | [[報告_MorganStanley_台灣半導體_20260906]] | 2026-09-06 | 中 |
 
 > [!todo] 反證條件／待確認事項
 > - [ ] 追蹤 2026H2–2027 是否出現公開光引擎量產良率、失效分布或 HVM 數據。
@@ -87,3 +91,4 @@ related_topics:
 ## 來源引用
 
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31
+- [[報告_MorganStanley_台灣半導體_20260906]] — 摩根士丹利，2026-09-06

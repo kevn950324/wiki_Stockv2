@@ -21,7 +21,7 @@ related_companies:
   - "[[NVDA.US(nvidia)]]"
   - "[[AMD.US(amd)]]"
   - "[[2330_台積電（市）]]"
-  - "ASML.NL(asml)"
+  - "[[ASML.NL(asml)]]"
   - "[[005930.KR(samsung)]]"
   - "[[000660.KR(sk_hynix)]]"
   - "[[285A.JP(kioxia)]]"
@@ -136,7 +136,7 @@ flowchart LR
 
 - AI 加速器客戶：[[NVDA.US(nvidia)]]（HBM4 主供）、[[AMD.US(amd)]]
 - 晶圓代工：自有 IDM 製程（Boise, Idaho；台灣桐廬；新加坡）
-- 上游設備：ASML.NL(asml)（多年期 EUV 供應協議，支持 One Delta 節點）
+- 上游設備：[[ASML.NL(asml)]]（多年期 EUV 供應協議，支持 One Delta 節點）
 
 ## 相關公司
 
@@ -145,7 +145,7 @@ flowchart LR
 | [[NVDA.US(nvidia)]] | 主要客戶 | HBM4 for Vera Rubin GPU 系統 |
 | [[AMD.US(amd)]] | 客戶 | HBM for Instinct |
 | [[2330_台積電（市）]] | 無直接製造關係 | Micron 為自有 IDM；TSMC 為競品客戶代工 |
-| ASML.NL(asml) | 上游設備 | 多年期 EUV 供應協議（One Delta 節點） |
+| [[ASML.NL(asml)]] | 上游設備 | 多年期 EUV 供應協議（One Delta 節點） |
 
 > [!warning] 風險與注意事項
 > - **週期性**：SCA 提供底價保護，但 NAND/DRAM 長期供需在 2028 後仍不確定；一旦供應追上需求，毛利率壓縮風險顯著
