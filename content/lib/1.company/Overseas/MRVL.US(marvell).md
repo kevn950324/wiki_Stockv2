@@ -11,7 +11,7 @@ tags:
   - 技術/矽光子
   - 環節/光纖與光通訊
   - 環節/光纖與光通訊
- updated: 2026-09-02
+ updated: 2026-09-15
 aliases:
   - Marvell
   - 邁威爾
@@ -129,6 +129,7 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（Polariton 收購；調變器路線多元化 Si/TFLN/plasmonics/EML 四線並進，2026-06-29）
 - [[Semiconductors 260615 MS public company bus tour ALAB MRVL INTC]]（MS bus tour，2026-06-15）
 - [[報告_GFHK_Marvell_20260828]]（GF Securities，2026-08-28；F2Q、custom ASIC、800G／1.6T、CPO／NPO 與 FY27/FY28E 展望）
+- [[報告_中信投顧_Marvell_20260901]]（中國信託投顧，2026-09-01；FY2Q27、FY27／FY28 展望與 800G／1.6T 光互連）
 - [[web_Marvell_1.6T光學DSP_20260312]]（Marvell 官方新聞稿，2026-03-12；Ara T／Ara X／Petra／Aquila M 與端到端互連平台）
 
 ## 相關頁面
@@ -167,6 +168,16 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 |---|---:|---|
 | FY27E | US$4.41 | 較前次 +7%，custom silicon／connectivity 成長 |
 | FY28E | US$7.96 | 較前次 +3%，1.6T、51.2T switch 與 scale-up optics |
+
+## 中信投顧 2026-09-01 更新
+
+- FY2Q27 營收 US$2.739bn（年增 37%）、資料中心營收 US$2.13bn（年增 43%）、non-GAAP EPS US$0.94；FY3Q27 營收指引中值 US$3.166bn、EPS US$1.11，均略高於市場共識，但毛利率 58.0% 指引低於共識。
+- 公司將 FY27／FY28 營收展望再上修至 US$12bn／18bn；中信將 FY27E／FY28E EPS 調為 US$4.21／6.85，維持買進與 US$275 目標價（FY28E 40 倍 PER）。上述均為券商 estimate，與 GFHK 的 US$290 目標價與 EPS 估計並列，不合併為單一真值。
+- 光互連仍是本次上修主因：Celestial AI 的 NPO、CPO、DSP 與 800G／1.6T 光模組預期在 FY28 持續貢獻；Google 合作的 ASIC 認列細節未新增，仍須追蹤客製矽專案落地。
+
+| 券商 | 報告發布日 | 評等 | 目標價 | 評價基礎 | 來源 |
+|---|---|---|---:|---|---|
+| 中國信託投顧 | 2026-09-01 | Buy | US$275 | 40x FY28E EPS | [[報告_中信投顧_Marvell_20260901]] |
 
 ## 廣發香港 2026-07-17 更新
 

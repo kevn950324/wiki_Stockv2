@@ -284,3 +284,5 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 ## 2026-09-06 貿聯法說補充
 
 [[3665_貿聯-KY（市）]] 在 2026-08-21 法說將光纖組件／線束、XFS 與光學連接列為 AI 基礎設施內容升級方向，並強調銅與光互連依部署條件共存。此為公司策略說法，尚不等同特定客戶新增訂單；後續應追蹤光互連出貨與毛利率。來源：[[活動_貿聯-KY_2026Q2法說_20260821]]。
+
+Semtech（[[SMTC.US(semtech)]]）以 AEC SerDes、1.6T CopperEdge／FiberEdge TIA 與 LPO／NPO design win 參與此供應鏈；其 FY2Q27 量產出貨與供給瓶頸詳見 [[報告_GoldmanSachs_Semtech_20260827]]（2026-08-28）。

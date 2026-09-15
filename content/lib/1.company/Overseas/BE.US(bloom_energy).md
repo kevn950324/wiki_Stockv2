@@ -10,7 +10,7 @@ tags:
   - 產業/資料中心電力
   - 產業/潔淨能源
   - 環節/電力設備
-updated: 2026-07-11
+updated: 2026-09-15
 aliases:
   - Bloom Energy
   - BE
@@ -72,13 +72,20 @@ BE 為 SOFC 整機製造商，台灣供應鏈以高力（Kaori）為核心 SOFC 
 |---------|--------|------|--------|------|------|
 | 買方研究員 | 2026-06-01 | US 首選 Top Pick | — | "Power [Delta (2308 TT), BE]" | [[memo_AI半導體_top_picks_UMC_ABF_MLCC_ASIC_20260601]] |
 | 買方研究員 | 2026-06-15 | US Top Pick | — | "US stock top pick should be BE" | [[memo_AI半導體_top_picks_UMC_Kaori_ABF_Yageo_Delta_20260615]] |
+| 中國信託投顧 | 2026-09-11 | Overweight | US$294.60 | 13x FY2027E P/S | [[報告_中信投顧_BloomEnergy_20260911]] |
+
+## 2026Q2 財報與資金更新
+
+- 2Q26 營收 US$1.065bn（季增 42%、年增 166%），產品收入 US$0.94bn，SOFC 出貨帶動單季營收創高；整體毛利率 34.3%、產品業務毛利率 36.5%、EPS US$0.78，均優於中信與市場預期。
+- 公司 2026 年指引上修至營收 US$3.9–4.2bn、SOFC 出貨 1.14–1.25GW、non-GAAP 營業利益 US$0.8–0.9bn、EPS US$2.55–2.80；屬公司指引，仍須由後續專案落地與出貨驗證。
+- Brookfield 將融資架構承諾擴大至 US$25bn，IDF／Oaktree／MUFG／Morgan Stanley 等機構累計提供 US$2.6bn。第三方融資有助降低終端客戶的前期資本支出，但也提高公司對融資可得性與專案執行的敏感度。
 
 ## 時間軸
 
 | 時間 | 事件 | 類型 | 重要性 | 備註 |
 |------|------|------|--------|------|
 | 2026-06末 | 納入 Russell 1000 指數 | 指數化 | ⭐⭐⭐ | 被動資金流入催化劑 |
-| 2026 下半（預期） | 上調 SOFC 出貨指引 | 基本面催化劑 | ⭐⭐⭐ | 管理層計畫於下次財報電話宣布 |
+| 2026-09-11 | 2Q26 超預期、全年 SOFC 出貨指引上修至 1.14–1.25GW | 基本面催化劑 | ⭐⭐⭐ | 公司指引；訂單與融資轉實際出貨仍待驗證 |
 | 2026-27 | Delta SOFC 訂單向 Kaori 採購開始 | 供應鏈影響 | ⭐⭐ | 擴大 SOFC 生態系 |
 | 2026-04 | Oracle/STACK New Mexico 替換氣機申請 → 改採 Bloom 燃料電池 | 合約 | ⭐⭐⭐ | FERC Section 7 阻擋氣體管線後的替代方案；Bloom 申請 37 tpy NOx |
 
@@ -106,8 +113,10 @@ BE 為 SOFC 整機製造商，台灣供應鏈以高力（Kaori）為核心 SOFC 
 - [[memo_AI半導體_top_picks_UMC_ABF_MLCC_ASIC_20260601]]（2026-06-01）
 - [[memo_AI半導體_top_picks_UMC_Kaori_ABF_Yageo_Delta_20260615]]（2026-06-15）
 - [[memo_AI半導體_top_picks_update_UMC_Kaori_ABF_20260615v2]]（2026-06-15）
+- [[報告_中信投顧_BloomEnergy_20260911]]（中國信託投顧，2026-09-11；2Q26 財報、全年指引與第三方融資）
 
 ## 相關頁面
 
 - [[分析_美國資料中心產能延誤澄清]]
 - [[分析_美國電網BTM資料中心]]
+- [[時程_2026能源與AI電力設備]]
