@@ -14,7 +14,7 @@ tags:
   - 主題/Gemini
   - 主題/Waymo
   - 環節/雲端服務
-updated: 2026-08-18
+updated: 2026-09-15
 aliases:
   - Google
   - Alphabet
@@ -26,6 +26,7 @@ related_companies:
   - "[[META.US(meta)]]"
   - "[[3711_日月光投控（市）]]"
   - "[[2360_致茂（市）]]"
+  - "[[2454_聯發科（市）]]"
 ---
 
 # GOOGL.US(alphabet)
@@ -159,6 +160,7 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 | 持續 | 外部 TPU 貨幣化細節 | 業務拓展 | ⭐⭐⭐ | 對標 AWS Trainium / NVDA |
 | 2026H2 | capex 較 1H26 約增 50% | 擴產 | ⭐⭐⭐ | 全年指引 US$195–205bn；J.P. Morgan estimate |
 | 2026 年底起 | 外部 TPU 系統收入加速 | 放量 | ⭐⭐⭐ | 2Q26 已開始交付；多數既有協議收入預計 2027 年認列 |
+| 2026-08-31 | 參與聯發科 US$3.9bn 海外可轉債發行 | 策略投資／供應鏈 | ⭐⭐⭐ | 參與為 fact；Alphabet 個別投資金額未於本次來源單獨揭露 |
 
 ---
 
@@ -169,6 +171,7 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 - **Anthropic**：Alphabet 為 Anthropic 最大投資方之一，間接持有模型技術護城河
 - **AI 生態**：Vertex AI / Gemini API 為企業 AI 基礎設施，與 AWS Bedrock / Azure OpenAI 直接競爭
 - **J.P. Morgan 供應鏈受惠籃子**：[[2317_鴻海（市）]]、[[2383_台光電（市）]]、[[3037_欣興（市）]]、[[5274_信驊（市）]]、[[2308_台達電（市）]]、[[2356_英業達（市）]]；屬券商受惠判斷，不等同 Google 已確認供應商名單。
+- **TPU／ASIC 合作與策略投資**：[[2454_聯發科（市）]] 為 Google TPU 客製設計合作方；Alphabet 於 2026-08-31 參與其 US$3.9bn 海外 CB，顯示合作由專案延伸至資本關係，但個別投資規模未揭露。
 
 ## 相關公司
 
@@ -180,6 +183,7 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 | Anthropic（未建頁）| 持股 + 合作 | GOOGL 最大外部投資方之一；Anthropic 估值 $965B（2Q26）|
 | [[3711_日月光投控（市）]] | 先進封裝／測試供應商 | Google TPU 與其他 AI ASIC 的 ASE LEAP 外包比例為券商 estimate，仍待公司與供應鏈驗證 |
 | [[2360_致茂（市）]] | 測試設備供應商 | Aletheia 指出 Google Axion CPU 採用致茂 SLT 系統的可能性，屬券商 estimate |
+| [[2454_聯發科（市）]] | TPU 客製設計／策略投資 | Google TPU 合作方；Alphabet 參與聯發科 US$3.9bn 海外 CB |
 
 > [!warning] 主要下行風險
 > 1. **估值偏高**：vs 歷史估值偏高（BofA 提及）
@@ -193,12 +197,15 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 
 ## 來源
 
+- [[報告_MorganStanley_聯發科_20260831]]（Morgan Stanley，2026-08-31；Alphabet 參與聯發科 CB 與 TPU 關係）
 - [[報告_BofA_Google_2Q26Preview_20260716]]（BofA，2026-07-16；Buy PO $430、2Q26 預估、Anthropic 重估、Cloud +70%、capex 分析）
 - [[報告_BNP_Google_2Q26Preview_20260709]]（BNP Paribas，2026-07-09；O/P TP $420、GCP backlog、Gemini 市占、Waymo、資本結構）
 - [[報告_JPMorgan_Google2Q26伺服器供應鏈_20260723]]（J.P. Morgan，2026-07-23；2Q26 Cloud／backlog、US$195–205bn capex、外部 TPU 與亞洲伺服器供應鏈）
 
 ## 相關頁面
 
+- [[技術_AI推論與ASIC平台]]
+- [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[分析_生成式AI商業化與TokenFinOps_20260906]]
 - [[分析_Gartner生成式AI模型市場與Token效率_20260906]]
 - [[分析_Gartner生成式AI模型市場與Token效率_20260906]]

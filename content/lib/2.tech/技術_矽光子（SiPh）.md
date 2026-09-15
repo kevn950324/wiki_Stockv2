@@ -6,7 +6,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光電晶片
 maturity: developing
- updated: 2026-09-02
+updated: 2026-09-15
 aliases:
   - SiPh
   - Silicon Photonics
@@ -17,6 +17,11 @@ aliases:
   - 光子積體電路
   - Fotonix
   - COUPE
+  - WDM
+  - Wavelength Division Multiplexing
+  - Grating Coupler
+  - Edge Coupler
+  - Wafer-level Photonics Test
 ---
 
 # 技術_矽光子（SiPh）
@@ -81,7 +86,7 @@ aliases:
 |------|------|------------|---------|
 | **Tower Semiconductor** | 美商（Nasdaq:TSEM），純晶圓代工 | 全球 SiPh 市占 60–70%；1.6T 量產中，3.2T InP 異質整合中；2025 Q4 季營收 $80–95M，5× 擴產中；2027E 年化 $1.6–1.9B | 廣泛 AI 資料中心客戶，簽 $1.3B 2027 產能預訂 |
 | **GF Fotonix** | GlobalFoundries | 300mm 單片 O/C-band；含 SiN SSC、V-groove | Coherent 等 |
-| **TSMC COUPE** | 台積電 | N65 PIC + N7 EIC，SoIC 混合鍵合；23× 頻寬密度 | NVIDIA、Broadcom、Ayar |
+| **TSMC COUPE** | 台積電 | N65 PIC + N7 EIC，SoIC 混合鍵合；路線由 200→400Gbps/lane、128+ lanes 與 1→16+ wavelengths 雙軸擴展 | NVIDIA、Broadcom、Ayar |
 | SilTerra | 馬來西亞，私人 | 較小型，利基市場 | — |
 | Intel | IDM | 自用為主；CPO V-groove 玻璃耦合器 | 自家平台 |
 
@@ -96,6 +101,8 @@ aliases:
 | 調變器頻寬 | 支援速率 | >45 GHz 才能跑 53.125 Gbaud NRZ（1.6T lane） |
 | 光纖耦合方式 | 耦合方案 | 邊緣耦合 vs 光柵耦合、主動 vs 被動對位 |
 | 晶片整合良率 | 量產可行性 | COUPE 32 顆 OE 複利 >99.5% 才夠 |
+| WDM 波長數 | 同一光纖可承載的平行通道 | TSMC 路線由 1 朝 16+ wavelengths 擴展；波長穩定與耦合損耗決定實際可用性 |
+| 晶圓級光子測試 | 封裝前篩除不良 PIC／EIC | 越早測出缺陷，越能避免高價 SoIC／CPO 封裝完成後報廢；測試設備與校準能力受惠 |
 
 ### 200G per lane 的短距離互連轉換
 
@@ -105,6 +112,11 @@ aliases:
 |----------|----------|--------------------|
 | 接收端 | PD → TIA → DSP | 縮短微弱 PD 電流至 TIA 的電性路徑，降低寄生效應與訊號損耗 |
 | 發射端 | DSP → Driver → Modulator | 縮短 Driver 至調變器的高速輸出路徑，支援 200G per lane 訊號完整性 |
+
+## 產業動能
+
+- **COUPE 擴展由單一速率轉為「更快＋更寬」雙路線**：[[2330_台積電（市）]] 於 SEMICON Taiwan 2026 提出提高單 lane 速率至 400Gbps、lane 數至 128+，並以 WDM 把波長由 1 擴至 16+；BofA 於 2026-08-31 轉述，屬公司技術路線／信心中高（[[報告_BofA_台積電_20260831]]）。
+- **晶圓級測試成為量產經濟性門檻**：同一來源強調 wafer-level testing 可降低後段高價封裝的浪費，支持光電 ATE、探針與對位等測試環節的長期需求；個別供應商份額仍待驗證。
 
 ## 技術瓶頸 / 風險
 
@@ -183,6 +195,7 @@ Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重�
 
 ## 來源
 
+- [[報告_BofA_台積電_20260831]] — BofA Securities，2026-08-31；COUPE lane／WDM 擴展、耦合器損耗與晶圓級測試
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31
 
 ## 2026-08-24 代工平台更新

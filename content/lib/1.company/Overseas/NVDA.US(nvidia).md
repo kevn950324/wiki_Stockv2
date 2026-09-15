@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-09-01
+updated: 2026-09-15
 aliases:
   - NVIDIA
   - 輝達
@@ -32,6 +32,7 @@ related_companies:
   - "[[CBRS.US(cerebras)]]"
   - "[[2357_華碩（市）]]"
   - "[[技術_CPO]]"
+  - "[[2454_聯發科（市）]]"
 ---
 
 # NVDA.US(nvidia)
@@ -47,7 +48,7 @@ NVIDIA（輝達），全球 AI GPU 龍頭。本次主題範圍內的角色是**�
 ## 核心技術／競爭優勢
 
 - **CoWoS / HBM 雙資源主導**：[[NVDA.US(nvidia)]]、Google、AMD、Amazon 四家共占 [[2330_台積電（市）]] CoWoS / HBM **90% / 92%** 產能（國金引 Epoch AI 2025 數據；claim 類型 estimate、信心中）
-- **Rubin 部分 CoWoS 外溢**：Rubin 世代部分 CoWoS 訂單外包给 [[AMKR.US(amkor)]] 與日月光，反映 TSMC CoWoS 產能仍不足以應付需求（claim 類型 fact、信心中）
+- **Rubin 部分 CoWoS 外溢**：Rubin 世代部分 CoWoS 訂單外包給 [[AMKR.US(amkor)]] 與日月光，反映 TSMC CoWoS 產能仍不足以應付需求（claim 類型 fact、信心中）
 - **ABF 載板需求驅動**：透過 TSMC CoWoS → 由 [[3037_欣興（市）]]、[[8046_南電（市）]] 等 ABF 載板廠供應
 
 ## 產品與應用
@@ -56,6 +57,7 @@ NVIDIA（輝達），全球 AI GPU 龍頭。本次主題範圍內的角色是**�
 |-------------|------|----------|
 | AI GPU（Hopper / Blackwell / Rubin） | 資料中心 / AI 訓練與推論 | [[2330_台積電（市）]] CoWoS + [[3037_欣興（市）]] / [[8046_南電（市）]] ABF 載板 |
 | Rubin 部分 CoWoS（外溢部分） | 同上 | [[AMKR.US(amkor)]] + 日月光（OSAT 外包） |
+| NVLink Fusion／NVLink-C2C／NVHBM | 讓第三方客製 XPU 接入 NVIDIA rack-scale AI factory | [[2454_聯發科（市）]] 等客製 ASIC 設計夥伴 |
 
 ## 圖片 / 架構圖
 
@@ -105,9 +107,10 @@ flowchart LR
 | 時間 | 事件 | 類型 | 重要性 | 備註 |
 |------|------|------|--------|------|
 | 2025 | 與 Google/AMD/Amazon 共占 TSMC CoWoS/HBM 90%/92% 產能 | 產能分配 | ⭐⭐⭐ | 國金引 Epoch AI 數據 |
-| 2026（Rubin 時程） | Rubin 部分 CoWoS 外包给 [[AMKR.US(amkor)]] 與日月光 | 供應鏈外溢 | ⭐⭐⭐ | TSMC CoWoS 產能不足首次公開信號 |
+| 2026（Rubin 時程） | Rubin 部分 CoWoS 外包給 [[AMKR.US(amkor)]] 與日月光 | 供應鏈外溢 | ⭐⭐⭐ | TSMC CoWoS 產能不足首次公開信號 |
 | 2026-08-20 | 發布 800VDC Architecture: Industry Alignment & Execution 白皮書 | 技術路線 | ⭐⭐⭐ | Power Rack／Power Center／DC Power Block；系統級保護、認證與驗證框架，屬 roadmap／execution framework |
 | 2025-08-26 | 公開 Quantum-X／Spectrum-X CPO 平台與 ELS 架構 | 技術下線／驗證 | ⭐⭐⭐ | 官方 Blog；200Gbps PAM4、TSMC COUPE、Q3450 115.2Tbps 全雙工與模組化 ELS 數字為公司說法 |
+| 2026-08-31 | 投資聯發科 US$3.5bn 可轉債，擴大 NVLink Fusion、Cloud AI Factory、AI PC／本地運算與車用合作 | 策略投資／平台合作 | ⭐⭐⭐ | 投資與合作公告為 fact；特定 XPU design win 仍待客戶與量產驗證 |
 
 ## 供應鏈位置
 - **上游晶圓代工**：[[2330_台積電（市）]]（CoWoS 主代工）
@@ -115,6 +118,7 @@ flowchart LR
 - **上游 OSAT（Rubin 外溢）**：[[AMKR.US(amkor)]]、日月光（3711.TW，未建頁）
 - **下游 AI 資料中心客戶**：Google、AMD、Amazon 等（與 NVIDIA 共同占用 CoWoS/HBM 產能）
 - **CPO 光互連合作生態**：[[2330_台積電（市）]] COUPE、光纖／封裝／連接器與 ELS 供應商共同構成 Quantum-X／Spectrum-X 平台；具體合作份額仍需供應鏈資料確認。
+- **客製 XPU 生態**：[[2454_聯發科（市）]] 透過 NVLink Fusion／NVLink-C2C 將客製 ASIC 接入 NVIDIA GPU、CPU、網路與 rack-scale fabric；NVIDIA 以 US$3.5bn CB 投資深化合作。
 - **所屬光互連供應鏈**：[[供應鏈_CPO]]
 - **所屬供應鏈**：[[供應鏈_先進封裝載板]]
 
@@ -146,6 +150,7 @@ flowchart LR
 | [[3711_日月光投控（市）]] | 封測（Rubin 外溢） | 接 CoWoS 外溢封測 |
 | [[CBRS.US(cerebras)]] | 競爭者 | NVIDIA 收購 Groq 技術整合入 Vera Rubin；fast inference 細分市場競爭（Groq LPU vs WSE）|
 | [[2357_華碩（市）]] | 系統整合夥伴 | 華碩 HGX、NVL72 AI 伺服器採用 NVIDIA 平台 |
+| [[2454_聯發科（市）]] | 策略投資／客製 ASIC 合作 | NVIDIA 投資 US$3.5bn CB；合作擴至 NVLink Fusion、AI factory、AI PC 與車用平台 |
 
 ## 光互連技術棧（Optical Interconnect Stack，2026）
 
@@ -258,6 +263,8 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 - 相關觀察與 ELS-COS 架構假說詳見 [[分析_光通_CPO與ELS-COS_20260901]]；目前僅列為低信心 rumor／thesis。
 
 ## 來源
+- [[報告_Citi_聯發科_20260831]]（Citi Research，2026-08-31；NVIDIA 投資與 NVLink Fusion 合作）
+- [[報告_MorganStanley_聯發科_20260831]]（Morgan Stanley，2026-08-31；CB 投資與合作範圍）
 - [[web_NVIDIA_CPO_industry_collaboration_20250826]] — NVIDIA Technical Blog，2025-08-26
 - [[報告_CTBC_NVIDIA_20260827]]（中信投顧，2026-08-27；2QFY27 營收、Rubin／Vera CPU 與供應鏈瓶頸）
 - [[報告_Daiwa_NVIDIA_2QFY27_20260827]]（大和，2026-08-27；法說摘要，供應鏈與 AI factory 需求）
@@ -279,6 +286,7 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 ## 相關頁面
 
+- [[技術_AI推論與ASIC平台]]
 - [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]
 - [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
 
@@ -377,7 +385,7 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 - 使用者轉述 NVL72 TTM 資源集中，勝宏板子問題解決後 VR200 已進入 PVT，NVL72 的 L11 目標於 4Q 中出貨；這些節點仍待 NVIDIA 與供應鏈實際公告／出貨驗證。
 - NVL8 的 QS 被描述為大幅遞延，可能難以在 2026 年內形成量產；屬時程風險觀察。
-- L10 從既有 roadmap 轉為 Group A 的傳聞，據稱在新版 roadmap 的某一 model 開始實施，可能影響下游生態系統，但目前缺乏原始 roadmap 文件。
+- L10 從既有 roadmap 轉為 Group A 的傳聞，據稱在新版 roadmap 的某一 model 開始實施，可能影響下游生態系統，但目前缺乏原始 roadmap 檔案。
 - Vera rack 的 use case 仍偏 GPU server control plane；使用者據此認為短期不足以衝擊 x86 enterprise application，並不構成放空 Intel／AMD 的理由。以上為使用者觀點，信心低。
 
 來源：[[memo_富世達_Lumentum_Rubin_20260901]]（使用者 Rubin 觀察，2026-09-01）；詳見 [[分析_富世達_Lumentum_Rubin_20260901]]。
