@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-09-15
+updated: 2026-09-16
 aliases:
   - NVIDIA
   - 輝達
@@ -235,6 +235,12 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 ## Rubin Ultra NVL576／Oberon 架構更新（2026-08-10）
 
+### GTC 2026 官方交換骨架
+
+[[video_NVIDIA_GTC2026_AI平台與NVL576_202603]]（44:42–45:54）顯示 NVIDIA 已用 GB200 建立 NVL576 的多 rack 原型：rack 內 NVSwitch 採銅互連，rack 間以光纖直接連到其他 rack 的交換器，目標是把多個 rack 合成完整 576-GPU NVLink scale-up system。講者同時說明當時運行中的原型實際為 288-GPU，用於先行跑大規模訓練，為 Vera Rubin Ultra 做系統驗證。
+
+官方已確認的是 optical scale-up 的拓撲方向；NPO／CPO 封裝形態、9+18+9 機構、每 rack 72 顆 NVLink Switch ASIC 與供應商份額，仍需分別以後續正式 BOM 或產品文件驗證。
+
 ### 2026-08-27 台灣供應鏈交叉觀察
 
 - [[260827_ms_NVDA-implication]] 與 [[260827_citi_nvda-implication]] 均指向 FY/CY27 約 70% 營收成長展望、Rubin 已進入量產；瓶頸由 GPU 延伸至 HBM、CoWoS、網路、rack 整合、電力與資料中心實體容量。MS 估 NVIDIA 2027 年 CoWoS-L 用量約 910k wafers、年增約 40%（estimate，信心：中）。
@@ -273,6 +279,7 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 - 報告_SemiAnalysis_NVIDIA_GPU_Backstop_AI_Trinity_20260706（SemiAnalysis，2026-07-06；GPU Backstop 計畫、AI Project Trinity、Neocloud 融資）
 - [[報告_SemiAnalysis_TileRT_InferenceX_20260809]]（SemiAnalysis，2026-08-09；TileRT on GPU 超低延遲推理；InferenceX 基準）
 - [[報告_SemiAnalysis_RubinUltraNVL576_20260810]]（SemiAnalysis，2026-08-10；Rubin Ultra NVL576／Oberon rack、NPO／CPO 與 PCB／背板變化）
+- [[video_NVIDIA_GTC2026_AI平台與NVL576_202603]]（NVIDIA GTC 2026 Session S81911，Ian Buck；NVL576 rack 內銅／rack 間光原型與 288-GPU 先行驗證）
 - [[報告_SemiAnalysis_NvidiaCCL_20260702]]（SemiAnalysis，2026-07-02；GB300／VR NVL72／Rubin 板卡 CCL 供應：EMC/斗山/南亞，見 [[技術_CCL]]）
 - [[260702_gs_TSMC]]（高盛，2026-07-02；台積電為 NVIDIA AI 加速器加速擴 CoWoS 產能、2027E 280kwpm，見 [[技術_CoWoS與先進封裝]]）
 - [[報告_其他_玻璃基板_20260511]]（國金證券「玻璃基板行業深度」，2026-05-11；分析師李陽 S1130524120003）

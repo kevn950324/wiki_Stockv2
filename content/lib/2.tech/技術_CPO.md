@@ -41,6 +41,10 @@ aliases:
   - Quantum-X
   - Spectrum-X Ethernet Photonics
   - Q3450
+  - NVL576
+  - Optical NVLink
+  - Direct Optical NVLink
+  - Two-layer all-to-all NVLink
 ---
 
 # 技術_CPO
@@ -53,9 +57,34 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 
 **NPO 是 CPO 前的風險折衷，而不是 CPO 的同義詞。**NPO（Near-Packaged Optics）把 OE 放在 ASIC 封裝旁、但保留獨立基板與可插拔／socketed 介面；高速電通道約 150 mm，介於前面板可插拔模組與 CPO 的 <10 mm 通道之間。[[報告_SemiAnalysis_NPO光互連接棒_20260713]] 認為，它可在保留較低功耗、供應商彈性與部分可維修性的同時，避開 CPO 的 attach yield 與供應商鎖定風險；這是研究機構情境推演，並非各平台已定案的採用承諾。
 
-## Rubin Ultra NVL576 的 NPO／CPO 分流
+## Rubin Ultra NVL576：官方已確認的交換骨架
 
-[[報告_SemiAnalysis_RubinUltraNVL576_20260810]] 將 NVL576 expandable Portia switch tray 描述為 NPO 與 CPO 並行開發：兩者都把每架 NVLink Switch ASIC 增至 72 顆的 scale-up 架構，但 NPO 模組可 socket 到 ASIC 旁的 PCB，CPO 則每顆 switch ASIC 配置 4 個不可更換的 optical engine。SemiAnalysis 判斷 NPO 因 form factor 成熟度較高，可能先於 CPO 成為上市版本；這是研究模型，Rubin Ultra 規格仍可能變動。
+NVIDIA 在 GTC 2026 Session S81911 公開展示 NVL576 原型：以既有 GB200 系統驗證跨機櫃 scale-up，**機櫃內 NVSwitch 仍以銅連接，機櫃之間則以光纖把每個 rack 連到其他 rack 的側邊交換器**。講者將其稱為完整的 576-GPU scale-up system，並說明現場原型實際為 288-GPU，用來先跑大規模訓練工作負載，為 Vera Rubin Ultra 的完整 NVL576 做準備。
+
+```mermaid
+flowchart TB
+    subgraph R1[MGX NVL rack 1]
+      G1[GPU／compute trays] <-->|rack 內銅纜 NVLink| S1[NVSwitch]
+    end
+    subgraph R2[MGX NVL rack 2]
+      G2[GPU／compute trays] <-->|rack 內銅纜 NVLink| S2[NVSwitch]
+    end
+    subgraph RN[其餘 MGX NVL racks]
+      GN[GPU／compute trays] <-->|rack 內銅纜 NVLink| SN[NVSwitch]
+    end
+    S1 <-->|rack 間直接光連接| S2
+    S1 <-->|rack 間直接光連接| SN
+    S2 <-->|rack 間直接光連接| SN
+```
+
+圖說：GTC 2026 官方口徑的 NVL576 交換骨架。兩層 all-to-all 的本質是以 rack 內銅互連維持短距高頻寬，再以 rack 間光互連把多個 rack 合成單一 NVLink scale-up domain；圖為邏輯拓撲，不代表實際纖芯數或交換 ASIC 數量。來源：[[video_NVIDIA_GTC2026_AI平台與NVL576_202603]]，44:42–45:54。
+
+> [!important] 官方確認與尚未確認的邊界
+> 官方 session 確認了「NVL576、多 rack、rack 內銅、rack 間光、全域 scale-up」方向，但**沒有**在逐字稿中確認 NPO 或 CPO 封裝形態、每 rack 72 顆 NVLink Switch ASIC、9+18+9 機構配置或 4 optical engines／ASIC。這些細節仍屬後續研究機構模型，不能反推為 NVIDIA 正式 BOM。
+
+## Rubin Ultra NVL576 的 NPO／CPO 分流（研究模型）
+
+[[報告_SemiAnalysis_RubinUltraNVL576_20260810]] 將 NVL576 expandable Portia switch tray 描述為 NPO 與 CPO 並行開發：兩者都把每架 NVLink Switch ASIC 增至 72 顆的 scale-up 架構，但 NPO 模組可 socket 到 ASIC 旁的 PCB，CPO 則每顆 switch ASIC 配置 4 個不可更換的 optical engine。SemiAnalysis 判斷 NPO 因 form factor 成熟度較高，可能先於 CPO 成為上市版本；這是研究模型，Rubin Ultra 規格仍可能變動。其「rack 間需要光」與官方原型一致，但封裝形式與元件數量不能視為已獲官方確認。
 
 ![[報告_SemiAnalysis_Rubin_Ultra_NVL576_Flash_Overview_20260810_004.png]]
 *圖（SemiAnalysis／NVIDIA，2026-08-10）：Portia expandable switch 的 NPO／CPO 配置差異；NPO 保留 socketed 模組，CPO 將 optical engine 固定於 switch ASIC 周邊。*

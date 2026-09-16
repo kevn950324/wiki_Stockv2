@@ -4,7 +4,7 @@ tags:
   - 技術/AI推論
   - 技術/ASIC
   - 產業/AI伺服器
-updated: 2026-09-15
+updated: 2026-09-16
 image_status: "待補來源圖"
 aliases:
   - AI inference
@@ -14,6 +14,9 @@ aliases:
   - NVLink Fusion
   - NVLink-C2C
   - NVHBM
+  - Mixture of Experts
+  - Expert Parallelism
+  - NVIDIA Dynamo
 related_companies:
   - "[[2454_聯發科（市）]]"
   - "[[NVDA.US(nvidia)]]"
@@ -55,6 +58,12 @@ flowchart LR
 
 NVLink Fusion 類平台改變的是系統邊界：客製 XPU 可用 NVLink-C2C 與 CPU／其他處理器互連，並透過 NVLink fabric 與 NVIDIA GPU、網路共同組成 rack-scale 系統。NVHBM 則把客製記憶體能力納入平台，讓設計服務商除晶片設計外，還需協調 HBM、ABF 載板、先進封裝與晶圓產能準備。
 
+### MoE、NVLink 與 Dynamo 的系統關係
+
+[[video_NVIDIA_GTC2026_AI平台與NVL576_202603]] 說明，Mixture of Experts（MoE）雖只啟用部分 experts，expert parallelism 仍會在 GPU 間產生大量 all-to-all 通訊；因此推論效能不能只看算力，還要看 scale-up fabric 是否能讓通訊與運算重疊。NVIDIA 在該場演講以 NVL72 的每 GPU 1,800 GB/s NVLink，對比其所稱當代 Ethernet 約 100 GB/s／GPU，主張約 18 倍通訊速度差；這些數字是公司簡報口徑，需以實際模型、訊息大小與拓撲驗證。
+
+Dynamo 則位於軟體調度層，把 prefill、decode 與 KV cache routing 解耦，依 GPU 忙碌程度與 KV cache 位置調度請求。公司宣稱導入可帶來 7 倍改善，且 NVSwitch／Dynamo 等整體最佳化使 Hopper 到 GB300 的每瓦效能提升約 50 倍；兩者均為 NVIDIA 場景化 benchmark，不宜直接外推至所有模型與叢集。
+
 ## 關鍵參數 / 判斷指標
 
 | 指標 | 意義 | 投資觀察 |
@@ -63,6 +72,8 @@ NVLink Fusion 類平台改變的是系統邊界：客製 XPU 可用 NVLink-C2C �
 | 記憶體容量與頻寬 | 長上下文、多模態與代理工作負載的瓶頸 | HBM／NVHBM 採購與 ABF 載板準備可能提前占用資金與產能 |
 | 每瓦推論效能與總擁有成本 | 雲端服務商選擇 ASIC／GPU 的核心經濟性 | ASIC 的能效優勢需抵銷開發、軟體與量產風險 |
 | 平台互通性 | XPU 能否接入既有 GPU／CPU／網路 fabric | NVLink Fusion 可降低客戶採用客製 XPU 的系統整合摩擦，但生態依賴上升 |
+| Expert all-to-all 通訊 | MoE 的 token routing 是否被跨 GPU 通訊拖慢 | NVLink／NVSwitch 頻寬、拓撲與 collective software 決定 GPU 能否維持在 compute-bound |
+| KV cache 調度 | 長上下文推論能否避免搬移與閒置 | Dynamo 類 disaggregated serving 需同時觀察 prefill／decode 配比、cache locality 與儲存層級 |
 
 ## 產業動能
 
@@ -93,6 +104,7 @@ NVLink Fusion 類平台改變的是系統邊界：客製 XPU 可用 NVLink-C2C �
 - [[報告_DIGITIMES_AI推論時代_2027雲端運算平台_20260822]] — DIGITIMES，下載日 2026-08-21
 - [[報告_Citi_聯發科_20260831]] — Citi Research，2026-08-31；NVIDIA 投資與 NVLink Fusion 合作
 - [[報告_MorganStanley_聯發科_20260831]] — Morgan Stanley，2026-08-31；NVIDIA／Alphabet 參與 CB 與供應鏈資金用途 thesis
+- [[video_NVIDIA_GTC2026_AI平台與NVL576_202603]] — NVIDIA GTC 2026 Session S81911；MoE expert parallelism、NVLink／NVSwitch、Dynamo 與 NVL576 原型
 
 ## 相關頁面
 
