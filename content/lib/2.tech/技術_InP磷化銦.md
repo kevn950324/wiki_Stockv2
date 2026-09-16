@@ -6,7 +6,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-08-30
+updated: 2026-09-16
 aliases:
   - InP
   - 磷化銦
@@ -76,6 +76,8 @@ flowchart LR
 ```
 圖說：6 吋晶圓的面積優勢必須逐站轉化成穩定良率；應力、溫循與封裝分測使有效供給不會隨面積一步跳升。
 
+[[活動_Lumentum_IR問答_20260916]] 進一步把 Lumentum 的六吋瓶頸定位到**硫摻雜（sulfur-doped）InP 基板**。雷射晶片需要具導電性的 sulfur-doped substrate；iron-doped 基板偏絕緣，較常用於 photodiode。管理層轉述兩家主要 InP substrate 供應商在六吋 sulfur-doped boule 生長時，缺陷會沿晶錠延伸到後續切出的多片 wafer，使良率僅個位數；公司目標在 2028 年準備就緒，但來源未區分 FY／CY。這是供應商良率口徑，不是 Lumentum 自身製程良率，信心中低。
+
 ### 800G Transceiver 成本拆解（SiPho vs EML）
 
 | 元件 | SiPho 方案（$）| EML 方案（$）|
@@ -102,6 +104,7 @@ EML 方案因每通道各自含調製雷射，BOM 高出約 $110（+42%）；SiP
 | ELS 供應商多樣化 | CPO 系統整合風險 | Lumentum 當前主導；Coherent、中系廠商能否在 100mW 規格認證後切入第二供 |
 | 6 吋轉線比例與批次穩定性 | 決定面積優勢能否轉成有效產出 | 追蹤連續批次良率、MOCVD 改裝完成度與 3／6 吋產能並存期，而非只看名目晶圓尺寸 |
 | 基板認證／出口資格 | 多來源供應能否真正落地 | Coherent 相關專家訪談稱新供應商多以 6 吋為目標，但看廠、送樣不等於取得北美客戶資格或可出口供貨 |
+| 六吋 sulfur-doped boule 良率 | 雷射用導電基板是否能穩定供應 | Lumentum 轉述供應商良率僅個位數、目標 2028；需追蹤可交付 wafer 而非設備相容性 |
 
 ## 產業動能
 
@@ -111,6 +114,7 @@ EML 方案因每通道各自含調製雷射，BOM 高出約 $110（+42%）；SiP
 - **從獨立元件移轉到垂直整合**：傳統 InP IDM（Broadcom）自供 OE Engine；TSMC COUPE 路線需要外部 InP 雷射供應商，釋放訂單給 Lumentum、Coherent 等——但同時對傳統 CM 廠議價能力形成壓力（來源：[[報告_金正禾論壇_InP晶圓代工CPO_20260130]]，2026-01-30）。
 - **TSMC CPO 時程**：2025Q1 Test Vehicle PIC → 2027Q1 Pilot Pre-MP；MP 最快 2026 年底至 2027 年初；至 2028 年進入批量量產（來源：[[報告_金正禾論壇_InP晶圓代工CPO_20260130]]，2026-01-30，講者為業內人士，信心：中）。
 - **3→6 吋有效供給爬坡**：[[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] 認為 [[COHR.US(coherent)]] 6 吋 InP 仍處製程與良率摸索，短期以 3 吋為主；其估計供給壓力可能到 2027Q2 才逐步緩解，但訪談日期與講者身分未提供，信心低。
+- **Lumentum 六吋基板瓶頸**：[[活動_Lumentum_IR問答_20260916]] 指出現有 4 吋工具理論上可處理 6 吋 wafer，真正限制是 sulfur-doped substrate 供應與 boule defect；2028 準備就緒是管理層目標，尚非量產承諾。
 
 ## 概念股 / 族群
 
@@ -175,6 +179,7 @@ gantt
 - [[報告_金正禾論壇_CPO光電共封裝_20260325]] — 金正禾論壇，2026-03-25
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]] — InP 供應鏈更新，2026-06-29
 - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] — Coherent 相關專家訪談，日期不詳（2026-08-30 收錄；3→6 吋製程爬坡、基板認證與 EML／CW 有效供給，信心低）
+- [[活動_Lumentum_IR問答_20260916]] — Lumentum IR 問答，來源未明載會議日期（2026-09-16 收錄；六吋 sulfur-doped InP 基板與 2028 目標）
 
 ## 相關頁面
 

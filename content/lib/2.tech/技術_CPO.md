@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
- updated: 2026-09-15
+updated: 2026-09-16
 aliases:
   - CPO
   - Co-Packaged Optics
@@ -137,6 +137,8 @@ CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰�
 **外部雷射源（ELS）**：CPO 需較高功率的 CW DFB 雷射。Nvidia Q3450 用 18 個 ELS 模組、每模組 8 顆 CW DFB chip，每顆 ~350mW。**ELS 功率門檻（2026 現況）**：最低需 100mW @1310nm；中系廠商在此規格下勉強達標。若升至 200mW/DFB、400mW/DFB，或引入 CWDM 多波長（1270/1290/1310/1330/1350nm），中系廠商在強度與多波長均勻性上暫時無法滿足。供應商：[[LITE.US(lumentum)]] 為 Nvidia 初批 CPO ELS 獨家供應商；[[COHR.US(coherent)]] 預計 2026H2 進入成為第二供應商；中國（Yuanjie、Shijia）因技術門檻暫不在短期供應鏈。詳見 [[技術_InP磷化銦]]。
 
 **內置與外置 CW 的功率預算**：[[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] 認為，外置 ELS 經保偏光纖傳輸後耦合效率約 60%～70%，因此需使用約 350／400mW 高功率 CW；內置光源透過透鏡與隔離器直接耦合 PIC，效率可達 90% 以上，且可把 200mW 額定元件降額運行在約 120～150mW以改善溫漂與壽命。這些效率與功率數字為匿名訪談 estimate，須用實際平台 link budget 驗證。
+
+**Lumentum 後續 IR 口徑**：[[活動_Lumentum_IR問答_20260916]] 稱 NVIDIA 目前全力投入外置 ELS 的 CPO，採約 400mW UHP laser；約四家 NPO 潛在客戶的合計商機，粗估可與 NVIDIA CPO 相近。多數 NPO 客戶偏外置 400mW 光源，另一條仍在 R&D 的內置方案採 120／150mW CW，且 Lumentum 以 400mW 平台向下衍生以維持可靠度。公司亦預估 ELSFP 模組份額可逐步達總需求 15%–20%，CY27H2 出貨。以上均為 company estimate／outlook，不代表具名 NPO design win；FY28 $40 EPS 展望明確未納入 NPO。
 
 | 架構 | 光源位置 | 訪談中的典型配置 | 維修／可靠度取捨 |
 |------|----------|------------------|------------------|
@@ -598,6 +600,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（CPO/800VDC 重設預期，2026-06-09）
 - [[報告_SemiAnalysis_NPO光互連接棒_20260713]]（SemiAnalysis，2026-07-13；NPO／Pluggable CPO 與 CPO 的架構、良率和供應彈性取捨）
 - [[報告_SemiAnalysis_RubinUltraNVL576_20260810]]（SemiAnalysis，2026-08-10；NVL576／Oberon rack、NPO／CPO switch tray 與 PCB／背板變化）
+- [[活動_Lumentum_IR問答_20260916]]（來源未明載會議日期；2026-09-16 收錄，CPO／NPO 光源功率、ELSFP 份額與 CY27H2 出貨展望）
  - [[memo_光模块及CPO设备学习总结_acecamptech_20260416]]（設備生態、ficonTEC 壟斷格局、科瑞技術驗證進度、設備需求三重乘數）
  - [[memo_光通信大厂调研_TFLN_CPO_OCS_acecamptech_20260417]]（TFLN CPO 出貨量、OCS Google 需求 20 萬台、NPO vs CPO 過渡）
  - [[memo_光通信大厂调研_CPO出货量_FAU_MPC方案_acecamptech_20260529]]（Spectrum X/Quantum X 進展、DFAU 良率問題、CPO 取代電交換機速度）

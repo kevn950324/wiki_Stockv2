@@ -1,9 +1,10 @@
 ---
 title: "分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820"
 query_date: 2026-08-20
-updated: 2026-09-01
+updated: 2026-09-16
 sources:
   - "[[活動_Lumentum_Fubon_LITE_IR_20260820]]"
+  - "[[活動_Lumentum_IR問答_20260916]]"
 tags:
   - 分析/事件
   - 公司/Lumentum
@@ -94,6 +95,24 @@ related_topics:
 ## 來源引用
 
 - [[活動_Lumentum_Fubon_LITE_IR_20260820]] — 富邦證券 x LITE IR，2026-08-20
+- [[活動_Lumentum_IR問答_20260916]] — 使用者提供之後續 IR 問答；來源未明載會議日期，2026-09-16 收錄
 - [[LITE.US(lumentum)]] — Lumentum 公司頁，2026-09-01 更新
 - [[技術_CPO]] — CPO 技術頁，2026-09-01 更新
 - [[技術_光電芯片]] — 光電晶片技術頁，2026-09-01 更新
+
+## 2026-09-16 後續 IR：OCS 由需求能見度進入拓撲與產能驗證
+
+| 新訊號 | 判讀 | 類型 | 信心 |
+|---|---|---|---|
+| FY28 non-GAAP EPS $40，主要由最大 OCS 客戶追加採購訂單驅動 | OCS 已由「早期放量」轉為可影響兩年後公司 EPS 的主軸，但公司未提供 OCS／雷射／transceiver 貢獻拆解 | company outlook | 中 |
+| FY28 未納入 NPO design win | NPO 是展望外選擇權，而不是 $40 EPS 的必要條件；正式 design win 可視為增量催化劑 | company outlook | 中 |
+| 現有 OCS attach rate 約 1.5 ports／XPU；FY29 新用途可能 3–4 | FY28 先看 XPU volume 與 Lumentum 對客戶內製份額，FY29 才看 dynamic partitioning／resiliency 的架構升級 | estimate / thesis | 中 |
+| OCS 無零件短缺，限制在內部組裝／測試；CM 自 CY27 初支援 | 瓶頸從「供應鏈缺料」收斂為 system build／test execution；可用 cycle time 與季度出貨驗證 | company claim | 中 |
+| 六吋 sulfur-doped InP substrate 良率僅個位數，目標 2028 | 名目 6 吋設備不等於可用供給；基板 boule 缺陷是更上游的限制，且數字為公司轉述供應商 | company claim / supplier estimate | 中低 |
+
+> [!warning] 展望邊界
+> 來源沒有明載會議日期；FY28 EPS、NPO 商機占比、OCS attach rate、UHP 產能與六吋基板良率均是 IR 回答口徑。除已有正式訂單的描述外，不應把 FY29 拓撲、NPO 客戶或 2028 六吋量產視為已實現事實。
+
+### 對原 thesis 的調整
+
+原先「產能而非需求是短期瓶頸」仍成立，但需拆成三層：OCS 是內部組裝／測試；UHP laser 是跨 California／UK／Greensboro 的 qualification 與工具擴充；六吋 InP 是 sulfur-doped substrate 良率。需求端則由 FY28 OCS 追加訂單提高能見度，而 NPO 仍是未納入基準展望的額外選擇權。

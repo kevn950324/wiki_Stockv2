@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 技術/CPO
   - 環節/光纖與光通訊
- updated: 2026-09-02
+updated: 2026-09-16
 aliases:
   - Lumentum
   - LITE
@@ -130,6 +130,7 @@ FY26 GAAP net loss $6.9bn 不代表本業同幅度惡化：Q4 債券換股使公
 | FY27 Q1 non-GAAP EPS | $4.05–4.35 | Company guidance，diluted shares 約 102m |
 | EML unit growth | 2026-12 季 YoY >50% | Management target |
 | OCS revenue | FY26H2 $400m+；FY27 Q1 首次三位數百萬美元單季 | Management target |
+| FY28 non-GAAP EPS | $40；主要反映最大 OCS 客戶追加採購訂單，未納入 NPO design win | Management outlook，來源未明載會議日；2026-09-16 收錄 |
 | Ultra-high-power laser | 2026 年底約 $50m；FY27 Q3 首個三位數百萬美元季度 | Management target |
 | Greensboro | 2028 年初開始出貨，2028–29 爬坡 | Management target |
 
@@ -167,11 +168,11 @@ FY26 GAAP net loss $6.9bn 不代表本業同幅度惡化：Q4 債券換股使公
 
 ### 2. OCS 能否成為大型長期業務？
 
-偏多證據是 Q3 至 Q4 出貨翻倍、FY27 Q1 首次 triple-digit revenue、FY26H2 $400m+ 目標與 R64／R300 擴產；保守點是早期 supply-chain 問題、一位大客戶仍有內製版本。追蹤季度 OCS revenue、port count mix、gross margin、內製／外購比例與 FY27 order visibility。
+偏多證據是 Q3 至 Q4 出貨翻倍、FY27 Q1 首次 triple-digit revenue、FY26H2 $400m+ 目標，以及最大 TPU 客戶在後續 IR 問答前追加採購訂單；管理層因此提出 FY28 non-GAAP EPS $40 outlook。現有 topology 的平均 attach rate 約 1.5 OCS ports／XPU，FY28 增量主要來自 XPU 出貨與可能的內製方案份額轉移，而非 attach rate 上升。Dynamic partitioning／resiliency 等新用途可能把 attach rate 提至 3–4 ports／XPU，但偏 FY29 且未納入目前展望。保守點是需求集中、客戶仍有內製版本，且 FY28 EPS 無業務線拆解。追蹤季度 OCS revenue、port count、客戶集中、內製／外購比例與 FY28 order visibility。[[活動_Lumentum_IR問答_20260916]]
 
 ### 3. NPO／CPO／ELS 何時真正貢獻？
 
-偏多證據是 lead CPO 客戶計畫在軌、首張 ELS 訂單 2027H2 交付、多個 NPO engagements；保守點是 NPO 尚無正式公告合約，管理層把新 XPU／SerDes 導入放在 2027H2–2028，且產業研究已下修部分 CPO 時程。追蹤正式客戶公告、high-power laser run-rate、2027H2 出貨與 Greensboro 2028 revenue。
+偏多證據是 lead CPO 客戶計畫在軌、首張 ELS 訂單 2027H2 交付、多個 NPO engagements；後續 IR 將 NPO 潛在機會粗估為與 NVIDIA CPO 相近，且預期 ELSFP 模組份額逐步達總需求 15%–20%。保守點是 NPO 尚無正式公告合約，FY28 $40 EPS 亦完全未納入 NPO design win；管理層把新客戶實際出貨放在 2027H2 後段。追蹤正式客戶公告、high-power laser run-rate、2027H2 出貨與 Greensboro qualification。
 
 ### 4. 50% 以上毛利是否可持續？
 
@@ -179,7 +180,7 @@ FY26 GAAP net loss $6.9bn 不代表本業同幅度惡化：Q4 債券換股使公
 
 ### 5. 產能擴張會不會先於需求？
 
-日本兩座 InP fabs、Rose Orchard、泰國封裝與 Greensboro 都在擴充；三年、部分 take-or-pay 長約可降低閒置風險，但需求向量變化很快，錯估會使固定成本與 inventory 反噬 FCF。追蹤 CapEx、substrate／wafer 供應、利用率、存貨與長約覆蓋度。
+日本兩座 InP fabs、Rose Orchard、泰國封裝與 Greensboro 都在擴充；UHP laser 規劃由 California、UK、Greensboro 三座廠分工，UK 正 qualification，Greensboro 約一半規劃供 NVIDIA。OCS 的當前限制在內部組裝與測試而非外購零組件，contract manufacturer 預計 CY27 初開始支援。六吋 InP 的關鍵反而是 sulfur-doped substrate：管理層轉述供應商目前良率僅個位數，目標 2028 年準備就緒。追蹤 CapEx、substrate yield、qualification、組測 cycle time、利用率與長約覆蓋度。[[活動_Lumentum_IR問答_20260916]]
 
 ## 時間軸
 
@@ -190,7 +191,11 @@ FY26 GAAP net loss $6.9bn 不代表本業同幅度惡化：Q4 債券換股使公
 | 2026-12 季 | EML unit YoY >50% | 放量 | ⭐⭐⭐ | 公司目標；觀察 CW mix 對毛利 |
 | 2026H2 | OCS revenue $400m+ | 放量 | ⭐⭐⭐ | 公司目標；目前按計畫追蹤 |
 | 2027H2 | 首張 ELS module 交付、超高功率雷射放量前段 | 出貨 | ⭐⭐⭐ | 管理層展望，非已實現收入 |
+| 2027 年初 | OCS contract manufacturer 開始支援 | 擴產／驗證 | ⭐⭐ | [[活動_Lumentum_IR問答_20260916]]；目前瓶頸仍在內部組裝與測試 |
+| FY28 | Non-GAAP EPS $40 outlook | 財務／驗證 | ⭐⭐⭐ | 主要反映 OCS 新訂單；未納入 NPO design win，無業務線拆解 |
+| FY29（展望） | Dynamic partitioning／resiliency OCS 新用途 | 架構升級 | ⭐⭐⭐ | 尚未納入 FY28 outlook；attach rate 可能由約 1.5 升至 3–4 ports／XPU |
 | 2028 初 | Greensboro 首批 InP revenue | 技術下線／放量 | ⭐⭐ | GaAs → InP 轉換，2028–29 爬坡 |
+| 2028（FY／CY 未明） | 六吋 sulfur-doped InP substrate 準備就緒目標 | 材料／良率 | ⭐⭐⭐ | 供應商良率目前僅個位數為管理層轉述，非 Lumentum 自身良率 |
 | 2027–28 | NPO／CPO 新 XPU／rack 世代導入 | 規格升級 | ⭐⭐⭐ | NPO 略早於 lead CPO，正式合約待公告 |
 | 2026Q4 | CPO 進入較有意義的量產 | 放量 | ⭐⭐⭐ | [[活動_Lumentum_Fubon_LITE_IR_20260820]]；公司交流口徑 |
 | 2027Q1 | 1.6T 成為光模組營收大宗（最早） | 放量 | ⭐⭐⭐ | 以光模組營收占比計，非公司總營收 |
@@ -239,6 +244,7 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 - [SEC Form 8-K，Lumentum FY26 Q4](https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite-20260811.htm)（2026-08-11；監管文件）
 - [Lumentum Q4 FY26 Earnings Call Transcript](https://www.fool.com/earnings/call-transcripts/2026/08/18/lumentum-lite-q4-2026-earnings-call-transcript/)（2026-08-18；第三方逐字稿，Q&A 以公司 webcast／SEC 為準）
 - [[活動_Lumentum_FY2026Q4法說_20260827]]（2026-08-27；使用者提供之中英對照逐字稿，原始紀錄）
+- [[活動_Lumentum_IR問答_20260916]]（來源未明載會議日期；2026-09-16 使用者提供，FY28 OCS／EPS、CPO／NPO、六吋 InP 與產能問答）
 - [[ms_LITE_20260812]]（Morgan Stanley，2026-08-12；券商估計與目標價）
 - [[Lumentum H-2025-07-07-LITE.OQ-Wolfe Research-Structural Winner_ Initiate at Outperform-116406363]]（Wolfe Research，2025-07-07；初始覆蓋）
 - [[報告_元大_光通訊產業_20260723]]（元大，2026-07-23；市場與競品背景）
@@ -413,3 +419,13 @@ ECTC 2026 論文：Lumentum 與 NVIDIA、[[2330_台積電（市）]] COUPE 平�
 - 詳見 [[分析_富世達_Lumentum_Rubin_20260901]]。
 
 來源：[[memo_富世達_Lumentum_Rubin_20260901]]（使用者 Lumentum 法說整理，2026-09-01）。
+
+## 本次 ingest 更新（2026-09-16）
+
+- FY28 non-GAAP EPS $40 outlook 是因最大 OCS 客戶在上次 earnings call 後追加採購訂單；未納入任何 NPO design win，故 NPO 若公告屬額外 upside。此為管理層 outlook，非已實現 EPS，信心中。
+- 現有 TPU topology 的 OCS attach rate 約 1.5 ports／XPU；FY28 成長主要靠 XPU 出貨增加，其次才是取代客戶內製方案。Dynamic partitioning／resiliency 可能把 attach rate 提至 3–4，但偏 FY29、尚未納入展望。
+- CPO／NPO 潛在商機被粗略描述為各半；NPO 多數客戶偏外置 400mW 光源，另有 120／150mW 內置方案。ELSFP 模組預估份額 15%–20%、出貨時間 CY27H2，均屬 company estimate。
+- 六吋 InP 轉換主瓶頸是 sulfur-doped substrate，而非設備或名目產能；管理層轉述兩家主要供應商良率僅個位數，目標 2028 年可用。年份未區分 FY／CY，且良率不是 Lumentum 自身 wafer process yield。
+- 1.6T 的 CW／SiPh 份額增加後，管理層認為 3.2T 的 400G/lane 可能因電壓、雜訊與功耗而讓 EML 重新取得份額；這是技術／商業判斷，仍待產品量產驗證。
+
+來源：[[活動_Lumentum_IR問答_20260916]]（來源未明載會議日期；2026-09-16 收錄）。
