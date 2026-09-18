@@ -8,10 +8,11 @@ tags:
   - 產業/半導體
   - 環節/AEC銅纜
   - 環節/SerDes
-updated: 2026-07-09
+updated: 2026-09-18
 image_status: "待補來源圖"
 related_companies:
   - "[[3665_貿聯-KY（市）]]"
+  - "[[MRVL.US(marvell)]]"
 ---
 
 # CRDO.US — Credo Technology Group
@@ -126,6 +127,12 @@ related_companies:
 | 分析師 | Sean O'Loughlin（TD Cowen 資料中心連接專題） |
 
 主要論點：Credo 在銅纜（AEC）和可插拔光學（LRO：Linear Receive-only Optics）兩個方向均為關鍵創新者，定位最佳。TD Cowen 認為 MRVL DSP 在 LRO 場景中有 >10% 市佔流失風險，而 Credo 的 LRO 解法是主要受益者之一。同時，Credo 在 AEC 市場的先發優勢（~70% 市占）使其在連接密集化趨勢中具強防禦性。
+
+## 2026-09-02 GFHK F1Q27 更新
+
+- F1Q27 營收 US$479mn（YoY +115%、QoQ +10%）、non-GAAP EPS US$1.20；F2Q27E 營收指引 US$525–535mn、毛利率 67%–69%，均為公司揭露的 fact／guidance。
+- AEC 仍是 FY1H27 主要成長柱；光學產品 FY27E 營收目標維持 US$600mn 以上，量產高峰偏向 FY2H27，屬 management outlook。
+- 券商預估 FY27E／FY28E EPS US$6.5／11.4，目標價 US$227、Buy，以 FY28E EPS 20 倍估值；來源：[[報告_GFHK_Credo_20260901]]。
 
 ## 關聯頁面
 

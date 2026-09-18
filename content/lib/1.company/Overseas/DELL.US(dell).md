@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 產業/企業IT
   - 環節/AI伺服器組裝
-updated: 2026-08-29
+updated: 2026-09-18
 aliases:
   - Dell
   - Dell Technologies
@@ -149,6 +149,12 @@ flowchart LR
 |------|------|------|
 | [[2317_鴻海（市）]] | AI 伺服器競爭者 | GFHK 認為鴻海可能取得 SpaceX 多千套 Rubin 相關訂單，Dell 份額需驗證 |
 | [[ORCL.US(oracle)]] | 下游客戶 | Vera CPU 機架出貨對象之一，來源為券商整理 |
+
+## 2026-09-02 GFHK F2Q26 更新
+
+- F2Q26 營收 US$47bn、EPS US$7.04、ISG 營收 US$31.8bn；AI server booking US$60.9bn、季末 backlog US$95bn，為公司揭露的季度 fact。
+- FY27E 指引營收約 US$192bn、ISG 成長約 120%、non-GAAP EPS US$25.50；券商維持 Hold、目標價 US$497，屬 guidance／estimate。
+- 記憶體供給、企業需求正常化、PC sell-through 與 SpaceX／CoreWeave 訂單競爭仍是主要風險。來源：[[報告_GFHK_Dell_F2Q26_20260901]]。
 
 ## 相關頁面
 

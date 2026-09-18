@@ -186,3 +186,5 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 - NPO 專案由客戶驗證進入初始量產；Google CXL／DPU、Trainium 4 與 Maia 300 出貨屬券商推估，需與公司後續揭露交叉驗證。
 
 來源：[[GFHK - Marvell Preview]]（廣發香港，2026-07-17）。
+
+相關公司補充：[[CRDO.US(credo)]]（AEC／光互連同業與競爭觀察）。

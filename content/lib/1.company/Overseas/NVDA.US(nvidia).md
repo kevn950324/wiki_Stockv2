@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-09-16
+updated: 2026-09-18
 aliases:
   - NVIDIA
   - 輝達
@@ -388,6 +388,12 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 - [[Nvidia in Talks to Back OpenAI Lease of $500 Billion]]（Bloomberg，2026-07-28）報導 NVIDIA 與 OpenAI 資料中心租賃／融資安排的討論；屬新聞 rumor，未視為已簽署合約或已確認訂單。
 
+### 2026-08-27 GFHK F2Q26 更新
+
+- F2Q26 營收 US$96.2bn、資料中心營收 US$89bn、毛利率 75%、EPS US$2.22；F3Q guidance US$108bn，Vera Rubin 預計貢獻約 20% 資料中心營收。
+- FY28 營收指引約 YoY +70%（supply-constrained），Vera Rubin 每 GW 價值約 US$40bn，高於 Blackwell 約 US$25bn；屬 management outlook，不能直接轉成出貨量。
+- 記憶體成本使 F4Q 毛利率指引降至 71%–72%；GFHK 維持 Buy、目標價 US$345。來源：[[報告_GFHK_NVIDIA_F2Q26_20260901]]。
+
 ### 2026-09-01 Rubin 平台分化觀察
 
 - 使用者轉述 NVL72 TTM 資源集中，勝宏板子問題解決後 VR200 已進入 PVT，NVL72 的 L11 目標於 4Q 中出貨；這些節點仍待 NVIDIA 與供應鏈實際公告／出貨驗證。
@@ -396,3 +402,5 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 - Vera rack 的 use case 仍偏 GPU server control plane；使用者據此認為短期不足以衝擊 x86 enterprise application，並不構成放空 Intel／AMD 的理由。以上為使用者觀點，信心低。
 
 來源：[[memo_富世達_Lumentum_Rubin_20260901]]（使用者 Rubin 觀察，2026-09-01）；詳見 [[分析_富世達_Lumentum_Rubin_20260901]]。
+
+相關公司補充：[[AVGO.US(broadcom)]]（AI ASIC／Ethernet scale-up 夥伴與供應鏈觀察）。
