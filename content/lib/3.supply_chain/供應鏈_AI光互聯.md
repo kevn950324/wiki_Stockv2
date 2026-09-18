@@ -297,3 +297,11 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 [[3665_貿聯-KY（市）]] 在 2026-08-21 法說將光纖組件／線束、XFS 與光學連接列為 AI 基礎設施內容升級方向，並強調銅與光互連依部署條件共存。此為公司策略說法，尚不等同特定客戶新增訂單；後續應追蹤光互連出貨與毛利率。來源：[[活動_貿聯-KY_2026Q2法說_20260821]]。
 
 Semtech（[[SMTC.US(semtech)]]）以 AEC SerDes、1.6T CopperEdge／FiberEdge TIA 與 LPO／NPO design win 參與此供應鏈；其 FY2Q27 量產出貨與供給瓶頸詳見 [[報告_GoldmanSachs_Semtech_20260827]]（2026-08-28）。
+
+## 2026-09-13～14 CIOE 與產業參訪更新
+
+- Morgan Stanley 指向 3.2T NPO 已進入中國 scale-up 部署節奏：Tencent 規劃 1Q27 導入 512-accelerator supernode，Alibaba 目標 4Q26 量產 3.2T NPO、約 2027 年中量產 6.4T UPO；均為會展／券商轉述的 roadmap，信心中。
+- GS 產業參訪認為 800G 以上模組需求與 1.6T 升級持續強勁，但 DSP、雷射與 PCB 供給仍可能限制 2027 年出貨；其對 2027E／2028E 的 800G 以上需求估計為 1.44 億／1.71 億支，屬 estimate。
+- NPO／CPO 的近期受惠環節仍偏向 PIC 耦合與測試設備；高功率 CW 雷射散熱、光學引擎 warpage 與 optical-port contamination 是下一階段量產瓶頸。ASMPT 的 fluxless TCB／AOR 是可能的製程解法，仍待量產驗證。
+
+來源：[[報告_MorganStanley_CIOE光通訊展重點_20260913]]、[[報告_GoldmanSachs_中國光通訊產業參訪_20260914]]。
