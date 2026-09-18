@@ -1,7 +1,7 @@
 ---
 title: "分析_生成式AI商業化與TokenFinOps_20260906"
 query_date: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-18
 sources:
   - "[[AI_Coding_Agent_Buyi_856492_ndx]]"
   - "[[AI_Vendor_Race_Cons_854892_ndx]]"
@@ -113,3 +113,10 @@ related_topics:
 - [[技術_大模型推理經濟學]]
 - [[Anthropic（未）]]
 - [[OpenAI（未）]]
+
+## 2026-09-16 永豐 AI 產業對談補充
+
+- 模型價格下降不必然削弱總需求：開源、蒸餾與推論成本下降可能擴大 token 使用量，但模型商仍面臨價格競爭與 workflow 黏著不足的毛利風險。
+- 投資端更應追蹤 GPU 利用率、token 單位經濟、服務回收期與 hyperscaler 資本支出是否轉化為可持續現金流；訪談估 2027 年 CSP capex 年增約 50%，屬市場／管理層與券商口徑的混合觀察。
+
+來源：[[報告_永豐_AI產業趨勢對談_20260916]]（永豐投顧，2026-09-16）。

@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-09-16
+updated: 2026-09-18
 aliases:
   - CPO
   - Co-Packaged Optics
@@ -810,3 +810,10 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - [[研究_半導體AI供應鏈_20260824]] 轉述 SemiAnalysis 觀點，認為 Rubin Ultra NVL576 的 scale-up 可能先以 NPO 內置雷射為主，CPO 仍並行探索；理由包括 400mW ELS 供給限制、CPO attach yield 與封裝層級測試瓶頸。
 - 該筆記並稱 NPO 可讓 socket、光模組、收發器 PCB 與雷射供應鏈較早取得價值量；這是研究模型與 supply-chain check，非 NVIDIA 正式規格或供應商訂單。
 - 路線判斷：短期 NPO 先行、長期 CPO 接棒的情境與既有頁面方向一致，但 NVL576 mix、內外置雷射及實際量產節奏仍需 BOM、客戶認證與出貨交叉確認。
+
+## 2026-09-18 光焱 NightJar-H 更新
+
+- 光焱 NightJar-H 預計於 2026 年底前進入 HVM／客戶驗證，產品可延伸至 CPO／PIC 的晶圓級光譜與光功率映射；CPO 商用化窗口仍以 2027–2028 年觀察。
+- 公司規劃 12 吋 PIC 測試與新廠擴產，1Q–2Q28 完工、2H28 量產；上述為公司／券商 roadmap，尚不代表特定平台 design win。
+
+來源：[[報告_CTBC_光焱_20260918]]（中信投顧，2026-09-18）。

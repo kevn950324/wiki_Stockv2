@@ -4,7 +4,7 @@ tags:
   - 技術/AI推論
   - 技術/ASIC
   - 產業/AI伺服器
-updated: 2026-09-16
+updated: 2026-09-18
 image_status: "待補來源圖"
 aliases:
   - AI inference
@@ -112,3 +112,8 @@ Dynamo 則位於軟體調度層，把 prefill、decode 與 KV cache routing 解�
 - [[分析_2026-08_AI網通與硬體報告更新]]
 - [[分析_Gartner生成式AI模型市場與Token效率_20260906]]
 - [[報告_DIGITIMES_AI運算架構與演進趨勢_20260822]] — DIGITIMES／MediaTek 講座，2026-08-20
+
+## 2026-09-15–18 推論與 ASIC 平台更新
+
+- 永豐訪談指出，開源模型與蒸餾會壓低單 token 價格，但價格下降可能反過來擴大使用量；GPU 小時租金、利用率與 1–2 年回收期仍是雲端資本支出的核心驗證指標。來源：[[報告_永豐_AI產業趨勢對談_20260916]]。
+- UBS 觀察 inference 需求、ASIC 與 rack-level 整合持續推進，Inventec 的 ASIC 出貨量已超過 AI GPU 伺服器；晶心科則以 Meta 多代 MTIA 專案、80 系列伺服器 CPU／加速器路線作為後續 royalty 與獲利驗證，均待實際出貨與認列確認。來源：[[報告_UBS_台灣高峰會Day1科技硬體_20260915]]、[[報告_CTBC_晶心科_20260918]]。
