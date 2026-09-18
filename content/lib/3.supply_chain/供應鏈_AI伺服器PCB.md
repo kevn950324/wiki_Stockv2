@@ -332,3 +332,7 @@ GS 觀點：看好 HDI 升級趨勢——AI PCB 規格從 3+N+3 HDI（26L MLB �
 
 - [[260805_gs_PCB-CCL]] 將 AI PCB／CCL TAM、層數升級與 ASIC／GPU 多平台需求上修；[[260811_citi_GCE-tripod]] 則補充 CCL 成本可由 PCB 廠於 3Q26 向客戶轉嫁的觀察。
 - [[260807_ms_GCE]]、[[260811_ms_GCE]]、[[260812_gs_ZDT]] 補入 Trainium3、HDI、HLC、泰國／蘇州／淮安擴產與 2H26–2H27 節奏；供應商份額與量產時程均標為 estimate／待驗證。
+
+## 2026-09 Morgan Stanley 材料鏈更新
+
+[[報告_MorganStanley_AI隱形基礎建設_20260913]]將 AI 伺服器 PCB 材料鏈的有效瓶頸定義為「通過認證的高階供給」，而非名目產能：CCL 需同時取得低 Dk／Q-glass、HVLP 銅箔與低損耗樹脂，且高階製程降低有效產出。其模型估 HVLP4+ 市場將由 2025 年不足 US$50m 成長至 2030 年 US$2.8bn（123% CAGR），均為券商 estimate。
