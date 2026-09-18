@@ -404,3 +404,12 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 來源：[[memo_富世達_Lumentum_Rubin_20260901]]（使用者 Rubin 觀察，2026-09-01）；詳見 [[分析_富世達_Lumentum_Rubin_20260901]]。
 
 相關公司補充：[[AVGO.US(broadcom)]]（AI ASIC／Ethernet scale-up 夥伴與供應鏈觀察）。
+
+## 2026-09-02 J.P. Morgan／2026-09-01 富邦與大和更新
+
+- J.P. Morgan NDR 指出 FY28 約 70% 年增框架由 hyperscaler、neocloud、AI lab、主權 AI 與企業需求共同支撐；若無供給限制，營收可能超過倍增。這是管理層／券商轉述，屬 outlook，不是已認列營收。
+- 先進晶圓與記憶體是主要供給瓶頸；NVIDIA 持續與 [[2330_台積電（市）]]、[[MU.US(micron)]]、[[000660.KR(sk_hynix)]]、[[005930.KR(samsung)]] 協調供應。記憶體成本上升同時造成毛利率下壓風險。
+- AI lab 與 neocloud 在終端消費 mix 的占比提高，推論工作負載占比也上升，但平台可轉用使 training／inference 無法精確拆分；OpenAI／Anthropic 約 20% 終端消費占比、FY28 可能接近 25% 為 NDR 口徑，信心中。
+- 大和法說摘要補充 Q2 FY27 營收 US$96.2bn、資料中心 US$89.0bn，以及 Vera Rubin 每 GW 約 US$40bn、目前供給約滿足需求 70%；季度／年度口徑保留來源原文，未合併成單一預測。
+
+來源：[[Nvidia (NVDA.US)_1150902_JPM]]（J.P. Morgan，2026-09-02）、[[大和 Nvidia 2QFY27法說摘要]]（大和，2026-08-27）、[[Jefferies— 芝加哥全球半導體大會要點 Call memo_Fubon 20260901]]（富邦，2026-09-01）。

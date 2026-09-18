@@ -6,7 +6,7 @@ tags:
   - 技術/銅箔
   - 產業/AI伺服器
   - 環節/PCB材料
-updated: 2026-08-27
+updated: 2026-09-18
 ---
 
 # 供應鏈_AI伺服器PCB
@@ -336,3 +336,10 @@ GS 觀點：看好 HDI 升級趨勢——AI PCB 規格從 3+N+3 HDI（26L MLB �
 ## 2026-09 Morgan Stanley 材料鏈更新
 
 [[報告_MorganStanley_AI隱形基礎建設_20260913]]將 AI 伺服器 PCB 材料鏈的有效瓶頸定義為「通過認證的高階供給」，而非名目產能：CCL 需同時取得低 Dk／Q-glass、HVLP 銅箔與低損耗樹脂，且高階製程降低有效產出。其模型估 HVLP4+ 市場將由 2025 年不足 US$50m 成長至 2030 年 US$2.8bn（123% CAGR），均為券商 estimate。
+
+## 2026-09 JPM Rubin Ultra／NVL576 補充
+
+- NVL576 switch tray 的材料選擇可能由 M10／PTFE hybrid 先行，單 rack format 仍可能維持 M8；Rubin Ultra 的高階板材升級仍取決於鑽孔、壓合、機械支撐與量產認證。
+- JPM 指出 NVIDIA 平台演進會同時推升高階 CCL、玻纖布、銅箔與 PCB 製程複雜度；台光電、台燿、金居、南亞等屬供應鏈觀察標的，但報告未揭露各家 NVL576 份額。
+
+來源：[[JPM_PCB__CCL_and_Substra_2026-09-01_5431668(1)]]（J.P. Morgan，2026-09-01）。

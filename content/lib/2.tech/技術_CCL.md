@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/CCL材料
 maturity: mature
-updated: 2026-08-23
+updated: 2026-09-18
 aliases:
   - CCL
   - 覆銅板
@@ -274,3 +274,9 @@ AI 伺服器主要用**薄布**（1067 等規格），vs 消費電子常用厚�
 - [[報告_MorganStanley_AI隱形基礎建設_20260913]]估全球 CCL TAM 由 2025 年 US$19bn 成長至 2030 年 US$47bn（20% CAGR），其中 AI／資料中心相關需求由 US$4bn 至 US$30bn；為券商模型，非產業實績。
 - M8 以上需同步提升低損耗樹脂、HVLP 銅箔、低 Dk／Q-glass，並承受較長壓合週期、較低良率與 12–18 個月客戶認證期；名目 CCL 產能不能直接視為高階有效供給。
 - PTFE 路線、CPO 提前普及與中國供應商認證是關鍵反證條件。
+
+## 2026-09 JPM NVL576 材料路線更新
+
+- [[JPM_PCB__CCL_and_Substra_2026-09-01_5431668(1)]]認為 Rubin Ultra／NVL576 交換器板的關鍵不是單一材料名稱，而是 Df ≤0.0004 的電氣性能目標；M10、PTFE 與 glass-less／glass-free 混合方案仍在技術評估。
+- JPM 的基準情境偏向 M10／PTFE hybrid：PTFE 提供低損耗，保留玻纖的結構支撐與可鑽孔性；純 PTFE、全 glass-less 方案仍受高溫壓合、機械強度、鑽孔與供應鏈經驗限制。
+- 報告估 NVL576 switch tray CCL TAM 約 US$200m／400m／800m（10%／20%／40% 滲透情境），PTFE 影響約 US$100m／200m／400m；全部是 JPM scenario estimate，不是 NVIDIA BOM 或已確認訂單。
