@@ -792,7 +792,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 
 ## 2026-09-08 SEMICON：早期 KGD 與主動對準設備
 
-- 光焱科技（7728）稱 NightJar 高光譜影像系統可在 PIC 晶圓層級以絕對光功率映射定位 AWG 光損失路徑；單 die 掃描與分析約 1 秒，可將 KGD 前移至 insertion 0／1。此為公司說法，尚非特定客戶量產採用。
+- [[7728_光焱（櫃）]]稱 NightJar 高光譜影像系統可在 PIC 晶圓層級以絕對光功率映射定位 AWG 光損失路徑；單 die 掃描與分析約 1 秒，可將 KGD 前移至 insertion 0／1。此為公司說法，尚非特定客戶量產採用。
 - 均豪（4573）展示 1.6T 相容的 Dual-FA 自動主動對準系統；同步 TX／RX 耦合的理論工時可較循序流程減半。公司規劃 2026–2027 年多通道 FAU 組裝、2028 年 3.2T／6.4T CPO 平台，均為 management roadmap。
 - 兩案例支持瓶頸正往晶圓早期缺陷篩選、光損失可視化、奈米級對準與自動化吞吐量集中；不應推論為已取得特定 CPO 平台訂單。
 

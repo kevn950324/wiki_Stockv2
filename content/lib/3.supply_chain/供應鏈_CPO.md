@@ -6,7 +6,7 @@ tags:
   - 技術/CPO
   - 產業/AI伺服器
   - 環節/光通訊
- updated: 2026-09-02
+updated: 2026-09-18
 ---
 
 # 供應鏈_CPO
@@ -190,6 +190,7 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 - 對照供應鏈：[[供應鏈_先進封裝載板]]、[[供應鏈_AI伺服器PCB]]
 
 ## 來源
+
 - [[報告_Broadcom_Bailly_51.2T_CPO_20240314]] — Broadcom 公司公告，2024-03-14（Bailly 51.2T CPO 與 remote laser module）
 - [[web_NVIDIA_CPO_industry_collaboration_20250826]] — NVIDIA Technical Blog，2025-08-26
 
@@ -215,3 +216,8 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 - [[CPO時代來臨，AI_高速互連中長期技術演進與挑戰_DIGITIMES]]（DIGITIMES，2026-08-21）補充 51.2T CPO、3.2T 光引擎、800G／1.6T 交換器升速，以及封裝、熱管理、陣列測試與標準化的量產瓶頸。
 - [[Scale全棧式方案成形，伺服器連網晶片業者競爭升級_DIGITIMES]]（DIGITIMES，2026-08-21）將 AI Fabric 供應鏈從 GPU／交換器 ASIC 擴展至 SerDes、DSP、CPO、客製 ASIC 與跨機櫃光互連；平台採用仍屬研究整理。
 - [[分析_富世達_Lumentum_Rubin_20260901]]：補充 UHP／ELS／COS、OCS 與 Rubin 平台時程的交叉觀察；使用者轉述部分保留低至中信心。
+
+## 2026-09-18 光焱測試設備補充
+
+- [[7728_光焱（櫃）]]以 NightJar／NightJar-H、FireFox 與 ProbeInsight 切入 PIC 晶圓級與 CPO 光電轉換測試，對應 CPO Insertion 1／1.5 等早期測試節點；HVM 與客戶驗證時程仍待出貨確認。
+- 來源：[[報告_CTBC_光焱_20260918]]（中信投顧，2026-09-18）。
