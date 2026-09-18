@@ -501,3 +501,8 @@ Morgan Stanley（2026-02-22）首次升評欣興至 OW（from EW）、南電至 
 
 - [[260804_ms_ABF]]、[[260811_gs_nypcb]]、[[daiwa 3037]] 與 [[gs 3037]] 顯示 2Q26 ABF 毛利率與 ASP 改善，高階交換器／AI ASIC 需求推動欣興與南電擴產；數字保留為券商 estimate 或公司展望。
 - [[FC-BGA (ABF) substrate JPM 260721]] 指出 EMIB-T 尚未建立量產技術，CoWoP、玻璃核心、翹曲、鑽孔精度與良率仍是替代路線的主要瓶頸，不能直接視為 ABF 已被取代。
+
+## 2026-09 更新
+
+- [[報告_MorganStanley_SEMICON台灣_20260902]] 轉述欣興於 SEMICON Taiwan 指出，AI 晶片推升 ABF 尺寸、層數與設計複雜度，ABR 與 T-glass 仍為上游供應限制；此為公司／券商觀察，非全產業定量供需預測。
+- [[報告_MorganStanley_ABF載板_20260906]] 認為 Broadcom 與 Toppan 的 AST 新加坡廠較像確保 FC-BGA 供應，而非垂直整合；BT 漲價的原料壓力可能在 2027 年隨新增供應商認證而緩和，ABF 緊缺的投資論點不因此改變。
