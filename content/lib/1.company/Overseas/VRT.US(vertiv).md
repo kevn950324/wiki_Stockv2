@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 技術/800VDC
   - 環節/電源
-updated: 2026-08-14
+updated: 2026-09-19
 aliases:
   - Vertiv
   - 維諦
@@ -18,6 +18,7 @@ aliases:
 related_companies:
   - "[[NVDA.US(nvidia)]]"
   - "[[GEV.US(ge_vernova)]]"
+  - "[[6409_旭隼（市）]]"
 image_status: "待補來源圖"
 ---
 
@@ -56,6 +57,7 @@ Vertiv 是資料中心電源與熱管理（含 UPS、power rack、配電、液�
 | 公司 | 關係 | 說明 |
 |------|------|------|
 | [[NVDA.US(nvidia)]] | 下游生態 | AI 機櫃供電/散熱配套需求來源 |
+| [[6409_旭隼（市）]] | 客戶／UPS與HVDC鏈 | 旭隼為 UPS／HVDC ODM，Vertiv 為其公司描述中列出的主要品牌客戶之一；來源：UBS 2026-09-15，關係仍需以公司揭露追蹤。 |
 
 ## 券商觀點與催化劑
 
