@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 環節/光纖
   - 產業/光通訊
-updated: 2026-08-30
+updated: 2026-09-19
 aliases:
   - Corning
   - 康寧
@@ -20,6 +20,7 @@ related_companies:
   - "[[GFS.US(globalfoundries)]]"
   - "[[NVDA.US(nvidia)]]"
   - "[[INTC.US(intel)]]"
+  - "[[3055_蔚華科（市）]]"
 image_status: "待補來源圖"
 ---
 
@@ -75,6 +76,7 @@ flowchart LR
 | 光纖 | AI 叢集光纖佈線 | [[NVDA.US(nvidia)]] + 雲端大廠 |
 | 保偏光纖（PMF）| 外置 ELS 至 CPO／NPO 光引擎的偏振維持光路 | 匿名專家列 Corning 與長飛為主要玩家；需以公司揭露驗證 |
 | 玻璃基板原片 | 先進封裝 | [[INTC.US(intel)]] 3DGS、[[2330_台積電（市）]] CoPoS |
+| 玻璃基板光波導檢測合作 | 玻璃基板內光波導與 TGV 孔的非破壞檢測 | [[3055_蔚華科（市）]]；國泰證期 Call Memo 稱雙方合作，未揭露合作範圍與商業條件 |
 | 顯示器玻璃 | 電視 / 行動裝置面板 | 三星、LG、BOE |
 
 ## 供應鏈位置
@@ -82,6 +84,7 @@ flowchart LR
 - 技術合作：[[GFS.US(globalfoundries)]]（GLASSBRIDGE + Fotonix）
 - 戰略合作：[[NVDA.US(nvidia)]]（光纖）
 - 玻璃基板原片客戶：[[INTC.US(intel)]]、[[2330_台積電（市）]]
+- 技術合作：[[3055_蔚華科（市）]]；玻璃基板光波導檢測合作為券商 memo 轉述，非 Corning 公告。
 
 ## 相關公司
 
@@ -90,6 +93,7 @@ flowchart LR
 | [[GFS.US(globalfoundries)]] | 技術合作 | GLASSBRIDGE + Fotonix CPO 連接器 |
 | [[NVDA.US(nvidia)]] | 戰略合作 | 光纖供應，光進銅退 |
 | [[INTC.US(intel)]] | 玻璃客戶 | 3DGS 玻璃基板 |
+| [[3055_蔚華科（市）]] | 技術合作 | 國泰證期 2026-09-10 稱雙方合作玻璃基板光波導檢測；細節未公開 |
 
 ## 相關技術
 
@@ -103,3 +107,4 @@ flowchart LR
 - [[技術_光互連]]（NVIDIA×Corning 戰略合作 2026-05-06）
 - [[技術_玻璃基板]]（玻璃基板原片供應）
 - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（匿名專家將 Corning 列為保偏光纖主要玩家；日期不詳，2026-08-30 收錄，信心低）
+- [[memo_國泰證期_蔚華科CallMemo_20260910]]（國泰證期研究部，2026-09-10；蔚華科與 Corning 的玻璃基板光波導檢測合作，待公司公告佐證）
