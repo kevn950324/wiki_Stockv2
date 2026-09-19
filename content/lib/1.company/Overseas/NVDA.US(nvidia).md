@@ -413,3 +413,5 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 - 大和法說摘要補充 Q2 FY27 營收 US$96.2bn、資料中心 US$89.0bn，以及 Vera Rubin 每 GW 約 US$40bn、目前供給約滿足需求 70%；季度／年度口徑保留來源原文，未合併成單一預測。
 
 來源：[[Nvidia (NVDA.US)_1150902_JPM]]（J.P. Morgan，2026-09-02）、[[大和 Nvidia 2QFY27法說摘要]]（大和，2026-08-27）、[[Jefferies— 芝加哥全球半導體大會要點 Call memo_Fubon 20260901]]（富邦，2026-09-01）。
+
+- [[分析_AgenticAI光互連與先進封裝瓶頸_20260916]]

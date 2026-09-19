@@ -506,3 +506,5 @@ CoWoS 是近年 NVIDIA 出貨最主要的產能限制：
 - JEDEC JESD270-4（HBM4 規格）；SK Hynix、Samsung、Micron 2026-06 完成 Rubin 認證
 - [[活動_達興材料法說_20260814]] — 統一投顧，2026-08-14（RL／TBM、CoWoS 材料驗證與量產進度）
 - [[活動_頌勝科技法說_20260814]] — 頌勝科技法說 memo，2026-08-14（CMP Pad／Membrane 與 CoWoS／SoIC 應用）
+
+- [[分析_AgenticAI光互連與先進封裝瓶頸_20260916]]

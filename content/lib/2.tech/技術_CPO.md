@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-09-18
+updated: 2026-09-20
 aliases:
   - CPO
   - Co-Packaged Optics
@@ -45,6 +45,14 @@ aliases:
   - Optical NVLink
   - Direct Optical NVLink
   - Two-layer all-to-all NVLink
+  - Optical I/O
+  - OIO
+  - KGOE
+  - Known-Good Optical Engine
+  - GC
+  - Grating Coupler
+  - EC
+  - Edge Coupler
 ---
 
 # 技術_CPO
@@ -817,3 +825,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - 公司規劃 12 吋 PIC 測試與新廠擴產，1Q–2Q28 完工、2H28 量產；上述為公司／券商 roadmap，尚不代表特定平台 design win。
 
 來源：[[報告_CTBC_光焱_20260918]]（中信投顧，2026-09-18）。
+
+## 2026-09-16 講座術語補充
+
+[[memo_騰旭_AI產業趨勢簡報_20260916]] 將 OIO、KGOE、GC 與 EC 納入 CPO／NPO 的耦合與測試討論；本頁已補充這些 aliases 以統一檢索。該講座關於 NVL576 光引擎顆數、NPO／CPO 供應鏈與 2028 時程均屬二次整理，詳見 [[分析_AgenticAI光互連與先進封裝瓶頸_20260916]] 的來源邊界，不能視為已確認平台 BOM 或訂單。
