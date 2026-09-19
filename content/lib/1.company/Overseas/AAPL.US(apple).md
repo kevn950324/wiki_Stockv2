@@ -10,14 +10,13 @@ tags:
   - 供應鏈/先進封裝載板
   - 環節/品牌客戶
   - 產業/AI伺服器
-updated: 2026-09-16
+updated: 2026-09-19
 aliases:
   - Apple
   - 蘋果
 related_companies:
   - "[[2330_台積電（市）]]"
   - "[[INTC.US(intel)]]"
-image_status: "待補來源圖"
 ---
 
 # AAPL.US(apple)
@@ -46,6 +45,10 @@ Apple（蘋果），全球消費電子龍頭，本次主題範圍內的角色是
 | Baltra AI server 晶片 | Apple 內部 AI 加速器 | 三星電機（T-glass） |
 
 ## 圖片 / 架構圖
+
+![[報告_GFHK_Apple_20260915_001.png]]
+
+圖說：GF Securities (Hong Kong) 對 iPhone 各世代季度 build plan 的預估；iPhone 18 的 2026 年配置與年增率均屬券商模型，應以實際供應鏈出貨驗證。（2026-09-15）
 
 ```mermaid
 flowchart LR
@@ -111,6 +114,13 @@ flowchart LR
 ## 2026-09 iPhone 18 事件觀察
 
 富邦投顧估算 iPhone 18 Pro Max／Fold 定價可能達 US$1,799／2,399，成本上升主因包括 2nm 晶圓、記憶體與快閃記憶體，以及鏡頭／軸承升規；這是券商模型，不是 Apple 定價或產品規格公告。報告並預期可變光圈鏡頭首度導入 iPhone 18，潛在受惠者為 [[3008_大立光（市）]]。
+
+## 2026-09-15 GFHK iPhone 18 更新
+
+- GF Securities (Hong Kong) 維持 Hold／目標價 US$369（35x FY27E EPS）。該行以預購等待期偏短、規格升級有限與高容量機型加價，判斷 iPhone 18 Pro／Pro Max 初期需求偏溫和；此為券商通路觀察與估值判斷。
+- 報告將 2026 年 iPhone Duo EMS 產量由 700 萬支降至 600 萬支，並將 iPhone 18 Pro／Pro Max build plan 降至 7,200 萬支，理由為轉軸與可變光圈鏡頭約束；DRAM／NAND 成本上升亦可能壓縮定價彈性。上述皆為券商 estimate，須以 Apple 財報、供應鏈營收與實際交期驗證。
+
+來源：[[報告_GFHK_Apple_20260915]]（GF Securities (Hong Kong)，2026-09-15）。
 
 ## 相關頁面
 

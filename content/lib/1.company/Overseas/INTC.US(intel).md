@@ -14,7 +14,7 @@ tags:
   - 環節/先進封裝服務
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-08-22
+updated: 2026-09-19
 aliases:
   - Intel
   - 英特爾
@@ -25,7 +25,6 @@ related_companies:
   - "[[3037_欣興（市）]]"
   - "[[8046_南電（市）]]"
   - "[[GLW.US(corning)]]"
-image_status: "待補來源圖"
 ---
 
 # INTC.US(intel)
@@ -42,7 +41,7 @@ Intel（英特爾），全球 CPU 大廠，本次主題的關鍵角色是**玻�
 
 ## 核心技術／競爭優勢
 
-- **亞利桑那州玻璃基板量產線**：累計投入超過 10 億美元建設研發量產線（claim 類型 fact，信心中；來源僅引述未附文件編號）
+- **亞利桑那州玻璃基板量產線**：累計投入超過 10 億美元建設研發量產線（claim 類型 fact，信心中；來源僅引述未附文號）
 - **首款玻璃基板 Server CPU 已展示**：2026 年 1 月展示搭載玻璃核心基板的 Xeon 6+ **"Clearwater Forest"** 處理器
 - **3DGS 自有量產線動工**：2026 年 4 月，Intel 支持的 3DGS（3D Glass Substrate）計畫正式動工，目標**年產約 7 萬個**玻璃基板
 - **時程窗口**：2026-2030 規劃大規模商用（claim 類型 thesis，信心中）
@@ -56,6 +55,10 @@ Intel（英特爾），全球 CPU 大廠，本次主題的關鍵角色是**玻�
 | 3DGS 玻璃基板自製產線 | 自家先進封裝載體 | 自家 CPU / AI 加速器產品 |
 
 ## 圖片 / 架構圖
+
+![[報告_GFHK_Intel_20260915_001.png]]
+
+圖說：GF Securities (Hong Kong) 對 Intel 7／3、18A 與 14A 的年末 installed capacity 預估；18A／14A 產能爬坡是券商情境，非 Intel 確認產能承諾。（2026-09-15）
 
 ![[260726_ms_glass-in-advanced-packaging_001.png]]
 
@@ -160,6 +163,14 @@ CEO Lip-Bu Tan 接任後的核心重點：
 **晶圓廠產能擴張**：Oregon、Arizona 仍有空間擴充；Ohio 加速推進；Germany 廠已關閉。Memory 短缺是 Intel 及其夥伴的關注點。
 
 > MS 評語：「我們錯過了英特爾股票的這波上漲，主要是對路線圖的疑慮；我們認為市場預期份額對 AMD 的回升過於樂觀——AMD 的 Venice 仍具更多晶圓採購能力。短期來看，先進製程與 CPU 短缺提供正面盈餘環境。」
+
+## 2026-09-15 GFHK 18A／EMIB 更新
+
+- GF Securities (Hong Kong) 維持 Buy，目標價由 US$136 調升至 US$150（SOTP）。該行估 18A 年底產能為 40K wafers/month、14A 為零；至 2027／2028 年分別為 60K／6K 與 80K／24K，均屬券商模型。
+- 報告稱 server CPU Clearwater Forest（CWF）預計 2026 年底小量、2027Q1 完整量產，Diamond Rapids 主要量產時點約 2027 年中；18A server CPU yield 約 50%，較 6 月的約 20% 改善，屬供應鏈查核，非 Intel 公告。
+- EMIB 載板初期測試良率據稱由約 20–25% 提升至 8 月約 45%，下一步為認證測試車逾 50%、2027 年 1 月約 55%。報告對 2027E／2028E backend revenue 的 US$1.1bn／US$7bn 及 2029 年 HBM base-die 專案均為 estimate／推論，需以客戶、良率與產能公告驗證。
+
+來源：[[報告_GFHK_Intel_20260915]]（GF Securities (Hong Kong)，2026-09-15）。
 
 ## 來源
 - [[BofA-Intel read through 20260724]]（BofA Global Research，2026-07-24；Intel 製程達標、先進封裝與產業鏈估值更新）
