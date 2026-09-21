@@ -130,6 +130,8 @@ Nebius Group N.V. 為阿姆斯特丹掛牌（NASDAQ: NBIS）AI 雲端公司，20
 - 報告_BofA_NBIS_Nebius_2Q26預覽_20260720（BofA Global Research，Tal Liani，2026-07-20，評等：Buy，PT $280）
 - [[Nebius（NBIS US）0813]] — 中信投顧，2026-08-13；2Q26 營收 US$582m、ARR US$3.0bn、AI Cloud 佔比約 98%、5GW 電力布局與 FY26 指引重申。
 
+- [[2026-07-20-NBIS.OQ-BofA Global Research-Nebius Group N.V. 2Q26 Preview focus is on capacity, capex...-123251711]]（2026-07-20）
+
 ## 相關頁面
 
 - [[時程_2026記憶體與AI催化劑]]

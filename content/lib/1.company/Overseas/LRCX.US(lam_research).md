@@ -82,6 +82,8 @@ flowchart LR
 
 - [[報告_CTBC_LamResearch_20260730]]（2026-07-30）
 
+- [[LRCX Q4 Earnings Call memo_Fubon 20260730]]（2026-07-30）
+
 ## 相關頁面
 
 - [[6829_千附精密（市）]]

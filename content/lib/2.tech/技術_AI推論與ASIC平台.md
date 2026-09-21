@@ -119,3 +119,10 @@ Dynamo 則位於軟體調度層，把 prefill、decode 與 KV cache routing 解�
 - UBS 觀察 inference 需求、ASIC 與 rack-level 整合持續推進，Inventec 的 ASIC 出貨量已超過 AI GPU 伺服器；[[6533_晶心科（市）]]則以 Meta 多代 MTIA 專案、80 系列伺服器 CPU／加速器路線作為後續 royalty 與獲利驗證，均待實際出貨與認列確認。來源：[[報告_UBS_台灣高峰會Day1科技硬體_20260915]]、[[報告_CTBC_晶心科_20260918]]。
 
 - [[分析_AgenticAI光互連與先進封裝瓶頸_20260916]]
+
+## Citi 2026-09-20 更新
+
+- Citi 將 AI 下一階段成長向量由 GPU 延伸至網路晶片、CPU 與客製 ASIC；ASIC 單位可由低基期快速成長，但 NVIDIA 仍可能保留較高的系統價值份額。
+- Google TPU 案例顯示，MediaTek 可由 I/O／SerDes 延伸至部分 compute implementation，GUC 則承接 CPU 的 COT／backend-only service；EMIB-T 封裝良率與 OSAT／基板整合是早期量產的執行風險。
+
+來源：[[報告_Citi_US市場回饋_AI硬體_20260920]]（Citi，2026-09-20；券商觀點／信心中）。

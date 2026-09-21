@@ -116,3 +116,5 @@ Cerebras Systems（NASDAQ: CBRS）是美國 AI 加速器公司，以全球唯一
 ## 來源
 
 - 報告_MS_Cerebras_CBRS_初始覆蓋_20260608（Morgan Stanley，Joseph Moore，2026-06-08，評等：Overweight，PT $250，初始覆蓋）
+
+- [[CEREBRAS_20260608_0419]]（2026-06-08）

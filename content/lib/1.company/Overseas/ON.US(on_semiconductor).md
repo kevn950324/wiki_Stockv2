@@ -92,6 +92,8 @@ flowchart LR
 
 - [[報告_CTBC_ONSemiconductor_20260804]]（中國信託，2026-08-04）
 
+- [[20260902_0842_4_Global_Technology_Analog_Recap_Margins_Overshadow_Data_Center]]（2026-08-25）
+
 ## 相關頁面
 
 - [[時程_2026記憶體與AI催化劑]]

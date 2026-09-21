@@ -84,6 +84,8 @@ Texas Instruments（TI）是全球主要類比 IC 與嵌入式半導體供應商
 
 - [[TXN Q2 Earnings Call memo_Fubon 20260723]] — 富邦證券法人業務處，2026-07-23
 
+- [[20260902_0842_4_Global_Technology_Analog_Recap_Margins_Overshadow_Data_Center]]（2026-08-25）
+
 ## 相關頁面
 
 - [[技術_800VDC供電架構]]

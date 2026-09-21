@@ -180,6 +180,21 @@ CEO Lip-Bu Tan 接任後的核心重點：
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（V-groove 玻璃耦合器 ECTC 2026；450 TC IL <0.7dB 被動對準，2026-06-29）
 - [[Semiconductors 260615 MS public company bus tour ALAB MRVL INTC]]（MS bus tour，2026-06-15）
 
+- [[260724_ubs_intel-implication]]（2026-07-24）
+- [[260824_2303_聯電_GFHK - UMC  update]]（2026-08-24）
+- [[Applied Materials（AMAT US）0814]]（2026-08-14）
+- [[Computex 2025評析_CTBC250523]]（2025-05-23）
+- [[GHHK - ASIC Outlook Wrap-up]]（2026-08-23）
+- [[報告_GFHK_Intel_20260915]]（2026-09-15）
+- [[報告_JMEP_JohnLau_Chiplet水平互連綜述_20230401]]（2023-04-01）
+- [[報告_JPM_力積電_20260714]]（2026-07-14）
+- [[報告_MS_ABF產業_20260222]]（2026-02-22）
+- [[報告_MS_ABF產業_260508]]（2026-05-08）
+- [[報告_Macquarie_聯電首評_20260715]]（2026-07-15）
+- [[報告_UBS_聯電2303_20260624]]（2026-06-24）
+- [[報告_富邦_2027年半導體展望_20260728]]（2026-07-28）
+- [[智原(3035,N_中立)-CTBC260729]]（2026-07-29）
+
 ## 相關頁面
 
 - [[分析_2026-08_AI網通與硬體報告更新]]

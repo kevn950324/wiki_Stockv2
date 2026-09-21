@@ -112,6 +112,9 @@ SemiAnalysis 估 FY2026 全年營收 $50B+（來源：報告_SemiAnalysis_CXMT_D
 - [[報告_MorganStanley_CXMT_DRAM_20260826]]（Morgan Stanley，2026-08-26；OW、RMB88，DRAM／HBM 產能與 3D DRAM 估計）
 - 報告_SemiAnalysis_CXMT_DRAM_IPO_20260623 — SemiAnalysis（Ray Wang, Myron Xie, Dylan Patel），2026-06-23
 
+- [[cxmt-dram-ipo]]（2026-06-23）
+- [[報告_UBS_CXMT首次覆蓋_20260807]]（2026-08-07）
+
 ## 相關頁面
 
 - [[分析_CXMT_DRAM_IPO分析]]

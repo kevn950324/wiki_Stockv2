@@ -829,3 +829,10 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 ## 2026-09-16 講座術語補充
 
 [[memo_騰旭_AI產業趨勢簡報_20260916]] 將 OIO、KGOE、GC 與 EC 納入 CPO／NPO 的耦合與測試討論；本頁已補充這些 aliases 以統一檢索。該講座關於 NVL576 光引擎顆數、NPO／CPO 供應鏈與 2028 時程均屬二次整理，詳見 [[分析_AgenticAI光互連與先進封裝瓶頸_20260916]] 的來源邊界，不能視為已確認平台 BOM 或訂單。
+
+## Citi 2026-09-20 更新：交換器級先行、封裝級較晚
+
+- Citi 將 CPO 導入拆成兩條時程：switch-level CPO 可能早於直接貼近 GPU／compute package 的 package-level CPO；兩者不宜用單一「CPO 量產年份」概括。
+- 近期瓶頸集中在外部雷射源、光纖／FAU 供給、光纖陣列組裝、精密對位與測試；這使光耦合、封裝與測試的價值量上移，但供應商份額、良率與出貨節奏仍待客戶驗證。
+
+來源：[[報告_Citi_US市場回饋_AI硬體_20260920]]（Citi，2026-09-20；券商觀點／信心中）。

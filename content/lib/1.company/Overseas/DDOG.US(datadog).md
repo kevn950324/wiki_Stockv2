@@ -576,6 +576,9 @@ gantt
 - [[memo_DDOG_NEWR_SPLK_DT_四強比較_不誤正業R_20220101]] — 不誤正業R，四強比較整理
 - [[分析_DevSecOps_AI安全衝擊]] — Claude Code Security 衝擊分析，DDOG 相對受益論點
 
+- [[memo_DDOG_NEWR_SPLK_DT_不誤正業R原文_20200720]]（2020-07-20）
+- [[memo_資安_ClaudeCode安全衝擊_凱基_2025]]（2025-01-01）
+
 ## 相關頁面
 
 - [[分析_RBRK_Rubrik]]

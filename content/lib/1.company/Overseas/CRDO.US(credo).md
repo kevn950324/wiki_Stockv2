@@ -148,3 +148,17 @@ related_companies:
 
 - [[ALAB.US(astera labs)]]
 - [[SMTC.US(semtech)]]
+
+## 來源
+
+- [[20260709_0823_1308120]]（2026-07-03）
+- [[20260709_0823_250708_ubs_bizlink]]（2026-07-07）
+- [[CRDO_PDF_0120]]（2026-01-20）
+- [[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]（2025-09-30）
+- [[Optical Networking 260312 Citrini AI connectivity optics]]（2026-03-12）
+- [[RB_CRDO_0120]]（2026-01-20）
+- [[凱基-Credo (CRDO.US)-20260303]]（2026-03-03）
+- [[報告_GFHK_Credo_20260901]]（2026-09-02）
+- [[報告_JPMorgan_貿聯-KY_20260902]]（2026-09-02）
+- [[報告_MorganStanley_貿聯-KY_20260902]]（2026-09-02）
+- [[活動_貿聯-KY_2026Q2法說_20260821]]（2026-08-21）

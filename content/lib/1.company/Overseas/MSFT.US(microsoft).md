@@ -71,6 +71,10 @@ Microsoft 以 Azure、Microsoft 365、Copilot、Windows、企業資安與開發�
 
 - [[MSFT Q4 Earnings Call memo_Fubon 20260730]]（富邦證券，2026-07-30）
 
+- [[2480 敦陽科｜20260825｜富邦]]（2026-08-25）
+- [[2Q財報驗證AI需求，資本回報成新焦點-CTBC20260805]]（2026-08-05）
+- [[AI_Coding_Agent_Buyi_856492_ndx]]（2026-09-02）
+
 ## 相關頁面
 
 - [[分析_生成式AI商業化與TokenFinOps_20260906]]

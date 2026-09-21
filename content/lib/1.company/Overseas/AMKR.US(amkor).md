@@ -155,6 +155,15 @@ flowchart LR
 - [[報告_Snapshot_半導體設備封測展望2026_20251124]]（Snapshot Research，封測展望，2025-11-24）
 - [[memo_日月光_CoWoS_CPO_專家會議_20260520]]（封測商管道，2026-05；Amkor 產能 14K→20-25K→27K、CoWoS-R Amkor 70%、美國廠 2027 Q3-Q4）
 
+- [[(付費內容) SemiAnalysis Co-Packaged Optics (CPO) Book – Scaling with Light for the Next Wave of Interconnect]]（2026-01-03）
+- [[AMKR Q2 Earnings Call memo_Fubon 20260728]]（2026-07-28）
+- [[GFHK - ASE 2Q26 review]]（2026-07-30）
+- [[報告_IMAPS_JohnLau_2.3D整合FOCoS綜述_20230501]]（2023-05-01）
+- [[報告_JMEP_JohnLau_Chiplet水平互連綜述_20230401]]（2023-04-01）
+- [[報告_JPM_台積電CoWoS先進封裝_20260709]]（2026-07-09）
+- [[報告_Nomura_日月光投控3711_20260630]]（2026-06-30）
+- [[報告_Semianalysis_CPO_20260102]]（2026-01-02）
+
 ## 相關頁面
 
 - [[時程_2026記憶體與AI催化劑]]

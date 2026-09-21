@@ -175,6 +175,9 @@ gantt
 - [[Cybersec 260714 UBS_Positive June Q checks]] — UBS，2026-07-14
 - [[Cybersec 260720 WF_2Q26 on-cycle security reseller survey]] — Wells Fargo，2026-07-20
 
+- [[Cybersec 260707 Evercore_Cybercheck round 1]]（2026-07-07）
+- [[Cybersec 260710 WF_Preventive security sees temporary boost]]（2026-07-10）
+
 ## 相關頁面
 
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]

@@ -193,6 +193,16 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - [[research_dFAU_Coherent_CPO_20260830]]（Coherent OFC 2026 官方簡報／新聞稿與 Lightmatter dFAU 官方規格，2026-03-17、2026-08-30 擷取）
 - [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]]（毛利率組合、1.6T 良率、北美份額外溢與 OCS／ELS／dFAU 爬坡；日期不詳，2026-08-30 收錄，信心低）
 
+- [[(付費內容) SemiAnalysis Co-Packaged Optics (CPO) Book – Scaling with Light for the Next Wave of Interconnect]]（2026-01-03）
+- [[Jefferies— 芝加哥全球半導體大會要點 Call memo_Fubon 20260901]]（2026-09-01）
+- [[Optical 260703 Daiwa AIDC interconnect OT NPO CPO OCS]]（2026-07-03）
+- [[Optical Networking 260417 GS AI scale out scale up]]（2026-04-17）
+- [[memo_OCPAPAC_CPO_NPO_XPO專家會議_20260820]]（2026-08-20）
+- [[凱基-Coherent(COHR.US)-20260205]]（2026-02-05）
+- [[報告_申万宏源_光通信光電集成深度_20260630]]（2026-06-30）
+- [[報告_金正禾論壇_InP晶圓代工CPO_20260130]]（2026-01-30）
+- [[活動_Lumentum_Fubon_LITE_IR_20260820]]（2026-08-20）
+
 ## 相關頁面
 - [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
 

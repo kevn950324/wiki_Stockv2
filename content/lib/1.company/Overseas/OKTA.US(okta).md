@@ -116,6 +116,11 @@ BMO（Keith Bachman）在 2026 年初升評後，將 OKTA 列為**首選（Top P
 - [[報告_BMO_資安可觀測性_20260612]] — BMO，資安可觀測性（OKTA Top Pick），2026-06-12
 - [[報告_Jefferies_資安_20260416]] — Jefferies VAR Survey（Agentic Identity），2026-04-16
 
+- [[Cybersec 260608 Truist_The age of Mythos & Daybreak]]（2026-06-08）
+- [[Cybersec 260609 UBS_Themes from Gartner security conference]]（2026-06-09）
+- [[Cybersec 260714 UBS_Positive June Q checks]]（2026-07-14）
+- [[Cybersec 260720 WF_2Q26 on-cycle security reseller survey]]（2026-07-20）
+
 ## 相關頁面
 
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]

@@ -144,3 +144,5 @@ graph TD
 
 - [[memo_DDOG_NEWR_SPLK_DT_不誤正業R原文_20200720]] — 不誤正業R，2020-07-20，Rlinco
 - [[memo_DDOG_NEWR_SPLK_DT_四強比較_不誤正業R_20220101]] — 不誤正業R 整理（2022 版），2022
+
+- [[Magic_Quadrant_for_D_823799_ndx]]（2025-10-27）

@@ -95,6 +95,10 @@ Oracle Corporation（ORCL.US）是全球最大的企業資料庫廠商，近年�
 
 - [[報告_凱基投顧_美國軟體產業_ORCL_SNOW_MDB_20260611]]（凱基，2026-06-11；F4Q26 財報 + FY27 展望）
 
+- [[meta-compute-neocloud]]（2026-07-02）
+- [[nvidia-gpu-backstop]]（2026-07-06）
+- [[報告_GFHK_Dell_20260828]]（2026-08-28）
+
 ## 相關頁面
 
 - [[DELL.US(dell)]]

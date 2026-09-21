@@ -145,3 +145,12 @@ GS 光互連供應鏈全景圖（`Optical Networking 260417 GS AI scale out scal
 - [[COHR.US(coherent)]]
 - [[技術_光電芯片]]
 - [[技術_銦行業]]
+
+## 來源
+
+- [[251113 Macquarie AI Networking explosive growth enablers]]（2025-11-13）
+- [[251113_mq_lmoc-OP-initiation]]（2025-11-13）
+- [[Optical 260703 Daiwa AIDC interconnect OT NPO CPO OCS]]（2026-07-03）
+- [[Optical Networking 260417 GS AI scale out scale up]]（2026-04-17）
+- [[gs 3081]]（2026-07-28）
+- [[元大投顧 - 光通訊產業 20250824]]（2025-08-24）

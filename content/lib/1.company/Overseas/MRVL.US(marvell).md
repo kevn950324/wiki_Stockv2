@@ -132,6 +132,16 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 - [[報告_中信投顧_Marvell_20260901]]（中國信託投顧，2026-09-01；FY2Q27、FY27／FY28 展望與 800G／1.6T 光互連）
 - [[web_Marvell_1.6T光學DSP_20260312]]（Marvell 官方新聞稿，2026-03-12；Ara T／Ara X／Petra／Aquila M 與端到端互連平台）
 
+- [[260521_2360致茂_aletheia_ATE]]（2026-05-21）
+- [[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]（2025-09-30）
+- [[GFHK - Marvell Preview]]（2026-07-17）
+- [[GHHK - ASIC Outlook Wrap-up]]（2026-08-23）
+- [[報告_GoldmanSachs_Marvell_20260827]]（2026-08-28）
+- [[報告_Jefferies_日本先進封裝趨勢_20260721]]（2026-07-21）
+- [[報告_SemiAnalysis_NPO光互連接棒_20260713]]（2026-07-13）
+- [[報告_申万宏源_光通信光電集成深度_20260630]]（2026-06-30）
+- [[活動_JPM_頎邦訪談_20260527]]（2026-05-27）
+
 ## 相關頁面
 
 - [[分析_SEMICON_Taiwan_2026矽光子量產瓶頸]]

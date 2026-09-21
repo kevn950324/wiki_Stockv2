@@ -112,3 +112,5 @@ flowchart LR
 
 - [[報告_國泰_SuperMicroFY26財報_20260813]]（國泰證期研究部，2026-08-13；FY26Q4、FY27 指引、液冷產能與 DCBBS）
 - [[Super Micro Computer（SMCI US）0813]]（中信投顧，2026-08-13；GB300／Blackwell、DCBBS、液冷與 FY27–FY28 財務估計）
+
+- [[報告_GHHK_AI伺服器散熱_20260901]]（2026-09-08）

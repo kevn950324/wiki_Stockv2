@@ -71,3 +71,9 @@ MACOM 是罕見同時具備 **RF、毫米波、光通訊 TIA/Driver** 的整合�
 
 - [[SMTC.US(semtech)]]
 - [[技術_COC光模組封裝]]
+
+
+## 來源
+
+- [[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]（2025-09-30）
+- [[research_COC_Chip_on_Carrier_20260830]]

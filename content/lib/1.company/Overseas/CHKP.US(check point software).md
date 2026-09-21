@@ -141,6 +141,11 @@ Check Point Software Technologies 是以網路安全為核心的以色列軟體�
 - [[CHKP_2Q26_Earnings_Presentation]] — Check Point Software Technologies，2026-07-30
 - [[Check Point Software Technologies Ltd Earnings Call 2026730 DN000000003114523854 (1)]] — Bloomberg transcript，2026-07-30
 
+- [[2026-07-31-CHKP.OQ-Morningstar, Inc.-Morningstar  Check Point Earnings Next-Quarter Guidance Di...-123517419]]（2026-07-31）
+- [[Cybersec 260707 Barclays_Security VaR Call]]（2026-07-07）
+- [[Cybersec 260710 Barclays_Another Security VaR Call]]（2026-07-10）
+- [[Cybersec 260720 WF_2Q26 on-cycle security reseller survey]]（2026-07-20）
+
 ## 相關頁面
 
 - [[分析_Check Point_GTM轉型與AI資安2026]]

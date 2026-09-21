@@ -191,6 +191,20 @@ SemiAnalysis 估計 Meta 可盈利吸收 **10x 廣告推薦算力增加**，每�
 - 報告_SemiAnalysis_Meta算力Neocloud策略_20260702（SemiAnalysis，2026-07-02）
 - 報告_SemiAnalysis_Meta超級智慧實驗室一年進展_20260709（SemiAnalysis，2026-07-09）
 
+- [[260521_2360致茂_aletheia_ATE]]（2026-05-21）
+- [[AI_Vendor_Race_Cons_854892_ndx]]（2026-05-27）
+- [[META Q2 Earnings Call memo_Fubon 20260730]]（2026-07-30）
+- [[Market_Share_Analysi_854123_ndx]]（2026-05-20）
+- [[meta-compute-neocloud]]（2026-07-02）
+- [[meta-msl-1yr]]（2026-07-09）
+- [[nvidia-gpu-backstop]]（2026-07-06）
+- [[token-budgeting]]（2026-06-30）
+- [[報告_Broadcom_Bailly_51.2T_CPO_20240314]]（2024-03-14）
+- [[報告_Jefferies_中國AI_Token支出與模型效率_20260810]]（2026-08-10）
+- [[報告_MorganStanley_緯穎2Q26財報_20260809]]（2026-08-09）
+- [[報告_SemiAnalysis_NPO光互連接棒_20260713]]（2026-07-13）
+- [[報告_摩根士丹利_美國Hyperscalers_2026Q2_20260802]]（2026-08-02）
+
 ## 相關頁面
 
 - [[分析_生成式AI商業化與TokenFinOps_20260906]]

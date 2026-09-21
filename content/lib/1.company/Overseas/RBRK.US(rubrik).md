@@ -135,6 +135,8 @@ Rubrik 將觸角延伸至 AI 代理人治理領域：
 - [[報告_Truist_MythosAndDaybreak_20260608]] — Truist，Rise of the Models，2026-06-08
 - [[報告_BMO_資安可觀測性_20260612]] — BMO，資安可觀測性（Rubrik 分析師活動），2026-06-12
 
+- [[Cybersec 260608 Truist_The age of Mythos & Daybreak]]（2026-06-08）
+
 ## 相關頁面
 
 - [[分析_RBRK_Rubrik]]

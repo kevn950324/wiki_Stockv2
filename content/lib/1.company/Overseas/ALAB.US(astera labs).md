@@ -89,3 +89,10 @@ related_companies:
 ## 相關頁面
 
 - [[SMTC.US(semtech)]]
+
+## 來源
+
+- [[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]（2025-09-30）
+- [[Optical Networking 260312 Citrini AI connectivity optics]]（2026-03-12）
+- [[Semiconductors 260615 MS public company bus tour ALAB MRVL INTC]]（2026-06-15）
+- [[報告_SemiAnalysis_NPO光互連接棒_20260713]]（2026-07-13）

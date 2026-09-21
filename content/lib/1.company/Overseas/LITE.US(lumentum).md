@@ -254,6 +254,21 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 - [Lumentum 官方 OCS 產品頁](https://www.lumentum.com/en/products/data-center/optical-circuit-switches)（2026-08-27；R64／R300、MEMS 與軟體功能）
 - [Lumentum 官方 Datacom Transceivers](https://www.lumentum.com/en/products/data-center/datacom-transceivers)（2026-08-27；800G／1.6T、TRO 與 AI 應用）
 
+- [[(付費內容) SemiAnalysis Co-Packaged Optics (CPO) Book – Scaling with Light for the Next Wave of Interconnect]]（2026-01-03）
+- [[Jefferies— 芝加哥全球半導體大會要點 Call memo_Fubon 20260901]]（2026-09-01）
+- [[Lumentum(LITE,B_買進)-CTBC260826]]（2026-08-26）
+- [[Optical 260703 Daiwa AIDC interconnect OT NPO CPO OCS]]（2026-07-03）
+- [[Optical Networking 260312 Citrini AI connectivity optics]]（2026-03-12）
+- [[Optical Networking 260417 GS AI scale out scale up]]（2026-04-17）
+- [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]]（日期不詳）
+- [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（null）
+- [[memo_OCPAPAC_CPO_NPO_XPO專家會議_20260820]]（2026-08-20）
+- [[memo_富世達_Lumentum_Rubin_20260901]]（2026-09-01）
+- [[報告_申万宏源_光通信光電集成深度_20260630]]（2026-06-30）
+- [[報告_金正禾論壇_InP晶圓代工CPO_20260130]]（2026-01-30）
+- [[小作文1月]]（2026-01-01）
+- [[慧博智能投研_光互联行业深度_发展现状_发展空间_未来趋势及相关公司深度梳理_260525]]（2026-05-25）
+
 ## 相關頁面
 
 - [[分析_SEMICON_Taiwan_2026矽光子量產瓶頸]]

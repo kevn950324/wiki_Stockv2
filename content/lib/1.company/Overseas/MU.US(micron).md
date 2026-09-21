@@ -185,6 +185,20 @@ flowchart LR
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（FY26 Q3 財報數據，2026-06-29，次要來源）
 - [[活動_Micron法說_20260624]]（FY26 Q3 法說逐字稿，2026-06-24，一手來源）
 
+- [[20260626_0803_JPM_Micron_Technology_Su_2026-06-25_5345710 (1)]]（2026-06-25）
+- [[Nvidia (NVDA.US)_1150902_JPM]]（2026-09-02）
+- [[cxmt-dram-ipo]]（2026-06-23）
+- [[memo_AI半導體_top_picks_UMC_ABF_MLCC_ASIC_20260601]]（2026-06-01）
+- [[memo_AI半導體_top_picks_UMC_Kaori_ABF_Yageo_Delta_20260615]]（2026-06-15）
+- [[memo_AI半導體_top_picks_update_UMC_Kaori_ABF_20260615v2]]（2026-06-15）
+- [[memo_永豐_Jeff分享會_AI半導體記憶體代工ASIC_20260630]]（2026-06-30）
+- [[報告_Bernstein_SanDisk_20260630]]（2026-06-30）
+- [[報告_JPM_力積電_20260714]]（2026-07-14）
+- [[報告_MorganStanley_環球晶_20260729]]（2026-07-29）
+- [[報告_UBS_CXMT首次覆蓋_20260807]]（2026-08-07）
+- [[報告_摩根士丹利_韓國記憶體小幅波動_20260806]]（2026-08-06）
+- [[大和 Nvidia 2QFY27法說摘要]]（2026-08-27）
+
 ## 相關頁面
 
 - [[1810.HK(xiaomi)]]

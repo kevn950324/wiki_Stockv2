@@ -137,6 +137,9 @@ flowchart LR
 - 報告_MS_IT硬體企業伺服器_20260623（MS IT Hardware 企業伺服器需求報告，2026-06-23）
 - [[報告_GFHK_Dell_20260828]]（GF Securities，2026-08-28；Neocloud AI 伺服器需求、Rubin 競爭、FY27/FY28E EPS 與目標價）
 
+- [[20260624_0819_ITHARDWARE_20260623_0421]]（2026-06-23）
+- [[報告_GFHK_Dell_F2Q26_20260901]]（2026-09-02）
+
 ## GF Securities 2026-08-28 更新
 
 - 維持 **Hold**、目標價 **US$428**，以 FY28E EPS 18 倍估值；FY27E／FY28E EPS 上修 11%／6% 至 US$22.0／23.8，均屬券商 estimate。

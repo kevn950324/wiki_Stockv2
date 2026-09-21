@@ -99,6 +99,9 @@ flowchart LR
 
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（GF×Corning 可拆連接器 ECTC 2026，2026-06-29）
 
+- [[memo_OCPAPAC_CPO_NPO_XPO專家會議_20260820]]（2026-08-20）
+- [[報告_開源證券_Tower半導體矽光代工_20260818]]（2026-08-18）
+
 ## 相關頁面
 
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]

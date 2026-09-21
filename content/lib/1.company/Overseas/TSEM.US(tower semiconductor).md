@@ -129,3 +129,11 @@ Latitude Design Systems（之光半導體）是 Tower SiPh 平台的 EDA 合作�
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[供應鏈_AI光互聯]]
 - [[技術_矽光子（SiPh）]]
+
+## 來源
+
+- [[CPO 250815 Latitude silicon photonics supply chain]]（2025-08-15）
+- [[Optical 260703 Daiwa AIDC interconnect OT NPO CPO OCS]]（2026-07-03）
+- [[Optical Networking 260417 GS AI scale out scale up]]（2026-04-17）
+- [[Yuanta Tower Semiconductor silicon photonics AI datacenter capacity reservation 260701]]（2026-07-01）
+- [[報告_開源證券_Tower半導體矽光代工_20260818]]（2026-08-18）
