@@ -16,6 +16,12 @@ const sourceRawData = path.join(vaultRoot, "data_base", "Raw_data")
 const targetRawData = path.join(siteRoot, "..", "content", "raw-data")
 const sourceMemo = path.join(sourceRawData, "memo")
 const maxPublishBytes = 100 * 1024 * 1024
+const privateLibPages = [
+  path.join("1.company", "TW", "7853_政美應用（興）.md"),
+  path.join("4.analyze", "分析_政美應用先進封裝檢測與軟體轉型_20260904.md"),
+  path.join("5.schedule", "時程_2026-2028政美應用催化劑.md"),
+]
+const privateMarkers = ["政美應用", "memo_國泰證期_政美應用CallMemo_20260904"]
 
 async function writeRawDataSearchPage(targetFile, kind) {
   const title = path.basename(targetFile, path.extname(targetFile))
@@ -41,6 +47,13 @@ if (!existsSync(sourceLib)) throw new Error(`找不到 vault lib/: ${sourceLib}`
 
 await rm(targetLib, { recursive: true, force: true })
 await cp(sourceLib, targetLib, { recursive: true })
+for (const relative of privateLibPages) {
+  const target = path.resolve(targetLib, relative)
+  if (!target.startsWith(`${path.resolve(targetLib)}${path.sep}`)) {
+    throw new Error(`拒絕移除 lib/ 以外的路徑: ${target}`)
+  }
+  await rm(target, { force: true })
+}
 await rm(targetAttachments, { recursive: true, force: true })
 await mkdir(targetAttachments, { recursive: true })
 await rm(targetReports, { recursive: true, force: true })
@@ -57,6 +70,20 @@ async function collect(dir) {
   }
 }
 await collect(targetLib)
+
+for (const file of markdownFiles) {
+  const original = await readFile(file, "utf8")
+  if (!original.includes(" / 政美") && !privateMarkers.some((marker) => original.includes(marker))) {
+    continue
+  }
+  const preservedMermaid = original.replaceAll(" / 政美", "")
+  const sanitized = preservedMermaid
+    .split(/\r?\n/)
+    .filter((line) => !privateMarkers.some((marker) => line.includes(marker)))
+    .join("\n")
+    .replace(/\n{2,}$/, "\n")
+  if (sanitized !== original) await writeFile(file, sanitized, "utf8")
+}
 
 const imageNames = new Set()
 for (const file of markdownFiles) {
