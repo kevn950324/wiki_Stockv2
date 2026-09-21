@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 技術/CPO
   - 環節/光纖與光通訊
-updated: 2026-09-16
+updated: 2026-09-21
 aliases:
   - Lumentum
   - LITE
@@ -174,6 +174,8 @@ FY26 GAAP net loss $6.9bn 不代表本業同幅度惡化：Q4 債券換股使公
 
 偏多證據是 lead CPO 客戶計畫在軌、首張 ELS 訂單 2027H2 交付、多個 NPO engagements；後續 IR 將 NPO 潛在機會粗估為與 NVIDIA CPO 相近，且預期 ELSFP 模組份額逐步達總需求 15%–20%。保守點是 NPO 尚無正式公告合約，FY28 $40 EPS 亦完全未納入 NPO design win；管理層把新客戶實際出貨放在 2027H2 後段。追蹤正式客戶公告、high-power laser run-rate、2027H2 出貨與 Greensboro qualification。
 
+匿名專家會議將 NPO 拆為兩條仍在並行驗證的路線：NVIDIA 的 350–400mW 外置 ELS、近似把 CPO 光引擎改為可插拔的近封裝方案；以及 AWS／Meta 偏向的 120–150mW 內置 CW 方案。該來源估計後者最快 2027H2 才小量試產、2028 才可能放大，與公司所稱「NPO 尚未有正式 design win」並不衝突，但所有客戶、數量與時程均未獲公開文件確認。[[memo_Lumentum_高功率CW與NPO專家會議_日期不詳]]
+
 ### 4. 50% 以上毛利是否可持續？
 
 偏多證據是 Q4 non-GAAP GM 50.4%，pricing、mix、yield、utilization 仍有改善空間；保守點是毛利高度依賴 mix，ELS 毛利低於純雷射，供給恢復或競爭擴產可能壓價。追蹤各產品 mix、ASP、yield、GAAP／non-GAAP GM 與 inventory。
@@ -200,7 +202,9 @@ FY26 GAAP net loss $6.9bn 不代表本業同幅度惡化：Q4 債券換股使公
 | 2026Q4 | CPO 進入較有意義的量產 | 放量 | ⭐⭐⭐ | [[活動_Lumentum_Fubon_LITE_IR_20260820]]；公司交流口徑 |
 | 2027Q1 | 1.6T 成為光模組營收大宗（最早） | 放量 | ⭐⭐⭐ | 以光模組營收占比計，非公司總營收 |
 | 2027H2 | NVIDIA ELS 光源開始出貨 | 出貨 | ⭐⭐⭐ | 雷射晶片份額近 100%、封裝約 20%；公司交流口徑 |
+| 2027H2（匿名專家估計） | AWS／Meta 型內置 120–150mW CW NPO 小量試產 | 技術下線／驗證 | ⭐⭐ | 尚缺成熟標準、PIC／driver／TIA／socket 與模組量產驗證；非公司公開 roadmap |
 | 2026–2027 | EML／超高功率雷射供需缺口延續 | 產能／瓶頸 | ⭐⭐⭐ | 未來 2–4 季未必能彌合，追蹤有效產能與良率 |
+| 2028（匿名專家估計） | Greensboro 加入後高功率 CW 產出可望擴大；內置 NPO 才可能大規模部署 | 擴產／放量 | ⭐⭐ | 「至少 6,000 萬顆 CW」及 ELS／內置 NPO 量均為匿名專家 estimate，需以有效良率、封裝與客戶採購驗證 |
 
 → 跨公司節點詳見 [[時程_2026記憶體與AI催化劑]]；技術背景詳見 [[技術_CPO]] 與 [[技術_InP磷化銦]]。
 
@@ -245,6 +249,7 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 - [Lumentum Q4 FY26 Earnings Call Transcript](https://www.fool.com/earnings/call-transcripts/2026/08/18/lumentum-lite-q4-2026-earnings-call-transcript/)（2026-08-18；第三方逐字稿，Q&A 以公司 webcast／SEC 為準）
 - [[活動_Lumentum_FY2026Q4法說_20260827]]（2026-08-27；使用者提供之中英對照逐字稿，原始紀錄）
 - [[活動_Lumentum_IR問答_20260916]]（來源未明載會議日期；2026-09-16 使用者提供，FY28 OCS／EPS、CPO／NPO、六吋 InP 與產能問答）
+- [[memo_Lumentum_高功率CW與NPO專家會議_日期不詳]]（匿名專家會議；會議日期未提供，2026-09-21 收錄；UHP CW／兩類 NPO／ELS 與封裝產能觀點，低信心）
 - [[ms_LITE_20260812]]（Morgan Stanley，2026-08-12；券商估計與目標價）
 - [[Lumentum H-2025-07-07-LITE.OQ-Wolfe Research-Structural Winner_ Initiate at Outperform-116406363]]（Wolfe Research，2025-07-07；初始覆蓋）
 - [[報告_元大_光通訊產業_20260723]]（元大，2026-07-23；市場與競品背景）
@@ -444,3 +449,11 @@ ECTC 2026 論文：Lumentum 與 NVIDIA、[[2330_台積電（市）]] COUPE 平�
 - 1.6T 的 CW／SiPh 份額增加後，管理層認為 3.2T 的 400G/lane 可能因電壓、雜訊與功耗而讓 EML 重新取得份額；這是技術／商業判斷，仍待產品量產驗證。
 
 來源：[[活動_Lumentum_IR問答_20260916]]（來源未明載會議日期；2026-09-16 收錄）。
+
+## 本次 ingest 更新（2026-09-21）
+
+- 匿名專家估計 350–400mW UHP CW 的 2027 年保守供應規劃約 2,500 萬顆，而不受產能約束的需求約 6,000 萬顆；2027 年底單季產能目標接近 1,000 萬顆。這些均屬 channel estimate，不能取代公司對收入、產能或客戶需求的正式指引。
+- 來源把 2027 年限制拆成晶片前段與泰國封裝兩端，並稱公司正與 Fabrinet 洽談後段代工；Fabrinet 參與與範圍未獲公開確認，故僅列為待查證的產能選項。
+- 同一來源估計 2027H2 ELS 模組才開始量產、2027 年目標約 100 萬只；2028 年若 30%–40% CW 產能轉為 ELS，營收貢獻可放大。價格由目前 ELS 模組逾 US$500、CW 晶片逾 US$30 向 2027H2 的低於 US$500／約 US$25 遞減，皆為低信心的匿名價格觀點。
+
+來源：[[memo_Lumentum_高功率CW與NPO專家會議_日期不詳]]（匿名專家會議；日期不詳，2026-09-21 收錄）。
