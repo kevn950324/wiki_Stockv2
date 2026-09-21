@@ -126,3 +126,10 @@ Dynamo 則位於軟體調度層，把 prefill、decode 與 KV cache routing 解�
 - Google TPU 案例顯示，MediaTek 可由 I/O／SerDes 延伸至部分 compute implementation，GUC 則承接 CPU 的 COT／backend-only service；EMIB-T 封裝良率與 OSAT／基板整合是早期量產的執行風險。
 
 來源：[[報告_Citi_US市場回饋_AI硬體_20260920]]（Citi，2026-09-20；券商觀點／信心中）。
+
+## SemiAnalysis 2026-09-07：TPU 推論外部化
+
+- SemiAnalysis 的 InferenceX preview 以 Qwen3.5 397B FP8、聚合式 serving 比較 Ironwood TPUv7 與 B200／B300；在其建模的 20 tokens/s/user 點，TPUv7 約為 9,364 tokens/s/chip，並以較低 TCO 推得相對 B200／B300 的 tokens per dollar 優勢。這是第三方 benchmark 與 TCO 模型，不能直接視為所有模型或客戶的採購結論。
+- 外部 TPU 軟體路線由 TorchAX／JAX 過渡至 PyTorch-native 的 TorchTPU；來源稱 private beta 預計約 2026 年 10 月開源。真正的驗證點是 disaggregated serving、speculative decoding、KV cache 與多輪 agentic workload 上線後的端到端延遲及成本，而非單點 throughput。
+
+來源：[[報告_SemiAnalysis_TPU推論外部化_20260907]]（SemiAnalysis，2026-09-07；第三方 benchmark／研究觀點，信心中低）。

@@ -217,6 +217,8 @@ flowchart LR
 - [[活動_Lumentum_Fubon_LITE_IR_20260820]]（2026-08-20）
 - [[活動_南電8046_分析師會議_20260630]]（2026-06-30）
 
+- [[報告_Aletheia_2027AI加速器產能_20260812]]（2026-08-12）
+
 ## 相關頁面
 
 - [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]

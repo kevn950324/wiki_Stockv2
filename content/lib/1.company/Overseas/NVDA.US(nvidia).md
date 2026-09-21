@@ -386,6 +386,8 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 - [[活動_Lumentum_Fubon_LITE_IR_20260820]]（2026-08-20）
 - [[活動_Lumentum_IR問答_20260916]]（2026-09-16）
 
+- [[報告_Aletheia_2027AI加速器產能_20260812]]（2026-08-12）
+
 ## 相關頁面
 
 - [[技術_AI推論與ASIC平台]]

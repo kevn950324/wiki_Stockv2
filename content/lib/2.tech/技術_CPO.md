@@ -61,6 +61,8 @@ aliases:
 
 CPO（Co-Packaged Optics，共封裝光學）是把「光引擎（Optical Engine, OE）」直接封裝在 XPU 或交換器 ASIC 旁邊的互連技術。傳統可插拔光模組（transceiver）插在前面板的 cage 上，距離 ASIC 約 15–30 cm，訊號得先用長距（LR）SerDes 拉過去、再經模組內的 DSP 還原與轉光；CPO 把光引擎移到 ASIC 旁，省掉 DSP、改用低功耗短距 SerDes，較 DSP 可插拔光模組可省電 50% 以上（業界目標上看 80%）。
 
+2026 OCP APAC Summit 的業界發言則把 CPO 定位為逐步遷移而非一次取代：Ayar Labs 提出光引擎可放在板上、封裝上或 interposer 上；BofA 轉述 NVIDIA 的 CPO 基礎設施已進入 production、Broadcom 認為相較可插拔可改善可靠度與功耗，但這些均為會議發言／券商轉述，不是跨平台一致規格或出貨量承諾。[[報告_BofA_OCPAPAC峰會_20260813]]
+
 CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰場是 **scale-up（縱向擴展，GPU 對 GPU 高頻寬低延遲互連）**——銅互連的觸及距離只有約 2 公尺，限制了單一 scale-up 域的「world size」，光互連是突破機櫃邊界把 world size 做大的關鍵。SemiAnalysis 判斷 CPO 的 TAM 會由 scale-up 主導。
 
 **NPO 是 CPO 前的風險折衷，而不是 CPO 的同義詞。**NPO（Near-Packaged Optics）把 OE 放在 ASIC 封裝旁、但保留獨立基板與可插拔／socketed 介面；高速電通道約 150 mm，介於前面板可插拔模組與 CPO 的 <10 mm 通道之間。[[報告_SemiAnalysis_NPO光互連接棒_20260713]] 認為，它可在保留較低功耗、供應商彈性與部分可維修性的同時，避開 CPO 的 attach yield 與供應商鎖定風險；這是研究機構情境推演，並非各平台已定案的採用承諾。

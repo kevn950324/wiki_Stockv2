@@ -71,6 +71,7 @@ Aehr Test Systems（AEHR）供應晶圓級與封裝級 burn-in／可靠度測試
 
 ## 來源
 - [[20260817_0829_3b4cd774-9f54-412d-9230-620e02b1f0c1]]（Jefferies，2026-08-13）
+- [[報告_Jefferies_Aehr燒機測試_20260813]]（Jefferies，2026-08-13；與既有同日報告原檔 SHA-256 相同，保留此次 inbox 落地來源以利追溯。）
 
 ## 相關頁面
 
