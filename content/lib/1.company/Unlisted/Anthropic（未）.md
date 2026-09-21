@@ -171,6 +171,10 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 
 ## 相關頁面
 
+- [[0100.HK(minimax)]]
+- [[2513.HK(z.ai)]]
+- [[分析_中國基礎模型_Token經濟與算力瓶頸_20260905]]
+- [[技術_大模型推理經濟學]]
 - [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]
 - [[分析_生成式AI商業化與TokenFinOps_20260906]]
 - [[分析_Gartner生成式AI模型市場與Token效率_20260906]]

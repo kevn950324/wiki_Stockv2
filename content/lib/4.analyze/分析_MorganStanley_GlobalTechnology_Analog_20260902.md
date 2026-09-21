@@ -8,7 +8,7 @@ report_pdf: "[[報告_MorganStanley_GlobalTechnology_Analog_20260902_original.pd
 tags:
   - 分析/產業
   - 產業/半導體
-  - 技術/功率半導體
+  - 產業/功率半導體
 related_companies:
   - "[[ON.US(on_semiconductor)]]"
   - "[[TXN.US(texas_instruments)]]"

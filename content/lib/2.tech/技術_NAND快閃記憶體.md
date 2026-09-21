@@ -5,7 +5,7 @@ tags:
   - 產業/記憶體
   - 產業/AI伺服器
 maturity: mature
-updated: 2026-07-07
+updated: 2026-09-21
 aliases:
   - NAND
   - NAND Flash
@@ -14,7 +14,6 @@ aliases:
   - QLC
   - TLC
   - SLC
-  - KV Cache
   - Boot Drive
   - Super High IOPS
 ---
@@ -71,6 +70,7 @@ flowchart LR
 
 ## 產業動能
 - **KV Cache 帶動 eSSD**：[[大和 韓國記憶體產業電話會議摘要]]（2026-07-02）指 KV SSD 由三星、美光為主，TLC 為關鍵，大容量 QLC eSSD 快速增加。
+- **容量補充 vs. 利用率提升**：[[memo_FMS2026_CXL記憶體池與光互連_日期不詳]]（日期不詳，FMS 2026 觀察）把 NAND KV Cache offload 定位為增加較低成本容量，並把 CXL memory pooling 定位為提高既有 HBM／DRAM 利用率。兩者較可能是分層互補而非互斥替代；實際配置取決於 KV Cache 熱度、延遲容忍度、IOPS、資料搬移與 TCO。此為使用者產業觀察，CXL 與系統產品細節尚待原始簡報驗證，詳見 [[分析_FMS2026_CXL記憶體池與光互連受惠邏輯]]。
 - **Boot Drive 標準化**：[[260702_ms_nand-industry]]（2026-07-02）指 SIMO.US(silicon_motion) 佔 BlueField-3 boot drive 控制器 100%；Vera Rubin 標準化後 BlueField-4 加入 [[8299_群聯（櫃）]]、[[2379_瑞昱（市）]]。
 - **利基 SLC/MLC 緊俏**：MS 看好 [[2337_旺宏（市）]]（Top Pick，SLC/MLC）、[[2344_華邦電子（市）]]（SLC）；3Q 漲 50–60%，enterprise HDD 轉用高密度 SLC。
 - **模組廠模式改變**：LTA 使記憶體高檔維持 3–5 年，低成本庫存耗盡後模組廠毛利趨穩（[[分析_記憶體超級循環2026]]）。
@@ -102,9 +102,11 @@ flowchart LR
 - [[260702_ms_nand-industry]] — 摩根士丹利，2026-07-02
 - [[大和 韓國記憶體產業電話會議摘要]] — 大和，2026-07-02
 - [[20260521_0807_統一證to群益投信_記憶體技術概論與大廠現況分析_260520]] — 統一證券，2026-05-20（3D NAND Roadmap Ver.MN-2509-01；廠商製程節點路線圖）
+- [[memo_FMS2026_CXL記憶體池與光互連_日期不詳]] — 使用者 FMS 2026 產業觀察，日期不詳（NAND KV Cache 容量層與 CXL pooling 比較；未查證）
 
 ## 相關頁面
 
+- [[技術_大模型推理經濟學]]
 - [[技術_邊緣AI]]
 - [[分析_CXMT_DRAM_IPO分析]]
 - [[供應鏈_記憶體]]

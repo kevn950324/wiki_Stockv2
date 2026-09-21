@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-09-18
+updated: 2026-09-21
 aliases:
   - NVIDIA
   - 輝達
@@ -241,6 +241,10 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 官方已確認的是 optical scale-up 的拓撲方向；NPO／CPO 封裝形態、9+18+9 機構、每 rack 72 顆 NVLink Switch ASIC 與供應商份額，仍需分別以後續正式 BOM 或產品文件驗證。
 
+### FMS 2026 記憶體池解讀
+
+[[memo_FMS2026_CXL記憶體池與光互連_日期不詳]]（日期不詳）把 NVL72／NVL576 的 NVLink／NVSwitch scale-up fabric 解讀為提高 HBM／host DRAM 利用率的記憶體池化路徑，並認為 NVL576 跨 rack 光互連會擴大可存取範圍。這是使用者 thesis，不等於 NVIDIA 已確認所有 GPU 可透明共享任意遠端 HBM／DRAM；實際 memory semantics、一致性、軟體調度、NPO／CPO 封裝與量產規格仍需官方文件驗證。詳見 [[分析_FMS2026_CXL記憶體池與光互連受惠邏輯]]。
+
 ### 2026-08-27 台灣供應鏈交叉觀察
 
 - [[260827_ms_NVDA-implication]] 與 [[260827_citi_nvda-implication]] 均指向 FY/CY27 約 70% 營收成長展望、Rubin 已進入量產；瓶頸由 GPU 延伸至 HBM、CoWoS、網路、rack 整合、電力與資料中心實體容量。MS 估 NVIDIA 2027 年 CoWoS-L 用量約 910k wafers、年增約 40%（estimate，信心：中）。
@@ -268,6 +272,18 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 - 使用者轉述 NVIDIA 2026-08-21 新版 IB Switch System User Manual 提到一個 CPO 搭配 18 個 ELS，並將第一代 CPO InfiniBand scale-out switch 稱為 Q3450-LD；原始 manual 尚未收錄，不能視為 NVIDIA 正式規格。
 - 相關觀察與 ELS-COS 架構假說詳見 [[分析_光通_CPO與ELS-COS_20260901]]；目前僅列為低信心 rumor／thesis。
 
+## 近期營運與研究更新
+
+### 2026-09-02 J.P. Morgan／2026-09-01 富邦與大和更新
+
+- J.P. Morgan NDR 指出 FY28 約 70% 年增框架由 hyperscaler、neocloud、AI lab、主權 AI 與企業需求共同支撐；若無供給限制，營收可能超過倍增。這是管理層／券商轉述，屬 outlook，不是已認列營收。
+- 先進晶圓與記憶體是主要供給瓶頸；NVIDIA 持續與 [[2330_台積電（市）]]、[[MU.US(micron)]]、[[000660.KR(sk_hynix)]]、[[005930.KR(samsung)]] 協調供應。記憶體成本上升同時造成毛利率下壓風險。
+- AI lab 與 neocloud 在終端消費 mix 的占比提高，推論工作負載占比也上升，但平台可轉用使 training／inference 無法精確拆分；OpenAI／Anthropic 約 20% 終端消費占比、FY28 可能接近 25% 為 NDR 口徑，信心中。
+- 大和法說摘要補充 Q2 FY27 營收 US$96.2bn、資料中心 US$89.0bn，以及 Vera Rubin 每 GW 約 US$40bn、目前供給約滿足需求 70%；季度／年度口徑保留來源原文，未合併成單一預測。
+
+來源：[[Nvidia (NVDA.US)_1150902_JPM]]（J.P. Morgan，2026-09-02）、[[大和 Nvidia 2QFY27法說摘要]]（大和，2026-08-27）、[[Jefferies— 芝加哥全球半導體大會要點 Call memo_Fubon 20260901]]（富邦，2026-09-01）。
+
+- [[分析_AgenticAI光互連與先進封裝瓶頸_20260916]]
 ## 來源
 - [[報告_Citi_聯發科_20260831]]（Citi Research，2026-08-31；NVIDIA 投資與 NVLink Fusion 合作）
 - [[報告_MorganStanley_聯發科_20260831]]（Morgan Stanley，2026-08-31；CB 投資與合作範圍）
@@ -333,6 +349,7 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 - [[memo_日月光_CoWoS_CPO_專家會議_20260520]]（2026-05-20）
 - [[memo_永豐_Jeff分享會_AI半導體記憶體代工ASIC_20260630]]（2026-06-30）
 - [[memo_騰旭_AI產業趨勢簡報_20260916]]（2026-09-16）
+- [[memo_FMS2026_CXL記憶體池與光互連_日期不詳]]（日期不詳；FMS 2026 CXL／NVLink memory pooling 與跨 rack 光互連觀察，未查證）
 - [[meta-compute-neocloud]]（2026-07-02）
 - [[nvidia-800-vdc-industry-alignment-white-paper]]（2026-08-20）
 - [[nvidia-gpu-backstop]]（2026-07-06）
@@ -390,6 +407,12 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 ## 相關頁面
 
+- [[00285.HK(byd_electronic)]]
+- [[分析_2026-08_AI算力CPO與高階PCB報告更新]]
+- [[分析_中國基礎模型_Token經濟與算力瓶頸_20260905]]
+- [[分析_全球機器人具身智能與台灣供應鏈_20260818]]
+- [[分析_半導體AI供應鏈與NPO轉折_20260824]]
+- [[時程_2026能源與AI電力設備]]
 - [[技術_AI推論與ASIC平台]]
 - [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]
 - [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
@@ -501,14 +524,3 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 來源：[[memo_富世達_Lumentum_Rubin_20260901]]（使用者 Rubin 觀察，2026-09-01）；詳見 [[分析_富世達_Lumentum_Rubin_20260901]]。
 
 相關公司補充：[[AVGO.US(broadcom)]]（AI ASIC／Ethernet scale-up 夥伴與供應鏈觀察）。
-
-## 2026-09-02 J.P. Morgan／2026-09-01 富邦與大和更新
-
-- J.P. Morgan NDR 指出 FY28 約 70% 年增框架由 hyperscaler、neocloud、AI lab、主權 AI 與企業需求共同支撐；若無供給限制，營收可能超過倍增。這是管理層／券商轉述，屬 outlook，不是已認列營收。
-- 先進晶圓與記憶體是主要供給瓶頸；NVIDIA 持續與 [[2330_台積電（市）]]、[[MU.US(micron)]]、[[000660.KR(sk_hynix)]]、[[005930.KR(samsung)]] 協調供應。記憶體成本上升同時造成毛利率下壓風險。
-- AI lab 與 neocloud 在終端消費 mix 的占比提高，推論工作負載占比也上升，但平台可轉用使 training／inference 無法精確拆分；OpenAI／Anthropic 約 20% 終端消費占比、FY28 可能接近 25% 為 NDR 口徑，信心中。
-- 大和法說摘要補充 Q2 FY27 營收 US$96.2bn、資料中心 US$89.0bn，以及 Vera Rubin 每 GW 約 US$40bn、目前供給約滿足需求 70%；季度／年度口徑保留來源原文，未合併成單一預測。
-
-來源：[[Nvidia (NVDA.US)_1150902_JPM]]（J.P. Morgan，2026-09-02）、[[大和 Nvidia 2QFY27法說摘要]]（大和，2026-08-27）、[[Jefferies— 芝加哥全球半導體大會要點 Call memo_Fubon 20260901]]（富邦，2026-09-01）。
-
-- [[分析_AgenticAI光互連與先進封裝瓶頸_20260916]]

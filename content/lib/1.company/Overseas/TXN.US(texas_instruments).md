@@ -80,6 +80,11 @@ Texas Instruments（TI）是全球主要類比 IC 與嵌入式半導體供應商
 > - 800V 架構導入速度、客戶設計週期與多級轉換方案仍需驗證。
 > - 本頁 EPS、目標價與 800V 需求判斷主要來自法人 memo／公司法說整理，非公司正式財測或訂單承諾。
 
+## 近期營運與研究更新
+
+### 2026-08-25 類比半導體產業回顧
+
+[[20260902_0842_4_Global_Technology_Analog_Recap_Margins_Overshadow_Data_Center]]（Morgan Stanley，2026-08-25）將 TI 的 AI 資料中心業務列為結構性成長來源，稱 2Q26 營收年增約倍增、管理層預期 2027 年仍可高於市場成長；數字與展望屬券商轉述，需以公司公告核對。
 ## 來源
 
 - [[TXN Q2 Earnings Call memo_Fubon 20260723]] — 富邦證券法人業務處，2026-07-23
@@ -88,9 +93,6 @@ Texas Instruments（TI）是全球主要類比 IC 與嵌入式半導體供應商
 
 ## 相關頁面
 
+- [[分析_MorganStanley_GlobalTechnology_Analog_20260902]]
 - [[技術_800VDC供電架構]]
 - [[時程_2026記憶體與AI催化劑]]
-
-## 2026-08-25 類比半導體產業回顧
-
-[[20260902_0842_4_Global_Technology_Analog_Recap_Margins_Overshadow_Data_Center]]（Morgan Stanley，2026-08-25）將 TI 的 AI 資料中心業務列為結構性成長來源，稱 2Q26 營收年增約倍增、管理層預期 2027 年仍可高於市場成長；數字與展望屬券商轉述，需以公司公告核對。

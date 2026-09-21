@@ -131,6 +131,14 @@ flowchart LR
 > - **AI 需求週期**：目前需求由 AI capex、提前拉貨、舊設備換新多重因素疊加；若 CSP 資本支出計劃收縮，AI 訂單積壓消化可能快於預期，成長斜率下滑
 > - **市佔率維持難度**：Dell 在 AI 伺服器市佔率擴大，但競爭者（HP Enterprise、超微等）持續跟進；長期市佔率能否維持尚待觀察
 
+## 近期營運與研究更新
+
+### 2026-09-02 GFHK F2Q26 更新
+
+- F2Q26 營收 US$47bn、EPS US$7.04、ISG 營收 US$31.8bn；AI server booking US$60.9bn、季末 backlog US$95bn，為公司揭露的季度 fact。
+- FY27E 指引營收約 US$192bn、ISG 成長約 120%、non-GAAP EPS US$25.50；券商維持 Hold、目標價 US$497，屬 guidance／estimate。
+- 記憶體供給、企業需求正常化、PC sell-through 與 SpaceX／CoreWeave 訂單競爭仍是主要風險。來源：[[報告_GFHK_Dell_F2Q26_20260901]]。
+
 ## 來源
 
 - [[活動_Dell法說_20260528]]（FY27 Q1 法說，2026-05-28；Jeff Clarke CEO / David Kennedy CFO）
@@ -153,14 +161,9 @@ flowchart LR
 | [[2317_鴻海（市）]] | AI 伺服器競爭者 | GFHK 認為鴻海可能取得 SpaceX 多千套 Rubin 相關訂單，Dell 份額需驗證 |
 | [[ORCL.US(oracle)]] | 下游客戶 | Vera CPU 機架出貨對象之一，來源為券商整理 |
 
-## 2026-09-02 GFHK F2Q26 更新
-
-- F2Q26 營收 US$47bn、EPS US$7.04、ISG 營收 US$31.8bn；AI server booking US$60.9bn、季末 backlog US$95bn，為公司揭露的季度 fact。
-- FY27E 指引營收約 US$192bn、ISG 成長約 120%、non-GAAP EPS US$25.50；券商維持 Hold、目標價 US$497，屬 guidance／estimate。
-- 記憶體供給、企業需求正常化、PC sell-through 與 SpaceX／CoreWeave 訂單競爭仍是主要風險。來源：[[報告_GFHK_Dell_F2Q26_20260901]]。
-
 ## 相關頁面
 
+- [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[分析_2026-08_AI網通與硬體報告更新]]
 - [[時程_2026記憶體與AI催化劑]]
 - [[SNX.US(td_synnex)]]

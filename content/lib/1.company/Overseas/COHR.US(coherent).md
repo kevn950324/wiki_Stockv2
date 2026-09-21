@@ -204,6 +204,8 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - [[活動_Lumentum_Fubon_LITE_IR_20260820]]（2026-08-20）
 
 ## 相關頁面
+
+- [[分析_半導體AI供應鏈與NPO轉折_20260824]]
 - [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
 
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]

@@ -2,7 +2,7 @@
 title: 技術_功率MOSFET
 tags:
   - 技術/功率MOSFET
-  - 環節/功率半導體
+  - 環節/功率元件
   - 產業/AI伺服器
 maturity: mature
 image_status: "待補來源圖"
@@ -98,5 +98,7 @@ flowchart LR
 - [[6693_廣閎科（櫃）]] 是本頁新增的功率 MOSFET／BLDC 散熱觀察標的；需追蹤認證、量產出貨與毛利率，不直接把 AI rack 功率情境視為公司財測。
 
 ## 相關頁面
+
+- [[分析_MorganStanley_GlobalTechnology_Analog_20260902]]
 - [[8261_富鼎（市）]]
 - [[供應鏈_AI伺服器散熱]]

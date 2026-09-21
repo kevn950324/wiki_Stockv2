@@ -203,6 +203,7 @@ flowchart LR
 
 ## 相關頁面
 
+- [[分析_FMS2026_CXL記憶體池與光互連受惠邏輯]]
 - [[1810.HK(xiaomi)]]
 - [[CXMT（未）]]
 - [[分析_CXMT_DRAM_IPO分析]]

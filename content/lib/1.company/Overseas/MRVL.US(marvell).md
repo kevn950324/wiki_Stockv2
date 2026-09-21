@@ -10,8 +10,7 @@ tags:
   - 技術/CPO
   - 技術/矽光子
   - 環節/光纖與光通訊
-  - 環節/光纖與光通訊
- updated: 2026-09-15
+updated: 2026-09-21
 aliases:
   - Marvell
   - 邁威爾
@@ -120,6 +119,12 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 - **財務規模框架**：客製業務 ~$4B 成長至 ~$10B；legacy 部門（儲存/網路）以 GDP 速度成長；連接業務 ~$10B、成長 ~70%（短期無放緩跡象）。Agentic AI 增加 NIC、CXL、交換器需求（未納入當前預估）。
 - **估值爭議**：MS 態度正面但承認「2.5× NVDA 本益比倍數、但 Marvell 尚未比 NVDA 成長更快」是評價壓力。
 
+## FMS 2026 Photonic Fabric 記憶體池觀察
+
+- [[memo_FMS2026_CXL記憶體池與光互連_日期不詳]]（日期不詳）轉述 Marvell 在「Scale Up and Scale Out Fabrics for AI」分享中，以 Photonic Fabric 將 CXL／memory fabric 從機內或機櫃延伸至跨 rack，藉此提高分散 DRAM 的可利用率。
+- 這與本頁既有 PFMA「warm memory／KV Cache offload」定位方向一致，但本次未附 FMS 原始簡報，不能據此確認產品規格、客戶採用、量產時程或收入。CXL 的協定語意與 Photonic Fabric 的承載方式也需分開驗證。
+- 投資追蹤重點由「是否有光互連」進一步轉為：PFMA／OMIB 是否取得客戶、跨 rack 延遲與功耗、CXL switch／controller 整合方式，以及每 rack 光學內容值。詳見 [[分析_FMS2026_CXL記憶體池與光互連受惠邏輯]]。
+
 ## 來源
 
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]]（Simple Tech Trend，2026-08-31；pJ/bit、plasmonics 與光子互連觀察）
@@ -131,6 +136,7 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 - [[報告_GFHK_Marvell_20260828]]（GF Securities，2026-08-28；F2Q、custom ASIC、800G／1.6T、CPO／NPO 與 FY27/FY28E 展望）
 - [[報告_中信投顧_Marvell_20260901]]（中國信託投顧，2026-09-01；FY2Q27、FY27／FY28 展望與 800G／1.6T 光互連）
 - [[web_Marvell_1.6T光學DSP_20260312]]（Marvell 官方新聞稿，2026-03-12；Ara T／Ara X／Petra／Aquila M 與端到端互連平台）
+- [[memo_FMS2026_CXL記憶體池與光互連_日期不詳]]（使用者 FMS 2026 產業觀察，日期不詳；Photonic Fabric 跨 rack memory fabric 轉述，未查證）
 
 - [[260521_2360致茂_aletheia_ATE]]（2026-05-21）
 - [[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]（2025-09-30）
@@ -144,6 +150,7 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 
 ## 相關頁面
 
+- [[分析_半導體AI供應鏈與NPO轉折_20260824]]
 - [[分析_SEMICON_Taiwan_2026矽光子量產瓶頸]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[6147_頎邦（櫃）]]

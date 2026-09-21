@@ -114,3 +114,7 @@ flowchart LR
 - [[Super Micro Computer（SMCI US）0813]]（中信投顧，2026-08-13；GB300／Blackwell、DCBBS、液冷與 FY27–FY28 財務估計）
 
 - [[報告_GHHK_AI伺服器散熱_20260901]]（2026-09-08）
+
+## 相關頁面
+
+- [[時程_2026Q3Q4_AI網通與硬體催化劑]]

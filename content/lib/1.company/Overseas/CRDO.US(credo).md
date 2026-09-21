@@ -128,12 +128,6 @@ related_companies:
 
 主要論點：Credo 在銅纜（AEC）和可插拔光學（LRO：Linear Receive-only Optics）兩個方向均為關鍵創新者，定位最佳。TD Cowen 認為 MRVL DSP 在 LRO 場景中有 >10% 市佔流失風險，而 Credo 的 LRO 解法是主要受益者之一。同時，Credo 在 AEC 市場的先發優勢（~70% 市占）使其在連接密集化趨勢中具強防禦性。
 
-## 2026-09-02 GFHK F1Q27 更新
-
-- F1Q27 營收 US$479mn（YoY +115%、QoQ +10%）、non-GAAP EPS US$1.20；F2Q27E 營收指引 US$525–535mn、毛利率 67%–69%，均為公司揭露的 fact／guidance。
-- AEC 仍是 FY1H27 主要成長柱；光學產品 FY27E 營收目標維持 US$600mn 以上，量產高峰偏向 FY2H27，屬 management outlook。
-- 券商預估 FY27E／FY28E EPS US$6.5／11.4，目標價 US$227、Buy，以 FY28E EPS 20 倍估值；來源：[[報告_GFHK_Credo_20260901]]。
-
 ## 關聯頁面
 
 - [[3665_貿聯-KY（市）]]（BizLink，主要 AEC/ALC 製造夥伴）
@@ -144,8 +138,17 @@ related_companies:
 - [[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]（TD Cowen 啟動覆蓋）
 - 報告_UBS_貿聯-KY_CredoNDR_20260707（2026-07-07，ALC/AEC 最新進展）
 
+## 近期營運與研究更新
+
+### 2026-09-02 GFHK F1Q27 更新
+
+- F1Q27 營收 US$479mn（YoY +115%、QoQ +10%）、non-GAAP EPS US$1.20；F2Q27E 營收指引 US$525–535mn、毛利率 67%–69%，均為公司揭露的 fact／guidance。
+- AEC 仍是 FY1H27 主要成長柱；光學產品 FY27E 營收目標維持 US$600mn 以上，量產高峰偏向 FY2H27，屬 management outlook。
+- 券商預估 FY27E／FY28E EPS US$6.5／11.4，目標價 US$227、Buy，以 FY28E EPS 20 倍估值；來源：[[報告_GFHK_Credo_20260901]]。
+
 ## 相關頁面
 
+- [[分析_貿聯-KY_2026Q2法說_AI基礎設施內容升級_20260821]]
 - [[ALAB.US(astera labs)]]
 - [[SMTC.US(semtech)]]
 

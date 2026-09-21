@@ -179,6 +179,14 @@ flowchart LR
 | [[META.US(meta)]] | OCI MSA 共編 | Meta+Broadcom+AMD 三方 OCI 200G MSA（2026-03-11）|
 | [[AMD.US(amd)]] | OCI MSA 共編 | 同上 |
 
+## 近期營運與研究更新
+
+### 2026-09-03 富邦法說會議補充
+
+- FY3Q26 營收 US$29.591bn、AI 半導體營收 US$16.7bn；FY4Q26 營收預估 US$34.8bn、AI 半導體 US$21.7bn，分屬法說 fact／estimate。
+- FY26／FY27／FY28 AI 半導體營收口徑約 US$58bn／115bn／230bn；FY27–FY28 仍受 wafer、substrate、HBM、land、power 與 site 同步供給限制，信心中。
+- Tomahawk 6 的 100G／200G SerDes 已廣泛部署，Tomahawk Ultra 於本季開始導入 scale-up，200Tbps Tomahawk 7 已 tape-out；公司未提供固定 XPU attach rate。來源：[[AVGO Q3 Earnings Call memo_Fubon 20260903]]。
+
 ## 來源
 
 - [[報告_Broadcom_Bailly_51.2T_CPO_20240314]]（Broadcom 公司公告，2024-03-14；Bailly 51.2T CPO、Tomahawk 5、光引擎與 RLM）
@@ -246,12 +254,6 @@ flowchart LR
 - [[技術_光互連]]
 - [[技術_光模塊]]
 - [[技術_矽光子（SiPh）]]
-## 2026-09-03 富邦法說會議補充
-
-- FY3Q26 營收 US$29.591bn、AI 半導體營收 US$16.7bn；FY4Q26 營收預估 US$34.8bn、AI 半導體 US$21.7bn，分屬法說 fact／estimate。
-- FY26／FY27／FY28 AI 半導體營收口徑約 US$58bn／115bn／230bn；FY27–FY28 仍受 wafer、substrate、HBM、land、power 與 site 同步供給限制，信心中。
-- Tomahawk 6 的 100G／200G SerDes 已廣泛部署，Tomahawk Ultra 於本季開始導入 scale-up，200Tbps Tomahawk 7 已 tape-out；公司未提供固定 XPU attach rate。來源：[[AVGO Q3 Earnings Call memo_Fubon 20260903]]。
-
 ## JPMorgan 2026-08-20 更新
 
 - [[260820_BroadcomAVGO_JPM_FY26_AI營收上看560億美元,_TPU設計贏單藍圖不變（非完整報告）]] 聚焦 FY26 AI 營收上看約 560 億美元與 TPU 設計贏單延續；因來源為非完整報告，僅作方向性紀錄。

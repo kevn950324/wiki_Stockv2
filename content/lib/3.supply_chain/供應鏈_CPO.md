@@ -6,7 +6,7 @@ tags:
   - 技術/CPO
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-09-18
+updated: 2026-09-21
 ---
 
 # 供應鏈_CPO
@@ -30,7 +30,7 @@ flowchart TD
     ELS["外部雷射源 ELS<br/>Lumentum / Coherent / Furukawa"]
     FAU["FAU 光纖耦合<br/>TFC / Senko / 上詮"]
     SHF["Shuffle Box / MT Ferrule<br/>T&S / US Conec / Corning"]
-    EQ["耦合 & E/O 測試設備<br/>FiconTEC / 萬潤 / 致茂 / 旺矽 / Teradyne / Keysight"]
+    EQ["耦合、E/O 測試與 AOI／量測設備<br/>FiconTEC / 萬潤 / 致茂 / 旺矽 / 政美 / Teradyne / Keysight"]
 
     NV --> CSP
     AVGO --> CSP
@@ -138,6 +138,7 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 | [[6515_穎崴（市）]] | 全環節卡位 | CPO 測試三環節：① Die Level 探針卡、② Package Level 獨家 Double Sided Probing System、③ Module Level HyperSocket；公司認為 2028 年是 CPO 確定量產年；CTBC TP NT$10,000（2026-07-01）|
 | [[6223_旺矽（櫃）]] | Insertion 1-3 探針台 | Insertion 1 驗證中、Insertion 2 雙面探針台認證中、Insertion 3 確認；MS 2026-08-04 稱 Insertion 3 預計 4Q26 出貨、Insertion 2 可能 2027 年中開始；「CPO 不論誰贏，旺矽都受益」 |
 | [[6710_汎銓（市）]] | Insertion 3 光通量檢測 | IR-OM 光損偵測裝置（漏光偵測與精準定位）；與光焱科技並列 |
+| [[7853_政美應用（興）]] | CPO／矽光子 AOI、2D／3D 量測與 AI 良率管理 | 未具名 OSAT 驗證 Waveguide、Lens、Micro Lens 與膜厚檢測，部分項目通過；公司預期 1H28 明顯放量，屬公司／券商 estimate，待量產訂單確認 |
 
 測試設備（未建頁）：Keysight（高速測試龍頭）、Teradyne（NVDA 認證領先、ficonTEC 夥伴）、FormFactor（晶圓探針，光學對準模組）、Advantest、Anritsu、Multilane、Hon Precision 鴻勁（AI/HPC 終測 handler）、光焱科技（Insertion 3 光通量，未建頁）。
 
@@ -154,10 +155,12 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 1. **CPO 量產時程下修風險**（見 [[技術_CPO]] 衝突 callout）：scale-out 2026/2027 出貨可能不如預期。
 2. Lumentum 對 CPO 量的曝險使其在 June note 轉保守——ELS 供應地位與時程下修的拉鋸。
 3. 良率（attach yield → 系統良率）是放量的硬門檻，利多測試與設備端先行。
-4. 台廠卡位：上詮（FAU）、致茂（測試）、ASE/SPIL（封測）、Foxconn（系統組裝）。
+4. 台廠卡位：上詮（FAU）、致茂（E/O 測試）、[[7853_政美應用（興）]]（AOI／量測與 AI 良率管理）、ASE/SPIL（封測）、Foxconn（系統組裝）。
 
 ## 相關頁面
 
+- [[時程_2026-2028政美應用催化劑]]
+- [[分析_2026-08_AI算力CPO與高階PCB報告更新]]
 - [[分析_20260828-31_欣興矽力京元與設備金融更新]]
 - [[分析_SEMICON_Taiwan_2026矽光子量產瓶頸]]
 - [[4979_華星光（櫃）]]
@@ -167,6 +170,8 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 - [[6442_光聖（市）]]
 - [[7769_鴻勁精密（市）]]
 - [[7856_漢測（興）]]
+- [[7853_政美應用（興）]]
+- [[分析_政美應用先進封裝檢測與軟體轉型_20260904]]
 - [[供應鏈_AI伺服器散熱]]
 - [[供應鏈_光測試設備]]
 - [[供應鏈_半導體測試設備]]
@@ -193,6 +198,7 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 
 - [[報告_Broadcom_Bailly_51.2T_CPO_20240314]] — Broadcom 公司公告，2024-03-14（Bailly 51.2T CPO 與 remote laser module）
 - [[web_NVIDIA_CPO_industry_collaboration_20250826]] — NVIDIA Technical Blog，2025-08-26
+- [[memo_國泰證期_政美應用CallMemo_20260904]] — 國泰證期研究部，2026-09-04（CPO／矽光子 AOI、量測與 OSAT 驗證；公司／券商轉述）
 
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31
 

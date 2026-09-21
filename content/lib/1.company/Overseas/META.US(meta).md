@@ -207,6 +207,7 @@ SemiAnalysis 估計 Meta 可盈利吸收 **10x 廣告推薦算力增加**，每�
 
 ## 相關頁面
 
+- [[6533_晶心科（市）]]
 - [[分析_生成式AI商業化與TokenFinOps_20260906]]
 
 - [[MSFT.US(microsoft)]]

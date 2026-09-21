@@ -50,9 +50,7 @@ aliases:
   - KGOE
   - Known-Good Optical Engine
   - GC
-  - Grating Coupler
   - EC
-  - Edge Coupler
 ---
 
 # 技術_CPO
@@ -660,6 +658,10 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 
 ## 相關頁面
 
+- [[分析_FMS2026_CXL記憶體池與光互連受惠邏輯]]
+- [[7853_政美應用（興）]]
+- [[分析_政美應用先進封裝檢測與軟體轉型_20260904]]
+- [[分析_半導體AI供應鏈與NPO轉折_20260824]]
 - [[技術_COC光模組封裝]]
 - [[3019_亞光（市）]]
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
@@ -806,7 +808,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - 均豪（4573）展示 1.6T 相容的 Dual-FA 自動主動對準系統；同步 TX／RX 耦合的理論工時可較循序流程減半。公司規劃 2026–2027 年多通道 FAU 組裝、2028 年 3.2T／6.4T CPO 平台，均為 management roadmap。
 - 兩案例支持瓶頸正往晶圓早期缺陷篩選、光損失可視化、奈米級對準與自動化吞吐量集中；不應推論為已取得特定 CPO 平台訂單。
 
-來源：[[報告_GoldmanSachs_光焱科技_NightJar_CPO測試_20260908]]、[[報告_GoldmanSachs_均豪_光模組主動對準_20260908]]（Goldman Sachs，2026-09-08；公司說法／信心中）。
+來源：[[報告_GoldmanSachs_SEMICON台灣光子測試_20260908]]、[[260908_gs_GMT]]（Goldman Sachs，2026-09-08；公司說法／信心中）。
 
 ## 2026-08-18 NVIDIA CPO 量產訊號
 

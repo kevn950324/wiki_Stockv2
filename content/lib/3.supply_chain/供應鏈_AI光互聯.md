@@ -192,6 +192,8 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 
 ## 相關頁面
 
+- [[分析_FMS2026_CXL記憶體池與光互連受惠邏輯]]
+- [[分析_貿聯-KY_2026Q2法說_AI基礎設施內容升級_20260821]]
 - [[分析_SEMICON_Taiwan_2026矽光子量產瓶頸]]
 - [[4979_華星光（櫃）]]
 - [[分析_20260827_NVIDIA供應鏈與AI伺服器]]

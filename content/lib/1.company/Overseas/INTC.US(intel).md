@@ -164,7 +164,9 @@ CEO Lip-Bu Tan 接任後的核心重點：
 
 > MS 評語：「我們錯過了英特爾股票的這波上漲，主要是對路線圖的疑慮；我們認為市場預期份額對 AMD 的回升過於樂觀——AMD 的 Venice 仍具更多晶圓採購能力。短期來看，先進製程與 CPU 短缺提供正面盈餘環境。」
 
-## 2026-09-15 GFHK 18A／EMIB 更新
+## 近期營運與研究更新
+
+### 2026-09-15 GFHK 18A／EMIB 更新
 
 - GF Securities (Hong Kong) 維持 Buy，目標價由 US$136 調升至 US$150（SOTP）。該行估 18A 年底產能為 40K wafers/month、14A 為零；至 2027／2028 年分別為 60K／6K 與 80K／24K，均屬券商模型。
 - 報告稱 server CPU Clearwater Forest（CWF）預計 2026 年底小量、2027Q1 完整量產，Diamond Rapids 主要量產時點約 2027 年中；18A server CPU yield 約 50%，較 6 月的約 20% 改善，屬供應鏈查核，非 Intel 公告。

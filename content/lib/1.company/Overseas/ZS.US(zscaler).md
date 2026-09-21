@@ -180,6 +180,7 @@ gantt
 
 ## 相關頁面
 
+- [[分析_Netskope_2026Q2_AI資安商業化]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[CHKP.US(check point software)]]
 - [[FTNT.US(fortinet)]]
