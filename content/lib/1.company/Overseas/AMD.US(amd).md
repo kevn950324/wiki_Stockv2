@@ -260,8 +260,11 @@ AMD 將 ROCm 升級為 **ROCm.AI**，整合 **Hyperloom AI 最佳化引擎**：
 
 - [[報告_統一_英特爾Arm與MetaMuse新聞評析_20260922]]（統一投顧，2026-09-22；Meta Muse 與 CPU／GPU 需求評析）
 
+- [[報告_UBS_緯穎_20260918]]（2026-09-18）
+
 ## 相關頁面
 
+- [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[技術_ABF載板]]
 - [[6239_力成（市）]]
 - [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]
