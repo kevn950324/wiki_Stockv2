@@ -6,7 +6,7 @@ tags:
   - 產業/記憶體
   - 產業/AI伺服器
 maturity: developing
-updated: 2026-08-17
+updated: 2026-09-26
 aliases:
   - HBM
   - High Bandwidth Memory
@@ -176,3 +176,11 @@ flowchart TB
 - HBF 不被業界視為 HBM 的直接替代品；客製化 HBM 比 HBM／HBF 混合方案更具發展潛力，仍屬專家觀點而非已定案產品路線。
 
 來源：[[報告_MorganStanley_CXMT_DRAM_20260826]]、[[報告_Fubon_Cantor_HBM專家電話會_20260827]]。
+
+## 2026-09-22 J.P. Morgan HBM 模型更新
+
+- J.P. Morgan 將 2026／2027／2028E HBM bit demand 調整為 3,770／6,618／9,986 百萬個 1GB 當量，CoWoS 調整後供給為 3,778／6,246／9,010；其模型對應的供需缺口為 -20%／-19%／-16%。這些是券商預估，不是原廠供貨承諾。
+- 模型預期 2026–2028E HBM 需求 CAGR 63%、2027–2028E TAM 為 US$1,601／2,822 億；8Hi 的生命週期因分層 SKU 延長，16Hi 最早推遲至 2029。需求、ASP 與容量演進均須以 GPU／ASIC 產品規格及記憶體廠 LTA 驗證。
+- 客戶結構方面，該模型預估 ASIC 於 2027E 占 HBM bit demand 48%，超過 NVIDIA 的 43%；這反映系統數量假設，不應當作個別 ASIC 設計案或供應商份額已確定。
+
+來源：[[報告_JPM_HBM市場更新_20260922]]（J.P. Morgan，2026-09-22；券商 estimate／中信心）。

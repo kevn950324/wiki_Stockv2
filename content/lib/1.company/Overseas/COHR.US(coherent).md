@@ -3,6 +3,7 @@ title: "COHR.US — Coherent Corp."
 aliases:
   - Coherent
   - COHR
+  - PhotonLink
 tags:
   - 公司/Overseas
   - 產業/光通訊
@@ -10,7 +11,7 @@ tags:
   - 環節/光收發模組
   - 環節/InP磊晶
   - 環節/OCS
-updated: 2026-08-30
+updated: 2026-09-29
 related_companies:
   - "[[NVDA.US(nvidia)]]"
   - "[[LITE.US(lumentum)]]"
@@ -18,7 +19,7 @@ related_companies:
   - "[[AAOI.US(applied optoelectronics)]]"
   - "[[META.US(meta)]]"
   - "[[AMD.US(amd)]]"
-image_status: "待補來源圖"
+  - "[[索爾思光電（未）]]"
 ---
 
 # COHR.US — Coherent Corp.
@@ -42,7 +43,13 @@ image_status: "待補來源圖"
 
 ## 圖片/架構圖
 
-`[待補來源圖]` 需官方 IR 光通訊元件或泵浦雷射產品圖佐證，現有研究筆記不足以支撐架構示意圖。
+![[報告_Citi_CoherentPhotonLink垂直整合_20260921_001.png]]
+
+*圖（Citi 轉述 Coherent ECOC 2026，2026-09-21）：PhotonLink 將外部雷射源、光引擎、FAU 與面板端光學組件整合為同一套 CPO 解決方案；圖中所列客戶與量產節奏仍應以公司後續揭露驗證。*
+
+![[報告_Citi_CoherentPhotonLink垂直整合_20260921_002.png]]
+
+*圖（Citi 轉述 Coherent ECOC 2026，2026-09-21）：6 吋轉換是 Coherent 對 VCSEL／InP 雷射產能擴張的核心製造槓桿；圖示為管理層產能展望，非實際出貨。*
 
 ## 核心產品
 
@@ -61,10 +68,17 @@ image_status: "待補來源圖"
 - **越南工廠**：計畫光收發模組生產
 - 1.6T EML+SiPh並行；VCSEL方案預計2H26量產，均價高於800G，初期毛利率更高
 
+### 2026-09-21 Citi ECOC 更新
+
+- **PhotonLink 的內容值主張**：管理層將 ELS、ASIC／XPU 端組裝與面板端組裝合計，主張 100T、200G/lane 的 switch／processor 可對應最高約 US$15k 的 Coherent 內容值；這是管理層示例，非已揭露 ASP 或訂單。
+- **商務進度**：管理層稱 CPO、NPO 各有超過 10 個客戶 engagement，chip-to-chip 超過 5 個；CPO 已有以 [[NVDA.US(nvidia)]] 為 anchor 的 LTA，NPO anchor 與兩筆超高功率 CW 雷射 LTA 客戶未具名。
+- **6 吋 InP 路徑**：管理層預期本季末 3 吋／6 吋產出約各半，新增產能全轉 6 吋、2027 年底 6 吋占比約 75%；其稱 6 吋每顆良品 die 成本約為 3 吋一半、單線產能約四倍。這是公司展望，仍須以有效良率與實際出貨驗證。
+
 > [!warning] 6 吋 InP 名目產能與有效產出的差異
 > - 既有公司／研究口徑：德州 6 吋 InP 廠維持 4Q26 產能翻倍計畫，FY2Q26 時稱已達目標約 80%。
+> - [[報告_Citi_CoherentPhotonLink垂直整合_20260921]]（2026-09-21）：管理層預期本季末 3 吋／6 吋產出約各半、2027 年底 6 吋約占 75%，並表示 InP 產能已於去年翻倍、後續還將再翻倍或更多。
 > - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（日期不詳）：Coherent 相關專家稱 6 吋仍在分批轉線、MOCVD recipe、應力與溫循良率摸索，短期仍以 3 吋為主；估計 100G／200G EML 供給壓力到 2027Q2 才逐步緩解。
-> - 狀態：前者可能指設備／名目產能建置，後者指有效良品與可交付量，兩者不必然互斥；需以連續批次良率與實際出貨交叉驗證。
+> - 狀態：Citi 轉述的是管理層產出目標，匿名專家則聚焦轉線良率；兩者可能同時成立，但尚無各自可交叉驗證的出貨數據。
 
 訪談另稱 Coherent 會把更多自有 InP 產能轉向 200G EML 與 200／400mW CW，100G EML 增加向 [[Sumitomo Electric（未）]] 採購；此為 channel claim，尚非公司正式揭露。
 
@@ -155,6 +169,7 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 | 券商 | 評等 | 3M TP（US$） | 12M TP（US$） | 估值基礎 |
 |------|------|------------|--------------|---------|
 | 凱基 | 增加持股 | 239.5 | **325** | 50x FY27F EPS |
+| Citi（2026-09-21） | Buy | — | **420** | 30x FY2028E non-GAAP EPS 約 US$16，折現回推 |
 
 - 前次目標價 US$180 → 上調至 US$325（本益比自30x→50x，展望更加明朗）
 
@@ -172,6 +187,9 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 | 2026Q4–2027Q1（估計） | OCS、ELS 與 dFAU 由純投入轉入小批量產出，開始攤薄固定成本 | 放量／毛利 | ⭐⭐⭐ | [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]]；channel estimate，日期不詳 |
 | 2027Q2（估計） | 3→6 吋 InP 轉線後，EML 供給壓力可能逐步緩解 | 擴產／良率 | ⭐⭐⭐ | 追蹤 MOCVD、應力／溫循良率與有效良品，不只看名目面積 |
 | 2027（估計） | NVIDIA 對 Coherent 約 500 萬個 ELS、對應 4,000 萬顆 CW 的 channel estimate | 需求／驗證 | ⭐⭐⭐ | 非 NVIDIA 或 Coherent 正式指引；須確認 ELS／CW 計量單位 |
+| 2026Q4 | NVIDIA scale-out CPO 開始爬坡 | 技術下線／驗證 | ⭐⭐⭐ | Citi 轉述 COHR 管理層；已稱有 NVIDIA anchor LTA，但實際收入與產能利用率待驗證 |
+| 2027H2 | scale-up CPO 與主要用於 scale-up 的 NPO 預計爬坡 | 技術下線／驗證 | ⭐⭐⭐ | Citi 轉述管理層 roadmap；NPO 客戶未具名，不應視為 NVIDIA 已確認採用 |
+| 2029–2030 | chip-to-chip 光連接商務化窗口 | 技術路線／驗證 | ⭐⭐ | Citi 轉述管理層，離量產仍遠 |
 
 → 跨公司比較詳見 [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 
@@ -192,6 +210,7 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - [[memo_使用者澄清_COHR專家_20260830]]（使用者確認講者為 Coherent 專家、文中「公司」為 Coherent，2026-08-30）
 - [[research_dFAU_Coherent_CPO_20260830]]（Coherent OFC 2026 官方簡報／新聞稿與 Lightmatter dFAU 官方規格，2026-03-17、2026-08-30 擷取）
 - [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]]（毛利率組合、1.6T 良率、北美份額外溢與 OCS／ELS／dFAU 爬坡；日期不詳，2026-08-30 收錄，信心低）
+- [[報告_Citi_CoherentPhotonLink垂直整合_20260921]]（Citi Research，2026-09-21；ECOC PhotonLink、CPO／NPO 時程、6 吋 InP 與估值）
 
 - [[(付費內容) SemiAnalysis Co-Packaged Optics (CPO) Book – Scaling with Light for the Next Wave of Interconnect]]（2026-01-03）
 - [[Jefferies— 芝加哥全球半導體大會要點 Call memo_Fubon 20260901]]（2026-09-01）
@@ -202,6 +221,7 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - [[報告_申万宏源_光通信光電集成深度_20260630]]（2026-06-30）
 - [[報告_金正禾論壇_InP晶圓代工CPO_20260130]]（2026-01-30）
 - [[活動_Lumentum_Fubon_LITE_IR_20260820]]（2026-08-20）
+- [[memo_索爾思光電專家會議_日期不詳]]（使用者提供；Source Photonics 在 Meta 高速模組供應中的匿名競爭格局說法，會議日期未提供）
 
 ## 相關頁面
 
@@ -227,3 +247,5 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - [[技術_光電芯片]]
 - [[技術_矽光子（SiPh）]]
 - [[技術_銦行業]]
+- [[索爾思光電（未）]]
+- [[分析_索爾思光電800G與1.6T出貨追蹤]]

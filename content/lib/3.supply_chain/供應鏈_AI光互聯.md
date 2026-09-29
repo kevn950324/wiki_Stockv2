@@ -8,7 +8,7 @@ tags:
   - 技術/矽光子（SiPh）
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-09-16
+updated: 2026-09-29
 ---
 
 # 供應鏈_AI光互聯
@@ -137,6 +137,7 @@ flowchart TD
 | **CPO 封裝（COUPE）** | [[2330_台積電（市）]] | PIC N65 + EIC N7；SoIC 混合鍵合 | TW |
 | **ELS 主供** | [[LITE.US(lumentum)]] | NVIDIA CPO 初批主供；AIXTRON MOCVD 下游 | US |
 | **ELS 第二供** | [[COHR.US(coherent)]] | 2H26 進入；德州 InP 廠；NVIDIA $20B 入股 | US |
+| **高速可插拔光模組／EML** | [[索爾思光電（未）]] | 800G／1.6T 模組與 EML 路線；1.6T 於 2026-09 小量生產為匿名專家說法 | 未上市 |
 | **FAU 光學塊 NIL** | HIMX.US(himax)（2379.TW） | NIL 奈米壓印製程；微透鏡 + 稜鏡 + V-groove；TSMC COUPE 供應鏈 | US/TW |
 | **FAU 組裝（Scale-Up）** | [[3363_上詮（櫃）]]（FOCI） | 組裝 HIMX 光學塊為 FAU；NVIDIA Scale-Up 主供 | TW |
 | **FAU 主供（Scale-Out）** | TFC Optical（300394.SH） | X800-Q3450 主供；亦供 ELS 模組 | CN |
@@ -213,6 +214,7 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 - [[6488_環球晶（櫃）]]
 - [[6147_頎邦（櫃）]]
 - [[分析_頎邦矽光GoldBump與營運轉型2026]]
+- [[分析_索爾思光電800G與1.6T出貨追蹤]]
 - HIMX.US(himax)
 
 ## 來源
@@ -307,3 +309,19 @@ Semtech（[[SMTC.US(semtech)]]）以 AEC SerDes、1.6T CopperEdge／FiberEdge TI
 - NPO／CPO 的近期受惠環節仍偏向 PIC 耦合與測試設備；高功率 CW 雷射散熱、光學引擎 warpage 與 optical-port contamination 是下一階段量產瓶頸。ASMPT 的 fluxless TCB／AOR 是可能的製程解法，仍待量產驗證。
 
 來源：[[報告_MorganStanley_CIOE光通訊展重點_20260913]]、[[報告_GoldmanSachs_中國光通訊產業參訪_20260914]]。
+
+## 2026-09-22 新聞評析補充
+
+- [[3665_貿聯-KY（市）]] 與 ams OSRAM 的 microVCSEL／multi-core fiber 合作，先列為 AI scale-up 光學互連的技術驗證觀察；未把展示方案寫成已確認客戶訂單。
+- [[4979_華星光（櫃）]] 的 800G ZR／ZR+ 委外訂單與 Marvell 關係，保留為媒體／供應鏈訪查轉述；應追蹤 EML、雷射晶粒產能與實際出貨。
+
+來源：[[報告_統一_貿聯KY新聞評析_20260922]]、[[報告_統一_華星光新聞評析_20260922]]（統一投顧，2026-09-22）。
+
+## 2026-09 索爾思光電產能與客戶驗證觀察
+
+[[索爾思光電（未）]] 的匿名專家會議稱，其 1.6T EML 光模組於 2026 年 9 月開始小量生產，首月約 1–2 萬只；瓶頸被描述為訂單量而非光電晶片供給。來源另稱 [[ORCL.US(oracle)]] 首批訂單預定 2026Q4 交付，而 [[AMZN.US(amazon)]] 尚無送樣或出貨、[[NVDA.US(nvidia)]] 專案暫停。這使「客戶驗證／PO 轉換」成為與元件供給並列的觀察軸，不能以單一供應商的晶片供應充足推導全產業無缺料。
+
+> [!warning] 數據邊界
+> 同一來源對 2026Q3 800G 出貨給出至少 280 萬只與 400–870 萬只兩種說法，且泰國產能口徑亦未一致；本頁僅保留方向性觀察，不採用該等數字推估市場規模。
+
+來源：[[memo_索爾思光電專家會議_日期不詳]]（使用者提供；會議日期未提供，2026-09-29 收錄）。

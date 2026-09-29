@@ -658,6 +658,8 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 
 ## 相關頁面
 
+- [[HIMX.US(himax)]]
+- [[分析_Himax車用顯示_CPO微光學與AI眼鏡_20260916]]
 - [[分析_FMS2026_CXL記憶體池與光互連受惠邏輯]]
 - [[分析_半導體AI供應鏈與NPO轉折_20260824]]
 - [[技術_COC光模組封裝]]

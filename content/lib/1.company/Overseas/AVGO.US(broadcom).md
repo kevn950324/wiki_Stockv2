@@ -14,7 +14,7 @@ tags:
   - 供應鏈/AI伺服器PCB
   - 環節/AI晶片設計
   - 產業/AI伺服器
-updated: 2026-09-18
+updated: 2026-09-22
 aliases:
   - Broadcom
   - 博通
@@ -202,6 +202,7 @@ flowchart LR
 - [[20260709_0823_260708_ms_AI-supply-chain]]（2026-07-08）
 - [[260820_BroadcomAVGO_JPM_FY26_AI營收上看560億美元,_TPU設計贏單藍圖不變（非完整報告）]]（2026-08-20）
 - [[AVGO Q3 Earnings Call memo_Fubon 20260903]]（2026-09-03）
+- [[memo_國泰證期_BroadcomCallMemo_20260903]]（國泰證期研究部，2026-09-03）
 - [[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]（2025-09-30）
 - [[GFHK - AVGO F3Q Review]]（2026-09-03）
 - [[MS-AI Supply Chain 20260910]]（2026-09-10）
@@ -260,3 +261,9 @@ flowchart LR
 - AI ASIC／網通需求與客戶設計贏單屬券商判斷，需以 Broadcom 法說與正式文件交叉驗證；信心水準：中低。
 
 - [[分析_AgenticAI光互連與先進封裝瓶頸_20260916]]
+
+## 2026-09-03 國泰證期 Call Memo 補充
+
+- 3Q26 AI 半導體營收 US$16.7bn、4Q26 指引 US$21.7bn；FY26／FY27／FY28 AI 營收目標 US$58bn／115bn／230bn，後兩年為公司展望。
+- Google TPU、Anthropic Ironwood、第八代 TPU、OpenAI Jalapeno 及 Meta 媒體加速器的部署量，除已出貨項目外，多為客戶計畫或管理階層可見度，信心中低。
+- 先進晶圓、ABF 載板、HBM、土地／電力／機房進度共同約束出貨；新加坡載板產能對 2027 年供給改善的實際程度待驗證。

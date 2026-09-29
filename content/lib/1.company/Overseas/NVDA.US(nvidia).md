@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-09-21
+updated: 2026-09-29
 aliases:
   - NVIDIA
   - 輝達
@@ -33,6 +33,7 @@ related_companies:
   - "[[2357_華碩（市）]]"
   - "[[技術_CPO]]"
   - "[[2454_聯發科（市）]]"
+  - "[[索爾思光電（未）]]"
 ---
 
 # NVDA.US(nvidia)
@@ -111,6 +112,7 @@ flowchart LR
 | 2026-08-20 | 發布 800VDC Architecture: Industry Alignment & Execution 白皮書 | 技術路線 | ⭐⭐⭐ | Power Rack／Power Center／DC Power Block；系統級保護、認證與驗證框架，屬 roadmap／execution framework |
 | 2025-08-26 | 公開 Quantum-X／Spectrum-X CPO 平台與 ELS 架構 | 技術下線／驗證 | ⭐⭐⭐ | 官方 Blog；200Gbps PAM4、TSMC COUPE、Q3450 115.2Tbps 全雙工與模組化 ELS 數字為公司說法 |
 | 2026-08-31 | 投資聯發科 US$3.5bn 可轉債，擴大 NVLink Fusion、Cloud AI Factory、AI PC／本地運算與車用合作 | 策略投資／平台合作 | ⭐⭐⭐ | 投資與合作公告為 fact；特定 XPU design win 仍待客戶與量產驗證 |
+| 2026Q4（預估） | Coherent 為 NVIDIA anchor customer 的 scale-out CPO 進入爬坡 | 技術下線／驗證 | ⭐⭐⭐ | [[報告_Citi_CoherentPhotonLink垂直整合_20260921]] 轉述 COHR 管理層；LTA 已稱取得，實際收入、型號與 NVIDIA 端部署仍待雙方確認 |
 
 ## 供應鏈位置
 - **上游晶圓代工**：[[2330_台積電（市）]]（CoWoS 主代工）
@@ -143,7 +145,7 @@ flowchart LR
 | [[3037_欣興（市）]] | 上游 ABF 載板 | 載板供應 |
 | [[8046_南電（市）]] | 上游 ABF 載板 | 同上 |
 | [[AMKR.US(amkor)]] | 上游 OSAT / Rubin 外包 | 接 TSMC CoWoS 外溢 |
-| [[COHR.US(coherent)]] | 戰略投資 | NVIDIA 入股 USD 20 億，InP CW 雷射供應 |
+| [[COHR.US(coherent)]] | 戰略投資／CPO 光學供應 | NVIDIA 入股 USD 20 億、InP CW 雷射供應；Citi 2026-09-21 轉述 COHR 已取得以 NVIDIA 為 anchor 的 CPO LTA，量產與收入待驗證 |
 | [[LITE.US(lumentum)]] | 戰略採購 | USD 20 億採購承諾，ECTC 2026 聯合論文 |
 | [[GFS.US(globalfoundries)]] | 光連接器合作 | GLASSBRIDGE 可拆光纖連接器 |
 | [[GLW.US(corning)]] | 戰略合作 | 光纖取代銅纜（2026-05-06） |
@@ -285,6 +287,9 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 - [[分析_AgenticAI光互連與先進封裝瓶頸_20260916]]
 ## 來源
+- [[報告_Citi_CoherentPhotonLink垂直整合_20260921]]（Citi Research，2026-09-21；Coherent 管理層所述 NVIDIA CPO anchor LTA 與 2026Q4 爬坡目標）
+- [[活動_現觀科技法說_20260918]]（國泰證期研究部，2026-09-18；現觀生成式 AI 使用 NVIDIA CUDA／GPU 的法說轉述，未揭露採購金額）
+- [[活動_騰雲法說_20260917]]（富邦投顧，2026-09-17；騰雲所述 NVIDIA Edge AI／AI Server 合作為二手法說轉述，未揭露合約金額）
 - [[報告_Citi_聯發科_20260831]]（Citi Research，2026-08-31；NVIDIA 投資與 NVLink Fusion 合作）
 - [[報告_MorganStanley_聯發科_20260831]]（Morgan Stanley，2026-08-31；CB 投資與合作範圍）
 - [[web_NVIDIA_CPO_industry_collaboration_20250826]] — NVIDIA Technical Blog，2025-08-26
@@ -402,11 +407,23 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 - [[大和 Nvidia 2QFY27法說摘要]]（2026-08-27）
 - [[活動_Lumentum_Fubon_LITE_IR_20260820]]（2026-08-20）
 - [[活動_Lumentum_IR問答_20260916]]（2026-09-16）
+- [[memo_索爾思光電專家會議_日期不詳]]（使用者提供；來源稱 800G／1.6T 送樣測試後合作暫停，會議日期未提供，待雙方驗證）
 
 - [[報告_Aletheia_2027AI加速器產能_20260812]]（2026-08-12）
 
+- [[memo_國泰證期_聯陽CallMemo_20260910]]（2026-09-10）
+
+- [[報告_JPM_HBM市場更新_20260922]]（2026-09-22）
+- [[報告_UBS_ASIC_CPU驅動CoWoS擴產_20260922]]（2026-09-22）
+
 ## 相關頁面
 
+- [[3014_聯陽（市）]]
+- [[分析_聯陽PC循環車用SoC與EdgeAI_20260910]]
+- [[6870_騰雲（櫃）]]
+- [[6906_現觀科技（市）]]
+- [[分析_現觀科技電信生成式AI與BoostQuant_20260918]]
+- [[分析_騰雲Tspace實體場域AI商業化_20260917]]
 - [[00285.HK(byd_electronic)]]
 - [[分析_2026-08_AI算力CPO與高階PCB報告更新]]
 - [[分析_中國基礎模型_Token經濟與算力瓶頸_20260905]]
@@ -524,3 +541,6 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 來源：[[memo_富世達_Lumentum_Rubin_20260901]]（使用者 Rubin 觀察，2026-09-01）；詳見 [[分析_富世達_Lumentum_Rubin_20260901]]。
 
 相關公司補充：[[AVGO.US(broadcom)]]（AI ASIC／Ethernet scale-up 夥伴與供應鏈觀察）。
+
+- [[索爾思光電（未）]]
+- [[分析_索爾思光電800G與1.6T出貨追蹤]]

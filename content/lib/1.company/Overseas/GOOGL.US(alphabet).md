@@ -197,6 +197,7 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 
 ## 來源
 
+- [[活動_騰雲法說_20260917]]（富邦投顧，2026-09-17；騰雲所述 Google Cloud 合作為二手法說轉述，未揭露合約金額）
 - [[報告_MorganStanley_聯發科_20260831]]（Morgan Stanley，2026-08-31；Alphabet 參與聯發科 CB 與 TPU 關係）
 - [[報告_BofA_Google_2Q26Preview_20260716]]（BofA，2026-07-16；Buy PO $430、2Q26 預估、Anthropic 重估、Cloud +70%、capex 分析）
 - [[報告_BNP_Google_2Q26Preview_20260709]]（BNP Paribas，2026-07-09；O/P TP $420、GCP backlog、Gemini 市占、Waymo、資本結構）
@@ -227,8 +228,15 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 - [[大和 Google 2Q26法說摘要-1]]（2026-07-23）
 - [[活動_Lumentum_Fubon_LITE_IR_20260820]]（2026-08-20）
 
+- [[報告_UBS_ASIC_CPU驅動CoWoS擴產_20260922]]（2026-09-22）
+- [[報告_UBS_創意電子CPU專案與CSP成長_20260922]]（2026-09-22）
+- [[報告_UBS_聯發科TPU與ASIC專案_20260923]]（2026-09-23）
+
 ## 相關頁面
 
+- [[3443_創意電子（市）]]
+- [[6870_騰雲（櫃）]]
+- [[分析_騰雲Tspace實體場域AI商業化_20260917]]
 - [[技術_大模型推理經濟學]]
 - [[技術_AI推論與ASIC平台]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]

@@ -7,7 +7,7 @@ tags:
   - 產業/半導體
   - 產業/AI伺服器
 maturity: mature
-updated: 2026-08-23
+updated: 2026-09-26
 aliases:
   - ABF
   - Ajinomoto Build-up Film
@@ -506,3 +506,10 @@ Morgan Stanley（2026-02-22）首次升評欣興至 OW（from EW）、南電至 
 
 - [[報告_MorganStanley_SEMICON台灣_20260902]] 轉述欣興於 SEMICON Taiwan 指出，AI 晶片推升 ABF 尺寸、層數與設計複雜度，ABR 與 T-glass 仍為上游供應限制；此為公司／券商觀察，非全產業定量供需預測。
 - [[報告_MorganStanley_ABF載板_20260906]] 認為 Broadcom 與 Toppan 的 AST 新加坡廠較像確保 FC-BGA 供應，而非垂直整合；BT 漲價的原料壓力可能在 2027 年隨新增供應商認證而緩和，ABF 緊缺的投資論點不因此改變。
+
+## 2026-09-23 ABF 供給驗證更新
+
+- AT&S 宣布擴大與 [[MRVL.US(marvell)]] 的 IC 載板合作；Morgan Stanley 將其解讀為 Kulim 擴建計畫中，Marvell 與 [[AMD.US(amd)]] 為長約支持的 anchor 客戶，而非新增一輪擴產。此一客戶辨識為券商解讀，非載板需求的正式保證。
+- 對 AI／雲端 ASIC 而言，ABF 是可能限制出貨的環節之一；MS 認為此訊號正向讀向 [[3037_欣興（市）]] 與 [[8046_南電（市）]]。景碩 8 月獲利亦顯示 ABF／BT 利潤改善，但單月數據不能直接外推產業長約、稼動率或價格趨勢。
+
+來源：[[報告_MS_ATS_Marvell_ABF載板合作_20260923]]、[[報告_MS_景碩2026年8月獲利_20260923]]（Morgan Stanley，2026-09-23；中信心）。

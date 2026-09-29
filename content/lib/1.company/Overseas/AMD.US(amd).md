@@ -12,7 +12,7 @@ tags:
   - 技術/CoWoS
   - 產業/AI伺服器
   - 環節/IC設計
-updated: 2026-08-16
+updated: 2026-09-29
 aliases:
   - AMD
   - Advanced Micro Devices
@@ -254,8 +254,15 @@ AMD 將 ROCm 升級為 **ROCm.AI**，整合 **Hyperloom AI 最佳化引擎**：
 - [[報告_美林_鴻勁精密2Q26營收_20260729]]（2026-07-29）
 - [[報告_高盛_神達AI擴產_20260718]]（2026-07-18）
 
+- [[報告_JPM_HBM市場更新_20260922]]（2026-09-22）
+- [[報告_MS_ATS_Marvell_ABF載板合作_20260923]]（2026-09-23）
+- [[報告_UBS_ASIC_CPU驅動CoWoS擴產_20260922]]（2026-09-22）
+
+- [[報告_統一_英特爾Arm與MetaMuse新聞評析_20260922]]（統一投顧，2026-09-22；Meta Muse 與 CPU／GPU 需求評析）
+
 ## 相關頁面
 
+- [[技術_ABF載板]]
 - [[6239_力成（市）]]
 - [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]
 - [[分析_2026Q3半導體供需與AI伺服器供應鏈]]
@@ -307,3 +314,10 @@ AMD 將 ROCm 升級為 **ROCm.AI**，整合 **Hyperloom AI 最佳化引擎**：
 - ROCm 升級為 ROCm.AI，並以 Hybrid AI Computing、Kria robotics 平台延伸至企業、邊緣與機器人；Helios 的客戶部署與量產節奏仍待驗證。
 
 來源：[[事件分析_AMD Advancing AI Day_20260727]]（富邦證券，2026-07-27；公司展望／券商整理）。
+
+### 2026-09-22 Meta Muse／CPU 需求新聞評析
+
+- 統一投顧認為 AMD 同時具備 Meta 既有 Instinct GPU 供應鏈與 EPYC CPU 受惠位置，AI 代理背景運算增加時，可能同時受益於模型推論與通用運算；此為券商推論。
+- 報告轉述 Meta 為 AMD 第二大客戶、雙方有最高 6GW Instinct 部署協議；客戶占比與部署規模應以公司公告／法說交叉驗證，不視為本次新增訂單。
+
+來源：[[報告_統一_英特爾Arm與MetaMuse新聞評析_20260922]]（統一投顧，2026-09-22）。

@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 產業/企業IT
   - 環節/AI伺服器組裝
-updated: 2026-09-18
+updated: 2026-09-22
 aliases:
   - Dell
   - Dell Technologies
@@ -147,6 +147,13 @@ flowchart LR
 
 - [[20260624_0819_ITHARDWARE_20260623_0421]]（2026-06-23）
 - [[報告_GFHK_Dell_F2Q26_20260901]]（2026-09-02）
+- [[memo_國泰證期_DellCallMemo_20260902]]（國泰證期研究部，2026-09-02）
+
+## 2026-09-02 國泰證期 Call Memo 補充
+
+- FY2Q27 營收 US$47bn、ISG 營收 US$31.8bn、AI 伺服器營收 US$16.4bn，且 AI 訂單／積壓分別為 US$60.9bn／US$95bn，均為公司揭露的季度 fact。
+- FY27 營收指引中位數上修至 US$192bn，AI 伺服器營收目標 US$74bn；屬公司 guidance，需同時追蹤 DRAM、NAND、CPU、ABF 與光通訊的供應限制。
+- 第 18 代伺服器整併老舊機器的效益與 Agentic AI 長期需求皆屬管理階層論點，不替代實際出貨與價格資料。
 
 ## GF Securities 2026-08-28 更新
 

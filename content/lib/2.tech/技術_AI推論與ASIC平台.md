@@ -4,7 +4,7 @@ tags:
   - 技術/AI推論
   - 技術/ASIC
   - 產業/AI伺服器
-updated: 2026-09-18
+updated: 2026-09-26
 image_status: "待補來源圖"
 aliases:
   - AI inference
@@ -137,3 +137,10 @@ Dynamo 則位於軟體調度層，把 prefill、decode 與 KV cache routing 解�
 - 外部 TPU 軟體路線由 TorchAX／JAX 過渡至 PyTorch-native 的 TorchTPU；來源稱 private beta 預計約 2026 年 10 月開源。真正的驗證點是 disaggregated serving、speculative decoding、KV cache 與多輪 agentic workload 上線後的端到端延遲及成本，而非單點 throughput。
 
 來源：[[報告_SemiAnalysis_TPU推論外部化_20260907]]（SemiAnalysis，2026-09-07；第三方 benchmark／研究觀點，信心中低）。
+
+## 2026-09-22～23 TPU／CPU ASIC 供給更新
+
+- UBS 將 Google TPU 與其 CPU 搭配關係視為 [[3443_創意電子（市）]] 2027 年成長主軸；Google CPU 由 2026E 130 萬套升至約 400 萬套、創意 2027E 營收占比 67% 均為券商模型，關鍵反證是晶圓配置與 TPU 系統出貨未如預期。
+- 對 [[2454_聯發科（市）]]，UBS 預期 TPU v9 2026 年 11 月前 tape-out、2028 年以 EMIB-T 放量；CoWoS 補充方案與 SpaceX／Tesla 等新設計案仍未定案。ASIC 規模化的限制不只設計能力，也取決於先進製程、HBM、ABF／EMIB 與封裝協同供給。
+
+來源：[[報告_UBS_創意電子CPU專案與CSP成長_20260922]]、[[報告_UBS_聯發科TPU與ASIC專案_20260923]]（UBS，2026-09-22～23；券商 estimate／中低信心）。

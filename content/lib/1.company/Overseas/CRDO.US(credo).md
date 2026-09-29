@@ -8,7 +8,7 @@ tags:
   - 產業/半導體
   - 環節/AEC銅纜
   - 環節/SerDes
-updated: 2026-09-18
+updated: 2026-09-22
 image_status: "待補來源圖"
 related_companies:
   - "[[3665_貿聯-KY（市）]]"
@@ -146,6 +146,12 @@ related_companies:
 - AEC 仍是 FY1H27 主要成長柱；光學產品 FY27E 營收目標維持 US$600mn 以上，量產高峰偏向 FY2H27，屬 management outlook。
 - 券商預估 FY27E／FY28E EPS US$6.5／11.4，目標價 US$227、Buy，以 FY28E EPS 20 倍估值；來源：[[報告_GFHK_Credo_20260901]]。
 
+### 2026-09-02 國泰證期 Call Memo 補充
+
+- FY1Q27 營收 US$479mn（YoY +114.7%）與 non-GAAP EPS US$1.20；FY2Q27 指引營收 US$525–535mn、毛利率 67%–69%，屬公司揭露／指引。
+- FY27 光通訊營收目標逾 US$600mn，ZeroFlap、SiPho PIC 與 DSP 各預期貢獻逾 US$100mn；屬 management outlook，須觀察 FY2H27 放量。
+- NPO 設計導入、Active LED Cable 與 OmniConnect 主要指向 FY28；不應與已放量的 AEC 混為同一成熟度。
+
 ## 相關頁面
 
 - [[分析_貿聯-KY_2026Q2法說_AI基礎設施內容升級_20260821]]
@@ -164,4 +170,5 @@ related_companies:
 - [[報告_GFHK_Credo_20260901]]（2026-09-02）
 - [[報告_JPMorgan_貿聯-KY_20260902]]（2026-09-02）
 - [[報告_MorganStanley_貿聯-KY_20260902]]（2026-09-02）
+- [[memo_國泰證期_CredoCallMemo_20260902]]（國泰證期研究部，2026-09-02）
 - [[活動_貿聯-KY_2026Q2法說_20260821]]（2026-08-21）

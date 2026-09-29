@@ -1,9 +1,10 @@
 ---
 title: "分析_Coherent毛利率與1.6T良率爬坡"
 query_date: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-22
 sources:
   - "[[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]]"
+  - "[[報告_Citi_CoherentPhotonLink垂直整合_20260921]]"
   - "[[COHR.US(coherent)]]"
 tags:
   - 分析/產業
@@ -34,6 +35,7 @@ Coherent 財報後的核心爭議是：Data Center & Communications 需求強，
 - 1.6T 累積直通率由晶片採購算至終測，耦合是最大瓶頸；專家估計初期約 40%～50%，穩態可能達 80%～90%。
 - OCS、ELS 與訪談所稱 DFU／DFAU 現階段偏投入，專家預期 2026Q4～2027Q1 開始小批量產出並逐步攤薄固定成本。
 - 北美光模組份額下降不一定代表競爭力流失，也可能是需求大於北美三家產能後的自然外溢；但「三家僅覆蓋 15%～20%」與「訂單排至 2027 年底」仍需正式資料驗證。
+- [[報告_Citi_CoherentPhotonLink垂直整合_20260921]]（2026-09-21）轉述管理層預期毛利率可超過 42%，但未預期未來 2–3 季出現跳升；其將 800G→1.6T 的切換窗口放在約 2028，並視為毛利率正向組合變化。這是管理層／券商展望，非已實現結果。
 
 ## 投資重點 memo
 
@@ -73,6 +75,8 @@ Coherent 財報後的核心爭議是：Data Center & Communications 需求強，
 | 1.6T 初期／穩態直通率 | 約 40%～50%／80%～90% | 同上 | 日期不詳 |
 | 其他廠商對旭創良率差距 | 約 10～15 個百分點 | 同上 | 日期不詳 |
 | 北美三家產能覆蓋 | 約全球需求 15%～20% | 同上 | 日期不詳 |
+| 毛利率目標 | 超過 42% | [[報告_Citi_CoherentPhotonLink垂直整合_20260921]] | 2026-09-21 |
+| 800G→1.6T 毛利率正向切換 | 約 2028 | 同上 | 2026-09-21 |
 
 ## 關鍵 Claim
 
@@ -83,6 +87,7 @@ Coherent 財報後的核心爭議是：Data Center & Communications 需求強，
 | OCS／ELS／dFAU 在 2026Q4～2027Q1 小批量出貨 | estimate | 同上 | 日期不詳 | 低 |
 | Coherent 訂單已排至 2027 年底 | channel claim | 同上 | 日期不詳 | 低 |
 | Google OCS 需求增加並由 Polatis 補部分缺口 | channel claim | 同上 | 日期不詳 | 低 |
+| 毛利率目標可超過 42%，但未來 2–3 季不預期跳升 | management outlook | [[報告_Citi_CoherentPhotonLink垂直整合_20260921]] | 2026-09-21 | 中 |
 
 > [!todo] 反證條件／待確認
 > - [ ] 用 Coherent 後續財報核對 800G／1.6T 出貨增速、DC & Communications 組合與 non-GAAP 毛利率。
@@ -95,4 +100,5 @@ Coherent 財報後的核心爭議是：Data Center & Communications 需求強，
 ## 來源引用
 
 - [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]] — Coherent 相關專家訪談，日期不詳（2026-08-30 收錄）
+- [[報告_Citi_CoherentPhotonLink垂直整合_20260921]] — Citi Research，2026-09-21
 - [[COHR.US(coherent)]] — Coherent 公司編譯頁，更新於 2026-08-30
