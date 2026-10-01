@@ -5,7 +5,7 @@ tags:
   - 產業/記憶體
   - 產業/AI伺服器
 maturity: mature
-updated: 2026-09-21
+updated: 2026-10-01
 aliases:
   - NAND
   - NAND Flash
@@ -74,6 +74,7 @@ flowchart LR
 - **Boot Drive 標準化**：[[260702_ms_nand-industry]]（2026-07-02）指 SIMO.US(silicon_motion) 佔 BlueField-3 boot drive 控制器 100%；Vera Rubin 標準化後 BlueField-4 加入 [[8299_群聯（櫃）]]、[[2379_瑞昱（市）]]。
 - **利基 SLC/MLC 緊俏**：MS 看好 [[2337_旺宏（市）]]（Top Pick，SLC/MLC）、[[2344_華邦電子（市）]]（SLC）；3Q 漲 50–60%，enterprise HDD 轉用高密度 SLC。
 - **模組廠模式改變**：LTA 使記憶體高檔維持 3–5 年，低成本庫存耗盡後模組廠毛利趨穩（[[分析_記憶體超級循環2026]]）。
+- **原廠產品組合遷移（渠道觀察）**：[[memo_AceCamp_NAND供需與eSSD轉型_20260820]]（2026-08-20）稱部分原廠把產能轉向 eSSD、退出小容量 SLC／eMMC；這是匿名產業訪談，不能視為任何單一公司的產品公告，須以原廠產品 EOL、LTA 與 bit shipment 交叉驗證。
 
 ## 概念股 / 族群
 | 類型 | 廠商 | 角色 | 觀察點 |
@@ -103,6 +104,7 @@ flowchart LR
 - [[大和 韓國記憶體產業電話會議摘要]] — 大和，2026-07-02
 - [[20260521_0807_統一證to群益投信_記憶體技術概論與大廠現況分析_260520]] — 統一證券，2026-05-20（3D NAND Roadmap Ver.MN-2509-01；廠商製程節點路線圖）
 - [[memo_FMS2026_CXL記憶體池與光互連_日期不詳]] — 使用者 FMS 2026 產業觀察，日期不詳（NAND KV Cache 容量層與 CXL pooling 比較；未查證）
+- [[memo_AceCamp_NAND供需與eSSD轉型_20260820]] — AceCamp Tech 匿名產業渠道訪談，2026-08-20（eSSD／消費級配貨與價格觀察；低信心）。
 
 ## 相關頁面
 

@@ -9,11 +9,12 @@ tags:
   - 環節/雲端基礎設施
   - 環節/雲端資料庫
   - 產業/AI資料基礎設施
-updated: 2026-09-29
+updated: 2026-10-01
 aliases:
   - Oracle
   - ORCL
 related_companies:
+  - "[[BE.US(bloom_energy)]]"
   - "[[SNOW.US(snowflake)]]"
   - "[[MDB.US(mongodb)]]"
   - "[[2317_鴻海（市）]]"
@@ -73,6 +74,14 @@ Oracle Corporation（ORCL.US）是全球最大的企業資料庫廠商，近年�
 
 ## 時間軸
 
+### 本批匿名訪談觀察（入庫 2026-10-01）
+
+| 時間 | 事件 | 類型 | 資訊狀態 |
+|---|---|---|---|
+| 2026Q3–Q4（預估） | SOFC 個案供氣／營運許可與驗收 | 場址驗證 | 訪談時仍待完成，不認定已達成；[[時程_2026-2028_SOFC與載板DCI驗證]] |
+
+### 既有時間軸
+
 | 時間 | 事件 | 重要性 | 備註 |
 |------|------|--------|------|
 | 2026-06 | F4Q26 財報：OCI +92% YoY，RPO $638bn 創高 | ⭐⭐⭐⭐ | CapEx FY27 指引 $90-95bn 高於預期 34% |
@@ -92,7 +101,34 @@ Oracle Corporation（ORCL.US）是全球最大的企業資料庫廠商，近年�
 
 ---
 
+## 2026-08-29 客戶端供電訪談
+
+[[BE.US(bloom_energy)]] 為資料中心現場 SOFC 供電方案的供應商／案例合作對象。紀要包含 Oracle 專案經驗，但受訪者雇主未確認，不能視為 Oracle 公司指引。
+
+專家稱個案設備到場後仍需供氣、建築／消防、排放、運轉與驗收許可；不上電網不代表豁免。SOFC 個案完整部署約 9–10 個月、渦輪約 12–14 個月，與渦輪較長採購交期是不同口徑；天然氣延伸、規模與既有基礎設施均影響時程。這些是 estimate／中低信心，不是通用承諾。
+
+EaaS 案例約 US¢14–15/kWh，電網約 8–10、渦輪約 10–12；須核對運轉時數、冗餘、儲能、維修 SLA 及燃料。轉向服務費可降低前期資本支出，仍有履約與長期成本風險。來源：[[memo_AceCamp_AI資料中心現場供電_20260829_70565950]]（2026-08-29）；上游／電堆觀察另見 [[memo_AceCamp_SOFC隔膜供應商與Bloom交付_20260829_70565484]]、[[memo_AceCamp_SOFC電堆製程與供應鏈_20260829_70566304]]。
+
+```mermaid
+flowchart LR
+    B["Bloom SOFC／其他現場供電"] --> P["供氣與場址許可"]
+    P --> V["驗收與啟用"]
+    V --> D["Oracle 資料中心可用電力"]
+    classDef company fill:#a5d8ff,stroke:#555
+    classDef process fill:#d0bfff,stroke:#555
+    classDef customer fill:#fff3bf,stroke:#555
+    class B company
+    class P,V process
+    class D customer
+```
+
+圖說：設備與可用電力之間的驗證流程，非特定場址竣工圖。判讀見 [[分析_20260828-29專家紀要公司辨識與供給瓶頸]]。
+
 ## 來源
+
+- [[memo_AceCamp_SOFC隔膜供應商與Bloom交付_20260829_70565484]] — AceCamp Tech，2026-08-29，匿名專家紀要。
+- [[memo_AceCamp_SOFC電堆製程與供應鏈_20260829_70566304]] — AceCamp Tech，2026-08-29，匿名專家紀要。
+- [[memo_AceCamp_AI資料中心現場供電_20260829_70565950]] — AceCamp Tech，2026-08-29，匿名專家紀要。
 
 - [[報告_凱基投顧_美國軟體產業_ORCL_SNOW_MDB_20260611]]（凱基，2026-06-11；F4Q26 財報 + FY27 展望）
 

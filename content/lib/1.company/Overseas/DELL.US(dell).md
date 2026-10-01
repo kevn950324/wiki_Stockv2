@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 產業/企業IT
   - 環節/AI伺服器組裝
-updated: 2026-09-22
+updated: 2026-10-01
 aliases:
   - Dell
   - Dell Technologies
@@ -133,6 +133,10 @@ flowchart LR
 
 ## 近期營運與研究更新
 
+### 2026-08 xAI 匿名渠道觀察
+
+- [[memo_AceCamp_xAI伺服器供應鏈_Dell_20260820]] 的受訪者高度疑似 Dell 端人士，稱 xAI 目前向 Dell 與 Supermicro 採購，並描述 Dell 在整機櫃液冷、零組件認證與美國本土整合的做法。此為匿名渠道觀察，非 Dell 或 xAI 公告；其中客戶份額、訂單與供應商配置均不得視為已確認事實。
+
 ### 2026-09-02 GFHK F2Q26 更新
 
 - F2Q26 營收 US$47bn、EPS US$7.04、ISG 營收 US$31.8bn；AI server booking US$60.9bn、季末 backlog US$95bn，為公司揭露的季度 fact。
@@ -148,6 +152,7 @@ flowchart LR
 - [[20260624_0819_ITHARDWARE_20260623_0421]]（2026-06-23）
 - [[報告_GFHK_Dell_F2Q26_20260901]]（2026-09-02）
 - [[memo_國泰證期_DellCallMemo_20260902]]（國泰證期研究部，2026-09-02）
+- [[memo_AceCamp_xAI伺服器供應鏈_Dell_20260820]]（AceCamp Tech／Dell 端匿名產業人士，2026-08-20；渠道觀察／低信心）
 
 ## 2026-09-02 國泰證期 Call Memo 補充
 

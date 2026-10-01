@@ -55,7 +55,7 @@ aliases:
   - RL
   - Laser Release Layer
   - 鐳射離型層
-updated: 2026-09-26
+updated: 2026-10-01
 ---
 
 # 技術_CoWoS與先進封裝
@@ -489,6 +489,7 @@ CoWoS 是近年 NVIDIA 出貨最主要的產能限制：
 
 ## 來源
 
+- [[memo_AceCamp_盛合晶微CoWoS-L封裝_20260820]] — AceCamp Tech 匿名專家會議，2026-08-20（中國境內 CoWoS 類封裝產能與供給瓶頸；客戶、產能與良率皆待查證）。
 - [[memo_日月光_CoWoS_CPO_專家會議_20260520]] — 日月光／矽品供應鏈專家會議，2026-05-20；CoWoS TSV 孔徑 3–5 µm、深寬比約 10:1–20:1，屬專家估計、信心中
 - [TSMC CoWoS® 官方技術頁](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm) — TSMC，2026-09-09 擷取；CoWoS-L 的 RDL-based interposer、嵌入式 LSI 與 eDTC 官方定義
 - [CoWoS Architecture Evolution for Next Generation HPC on 2.5D System in Package](https://doi.org/10.1109/ECTC51909.2023.00174) — TSMC，IEEE ECTC 2023；LSI-1／LSI-2 保留 TSV，RI 使用 TIV 作垂直互連

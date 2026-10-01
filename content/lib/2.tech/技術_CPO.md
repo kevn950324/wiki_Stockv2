@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-09-20
+updated: 2026-10-01
 aliases:
   - CPO
   - Co-Packaged Optics
@@ -840,3 +840,9 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - 近期瓶頸集中在外部雷射源、光纖／FAU 供給、光纖陣列組裝、精密對位與測試；這使光耦合、封裝與測試的價值量上移，但供應商份額、良率與出貨節奏仍待客戶驗證。
 
 來源：[[報告_Citi_US市場回饋_AI硬體_20260920]]（Citi，2026-09-20；券商觀點／信心中）。
+
+## 2026-08-13 AceCamp 訪談補充：CPO／NPO 時程不可單獨定錨
+
+[[memo_AceCamp_CPO_NPO與DFAU_20260813]] 將第一代 CPO 的 FAU／光引擎／ELS 配套出貨描述為 2026 年小量，並預期可拆式 DFAU 與第二代 CPO 於 2027 年中放量；同一來源估 2027 年 CPO 交換器為 8–10 萬台、NPO 需求約 1,500 萬只。這些數字與本頁既有的券商、研究機構及封測商口徑落差很大，且未有客戶採購或平台規格佐證，故僅保留為低信心 channel estimate，不併入市場規模基準。
+
+來源：[[memo_AceCamp_CPO_NPO與DFAU_20260813]] — AceCamp Tech 匿名專家訪談，2026-08-13。

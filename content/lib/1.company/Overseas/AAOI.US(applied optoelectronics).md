@@ -9,7 +9,7 @@ tags:
   - 環節/光收發模組
   - 環節/光收發模組
   - 環節/CW雷射
-updated: 2026-06-29
+updated: 2026-10-01
 related_companies:
   - "[[COHR.US(coherent)]]"
   - "[[LITE.US(lumentum)]]"
@@ -134,7 +134,27 @@ image_status: "待補來源圖"
 - [[CIEN.US(ciena)]]
 - [[技術_光模塊]]
 
+## 2026-08-29 1.6T 相干業務渠道觀察
+
+德科立視角紀要稱與 AAOI 有少量 1.6T 相干產品合作／訂單，且客戶希望 2026 年約 10 萬、2027 年約 50 萬的量。合作屬 rumor／中低信心；數量屬客戶目標 estimate／低信心，不能視為 AAOI 公司出貨指引或已簽訂訂單。
+
+這類長距離相干產品的 US$1,200–1,300 訪談報價，與既有頁的短距資料中心 1.6T 產品口徑不同，不覆蓋既有 ASP。供應商稱量測設備及關鍵光學物料限制交付，也不能推成 AAOI 所有產線的產能瓶頸。
+
+```mermaid
+flowchart LR
+    U["德科立視角的相干產品合作"] -. "匿名渠道／待確認" .-> A["AAOI"]
+    A --> T["核對認證、正式訂單與實際交付"]
+    classDef company fill:#a5d8ff,stroke:#555
+    classDef process fill:#d0bfff,stroke:#555
+    class U,A company
+    class T process
+```
+
+圖說：訪談關係與驗證路徑示意，非已確認量產架構。來源：[[memo_AceCamp_德科立DCI與物料瓶頸_20260829_70566441]]（2026-08-29）；辨識、不同產品 ASP 與反證見 [[分析_20260828-29專家紀要公司辨識與供給瓶頸]]。
+
 ## 來源
+
+- [[memo_AceCamp_德科立DCI與物料瓶頸_20260829_70566441]] — AceCamp Tech，2026-08-29，匿名專家紀要。
 
 - [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]]（日期不詳）
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（2026-06-29）

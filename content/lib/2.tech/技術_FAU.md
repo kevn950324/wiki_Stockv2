@@ -5,7 +5,7 @@ tags:
   - 產業/光通訊
   - 環節/光通訊
 maturity: mature
-updated: 2026-08-30
+updated: 2026-10-01
 aliases:
   - FAU
   - Fiber Attach Unit
@@ -22,6 +22,7 @@ aliases:
   - 光庫FAU
   - 36芯 FAU
   - 32芯 FAU
+  - 2D DFAU
   - 保偏光纖 FAU
 ---
 
@@ -135,6 +136,7 @@ Coherent 供應鏈中：蘅東光占 **約 40%** 份額（第二大）。
 - [[memo_无源光器件大厂调研_FAU_MMC_acecamptech_20260522]]（FAU 供需缺口、CPO FAU 認證、競爭格局、光纖供應）
 - [[memo_光通信大厂调研_TFLN_CPO_OCS_acecamptech_20260417]]（DFAU 方案比較、Spectrum X/Quantum X FAU 規格、MPC/TeraMount/Corning 路線）
 - [[memo_光通信大厂调研_CPO出货量_FAU_MPC方案_acecamptech_20260529]]（FAU 單價 150–200 USD、CPO FAU 架構、蘅東光地位）
+- [[memo_AceCamp_OCS與FAU供應鏈_20260813]] — AceCamp Tech 匿名專家訪談，2026-08-13（OCS／高芯數 DFAU 的價格、份額、客戶與出貨時程均為低信心 estimate）
 - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] — Coherent 相關專家訪談，日期不詳（2026-08-30 收錄；32／36 芯 FAU、內外置光源、PMF 與耦合效率，信心低）
 - [[research_dFAU_Coherent_CPO_20260830]] — Lightmatter／Coherent 官方資料，2026-03-17、2026-08-30 擷取（dFAU 正式全名、規格與 Coherent CPO 技術堆疊）
 - [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]] — Coherent 相關專家訪談，日期不詳（DFU／DFAU 投入與小批量時程，名詞仍待產品規格確認）
