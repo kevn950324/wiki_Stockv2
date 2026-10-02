@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-10-01
+updated: 2026-10-02
 aliases:
   - CPO
   - Co-Packaged Optics
@@ -678,6 +678,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - [[供應鏈_光測試設備]]
 - HIMX.US(himax)
 - [[供應鏈_AI光互聯]]
+- [[分析_20260908-18專家紀要受訪公司辨識與技術觀察]]
 
 - [[供應鏈_半導體測試設備]]
 - [[技術_CoWoS與先進封裝]]
@@ -846,3 +847,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 [[memo_AceCamp_CPO_NPO與DFAU_20260813]] 將第一代 CPO 的 FAU／光引擎／ELS 配套出貨描述為 2026 年小量，並預期可拆式 DFAU 與第二代 CPO 於 2027 年中放量；同一來源估 2027 年 CPO 交換器為 8–10 萬台、NPO 需求約 1,500 萬只。這些數字與本頁既有的券商、研究機構及封測商口徑落差很大，且未有客戶採購或平台規格佐證，故僅保留為低信心 channel estimate，不併入市場規模基準。
 
 來源：[[memo_AceCamp_CPO_NPO與DFAU_20260813]] — AceCamp Tech 匿名專家訪談，2026-08-13。
+
+## 相關頁面
+
+- [[分析_20260918-29專家紀要公司辨識與光互連供給觀察]]

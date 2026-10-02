@@ -15,6 +15,7 @@ aliases:
   - Dell Technologies
 related_companies:
   - "[[NVDA.US(nvidia)]]"
+  - "[[AMD.US(amd)]]"
   - "[[MU.US(micron)]]"
   - "[[2317_鴻海（市）]]"
   - "[[ORCL.US(oracle)]]"
@@ -123,6 +124,7 @@ flowchart LR
 | 公司 | 關係 | 說明 |
 |------|------|------|
 | [[NVDA.US(nvidia)]] | 關鍵上游 | AI GPU 主要供應商；Vera Rubin / RTX |
+| [[AMD.US(amd)]] | 替代平台／上游 | AI 加速器平台之一；匿名訪談估計其在 Dell AI 出貨中的比重約一成，非公司揭露 |
 | [[MU.US(micron)]] | 上游 / 瓶頸 | DRAM/NAND 最大供應瓶頸；SCA 客戶 |
 
 > [!warning] 風險與注意事項
@@ -143,6 +145,12 @@ flowchart LR
 - FY27E 指引營收約 US$192bn、ISG 成長約 120%、non-GAAP EPS US$25.50；券商維持 Hold、目標價 US$497，屬 guidance／estimate。
 - 記憶體供給、企業需求正常化、PC sell-through 與 SpaceX／CoreWeave 訂單競爭仍是主要風險。來源：[[報告_GFHK_Dell_F2Q26_20260901]]。
 
+### 2026-08-29 Rubin／NeoCloud 匿名渠道觀察
+
+- [[memo_AceCamp_Dell_Rubin與Neocloud出貨_20260829]] 的受訪方依文本判讀為 Dell 端人士；其認為 GB300 將自 2026Q4 起取代 GB200 成為交付主力，整體交付窗口約落在 2026Q3 至 2027Q2。HBM 供給、系統驗收與客戶機房條件皆可能改變此節奏，非 Dell 或 NVIDIA 正式指引。
+- 該訪談將 CoreWeave、IREN、NScale、SpaceX 與 Nebius列為觀察中的 NeoCloud／客戶，並稱 Dell 對長約是否轉入 backlog 採較審慎定價策略，以避免記憶體與零組件成本上升侵蝕毛利；客戶份額、機櫃數、價格與毛利率均屬低信心 channel claim。
+- 訪談另估 AMD 平台約占 Dell AI 出貨一成。此為匿名人士說法，僅作平台多元化追蹤，不能取代 Dell 實際營收或產品組合揭露。
+
 ## 來源
 
 - [[活動_Dell法說_20260528]]（FY27 Q1 法說，2026-05-28；Jeff Clarke CEO / David Kennedy CFO）
@@ -153,6 +161,7 @@ flowchart LR
 - [[報告_GFHK_Dell_F2Q26_20260901]]（2026-09-02）
 - [[memo_國泰證期_DellCallMemo_20260902]]（國泰證期研究部，2026-09-02）
 - [[memo_AceCamp_xAI伺服器供應鏈_Dell_20260820]]（AceCamp Tech／Dell 端匿名產業人士，2026-08-20；渠道觀察／低信心）
+- [[memo_AceCamp_Dell_Rubin與Neocloud出貨_20260829]]（AceCamp Tech／疑似 Dell 端匿名專家，2026-08-29；GB300、Rubin、NeoCloud 與毛利觀察／低信心）
 
 ## 2026-09-02 國泰證期 Call Memo 補充
 

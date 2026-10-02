@@ -4,7 +4,7 @@ tags:
   - 技術/邊緣AI
   - 產業/AI伺服器
 maturity: developing
-updated: 2026-08-16
+updated: 2026-10-03
 aliases:
   - Edge AI
   - Industrial AI
@@ -16,6 +16,11 @@ aliases:
   - IWS
   - Industrial AI Workstation
   - 產業 Domain Skill
+  - Inference Cloud
+  - Core Compute
+  - GPU VM
+  - Model as a Service
+  - MaaS
 image_status: "待補來源圖"
 ---
 
@@ -132,3 +137,19 @@ flowchart LR
 - [[技術_人形機器人]] 是 Edge AI 的新應用分支，關鍵觀察從單點算力延伸到功耗、感測融合、模型部署與安全認證。
 
 來源：[[從雲端到邊緣AI_台系晶片設計產業動態解析_DIGITIMES]]（DIGITIMES，2026-08-21）。
+
+## 2026-09-30 分散式算力與邊緣節點的差異
+
+[[memo_AceCamp_Akamai_CPU算力與MaaS_20260930]] 討論主體高度指向Akamai（未建頁）。公司官方GPU產品與Anthropic CPU合作可以確認，但B300採購、GPU滿載、MaaS發布及收入占比均是匿名渠道預估，信心低。
+
+| 部署／服務 | 功能 | 投資觀察 |
+|---|---|---|
+| CDN邊緣POP | 內容分發、流量接入與輕量容器 | 冗餘預留影響利用率；POP數量不是可售GPU容量 |
+| Core compute／GPU VM | 核心機房配置CPU、GPU、儲存與虛擬化，再出租算力 | 採購→物流清關→上架→服務驗收的週期決定收入；供貨延遲不只有晶片因素 |
+| MaaS | 預留GPU資源提供模型token服務 | 同一GPU不能同時滿額出租VM又完整支撐MaaS，需追蹤資源分配、收入與毛利 |
+| 模型商CPU基建 | 支撐推論周邊與應用運作 | [[Anthropic（未）]] 的CPU合作不等同訓練GPU採購 |
+
+因此，[[NET.US(cloudflare)]] 的Workers／AI Gateway／邊緣推論與GPU VM供應商應按工作負載比較，而不是用單一節點數比較「AI算力大小」。匿名受訪者對Cloudflare的能力判斷只代表其觀察範圍，不能作為競品已停止GPU投資的證據。
+
+來源：[[memo_AceCamp_Akamai_CPU算力與MaaS_20260930]]（AceCamp Tech，2026-09-30）。
+相關分析與時程：[[分析_20260930專家紀要公司辨識與商業化驗證]]、[[時程_2026-2027高速互連與分散式算力]]。

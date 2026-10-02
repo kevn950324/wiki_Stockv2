@@ -11,7 +11,7 @@ tags:
   - 環節/AI訓練
   - 環節/API服務
 maturity: private
-updated: 2026-08-12
+updated: 2026-10-03
 aliases:
   - Anthropic
   - Claude
@@ -153,6 +153,8 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 
 ## 來源
 
+- [[memo_AceCamp_Akamai_CPU算力與MaaS_20260930]] — AceCamp Tech匿名專家訪談，2026-09-30（Akamai CPU基建合作；GPU與MaaS部分為低信心渠道預估）。
+
 - 報告_SemiAnalysis_Anthropic_IPO財務分析_20260708（SemiAnalysis，Joey Brookhart/Crystal Huang/Dylan Patel，2026-07-08；Anthropic 3Q2026 non-GAAP 淨利 >$1B；ARR $60B+；融資歷史；Claude Code 7.3% GitHub commits；模型定價；IPO 背景）
 - 報告_SemiAnalysis_Meta算力Neocloud策略_20260702（SemiAnalysis，2026-07-02；Meta-Anthropic 私有 Claude 潛在協議）
 - 報告_SemiAnalysis_企業Token預算調查_20260630（SemiAnalysis，2026-06-30；50+ 企業 token 消費調查）
@@ -186,3 +188,22 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 - AMZN.US(amazon)（Amazon $4B 戰略投資者）
 - [[GOOGL.US(alphabet)]]（Google $2B 戰略投資者；模型部署 GCP）
 - [[META.US(meta)]]（潛在私有 Claude 實例夥伴；算力客戶）
+
+## 2026-09-24～30 Akamai CPU基礎設施合作
+
+Akamai（AKAM，未建頁）於2026-09-24公告與Anthropic擴大合作，提供分散式雲端基礎設施與軟體以支撐CPU工作負載成長；此合作類型為fact／高信心。來源：[Akamai公司公告](https://www.akamai.com/newsroom/press-release/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand)。
+
+[[memo_AceCamp_Akamai_CPU算力與MaaS_20260930]] 另稱合作以CPU與推論周邊架構為主，並談Akamai萬卡級B300規劃及MaaS。後兩項屬於匿名expert estimate／低信心，原文亦明示B300不是Anthropic專用；不能把Akamai整體GPU採購寫成Anthropic確定訓練算力訂單。
+
+| 關係 | 對象 | 資訊邊界 |
+|---|---|---|
+| 雲端CPU基建合作 | Akamai，未建頁 | 官方確認合作類型；不將全部合約金額視為已實現收入或已部署容量 |
+
+## 時間軸：CPU基建合作追蹤
+
+| 時間 | 事件 | 類型 | 重要性 | 備註 |
+|---|---|---|---|---|
+| 2026-09-24 | Akamai公告擴大Anthropic CPU基建合作 | 合作 | ⭐⭐⭐ | fact／高信心；追蹤後續服務交付，不推導GPU卡數 |
+
+跨公司追蹤：[[時程_2026-2027高速互連與分散式算力]]。
+相關技術與分析：[[技術_邊緣AI]]、[[分析_20260930專家紀要公司辨識與商業化驗證]]。

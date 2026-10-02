@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光纖與光通訊
   - 環節/光纖與光通訊
-updated: 2026-06-26
+updated: 2026-10-02
 aliases:
   - Amphenol
   - APH
@@ -61,7 +61,24 @@ Amphenol 是全球連接器與互連龍頭，在 AI 伺服器題材中的定位�
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（2026-06）：Computex 後對 Amphenol **轉趨正面**（與 Vertiv、Fortrend、Legrand、FormFactor 同組）。相對市場預期，最看好的銅互連名單為 Amphenol、Semtech、MACOM——這些被忽略的銅曝險公司，TAM 數年內估明顯倍增。
 - 邏輯：CPO 系統級整合良率/物理瓶頸（[[技術_CPO]]）強化銅作為 scale-up 主互連、pluggable 續守 scale-out，雙軌需求持續成長。
 
+## 2026-09-01 Molex 高速連接器訪談：同業驗證觀察
+
+匿名受訪者明示為 Molex 視角，描述 CX2／CX2 Dual-Speed 的 112G／224G 近晶片 DAC 連接器設計、224G 後續產品及供給吃緊。這可作為高速銅互連升級與 [[APH.US(amphenol)]] 競爭格局的同業訊號，但**不是安費諾自身的產品、價格、客戶或訂單揭露**；原文對中國客戶與 NVIDIA 導入的說法均維持 rumor／estimate。
+
+來源：[[memo_AceCamp_Molex_CX2高速連接器_20260901]]（2026-09-01；匿名 Molex 相關專家訪談）；公司辨識見 [[分析_20260901-08專家紀要受訪公司辨識與供給觀察]]。
+
+## 2026-09-18 高速銅纜產業訪談補充
+
+[[memo_AceCamp_高速銅纜與AEC供應鏈_20260918]] 把 Amphenol、Molex 與 TE Connectivity 列為高速銅纜一階供應的主要競爭群，並將 DAC／ACC／AEC 的經濟性依距離、功耗與訊號重整需求拆分。對 Amphenol 而言，這支持其高速連接器與有源銅纜曝險的產業定位；但訪談未揭露單一受訪公司，不能反推為 Amphenol 的公司立場。
+
+> [!warning] 產業渠道觀察
+> 文中市占、NVIDIA／CSP 客戶關係、中國代工供應商份額、AEC 規格與 Rubin 放量均為匿名口徑，非公司或客戶確認。DAC 的成本優勢、AEC 在中距離連結的角色及高傳輸速率下的功耗／散熱限制，可作技術追蹤框架，不能轉化為 Amphenol 訂單或營收預測。
+
 ## 來源
 
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（800VDC Pushout & CPO Delays，2026-06-09）
 - [[報告_Semianalysis_CPO_20260102]]（CPO Book，2026-01-02）
+- [[memo_AceCamp_Molex_CX2高速連接器_20260901]]（2026-09-01；同業匿名訪談）
+- [[memo_AceCamp_高速銅纜與AEC供應鏈_20260918]]（2026-09-18；匿名產業訪談，低信心）
+
+相關分析：[[分析_20260908-18專家紀要受訪公司辨識與技術觀察]]。

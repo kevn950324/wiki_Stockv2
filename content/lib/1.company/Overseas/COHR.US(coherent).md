@@ -11,7 +11,7 @@ tags:
   - 環節/光收發模組
   - 環節/InP磊晶
   - 環節/OCS
-updated: 2026-10-01
+updated: 2026-10-02
 related_companies:
   - "[[NVDA.US(nvidia)]]"
   - "[[LITE.US(lumentum)]]"
@@ -129,6 +129,13 @@ Coherent 於 2026-03-17 的官方技術簡報把 **Fiber Attach Unit（FAU）**�
 
 dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表可拆卸、可重新插入的 CPO 光纖陣列介面；它是 FAU 的一種設計，而不是 Coherent 專屬縮寫。供應鏈訪談若寫作「Discrete FAU」或把所有 CPO FAU 都視為固定式，應回到實際連接器與可插拔規格確認。詳見 [[技術_FAU]] 與 [[research_dFAU_Coherent_CPO_20260830]]。
 
+## 2026-09-14 高功率 CW 與 NPO 匿名訪談補充
+
+[[memo_AceCamp_Coherent高功率CW與NPO_20260914]] 的討論主體依加州／Greensboro 廠、泰國封裝、ELS 與高功率 CW 路徑判讀為 Coherent。訪談稱 350–400mW CW 的 2027 年供給規劃由約 1,600 萬顆上修至約 2,500 萬顆，且外置 ELS 的 NVIDIA NPO 與 120–150mW 內置 CW NPO 是兩條不同路線；真正限制仍是前段晶片與後段封裝的有效產出。
+
+> [!warning] 匿名渠道估計，不是公司指引
+> 訪談所稱 2027／2028 CW、ELS 與 NPO 的產能、需求、價格、客戶驗證及 Fabrinet 代工安排均未獲 Coherent、客戶或代工商公開證實。應追蹤有效良率、實際出貨、NPO 規格定義與公司法說；不可將 2,500 萬顆規劃視為已承諾的營收或訂單。
+
 ## EPS 記錄
 
 | 項目 | FY24A | FY25F | FY26F | FY27F |
@@ -219,9 +226,19 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 
 來源：[[memo_AceCamp_德科立DCI與物料瓶頸_20260829_70566441]]（2026-08-29）；見 [[分析_20260828-29專家紀要公司辨識與供給瓶頸]]。
 
+## 2026-09-01 泵浦雷射與海纜匿名訪談補充
+
+光庫科技相關匿名訪談將 Coherent 列為泵浦雷射第二大供應商，估計市占約 22%，並稱其產品以內部使用為主、海纜用泵浦晶片居次。此為渠道估計，不是 Coherent 對市占、外售、客戶、產能或訂單的正式說明；980nm／1,480nm 產品與海纜可靠度需求僅作技術追蹤脈絡。
+
+來源：[[memo_AceCamp_光庫科技泵浦雷射與海纜_20260901]]（2026-09-01；匿名訪談）；辨識與反證條件見 [[分析_20260901-08專家紀要受訪公司辨識與供給觀察]]。
+
 ## 來源
 
 - [[memo_AceCamp_德科立DCI與物料瓶頸_20260829_70566441]] — AceCamp Tech，2026-08-29，匿名專家紀要。
+- [[memo_AceCamp_Coherent光模組OCS與1.6T_20260830]] — AceCamp Tech，2026-08-30，匿名 Coherent 相關專家；1.6T 良率、OCS 與毛利結構觀察，低信心。
+- [[memo_AceCamp_Coherent_ELS與InP供給_20260830]] — AceCamp Tech，2026-08-30，匿名 Coherent 相關專家；InP、EML、CW、ELS／FAU 觀察，低信心。
+- [[memo_AceCamp_Coherent高功率CW與NPO_20260914]] — AceCamp Tech，2026-09-14，匿名 Coherent 相關專家；高功率 CW、ELS 與外置／內置 NPO 路線，低信心。
+- [[memo_AceCamp_光庫科技泵浦雷射與海纜_20260901]] — AceCamp Tech，2026-09-01，匿名光庫科技相關訪談；泵浦雷射與海纜供應鏈觀察，低至中信心。
 
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（NVIDIA 入股 USD 20 億；FY3Q26 beat -9%；光通訊三雄 beat & drop 模式，2026-06-29）
 - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（Coherent 3→6 吋 InP、EML／CW 產能分配、ELS／NPO／CPO；日期不詳，2026-08-30 收錄，信心低）
@@ -241,6 +258,8 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - [[活動_Lumentum_Fubon_LITE_IR_20260820]]（2026-08-20）
 - [[memo_索爾思光電專家會議_日期不詳]]（使用者提供；Source Photonics 在 Meta 高速模組供應中的匿名競爭格局說法，會議日期未提供）
 
+- [[memo_AceCamp_AEC與1.6T光模組供給_20260901]]（2026-09-01）
+
 ## 相關頁面
 
 - [[分析_半導體AI供應鏈與NPO轉折_20260824]]
@@ -259,6 +278,7 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - [[GFS.US(globalfoundries)]]
 - [[技術_CPO]]
 - [[分析_光通_CPO與ELS-COS_20260901]]
+- [[分析_20260908-18專家紀要受訪公司辨識與技術觀察]]
 - [[技術_FAU]]
 - [[技術_OCI]]
 - [[技術_光模塊]]

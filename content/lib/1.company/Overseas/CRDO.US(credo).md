@@ -8,7 +8,7 @@ tags:
   - 產業/半導體
   - 環節/AEC銅纜
   - 環節/SerDes
-updated: 2026-09-22
+updated: 2026-10-03
 image_status: "待補來源圖"
 related_companies:
   - "[[3665_貿聯-KY（市）]]"
@@ -36,7 +36,22 @@ related_companies:
 
 ## 圖片/架構圖
 
-`[待補來源圖]` 需官方 IR AEC 模塊或 SerDes 晶片架構圖佐證，現有研究筆記不足以支撐架構示意圖。
+```mermaid
+flowchart LR
+    S[SerDes與訊號處理] --> R[Retimer／AEC銅通道]
+    S --> D[DSP／光模組電通道]
+    D --> O[PIC／Driver／TIA光電轉換]
+    R --> N[AI網路鏈路]
+    O --> N
+    classDef core fill:#a5d8ff,stroke:#1c7ed6,color:#111;
+    classDef process fill:#d0bfff,stroke:#7048e8,color:#111;
+    classDef customer fill:#fff3bf,stroke:#f08c00,color:#111;
+    class S core;
+    class R,D,O process;
+    class N customer;
+```
+
+圖說：AEC與光模組共用高速訊號處理能力，但光模組另需光電轉換零件；圖為功能示意，不代表各零件均由Credo內製。9/30來源是純文字，來源圖待補。
 
 ## 核心競爭力：AEC市場
 
@@ -160,6 +175,8 @@ related_companies:
 
 ## 來源
 
+- [[memo_AceCamp_Credo_800G光模組與1.6TAEC_20260930]] — AceCamp Tech匿名專家訪談，2026-09-30；主體辨識高信心，訂單、價格與量產時程低信心。
+
 - [[20260709_0823_1308120]]（2026-07-03）
 - [[20260709_0823_250708_ubs_bizlink]]（2026-07-07）
 - [[CRDO_PDF_0120]]（2026-01-20）
@@ -172,3 +189,31 @@ related_companies:
 - [[報告_MorganStanley_貿聯-KY_20260902]]（2026-09-02）
 - [[memo_國泰證期_CredoCallMemo_20260902]]（國泰證期研究部，2026-09-02）
 - [[活動_貿聯-KY_2026Q2法說_20260821]]（2026-08-21）
+
+## 2026-09-30 ZeroFlap／1.6T匿名訪談
+
+ZeroFlap產品與公司官網匹配，因此[[memo_AceCamp_Credo_800G光模組與1.6TAEC_20260930]] 的討論主體可高信心對應本公司；受訪者身分未確認。以下不取代公司指引、既有GFHK財測或正式客戶揭露。
+
+| 項目 | 訪談說法 | 類型／信心 |
+|---|---|---|
+| 800G光模組 | 一個客戶已下單，首批目標2027-02～03交付；市場參考單價約US$350 | expert_memo／estimate，低；非合約ASP |
+| 初期毛利 | 自研DSP仍未整合Driver，PIC、TIA外購，加上初期良率與代工費用 | field observation，低；後續自研路線為展望 |
+| 1.6T AEC | final晶片預計2026-11返回，再測試2–3個月後排產；1.6T光模組較晚 | estimate，低；不代表已確定量產日期 |
+| 代工與客戶關係 | 訪談提晶圓代工供給、第二來源選項與特定CSP訂單 | 未獲公司確認，保留於Raw，不新增確定供應商資格 |
+| 交付風險 | 另一光學專案稱送樣從7月延到9月，東南亞製造與熟練度影響爬坡 | field observation，低；匿名專案不能合併為同一訂單 |
+
+> [!warning] 資訊口徑與待確認
+> 公司官方2026-09-15已發布1.6T ZeroFlap光模組，9/16另有產品介紹；匿名訪談的11月final晶片可能指特定版本或客戶。光模組發布、AEC晶片版本定案與量產屬不同產品及階段，不能混用。1.6T AEC定價倍數在原文前後不一致，不據此填入ASP。原文按機櫃數推導需求時沒有完整定義拓撲與端口，不用作收入模型。
+
+官方交叉核對：[Credo產品](https://credosemi.com/products/)、[2026-09-15官方1.6T光模組發布](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Expands-ZeroFlap-Portfolio-with-224G-Based-1-6T-Optical-Transceivers-Addressing-the-Growing-Demand-for-AI-Network-Infrastructure/default.aspx)（2026-10-03核對）。
+
+## 時間軸：本次追蹤節點
+
+| 時間 | 事件 | 類型 | 重要性 | 備註 |
+|---|---|---|---|---|
+| 2026-11（預估） | 1.6T final晶片版本返回 | 驗證 | ⭐⭐⭐ | [[memo_AceCamp_Credo_800G光模組與1.6TAEC_20260930]]，低信心 |
+| 返回後2–3個月（預估） | 晶片與AEC測試，之後排產 | 驗證 | ⭐⭐⭐ | 不把測試終點等同大量交付 |
+| 2027-02～03（預估） | 第一批800G光模組訂單交付 | 放量 | ⭐⭐⭐ | 客戶未具名；另一專案6–10個月另列 |
+
+跨公司追蹤：[[時程_2026-2027高速互連與分散式算力]]。
+相關分析：[[分析_20260930專家紀要公司辨識與商業化驗證]]。
