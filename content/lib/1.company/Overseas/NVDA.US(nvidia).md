@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-10-01
+updated: 2026-10-03
 aliases:
   - NVIDIA
   - 輝達
@@ -296,6 +296,14 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 - [[分析_AgenticAI光互連與先進封裝瓶頸_20260916]]
 
+### 2026-09-29～30 物料分級、散熱與電源渠道觀察
+
+- **物料分級與 AVL**：散熱材料匿名訪談稱 NVIDIA 把機櫃物料分為 Group A（NVIDIA 指定、ODM 代工）、Group B（提供參考設計）與 Group C（提供 AVL，ODM 可自選但須分配份額給 AVL 廠）；Rubin TIM2 石墨烯片屬 Group C，於 L6 選商。這解釋為何部分零件份額由 ODM 決定，但分級名單與份額規則未經 NVIDIA 公開確認，信心低。
+- **熱路徑演進**：同一來源稱 Rubin 全 ODM 以石墨烯片為 TIM2，Rubin Ultra 蓋板可能升級金剛石銅複合，相變冷板較可能在 Feynman 導入；詳見 [[供應鏈_AI伺服器散熱]]。
+- **電源份額**：判讀為 Infineon 端的功率專家稱其在 NVIDIA 與 Google TPU 供應鏈份額穩定、明年可望增加，並估 800V 在 AI 伺服器滲透率 2027 年達 40%–50%；此口徑高於既有券商估計，見 [[技術_800VDC供電架構]]。
+
+來源：[[memo_AceCamp_匿名Rubin散熱TIM2與金剛石_20260929]]（2026-09-29）、[[memo_AceCamp_Infineon_AI電源與800V_20260930]]（2026-09-30）；辨識見 [[分析_20260929-30專家紀要受訪公司辨識與供給驗證]]。
+
 ## 2026-08-28 載板渠道資訊邊界
 
 興森匿名訪談稱接洽 NVIDIA CPU 類專案，仍在設計／可能送樣階段，**未有正式訂單或稽核，也不是取得 GB300 資格**；屬 rumor／中低信心。提及 [[3189_景碩（市）]]、[[3037_欣興（市）]] 與 Ibiden 為 GB300 載板供應商，僅作渠道佐證，不據此新增份額或供應資格。
@@ -305,6 +313,9 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 來源：[[memo_AceCamp_興森ABF與BT載板_20260828_70566407]]、[[memo_AceCamp_興森mSAP與客戶驗證_20260828_70566408]]（2026-08-28）；見 [[分析_20260828-29專家紀要公司辨識與供給瓶頸]]。
 
 ## 來源
+
+- [[memo_AceCamp_匿名Rubin散熱TIM2與金剛石_20260929]] — AceCamp Tech，2026-09-29，匿名散熱材料專家；Group A／B／C 物料分級、TIM2 與 Rubin Ultra 散熱路線，低信心。
+- [[memo_AceCamp_Infineon_AI電源與800V_20260930]] — AceCamp Tech，2026-09-30，Infineon 視角匿名功率專家；NVIDIA 電源供應份額與 800V 滲透率，低信心。
 
 - [[memo_AceCamp_興森ABF與BT載板_20260828_70566407]] — AceCamp Tech，2026-08-28，匿名專家紀要。
 - [[memo_AceCamp_興森mSAP與客戶驗證_20260828_70566408]] — AceCamp Tech，2026-08-28，匿名專家紀要。
@@ -568,3 +579,6 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 - [[索爾思光電（未）]]
 - [[分析_索爾思光電800G與1.6T出貨追蹤]]
+- [[分析_20260929-30專家紀要受訪公司辨識與供給驗證]]
+- [[技術_800VDC供電架構]]
+- [[時程_2026-2027高速互連與分散式算力]]

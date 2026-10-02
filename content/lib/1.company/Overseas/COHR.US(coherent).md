@@ -11,9 +11,10 @@ tags:
   - 環節/光收發模組
   - 環節/InP磊晶
   - 環節/OCS
-updated: 2026-10-02
+updated: 2026-10-03
 related_companies:
   - "[[NVDA.US(nvidia)]]"
+  - "[[GOOGL.US(alphabet)]]"
   - "[[LITE.US(lumentum)]]"
   - "[[Sumitomo Electric（未）]]"
   - "[[AAOI.US(applied optoelectronics)]]"
@@ -88,6 +89,12 @@ related_companies:
 - 下游客戶／策略投資人：[[NVDA.US(nvidia)]]；ELS 與 CW 數量仍待正式指引驗證。
 - 所屬主題：[[供應鏈_AI光互聯]]。
 
+### 光模組 PCB 供應鏈（2026-09-30 匿名訪談）
+
+紅板科技相關匿名訪談把 Coherent 列為其光模組 PCB 第二大客戶群（新易盛之後、與 AOI 並列前段），並稱 Coherent 與 AOI 是目前要求 Cavity（開蓋）盲槽工藝的主要客戶；海外客戶 800G 板層數更多、尺寸更大，良率約 75%–80%。這是 PCB 供應商端的渠道說法，不是 Coherent 的採購揭露，信心低。
+
+來源：[[memo_AceCamp_紅板科技光模組PCB與mSAP_20260930]]（2026-09-30）；見 [[技術_mSAP]]。
+
 ## 相關公司
 
 | 公司 | 關係 | 說明 |
@@ -95,6 +102,7 @@ related_companies:
 | [[Sumitomo Electric（未）]] | 上游／EML 外採 | 專家稱 Coherent 增加採購 100G EML；尚待公司公告驗證 |
 | [[NVDA.US(nvidia)]] | 客戶／策略投資人 | NVIDIA 投資 Coherent 並鎖定 InP／CW 供給；500 萬 ELS 為低信心 channel estimate |
 | [[LITE.US(lumentum)]] | 同業／替代供應商 | EML、CW 與 ELS 競爭；訪談給出 100G EML 價差口徑 |
+| [[GOOGL.US(alphabet)]] | OCS 客戶（匿名訪談） | 2026-09-29 訪談以 Google 320×320 方案說明液晶 OCS 模組；客戶關係與數量未獲公司確認 |
 
 ## NVIDIA 戰略投資（規則 #14 — 關係更新）
 
@@ -108,6 +116,23 @@ related_companies:
 - Coherent未披露具體訂單量，但確認已有大型AI DC客戶大量CPO CW Laser訂單
 - 德州6吋InP廠為CPO CW Laser主要供應基地；預期**2027年後顯著貢獻營收**
 - [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]] 稱 Google OCS 需求仍在增加，供貨與裝調不順時會自製一部分，缺口由 Polatis 壓電陶瓷路線承接；此為日期不詳的 channel claim，尚待公司與客戶端驗證。
+
+### 2026-09-29 液晶 OCS 模組匿名訪談補充
+
+Coherent 官方 OCS 建立在數位液晶（DLX）平台，與 Google 自製 Palomar 的 MEMS 微鏡路線不同。[[memo_AceCamp_Coherent液晶OCS模組_20260929]] 以「科納的蘇州工廠」描述液晶模組組裝，依液晶路線、320×320 規格與音譯判讀為 Coherent（中高信心；受訪者身分未公開）。
+
+| 項目 | 訪談內容 | 信心 |
+|---|---|---|
+| 模組結構 | Google 320×320 方案入光、出光端各 14 層液晶板，共 28 層，分成 4 個模組（每側 10+4 或 9+5） | 中：結構描述 |
+| 粗調／細調 | 粗調層把光導向目標埠，細調層微調以壓低損耗；兩類厚度不同 | 中：原理 |
+| 價值量 | 4 個模組合計約 US$6,000–7,000 或更高；性能不足需加貼 wedge 補償光路，成本上升 | 低：匿名估計 |
+| 製造分工 | 蘇州廠內部組裝；液晶表面 coating 的 ITO 由日本供應商提供，wedge 用釩酸釔每層一片（「藤井」疑為音譯，法人未定） | 低：供應商未確認 |
+| 競爭定位 | 自評壽命與能耗優於 MEMS；光波導尚未構成有力競爭 | 低：公司內部視角 |
+
+> [!warning] 價值量不等於整機 ASP
+> 液晶模組 US$6,000–7,000 只是 OCS 光路核心的訪談口徑；[[技術_光互連]] 既有 300×300 MEMS OCS 整機約 US$60,000 的拆分屬不同路線與不同來源，不能相減推算 Coherent 毛利。需以客戶驗收、出貨台數與 OCS 收入揭露驗證。
+
+辨識與反證條件見 [[分析_20260929-30專家紀要受訪公司辨識與供給驗證]]。
 
 ## 毛利率與產品組合
 
@@ -239,6 +264,9 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - [[memo_AceCamp_Coherent_ELS與InP供給_20260830]] — AceCamp Tech，2026-08-30，匿名 Coherent 相關專家；InP、EML、CW、ELS／FAU 觀察，低信心。
 - [[memo_AceCamp_Coherent高功率CW與NPO_20260914]] — AceCamp Tech，2026-09-14，匿名 Coherent 相關專家；高功率 CW、ELS 與外置／內置 NPO 路線，低信心。
 - [[memo_AceCamp_光庫科技泵浦雷射與海纜_20260901]] — AceCamp Tech，2026-09-01，匿名光庫科技相關訪談；泵浦雷射與海纜供應鏈觀察，低至中信心。
+- [[memo_AceCamp_Coherent液晶OCS模組_20260929]] — AceCamp Tech，2026-09-29，匿名 OCS 專家；液晶模組結構、價值量與蘇州組裝，主體中高信心、數字低信心。
+- [[memo_AceCamp_紅板科技光模組PCB與mSAP_20260930]] — AceCamp Tech，2026-09-30，紅板科技相關匿名訪談；Coherent 為光模組 PCB 客戶與 Cavity 工藝需求，低信心。
+- [Coherent Optical Circuit Switch 產品頁](https://www.coherent.com/networking/optical-circuit-switch) — 官方數位液晶 OCS 平台與 64×64～512×512 規格，2026-10-03 核對。
 
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（NVIDIA 入股 USD 20 億；FY3Q26 beat -9%；光通訊三雄 beat & drop 模式，2026-06-29）
 - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（Coherent 3→6 吋 InP、EML／CW 產能分配、ELS／NPO／CPO；日期不詳，2026-08-30 收錄，信心低）
@@ -279,6 +307,8 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - [[技術_CPO]]
 - [[分析_光通_CPO與ELS-COS_20260901]]
 - [[分析_20260908-18專家紀要受訪公司辨識與技術觀察]]
+- [[分析_20260929-30專家紀要受訪公司辨識與供給驗證]]
+- [[技術_mSAP]]
 - [[技術_FAU]]
 - [[技術_OCI]]
 - [[技術_光模塊]]

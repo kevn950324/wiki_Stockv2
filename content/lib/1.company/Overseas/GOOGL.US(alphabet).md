@@ -14,7 +14,7 @@ tags:
   - 主題/Gemini
   - 主題/Waymo
   - 環節/雲端服務
-updated: 2026-09-15
+updated: 2026-10-03
 aliases:
   - Google
   - Alphabet
@@ -27,6 +27,7 @@ related_companies:
   - "[[3711_日月光投控（市）]]"
   - "[[2360_致茂（市）]]"
   - "[[2454_聯發科（市）]]"
+  - "[[COHR.US(coherent)]]"
 ---
 
 # GOOGL.US(alphabet)
@@ -173,6 +174,13 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 - **J.P. Morgan 供應鏈受惠籃子**：[[2317_鴻海（市）]]、[[2383_台光電（市）]]、[[3037_欣興（市）]]、[[5274_信驊（市）]]、[[2308_台達電（市）]]、[[2356_英業達（市）]]；屬券商受惠判斷，不等同 Google 已確認供應商名單。
 - **TPU／ASIC 合作與策略投資**：[[2454_聯發科（市）]] 為 Google TPU 客製設計合作方；Alphabet 於 2026-08-31 參與其 US$3.9bn 海外 CB，顯示合作由專案延伸至資本關係，但個別投資規模未揭露。
 
+### OCS 與 TPU 電源渠道觀察（2026-09-29～30）
+
+- **液晶 OCS**：判讀為 [[COHR.US(coherent)]] 的匿名訪談以 Google 320×320 方案說明液晶 OCS：入／出光端各 14 層液晶、分 4 個模組，合計價值量約 US$6,000–7,000 或更高。這說明 Google 除自製 MEMS 路線外，也可能採用外部液晶 OCS，但採購量、份額與世代配置未獲 Google 或 Coherent 確認，信心低；原理見 [[技術_光互連]]。
+- **TPU 電源**：判讀為 Infineon 端的功率專家稱在 Google TPU 供應鏈份額穩定、明年可望增加；未揭露料號或金額，信心低，見 [[技術_800VDC供電架構]]。
+
+來源：[[memo_AceCamp_Coherent液晶OCS模組_20260929]]（2026-09-29）、[[memo_AceCamp_Infineon_AI電源與800V_20260930]]（2026-09-30）；辨識見 [[分析_20260929-30專家紀要受訪公司辨識與供給驗證]]。
+
 ## 相關公司
 
 | 公司 | 關係 | 說明 |
@@ -197,6 +205,8 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 
 ## 來源
 
+- [[memo_AceCamp_Coherent液晶OCS模組_20260929]]（AceCamp Tech，2026-09-29；Google 320×320 液晶 OCS 模組結構與價值量，匿名，低信心）
+- [[memo_AceCamp_Infineon_AI電源與800V_20260930]]（AceCamp Tech，2026-09-30；Google TPU 電源供應份額，匿名，低信心）
 - [[活動_騰雲法說_20260917]]（富邦投顧，2026-09-17；騰雲所述 Google Cloud 合作為二手法說轉述，未揭露合約金額）
 - [[報告_MorganStanley_聯發科_20260831]]（Morgan Stanley，2026-08-31；Alphabet 參與聯發科 CB 與 TPU 關係）
 - [[報告_BofA_Google_2Q26Preview_20260716]]（BofA，2026-07-16；Buy PO $430、2Q26 預估、Anthropic 重估、Cloud +70%、capex 分析）
@@ -247,6 +257,10 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 
 - [[供應鏈_AI光互聯]]
 - [[2480_敦陽科（市）]]
+- [[COHR.US(coherent)]]
+- [[技術_光互連]]
+- [[技術_800VDC供電架構]]
+- [[分析_20260929-30專家紀要受訪公司辨識與供給驗證]]
 
 - [[MSFT.US(microsoft)]]
 - [[2330_台積電（市）]]
