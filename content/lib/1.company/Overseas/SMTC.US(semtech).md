@@ -9,7 +9,7 @@ tags:
   - 產業/半導體
   - 環節/SerDes
   - 環節/AEC銅纜
-updated: 2026-09-15
+updated: 2026-10-04
 aliases:
   - Semtech
   - SMTC
@@ -83,6 +83,18 @@ Semtech FY2Q27 營收為 US$341.9m（年增 33%、季增 17%）、non-GAAP EPS U
 |---|---|---|---|---|
 | 2026Q2 | CopperEdge 1.6T ACC 對主要 hyperscaler 量產出貨 | 放量 | ⭐⭐⭐ | 公司／券商整理；實際收入占比仍待財報驗證 |
 | 2026Q2–2027 | FiberEdge 1.6T TIA／driver 初期出貨、NPO/LPO design win 轉量產 | 驗證／放量 | ⭐⭐⭐ | 受 SiGe、InP 與 OSAT 供給限制；屬公司展望 |
+| FY3Q27 | 1.6T FiberEdge＋CopperEdge 合計超過資料中心營收 50% | 放量 | ⭐⭐⭐ | [[活動_Semtech_FY2Q27法說_20260826]] |
+| 2026-10-15 | Investor Day：公布應用時程、市占與多年模型 | 公司活動 | ⭐⭐ | — |
+| FY4Q27 | 蜂巢式模組事業出售交割；ACC 大量部署 | 結構調整 | ⭐⭐ | 交割後 GM 起點約 64% |
+| FY28H1 | 高功率 CW laser 開始貢獻營收 | 新產品 | ⭐⭐ | HieFo 收購後 fab 產能年底擴 3–4 倍 |
+
+## FY2Q27 法說補充（國泰 Call Memo，2026-08-26）
+
+- **財務：** FY2Q27 營收 3.42 億美元（QoQ +17%、YoY +33%，連 10 季成長）、調整後毛利率 54.5%、EPS 0.71 美元；資料中心營收創高 1 億美元（QoQ +39%、YoY +91%）。FY3Q27 財測 4.10 億美元±500 萬、毛利率 58.3%、EPS 1.05 美元；資料中心 QoQ +45%、YoY +160%。
+- **市占與需求：** FiberEdge 800G 市占由 2 年前約 18% 升至逾 50%，1.6T 目標本會計年度底逾 50%（認證早於預期）；CopperEdge 線性均衡器成為 ACC 主流方案、FY4Q27 大量部署；LPO 已有實質營收；NPO 與所有模組廠約 10–15 個專案。業界 800G 光收發模組年需求由年初 5,000 萬顆上調至 8,000–9,000 萬顆。
+- **產能與能見度：** 本會計年度剩餘需求已全數受訂、FY28 目標需求掌握逾 70%；FY28 下半年產能可能不足，正與前段及 OSAT 夥伴擴產（可能預付款或 CapEx），供應能力約還有 50–100% 增加空間。光子 fab 透過收購鄰近晶圓廠年底擴 3–4 倍；高功率 CW laser 已送樣 5–6 家模組廠（可分光至 4 或 8 通道）。
+- **3.2T：** 設計視窗約 12 個月後開啟、早期部署約 18 個月後、規模部署約 2 年；單顆模組潛在內容價值 80–90 美元（high double-digit）。
+- 來源：[[活動_Semtech_FY2Q27法說_20260826]]（國泰證期，2026-08-26），公司財測與說法，信心中高。
 
 ## 風險與注意事項
 
@@ -93,11 +105,15 @@ Semtech FY2Q27 營收為 US$341.9m（年增 33%、季增 17%）、non-GAAP EPS U
 
 ## 來源
 
+- [[活動_Semtech_FY2Q27法說_20260826]]（國泰證期 FY2Q27 法說 Call Memo，2026-08-26）
 - [[報告_GoldmanSachs_Semtech_20260827]]（GF Securities，2026-08-28；FY2Q27、1.6T CopperEdge／FiberEdge、NPO 與產能瓶頸）
 - [[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]（TD Cowen，2025-09-30；AEC／LPO 定位）
 
 ## 相關頁面
 
+- [[供應鏈_CPO]]
+- [[技術_光模塊]]
+- [[時程_2026-2027高速互連與分散式算力]]
 - [[TSEM.US(tower semiconductor)]]
 - [[供應鏈_AI光互聯]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]

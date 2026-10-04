@@ -10,7 +10,7 @@ tags:
   - 供應鏈/先進封裝載板
   - 環節/品牌客戶
   - 產業/AI伺服器
-updated: 2026-09-19
+updated: 2026-10-04
 aliases:
   - Apple
   - 蘋果
@@ -120,7 +120,16 @@ flowchart LR
 
 來源：[[報告_GFHK_Apple_20260915]]（GF Securities (Hong Kong)，2026-09-15）。
 
+### 2026-09-10 新品發表會（國泰 Memo）
+
+- **iPhone 18 Pro／Pro Max：** A20 Pro 採 2nm、6 核 CPU（2 SuperCores＋4 效率核），GPU 7 核效能最高 +40%，新增第二組 Neural Engine 共 32 核、AI 運算 2 倍、記憶體頻寬 +50%；A20 Pro 改採類似 M 系列的封裝，Silicon Die 與 Memory 並排配置，使 Silicon 直接連接 Vapor Chamber，VC 面積為 iPhone 17 Pro 的 3 倍。主相機 48MP 首度導入可變光圈（6 片雷射切割葉片）。起價 1,199／1,299 美元，9 月 18 日上市。
+- **iPhone Duo（首款摺疊）：** 7.6 吋內螢幕＋5.4 吋外螢幕，鈦金屬機身、超過 100 個精密零件的鉸鏈，搭載 A20 Pro 與 C2 Modem（上傳 +50%、功耗 −15%，美國支援 5G mmWave），全球僅 eSIM；起價 1,999 美元，10 月 16 日預購、10 月 23 日上市。
+- **其他：** AirPods 5（ANC +50%）、Apple Watch Series 12／Ultra 4（新 Health Sensing System、S11 晶片）；Siri AI 可與逾 30 萬個 App 互動，Apple Intelligence 支援 16 種語言。
+- **群組補充：** iPhone 內部代號 V62 Air 2、V63 18 Pro、V64 18 Pro Max、V67 18、V68 Ultra、V69 18e（I029，轉述）。
+- 來源：[[活動_Apple_新品發表會Memo_20260910]]（國泰證期，2026-09-10）、[[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]]。
+
 ## 來源
+- [[活動_Apple_新品發表會Memo_20260910]]（國泰證期新品發表會 Memo，2026-09-10）
 - [[報告_其他_玻璃基板_20260511]]（國金證券「玻璃基板行業深度」，2026-05-11；分析師李陽 S1130524120003）
 - [[事件分析_Apple iPhone 18 Preview_090826]]（富邦投顧，2026-09-08；iPhone 18 與 Fold 售價、鏡頭與 BOM 推估）
 

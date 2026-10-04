@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 技術/矽光子
   - 環節/光纖與光通訊
-updated: 2026-09-21
+updated: 2026-10-04
 aliases:
   - Marvell
   - 邁威爾
@@ -220,3 +220,15 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 ### 2026-09-22 華星光供應鏈新聞更新
 
 - [[報告_統一_華星光新聞評析_20260922]] 轉述華星光取得 Marvell 800G ZR／ZR+ 光被動元件委外訂單；Marvell 與華星光的直接採購、訂單金額與獨家性仍待公司或後續供應鏈資料確認。
+
+## 2QFY27 法說補充（國泰 Call Memo，2026-08-28）
+
+- 2QFY27 資料中心營收 21.72 億美元（YoY +46%、QoQ +18%，占 79%）；3QFY27 資料中心預估 QoQ 逾 20%、YoY 約 75%，communications and other 季減後 4Q 恢復成長；GAAP 毛利率指引 52.9–53.9%（custom 放量稀釋），non-GAAP 營利率 4QFY27 進入 38–40% 長期目標區間。
+- **Scale-up optics：** 現階段 scale-up 仍以銅互連為主，客戶最快 2027 年起導入光學；市場同時評估 NPO、CPO 與 MZM、EAM、MRM 等調變架構。先前 FY28 scale-up optics 展望約 3 億美元（含 Celestial AI CPO 約 1.5 億美元），目前 NPO 與 CPO 需求均強於前次預估，是 FY28 營收上修 15 億美元的重要來源之一。
+- **CXL 與記憶體：** CXL 因 AI 推論記憶體需求與記憶體供應限制被多家 hyperscaler 導入不同架構並新增 design win；記憶體限制同時推升 memory controller、custom HBM、near-memory compute 需求。
+- **其他：** 51.2T switching 客戶增加、FY27 scale-out switching 營收預期翻倍以上；Tier 1 hyperscaler（TPU ecosystem XPU attach）協議的較大增量偏 FY29 之後；FY27 non-GAAP 營業費用約 25.5 億美元；FY27 預付供應商約 10 億美元產能預付款；2QFY27 回饋股東 2.54 億美元。
+- 群組補充：法說後盤後股價下跌被解讀為 Google 協議營收已含在 FY28 目標內（I048），屬市場解讀。
+
+### 來源（2026-10-04 LINE 彙整）
+
+- [[活動_Marvell_2QFY27法說_20260828]] — 國泰證期 2QFY27 法說 Call Memo，2026-08-28

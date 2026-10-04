@@ -14,7 +14,7 @@ tags:
   - 供應鏈/AI伺服器PCB
   - 環節/AI晶片設計
   - 產業/AI伺服器
-updated: 2026-09-22
+updated: 2026-10-04
 aliases:
   - Broadcom
   - 博通
@@ -268,3 +268,13 @@ flowchart LR
 - 3Q26 AI 半導體營收 US$16.7bn、4Q26 指引 US$21.7bn；FY26／FY27／FY28 AI 營收目標 US$58bn／115bn／230bn，後兩年為公司展望。
 - Google TPU、Anthropic Ironwood、第八代 TPU、OpenAI Jalapeno 及 Meta 媒體加速器的部署量，除已出貨項目外，多為客戶計畫或管理階層可見度，信心中低。
 - 先進晶圓、ABF 載板、HBM、土地／電力／機房進度共同約束出貨；新加坡載板產能對 2027 年供給改善的實際程度待驗證。
+
+## 2026-09-03 法說群組轉傳補充
+
+- 群組轉傳摘要：六家 frontier AI 客戶合計潛在需求接近 30GW，公司有信心未來兩年出貨約 3,500 億美元 AI 半導體；每部署 1GW，Broadcom 約取得 200–300 億美元半導體內容。Anthropic 2026 年部署約 1GW Ironwood、2027 年約 5GW TPU v8i、2028 年再約 10GW，管理層預期 2027 年起 Anthropic 可能成為最大 XPU 客戶；OpenAI Jalapeño 2027 年約 1.3GW、2028 年連同下一代超過 5GW；Meta MTIA 至 2027 年底交付三代、累計至 2028 年約 3GW。
+- 其他轉傳：Tomahawk 6（102.4Tbps）已出貨，TH6-Davisson CPO 由 16 個 6.4T 光引擎組成、已開發 400G／lane 第四代 CPO（國泰 PIC 論壇）；力成合資資本額 56 億美元、力成出資 4 億美元取得 30%；SemiAnalysis 估博通 ASIC 2026 年 CoWoS 由 25 萬片下修至 21.5 萬片、Ironwood 下修約 50 萬顆（rumor，另傳 Google 與 AMD 合作第十代 TPU）。
+- 來源：[[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]]（I022、I036、I056）、[[活動_SEMICON_Taiwan_2026_矽光子論壇與展會Memo_20260831]]。
+
+### 來源（2026-10-04 LINE 彙整）
+
+- [[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]] — 群組轉傳之法說 GW 需求、TPU 傳聞與力成合資

@@ -6,7 +6,7 @@ tags:
   - 產業/記憶體
   - 產業/AI伺服器
 maturity: developing
-updated: 2026-10-01
+updated: 2026-10-04
 aliases:
   - HBM
   - High Bandwidth Memory
@@ -161,6 +161,7 @@ flowchart TB
 
 ## 相關頁面
 
+- [[分析_2026Q3法說季_AI供應鏈瓶頸與擴產節奏_LINE彙整]]
 - [[分析_FMS2026_CXL記憶體池與光互連受惠邏輯]]
 - [[技術_大模型推理經濟學]]
 - [[分析_MS_AI供應鏈_HBM降規與Kyber延遲_20260810]]
@@ -199,3 +200,10 @@ flowchart TB
 這些數字描述的是受訪者所稱的特定 API／影片服務口徑，不代表字節跳動整體算力、GPU 採購或 HBM 市場需求。其對 2026 年底峰值增長 2–3 倍、720p 升至 1080p 資源線性增加等說法均為估計，需以實際任務量、模型架構、上下文長度與資源利用率驗證。
 
 來源：[[memo_AceCamp_AI影片推論HBM資源估算_20260827]]（AceCamp Tech，2026-08-27；付費產業研究／匿名專家估算，信心低）。
+
+## 2026Q3：Micron 長約、HBF 與 zHBM 路線（LINE 群組 Memo）
+
+- **Micron FY4Q26（2026-10-01）：** 2027 年 HBM 大部分已完成協議，價格顯著提高；已簽 26 份策略客戶協議（SCA），涵蓋至 2030 年、占營收逾 35%，客戶財務承諾 320 億美元；2027 年產出逾 75% 已承諾；推出客製 HBM4E（NV-HBM）。新加坡 HBM 封裝廠 2027 年初投產。群組另轉傳韓媒稱 Micron HBM 年底產能翻倍至月約 10 萬片（信心低）。詳見 [[MU.US(micron)]]。
+- **HBF（High Bandwidth Flash）：** 群組轉傳 HPCwire（2026-08-04）指出 HBM 約 1/3 容量用於 KV cache；HBF Gen2/3 每堆疊頻寬約 3 TB/s，接近 HBM4 的 3.3 TB/s；HBF 寫入慢，但 KV cache 多為唯讀，適合分層。KAIST roadmap：HBM5 2029 年 4 TB/s、HBM6 2032 年 8 TB/s、HBM7 2035 年 24 TB/s、HBM8 2038 年 64 TB/s（學術 roadmap，非廠商承諾）。
+- **三星 zHBM（FMS 轉傳）：** 將 HBM 堆疊於加速器上方，宣稱效能為 HBM5 的 4–8 倍、能效 3 倍，HCB 混合銅鍵合密度 10 倍；屬發表會概念，量產時點未揭露。
+- 來源：[[活動_Micron_FY4Q26法說_20261001]]、[[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]]（I023、I024、I059）。

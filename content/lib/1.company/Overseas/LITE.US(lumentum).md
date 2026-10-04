@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 技術/CPO
   - 環節/光纖與光通訊
-updated: 2026-10-02
+updated: 2026-10-04
 aliases:
   - Lumentum
   - LITE
@@ -282,6 +282,7 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 
 ## 相關頁面
 
+- [[分析_2026Q3法說季_AI供應鏈瓶頸與擴產節奏_LINE彙整]]
 - [[分析_20260829-30專家紀要受訪公司辨識與追蹤]]
 - [[分析_2026Q3先進封裝與光互連供給瓶頸]]
 - [[分析_光通訊產業2026]]
@@ -477,3 +478,20 @@ ECTC 2026 論文：Lumentum 與 NVIDIA、[[2330_台積電（市）]] COUPE 平�
 ## 2026-10-01 來源收錄補充
 
 - [[memo_AceCamp_Lumentum_AI光互連_20260813]] 以公司財報與管理層展望為基礎，整理 1.6T、OCS、CPO／NPO、ELS 與 InP 擴產的正面論述；其敘事性判讀、未具名客戶、供應商比較與遠期量產／毛利推論均視為低信心評論。本頁財務數字仍以公司正式財報、SEC 文件與 IR 原始紀錄為準。
+
+## 2026-10-04 LINE 群組法說與投資論壇彙整補充
+
+群友彙整 Q3／Q4 法說與 JPMorgan、BofA、Mizuho 論壇發言（二手整理，信心中）：
+
+- **Scale-across 驚喜：** pump laser、narrow linewidth laser、WSS、multi-rail 被管理層稱為過去兩個月最大驚喜；narrow linewidth 連續 9 季成長（YoY +120%），pump YoY +80% 且「effectively sold out」。
+- **Transceiver：** 首次 1.6T first to market，Q3／Q4 連續創 800G 出貨紀錄；Q3 約 20% 模組改用自家 CW，良率與毛利改善；管理層估此產品線未來 4–5 季翻倍。轉述 Coherent 模組毛利約 mid-30%、Eoptolink／InnoLight 約 mid-40%。
+- **NPO：** 非 NVIDIA 客戶（Amazon 與 Corning 發布後）對 NPO 興趣明顯轉強；Gen1 CPO＋NPO 並存、Gen2 收斂到 CPO；Q4 取得首張 ELS 模組訂單，2027 下半年出貨給 Scale-up。
+- **財務提前達標：** Q4 營收 $10.1 億（YoY +109%）、毛利率 50.4%；Q1 FY27 guidance $12.5 億，OFC 時所喊「季營收 $20 億、營益率 40%」目標提前接近。
+- **InP 缺口：** 從 25–30% 擴大到「>30% 甚至更高」，高功率雷射 way behind；管理層模型為全球 InP 產能 3 年增 2–4 倍、需求 10 倍起跳；3.2T 世代矽光因雜訊問題可能讓需求回到 EML。基板由「pretty good shape」轉為「not well covered」，緊急簽 AXT；6 吋 InP 仍屬高風險，Greensboro 新廠原生 6 吋、日本舊廠維持 4 吋。
+- **產能：** 收購第 5 座 InP 廠 Greensboro（原 GaAs 線轉 InP），預估增量營收 $50 億、2028 年初有營收、年底滿載；EML 產出自 FY23 已增 8 倍、目標 2026-12 季度再 +50%；pump 未來數季要 4 倍。
+- **OCS：** in-rack OCS（繞開故障 GPU）把 TAM 由 $40 億上修至 $100 億；客戶架構分 Google（Pluggable＋OCS）、NVIDIA（CPO）、Amazon（All-in NPO）三派。
+- **商業模式：** LTA 轉為 take-or-pay＋prepay＋價格調整機制，2–3 年、最長 5 年；砍低毛利產品、重定價 backlog；mid-power 雷射把 400mW 平台下放至 150–200mW NPO 應用。
+
+### 來源（2026-10-04 LINE 彙整）
+
+- [[活動_Lumentum_法說與投資論壇彙整_202608]] — LINE 群組成員彙整（Q3／Q4 法說與 JPM／BofA／Mizuho 論壇），2026-08

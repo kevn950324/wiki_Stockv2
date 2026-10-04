@@ -11,7 +11,7 @@ tags:
   - 環節/光收發模組
   - 環節/InP磊晶
   - 環節/OCS
-updated: 2026-10-03
+updated: 2026-10-04
 related_companies:
   - "[[NVDA.US(nvidia)]]"
   - "[[GOOGL.US(alphabet)]]"
@@ -257,7 +257,15 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 
 來源：[[memo_AceCamp_光庫科技泵浦雷射與海纜_20260901]]（2026-09-01；匿名訪談）；辨識與反證條件見 [[分析_20260901-08專家紀要受訪公司辨識與供給觀察]]。
 
+## 2026-08-18 聯鈞法說：COSA 合作與 CPO 外部光源
+
+- [[3450_聯鈞（市）]] 法說稱 Coherent 上半年於德州動土開工，聯鈞自 2024 年起與 Coherent 合作、共同設計開發 COSA，產品涵蓋 EML、CW（70mW／0.8mm 至 400mW／3.0mm）、Multi Laser 與 RGB Laser；中信版本稱聯鈞為其最佳供應商。此為聯鈞單方說法，Coherent 採購量與獨家性未獨立查證。
+- 群組另轉傳 GIS-KY 接獲 Coherent CPO 光耦合元件（800G／1.6T）大單、Lumentum 轉述 Coherent 模組毛利約 mid-30%，均屬轉傳或第三方說法，信心低。
+- 來源：[[活動_聯鈞3450_法說Memo彙整_20260818]]、[[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]]（I091）。
+
 ## 來源
+
+- [[活動_聯鈞3450_法說Memo彙整_20260818]] — 聯鈞法說 Memo 彙整（群友、國泰、中信），2026-08-18；COSA 合作與 CW 雷射規格
 
 - [[memo_AceCamp_德科立DCI與物料瓶頸_20260829_70566441]] — AceCamp Tech，2026-08-29，匿名專家紀要。
 - [[memo_AceCamp_Coherent光模組OCS與1.6T_20260830]] — AceCamp Tech，2026-08-30，匿名 Coherent 相關專家；1.6T 良率、OCS 與毛利結構觀察，低信心。

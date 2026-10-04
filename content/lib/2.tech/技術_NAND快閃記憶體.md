@@ -5,7 +5,7 @@ tags:
   - 產業/記憶體
   - 產業/AI伺服器
 maturity: mature
-updated: 2026-10-01
+updated: 2026-10-04
 aliases:
   - NAND
   - NAND Flash
@@ -107,6 +107,20 @@ flowchart LR
 - [[memo_FMS2026_CXL記憶體池與光互連_日期不詳]] — 使用者 FMS 2026 產業觀察，日期不詳（NAND KV Cache 容量層與 CXL pooling 比較；未查證）
 - [[memo_AceCamp_NAND供需與eSSD轉型_20260820]] — AceCamp Tech 匿名產業渠道訪談，2026-08-20（eSSD／消費級配貨與價格觀察；低信心）。
 - [[memo_AceCamp_SiliconMotion_KVCache與PCIe6SSD_20260901]] — AceCamp Tech 匿名專家訪談，2026-09-01（KV Cache 分層、PCIe 6 與 boot-drive 合作模式；低至中信心）。
+- [[活動_Kioxia_FMS2026媒體說明會_20260903]] — Kioxia FMS 2026 媒體說明會，2026-09-03
+- [[活動_Micron_FY4Q26法說_20261001]] — Micron FY4Q26 法說，2026-10-01
+- [[活動_群聯8299_國泰論壇_20260825]] — 群聯國泰論壇，2026-08-25
+- [[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]] — LINE 群組轉傳（I023 HBF、I024 三星 FMS）
+
+## 2026Q3 法說季：AI token 推動 NAND 供需（LINE 群組 Memo）
+
+- **Kioxia（FMS 2026）：** 估 2030 年 NAND 位元規模約 3,000 EB，DRAM 約 100 EB；CXL XL-FLASH 模組讀延遲 <5 μs，卸載 1/3 DRAM 時性能僅降約 5%；BiCS10 TLC 7 月送樣，位密度 +60%。詳見 [[285A.JP(kioxia)]]。
+- **Micron FY4Q26：** NAND 營收 141 億美元，價格季增約 30%；資料中心 SSD 營收接近 100 億美元；預估 NAND 位元 2027 年成長約中 20%，仍供不應求。詳見 [[MU.US(micron)]]。
+- **群聯：** AI token 帶動 NAND 需求，看不到供需平衡；與原廠長約只保量不保價，訂單滿足率約 30%；aiDAPTIV SSD 與 HBF 路線並行。詳見 [[8299_群聯（櫃）]]。
+- **三星 FMS（群組轉傳）：** V10 BV-NAND 400 層，位元密度 +58%；zNAND-O 以 TSV 堆疊、延遲 <3 μs。HBF 路線見 [[技術_HBM高頻寬記憶體]]。
+
+> [!note] 信心
+> Kioxia 與 Micron 為公司公開說明，信心中高；群聯滿足率為論壇口頭說法，信心中；三星新品規格為群組轉傳媒體報導，信心中低。
 
 ## 相關頁面
 
