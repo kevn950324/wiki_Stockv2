@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-10-02
+updated: 2026-10-04
 aliases:
   - CPO
   - Co-Packaged Optics
@@ -51,6 +51,16 @@ aliases:
   - Known-Good Optical Engine
   - GC
   - EC
+  - UPO
+  - Near Package Optics
+  - 12.8 Tb/s NPO Module
+  - Hi One 3.0
+  - CopackAlign
+  - Polalign
+  - EzAlign
+  - Detachable Optical Connector
+  - OCS
+  - Optical Circuit Switch
 ---
 
 # 技術_CPO
@@ -98,6 +108,9 @@ flowchart TB
 *圖（SemiAnalysis／NVIDIA，2026-08-10）：Portia expandable switch 的 NPO／CPO 配置差異；NPO 保留 socketed 模組，CPO 將 optical engine 固定於 switch ASIC 周邊。*
 
 ## 圖解
+
+![[報告_Omdia_CIOE展會回顧_202609_p13.png]]
+圖說：Omdia 2026-09 報告第 13 頁轉述海思 Hi One 3.0 的內置 1+1 雷射光引擎；內置光源與外部 ELSFP 是不同光路、散熱及維修取捨，不能以此反推 NVIDIA 採用內置方案。
 
 ![[web_NVIDIA_CPO_20250826_001.webp]]
 *圖（NVIDIA Technical Blog，2025-08-26）：Quantum-X／Spectrum-X CPO 交換器的系統實體配置，將交換器 ASIC、光子引擎、光纖介面、液冷與 ELS 放在同一平台脈絡中。*
@@ -199,7 +212,7 @@ flowchart TB
 
 ## 關鍵參數 / 判斷指標
 
-| 指標 | 意義 | 觀察重點 |
+| 指標 | 意義 | 投資觀察 |
 |------|------|----------|
 | 光引擎 attach 良率 | 每顆 OE 耦合後須完好（焊接基板無返工路徑） | 目前約 95%；量產經濟需 ~99.5%；32 顆 COUPE 下 95%^32 ≈ 1% 系統良率，99.5% 才達 ~85% |
 | 插入損耗（insertion loss） | 吃掉光通道預算 | Spectrum 6 CPO 曾測得 4.5 dB，吃光整個通道預算 |
@@ -209,6 +222,7 @@ flowchart TB
 | NPO 電通道與 socket 可靠度 | NPO 以約 150 mm 高性能基板通道換取可拆換 OE | 能否在 200G/lane PAM4 下維持訊號完整性，決定它是否可作為 CPO 的過渡方案 |
 | 外置 ELS 光路效率 | 決定 CW 額定功率、熱與供給需求 | 追蹤 PMF／FAU／連接器總插損；不能只用晶片 mW 規格比較平台效率 |
 | 內置 CW 降額幅度 | 壽命、溫漂與故障率管理 | 額定 200mW 若僅運行 120～150mW，冗餘有助可靠度但提高單位頻寬的晶片用量 |
+| NPO 系統介面與熱規格 | Omdia 2026-09 轉述 OIF 專案目標：6.4／12.8Tb/s、200G PAM4、可拆連接器（可選 pigtail）、密度 ≥0.9Tb/mm | 來源第 11 頁為專案目標整理，非已生效完整標準；液冷、基板翹曲、老化與腐蝕需做系統長期驗證 |
 
 ## 技術瓶頸 / 風險
 
@@ -405,6 +419,34 @@ gantt
 ```
 
 ## NPO vs CPO 過渡期（2026–2028）
+
+### 中國 NPO／UPO 路線：Omdia CIOE 2026
+
+[[報告_Omdia_CIOE展會回顧_202609]]（2026-09，pp.10–15）轉述 OIF 於 2026-05-21 啟動 12.8Tb/s NPO Module 專案；中國 CAICT 於 7 月形成約 50 家組織的工作群，光迅與華工正源已展示 3.2／6.4T NPO。標準專案啟動、展會 demo 與客戶量產是不同階段，來源為機構轉述／中信心。
+
+![[報告_Omdia_CIOE展會回顧_202609_p15.png]]
+圖說：Omdia 第 15 頁拍攝的 102.4T NPO 交換器 demo，呈現鄰近 ASIC 的光引擎與光纖佈局；照片證明展示存在，不能證明下表預計交付節點已完成。
+
+| 節點 | Omdia 轉述時程／規格 | 類型與信心 |
+|---|---|---|
+| 中國 ICP 的 NPO 樣品／系統 bring-up | 2026Q1：3.2T OE、4×25.6T 國產交換系統 | 轉述已完成里程碑，fact（來源轉述）／中 |
+| 上述產品系列量產出貨 | 2026Q4（預估） | estimate／中低；未提供訂單或交付量 |
+| UPO 初版與交換器 | 6.4T UPO 初版規格 2026Q4；102.4T UPO 交換器 2026Q4～2027Q1（規劃） | estimate／中低；展示不等於量產 |
+| 下一代定義 | 2027Q3：448G 版本、12.8T UPO（規劃） | estimate／中低；並非已量產 lane 規格 |
+
+> [!note] 時程的適用範圍
+> 本表對應阿里雲、騰訊等中國 ICP 的產品系列；不能套用到 NVIDIA Rubin Ultra、北美 NPO 專案或 Lumentum 的 ELSFP 出貨年份。跨公司追蹤見 [[時程_2026-2027高速互連與分散式算力]]。
+
+Omdia 第 14 頁轉述阿里雲：相較含 DSP 的系統，NPO／CPO 整體功耗分別降低約 31%／39%；800G LPO 另稱節省約 29%（約 6.5W），模組本身約降低 50%。可靠度提升 68.2%–78.8% 與 CPO 累計 100 萬個 400G 等效 port-hours 無 link flap，均缺少完整測試條件與失效分母；保留為特定客戶測試 claim／中低信心，不能換算成通用節能率或全生命週期故障率。
+
+### 可拆連接器與 OCS 的商業驗證
+
+![[報告_Omdia_CIOE展會回顧_202609_p31.png]]
+圖說：Omdia 第 31 頁引用 Suna 的可拆光連接器與封裝示意；微米級重定位、可重複插拔、單體整合與晶圓級測試相容性，決定 NPO 的維修優勢能否轉為可量產能力。
+
+- **被動件平台化**：第 30 頁長飛的 CopackAlign 包括 Polalign（PMF）與 EzAlign（SMF），以配對光纖的幾何／芯高一致性減少後端分選；屬供應商方案介紹，不代表特定平台 design win。
+- **OCS 應用分層**：第 24–25 頁認為新應用的大規模部署偏本十年後期，且其訪查未找到明確標準化活動；應與已存在的 Google OCS 用例分開。價值還取決於軟體排程、交換架構與使用情境，融資、MOU 或矽光晶片 demo 不足以驗證商業收入。此為 Omdia thesis／中信心，不能解讀為整個 OCS 市場尚未商用。
+- **採購訊號需去重**：第 8 頁提醒 LTA 不足以保證交付，重複下單可能把上游訂單轉成中游存貨；應同時追蹤客戶實際部署、可交付良品與庫存天數。完整投資框架見 [[分析_Omdia_CIOE2026_NPO部署與InP供給風險]]。
 
 NPO（Near-Package Optics）是 2026–2027 年市場的主流過渡方案：
 
@@ -615,6 +657,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 資料來源：SemiAnalysis / Daiwa Research
 
 ## 來源
+- [[報告_Omdia_CIOE展會回顧_202609]] — Omdia／Mingyang Lyu，2026-09（僅揭露月份；pp.8、10–15、24–25、30–31）。
 - [[報告_Broadcom_Bailly_51.2T_CPO_20240314]] — Broadcom 公司公告，2024-03-14（Bailly 51.2T CPO：8×6.4T 光引擎、70% 光互連功耗節省、RLM 可維修設計）
 - [[web_NVIDIA_CPO_industry_collaboration_20250826]] — NVIDIA Technical Blog，2025-08-26
 
@@ -658,6 +701,11 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 
 ## 相關頁面
 
+- [[603005.CN(crystal_optech)]]
+- [[分析_20260820專家會議受訪公司辨識]]
+- [[分析_20260829-30專家紀要受訪公司辨識與追蹤]]
+- [[分析_2026Q3_AI硬體需求與供應限制_20260903]]
+- [[分析_2026Q3先進封裝與光互連供給瓶頸]]
 - [[HIMX.US(himax)]]
 - [[分析_Himax車用顯示_CPO微光學與AI眼鏡_20260916]]
 - [[分析_FMS2026_CXL記憶體池與光互連受惠邏輯]]
@@ -851,3 +899,5 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 ## 相關頁面
 
 - [[分析_20260918-29專家紀要公司辨識與光互連供給觀察]]
+- [[分析_Omdia_CIOE2026_NPO部署與InP供給風險]]
+- [[時程_2026-2027高速互連與分散式算力]]

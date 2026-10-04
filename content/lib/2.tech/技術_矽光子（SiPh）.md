@@ -6,7 +6,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光電晶片
 maturity: developing
-updated: 2026-10-03
+updated: 2026-10-04
 aliases:
   - Ge-on-Si
   - Germanium epitaxy
@@ -26,6 +26,12 @@ aliases:
   - Grating Coupler
   - Edge Coupler
   - Wafer-level Photonics Test
+  - SOI
+  - Silicon on Insulator
+  - Thick-film Silicon Photonics
+  - Photon Bridge
+  - SOA
+  - Semiconductor Optical Amplifier
 ---
 
 # 技術_矽光子（SiPh）
@@ -37,6 +43,9 @@ aliases:
 2026 年 SiPh 在光模組的滲透率已超 50%（2026 OFC 確認），是 1.6T 出貨的主要技術路線（估 50–70% 滲透率）。
 
 ## 圖解
+
+![[報告_Omdia_CIOE展會回顧_202609_p21.png]]
+圖說：Omdia 第 21 頁的 Photon Bridge 矽／III-V 平台示意，對應厚膜矽光子、異質光源整合與耦合容差的比較；圖為廠商方案介紹，不是量產良率證明。
 
 ![[web_semicon_taiwan_2026_siph_summit_20260831_05.png]]
 *圖（Simple Tech Trend，2026-08-31）：400G/lane 材料決策樹；來源整理將 Si MZM、Si MRM 與 SiGe EAM 的瓶頸歸因於頻寬、溫度敏感度與色散，並列出 TFLN、InP、BTO、有機聚合物與電漿子候選路線。*
@@ -60,6 +69,18 @@ aliases:
 | 專用機台配置 | 來源稱光子與功率元件可用同類機台，但調測後專用於光子線 | 名目設備數不等於可互換的有效產能 |
 
 國泰估光子年產能由 2026 年 2,700 片增至 2027 年 13,500 片、機台擴至 3 台，2027 年營收占比保守估 8%、單價 US$1,500–1,700；均為 estimate／中信心。第 2 頁對第二客戶「工程階段」與「尚未工程階段」互相矛盾，僅保留為前期驗證；2028 放量為低信心情境。流程延伸見 [[供應鏈_AI光互聯]]。
+
+### SOI 供給與異質光源整合（CIOE 2026）
+
+[[報告_Omdia_CIOE展會回顧_202609]]（2026-09，pp.12、21–22）指出供給限制已由 InP／雷射延伸至矽光 SOI 晶圓，長約開始廣泛導入。這是展會訪查觀察／中信心，未揭露具名供應商產能或交期。
+
+| 模組／流程 | 功能 | 觀察重點 |
+|---|---|---|
+| Photon Bridge 厚膜矽光 | 來源比較 2µm 厚膜與 220nm 薄膜，主張較高功率承受、較低損耗及更寬製程容差 | 彈性元件對準／耦合方案為供應商 claim；量產良率、PDK 相容與成本待驗證 |
+| [[INTC.US(intel)]] InP-on-SOI | 把 InP die 鍵合至 SOI，鍵合後處理 InP，整合 III-V 發光與矽光功能 | 晶圓級製造／測試／burn-in、KGD 與 SOA 可提高材料利用率；8／16 波長陣列為報告轉述展示 |
+| 雷射陣列供給 | Sivers 在展會談及 array-based 光源，強調不與客戶競爭 | 陣列 know-how 與供應分工，不能推論為 Intel 或其他平台採購關係；未建公司頁 |
+
+與分立雷射逐顆對位相比，上述方案把材料利用率、晶圓級篩選與對準複雜度放到整合平台處理；預期優勢仍須以可交付良率、熱循環可靠度與單位頻寬成本確認。
 
 ### 核心器件比較
 
@@ -136,6 +157,7 @@ aliases:
 
 ## 技術瓶頸 / 風險
 
+- **材料與平台認證仍是硬限制**：SOI 長約或異質雷射 demo 不等於系統良品已放量；InP die、SOI、鍵合與封裝每段都可能限制有效產出（Omdia，2026-09，pp.12、21–22）。
 - **矽調變器 RC 頻寬牆**：50–60 GHz 上限（電導率 + 自由電子吸收），需要 TFLN 或 plasmonics 接棒
 - **光纖耦合**：邊緣耦合（±1 µm 精度需求）vs 光柵耦合（溫度敏感），CPO 量產的隱形關卡
 - **散熱管理**：光元件與 ASIC 共封裝後散熱路徑複雜（KYOCERA 面朝下散熱方案：雷射溫降 15.3°C）
@@ -211,6 +233,7 @@ Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重�
 
 ## 來源
 
+- [[報告_Omdia_CIOE展會回顧_202609]] — Omdia／Mingyang Lyu，2026-09（僅揭露月份；pp.12、21–22）。
 - [[報告_國泰_嘉晶_20260924]] — 國泰證期研究部，2026-09-24；Ge／Si 磊晶、產能測算與客戶流程。
 
 - [[報告_BofA_台積電_20260831]] — BofA Securities，2026-08-31；COUPE lane／WDM 擴展、耦合器損耗與晶圓級測試
@@ -238,6 +261,11 @@ Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重�
 
 ## 相關頁面
 
+- [[INTC.US(intel)]]
+- [[供應鏈_CPO]]
+- [[分析_Omdia_CIOE2026_NPO部署與InP供給風險]]
+- [[分析_2026Q3先進封裝與光互連供給瓶頸]]
+- [[分析_光通訊產業2026]]
 - [[供應鏈_AI光互聯]]
 - [[分析_頎邦矽光GoldBump與營運轉型2026]]
 - [[分子尼奧（私）]]

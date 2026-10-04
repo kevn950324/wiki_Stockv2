@@ -168,3 +168,5 @@ flowchart LR
 - [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]]（日期不詳）
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（2026-06-29）
 - [[活動_Lumentum_Fubon_LITE_IR_20260820]]（2026-08-20）
+
+- [[AAOI Con-Call memo_Fubon 20251126]]（2025-11-26）

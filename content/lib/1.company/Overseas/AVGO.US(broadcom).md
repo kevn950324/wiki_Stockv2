@@ -230,6 +230,7 @@ flowchart LR
 
 ## 相關頁面
 
+- [[分析_2026Q3_AI硬體需求與供應限制_20260903]]
 - [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[6147_頎邦（櫃）]]

@@ -6,7 +6,7 @@ tags:
   - 技術/CPO
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-09-21
+updated: 2026-10-04
 ---
 
 # 供應鏈_CPO
@@ -143,6 +143,8 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 
 ## 競爭格局
 
+- **光源、材料與被動件需協同交付**：[[報告_Omdia_CIOE展會回顧_202609]]（2026-09，pp.8、12、18–22、30–31）把供給限制延伸至 InP 原料／基板、矽光 SOI、耦合與可拆連接器。長飛 CopackAlign 的配對光纖幾何控制與 Suna 的微米級重定位，反映被動件正向系統平台協同設計；不由展會產品介紹推導特定 NVIDIA 供應份額。
+- **異質光源平台另成一路**：[[INTC.US(intel)]] 的 InP-on-SOI 展示對應晶圓級光源整合與測試，並非本頁 NVIDIA 主鏈中的已確認供應關係；技術比較見 [[技術_矽光子（SiPh）]]。
 - **TSMC COUPE 形成綁定**：採 COUPE 即綁定 TSMC 製 PIC，是供應鏈最關鍵的卡位。
 - **雷射 ELS 短期由 Lumentum 主導**，Coherent 第二、中系廠商伺機切入標準化品項。
 - **FAU/被動件**：精密對位與技術人力是門檻；台廠（上詮、FOCI）與中、日（TFC、Senko）並進。
@@ -154,9 +156,16 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 1. **CPO 量產時程下修風險**（見 [[技術_CPO]] 衝突 callout）：scale-out 2026/2027 出貨可能不如預期。
 2. Lumentum 對 CPO 量的曝險使其在 June note 轉保守——ELS 供應地位與時程下修的拉鋸。
 3. 良率（attach yield → 系統良率）是放量的硬門檻，利多測試與設備端先行。
+5. **LTA 與訂單去重**：Omdia 第 8 頁提醒上游重複下單與終端交付落差；觀察原料／光源交期時，同時核對良品出貨、庫存與客戶實際部署，避免把所有 backlog 當成淨新增需求。
+6. **不同 fabric 保留不同產品池**：同報告 pp.27–28 認為跨資料中心 GPU 協作仍拉動 400G／800G 相干可插拔，往 1.6T／coherent lite 演進；不能把這類 scale-across 需求直接併入 NPO／CPO 交換器量。InP 泵浦雷射也可能限制光放大器交付。
 
 ## 相關頁面
 
+- [[INTC.US(intel)]]
+- [[技術_矽光子（SiPh）]]
+- [[分析_Omdia_CIOE2026_NPO部署與InP供給風險]]
+- [[分析_2026Q3先進封裝與光互連供給瓶頸]]
+- [[分析_光通訊產業2026]]
 - [[HIMX.US(himax)]]
 - [[分析_Himax車用顯示_CPO微光學與AI眼鏡_20260916]]
 - [[分析_2026-08_AI算力CPO與高階PCB報告更新]]
@@ -193,6 +202,7 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 
 ## 來源
 
+- [[報告_Omdia_CIOE展會回顧_202609]] — Omdia／Mingyang Lyu，2026-09（僅揭露月份；pp.8、12、18–22、27–31）。
 - [[報告_Broadcom_Bailly_51.2T_CPO_20240314]] — Broadcom 公司公告，2024-03-14（Bailly 51.2T CPO 與 remote laser module）
 - [[web_NVIDIA_CPO_industry_collaboration_20250826]] — NVIDIA Technical Blog，2025-08-26
 
