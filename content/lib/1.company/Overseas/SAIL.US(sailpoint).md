@@ -9,7 +9,7 @@ tags:
   - 產業/資安
   - 環節/SaaS平台
   - 主題/身份安全
-updated: 2026-07-07
+updated: 2026-10-05
 aliases:
   - SailPoint
   - SAIL
@@ -97,6 +97,8 @@ Truist（2026-06-08）將 SailPoint 定位為「Agentic AI 時代 Identity Secur
 
 ## 來源
 
+- [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29；正文將本公司列為核心 runtime 防護廠商，近期直接替代風險仍較集中於上線前工作流（券商 thesis／中信心）；本次只補來源追溯，跨公司財務附表保留於 Raw。
+
 - [[報告_Truist_MythosAndDaybreak_20260608]] — Truist，Rise of the Models，2026-06-08
 - [[報告_BMO_資安可觀測性_20260612]] — BMO，資安可觀測性，2026-06-12
 - [[報告_Jefferies_資安_20260416]] — Jefferies VAR Survey，2026-04-16
@@ -104,6 +106,8 @@ Truist（2026-06-08）將 SailPoint 定位為「Agentic AI 時代 Identity Secur
 - [[Cybersec 260608 Truist_The age of Mythos & Daybreak]]（2026-06-08）
 
 ## 相關頁面
+
+- [[分析_DevSecOps_AI安全衝擊]] — 2026-09-29 Evercore 的上線前／runtime 替代風險框架。
 
 - [[分析_RBRK_Rubrik]]
 - [[分析_AI驅動資安支出2026]]

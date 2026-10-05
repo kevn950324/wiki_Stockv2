@@ -10,7 +10,7 @@ tags:
   - 環節/SaaS平台
   - 主題/身份安全
   - 主題/AI驅動資安
-updated: 2026-07-07
+updated: 2026-10-05
 aliases:
   - Okta
 related_companies:
@@ -111,6 +111,8 @@ BMO（Keith Bachman）在 2026 年初升評後，將 OKTA 列為**首選（Top P
 
 ## 來源
 
+- [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29；正文將本公司列為核心 runtime 防護廠商，近期直接替代風險仍較集中於上線前工作流（券商 thesis／中信心）；本次只補來源追溯，跨公司財務附表保留於 Raw。
+
 - [[報告_Truist_MythosAndDaybreak_20260608]] — Truist，Rise of the Models，2026-06-08
 - [[報告_UBS_Gartner資安峰會_20260609]] — UBS，Gartner 安全峰會，2026-06-09
 - [[報告_BMO_資安可觀測性_20260612]] — BMO，資安可觀測性（OKTA Top Pick），2026-06-12
@@ -122,6 +124,8 @@ BMO（Keith Bachman）在 2026 年初升評後，將 OKTA 列為**首選（Top P
 - [[Cybersec 260720 WF_2Q26 on-cycle security reseller survey]]（2026-07-20）
 
 ## 相關頁面
+
+- [[分析_DevSecOps_AI安全衝擊]] — 2026-09-29 Evercore 的上線前／runtime 替代風險框架。
 
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[分析_AI驅動資安支出2026]]

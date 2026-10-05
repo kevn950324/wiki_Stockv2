@@ -4,11 +4,23 @@ tags:
   - 技術/SASE
   - 技術/零信任
   - 產業/資安
-updated: 2026-08-27
+updated: 2026-10-05
+image_status: "待補來源圖"
 aliases:
   - SASE
   - Secure Access Service Edge
   - 安全存取服務邊緣
+  - SSE
+  - Security Service Edge
+  - ZTNA
+  - Zero Trust Network Access
+  - SWG
+  - Secure Web Gateway
+  - CASB
+  - Cloud Access Security Broker
+  - Zero Trust Branch
+  - Zero Trust Cloud
+  - Zero Trust for Agents
 ---
 
 # 技術_SASE
@@ -38,6 +50,25 @@ SSE  = ZTNA + SWG + CASB（+ 選配：CASB, DLP, RBI, FWaaS）
 ```
 
 ---
+
+## 圖解
+
+```mermaid
+flowchart LR
+    S[員工、裝置與工作負載] --> E[雲端安全服務邊緣 SSE]
+    E --> I[網際網路與 SaaS]
+    E --> P[私有應用]
+    E --> C[存取驗證、流量檢查與資料政策]
+    N[SD-WAN 網路層] --- E
+    classDef core fill:#a5d8ff,stroke:#1c7ed6,color:#111;
+    classDef customer fill:#fff3bf,stroke:#f08c00,color:#111;
+    classDef process fill:#d0bfff,stroke:#7950f2,color:#111;
+    class E core;
+    class S,I,P customer;
+    class C,N process;
+```
+
+圖說：SSE 是安全控制層，結合 SD-WAN 才構成完整 SASE；依本頁定義與 RBC（2026-09-24）零信任存取描述整理。本批來源僅有文字、財務表與股價圖，無適合說明 SASE 原理的來源圖，因此以概念圖補位。
 
 ## 市場現況（2026 年 Q1-Q2）
 
@@ -117,6 +148,20 @@ Check Point 在 2026-07-30 法說發布 AI Network Firewall，並表示 AI Defen
 - Barclays（2026-07-07）觀察 ZS 大型交易管線仍在，但以既有客戶續約／加購為主；Wells Fargo（2026-07-20）則觀察 Cloudflare 在 SASE／SSE 動能排名上升，競爭加劇。
 - 技術驗證重點由「是否採用 SASE」轉向 AI 流量可視性、代理身份政策、資料／提示防護與跨平台整合；新 logo、加購率與折扣紀律是商業化驗證點。
 
+## 2026-09 商業化：安全控制點與計價維度
+
+Barclays（2026-09-29）的 [[報告_Barclays_Zscaler_投資人日預覽_20260929]] 指出 [[ZS.US(zscaler)]] 從員工 ZIA／ZPA 席次，延伸至 Branch 裝置、Cloud 工作負載或流量、部分 Data Security 的資料量與 Security for AI 的 Token／消耗量；這是該公司的產品描述，不推定其他 SASE 廠商使用相同計價方式。
+
+| 模組／控制點 | 原理與流程 | 判斷指標／投資觀察 |
+|---|---|---|
+| ZTNA／私有應用存取 | 驗證身份與政策後連接授權應用；RBC 描述 inside-out 連接，未授權者看不到應用 | 替換 VPN、應用覆蓋率、連線延遲與留存；流量增加不等於使用者席次增加 |
+| Branch／Cloud | 將零信任政策延伸到裝置及工作負載的連線 | 裝置／工作負載部署量、可收費流量、新客戶取得與產品占比 |
+| AI 流量與資料防護 | 檢查 agent／AI 使用脈絡與資料政策，連接既有控制點 | Token／流量定價、加購率、單位防護成本與續約紀律 |
+
+與只做上線前程式碼掃描的工具相比，SASE／SSE 需處理生產環境連線與政策執行。Evercore ISI（2026-09-29）認為此嵌入式控制層的直接替代風險較低，屬 thesis／中信心；AI 同時改善漏洞發現與攻擊能力，不能解讀為 SASE 永久免疫。來源：[[報告_RBC_Zscaler_CRO交接_20260924]]、[[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]]。
+
+**瓶頸與風險**：身份／資料政策整合須符合客戶既有環境；裝置與流量擴張可能增加基礎設施成本；多產品綁售、替代競爭與折扣可能抵銷新增用量的收入。應以 [[分析_Zscaler_CRO交接與非席次計價_20261005]] 的 NNARR／新客戶／用量收入驗證框架追蹤。
+
 ## 相關公司
 
 - [[PANW.US(palo alto networks)]]
@@ -126,6 +171,10 @@ Check Point 在 2026-07-30 法說發布 AI Network Firewall，並表示 AI Defen
 - [[DDOG.US(datadog)]]
 
 ## 來源
+
+- [[報告_Barclays_Zscaler_投資人日預覽_20260929]] — Barclays，2026-09-29。
+- [[報告_RBC_Zscaler_CRO交接_20260924]] — RBC Capital Markets，2026-09-24。
+- [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29。
 
 - [[報告_Jefferies_資安_20260416]] — Jefferies VAR Survey（SASE 最大催化劑），2026-04-16
 - [[報告_JPMorgan_資安_20260427]] — JPM，AI 時代資安，2026-04-27

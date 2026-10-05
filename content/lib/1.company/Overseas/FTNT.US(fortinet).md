@@ -11,7 +11,7 @@ tags:
   - 主題/NGFW
   - 主題/SASE
   - 主題/AI-SecOps
-updated: 2026-07-24
+updated: 2026-10-05
 aliases:
   - Fortinet
   - FTNT
@@ -161,6 +161,8 @@ TD Cowen 2Q26E Beat-and-Raise 前景：
 
 ## 來源
 
+- [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29；正文將本公司列為核心 runtime 防護廠商，近期直接替代風險仍較集中於上線前工作流（券商 thesis／中信心）；本次只補來源追溯，跨公司財務附表保留於 Raw。
+
 - [[報告_TD_Fortinet_2Q26Preview_20260713]]（TD Cowen，2026-07-13；Buy TP $215、2Q26E Beat-and-Raise 預覽、VAR checks、AI/DC 需求）
 - [[報告_Zacks_Fortinet_20260715]]（Zacks，2026-07-14；Outperform TP $192、Zacks Rank 1、1Q26 Product +41%、deal >$1M +63%）
 
@@ -175,6 +177,8 @@ TD Cowen 2Q26E Beat-and-Raise 前景：
 - [[Cybersec 260707 Evercore_Cybercheck round 1]]（2026-07-07）
 
 ## 相關頁面
+
+- [[分析_DevSecOps_AI安全衝擊]] — 2026-09-29 Evercore 的上線前／runtime 替代風險框架。
 
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[CHKP.US(check point software)]]

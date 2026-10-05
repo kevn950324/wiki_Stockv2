@@ -11,7 +11,7 @@ tags:
   - 主題/NGFW
   - 主題/SASE
   - 主題/AI驅動資安
-updated: 2026-08-24
+updated: 2026-10-05
 aliases:
   - Check Point Software Technologies
   - Check Point
@@ -125,6 +125,8 @@ Check Point Software Technologies 是以網路安全為核心的以色列軟體�
 
 ## 來源
 
+- [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29；正文將本公司列為核心 runtime 防護廠商，近期直接替代風險仍較集中於上線前工作流（券商 thesis／中信心）；本次只補來源追溯，跨公司財務附表保留於 Raw。
+
 - [[2026-07-30-CHKP.OQ-Barclays-Check Point Software Technologies Ltd. 4Q Ramp Is Main Push...-123496484]] — Barclays，2026-07-30
 - [[2026-07-30-CHKP.OQ-BofA Global Research-Check Point Software Technologies Big pipeline energy, smal...-123498847]] — BofA，2026-07-30
 - [[2026-07-30-CHKP.OQ-Deutsche Bank-Check Point 2Q - A business still in transition-123496190]] — Deutsche Bank，2026-07-30
@@ -147,6 +149,8 @@ Check Point Software Technologies 是以網路安全為核心的以色列軟體�
 - [[Cybersec 260720 WF_2Q26 on-cycle security reseller survey]]（2026-07-20）
 
 ## 相關頁面
+
+- [[分析_DevSecOps_AI安全衝擊]] — 2026-09-29 Evercore 的上線前／runtime 替代風險框架。
 
 - [[分析_Check Point_GTM轉型與AI資安2026]]
 - [[技術_SASE]]

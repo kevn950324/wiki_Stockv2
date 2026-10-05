@@ -10,16 +10,21 @@ tags:
   - 環節/SaaS平台
   - 主題/SASE
   - 主題/零信任
-updated: 2026-08-27
+updated: 2026-10-05
 aliases:
   - Zscaler
   - ZS
   - 零縮
+  - Zscaler Internet Access
+  - Zscaler Private Access
+  - Zscaler Digital Experience
+  - Agentic SecOps
 related_companies:
   - "[[PANW.US(palo alto networks)]]"
   - "[[CRWD.US(crowdstrike)]]"
   - "[[OKTA.US(okta)]]"
   - "[[NET.US(cloudflare)]]"
+  - "[[SAIL.US(sailpoint)]]"
 ---
 
 # ZS.US(zscaler)
@@ -60,6 +65,43 @@ ZS 的核心架構是「全流量透過 ZS 雲端」的零信任過濾：不再�
 | Endpoint AI Security（新） | ZS Endpoint AI Security | 終端側 AI 威脅偵測（瀏覽器 / 外掛 / 本地 AI） |
 | ZAgent Framework（新） | ZAgent | 跨零信任平台協調 ZS agents，自動化管理 |
 | AI Protect | AI Protect（已有） | AI 資產管理 + 安全存取 AI + AI 基礎設施保護 |
+
+### 2026-09 多產品與非席次計價更新
+
+Barclays（2026-09-29）將 Zscaler 的成長驗證拆成既有 ZIA／ZPA 與較快成長的新產品，以下為券商對產品／計價的描述，並非已公布的新收入指引：
+
+| 產品／服務 | 應用與計價維度 | 投資觀察 |
+|---|---|---|
+| ZIA／ZPA | 員工網際網路與私有應用存取，主要依使用者計價 | 仍是主要業務，需觀察 SASE 競爭、新客戶取得與續約折扣 |
+| Zero Trust Branch | 分支據點與裝置防護，依裝置數 | 裝置擴張能否增加合約價值與交叉銷售 |
+| Zero Trust Cloud | 雲端工作負載保護，依工作負載數或流量 | 保護範圍能否延伸至員工席次之外 |
+| Data Security | 部分模組依使用者、部分依資料量 | 必須區分產品組合、單價與用量對 ARR 的貢獻 |
+| Security for AI | Token 或消耗量計價 | AI agent 流量增加能否成為可收費用量，仍待客戶採購驗證 |
+| Agentic SecOps／Zero Trust for Agents | Jefferies（2026-09-24）稱前者已於 9 月 9 日正式推出，後者仍為 early access | 產品可用不等同收入；Jefferies 預期 FY27H2 才較有利 |
+
+來源：[[報告_Barclays_Zscaler_投資人日預覽_20260929]]、[[報告_Jefferies_Zscaler_CRO交接_20260924]]；產品狀態為券商轉述／fact／中信心，成長貢獻為 thesis／中信心。
+
+## 圖片 / 架構圖
+
+```mermaid
+flowchart LR
+    U[員工與裝置] --> Z[Zscaler 零信任雲端控制層]
+    A[AI agent 與雲端工作負載] --> Z
+    Z --> I[網際網路與 SaaS]
+    Z --> P[私有應用]
+    Z --> D[資料與 AI 使用政策]
+    classDef core fill:#a5d8ff,stroke:#1c7ed6,color:#111;
+    classDef customer fill:#fff3bf,stroke:#f08c00,color:#111;
+    classDef process fill:#d0bfff,stroke:#7950f2,color:#111;
+    class Z core;
+    class U,A,I,P customer;
+    class D process;
+```
+
+圖說：依 RBC（2026-09-24）與 Barclays（2026-09-29）整理的概念架構；零信任控制層連接員工、裝置與工作負載，非席次計價的收入增量須另行驗證。本批沒有適合說明產品架構的來源圖。
+
+![[報告_Barclays_Zscaler_投資人日預覽_20260929_001.png]]
+*Barclays（2026-09-29），PDF 第 3 頁：FY27／FY28 EPS 新舊預估同為 US$4.88／5.46，目標價上調主要來自估值倍數，不能解讀為本次盈利預估上修。*
 
 ### Zenith Live 26 新品（2026 年）
 
@@ -103,6 +145,42 @@ ZS 在 2025-2026 年間收購 Red Canary（MDR 廠商），但整合進度落後
 | 2026-06-08 | Truist Securities | Buy | — | $130.78 | — |
 | 2026-06-10 | BMO Capital Markets | Outperform | $178 | $126.11 | +41% |
 
+### 2026-09 目標價與評等（美元；券商 estimate／中信心）
+
+| 券商 | 報告日 | 評等 | 目標價 | 評價基礎／變化 | 來源 |
+|---|---|---|---:|---|---|
+| Barclays | 2026-09-24 | Overweight | $200 | 本份 CRO 快評未更新估值；9/29 報告稱原基礎約 27x FY28E FCF | [[報告_Barclays_Zscaler_CRO交接_20260924]] |
+| BNP Paribas | 2026-09-24 | Outperform | $230 | 9x CY27 EV/Sales、隱含 FCF yield 約 2.9% | [[報告_BNPParibas_Zscaler_CRO交接_20260924]] |
+| Jefferies | 2026-09-24 | Buy | $220 | DCF，隱含 9x EV/FY27E Revenue | [[報告_Jefferies_Zscaler_CRO交接_20260924]] |
+| RBC | 2026-09-24 | Outperform | $236（前 $210） | 9x CY27E Revenue $4,231M；上修理由為同業倍數擴張 | [[報告_RBC_Zscaler_CRO交接_20260924]] |
+| Barclays | 2026-09-29 | Overweight | $220（前 $200） | 約 30x FY28E FCF ~$1.1B，前約 27x；上行／下行情境 $240／150 | [[報告_Barclays_Zscaler_投資人日預覽_20260929]] |
+| Evercore ISI | 2026-09-29 | In Line（IL） | $155 | 第 2 頁跨公司附表，目標價未變；本份未提供 ZS 估值方法 | [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] |
+
+> [!warning] 多方估值並存
+> Evercore ISI 的 $155 與 9 月個股報告的 $200–236 分歧較大，保留券商與日期，不能合併為單一共識。9/29 Evercore 附表僅標 Current Year／Next Year，未明示財年；其 $4.24／4.88 預估不強行併入下列有明確財年的矩陣。
+
+## EPS 記錄
+
+| 季度 | 調整後／營運稀釋 EPS（美元） | YoY | 來源 |
+|---|---:|---:|---|
+| FY26Q1 | $0.96 | 24.3% | [[報告_RBC_Zscaler_CRO交接_20260924]]，2026-09-24 |
+| FY26Q2 | $1.01 | 29.6% | 同上 |
+| FY26Q3 | $1.08 | 28.5% | 同上 |
+| FY26Q4 | $1.19 | 34.3% | 同上 |
+| FY26 全年 | $4.24 | 29.3% | 同上；Barclays 9/29 同值 |
+
+上述為券商轉述實績／fact／中信心；財年截至 7 月，與 CY 曆年分開。
+
+## EPS 預估
+
+| 年度 | RBC（報告日：2026-09-24，Ops Diluted） | Barclays（報告日：2026-09-29，adj） | 備註 |
+|---|---:|---:|---|
+| FY27E | $4.87 | $4.88 | 美元；券商 estimate／中信心 |
+| FY28E | $5.51 | $5.46 | 預測差異保留；Barclays 新舊預估相同 |
+| FY29E | — | $6.03 | RBC 本份未提供 FY29E |
+
+來源：[[報告_RBC_Zscaler_CRO交接_20260924]]、[[報告_Barclays_Zscaler_投資人日預覽_20260929]]。Barclays FY27／FY28 營收估 $3,923M／$4,491M、調整後營業利益率 23.7%／24.2%、FCF $910M／$1,130M；RBC 營收估 $3,923M／$4,550M、FCF $912.6M／$1,069.7M，均為報告日的 estimate。
+
 ---
 
 ## 估值比較（BMO，2026-06）
@@ -125,6 +203,22 @@ ZS 是覆蓋範圍中最便宜的 best-of-breed 資安股（EV/FCF to Rev Growth
 - Barclays（2026-07-07）通路預期 ZS 7 月可達計畫，主要由既有客戶續約與加購支撐，但大型企業新 logo 競爭升高，Netskope 開始向大型企業市場上攻。
 - Wells Fargo（2026-07-20）SASE 調查中 Cloudflare 上升至第 3，ZS／PANW 仍爭奪大型企業；因此 ZS 的後續驗證點是新客戶取得、AI／SASE 加購與競爭下的折扣紀律。
 
+## CRO 交接與 10 月投資人日（2026-09 來源基線）
+
+9/24 報告均轉述 Mike Rich 因個人因素離任、Ross Tackett 接任 CRO，10 月 1 日生效；Rich 留任策略顧問至 12 月 31 日。Tackett 已參與 FY27 預測與銷售策略，RBC 稱自 5 月擔任全球銷售主管。公告事件為券商轉述／fact／中信心，對交接平順度的判斷則為 thesis。
+
+| 券商／日期 | 延續性與風險判斷 | 來源 |
+|---|---|---|
+| RBC／2026-09-24 | 與管理層交流後認為不涉及策略或績效歧見，不預期 GTM 轉向；前兩名銷售主管離職的保守假設已在指引中 | [[報告_RBC_Zscaler_CRO交接_20260924]] |
+| BNP Paribas／2026-09-24 | 接班者與 Rich 同為 ServiceNow 背景，有利延續 account-centric／產業垂直銷售；仍擔心主管流失 | [[報告_BNPParibas_Zscaler_CRO交接_20260924]] |
+| Jefferies／2026-09-24 | 指引發布時未納入本次離職，執行風險提高、可能限制近期上行；FY27H2 的新產品與人事就位較有利 | [[報告_Jefferies_Zscaler_CRO交接_20260924]] |
+| Barclays／2026-09-24、29 | 未同步重申指引帶來疑問，但接班者參與預測；預期 10/6 投資人日再表達信心 | [[報告_Barclays_Zscaler_CRO交接_20260924]]、[[報告_Barclays_Zscaler_投資人日預覽_20260929]] |
+
+> [!warning] 預期與已公布指引分開
+> Barclays（2026-09-29）引述 FY27 ARR 指引 $4,396–4,426M，並**預期** 10/6 重申；它估長期營業利益率目標可能由 20–22% 調至 25–30%，$10B ARR 願景可能需 5 年以上、FY30 之後。這些不是 10/6 的已發生結果，也不是公司承諾的到達年。舊 6 月頁面的 16–17% ARR 初步指引與 9 月金額保留各自發布時間。
+
+Evercore ISI（2026-09-29）認為 Codex Security 的近期替代壓力較集中在漏洞發現、程式碼安全與攻擊路徑分析，未改變其對 ZS 核心 runtime 防護的看法；這不等同 SASE 競爭或執行風險已消失。詳見 [[分析_DevSecOps_AI安全衝擊]]、[[分析_Zscaler_CRO交接與非席次計價_20261005]]。
+
 ## 相關公司
 
 | 關係 | 公司 | 備註 |
@@ -140,6 +234,16 @@ ZS 是覆蓋範圍中最便宜的 best-of-breed 資安股（EV/FCF to Rev Growth
 ---
 
 ## 時間軸
+
+| 時間 | 事件 | 類型 | 重要性 | 備註／來源 |
+|---|---|---|---|---|
+| 2026-09-09（券商轉述） | Agentic SecOps 正式推出；Zero Trust for Agents 為 early access | 產品發表 | ⭐⭐ | [[報告_Jefferies_Zscaler_CRO交接_20260924]]，fact／中 |
+| 2026-10-01（公布生效日） | Ross Tackett 接任 CRO | 管理層交接 | ⭐⭐⭐ | [[報告_Barclays_Zscaler_CRO交接_20260924]]；依 9/24 報告基線，未另驗證實際完成 |
+| 2026-10-06（依報告排程） | 紐約投資人日，驗證 FY27 指引、長期利益率與計價模式 | 投資人日／驗證 | ⭐⭐⭐ | [[報告_Barclays_Zscaler_投資人日預覽_20260929]]；25–30% 為預期 |
+| 2026-12-31（公布安排） | Mike Rich 策略顧問任期結束 | 管理層交接 | ⭐⭐ | [[報告_RBC_Zscaler_CRO交接_20260924]] |
+| FY27H2（2027-02～07，預估） | 銷售團隊磨合、新產品商業化驗證 | 訂單／成長驗證 | ⭐⭐⭐ | [[報告_Jefferies_Zscaler_CRO交接_20260924]]，thesis／中 |
+
+雙寫追蹤：[[時程_2026AI軟體與軍工AIoT催化劑]]。
 
 ```mermaid
 gantt
@@ -159,7 +263,24 @@ gantt
 
 ---
 
+## 供應鏈位置
+
+- 位於企業雲端安全存取與流量政策執行層，主要產品映射 [[技術_SASE]]；本批 RBC 稱 FY27 將擴大較低階大型企業覆蓋，以 AI Protect 作為不需先購 ZIA／ZPA 的新客戶入口。
+- 本批未揭露新的具名客戶或供應商合約；不得由 AI 流量成長敘事推定與模型廠商的採購關係。Vault 尚無對應的 SASE 供應鏈頁，暫由技術頁與 [[分析_AI驅動資安支出2026]] 串接。
+
+> [!warning] 本批風險與注意事項
+> - **執行與人員流失**：CRO 交接並非發布 FY27 指引時已知的事件；內部接班有利延續策略，但不能保證銷售生產力不受影響。
+> - **成長與計價**：席次之外的裝置、工作負載、Token 計價仍須驗證加購率與收入；長期利益率上修不能取代新客戶與有機 NNARR 改善。
+> - **來源口徑**：RBC 的營運稀釋 EPS、Barclays 的調整後 EPS、CY27 EV/Sales 與 FY28 FCF 倍數各自保留；不直接當作 GAAP 或相同年度的估值。
+
 ## 來源
+
+- [[報告_Barclays_Zscaler_CRO交接_20260924]] — Barclays，2026-09-24。
+- [[報告_BNPParibas_Zscaler_CRO交接_20260924]] — BNP Paribas，2026-09-24。
+- [[報告_Jefferies_Zscaler_CRO交接_20260924]] — Jefferies，2026-09-24。
+- [[報告_RBC_Zscaler_CRO交接_20260924]] — RBC Capital Markets，2026-09-24。
+- [[報告_Barclays_Zscaler_投資人日預覽_20260929]] — Barclays，2026-09-29。
+- [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29。
 
 - [[報告_JPMorgan_資安_20260427]] — J.P. Morgan，Weapons of Mass Disruption，2026-04-27
 - [[報告_Truist_MythosAndDaybreak_20260608]] — Truist，Rise of the Models，2026-06-08
@@ -179,6 +300,8 @@ gantt
 - [[Cybersec 260710 WF_Preventive security sees temporary boost]]（2026-07-10）
 
 ## 相關頁面
+
+- [[分析_Zscaler_CRO交接與非席次計價_20261005]]
 
 - [[分析_Netskope_2026Q2_AI資安商業化]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]

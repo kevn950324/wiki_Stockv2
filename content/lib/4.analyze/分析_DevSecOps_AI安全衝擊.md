@@ -1,12 +1,13 @@
 ---
 title: "分析_DevSecOps_AI安全衝擊"
 query_date: 2026-07-07
-updated: 2026-07-07
+updated: 2026-10-05
 sources:
   - "[[memo_資安_ClaudeCode安全衝擊_凱基_2025]]"
   - "[[memo_DDOG_深度分析_韭菜王_20260500]]"
   - "[[報告_JPMorgan_資安_20260427]]"
   - "[[報告_Truist_MythosAndDaybreak_20260608]]"
+  - "[[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]]"
 tags:
   - 分析/產業
   - 產業/資安
@@ -115,7 +116,20 @@ Anthropic 於 2025 年釋出 Claude Code Security 工具，可掃描程式庫並
 > - [ ] 確認 Anthropic 是否真正開始招募 EDR/SASE 相關人才（非只有 Code Security 方向）
 > - [ ] 建立 FROG.US(jfrog)、GTLB.US(gitlab) 公司頁（目前數據不足）
 
+## 2026-09-29 更新：Codex Security 的直接競爭範圍
+
+[[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]]（Evercore ISI，2026-09-29）將 [[OpenAI（未）]] 的 Codex Security 定位為偏向安全研究員的程式碼工作流：推理跨程式庫互動、調查潛在漏洞、在隔離環境驗證、提供開發者審查的修補建議，並支援排程掃描。這是券商對發布內容的轉述／fact／中信心，未另作產品實測。
+
+其 thesis 是近期替代壓力較集中在漏洞與安全態勢管理、程式碼安全、攻擊路徑分析等 discovery／pre-production 工作流；對 [[PANW.US(palo alto networks)]]、[[CRWD.US(crowdstrike)]]、[[ZS.US(zscaler)]]、[[OKTA.US(okta)]]、[[SAIL.US(sailpoint)]]、[[FTNT.US(fortinet)]]、[[CHKP.US(check point software)]] 核心 runtime 防護的看法未改變，因遙測、偵測、政策執行與嵌入式基礎設施仍重要（thesis／中信心）。
+
+> [!warning] 修訂邊界
+> 7 月「AI 驅動全域資安需求」與 9 月「直接替代風險集中於上線前」不是同一命題；前者談需求，後者談產品替代。保留先前各期論點，但不再把「SASE／EDR 不受影響」解讀為永久免疫。若模型廠商取得 runtime 遙測與政策執行控制點，此抗替代 thesis 須重新檢驗。
+
+→ 跨領域支出框架見 [[分析_AI驅動資安支出2026]]；ZS 的執行與計價驗證見 [[分析_Zscaler_CRO交接與非席次計價_20261005]]。
+
 ## 來源引用
+
+- [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29。
 
 - [[memo_資安_ClaudeCode安全衝擊_凱基_2025]] — 凱基証券，約 2025 年
 - [[memo_DDOG_深度分析_韭菜王_20260500]] — 韭菜王，2026 年（DDOG + Grafana 競爭部分）

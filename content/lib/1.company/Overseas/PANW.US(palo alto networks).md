@@ -10,7 +10,7 @@ tags:
   - 環節/SaaS平台
   - 主題/AI驅動資安
   - 主題/SASE
-updated: 2026-08-27
+updated: 2026-10-05
 aliases:
   - Palo Alto Networks
   - PANW
@@ -237,6 +237,8 @@ gantt
 ---
 
 ## 來源
+
+- [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29；正文將本公司列為核心 runtime 防護廠商，近期直接替代風險仍較集中於上線前工作流（券商 thesis／中信心）；本次只補來源追溯，跨公司財務附表保留於 Raw。
 
 - [[報告_JPMorgan_資安_20260427]] — J.P. Morgan，Weapons of Mass Disruption，2026-04-27
 - [[報告_Truist_MythosAndDaybreak_20260608]] — Truist，Rise of the Models，2026-06-08
