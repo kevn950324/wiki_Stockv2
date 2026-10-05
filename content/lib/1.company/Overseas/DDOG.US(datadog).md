@@ -9,7 +9,7 @@ tags:
   - 產業/觀測性
   - 產業/資安
   - 環節/SaaS平台
-updated: 2026-07-07
+updated: 2026-10-05
 aliases:
   - Datadog
   - DDOG
@@ -456,6 +456,28 @@ DDOG 在 NYC 舉辦的 DASH 2026 用戶大會是本次 ingest 的重要事件，
 
 **券商動作**：BofA 維持 Buy、PO 上調至 $280（6/8 established）；Evercore 維持 Outperform、PT $225 → $265（19x CY27 EV/Sales），認為 DDOG 可持續 >30% 營收成長。
 
+## Agent 端防護：AI Guard（公司一手資料，網路搜尋補強，2026-10-05）
+
+DDOG 的 agent 防護放在「應用程式內部」：AI Guard 沿用既有 Datadog Agent 與 dd-trace 追蹤程式啟用，不需另架閘道；這和網路檢查點（[[ZS.US(zscaler)]]）或端點感測器（[[CRWD.US(crowdstrike)]]）是不同控制點。來源：[[research_Datadog_Agent防護_20261005]]（Datadog Blog：AI Guard、DASH 2026 keynote roundup、內部評估文）。
+
+| 功能 | 內容 |
+|---|---|
+| 未受保護 agent 盤點 | 列出未掛 AI Guard 的 agent 及其模型端點、資料來源與基礎設施血緣（官方示例：連到未核准 DeepSeek 端點、又能讀 S3 敏感資料的 agent） |
+| Prompt Protection | 以 LLM-as-a-judge 評估 prompt 與回應是否符合政策與 agent 目標，涵蓋直接與間接 prompt injection、越獄、資料外洩，判定附原因標籤 |
+| Tool Protection | 逐一評估工具呼叫的意圖、參數與前後步驟；例如擋下把檔案工具改拿去刪核心目錄、或用 curl 參數外傳資料的多步攻擊 |
+| 敏感資料掃描 | 掃描 prompt、工具呼叫與回應中的個資與 secrets |
+| 部署方式 | 先 monitor-only 再切 blocking；產生安全訊號並附開箱偵測規則；支援 Python、Ruby、JavaScript、Java |
+| Coding agent 防護 | DASH keynote 稱可防惡意 skills、腳本、設定與套件（見 Datadog Security Labs 對惡意 skills 的研究） |
+| 自家實戰 | Datadog 自己的 Bits AI agents 全部經內部 AI gateway，每個請求同步交給 AI Guard 評估並記為 LLM span |
+
+> [!warning] 資訊衝突：AI Guard 上市狀態
+> - 本頁上方「Security 資安新發表」表依 [[報告_Macquarie_DDOG_DASH2026產品發表_20260610]]（2026-06-10）寫 AI Guard for Custom Agents 為 GA、Coding Agents 為 Preview。
+> - Datadog 官方 DASH 2026 keynote roundup 與 AI Guard Blog（見 [[research_Datadog_Agent防護_20261005]]，2026-10-05 擷取）寫「AI Guard is currently in Limited Availability」，需申請 early access。
+> - 狀態：公司公告為準，視為 Limited Availability；券商 GA 寫法保留為當時現場解讀。
+
+- Agent Console（追蹤 Claude Code、Cursor、GitHub Copilot 與 Bits agents 的使用、成效與花費）官方稱可依文件開始使用；上方表格的 Preview 為 Macquarie 當時口徑。
+- 投資含義：AI Guard 與 APM／LLM Observability 共用遙測，若轉為付費 SKU 可沿用消費制擴張；但目前未定價，對財測影響仍屬 thesis（中信心）。十家比較見 [[分析_資安十強Agent端防護比較_20261005]]。
+
 ---
 
 ## AI Native 客戶風險：OpenAI / Anthropic
@@ -541,6 +563,7 @@ gantt
 
 ## 來源
 
+- [[research_Datadog_Agent防護_20261005]] — 網路搜尋，2026-10-05 擷取：Datadog AI Guard Blog、DASH 2026 keynote roundup（2026-06）、AI Guard 內部評估文。
 - [[報告_BMO_資安可觀測性_20260612]] — BMO，資安可觀測性（DDOG AI Perception Leader、TP $220→$260、NTM EV/FCF 67x vs CRWD 83.5x），2026-06-12
 - [[報告_BNP_DDOG季末IR電話會議_20250314]] — BNP Paribas，季末 IR 電話會議短評，2025-03-14
 - [[報告_MS_DDOG升評OW_20260112]] — Morgan Stanley，升評 Overweight，2026-01-12
@@ -584,5 +607,6 @@ gantt
 - [[分析_RBRK_Rubrik]]
 - [[RBRK.US(rubrik)]]
 - [[分析_AI驅動資安支出2026]]
+- [[分析_資安十強Agent端防護比較_20261005]]
 - [[技術_EDR與XDR]]
 - [[技術_SASE]]

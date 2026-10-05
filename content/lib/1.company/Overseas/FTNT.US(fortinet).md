@@ -93,6 +93,20 @@ TD Cowen 2Q26E Beat-and-Raise 前景：
 - Wells Fargo（2026-07-20）調查顯示 FTNT 2Q26 加權淨高於計畫約 +26%，低於 1Q26 的 +39%；防火牆刷新仍在，但拉貨前移降溫，OT 是較具差異化的中期機會，SASE／SecOps／CNAPP 仍偏早期或以下行市場。
 - UBS（2026-07-14）認為防火牆仍成長但相對其他資安次領域承壓；因此 2H26 應同時追蹤刷新週期尾端、OT 新需求與非硬體產品滲透。
 
+## Agent 端防護：FortiOS 8.0 協定偵測 + FortiAIGate + Virtue AI（網路搜尋補強，2026-10-05）
+
+FTNT 走「防火牆／閘道看得懂 agent 協定」的路線：在既有 FortiGate 上辨識 MCP 與 A2A 流量，再用 FortiAIGate 這個 AI 閘道做 prompt 與工具呼叫防護，並以收購 Virtue AI 補 agent 測試與 runtime 防護。來源：[[research_Fortinet_Agent防護_20261005]]（FortiOS 8.0 文件、WWT、Fortinet 新聞稿 2026-06／2026-08-17）。
+
+| 元件 | 內容 | 狀態／限制 |
+|---|---|---|
+| FortiOS 8.0 Agentic AI 協定支援 | 應用程式控制以特徵碼辨識 MCP（Protocol.MCP／.Tools／.Prompts）與 A2A（Protocol.A2A／.Message）；延伸 UTM 日誌可記錄 AI Method、AI Function、AI Arguments、AI Agent；FortiView 新增 AI 使用情境圖 | 需 SSL 深度檢查；proxy 模式的 inline IPS 與 NGFW 政策模式不支援 MCP／A2A；資料庫更新需 FMWR 合約 |
+| FortiAIGate | 部署在應用與模型之間的 LLM 安全閘道：FortiAIFlow 管路由、快取與成本，FortiAIGuard 擋 prompt injection、越獄、模型投毒與 DLP；MCP 工具防護 | 容器化部署、OPEX 年訂閱；WWT 稱 8.0.1 版可雙向掃描 MCP tools/list、tools/call 與回應 |
+| Virtue AI 收購（2026-08-17） | agent 攻擊測試：50+ 沙盒環境、14 個高風險領域、1,000+ 風險類別；發現未核准 agent 與 AI 工具、掃描 MCP 工具與原始碼、監控 agent 行為並在執行前擋下惡意工具呼叫；即時多模態護欄 | 金額不重大、未揭露；與 FortiAIGate 整合規劃中 |
+| FortiSOC（2026-06） | 統一 SIEM、SOAR、UEBA、ITDR 的雲端 SOC；FortiAI-Assist 以 MCP 協調 agent 執行調查與回應 | 屬「用 AI 防守」，非保護 agent |
+
+- 公司引用 Gartner：保護 AI 生態系與 AI agent 的產品市場由 2026 年 $2.8B 成長到 2030 年 $16.4B（Gartner estimate，經 Fortinet 新聞稿轉述，中信心）。
+- 投資含義：MCP／A2A 偵測讓既有 FortiGate 裝機量直接多一個 AI 使用情境，但目前是「看得到」為主；真正攔截 agent 動作要靠 FortiAIGate 與 Virtue AI 的整合進度。十家比較見 [[分析_資安十強Agent端防護比較_20261005]]。
+
 ## EPS 記錄
 
 | 年度 | 季度 | 指標 | 數值 | 備註 |
@@ -133,6 +147,8 @@ TD Cowen 2Q26E Beat-and-Raise 前景：
 | 2026-07-10 | TD TP 大幅上調 $160→$215（+34%） | 評等調整 | ⭐⭐⭐ | 2Q VAR checks 超配額，AI/DC 需求驅動 |
 | 2026-07-29 AMC | 2Q26 財報發布 | 財報 | ⭐⭐⭐ | TD 預估 Beat-and-Raise |
 | 持續 | AI DC build-out → FortiGate 高端需求 | 需求 | ⭐⭐⭐ | FG-4000/5000 多筆大型交易 |
+| 2026-06 | FortiSOC 上市（FortiAI-Assist 以 MCP 協調 agent） | 產品 | ⭐⭐ | [[research_Fortinet_Agent防護_20261005]] |
+| 2026-08-17 | 收購 Virtue AI（agent 攻擊測試與 runtime 防護） | 併購 | ⭐⭐ | 金額不重大；與 FortiAIGate 整合 |
 
 ---
 
@@ -161,6 +177,7 @@ TD Cowen 2Q26E Beat-and-Raise 前景：
 
 ## 來源
 
+- [[research_Fortinet_Agent防護_20261005]] — 網路搜尋，2026-10-05 擷取：Virtue AI 收購新聞稿（2026-08-17）、FortiOS 8.0 Agentic AI 協定文件、WWT FortiAIGate 介紹、FortiSOC 新聞稿（2026-06）。
 - [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29；正文將本公司列為核心 runtime 防護廠商，近期直接替代風險仍較集中於上線前工作流（券商 thesis／中信心）；本次只補來源追溯，跨公司財務附表保留於 Raw。
 
 - [[報告_TD_Fortinet_2Q26Preview_20260713]]（TD Cowen，2026-07-13；Buy TP $215、2Q26E Beat-and-Raise 預覽、VAR checks、AI/DC 需求）
@@ -184,5 +201,6 @@ TD Cowen 2Q26E Beat-and-Raise 前景：
 - [[CHKP.US(check point software)]]
 - [[分析_Check Point_GTM轉型與AI資安2026]]
 - [[分析_AI驅動資安支出2026]]
+- [[分析_資安十強Agent端防護比較_20261005]]
 - [[技術_SASE]]
 - [[技術_EDR與XDR]]

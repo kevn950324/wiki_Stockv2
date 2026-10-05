@@ -10,6 +10,9 @@ tags:
   - 公司/創泓科技
   - 公司/稜研科技
   - 公司/Zscaler
+  - 公司/Okta
+  - 公司/SailPoint
+  - 公司/CrowdStrike
 updated: 2026-10-05
 ---
 
@@ -38,6 +41,19 @@ updated: 2026-10-05
 | 2026-12-31（公布安排） | Mike Rich 策略顧問任期結束 | [[ZS.US(zscaler)]] | 管理層交接 | ⭐⭐ | [[報告_RBC_Zscaler_CRO交接_20260924]]，fact／中 |
 | FY27H2（2027-02～07，預估） | 銷售團隊磨合與 Agentic SecOps／新產品收入驗證 | [[ZS.US(zscaler)]] | 商業化／成長驗證 | ⭐⭐⭐ | [[報告_Jefferies_Zscaler_CRO交接_20260924]]，thesis／中；非已知放量 |
 
+## 資安廠商 Agent 端防護產品節點
+
+| 日期 | 事件 | 相關公司 | 類型 | 重要性 | 備註 |
+|---|---|---|---|---|---|
+| 2026-08-04 | SailPoint Agentic Fabric GA（Black Hat） | [[SAIL.US(sailpoint)]] | 產品 GA | ⭐⭐ | [[research_SailPoint_Agent防護_20261005]]，fact／高 |
+| 2026-09-01 | CrowdStrike Falcon Guardian（agent AIDR）發表；AI Gateway 未上市 | [[CRWD.US(crowdstrike)]] | 產品發表 | ⭐⭐ | [[research_CrowdStrike_Agent防護_20261005]]，fact／高 |
+| 2026-09-09 | Zscaler Agentic SOC 全球上市（新聞稿確認） | [[ZS.US(zscaler)]] | 產品上市 | ⭐⭐ | [[research_Okta_Zscaler_Agent防護更新_20261005]]，fact／高；屬 AI 防守而非 agent 防護 |
+| 2026-09-22 | Okta 成立 Blueprint Alliance（含 CRWD、ZS 等 12 家） | [[OKTA.US(okta)]]、[[CRWD.US(crowdstrike)]]、[[ZS.US(zscaler)]] | 聯盟／標準 | ⭐⭐ | 同上，fact／高 |
+| 2026-10-05～08 | SailPoint Navigate 2026 | [[SAIL.US(sailpoint)]] | 用戶大會 | ⭐⭐ | [[research_SailPoint_Agent防護_20261005]] |
+| Q3 CY26（公司目標） | Okta Agent Gateway GA | [[OKTA.US(okta)]] | 產品 GA | ⭐⭐⭐ | [[research_Okta_Zscaler_Agent防護更新_20261005]]，estimate／中；截至 10-05 未見 GA 公告 |
+| Q4 CY26（公司目標） | Okta 閘道 kill switch、CrowdStrike 端點影子 agent 偵測 GA | [[OKTA.US(okta)]]、[[CRWD.US(crowdstrike)]] | 產品 GA | ⭐⭐ | 同上，estimate／中 |
+| FY27 Q3（公司預期） | SailPoint 完成收購 Entro | [[SAIL.US(sailpoint)]] | 併購 | ⭐⭐ | [[research_SailPoint_Agent防護_20261005]]，estimate／中 |
+
 ## Gantt 時程圖
 
 ```mermaid
@@ -59,6 +75,12 @@ gantt
     投資人日（排程） :milestone, 2026-10-06, 0d
     Rich 顧問過渡期（公布安排） :2026-10-01, 2026-12-31
     FY27H2 商業化驗證（預估） :2027-02-01, 2027-07-31
+    section 資安 Agent 端防護
+    SAIL Agentic Fabric GA :milestone, 2026-08-04, 0d
+    CRWD Falcon Guardian 發表 :milestone, 2026-09-01, 0d
+    Okta Blueprint Alliance :milestone, 2026-09-22, 0d
+    Okta Agent Gateway GA 目標（Q3） :2026-07-01, 2026-09-30
+    Okta kill switch／端點偵測 GA 目標（Q4） :2026-10-01, 2026-12-31
 ```
 
 ## 來源
@@ -67,6 +89,7 @@ gantt
 - [[報告_RBC_Zscaler_CRO交接_20260924]] — RBC Capital Markets，2026-09-24。
 - [[報告_Jefferies_Zscaler_CRO交接_20260924]] — Jefferies，2026-09-24。
 - [[報告_Barclays_Zscaler_投資人日預覽_20260929]] — Barclays，2026-09-29。
+- [[research_SailPoint_Agent防護_20261005]]、[[research_CrowdStrike_Agent防護_20261005]]、[[research_Okta_Zscaler_Agent防護更新_20261005]] — 網路搜尋，2026-10-05 擷取。
 
 - [[活動_騰雲法說_20260917]] — 富邦投顧，2026-09-17。
 - [[活動_現觀科技法說_20260918]] — 國泰證期研究部，2026-09-18。
@@ -77,6 +100,7 @@ gantt
 ## 相關頁面
 
 - [[分析_Zscaler_CRO交接與非席次計價_20261005]]
+- [[分析_資安十強Agent端防護比較_20261005]]
 
 - [[3447_展達（市）]]
 - [[分析_騰雲Tspace實體場域AI商業化_20260917]]

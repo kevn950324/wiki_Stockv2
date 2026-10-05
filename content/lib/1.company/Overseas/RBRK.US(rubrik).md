@@ -10,15 +10,18 @@ tags:
   - 環節/SaaS平台
   - 主題/資料安全
   - 主題/AI驅動資安
-updated: 2026-07-07
+updated: 2026-10-05
 aliases:
   - Rubrik
   - RBRK
+  - Rubrik Agent Cloud
+  - Agent Rewind
 related_companies:
   - "[[CRWD.US(crowdstrike)]]"
   - "[[PANW.US(palo alto networks)]]"
   - "[[SAIL.US(sailpoint)]]"
   - "[[DDOG.US(datadog)]]"
+  - "[[OKTA.US(okta)]]"
 ---
 
 # RBRK.US(rubrik)
@@ -70,6 +73,43 @@ Rubrik 將觸角延伸至 AI 代理人治理領域：
 | Agent Remediation | 修改代理人目的或行為（含 rewind 功能） |
 
 現狀：Agent Cloud 仍在客戶評估中，有大量廠商提供類似解決方案（ZS、Rubrik、SailPoint 等），BMO 認為此業務若成功變現將代表中期上行。
+
+#### Agent Cloud 演進與 Agent Identity（網路搜尋補強，2026-10-05）
+
+Rubrik 把備份的「時間點還原」能力搬到 agent：別家主打攔截，Rubrik 主打 agent 做錯事之後可以撤銷（Agent Rewind）。2026-08 起再加上每次工具呼叫的身份控管。來源：[[research_Rubrik_Agent防護_20261005]]。
+
+| 時間 | 事件 | 內容 | 狀態 |
+|---|---|---|---|
+| 2025-08 | Agent Rewind 發表 | 與 Rubrik Security Cloud 整合，精準回復 agent 造成的變更 | 首發 |
+| 2025-10 | Agent Cloud 首發 | Agent Monitor（自動發現 Azure／AWS、M365、Agentforce、OpenAI、Copilot Studio、Bedrock 上的 agent）、Agent Govern、Agent Remediate | limited early access |
+| 2026-02-18 | Agent Cloud GA | 新增對 prompt 與回應／工具呼叫的政策控制 | 僅見搜尋摘要（Virtualization Review 標題），原文擷取失敗，低信心 |
+| 2026-04-22 | Agent Cloud for Gemini Enterprise | Agent Inventory、SAGE（Semantic AI Governance Engine，語意判斷 agent 意圖）、Agent Rewind | beri.net 稱未公布定價與 GA |
+| 2026-06-09 | Agent Cloud for Claude Code／Cowork（Rubrik FORWARD） | Codebase Resilience 為 GitHub／Azure DevOps 存外部不可變快照，可還原被 force-push 或刪分支的程式庫；備份並監控 CLAUDE.md、settings、skills、工具權限等 agent 設定，偵測漂移 | GA |
+| 2026-06-09 | Project Hourglass | Cognizant、Deloitte、LTM、HCLTech、NTT Data、Wipro 六家 GSI 轉售與內嵌 Agent Cloud for Claude Code | 通路計畫 |
+| 2026-08（Black Hat） | Agent Identity | 每次 MCP 工具呼叫用 On-Behalf-Of 聯邦委派、即時發一次性短效 token，消除常駐權限；整合 [[OKTA.US(okta)]] 與 Microsoft Entra ID | 發表，未見 GA 日期 |
+
+```mermaid
+flowchart LR
+    A[AI agent 發出 MCP 工具呼叫] --> G[Rubrik MCP Gateway]
+    G --> C1[1 SAGE 語意評估<br/>意圖、參數、影響]
+    C1 --> C2[2 基礎設施層<br/>runtime 存取政策]
+    C2 --> C3[3 驗證 agent session<br/>發單次呼叫短效 token]
+    C3 --> T[企業工具 / API]
+    C1 -. 未授權寫入 .-> X[執行前阻擋]
+    T -. 誤動作 .-> R[Agent Rewind 撤銷]
+    classDef gate fill:#a5d8ff,stroke:#1c7ed6,color:#111;
+    classDef check fill:#d0bfff,stroke:#7950f2,color:#111;
+    classDef res fill:#fff3bf,stroke:#f08c00,color:#111;
+    class G gate;
+    class C1,C2,C3 check;
+    class A,T,X,R res;
+```
+
+圖說：依 Agent Identity 新聞稿整理的 MCP Gateway 三道檢查與 Rewind 補救流程（概念圖，非公司官方架構圖；來源無適用示意圖，待補來源圖）。
+
+- 公司引用 Rubrik Zero Labs：86% IT 與資安主管預期 agent 會在一年內超出現有防護，只有 23% 能完整看見環境中的 agent；88% 擔心 agentic 威脅下達不到復原時間目標（公司自家調查，中信心）。
+- beri.net（2026-04-28）的反方觀點：SAGE 的語意治理部分是行銷包裝，多家廠商都在做護欄評估；Agent Rewind 較能防守，因為仰賴 Rubrik 既有的日誌與時間點還原基礎設施。Google、AWS、Microsoft 也在做平台內建的 agent 控制。
+- 十家比較見 [[分析_資安十強Agent端防護比較_20261005]]。
 
 ### 4. DSPM（資料安全態勢管理）
 
@@ -127,11 +167,23 @@ Rubrik 將觸角延伸至 AI 代理人治理領域：
 | 資料保護整合 | [[SAIL.US(sailpoint)]] | 身份治理 + 資料安全的協作 |
 | 資安生態系 | [[CRWD.US(crowdstrike)]] | Rubrik 與 Falcon 在攻擊後恢復上可協作 |
 | DSPM 競品 | Varonis（未建頁） | 資料存取治理 |
+| 身份整合 | [[OKTA.US(okta)]] | Agent Identity 整合 Okta 與 Entra ID 延伸既有企業身份，不另建目錄（2026-08）；來源 [[research_Rubrik_Agent防護_20261005]] |
+| AI 模型合作 | Anthropic（未建頁） | Agent Cloud for Claude Code／Cowork 與 Anthropic 合作推出（2026-06-09） |
+
+## 時間軸
+
+| 時間 | 事件 | 類型 | 來源 |
+|---|---|---|---|
+| 2025-10 | Agent Cloud 首發（limited early access） | 產品 | [[research_Rubrik_Agent防護_20261005]] |
+| 2026-04-22 | Agent Cloud for Gemini Enterprise（Google Cloud Next） | 產品 | 同上 |
+| 2026-06-09 | Agent Cloud for Claude Code／Cowork GA、Project Hourglass 六家 GSI | 產品／通路 | 同上 |
+| 2026-08 | Agent Identity 發表（Black Hat） | 產品 | 同上 |
 
 ---
 
 ## 來源
 
+- [[research_Rubrik_Agent防護_20261005]] — 網路搜尋，2026-10-05 擷取：Agent Identity 新聞稿轉載（2026-08）、Agent Cloud for Claude Code 新聞稿（2026-06-09）、SiliconANGLE（2026-06-09）、beri.net（2026-04-28）、Agent Cloud 首發轉載（2025-10）。
 - [[報告_Truist_MythosAndDaybreak_20260608]] — Truist，Rise of the Models，2026-06-08
 - [[報告_BMO_資安可觀測性_20260612]] — BMO，資安可觀測性（Rubrik 分析師活動），2026-06-12
 
@@ -141,3 +193,4 @@ Rubrik 將觸角延伸至 AI 代理人治理領域：
 
 - [[分析_RBRK_Rubrik]]
 - [[分析_AI驅動資安支出2026]]
+- [[分析_資安十強Agent端防護比較_20261005]]

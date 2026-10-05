@@ -20,6 +20,7 @@ related_companies:
   - "S.US(sentinelone)"
   - "[[DDOG.US(datadog)]]"
   - "[[MA.US(mastercard)]]"
+  - "[[OKTA.US(okta)]]"
 ---
 
 # CRWD.US(crowdstrike)
@@ -124,6 +125,25 @@ QuiltWorks 是 CRWD 於 2026 年 4 月 23 日發布的業界聯盟，整合 Anth
 - UBS（2026-06-09）與 Wells Fargo（2026-07-10／07-20）均觀察到企業優先採用既有平台；AI-SOC、自動化調查與端點／雲端控制點的採購優先於全面自動修補。Wells Fargo 調查的整體通路 2Q26 加權「高於計畫」淨比率為 +39%，但非 CRWD 單一公司財測。
 - Evercore（2026-07-07）與 Barclays（2026-07-07／07-10）指出 PANW、CRWD 的平台化與 XSIAM／AI-SOC 需求仍具韌性；競爭重點轉向 SIEM、暴露管理與 AI 控制點整合。
 
+## Agent 端防護：Falcon Guardian（2026-09-01 發表，網路搜尋補強）
+
+CRWD 的主張是「端點是 AI agent 推理、規劃與執行的地方」，因此把 agent 防護放在既有 Falcon 感測器上，而不是另架網路檢查點。Falcon Guardian 定位為 AIDR（AI Detection and Response），延伸 2025 年收購的 Pangea：Pangea 原本只防護人輸入的 prompt，Guardian 擴大到會自行行動的 agent（CPO AJ Shipley：「agents don't type, they act」）。來源：[[research_CrowdStrike_Agent防護_20261005]]（公司新聞稿、Channel Insider，2026-09）。
+
+| 功能 | 內容 | 狀態 |
+|---|---|---|
+| AI Agent Discovery and Inventory | Falcon 感測器在 Windows／macOS 找出已核准與影子 agent（含執行中與休眠），記錄部署者與安全狀態 | 隨發表推出 |
+| Agent Runtime Visibility | 把 prompt、身份、工具呼叫、skill 使用串到下游系統動作，形成完整執行圖 | 隨發表推出 |
+| Agent Access Controls | 定義哪些 agent 可在受管裝置上執行，封鎖未授權 agent | 隨發表推出 |
+| Runtime Detection and Response | 偵測針對 agent 的攻擊與惡意 agent 行為，即時重建執行鏈並判斷影響範圍 | 隨發表推出 |
+| AI Gateway（含 MCP） | 集中控管企業 AI 流量，套用 Falcon 安全脈絡 | 新聞稿用「Will provide」，未上市 |
+| Falcon Complete／OverWatch for Guardian | 24/7 託管偵測回應與威脅獵捕延伸到 agent 活動 | 新聞稿用「Will deliver」 |
+| Next-Gen SIEM 整合 | agent 資料以第一方資料進 SIEM；公司稱 agent 遙測量比傳統應用高數個數量級 | 隨發表推出 |
+
+- **AI for security 同場發表**：Falcon IQ（2026-08-31）以 NVIDIA Nemotron 與 Charlotte AI AgentWorks 驅動 50+ 個 agent，把 QuiltWorks 評估、排序、修補流程產品化給合作夥伴；SafeMind 為與 NVIDIA 共同打造的攻防共演化 agentic 系統。這兩者是「用 AI 防守」，與 Guardian「保護 agent」是不同預算。
+- **生態位置**：Okta 的 Shadow AI Agent Discovery for Endpoints 透過 Falcon Discover 偵測本機 agent 與 MCP server（EA 中，GA 目標 2026Q4）；CRWD 也是 Okta 發起的 Blueprint Alliance 創始成員（2026-09-22）。來源：[[research_Okta_Zscaler_Agent防護更新_20261005]]。
+- **未揭露**：Guardian 定價、ARR 與客戶數；AI Gateway 與託管服務上市日。
+- 十家公司比較見 [[分析_資安十強Agent端防護比較_20261005]]。
+
 ## 相關公司
 
 | 關係 | 公司 | 備註 |
@@ -134,6 +154,7 @@ QuiltWorks 是 CRWD 於 2026 年 4 月 23 日發布的業界聯盟，整合 Anth
 | AI 模型合作夥伴 | Anthropic（未建頁） | Glasswing + QuiltWorks |
 | AI 模型合作夥伴 | OpenAI（未建頁） | QuiltWorks，TAC |
 | 合作 SI | Accenture、EY、IBM（未建頁） | QuiltWorks 系統整合夥伴 |
+| 合作／整合 | [[OKTA.US(okta)]] | Okta 以 Falcon Discover 做端點影子 agent 偵測；同為 Blueprint Alliance 創始成員（2026-09-22）；來源 [[research_Okta_Zscaler_Agent防護更新_20261005]] |
 | 整合對象 | [[MA.US(mastercard)]] | Mastercard Cyber Front 的 Attack Surface Validation 從整合工具（例如 CrowdStrike）取得漏洞資料；來源 [[報告_RBC_VisaMastercard加值服務_20260909]]（2026-09-09） |
 
 ---
@@ -150,6 +171,10 @@ gantt
     Project QuiltWorks 發布 :milestone, 2026-04-23, 0d
     QuiltWorks 擴大規模（含 Anthropic+OpenAI）  :milestone, 2026-05-01, 0d
     Charlotte AI / AIDR 部署於生產環境  :milestone, 2026-06-01, 0d
+    Falcon IQ 發表（Fal.Con 2026） :milestone, 2026-08-31, 0d
+    Falcon Guardian（Agent AIDR）發表 :milestone, 2026-09-01, 0d
+    加入 Okta Blueprint Alliance :milestone, 2026-09-22, 0d
+    Okta 端點影子 agent 偵測（Falcon Discover）GA 目標 :milestone, 2026-12-31, 0d
     section 重要報告
     JPM Weapons of Mass Disruption :milestone, 2026-04-27, 0d
     Truist Rise of the Models :milestone, 2026-06-08, 0d
@@ -166,6 +191,8 @@ gantt
 
 ## 來源
 
+- [[research_CrowdStrike_Agent防護_20261005]] — 網路搜尋，2026-10-05 擷取：Falcon Guardian 新聞稿（2026-09-01）、Channel Insider、Falcon IQ 新聞稿（2026-08-31）、NVIDIA Blog。
+- [[research_Okta_Zscaler_Agent防護更新_20261005]] — 網路搜尋，2026-10-05 擷取：Oktane 2026 公告（Falcon Discover 整合、Blueprint Alliance）。
 - [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29；正文將本公司列為核心 runtime 防護廠商，近期直接替代風險仍較集中於上線前工作流（券商 thesis／中信心）；本次只補來源追溯，跨公司財務附表保留於 Raw。
 
 - [[報告_JPMorgan_資安_20260427]] — J.P. Morgan，Weapons of Mass Disruption，2026-04-27
@@ -189,6 +216,7 @@ gantt
 - [[分析_20260826_AI軟體與晶片平台法說]]
 - [[分析_RBRK_Rubrik]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]
+- [[時程_2026AI軟體與軍工AIoT催化劑]]
 - [[CHKP.US(check point software)]]
 - [[FTNT.US(fortinet)]]
 - [[NET.US(cloudflare)]]
@@ -196,6 +224,7 @@ gantt
 - [[RBRK.US(rubrik)]]
 - [[SAIL.US(sailpoint)]]
 - [[分析_AI驅動資安支出2026]]
+- [[分析_資安十強Agent端防護比較_20261005]]
 - [[分析_DevSecOps_AI安全衝擊]]
 - [[技術_EDR與XDR]]
 - [[技術_SASE]]

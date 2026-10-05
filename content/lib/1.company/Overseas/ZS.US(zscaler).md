@@ -131,6 +131,14 @@ Zscaler 的論述是把 Zero Trust Exchange 從「人」延伸到「agent」，�
 - **管理層說法**：Jay Chaudhry 稱「傳統資安並非為數百萬自主 agent 設計」；KPMG 全球 CISO John Israel 以來賓身份背書資料血緣與 agent 對 agent 治理，非採購承諾。
 - **競爭框架**：Futurum 認為 SASE 廠商、身份廠商、雲端大廠（如 Microsoft Agent 365 的 agent 盤點）與新創都在爭同一控制平面；與 Okta 的分工見 [[分析_Zscaler與Okta_Agent防護分工_20261005]]。
 
+#### 2026-09 更新：Agentic SOC 上市與 Blueprint Alliance（網路搜尋補強）
+
+來源：[[research_Okta_Zscaler_Agent防護更新_20261005]]（GlobeNewswire 新聞稿 2026-09-09、Okta Oktane 公告與 SiliconANGLE 2026-09-22）。
+
+- **Agentic SOC（2026-09-09，全球上市）**：以 750 億筆／日零信任交易遙測、誘餌網路（decoy mesh）、專責 triage／調查／判定／回應的 AI agents，以及 inline 隔離、封鎖 C2、切斷橫向移動的閉環處置組成；與 Anthropic、OpenAI 合作引入前沿模型，並結合 Red Canary 專家。新聞稿確認上方券商表「Agentic SecOps 9 月 9 日推出」的轉述（升為 fact／高）。這屬於「用 AI 防守」，不是 agent 防護本身；Zero Trust for Agents（AI Broker 等）截至本批來源仍未見 GA 或定價公告。
+- **Blueprint Alliance（2026-09-22）**：ZS 是 [[OKTA.US(okta)]] 發起的 12 家創始成員之一，與 AWS、[[CRWD.US(crowdstrike)]]、Google Cloud、Wiz 等以 MCP、OCSF、Shared Signals Framework 測試互通。這支持「流量層與身份層互補」的分工 thesis，但仍不足以證實下方相關公司表「ZS 以 Okta 作 access layer」的產品整合。
+- **同業對照**：MCP 閘道與 agent 盤點已是多數廠商的共同功能；[[PANW.US(palo alto networks)]]（Portkey AI Gateway）、Netskope（Agentic Broker 2026-03 GA）在網路層直接競爭，Okta 的 Agent Gateway 也站上執行路徑。十家比較見 [[分析_資安十強Agent端防護比較_20261005]]。
+
 ### Red Canary 收購（挑戰）
 
 ZS 在 2025-2026 年間收購 Red Canary（MDR 廠商），但整合進度落後市場預期。BMO（2026-06-12）指出：FY27 ARR 初步指引（16-17%）已假設 Red Canary ARR 成長慢於合併後整體，投資人對 M&A 執行能力仍持懷疑態度。
@@ -258,6 +266,8 @@ Evercore ISI（2026-09-29）認為 Codex Security 的近期替代壓力較集中
 |---|---|---|---|---|
 | 2026-06-09 | Zenith Live 26 發表 AI Broker、Endpoint AI Security、AI Access Graph；未公布價格與 GA | 產品發表 | ⭐⭐ | [[research_Zscaler_Okta_Agent防護_20261005]]，fact／高（公司新聞稿） |
 | 2026-09-09（券商轉述） | Agentic SecOps 正式推出；Zero Trust for Agents 為 early access | 產品發表 | ⭐⭐ | [[報告_Jefferies_Zscaler_CRO交接_20260924]]，fact／中 |
+| 2026-09-09 | Agentic SOC 新聞稿：全球即日上市，與 Anthropic、OpenAI 合作 | 產品上市 | ⭐⭐ | [[research_Okta_Zscaler_Agent防護更新_20261005]]，fact／高（公司新聞稿） |
+| 2026-09-22 | 加入 Okta 發起之 Blueprint Alliance（12 家創始成員） | 聯盟 | ⭐⭐ | 同上，fact／高 |
 | 2026-10-01（公布生效日） | Ross Tackett 接任 CRO | 管理層交接 | ⭐⭐⭐ | [[報告_Barclays_Zscaler_CRO交接_20260924]]；依 9/24 報告基線，未另驗證實際完成 |
 | 2026-10-06（依報告排程） | 紐約投資人日，驗證 FY27 指引、長期利益率與計價模式 | 投資人日／驗證 | ⭐⭐⭐ | [[報告_Barclays_Zscaler_投資人日預覽_20260929]]；25–30% 為預期 |
 | 2026-12-31（公布安排） | Mike Rich 策略顧問任期結束 | 管理層交接 | ⭐⭐ | [[報告_RBC_Zscaler_CRO交接_20260924]] |
@@ -296,6 +306,7 @@ gantt
 ## 來源
 
 - [[research_Zscaler_Okta_Agent防護_20261005]] — 網路搜尋（Zscaler 新聞稿、SiliconANGLE、Futurum），Agent 端防護，2026-10-05 擷取。
+- [[research_Okta_Zscaler_Agent防護更新_20261005]] — 網路搜尋，2026-10-05 擷取：Zscaler Agentic SOC 新聞稿（2026-09-09）、Oktane 2026 公告與 Blueprint Alliance（2026-09-22）。
 - [[報告_Barclays_Zscaler_CRO交接_20260924]] — Barclays，2026-09-24。
 - [[報告_BNPParibas_Zscaler_CRO交接_20260924]] — BNP Paribas，2026-09-24。
 - [[報告_Jefferies_Zscaler_CRO交接_20260924]] — Jefferies，2026-09-24。
@@ -324,6 +335,7 @@ gantt
 
 - [[分析_Zscaler_CRO交接與非席次計價_20261005]]
 - [[分析_Zscaler與Okta_Agent防護分工_20261005]]
+- [[分析_資安十強Agent端防護比較_20261005]]
 
 - [[分析_Netskope_2026Q2_AI資安商業化]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]

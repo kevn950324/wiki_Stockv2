@@ -84,6 +84,27 @@ Jefferies VAR 調查（2026-04-16）報告顯示 PANW 已完成對 CyberArk（CY
 
 ---
 
+## Agent 端防護：Prisma AIRS 3.0 + Koi + Portkey + Idira（網路搜尋補強，2026-10-05）
+
+PANW 是十家資安廠商中唯一以併購把 agent 防護的端點、閘道、身份三層都補齊的公司；Prisma AIRS 是中心，其他元件都接到 AIRS。來源：[[research_PaloAlto_Agent防護_20261005]]（公司新聞稿 2026-03-23、2026-04-14，公司 Blog 2026-05，Futurum）。
+
+| 元件 | 時間 | 內容 | 狀態 |
+|---|---|---|---|
+| Prisma AIRS 3.0 | 2026-03-23 | 盤點雲端、SaaS 與端點上的 agent、模型與連線；Agent Artifact Security 掃描 agent 架構弱點；AI Red Teaming for agents 模擬情境式攻擊並推薦 runtime 政策 | 發表；AI Agent Gateway 當時為 limited preview |
+| Koi → Agentic Endpoint Security（AES） | 2026-04-14 完成 | 保護 vibe coding agent 與端點自主工具（新聞稿點名 Claude Code、OpenClaw）；整合進 AIRS，另推 Cortex XDR 新模組；Koi 仍可獨立購買、與既有 EDR 並存 | 收購完成 |
+| Portkey → Prisma AIRS AI Gateway | 2026-05 完成 | 統一 LLM API、agent registry、語意路由與快取；Portkey 已服務數家財星 500 大、每月處理數兆 token，可接 3,000+ LLM／MCP server／agent；閘道內嵌 Agent Artifact 掃描、自動 Red Teaming、Runtime Security | 公司稱「will」整合 |
+| Idira（前 CyberArk） | — | AI Gateway 透過 Idira 強化 Agent Identity Security，讓每個自主動作都經過認證並套用最小權限 | 整合規劃 |
+| Prisma SASE | 2026-03 | 同步把 agentic 控制延伸到網路層（Futurum 引 PANW Blog） | 已更新 |
+
+> [!warning] 資訊並列：Idira 的定位
+> - 本頁既有「Cortex」表依 UBS Gartner 峰會（2026-06-09）把 Idira 寫成「跨域身份可視性平台」。
+> - PANW Blog（2026-05，見 [[research_PaloAlto_Agent防護_20261005]]）寫「Idira (formerly CyberArk)」，即 CyberArk 併入後的身份品牌。
+> - 狀態：兩者不互斥，以公司 Blog 為準理解為 CyberArk 改名後的身份平台；可視性功能是否為其子集待確認。
+
+- **Futurum 反方觀點**（2026）：其調查 43.0% 的組織計畫增加資安廠商數、34.6% 計畫整併，代表「單一平台包辦 agent 安全」尚未被買方接受；Microsoft 對 Azure 上的 agent 有原生可視性，雲端大廠可能自建；且企業多半還沒定義 agent 可以做什麼，工具沒有政策可執行。
+- **商業化**：AIRS 3Q FY26 季末客戶 300+ 家（見上方財報段落），但 TD（2026-08-17）稱仍處早期評估；Koi、Portkey 收購金額於本頁收購表維持「未揭露」。
+- 十家公司比較見 [[分析_資安十強Agent端防護比較_20261005]]。
+
 ## Glasswing 與 AI 驅動資安定位
 
 - **Project Glasswing 創始夥伴（2026-04-07）**：PANW 獲得 Anthropic Mythos Preview 的獨家防禦存取權，與 CRWD 並列資安廠商的最高信任地位
@@ -222,6 +243,9 @@ gantt
     CyberArk 收購完成 :milestone, 2026-01-01, 0d
     Project Glasswing 創始夥伴（2026-04-07） :milestone, 2026-04-07, 0d
     硬體 NGFW 刷新週期（2H26 主力） :2026-07-01, 90d
+    Prisma AIRS 3.0 發表 :milestone, 2026-03-23, 0d
+    Koi 收購完成（Agentic Endpoint Security） :milestone, 2026-04-14, 0d
+    Portkey 收購完成（AIRS AI Gateway） :milestone, 2026-05-29, 0d
     section 重要報告
     JPM Weapons of Mass Disruption :milestone, 2026-04-27, 0d
     Jefferies VAR 調查（PANW 2H net score 64%） :milestone, 2026-04-16, 0d
@@ -238,6 +262,7 @@ gantt
 
 ## 來源
 
+- [[research_PaloAlto_Agent防護_20261005]] — 網路搜尋，2026-10-05 擷取：Prisma AIRS 3.0 新聞稿（2026-03-23）、Koi 收購完成新聞稿（2026-04-14）、Portkey／AI Gateway Blog（2026-05）、Futurum 評論。
 - [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29；正文將本公司列為核心 runtime 防護廠商，近期直接替代風險仍較集中於上線前工作流（券商 thesis／中信心）；本次只補來源追溯，跨公司財務附表保留於 Raw。
 
 - [[報告_JPMorgan_資安_20260427]] — J.P. Morgan，Weapons of Mass Disruption，2026-04-27
@@ -279,3 +304,4 @@ gantt
 - [[技術_EDR與XDR]]
 - [[技術_SASE]]
 - [[分析_Zscaler與Okta_Agent防護分工_20261005]]
+- [[分析_資安十強Agent端防護比較_20261005]]

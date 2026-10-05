@@ -121,3 +121,7 @@ flowchart LR
 
 - [[research_Zscaler_Okta_Agent防護_20261005]] — Zscaler 新聞稿、SiliconANGLE（2026-06-09、06-23）、Futurum、Okta 新聞稿（2026-08-24）、Auth0 發表（2026-05），2026-10-05 擷取。
 - [[ZS.US(zscaler)]]、[[OKTA.US(okta)]] — 既有公司頁（BMO 估值與 AI Protect bookings 等）。
+
+## 相關頁面
+
+- [[分析_資安十強Agent端防護比較_20261005]]

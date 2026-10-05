@@ -18,6 +18,7 @@ related_companies:
   - "[[CRWD.US(crowdstrike)]]"
   - "[[ZS.US(zscaler)]]"
   - "[[PANW.US(palo alto networks)]]"
+  - "[[RBRK.US(rubrik)]]"
 ---
 
 # OKTA.US(okta)
@@ -80,8 +81,29 @@ Okta 的做法是把 agent 當成身份，在「連線當下」由 IdP 決定授
 - **生態擴張**：2026-05 將平台延伸到 Amazon Bedrock 並開放給對手身份廠商（SiliconANGLE）；Anthropic beta 計畫以 Okta 為 featured IdP，客戶含 Ramp、Webflow、HubSpot。
 - **與 ZS 分工**：Okta 決定「agent 是誰、可拿什麼 token」；ZS 看「agent 實際流量與裝置行為」。比較見 [[分析_Zscaler與Okta_Agent防護分工_20261005]]。
 
+#### Oktane 2026 更新：從「發 token」走到「站在執行路徑上」（2026-09-22）
+
+Oktane 的重點是 Okta 不再只在登入時授權，而是用 Agent Gateway 直接站在 agent 與工具之間做即時執行，這讓 Okta 和 MCP 閘道類廠商（[[PANW.US(palo alto networks)]] AI Gateway、[[RBRK.US(rubrik)]] MCP Gateway、[[ZS.US(zscaler)]] AI Broker）正面重疊。來源：[[research_Okta_Zscaler_Agent防護更新_20261005]]（Okta IR 公告 PDF、SiliconANGLE 2026-09-22／09-28）。
+
+| 產品 | 做什麼 | 上市時程（公司口徑，CY） |
+|---|---|---|
+| Agent Gateway | 位於 agent（如 Claude、Agentforce）與企業工具之間，彙整 MCP server、注入憑證、經 Okta 代理每次工具呼叫並即時記錄 | GA Q3 CY26 |
+| Agent Gateway 型 kill switch | 停用 agent 時，閘道立即拒絕該 agent 已持有的所有 token，不必等 token 過期或下游配合；既有停用只擋新 session | GA Q4 CY26 |
+| Shadow AI Agent Discovery for Endpoints | 經 [[CRWD.US(crowdstrike)]] Falcon Discover 偵測本機 agent 與 MCP server；另以 Okta Verify 掃描受管裝置 | CrowdStrike 版 EA 中、GA Q4 CY26；Okta Verify 版 EA Q4 CY26、GA Q1 CY27 |
+| Agent-to-Agent Connections | 規範哪些 agent 可以呼叫哪些 agent，每次委派留存稽核鏈 | GA |
+| Resource Access Certifications | 定期審查 agent 連線，抓常駐或過度權限 | GA（SiliconANGLE） |
+| Configuration Designer | 以視覺圖呈現 agent 對資源的連線 | GA Q4 CY26 |
+| Okta for AI Agents 延伸到 Customer Identity | 管理面向客戶的 agent | GA Q4 CY26 |
+| ITDR（併入 Permiso Security） | 跨 IdP、雲端、SaaS 偵測身份威脅；可比對工具呼叫是否符合原 session 意圖、攔下異常 agent | EA Q4 CY26（美加） |
+| Auth0 Agent Gateway／Auth for UCP | 開發者端集中連接 MCP server；讓 agent 以 Universal Commerce Protocol 代使用者購物結帳 | Agent Gateway EA Q1 CY27；UCP EA Q4 CY26 |
+
+- **Blueprint Alliance（2026-09-22）**：Okta 把 2026-03 發表的 agent 安全藍圖擴成開放多廠商參考架構，12 家創始成員含 AWS、[[CRWD.US(crowdstrike)]]、Google Cloud、Wiz、Databricks、Docker、Lovable、Proofpoint、Salesforce、ServiceNow 與 [[ZS.US(zscaler)]]；以 MCP、OCSF、Shared Signals Framework 測試互通，讓一家的 runtime 偵測能觸發其他成員的控制動作。
+- **Gartner 數據**（經聯盟轉述，estimate／中信心）：2028 年平均每家全球財星 500 大企業將使用 150,000+ 個 agent；只有 13% 組織認為已有合適的 agent 治理。
+- SiliconANGLE 寫 Agent Gateway 與端點偵測「計畫第三季 GA」，與 PDF 一致；截至 2026-10-05 未見 GA 公告，列入待追蹤。
+
 > [!note] 既有關係描述未獲新來源驗證
 > 本頁與 ZS 頁寫的「ZS 以夥伴模式整合 Okta 作為 access layer」未出現在本次六篇來源中；新來源只顯示兩家在 agent 控制平面上並行布局。保留既有描述，待查證。
+> 2026-09-22 更新：ZS 為 Okta 發起之 Blueprint Alliance 創始成員（[[research_Okta_Zscaler_Agent防護更新_20261005]]），顯示雙方至少在參考架構與訊號互通上合作，但仍不足以證實 access layer 的產品整合。
 
 ### 為何身份在 AI 時代更重要
 
@@ -124,6 +146,8 @@ Okta 的做法是把 agent 當成身份，在「連線當下」由 IdP 決定授
 | 相關（Identity Governance） | [[SAIL.US(sailpoint)]] | IGA 領域直接競品 |
 | 整合夥伴 | [[ZS.US(zscaler)]] | ZS 使用 Okta 作為 access layer；ZS 自己做 governance layer |
 | 競品（MSFT 原生） | MSFT Entra（未建頁） | 企業 Azure 原生身份，OKTA 最大存在性威脅 |
+| 合作／整合 | [[CRWD.US(crowdstrike)]] | 端點影子 agent 偵測經 Falcon Discover；同為 Blueprint Alliance 創始成員（2026-09-22） |
+| 整合方 | [[RBRK.US(rubrik)]] | Rubrik Agent Identity 整合 Okta 與 Entra ID 延伸企業身份（2026-08）；來源 [[research_Rubrik_Agent防護_20261005]] |
 | 相關技術 | [[技術_可觀測性]] | 身份安全資料可觀測性 |
 
 ---
@@ -135,12 +159,17 @@ Okta 的做法是把 agent 當成身份，在「連線當下」由 IdP 決定授
 | 2026-05（約 21 日） | Auth0 for AI Agents：Auth for MCP、OBO Token Exchange GA | 產品發表 | ⭐⭐ | [[research_Zscaler_Okta_Agent防護_20261005]]，fact／高 |
 | 2026-06-23 | Cross App Access 生態擴至 25+ 軟體商，成為 MCP 授權擴充 | 生態／標準 | ⭐⭐ | 同上，fact／中（SiliconANGLE 轉述） |
 | 2026-08-24 | Agent SSO GA，含於核心 SSO | 產品 GA | ⭐⭐⭐ | [[research_Zscaler_Okta_Agent防護_20261005]]，fact／高 |
+| 2026-09-22 | Oktane 2026：Agent Gateway、kill switch、端點影子 agent 偵測；成立 Blueprint Alliance | 產品／聯盟 | ⭐⭐⭐ | [[research_Okta_Zscaler_Agent防護更新_20261005]]，fact／高 |
+| Q3 CY26 | Agent Gateway GA（公司目標） | 產品 GA | ⭐⭐⭐ | 同上，estimate／中；截至 2026-10-05 未見 GA 公告 |
+| Q4 CY26 | Agent Gateway kill switch、Configuration Designer、CrowdStrike 端點偵測 GA；Permiso ITDR EA | 產品 | ⭐⭐ | 同上，estimate／中 |
 
 ---
 
 ## 來源
 
 - [[research_Zscaler_Okta_Agent防護_20261005]] — 網路搜尋（Okta 新聞稿、SiliconANGLE、Auth0），Agent 身份與 Cross App Access，2026-10-05 擷取。
+- [[research_Okta_Zscaler_Agent防護更新_20261005]] — 網路搜尋，2026-10-05 擷取：Oktane 2026 產品公告 PDF（Okta IR，2026-09）、SiliconANGLE（2026-09-22、09-28）。
+- [[research_Rubrik_Agent防護_20261005]] — 網路搜尋，2026-10-05 擷取：Rubrik Agent Identity 整合 Okta（2026-08）。
 - [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29；正文將本公司列為核心 runtime 防護廠商，近期直接替代風險仍較集中於上線前工作流（券商 thesis／中信心）；本次只補來源追溯，跨公司財務附表保留於 Raw。
 
 - [[報告_Truist_MythosAndDaybreak_20260608]] — Truist，Rise of the Models，2026-06-08
@@ -156,7 +185,9 @@ Okta 的做法是把 agent 當成身份，在「連線當下」由 IdP 決定授
 ## 相關頁面
 
 - [[分析_Zscaler與Okta_Agent防護分工_20261005]] — Agent 端防護的流量層 vs 身份層分工。
+- [[分析_資安十強Agent端防護比較_20261005]] — 十家資安公司 agent 控制點與上市進度比較。
 - [[分析_DevSecOps_AI安全衝擊]] — 2026-09-29 Evercore 的上線前／runtime 替代風險框架。
 
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]
+- [[時程_2026AI軟體與軍工AIoT催化劑]]
 - [[分析_AI驅動資安支出2026]]

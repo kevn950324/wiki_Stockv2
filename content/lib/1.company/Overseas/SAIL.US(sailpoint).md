@@ -13,6 +13,7 @@ updated: 2026-10-05
 aliases:
   - SailPoint
   - SAIL
+  - SailPoint Agentic Fabric
 related_companies:
   - "[[OKTA.US(okta)]]"
   - "[[CRWD.US(crowdstrike)]]"
@@ -57,6 +58,21 @@ Truist（2026-06-08）將 SailPoint 定位為「Agentic AI 時代 Identity Secur
 - 代理人需要「配給 → 監控 → 撤銷」的完整生命週期治理——這是 SAIL 的核心能力
 - SAIL 的 AI 治理解決方案標榜「動態管理、即時自適應、可執行政策」，與 ZS 的「流量審查」形成不同層次的競爭
 
+### Agent 端防護：Agentic Fabric（網路搜尋補強，2026-10-05）
+
+SAIL 的做法是把每個 agent 綁回一個負責的人類擁有者，再用身份治理控制它能存取什麼；2026 年從發表到 GA 只花一季，並以收購 Entro 補強憑證與非人類身份的發現能力。來源：[[research_SailPoint_Agent防護_20261005]]（公司新聞稿 2026-05-11、06-15、08-04，SiliconANGLE 2026-10-04）。
+
+| 時間 | 事件 | 內容 |
+|---|---|---|
+| 2026-05-11 | Agentic Fabric 發表 | Discover（盤點 agent、機器身份與應用，用身份圖譜對應敏感資料）、Govern（每個 agent 對應人類擁有者與生命週期政策）、Protect（即時授權控制、威脅偵測與自動回應）；推出 Agentic Business（最小權限）與 Agentic Business Plus（零常駐權限 + JIT 存取）兩個方案，以及 Discovery Tool 免費試用 |
+| 2026-06-15 | 宣布收購 Entro（以色列） | 無代理程式發現 1,000+ 種非人類身份／agent 類型、1,200+ 種憑證（secrets、keys、tokens、certificates）、70+ 企業來源；NHIDR 偵測與回應；條款未揭露，預計 FY27 Q3 完成 |
+| 2026-08-04（Black Hat） | Agentic Fabric GA + Human Fabric | 端點感測器 SEAS 與瀏覽器感測器 SBAS 找出隱藏 agent、憑證與 MCP server；送進 LLM 前遮蔽個資的 inline prompt security；集中式 kill switch；自動指派擁有者；Human Fabric 是 Identity Security Cloud 的即時版，以 JIT-P 推向零常駐權限 |
+| 2026-10-05~08 | Navigate 2026（Austin） | 主題「AI, secured」；Entro 高層列名 theCUBE 受訪者 |
+
+- **公司調查數據**（中信心，公司自家研究）：97% 的 AI agent 可存取敏感資料，只有 21% 的組織對管理 agent 風險高度有把握；一家財星 500 大企業 PoC 找出 10,000+ 個原本不知道的 agent（ZK Research 轉述）。
+- **反方提醒**：theCUBE Research 分析師 Krista Case 認為「單一平台成為 agentic AI 控制平面」的說法要保守看待，agent 治理橫跨身份、runtime、應用、資料與遙測，勝出關鍵是整合。
+- **定位變化**（本頁推論，thesis／中信心）：Agentic Fabric 自帶 SEAS／SBAS 端點與瀏覽器感測器、kill switch 與 prompt 遮蔽後，與 [[CRWD.US(crowdstrike)]] 的端點 agent 盤點、[[OKTA.US(okta)]] 的 Agent Gateway 與 kill switch 功能重疊增加。十家比較見 [[分析_資安十強Agent端防護比較_20261005]]。
+
 ---
 
 ## 投資觀察
@@ -92,11 +108,23 @@ Truist（2026-06-08）將 SailPoint 定位為「Agentic AI 時代 Identity Secur
 | 主要競品（PAM + IGA） | CyberArk → [[PANW.US(palo alto networks)]] | 已收購，PAM + 機器身份市場 |
 | 整合（流量 + 治理） | [[ZS.US(zscaler)]] | ZS 做流量 governance，SAIL 做身份生命週期；互補多於競爭 |
 | 資料安全協作 | [[RBRK.US(rubrik)]] | 資料保護 + 身份治理的協作 |
+| 收購標的 | Entro（未建頁） | NHI 與憑證安全；2026-06-15 宣布，預計 FY27 Q3 完成 |
+
+## 時間軸
+
+| 時間 | 事件 | 類型 | 來源 |
+|---|---|---|---|
+| 2026-05-11 | Agentic Fabric 發表、推出 Agentic Business／Business Plus | 產品 | [[research_SailPoint_Agent防護_20261005]] |
+| 2026-06-15 | 宣布收購 Entro | 併購 | 同上 |
+| 2026-08-04 | Agentic Fabric GA、Human Fabric 推出（Black Hat） | 產品 | 同上 |
+| 2026-10-05~08 | Navigate 2026 | 活動 | 同上 |
+| FY27 Q3 | Entro 收購預計完成 | 併購 | 同上 |
 
 ---
 
 ## 來源
 
+- [[research_SailPoint_Agent防護_20261005]] — 網路搜尋，2026-10-05 擷取：Agentic Fabric GA 新聞稿（2026-08-04）、Agentic Fabric 發表（2026-05-11）、Entro 收購（2026-06-15）、SiliconANGLE Navigate 預覽（2026-10-04）。
 - [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29；正文將本公司列為核心 runtime 防護廠商，近期直接替代風險仍較集中於上線前工作流（券商 thesis／中信心）；本次只補來源追溯，跨公司財務附表保留於 Raw。
 
 - [[報告_Truist_MythosAndDaybreak_20260608]] — Truist，Rise of the Models，2026-06-08
@@ -112,3 +140,5 @@ Truist（2026-06-08）將 SailPoint 定位為「Agentic AI 時代 Identity Secur
 - [[分析_RBRK_Rubrik]]
 - [[分析_AI驅動資安支出2026]]
 - [[分析_Zscaler與Okta_Agent防護分工_20261005]]
+- [[分析_資安十強Agent端防護比較_20261005]]
+- [[時程_2026AI軟體與軍工AIoT催化劑]]
