@@ -123,7 +123,7 @@ Coherent 供應鏈中：蘅東光占 **約 40%** 份額（第二大）。
 > [!warning] CPO／NPO FAU 份額口徑（2026-10-05 收錄）
 > - 既有：[[memo_光通信大厂调研_CPO出货量_FAU_MPC方案_acecamptech_20260529]] 等訪談稱蘅東光占 Coherent 供應鏈約 40%、天孚為 Finisar／Coherent 體系第一；[[技術_CPO]] 引 SemiAnalysis 稱 TFC Optical 為 NVIDIA X800-Q3450 FAU 主供。
 > - 新增：[[memo_Coherent專家訪談_光模組量價_NPO_OCS_EML與獲利目標_日期不詳]]（日期不詳）稱 **HD Optics** 占 CPO DFAU 市場 45%–48%、NPO FAU 約 40%，TFC 為另一主要供應商。
-> - 狀態：HD Optics 可能指蘅東光（同為約 40% 口徑），但來源未給中文名，不合併；45%–48% 是 DFAU 全市場或 Coherent 採購份額亦未說明。DFAU（可拆式）與 Q3450 固定式 FAU 可能是不同產品，兩種「主供」說法可並存。
+> - 狀態：使用者 2026-10-05 確認 HD Optics **不是**蘅東光，兩者為不同供應商；HD Optics 中文名與實體仍待辨識，不建公司頁。45%–48% 是 DFAU 全市場或 Coherent 採購份額亦未說明。DFAU（可拆式）與 Q3450 固定式 FAU 可能是不同產品，兩種「主供」說法可並存。
 
 整合後 FAU 業務：光庫科技（含收購加華微捷 + 蘇州安捷訊）FAU 市場規模將超天孚。安捷訊 2025 年營收接近 8 億元，淨利率 21–22%。
 

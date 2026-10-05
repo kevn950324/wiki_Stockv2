@@ -81,7 +81,7 @@ related_topics:
 |---|---|---|---|
 | NPO 量產規模 | 2027H2 1.6T 22–23 萬、3.2T 38–40 萬、6.4T 7–8 萬個；換算約 130 萬個 1.6T 等效 | 與 Citi 轉述管理層「2027H2 scale-up CPO／NPO 爬坡」時程一致；量級是首度出現的具體數字 | 低 |
 | NPO 需 DSP | 所有現有設計仍需 DSP | 與 [[技術_CPO]] 中 Omdia 轉述阿里雲「NPO 相較含 DSP 系統省電約 31%」口徑不同；可能是北美與中國 ICP 設計差異 | 低 |
-| FAU 份額 | HD Optics 占 CPO DFAU 45%–48%、NPO FAU 約 40%，TFC 為另一主要供應商 | [[技術_FAU]] 既有記載蘅東光占 Coherent 供應鏈約 40%、天孚（TFC）為 Finisar／Coherent 體系第一；HD Optics 可能指蘅東光，但未確認 | 低 |
+| FAU 份額 | HD Optics 占 CPO DFAU 45%–48%、NPO FAU 約 40%，TFC 為另一主要供應商 | [[技術_FAU]] 既有記載蘅東光占 Coherent 供應鏈約 40%、天孚（TFC）為 Finisar／Coherent 體系第一；使用者確認 HD Optics 不是蘅東光，兩組份額屬不同供應商 | 低 |
 | 6 吋 InP | 2026H1 完成第一次倍增，2027 年第二次倍增 | 公司頁既有「4Q26 翻倍、FY2Q26 已達約 80%」及 Citi「去年已翻倍、後續再翻倍」；本訪談時點較早但方向一致 | 中低 |
 | OCS 規格 | 300×300 雙向埠為主力；512×512 延至 2029 | 公司頁與液晶 OCS 訪談記為 Google 320×320 方案；官方產品頁列 64×64～512×512。300 與 320 可能是可用埠與總埠口徑差異 | 低 |
 | Industrial | 2025 年 US$22.1 億、毛利率 34.2%、淨利率 13.1%；2028 年 US$27 億 | FY2Q26 Industrial 約占 28%（年化約 US$19 億），且 2026-01 已出售慕尼黑材料加工事業；22.1 億的分類口徑待核。34.2%／13.1% 未說明是 Industrial 還是全公司 | 低 |
@@ -128,7 +128,7 @@ related_topics:
 > [!todo] 反證條件／待確認
 > - [ ] 用 Coherent FY2Q27（2026Q4）財報核對毛利率是否受 DSP 漲價拖累；若毛利率下滑且管理層提及 DSP 成本，代表轉嫁不完整。
 > - [ ] 釐清可插拔量價是 Coherent 自身或市場總量；若為自身，需解釋換算收入高於 Datacenter & Communications 營收的落差。
-> - [ ] 確認「HD Optics」是否為蘅東光，以及 45%–48% 是 CPO DFAU 全市場或 Coherent 採購份額。
+> - [ ] 辨識「HD Optics」實體（使用者已確認不是蘅東光），並確認 45%–48% 是 CPO DFAU 全市場或 Coherent 採購份額。
 > - [ ] 追蹤 NVIDIA 是否公開採用 OCS；若 2027 年仍只有 Google，OCS 多客戶化 thesis 延後。
 > - [ ] 反證：若 NPO 平台改採無 DSP 的線性設計，「NPO 綁 DSP」不成立，DSP 漲價對 NPO 成本的影響也要重估。
 > - [ ] 以財報 segment 核對 Industrial 2025 年 US$22.1 億的分類口徑（慕尼黑事業出售前後）。
