@@ -15,7 +15,8 @@ const targetReports = path.join(siteRoot, "..", "content", "reports")
 const sourceRawData = path.join(vaultRoot, "data_base", "Raw_data")
 const targetRawData = path.join(siteRoot, "..", "content", "raw-data")
 const sourceMemo = path.join(sourceRawData, "memo")
-const maxPublishBytes = 100 * 1024 * 1024
+// Cloudflare Pages rejects single files over 25 MiB; larger PDFs stay private in the vault.
+const maxPublishBytes = 25 * 1024 * 1024
 const privateLibPages = [
   path.join("1.company", "TW", "7853_政美應用（興）.md"),
   path.join("4.analyze", "分析_政美應用先進封裝檢測與軟體轉型_20260904.md"),
@@ -152,5 +153,5 @@ if (existsSync(sourceMemo)) {
 console.log(`同步 lib 頁面：${markdownFiles.length}`)
 console.log(`同步引用圖片：${imageNames.size}`)
 console.log(`同步 Raw_data PDF：${rawPdfFiles.length}`)
-console.log(`略過超過 100 MB 的 Raw_data 檔案：${skippedRawFiles}`)
+console.log(`略過超過 25 MiB 的 Raw_data 檔案：${skippedRawFiles}`)
 console.log(`同步 memo DOCX：${memoDocxFiles.length}`)
