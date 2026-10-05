@@ -19,8 +19,6 @@ aliases:
   - Inference Cloud
   - Core Compute
   - GPU VM
-  - Model as a Service
-  - MaaS
 image_status: "待補來源圖"
 ---
 

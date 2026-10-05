@@ -10,7 +10,6 @@ maturity: mature
 updated: 2026-10-04
 aliases:
   - BT
-  - BT載板
   - 記憶體載板
   - ABF
   - Ajinomoto Build-up Film

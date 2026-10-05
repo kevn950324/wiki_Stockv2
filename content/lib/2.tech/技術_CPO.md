@@ -20,8 +20,6 @@ aliases:
   - 外部雷射源
   - 內置光源
   - 外置光源
-  - PMF
-  - 保偏光纖
   - FAU
   - Fiber Attach Unit
   - MRM
