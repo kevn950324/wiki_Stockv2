@@ -111,3 +111,4 @@ Truist（2026-06-08）將 SailPoint 定位為「Agentic AI 時代 Identity Secur
 
 - [[分析_RBRK_Rubrik]]
 - [[分析_AI驅動資安支出2026]]
+- [[分析_Zscaler與Okta_Agent防護分工_20261005]]

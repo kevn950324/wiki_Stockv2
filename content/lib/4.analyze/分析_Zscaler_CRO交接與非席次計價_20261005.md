@@ -106,3 +106,7 @@ related_topics:
 - [[報告_RBC_Zscaler_CRO交接_20260924]] — RBC Capital Markets，2026-09-24。
 - [[報告_Barclays_Zscaler_投資人日預覽_20260929]] — Barclays，2026-09-29。
 - [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29。
+
+## 相關頁面
+
+- [[分析_Zscaler與Okta_Agent防護分工_20261005]] — Agent 端防護的流量層與身份層分工。

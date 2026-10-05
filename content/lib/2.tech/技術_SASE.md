@@ -189,3 +189,4 @@ Barclays（2026-09-29）的 [[報告_Barclays_Zscaler_投資人日預覽_2026092
 - [[CHKP_2Q26_Earnings_Presentation]] — Check Point，2026-07-30
 - [[Check Point Software Technologies Ltd Earnings Call 2026730 DN000000003114523854 (1)]] — Bloomberg transcript，2026-07-30
 - [[分析_DevSecOps_AI安全衝擊]]
+- [[分析_Zscaler與Okta_Agent防護分工_20261005]]

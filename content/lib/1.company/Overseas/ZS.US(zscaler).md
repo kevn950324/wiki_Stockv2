@@ -112,6 +112,25 @@ Zenith Live 26 是 ZS 年度用戶大會，2026 年發布重點：
 - **ZAgent Framework**：協調跨平台 Zscaler agents，自動化管理任務
 - **Symmetry 收購完整整合**：AI Access Graph 結合身份-應用-資料連結分析，提供 Agentic 政策設定競爭優勢
 
+### Agent 端防護架構（2026-06-09 發表，網路搜尋補強）
+
+Zscaler 的論述是把 Zero Trust Exchange 從「人」延伸到「agent」，分三個控制點：agent 如何連線、如何取用資料、在裝置上如何執行。來源：[[research_Zscaler_Okta_Agent防護_20261005]]（新聞稿與 SiliconANGLE、Futurum 報導）。
+
+| 控制點 | 產品 | 機制（來源描述） | 備註 |
+|---|---|---|---|
+| 連線 | AI Broker + Agent Registry | 透過 MCP 與 A2A broker 代理 agent 通訊；Registry 記錄各 agent 可存取的對象並套用細粒度存取控制 | 需先登錄並分類 agent，盤點是前提（Futurum） |
+| 資料 | AI Access Graph | 來自 Symmetry Systems（2026-05 宣布、$175M）；對應身份、應用、資料來源的連結，即時追蹤資料血緣並縮減多餘存取 | 為其他控制提供可視性 |
+| 裝置 | Endpoint AI Security | 延伸到瀏覽器、擴充套件、外掛與本地 AI 工具，ZS 稱傳統端點產品不檢查這一層 | 2026-02 收購 SquareX（瀏覽器安全）為相關布局（SiliconANGLE） |
+| 資產／存取／基礎設施 | AI Protect 增強（2026-01 推出） | 發現 SaaS／網路流量內嵌 AI、辨識公有雲 agent 與 MCP server、掃描 agentic 程式碼；250+ GenAI app 的 prompt 擷取；MCP server red teaming、prompt hardening、合規熱圖 | 另支援 Anthropic、OpenAI Compliance API |
+
+> [!warning] 描述差異：ZAgent 與 AI Broker 範圍
+> 本頁既有敘述寫 AI Broker「透過 MCP」、ZAgent「協調跨平台 Zscaler agents」。2026-06-09 新聞稿與 SiliconANGLE 的 AI Broker 涵蓋 **MCP 與 A2A**；Futurum 稱 ZAgent Framework 是「以自然語言管理 Zero Trust Exchange」，屬 AI 管理 ZS 自身平台，並非治理客戶 agent 的產品。SiliconANGLE 該篇未提及 ZAgent。兩種說法並列保留，以新聞稿原文為準時再修正。
+
+- **未揭露項目**：SiliconANGLE 稱 Zscaler 未公布這批產品的定價與 GA 日期；與 Jefferies 轉述的「Zero Trust for Agents 仍為 early access」一致（見上方 2026-09 表）。fact／中信心。
+- **未解的技術問題（Futurum，thesis）**：A2A 呼叫多為雲端內部東西向流量，可能不經過 ZS 傳統擅長的南北向檢查點；agent 盤點不完整時，治理難以成立。
+- **管理層說法**：Jay Chaudhry 稱「傳統資安並非為數百萬自主 agent 設計」；KPMG 全球 CISO John Israel 以來賓身份背書資料血緣與 agent 對 agent 治理，非採購承諾。
+- **競爭框架**：Futurum 認為 SASE 廠商、身份廠商、雲端大廠（如 Microsoft Agent 365 的 agent 盤點）與新創都在爭同一控制平面；與 Okta 的分工見 [[分析_Zscaler與Okta_Agent防護分工_20261005]]。
+
 ### Red Canary 收購（挑戰）
 
 ZS 在 2025-2026 年間收購 Red Canary（MDR 廠商），但整合進度落後市場預期。BMO（2026-06-12）指出：FY27 ARR 初步指引（16-17%）已假設 Red Canary ARR 成長慢於合併後整體，投資人對 M&A 執行能力仍持懷疑態度。
@@ -237,6 +256,7 @@ Evercore ISI（2026-09-29）認為 Codex Security 的近期替代壓力較集中
 
 | 時間 | 事件 | 類型 | 重要性 | 備註／來源 |
 |---|---|---|---|---|
+| 2026-06-09 | Zenith Live 26 發表 AI Broker、Endpoint AI Security、AI Access Graph；未公布價格與 GA | 產品發表 | ⭐⭐ | [[research_Zscaler_Okta_Agent防護_20261005]]，fact／高（公司新聞稿） |
 | 2026-09-09（券商轉述） | Agentic SecOps 正式推出；Zero Trust for Agents 為 early access | 產品發表 | ⭐⭐ | [[報告_Jefferies_Zscaler_CRO交接_20260924]]，fact／中 |
 | 2026-10-01（公布生效日） | Ross Tackett 接任 CRO | 管理層交接 | ⭐⭐⭐ | [[報告_Barclays_Zscaler_CRO交接_20260924]]；依 9/24 報告基線，未另驗證實際完成 |
 | 2026-10-06（依報告排程） | 紐約投資人日，驗證 FY27 指引、長期利益率與計價模式 | 投資人日／驗證 | ⭐⭐⭐ | [[報告_Barclays_Zscaler_投資人日預覽_20260929]]；25–30% 為預期 |
@@ -275,6 +295,7 @@ gantt
 
 ## 來源
 
+- [[research_Zscaler_Okta_Agent防護_20261005]] — 網路搜尋（Zscaler 新聞稿、SiliconANGLE、Futurum），Agent 端防護，2026-10-05 擷取。
 - [[報告_Barclays_Zscaler_CRO交接_20260924]] — Barclays，2026-09-24。
 - [[報告_BNPParibas_Zscaler_CRO交接_20260924]] — BNP Paribas，2026-09-24。
 - [[報告_Jefferies_Zscaler_CRO交接_20260924]] — Jefferies，2026-09-24。
@@ -302,6 +323,7 @@ gantt
 ## 相關頁面
 
 - [[分析_Zscaler_CRO交接與非席次計價_20261005]]
+- [[分析_Zscaler與Okta_Agent防護分工_20261005]]
 
 - [[分析_Netskope_2026Q2_AI資安商業化]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]
