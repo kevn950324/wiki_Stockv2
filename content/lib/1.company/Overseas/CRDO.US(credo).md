@@ -8,7 +8,7 @@ tags:
   - 產業/半導體
   - 環節/AEC銅纜
   - 環節/SerDes
-updated: 2026-10-03
+updated: 2026-10-05
 image_status: "待補來源圖"
 related_companies:
   - "[[3665_貿聯-KY（市）]]"
@@ -119,6 +119,7 @@ flowchart LR
 ## CPO風險
 
 - Credo**無CPO佈局**；CPO為2027+大規模scale-up架構主流
+- 2026-10-05 更新：管理層認為 CPO 至少還要數年，改以 NPO 用 PIC（DustPhotonics）、200G/lane scale-up Retimer 與微發光源切入 scale-up；NPO PIC 預計 FY28 貢獻營收（[[活動_Credo_凱基CallMemo_20261005]]，公司說法／中）
 - PCIe retimer進入CPO市場，但此市場競爭激烈（NVDA NVLink、Intel等大廠）
 - Yole預測：CPO for scale-up 2030市值US$56億；scale-out US$26億
 
@@ -178,6 +179,7 @@ flowchart LR
 ## 來源
 
 - [[memo_AceCamp_Credo_800G光模組與1.6TAEC_20260930]] — AceCamp Tech匿名專家訪談，2026-09-30；主體辨識高信心，訂單、價格與量產時程低信心。
+- [[活動_Credo_凱基CallMemo_20261005]] — 凱基主辦管理層電話會議逐字稿，2026-10-05 提供；1.6T 時程、ZeroFlap 毛利算式、DustPhotonics 與 scale-up 進度。
 
 - [[20260709_0823_1308120]]（2026-07-03）
 - [[20260709_0823_250708_ubs_bizlink]]（2026-07-07）
@@ -209,6 +211,30 @@ ZeroFlap產品與公司官網匹配，因此[[memo_AceCamp_Credo_800G光模組�
 
 官方交叉核對：[Credo產品](https://credosemi.com/products/)、[2026-09-15官方1.6T光模組發布](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Expands-ZeroFlap-Portfolio-with-224G-Based-1-6T-Optical-Transceivers-Addressing-the-Growing-Demand-for-AI-Network-Infrastructure/default.aspx)（2026-10-03核對）。
 
+## 2026-10-05 凱基電話會議（管理層 Dan）
+
+來源：[[活動_Credo_凱基CallMemo_20261005]]（凱基主辦，使用者 2026-10-05 提供語音辨識逐字稿；講者僅標示 Dan，通話日期未載明）。以下為管理層說法，屬 management outlook；判讀見 [[分析_Credo_ZeroFlap毛利結構與1.6T節奏_20261005]]。
+
+| 主題 | 管理層說法 | 類型／信心 |
+|---|---|---|
+| 1.6T AEC／光學 DSP | 量產出貨落在 FY27 末～FY28 初，即 2027-04～06；CY27 年中開始放量，CY27 下半年確定放量；CY26 1.6T 營收為零 | guidance／中 |
+| 1.6T 卡關因素 | 客戶交換器、NIC 等配套到位；最大客戶之一自研 NIC，下一代仍為 8×100G，何時轉 1.6T 不確定 | 公司說法／中 |
+| 1.6T 拓撲 | 2 埠 800G 對 2 個交換器埠（兩條直連 AEC）、2 個 800G NIC 對 1 個 1.6T 埠（Y-cable），或 1.6T 直連；每顆 XPU 內容價值尚無法估算 | 公司說法／中 |
+| 光學產能 | 已確保 FY27 末出貨達數十萬顆、FY28 再成長 2～3 倍所需供給；200G/lane 用 3nm，3nm 與雷射可能是最緊環節 | guidance／中 |
+| ZeroFlap 溢價 | 預期「適度溢價」，幅度未定，依客戶而異；目前僅揭露 TensorWave（neocloud），未來預期 hyperscaler 占比最大 | 公司說法／中 |
+| 毛利率 | FY27 毛利率目標 68%（單季 ±1 個百分點）；ZeroFlap、OmniConnect、ALC、Retimer、AEC 新產品整體落在 60% 高段；光模組靠自有矽避免層層加價 | guidance／中 |
+| 渠道衝突 | 同時賣 DSP、剛開始賣 PIC 給模組廠，與 ZeroFlap 可能有渠道衝突但尚未發生；ZeroFlap ASP 三位數美元、DSP 二位數美元 | 公司說法／中 |
+| DustPhotonics PIC | 收購後營收來自併購前取得的專案；第一代 ZeroFlap 用外購 PIC，自家 PIC 導入下一代約需再 9 個月；DSP＋PIC 套裝短期內不會有實質營收 | 公司說法／中 |
+| Scale-up | NPO 用 PIC 設計導入預計 FY28 開始貢獻營收；200G/lane scale-up Retimer 打入網通 OEM 交換器板，該 OEM 與 GPU 廠合作，已有 US$50M 訂單 | 公司說法／中；OEM 與 GPU 廠未具名 |
+| 微發光源 | microLED 與 microVCSEL 都被視為「wide and slow」微發光源，兩者都會用；Hyperlume 團隊兩者皆有專長；認為微發光源的可靠度與功耗適合 NPO | thesis／中 |
+| CPO 時程 | 管理層認為 CPO 至少還要數年；scale-up 連結數約為 scale-out 的 8～10 倍，但市場仍在非常早期 | thesis／中 |
+
+> [!warning] ZeroFlap 放量年度與既有口徑不一致
+> 本次逐字稿稱 ZeroFlap 業務「預計 FY28 下半年開始放量」，原稿已標註 FY28 需回聽確認。既有來源：[[memo_國泰證期_CredoCallMemo_20260902]] 稱 FY27 光通訊營收逾 US$600mn、ZeroFlap 預期貢獻逾 US$100mn；[[報告_GFHK_Credo_20260901]] 稱光學量產高峰偏向 FY2H27；[[memo_AceCamp_Credo_800G光模組與1.6TAEC_20260930]] 稱首批 800G 光模組約 2027-02～03 交付完成。兩種說法並列保留：若確為 FY28，代表 FY27 光學貢獻偏向 DSP／PIC 或少量 ZeroFlap，hyperscaler 規模放量延後；若為辨識錯誤（FY27），則與既有指引一致。
+
+> [!note] 毛利率示意算式（管理層粗估，非實際成本）
+> 以 800G 光模組售價 US$400、模組廠毛利率 40% 為例，COGS 約 US$240；其中外購 DSP 等矽晶片成本約 US$100（供應商毛利率約 80%）。Credo 自製同等矽內容成本約 US$20，可把 COGS 降到約 US$160，同價下毛利率約 60%；若 ZeroFlap 取得 25% 溢價（ASP US$500），毛利率約 68%。管理層同時表示，初期代工成本高於大型模組廠內部成本，毛利需隨量產改善。
+
 ## 時間軸：本次追蹤節點
 
 | 時間 | 事件 | 類型 | 重要性 | 備註 |
@@ -216,6 +242,10 @@ ZeroFlap產品與公司官網匹配，因此[[memo_AceCamp_Credo_800G光模組�
 | 2026-11（預估） | 1.6T final晶片版本返回 | 驗證 | ⭐⭐⭐ | [[memo_AceCamp_Credo_800G光模組與1.6TAEC_20260930]]，低信心 |
 | 返回後2–3個月（預估） | 晶片與AEC測試，之後排產 | 驗證 | ⭐⭐⭐ | 不把測試終點等同大量交付 |
 | 2027-02～03（預估） | 第一批800G光模組訂單交付 | 放量 | ⭐⭐⭐ | 客戶未具名；另一專案6–10個月另列 |
+| 2027-04～06（指引） | 1.6T AEC 與光學 DSP 開始量產出貨（FY27 末～FY28 初） | 放量 | ⭐⭐⭐ | [[活動_Credo_凱基CallMemo_20261005]]，管理層說法／中 |
+| 2027 年中～下半年（預估） | 1.6T 正式放量，取決於客戶交換器與 NIC 到位 | 放量 | ⭐⭐⭐ | 同上；最大客戶之一下一代 NIC 仍為 8×100G |
+| 約 2027-07（預估） | DustPhotonics PIC 導入下一代 ZeroFlap 光模組 | 技術下線 | ⭐⭐ | 同上；「收購後約一年、再約 9 個月」推算 |
+| FY28（2027-05～2028-04） | NPO 用 PIC 開始貢獻營收；ZeroFlap 放量（年度待確認） | 放量 | ⭐⭐⭐ | 同上；ZeroFlap 年度與既有 FY27 口徑衝突，見上方 warning |
 
 跨公司追蹤：[[時程_2026-2027高速互連與分散式算力]]。
-相關分析：[[分析_20260930專家紀要公司辨識與商業化驗證]]。
+相關分析：[[分析_20260930專家紀要公司辨識與商業化驗證]]、[[分析_Credo_ZeroFlap毛利結構與1.6T節奏_20261005]]。

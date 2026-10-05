@@ -701,6 +701,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 
 ## 相關頁面
 
+- [[分析_Credo_ZeroFlap毛利結構與1.6T節奏_20261005]]
 - [[603005.CN(crystal_optech)]]
 - [[分析_20260820專家會議受訪公司辨識]]
 - [[分析_20260829-30專家紀要受訪公司辨識與追蹤]]
