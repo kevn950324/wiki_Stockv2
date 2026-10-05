@@ -7,7 +7,7 @@ sector: 支付網路 / 加值服務（Payment Services）
 tags:
   - 公司/Mastercard
   - 產業/金融服務
-updated: 2026-10-05
+updated: 2026-10-06
 aliases:
   - Mastercard
   - Mastercard Inc
@@ -37,6 +37,17 @@ Mastercard 是全球第三大信用與簽帳卡支付網路（依 Nilson 以交�
 
 資料來源：6 份券商報告（2026-07-30～2026-09-10），見下方「來源」。與台灣供應鏈無直接零組件關係，本頁定位為「支付網路／金融科技」跨產業參照，供比較 Visa、追蹤代理式支付與穩定幣議題。
 
+### 歷史補充：機構持股與歐洲曝險
+
+| 面向 | 新增資料 | 判讀／來源 |
+|---|---|---|
+| 1Q26 持股 | Top 100 主動組合權重 1.42%、S&P 500 權重 0.74%，超額 68bps；15 年／5 年平均 74／87bps | [[報告_MorganStanley_VisaMastercard機構持股_20260604]]，2026-06-04；fact（調查），信心中；不是全部機構占流通股比率 |
+| 2Q26 受理 | 474 家有效網路零售樣本全部直接接受 Mastercard | [[報告_MorganStanley_2Q26支付受理追蹤_20260710]]，2026-07-10；fact（樣本），信心中；受理不等於處理量份額 |
+| 歐洲可爭奪收入池 | 不含／含英國約占集團淨營收 12%／16%，高於 Visa 7%／12% | [[報告_UBS_Wero與數位歐元_20260727]]，2026-07-27；estimate，信心中；未乘實際新增替代份額前不是損失率 |
+| 跨境量月度走勢 | 排除歐洲內部：4 月 +7%、5 月 +12%、6 月 +15%、7 月 +12%，6 月受 Prime Day 時點影響 | [[報告_UBS_EMEAFinTech觀察_20260731]]，2026-07-31；fact（券商轉述），信心中；7 月觀察窗口與其他券商 MTD 不同 |
+
+這些是 2026-10-06 入庫的 6–7 月歷史資料，保留原始日期，不覆蓋較晚財報與產品資料。
+
 ## 核心技術／競爭優勢
 
 - **雙邊網路與 switching 滲透率提升**：switched transactions 佔處理交易比重 2Q26 達 72%（年增 5pts，FY23 為 65%、FY18 為 55%；Barclays），管理層把份額成長歸因於相對本地網路的價值主張，並藉彈性網路架構擴大 switching 角色。
@@ -59,6 +70,9 @@ Mastercard 是全球第三大信用與簽帳卡支付網路（依 Nilson 以交�
 | Wallet Pay | 新興市場錢包的發卡、受理、匯款與 tokenization | 初始夥伴 AlipayHK、Clip、GCash、KakaoPay、TNG eWallet、TrueMoney，另有 Axian、CRED、DaviPlata、Mercado Pago、MTN、TenPay Global（TD Cowen 2026-09-10） |
 
 ## 圖片 / 架構圖
+
+![[報告_UBS_Wero與數位歐元_20260727_p24.png]]
+*UBS（2026-07-27，第 24 頁）：Mastercard 歐洲收入扣除入境跨境、信用卡、非交易 VAS 與境外 debit 費用後，可爭奪池約 12%（不含英國）／16%（含英國）。這是條件式收入曝險，不是已發生收入損失。*
 
 ![[報告_BMO_Mastercard委內瑞拉_20260825_p4.png]]
 *BMO（2026-08-25）：跨境 assessments 成長 vs 跨境交易量成長的價差。2Q26 約 8ppt，為 2022 年疫後回升以來最大；歷史平均約 3ppt，BMO 估約 5ppt 來自一次性或特定來源（含委內瑞拉美元可得性）。*
@@ -93,13 +107,17 @@ flowchart LR
 
 ## EPS 預估
 
-| 年度 | BofA（2026-07-30） | Barclays（2026-07-30） | BNP Paribas（2026-08-07） | BMO（2026-08-25） | RBC（2026-09-09） | 備註 |
-|---|---:|---:|---:|---:|---:|---|
-| 2026E | 19.95 | 19.54 | 20.4（公司口徑 20.12） | 20.04 | 20.07 | BofA 共識：Bloomberg 19.65／Visible Alpha 20.11 |
-| 2027E | 23.55 | 22.88 | 23.8（公司口徑 23.57） | 23.33 | 23.20 | BNP 稱高於共識約 3%；BofA 共識 22.78／23.34 |
-| 2028E | 27.63 | 26.73 | 28.5（公司口徑 28.19） | 26.98 | — | |
+| 年度 | UBS（2026-07-27） | BofA（2026-07-30） | Barclays（2026-07-30） | BNP Paribas（2026-08-07） | BMO（2026-08-25） | RBC（2026-09-09） | 備註 |
+|---|---:|---:|---:|---:|---:|---:|---|
+| 2026E | 19.76 | 19.95 | 19.54 | 20.4（公司口徑 20.12） | 20.04 | 20.07 | BofA 共識：Bloomberg 19.65／Visible Alpha 20.11 |
+| 2027E | 23.17 | 23.55 | 22.88 | 23.8（公司口徑 23.57） | 23.33 | 23.20 | BNP 稱高於共識約 3%；BofA 共識 22.78／23.34 |
+| 2028E | 26.96 | 27.63 | 26.73 | 28.5（公司口徑 28.19） | 26.98 | — | |
+| 2029E | 31.41 | — | — | — | — | — | UBS 長期模型 |
+| 2030E | 36.84 | — | — | — | — | — | UBS 長期模型 |
 
 口徑：BofA non-GAAP、Barclays 財報口徑（EPS reported）、BNP 調整後、BMO core EPS、RBC reported diluted。
+
+UBS 為 UBS-adjusted diluted EPS（美元），出自 [[報告_UBS_Wero與數位歐元_20260727]] 第 28 頁；2026E local-GAAP 為 $19.50、cash EPS 為 $21.19，未混入 UBS 欄。皆為 estimate，信心中。MS（2026-06-04）維持 Overweight、以 30x 2027 EPS 作評價基礎，研究正文未提供數值目標價，未反推。
 
 ## 目標價與評等
 
@@ -118,6 +136,9 @@ flowchart LR
 
 | 時間 | 事件 | 類型 | 重要性 | 備註 |
 |---|---|---|---|---|
+| 2026-09-15（來源預告，結果未驗證） | CLARITY 程序投票／倫理與收益條款爭議；CCCA 為另案 routing 風險 | 政策 | ⭐⭐ | [[報告_EvercoreISI_CLARITY程序投票_20260810]]；不是已通過或已施行 |
+| 2026-10 起（當時 roadmap） | iDEAL 逐步遷移 Wero 基礎設施 | 競爭 | ⭐⭐ | [[報告_UBS_Wero與數位歐元_20260727]]；estimate，信心中；實際進度未查證 |
+| H2 2027／2029（條件式） | 零售數位歐元試點／可能發行 | 政策／競爭 | ⭐⭐ | [[報告_UBS_EMEAFinTech觀察_20260731]]；以立法及實施為前提 |
 | 2026-07-30 | 2Q26 財報：VASS 加速、跨境優於預期、FY26 指引偏上緣 | 財報 | ⭐⭐⭐ | [[報告_Barclays_Mastercard2Q26財報_20260730]]、[[報告_BofA_Mastercard_20260730]] |
 | 2026-07（MTD 至 7/28） | 7 月 US switched volume 約 +6%（排除 Capital One debit 遷移約 +10%）；跨境 MTD 約 +11% | 先行指標 | ⭐⭐ | Prime Day 提前至 6 月與較高比較基期使 7 月放緩（BofA） |
 | 2026-08 | 完成收購 BVNK（BMO：$1.8B） | 併購 | ⭐⭐ | BofA／Barclays 7 月底仍稱預期 3Q 完成；BMO 為單一來源，信心中 |
@@ -135,6 +156,7 @@ flowchart LR
 - **所屬供應鏈**：[[供應鏈_金融服務]]（金融機構與支付網路之間透過 client incentives 與手續費結算）。
 - **同業**：[[V.US(visa)]]（BNP 指 2025 年夏 MA 對 V 的本益比溢價自 >4.7 轉降至 0.7 倍，2026-08 回升至約 1.5 倍）。
 - **比較分析**：[[分析_Visa_vs_Mastercard_加值服務比較]]、[[分析_Mastercard_2Q26後券商觀點與催化劑]]。
+- **替代支付**：詳 [[分析_歐洲替代支付對VisaMastercard的風險_20261006]]；UBS 認為 Wero／數位歐元增加議價壓力的可能先於大規模量損。DB 2026-07-17 評估潛在 Stripe／PayPal 結合的近期去中介化風險有限，較可信的長期競爭在跨境匯款、B2B、marketplace payouts 等特定用途，屬 thesis，並非確認交易。
 
 ## 相關公司
 
@@ -149,6 +171,8 @@ flowchart LR
 > - **客戶集中與 incentives**：BNP 指 MA 的 rebates & incentives 增速自 4Q25 起升高（可能與 NatWest、Deutsche Bank debit 合約到期續約有關，屬推測），3Q26 預期見頂；若續約條件更差，將壓抑 net revenue。
 > - **去中介化**：下行風險含 AI agent 把交易導離網路、即時支付網路與穩定幣分流、歐洲主權疑慮與本地網路（BofA、Barclays、BNP、TD）。
 > - **法規與訴訟**：監管變動、interchange 訴訟（BofA 揭露 Mastercard 與其母公司同為該案共同被告）、各國政策偏好本地支付方案（TD）。
+> - **歐洲替代池敏感度**：UBS 2026-07-27 模型中 MA 12–16% 高於 V 7–12%；Wero 信用功能、混合錢包 routing 與境外受理若擴張，模型扣除的受保護收入需重估。註冊用戶與既有 A2A 遷移不等於 MA 已流失量。
+> - **CLARITY／CCCA 分開**：Evercore 2026-08-10 認為新增 CCCA 共提案人屬政治訊號、單獨通過機率仍極低，是當時 thesis；程序投票不代表最終立法，未查證最新官方狀態。
 > - **VASS 品質**：BNP 指 MA VASS 約 18% 成長兩年無加速，且已出售 SessionM、傳聞續砍帳單與 A2A 資產；需追蹤資安 pipeline 是否轉換為加速。
 > - **估值**：目標價區間 $630–735，BMO 下行情境 $496；MA 2026E P/E 約 28–30x，高於 S&P 500（BofA 約 22x NTM）。
 
@@ -158,6 +182,13 @@ flowchart LR
 
 ## 來源
 
+- [[報告_MorganStanley_VisaMastercard機構持股_20260604]] — Morgan Stanley，2026-06-04
+- [[報告_MorganStanley_2Q26支付受理追蹤_20260710]] — Morgan Stanley，2026-07-10
+- [[報告_DeutscheBank_PayPal收購傳聞_20260717]] — Deutsche Bank，2026-07-17
+- [[報告_UBS_支付與FinTech觀察_20260727]] — UBS，2026-07-27
+- [[報告_UBS_Wero與數位歐元_20260727]] — UBS，2026-07-27
+- [[報告_UBS_EMEAFinTech觀察_20260731]] — UBS，2026-07-31
+- [[報告_EvercoreISI_CLARITY程序投票_20260810]] — Evercore ISI，2026-08-10
 - [[報告_Barclays_Mastercard2Q26財報_20260730]] — Barclays，2026-07-30
 - [[報告_BofA_Mastercard_20260730]] — BofA，2026-07-30
 - [[報告_BNP_MastercardVisa_20260807]] — BNP Paribas，2026-08-07
@@ -171,3 +202,5 @@ flowchart LR
 - [[分析_Mastercard_2Q26後券商觀點與催化劑]]
 - [[分析_Visa_vs_Mastercard_加值服務比較]]
 - [[時程_2026Q3Q4_支付網路催化劑]]
+- [[分析_歐洲替代支付對VisaMastercard的風險_20261006]]
+- [[分析_FinTech錢包變現併購與立法風險_20261006]]

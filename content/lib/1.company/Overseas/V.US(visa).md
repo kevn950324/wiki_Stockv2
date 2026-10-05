@@ -7,7 +7,7 @@ sector: 支付網路 / 加值服務（Payment Services）
 tags:
   - 公司/Visa
   - 產業/金融服務
-updated: 2026-10-05
+updated: 2026-10-06
 aliases:
   - Visa
   - Visa Inc
@@ -30,7 +30,19 @@ Visa 與 [[MA.US(mastercard)]] 並列全球兩大卡片支付網路（RBC 稱 tw
 
 最新一季（FQ3 26，BNP 2026-08-07）：淨營收 $11,633M（年增 14.4%）、調整後 EPS $3.32（年增 11.4%）。BNP 與 RBC 都預期 FY27 成長放緩：BNP 估 FY27 淨營收約 +12%（constant FX 與 scope 基礎）、VAS 因 FY26 冬奧與世界盃墊高基期而自 28% 降至 21%；RBC 則維持 Outperform。
 
-資料來源：BNP Paribas（2026-08-07）與 RBC（2026-09-09）。本頁是 [[MA.US(mastercard)]] 6 份券商報告批次中的共同涵蓋公司；Visa 專屬資訊僅來自這兩份，其餘 MA 專屬報告不對 Visa 下結論。
+資料來源：BNP Paribas（2026-08-07）與 RBC（2026-09-09）提供上述較晚財務／VAS 基線；另於 2026-10-06 補入 MS、DB、UBS、Evercore 的 6–8 月歷史研究，按報告日並列，不取代較晚來源。
+
+### 歷史補充：持股、受理與歐洲替代支付
+
+| 面向 | 本批新增資料 | 判讀／來源 |
+|---|---|---|
+| 1Q26 機構持股 | Top 100 主動組合權重 1.40%、S&P 權重 0.93%；來源列超額持股 48bps，15 年／5 年均值 88／91bps | MS 2026-06-04；fact（調查），信心中。已四捨五入權重相減為 47bps，保留來源 48bps，不能解讀為所有機構持股占比 |
+| 2Q26 商戶受理 | 有效 474 家網路零售樣本，473 家接受 Visa，約 100% | MS 2026-07-10；fact（樣本），信心中；不是實際付款份額 |
+| 歐洲替代收入池 | UBS 估不含／含英國可爭奪集團淨營收約 7%／12%，當替代份額約 10% 時僅為池的一部分 | UBS 2026-07-27；estimate，信心中；不是 7–12% 已損失或預估損失 |
+| Visa RPO／VIK | UBS 估 VIK 支付的 VAS 對總淨營收／VAS 成長貢獻約 0.5–1／2–4ppt | UBS 2026-07-27；estimate，信心中；不是營收占比，也不等於全部現金訂閱 |
+| 2Q26 歐洲交易量 | FX-neutral 支付量成長較 1Q 加速約 1ppt；跨境有 Prime Day／世界盃因素 | UBS 2026-07-31；fact（券商轉述），信心中；不能外推未來季度 |
+
+來源：[[報告_MorganStanley_VisaMastercard機構持股_20260604]]、[[報告_MorganStanley_2Q26支付受理追蹤_20260710]]、[[報告_UBS_Wero與數位歐元_20260727]]、[[報告_UBS_支付與FinTech觀察_20260727]]、[[報告_UBS_EMEAFinTech觀察_20260731]]。
 
 ## 核心技術／競爭優勢
 
@@ -53,6 +65,9 @@ Visa 與 [[MA.US(mastercard)]] 並列全球兩大卡片支付網路（RBC 稱 tw
 
 ## 圖片 / 架構圖
 
+![[報告_UBS_Wero與數位歐元_20260727_p23.png]]
+*UBS（2026-07-27，第 23 頁）：Visa 歐洲收入按較受保護的跨境、信用卡與非交易 VAS 逐項扣除後，可爭奪池為不含／含英國約 7%／12%。Figure 12 同時顯示 Mastercard 約 12%／16%；這是替代情境的基數，不是實際收入損失。*
+
 ![[報告_RBC_VisaMastercard加值服務_20260909_p3.png]]
 *RBC（2026-09-09）：FY24 兩家 VAS 組成。Visa（上，約 $8.8B）：Issuing 40%、Acceptance 28%、Risk & Security 17%、Advisory & Other 15%；Mastercard（下，約 $11B）：Security Solutions 40%、Other Services & Solutions 28%、Business & Market Insights 17%、Consumer Acquisition & Engagement 15%。顯示 Visa 以與卡片交易連動的發卡處理為主，Mastercard 以資安為主。*
 
@@ -70,11 +85,15 @@ Visa 與 [[MA.US(mastercard)]] 並列全球兩大卡片支付網路（RBC 稱 tw
 
 ## EPS 預估
 
-| 年度（9 月止） | BNP Paribas（2026-08-07） | RBC cash EPS（2026-09-09） | 備註 |
-|---|---:|---:|---|
-| FY26E | 13.3（Bloomberg 共識 13.2） | 13.23 | RBC FQ4 26E 3.44；BNP FQ4 26E 3.48 |
-| FY27E | 15.2（共識 15.0） | 15.08 | BNP 稱與共識一致 |
-| FY28E | 17.7（共識 17.0） | — | |
+| 年度（9 月止） | UBS 稀釋 EPS（2026-07-27） | BNP Paribas（2026-08-07） | RBC cash EPS（2026-09-09） | 備註 |
+|---|---:|---:|---:|---|
+| FY26E | 13.24 | 13.3（Bloomberg 共識 13.2） | 13.23 | RBC FQ4 26E 3.44；BNP FQ4 26E 3.48 |
+| FY27E | 15.32 | 15.2（共識 15.0） | 15.08 | BNP 稱與共識一致 |
+| FY28E | 17.31 | 17.7（共識 17.0） | — | |
+| FY29E | 19.61 | — | — | UBS 長期模型 |
+| FY30E | 22.11 | — | — | UBS 長期模型 |
+
+UBS 欄為 UBS-adjusted diluted EPS（美元），出自 [[報告_UBS_Wero與數位歐元_20260727]] 第 30 頁；FY26 local-GAAP EPS 為 $12.93，cash EPS 為 $13.95，未混入同欄。皆為 estimate，信心中；不因本次入庫而視為最新預估。MS（2026-06-04）維持 Overweight、以 27x CY27 EPS 作評價基礎，但研究正文沒有數值目標價，未反推。
 
 ## 目標價與評等
 
@@ -92,6 +111,9 @@ Visa 與 [[MA.US(mastercard)]] 並列全球兩大卡片支付網路（RBC 稱 tw
 
 | 時間 | 事件 | 類型 | 重要性 | 備註 |
 |---|---|---|---|---|
+| 2026-09-15（來源預告，結果未驗證） | CLARITY 程序投票／穩定幣收益與倫理爭議；另關注 CCCA routing 風險 | 政策 | ⭐⭐ | [[報告_EvercoreISI_CLARITY程序投票_20260810]]；不是已通過或已施行 |
+| 2026-10 起（當時 roadmap） | iDEAL 支付逐步遷移 Wero 基礎設施 | 競爭 | ⭐⭐ | [[報告_UBS_Wero與數位歐元_20260727]]；estimate，信心中；實際進度未查證 |
+| H2 2027／2029（條件式） | 零售數位歐元試點／可能發行 | 政策／競爭 | ⭐⭐ | [[報告_UBS_EMEAFinTech觀察_20260731]]；以立法與實施為前提，不是確定日期 |
 | FQ4 26（2026-07～09） | 管理層指引營收成長 low-double-digit 高端，稱 FQ4 為「FY27 的起跑點」 | 財報／指引 | ⭐⭐⭐ | BNP：成長超過 12% 將有挑戰 |
 | FQ4 26 | 約 20% 交易量的獎勵合約於 FY 底前續約；incentives 成長預期略加速 | 財務 | ⭐⭐ | BNP：FY26 下半年高 incentives 增速將帶入 FY27 |
 | 待核准 | BioCatch 收購 | 併購 | ⭐⭐ | RBC 稱待主管機關核准；日期未揭露 |
@@ -105,6 +127,7 @@ Visa 與 [[MA.US(mastercard)]] 並列全球兩大卡片支付網路（RBC 稱 tw
 - **產業位置**：與 [[MA.US(mastercard)]] 並列的全球卡片網路，下游為發卡行與商戶；本批資料未揭露具名硬體或台灣供應商。
 - **所屬供應鏈**：[[供應鏈_金融服務]]。
 - **比較分析**：[[分析_Visa_vs_Mastercard_加值服務比較]]。
+- **替代路徑**：Wero 是商業 A2A scheme，零售數位歐元是公共貨幣；歐洲內部 debit 與 net pricing 較敏感，全球信用與境外旅遊較受保護，詳 [[分析_歐洲替代支付對VisaMastercard的風險_20261006]]。DB 2026-07-17 對潛在 Stripe／PayPal 結合的評估為有限近期去中介化，屬交易情境 thesis，未確認收購。
 
 ## 相關公司
 
@@ -118,9 +141,18 @@ Visa 與 [[MA.US(mastercard)]] 並列全球兩大卡片支付網路（RBC 稱 tw
 > - **跨境組合**：2025 年美國入境旅遊組合轉差，2026 年前僅為「對上」；加拿大入境與航空運力不足以帶動 FY27 明顯改善（BNP）。
 > - **估值**：BNP 認為 V 已重新評價至近幾年平均；RBC 目標價 $466 與 BNP $425 差異達約 10%。
 > - **競爭與替代**：替代支付系統（歐洲、拉美）、監管與替代網路為下行風險（BNP）。
+> - **量損與議價需分開**：UBS 2026-07-27 認為 Wero 較早影響可能是 banks／merchants 議價；註冊用戶與既有 A2A 品牌遷移不等於 Visa 流量損失。若信用功能、境外受理或混合錢包 routing 擴張，原曝險池需重估。
+> - **立法不確定性**：Evercore 2026-08-10 認為 CCCA 單獨通過機率極低，新增共同提案人為政治訊號；這是當時 thesis，不是截至入庫日的官方法律結論。CLARITY 與 CCCA 分開追蹤。
 
 ## 來源
 
+- [[報告_MorganStanley_VisaMastercard機構持股_20260604]] — Morgan Stanley，2026-06-04
+- [[報告_MorganStanley_2Q26支付受理追蹤_20260710]] — Morgan Stanley，2026-07-10
+- [[報告_DeutscheBank_PayPal收購傳聞_20260717]] — Deutsche Bank，2026-07-17
+- [[報告_UBS_支付與FinTech觀察_20260727]] — UBS，2026-07-27
+- [[報告_UBS_Wero與數位歐元_20260727]] — UBS，2026-07-27
+- [[報告_UBS_EMEAFinTech觀察_20260731]] — UBS，2026-07-31
+- [[報告_EvercoreISI_CLARITY程序投票_20260810]] — Evercore ISI，2026-08-10
 - [[報告_BNP_MastercardVisa_20260807]] — BNP Paribas，2026-08-07
 - [[報告_RBC_VisaMastercard加值服務_20260909]] — RBC，2026-09-09
 
@@ -129,3 +161,5 @@ Visa 與 [[MA.US(mastercard)]] 並列全球兩大卡片支付網路（RBC 稱 tw
 - [[MA.US(mastercard)]]
 - [[分析_Visa_vs_Mastercard_加值服務比較]]
 - [[分析_Mastercard_2Q26後券商觀點與催化劑]]
+- [[分析_歐洲替代支付對VisaMastercard的風險_20261006]]
+- [[分析_FinTech錢包變現併購與立法風險_20261006]]

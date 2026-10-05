@@ -1,12 +1,14 @@
 ---
 title: "分析_Visa_vs_Mastercard_加值服務比較"
 query_date: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-06
 sources:
   - "[[報告_RBC_VisaMastercard加值服務_20260909]]"
   - "[[報告_BNP_MastercardVisa_20260807]]"
   - "[[報告_Barclays_Mastercard2Q26財報_20260730]]"
   - "[[報告_BofA_Mastercard_20260730]]"
+  - "[[報告_UBS_支付與FinTech觀察_20260727]]"
+  - "[[報告_UBS_Wero與數位歐元_20260727]]"
 tags:
   - 分析/比較
   - 公司/Mastercard
@@ -19,6 +21,7 @@ related_topics:
   - "[[供應鏈_金融服務]]"
   - "[[分析_Mastercard_2Q26後券商觀點與催化劑]]"
   - "[[時程_2026Q3Q4_支付網路催化劑]]"
+  - "[[分析_歐洲替代支付對VisaMastercard的風險_20261006]]"
 ---
 
 # 分析_Visa_vs_Mastercard_加值服務比較
@@ -35,6 +38,12 @@ related_topics:
 - [[報告_BNP_MastercardVisa_20260807]]：MA 的 VAS 近兩年穩定約 18%，已開始修剪組合，並傳出尋求出售帳單支付與 A2A 資產；Visa 的 VAS 則獲得 Wells Fargo 選用 Pismo 等指標客戶的肯定。
 - [[報告_Barclays_Mastercard2Q26財報_20260730]]（2026-07-30）：MA VASS 在 2Q26 約 18% organic FXN，2 年疊加加速約 4pts，需求來自安全解決方案、消費者獲取與互動、數位與驗證、商業與市場洞察，以及定價。
 - [[報告_BofA_Mastercard_20260730]]（2026-07-30）：MA VASS +20% y/y（+18% CC）；Recorded Future 帶來交叉銷售基礎。
+
+### 2026-10-06 補入：RPO 與歐洲替代支付的口徑
+
+UBS（2026-07-27）指出，Visa 的 RPO 多來自 VIK 形式的 VAS 合約，估計對集團淨營收成長貢獻約 0.5–1ppt、對 VAS 成長約 2–4ppt；這是成長貢獻，不能當成營收占比或現金訂閱收入。這份較早資料補充營收可見度，並不取代 RBC／BNP 對後續季別的預測。來源：[[報告_UBS_支付與FinTech觀察_20260727]]（estimate，信心中）。
+
+UBS 的 Wero 研究從可競爭營收池扣除非交易型 VAS；因此「VAS 隨卡片流量成長」與「部分 VAS 可獨立服務其他支付路徑」需分開。不能用全部 VAS 占比推論卡網不受 A2A 影響。具體範圍、估值情境與反證條件見 [[分析_歐洲替代支付對VisaMastercard的風險_20261006]]。
 
 ## 比較表
 
@@ -153,3 +162,5 @@ flowchart LR
 - [[報告_BNP_MastercardVisa_20260807]] — BNP Paribas，2026-08-07
 - [[報告_Barclays_Mastercard2Q26財報_20260730]] — Barclays，2026-07-30
 - [[報告_BofA_Mastercard_20260730]] — BofA，2026-07-30
+- [[報告_UBS_支付與FinTech觀察_20260727]] — UBS，2026-07-27
+- [[報告_UBS_Wero與數位歐元_20260727]] — UBS，2026-07-27
