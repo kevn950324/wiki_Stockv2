@@ -1,7 +1,7 @@
 ---
 title: "分析_Coherent毛利率與1.6T良率爬坡"
 query_date: 2026-08-30
-updated: 2026-09-22
+updated: 2026-10-05
 sources:
   - "[[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]]"
   - "[[報告_Citi_CoherentPhotonLink垂直整合_20260921]]"
@@ -102,3 +102,4 @@ Coherent 財報後的核心爭議是：Data Center & Communications 需求強，
 - [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]] — Coherent 相關專家訪談，日期不詳（2026-08-30 收錄）
 - [[報告_Citi_CoherentPhotonLink垂直整合_20260921]] — Citi Research，2026-09-21
 - [[COHR.US(coherent)]] — Coherent 公司編譯頁，更新於 2026-08-30
+- 後續：[[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]（2026-10-05；800G／1.6T 量增價跌、DSP 漲價 12% 與淨利率目標，延伸本頁毛利率框架）

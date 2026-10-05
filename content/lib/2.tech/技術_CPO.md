@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-10-04
+updated: 2026-10-05
 aliases:
   - CPO
   - Co-Packaged Optics
@@ -914,8 +914,18 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - **I/O Wall：** 台積電稱 AI 算力每兩年約 3 倍、I/O 僅約 1.4 倍；CPO 對比銅互連功耗效率改善 4–10 倍、延遲降 10–20 倍；Cisco 認為可插拔仍持續演進、非一次性切換。
 - 來源：[[活動_華星光4979_國泰CallMemo_20260828]]、[[活動_SEMICON_Taiwan_2026_矽光子論壇與展會Memo_20260831]]、[[活動_元大投資論壇_設備CPO與CoPoS產業Memo_20260909]]、[[活動_Lumentum_法說與投資論壇彙整_202608]]、[[活動_Marvell_2QFY27法說_20260828]]、[[活動_聯鈞3450_法說Memo彙整_20260818]]、[[活動_聯亞3081_法說Memo彙整_20260812]]、[[活動_亞光3019_CallMemo_20260818]]、[[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]]（I032、I054）。綜合判讀見 [[分析_2026Q3法說季_AI供應鏈瓶頸與擴產節奏_LINE彙整]]。
 
+## 2026-10-05 Coherent 專家訪談：NPO 量產規模與 DSP
+
+[[memo_Coherent專家訪談_光模組量價_NPO_OCS_EML與獲利目標_日期不詳]]（日期不詳，2026-10-05 收錄）稱 Coherent NPO 業務 2027H2 進入大量擴產，目標 1.6T 22–23 萬、3.2T 38–40 萬、6.4T 7–8 萬個（約 130 萬個 1.6T 等效），且**所有現有設計仍需 DSP**；同時 DSP 晶片自 2026-09 漲價 12%。FAU 端則稱 HD Optics 占 CPO DFAU 45%–48%、NPO FAU 約 40%，詳見 [[技術_FAU]]。
+
+> [!warning] NPO 是否需要 DSP
+> - 本訪談：北美（Coherent）現有 NPO 設計全部仍需 DSP。
+> - [[報告_Omdia_CIOE展會回顧_202609]] p.14 轉述阿里雲：NPO 相較含 DSP 系統省電約 31%，隱含部分中國 ICP NPO 採線性／無 DSP 設計。
+> - 狀態：可能是區域或平台設計差異；「NPO 一定省掉 DSP」與「NPO 綁 DSP」都不宜當通則，需逐平台確認。判讀見 [[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]。
+
 ## 相關頁面
 
 - [[分析_20260918-29專家紀要公司辨識與光互連供給觀察]]
+- [[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]
 - [[分析_Omdia_CIOE2026_NPO部署與InP供給風險]]
 - [[時程_2026-2027高速互連與分散式算力]]

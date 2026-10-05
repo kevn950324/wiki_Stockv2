@@ -5,7 +5,7 @@ tags:
   - 產業/光通訊
   - 環節/光通訊
 maturity: mature
-updated: 2026-10-03
+updated: 2026-10-05
 aliases:
   - FAU
   - Fiber Attach Unit
@@ -18,6 +18,8 @@ aliases:
   - Multi-Path Connector
   - CPO FAU
   - 天孚
+  - TFC Optical
+  - HD Optics
   - 蘅東光
   - 光庫FAU
   - 36芯 FAU
@@ -118,6 +120,11 @@ NVIDIA Quantum X：固定式 FAU，對應 18 芯；僅幾千台規模（2025 計
 
 Coherent 供應鏈中：蘅東光占 **約 40%** 份額（第二大）。
 
+> [!warning] CPO／NPO FAU 份額口徑（2026-10-05 收錄）
+> - 既有：[[memo_光通信大厂调研_CPO出货量_FAU_MPC方案_acecamptech_20260529]] 等訪談稱蘅東光占 Coherent 供應鏈約 40%、天孚為 Finisar／Coherent 體系第一；[[技術_CPO]] 引 SemiAnalysis 稱 TFC Optical 為 NVIDIA X800-Q3450 FAU 主供。
+> - 新增：[[memo_Coherent專家訪談_光模組量價_NPO_OCS_EML與獲利目標_日期不詳]]（日期不詳）稱 **HD Optics** 占 CPO DFAU 市場 45%–48%、NPO FAU 約 40%，TFC 為另一主要供應商。
+> - 狀態：HD Optics 可能指蘅東光（同為約 40% 口徑），但來源未給中文名，不合併；45%–48% 是 DFAU 全市場或 Coherent 採購份額亦未說明。DFAU（可拆式）與 Q3450 固定式 FAU 可能是不同產品，兩種「主供」說法可並存。
+
 整合後 FAU 業務：光庫科技（含收購加華微捷 + 蘇州安捷訊）FAU 市場規模將超天孚。安捷訊 2025 年營收接近 8 億元，淨利率 21–22%。
 
 ## 關鍵廠商
@@ -148,6 +155,7 @@ Coherent 供應鏈中：蘅東光占 **約 40%** 份額（第二大）。
 - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]] — Coherent 相關專家訪談，日期不詳（2026-08-30 收錄；32／36 芯 FAU、內外置光源、PMF 與耦合效率，信心低）
 - [[research_dFAU_Coherent_CPO_20260830]] — Lightmatter／Coherent 官方資料，2026-03-17、2026-08-30 擷取（dFAU 正式全名、規格與 Coherent CPO 技術堆疊）
 - [[memo_Coherent毛利率_1.6T良率_OCS_DFAU專家觀點_日期不詳]] — Coherent 相關專家訪談，日期不詳（DFU／DFAU 投入與小批量時程，名詞仍待產品規格確認）
+- [[memo_Coherent專家訪談_光模組量價_NPO_OCS_EML與獲利目標_日期不詳]] — Coherent 專家訪談整理稿，日期不詳（2026-10-05 收錄；HD Optics／TFC 的 CPO DFAU、NPO FAU 份額，低信心）
 
 ## 2026-09-30 PMF的製程與精度觀察
 
@@ -171,4 +179,5 @@ Coherent 供應鏈中：蘅東光占 **約 40%** 份額（第二大）。
 - [[技術_TFLN]]
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
 - [[分析_Coherent毛利率與1.6T良率爬坡]]
+- [[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]
 - [[分析_20260908-18專家紀要受訪公司辨識與技術觀察]]

@@ -230,6 +230,7 @@ flowchart LR
 
 ## 相關頁面
 
+- [[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]
 - [[分析_2026Q3_AI硬體需求與供應限制_20260903]]
 - [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]

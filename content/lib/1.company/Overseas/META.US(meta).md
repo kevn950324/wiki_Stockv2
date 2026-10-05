@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 產業/AI伺服器
   - 環節/雲端服務
-updated: 2026-09-29
+updated: 2026-10-05
 aliases:
   - Meta
   - Meta Platforms
@@ -184,9 +184,11 @@ SemiAnalysis 估計 Meta 可盈利吸收 **10x 廣告推薦算力增加**，每�
 | 2026-H1 | 簽約 >5GW 算力（Cloud + Colo） |
 | 2026-07-02 | SemiAnalysis 揭露 Meta 洽談 Anthropic 私有 Claude 實例 |
 | 2026-07-09 | SemiAnalysis 評估 MSL 一年進展（看多，但謹慎） |
+| 2028（估計） | 導入 Coherent OCS（Coherent OCS 台數增至約 10,500 台）；Coherent 專家訪談 estimate，低信心 |
 
 ## 來源
 
+- [[memo_Coherent專家訪談_光模組量價_NPO_OCS_EML與獲利目標_日期不詳]]（使用者提供，日期不詳，2026-10-05 收錄；Meta 2028 年導入 Coherent OCS，低信心）
 - [[報告_UBS_廣達_20260720]]（UBS，2026-07-20；Meta 等 ASIC 專案開始貢獻廣達營收）
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（OCI 200G MSA，2026-06-29）
 - 報告_SemiAnalysis_Meta算力Neocloud策略_20260702（SemiAnalysis，2026-07-02）
@@ -215,8 +217,10 @@ SemiAnalysis 估計 Meta 可盈利吸收 **10x 廣告推薦算力增加**，每�
 
 ## 相關頁面
 
+- [[時程_2026-2027高速互連與分散式算力]]
 - [[3443_創意電子（市）]]
 - [[6533_晶心科（市）]]
+- [[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]
 - [[分析_生成式AI商業化與TokenFinOps_20260906]]
 
 - [[MSFT.US(microsoft)]]

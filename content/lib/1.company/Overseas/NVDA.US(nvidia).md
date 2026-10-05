@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-10-04
+updated: 2026-10-05
 aliases:
   - NVIDIA
   - 輝達
@@ -111,6 +111,7 @@ flowchart LR
 | 時間 | 事件 | 類型 | 資訊狀態 |
 |---|---|---|---|
 | 2026Q4（預估） | 興森 CPU 類載板可能送樣 | 驗證 | 08-28 未下單／未稽核，非 GB300 量產；[[時程_2026-2028_SOFC與載板DCI驗證]] |
+| 2027（預估） | 向 Coherent 採購約 300 台 OCS | 驗證 | Coherent 專家訪談 estimate，低信心；另稱 NVIDIA 占 Coherent 光學模組銷售額約 48%；[[時程_2026-2027高速互連與分散式算力]] |
 
 ### 既有時間軸
 
@@ -323,6 +324,7 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 ## 來源
 
+- [[memo_Coherent專家訪談_光模組量價_NPO_OCS_EML與獲利目標_日期不詳]] — Coherent 專家訪談整理稿，日期不詳（2026-10-05 收錄）；NVIDIA 占 Coherent 光學模組銷售額約 48%、2027 年約 300 台 OCS，低信心
 - [[活動_NVIDIA_earnings_call座談摘要_20260827]] — FQ2 FY27 earnings call 座談摘要（LINE 群組轉傳），2026-08-27
 - [[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]] — 群組轉傳之財報、AWS GPU 採購與聯發科投資新聞
 - [[活動_景碩3189_國泰論壇_20260825]] — 景碩稱 Grace CPU 載板供應比 50–60%、Vera 80–100%
@@ -466,6 +468,7 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 ## 相關頁面
 
 - [[2301_光寶科（市）]]
+- [[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]
 - [[3013_晟銘電（市）]]
 - [[3515_華擎（市）]]
 - [[6584_南俊國際（市）]]
