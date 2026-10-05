@@ -19,6 +19,7 @@ related_companies:
   - "[[ZS.US(zscaler)]]"
   - "S.US(sentinelone)"
   - "[[DDOG.US(datadog)]]"
+  - "[[MA.US(mastercard)]]"
 ---
 
 # CRWD.US(crowdstrike)
@@ -133,6 +134,7 @@ QuiltWorks 是 CRWD 於 2026 年 4 月 23 日發布的業界聯盟，整合 Anth
 | AI 模型合作夥伴 | Anthropic（未建頁） | Glasswing + QuiltWorks |
 | AI 模型合作夥伴 | OpenAI（未建頁） | QuiltWorks，TAC |
 | 合作 SI | Accenture、EY、IBM（未建頁） | QuiltWorks 系統整合夥伴 |
+| 整合對象 | [[MA.US(mastercard)]] | Mastercard Cyber Front 的 Attack Surface Validation 從整合工具（例如 CrowdStrike）取得漏洞資料；來源 [[報告_RBC_VisaMastercard加值服務_20260909]]（2026-09-09） |
 
 ---
 

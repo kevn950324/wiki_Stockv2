@@ -28,6 +28,7 @@ related_companies:
   - "[[2360_致茂（市）]]"
   - "[[2454_聯發科（市）]]"
   - "[[COHR.US(coherent)]]"
+  - "[[MA.US(mastercard)]]"
 ---
 
 # GOOGL.US(alphabet)
@@ -193,6 +194,7 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 | [[3711_日月光投控（市）]] | 先進封裝／測試供應商 | Google TPU 與其他 AI ASIC 的 ASE LEAP 外包比例為券商 estimate，仍待公司與供應鏈驗證 |
 | [[2360_致茂（市）]] | 測試設備供應商 | Aletheia 指出 Google Axion CPU 採用致茂 SLT 系統的可能性，屬券商 estimate |
 | [[2454_聯發科（市）]] | TPU 客製設計／策略投資 | Google TPU 合作方；Alphabet 參與聯發科 US$3.9bn 海外 CB |
+| [[MA.US(mastercard)]] | 代理式支付技術夥伴 | Mastercard Agent Pay 的 Verifiable Intent 與 Google 共同開發，使 AI agent 交易可保留消費者原始意圖並支援 chargeback；來源 [[報告_BofA_Mastercard_20260730]]（2026-07-30，管理層說法） |
 
 > [!warning] 主要下行風險
 > 1. **估值偏高**：vs 歷史估值偏高（BofA 提及）
@@ -287,3 +289,4 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 
 - [[大和 Google 2Q26法說摘要-1]] 與 [[GOOGL Q2 Earnings Call memo_Fubon 20260723]] 均指向 2Q26 Cloud 年增約 82%、capex US$44.9bn，AI 基礎設施與 Gemini／TPU 需求是主要驅動；數字屬公司揭露。
 - 2Q26 已開始向資料中心交付 TPU 系統，2026 年收入仍小量、較大部分預計於 2027 認列；外部 TPU 供應與客戶部署仍待驗證。
+- [[分析_Mastercard_2Q26後券商觀點與催化劑]]
