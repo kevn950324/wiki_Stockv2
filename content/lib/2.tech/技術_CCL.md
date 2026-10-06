@@ -5,8 +5,11 @@ tags:
   - 產業/AI伺服器
   - 環節/CCL材料
 maturity: mature
-updated: 2026-10-03
+updated: 2026-10-06
 aliases:
+  - HC glass-fibre-free CCL
+  - glass-fibre-free CCL
+  - 無玻纖碳氫CCL
   - CCL
   - 覆銅板
   - Copper Clad Laminate
@@ -66,6 +69,15 @@ flowchart LR
 圖說：CCL 實體層結構（Filler System / Resin System / Glass Fabric / Copper Foil）——上方銅箔為導電層，中間玻璃纖維布+樹脂為絕緣骨架，來源：SemiAnalysis 2025-08。
 
 ## 技術原理
+
+### Daiwa 2026-10-05：材料替代與漲價傳導
+
+- **PTFE 不等於全面取代現有 CCL：** Daiwa 認為 PTFE 可用於少數高速訊號層；材料損耗優勢仍須與板材機械剛性、加工及多層結構需求一起評估。無玻纖 HC（hydrocarbon，碳氫）CCL 也需處理剛性限制，不能只按 Dk／Df 宣告勝出。這是券商技術判讀（thesis／中），與上方 PTFE core／M9 prepreg 混合結構研究並列。
+- **材料等級與價格同時推升營收：** Daiwa 估 2026 年低階 CCL 累計漲價約 100%、高階約 40–50%，4Q26 高階仍有約 10% 漲價、低階約 20–30% 漲價空間；均為產業 estimate（信心中），不是每家公司已公告價格。E-glass 資源往高規材料配置是低階供給吃緊的背景，營收成長不能全換算成出貨量。
+- **2027 年 M9 分化：** 台燿布局 Low Dk 一／二代布及 Q 布不同版本，用於運算板、交換器及背板；台光電偏高階組合，聯茂仍有 M7 與新 M9 客戶導入觀察。規格、客戶驗證與量產需分別追蹤，不把規格開發寫成已獲訂單。
+- **CPO 情境要分網路用途：** Daiwa 對 scale-up CPO 大規模導入採約 2030 年情境，並認為仍可能至少使用 M6 CCL；屬 thesis／中低。它與鴻海 2026 年 CPO switch 成長說法的產品範圍不同，不能直接合併成一個全面替代銅線或 CCL 的時程。
+
+來源：[[報告_Daiwa_台灣CCL月營收_20261005]]、[[報告_GoldmanSachs_鴻海_20261005]]。相關公司：[[2383_台光電（市）]]、[[6274_台燿（市）]]、[[6213_聯茂（市）]]。
 
 ### 材料等級體系
 
