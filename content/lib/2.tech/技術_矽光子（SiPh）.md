@@ -6,7 +6,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光電晶片
 maturity: developing
-updated: 2026-10-04
+updated: 2026-10-06
 aliases:
   - Ge-on-Si
   - Germanium epitaxy
@@ -26,6 +26,8 @@ aliases:
   - Grating Coupler
   - Edge Coupler
   - Wafer-level Photonics Test
+  - PIC Wafer Sorting
+  - Optical Engine Die Test
   - SOI
   - Silicon on Insulator
   - Thick-film Silicon Photonics
@@ -262,6 +264,7 @@ Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重�
 ## 相關頁面
 
 - [[3587_閎康（櫃）]]
+- [[6257_矽格（市）]]
 - [[INTC.US(intel)]]
 - [[供應鏈_CPO]]
 - [[分析_Omdia_CIOE2026_NPO部署與InP供給風險]]
@@ -297,3 +300,10 @@ Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重�
 - **3.2T 路線爭議：** Lumentum 認為 3.2T（400G／lane）時矽光可能因雜訊與功耗問題讓 EML 重新取得份額；聯亞稱 EML 與 CW 非替代關係、3.2T 已在其 roadmap；Semtech 估 3.2T 設計視窗約 12 個月後開啟、規模部署約 2 年後。
 - **測試：** 多位講者把測試列為矽光子關鍵瓶頸；閎康稱矽光子 wafer 測試時間由 IC 的 10 分鐘至數小時拉長到 16 小時以上。
 - 來源：[[活動_SEMICON_Taiwan_2026_矽光子論壇與展會Memo_20260831]]、[[活動_元大投資論壇_設備CPO與CoPoS產業Memo_20260909]]、[[活動_Lumentum_法說與投資論壇彙整_202608]]、[[活動_聯亞3081_法說Memo彙整_20260812]]、[[活動_Semtech_FY2Q27法說_20260826]]、[[活動_閎康3587_元大論壇Memo_20260909]]、[[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]]（I050、I054）。
+
+## 2026-10 矽格 Call Memo：SiPh 三段測試流程與測試定價
+
+- **三段 insertion 流程（公司說法，信心中高）：** SiPh wafer 先在封裝／Bump 廠（如台星科）完成 Bumping，再進入 Insertion 1 PIC Wafer Sorting → Wafer-to-die Process → Insertion 2 光電測試 → Insertion 3 Optical Engine Die Test；[[6257_矽格（市）]] 稱可一站式完成 Insertion 1–3。
+- **測試尚未標準化：** 矽光測試缺乏標準化平台，測試廠以自製設備（矽格 MAP 平台涵蓋 224Gbps TIA／Driver、PIC／OE，448Gbps TIA 研發中）在客戶研發階段共同開發，形成先行者黏著度；與上方閎康「單片 wafer 測試 16 小時以上」的觀察一致，顯示測試 cell 數量是 SiPh 放量的實體瓶頸之一。
+- **價格與分工：** 矽格稱光測試價格遠高於一般 IC 測試，且目前測試有在漲價；[[6147_頎邦（櫃）]] 以 Bump 為主，部分共同客戶 Bump 後送矽格測試，兩者目前偏合作。2027 年光通訊測試營收倍數成長為公司目標（estimate）。
+- 來源：[[活動_矽格6257_國泰CallMemo_20261006]]（國泰證期研究部，2026-10-06）。
