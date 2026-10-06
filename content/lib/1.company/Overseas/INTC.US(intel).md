@@ -14,7 +14,7 @@ tags:
   - 環節/先進封裝服務
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-10-04
+updated: 2026-10-06
 aliases:
   - Intel
   - 英特爾
@@ -182,7 +182,18 @@ CEO Lip-Bu Tan 接任後的核心重點：
 
 來源：[[報告_GFHK_Intel_20260915]]（GF Securities (Hong Kong)，2026-09-15）。
 
+### 2026-10-05 Morgan Stanley：EMIB 產能與對台積電外包的影響
+
+- **EMIB 產能（12 吋約當、平均）：** EMIB-M 目前約 110 kwpm，2027 年因部分轉 EMIB-T 降至約 95 kwpm；主要客戶為 [[AMZN.US(amazon)]] Trainium3、後續 Trainium 4 與 Intel 自家 server CPU。EMIB-T 2026 年約 5 kwpm，2027 年 15–20 kwpm、2028 年 40–45 kwpm。
+- **Humufish：** MS 仍認為 2027–2028 年多數 EMIB-T 產能由 [[2454_聯發科（市）]]／Google Humufish 使用，以每片 4–5 顆推估 2027 年底至 2028 年可產近 300 萬顆。屬 MS estimate，信心中。
+- **競爭含意：** 部分台積電客戶以測試載具評估 EMIB-T，原因是大晶片設計、成本較低及尋求第二供應源（CoWoS 仍緊）。MS 比較表把 EMIB 定位為大於 9.7 倍光罩時面積效率高、理論成本低，但頻寬較低且執行風險高；MS 也調查到 Intel 3nm／2nm 委外台積電略有下修，若 Intel 加碼 capex 自建產能，可能減少對 [[2330_台積電（市）]] 的外包。
+- 來源：[[報告_MorganStanley_台積電3Q26預覽與聯電2027_20261005]]（Morgan Stanley，2026-10-05）。
+
+![[報告_MorganStanley_台積電3Q26預覽與聯電2027_20261005_007.png]]
+> MS 比較 CoWoS、CoPoS、SoIC 與 EMIB：EMIB 在大於 9.7 倍光罩時以基板級橋接取得面積與成本優勢，代價是頻寬與執行風險，這是 Intel 爭取 AI ASIC 封裝第二供應源的主要論點。
+
 ## 來源
+- [[報告_MorganStanley_台積電3Q26預覽與聯電2027_20261005]] — Morgan Stanley，2026-10-05；EMIB-M／EMIB-T 產能、Humufish 與台積電外包觀察。
 - [[報告_Omdia_CIOE展會回顧_202609]] — Omdia／Mingyang Lyu，2026-09（僅揭露月份；p.22，矽光子異質整合）。
 - [[BofA-Intel read through 20260724]]（BofA Global Research，2026-07-24；Intel 製程達標、先進封裝與產業鏈估值更新）
 - [[報告_其他_玻璃基板_20260511]]（國金證券「玻璃基板行業深度」，2026-05-11；分析師李陽 S1130524120003）

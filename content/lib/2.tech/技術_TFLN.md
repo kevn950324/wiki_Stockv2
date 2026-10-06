@@ -5,7 +5,7 @@ tags:
   - 產業/光通訊
   - 環節/光電芯片
 maturity: developing
-updated: 2026-10-01
+updated: 2026-10-06
 aliases:
   - TFLN
   - 薄膜鈮酸鋰
@@ -19,6 +19,7 @@ aliases:
   - 光調製器
   - LNOI
   - 400G/lane
+  - PIC+TFLN
 ---
 
 # 技術_TFLN
@@ -37,6 +38,9 @@ TFLN 的核心優勢：低半波電壓（Vπ < 1V）、超高頻寬（>100 GHz�
 ![[WinWay CPO技術論壇_027.png]]
 *圖（WinWay CPO技術論壇，2026-05）：MZM（Mach-Zehnder Modulator）調製器架構。TFLN 採用 MZM 原理：光在 Y 形分光器分成兩臂，各臂電極施加 ±V 相位差，重組時發生干涉完成強度調製。低半波電壓（Vπ < 1V）是 TFLN 相較傳統鈮酸鋰體材料的關鍵優勢。*
 
+![[報告_MorganStanley_台積電3Q26預覽與聯電2027_20261005_009.png]]
+*圖（聯電簡報，MS 2026-10-05 引用）：台積電 PIC 主流的微環調變器（MRM）——體積小、驅動電壓低，但對溫度極敏感、需嚴格製程控制，且被聯電評為「不是 400 Gbps／通道以上的理想方案」。這正是 TFLN／InP 在 400G／lane 世代切入的技術缺口。*
+
 ## 技術原理
 
 ### TFLN 在 CPO 中的角色
@@ -52,6 +56,14 @@ TFLN 芯片是 CPO 光引擎的核心：將來自 CW 雷射的連續波光，依
 [[memo_AceCamp_天通TFLN晶圓_20260929]] 明示受訪主體為天通，為中國業者；依使用者指示不建立公司頁。訪談稱其 6 吋與 8 吋光學級鈮酸鋰晶片已量產，異質薄膜晶圓仍在送樣／調機，12 吋尚在研發驗證。其將 TFLN 定位在調製器，將 InP 保留給雷射光源；此分工與本頁的外部調製架構一致。
 
 訪談提出 TFLN 調製器頻寬可達約 110GHz、半波電壓低於 3V，以及 6 吋／8 吋 TFLN 異質晶圓約人民幣 1.5 萬／1.8–2.5 萬元的渠道價格。數字、良率、客戶與 3.2T 導入節奏均屬匿名專家 estimate／低信心，不能視為天通或下游公司的正式報價、量產承諾或市占資料。
+
+### 2026-10-05 聯電 PIC＋TFLN 代工路線（MS 轉述）
+
+- **路線判斷：** 聯電認為 InP 與 TFLN 是 400G 級調變最成熟的兩條路；InP 嚴重短缺，增加 TFLN 動能。調變器（TFLN／InP）升級與光偵測器改善，是 400 Gbps／通道以上「非 WDM、IM/DD」資料中心互連部署的關鍵。
+- **聯電集團進度：** TFLN 計畫 2021 年啟動，6 吋量產、8 吋送樣；強項為低損耗、頻寬逾 110 GHz、熱穩定與線性度佳。已推出每通道 400Gb 的 PIC＋TFLN 方案。
+- **整合難點：** TFLN 與 SiPh PIC 的整合需先進封裝或 micro transfer printing；聯電以 PIC、TFLN 與先進封裝能力自行開發。
+- **投資含意：** MS 把 SiPh PIC 與 8 吋 TFLN 列為 [[2303_聯電（市）]] 2027E／2028E EPS 上修及 8 吋漲價理由，並對比 [[2330_台積電（市）]] 以 MRM 為主的 PIC 路線。量產規模、客戶與營收貢獻未揭露，屬公司轉述＋券商 estimate（信心中）。
+- 來源：[[報告_MorganStanley_台積電3Q26預覽與聯電2027_20261005]]（Morgan Stanley，2026-10-05）。
 
 ### 出貨量追蹤（全球，各廠商調研）
 
@@ -162,6 +174,7 @@ Nokia Bell Labs（與 UC Davis 合作）在 ECTC 2026 發表首個 flip-chip 異
 
 ## 來源
 
+- [[報告_MorganStanley_台積電3Q26預覽與聯電2027_20261005]]（Morgan Stanley，2026-10-05；聯電 TFLN 6／8 吋進度、400G／lane PIC＋TFLN 與 MRM 比較）
 - [[memo_光通信大厂调研_TFLN_CPO_OCS_acecamptech_20260417]]（光庫科技訪談；TFLN 出貨量/定價/競爭格局/上游供應）
 - [[memo_AceCamp_TFLN_3.2T供應鏈_20260813]] — AceCamp Tech 匿名專家訪談，2026-08-13（3.2T、LNOI、材料與客戶說法均為低信心 estimate）
 - [[memo_AceCamp_天通TFLN晶圓_20260929]] — AceCamp Tech，2026-09-29（天通訪談；規格、價格、良率與客戶說法均為低信心 estimate）

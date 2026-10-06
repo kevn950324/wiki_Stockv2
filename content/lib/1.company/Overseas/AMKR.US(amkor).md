@@ -13,7 +13,7 @@ tags:
   - 環節/先進封裝服務
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-10-04
+updated: 2026-10-06
 aliases:
   - Amkor
   - Amkor Technology
@@ -113,6 +113,7 @@ flowchart LR
 | 2026 年初 | CoWoS on-sub 月產能 14K，CoWoS-R Amkor 70%/ASE 30% | 產能基準 | — |
 | 2026 年底目標 | on-sub 月產能 20-25K | 擴產里程碑 | — |
 | 2027 Q2-Q4 | 美國廠房驗證→量產（6K/月一期）| 美國本地化 | — |
+| 2027 底→2028 底 | MS 估 CoWoS 30→55–60 kwpm（CoWoS-L／R） | 擴產（estimate） | ⭐⭐ | [[報告_MorganStanley_台積電3Q26預覽與聯電2027_20261005]] |
 | 2026（報告日點到，Rubin 時程）| NVIDIA Rubin 部分 CoWoS 外包给 Amkor + 日月光 | 供應鏈外溢 | ⭐⭐⭐ | TSMC CoWoS 產能不足首次公開信號 |
 
 ## 供應鏈位置
@@ -156,7 +157,14 @@ flowchart LR
 - 群組週報稱台積電持續將 CoWoS 外包給日月光、Amkor 等大廠，以補足產能並讓自身聚焦 SoIC（I037，市場觀點）。
 - 來源：[[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]]。
 
+## 2026-10-05 Morgan Stanley：CoWoS 產能模型
+
+- MS 估 Amkor CoWoS 年底月產能由 2027 年 30 kwpm 增至 2028 年 55–60 kwpm，擴產集中 CoWoS-L 與 CoWoS-R；非台積電陣營（Amkor／聯電／日月光）合計 2027／2028 年底 80／110 kwpm。屬 MS estimate，信心中。
+- 與 2026-05 專家會議「2027 年約 27,000 片/月」大致相符；MS 數字為 12 吋約當年底產能，且未區分 CoW 與 on-substrate 段，比較時需注意口徑。
+- 來源：[[報告_MorganStanley_台積電3Q26預覽與聯電2027_20261005]]（Morgan Stanley，2026-10-05）。
+
 ## 來源
+- [[報告_MorganStanley_台積電3Q26預覽與聯電2027_20261005]]（Morgan Stanley，2026-10-05；Amkor CoWoS 2027／2028 年底 30／55–60 kwpm）
 - [[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]]（LINE 群組 Q2'26 財報快訊與 CoWoS 外包觀察，2026-07-28／08-16）
 - [[報告_其他_玻璃基板_20260511]]（國金證券「玻璃基板行業深度」，2026-05-11；分析師李陽 S1130524120003）
 - [[報告_Snapshot_半導體設備封測展望2026_20251124]]（Snapshot Research，封測展望，2025-11-24）
