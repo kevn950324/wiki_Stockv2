@@ -104,6 +104,7 @@ Truist（2026-06-08）的 Agentic Security Stack 中，NET 是「AI Gateway & Ed
 
 ## 相關頁面
 
+- [[8932_智通（櫃）]]
 - [[分析_AI驅動資安支出2026]]
 - [[技術_SASE]]
 
