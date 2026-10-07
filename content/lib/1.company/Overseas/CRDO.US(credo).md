@@ -8,7 +8,7 @@ tags:
   - 產業/半導體
   - 環節/AEC銅纜
   - 環節/SerDes
-updated: 2026-10-05
+updated: 2026-10-07
 image_status: "待補來源圖"
 related_companies:
   - "[[3665_貿聯-KY（市）]]"
@@ -180,6 +180,7 @@ flowchart LR
 
 - [[memo_AceCamp_Credo_800G光模組與1.6TAEC_20260930]] — AceCamp Tech匿名專家訪談，2026-09-30；主體辨識高信心，訂單、價格與量產時程低信心。
 - [[活動_Credo_凱基CallMemo_20261005]] — 凱基主辦管理層電話會議逐字稿，2026-10-05 提供；1.6T 時程、ZeroFlap 毛利算式、DustPhotonics 與 scale-up 進度。
+- [[活動_Credo_凱基CallMemo_校正逐字稿_20261005]] — 同一場電話會議的校正版逐字稿（使用者提供，2026-10-07 入庫）；更正 microVCSEL 屬雷射、scale-up Retimer 為 Blue Heron、協定為 UALink over Ethernet。
 
 - [[20260709_0823_1308120]]（2026-07-03）
 - [[20260709_0823_250708_ubs_bizlink]]（2026-07-07）
@@ -225,12 +226,16 @@ ZeroFlap產品與公司官網匹配，因此[[memo_AceCamp_Credo_800G光模組�
 | 毛利率 | FY27 毛利率目標 68%（單季 ±1 個百分點）；ZeroFlap、OmniConnect、ALC、Retimer、AEC 新產品整體落在 60% 高段；光模組靠自有矽避免層層加價 | guidance／中 |
 | 渠道衝突 | 同時賣 DSP、剛開始賣 PIC 給模組廠，與 ZeroFlap 可能有渠道衝突但尚未發生；ZeroFlap ASP 三位數美元、DSP 二位數美元 | 公司說法／中 |
 | DustPhotonics PIC | 收購後營收來自併購前取得的專案；第一代 ZeroFlap 用外購 PIC，自家 PIC 導入下一代約需再 9 個月；DSP＋PIC 套裝短期內不會有實質營收 | 公司說法／中 |
-| Scale-up | NPO 用 PIC 設計導入預計 FY28 開始貢獻營收；200G/lane scale-up Retimer 打入網通 OEM 交換器板，該 OEM 與 GPU 廠合作，已有 US$50M 訂單 | 公司說法／中；OEM 與 GPU 廠未具名 |
-| 微發光源 | microLED 與 microVCSEL 都被視為「wide and slow」微發光源，兩者都會用；Hyperlume 團隊兩者皆有專長；認為微發光源的可靠度與功耗適合 NPO | thesis／中 |
+| Scale-up | NPO 用 PIC 設計導入預計 FY28 開始貢獻營收；200G/lane scale-up Retimer 打入網通 OEM 交換器板，該 OEM 與 GPU 廠合作，已有 US$50M 訂單；校正稿稱該 Retimer 為 Blue Heron，用於 UALink over Ethernet（200G/lane） | 公司說法／中；OEM 與 GPU 廠未具名 |
+| 微發光源 | microLED 與 microVCSEL 都被視為「wide and slow」微發光源，兩者都會用；校正稿明確區分 microLED 非雷射、microVCSEL 屬雷射；Hyperlume 團隊兩者皆有專長；認為微發光源的可靠度與功耗適合 NPO | thesis／中 |
 | CPO 時程 | 管理層認為 CPO 至少還要數年；scale-up 連結數約為 scale-out 的 8～10 倍，但市場仍在非常早期 | thesis／中 |
 
 > [!warning] ZeroFlap 放量年度與既有口徑不一致
 > 本次逐字稿稱 ZeroFlap 業務「預計 FY28 下半年開始放量」，原稿已標註 FY28 需回聽確認。既有來源：[[memo_國泰證期_CredoCallMemo_20260902]] 稱 FY27 光通訊營收逾 US$600mn、ZeroFlap 預期貢獻逾 US$100mn；[[報告_GFHK_Credo_20260901]] 稱光學量產高峰偏向 FY2H27；[[memo_AceCamp_Credo_800G光模組與1.6TAEC_20260930]] 稱首批 800G 光模組約 2027-02～03 交付完成。兩種說法並列保留：若確為 FY28，代表 FY27 光學貢獻偏向 DSP／PIC 或少量 ZeroFlap，hyperscaler 規模放量延後；若為辨識錯誤（FY27），則與既有指引一致。
+> 2026-10-07 補充：校正版逐字稿 [[活動_Credo_凱基CallMemo_校正逐字稿_20261005]] 此處仍作「second half of fiscal 28」，未改變上述衝突判斷，仍需官方資料確認。
+
+> [!note] 校正版逐字稿更正（2026-10-07）
+> [[活動_Credo_凱基CallMemo_校正逐字稿_20261005]] 與初版為同一場通話。更正處：(1) 管理層原話為「microLED 非雷射、microVCSEL 屬雷射」，兩者同屬微發光源，初版「皆非雷射」為辨識錯誤；(2) scale-up Retimer 為 Blue Heron（初版辨識為 copper retimers）；(3) 協定為 UALink over Ethernet（初版為 UAL over Ethernet）；(4) 「we expect to have retimers」確認為 retimer。FY28 年度、XPU／SPU 與首家 AEC 客戶名仍未解決。
 
 > [!note] 毛利率示意算式（管理層粗估，非實際成本）
 > 以 800G 光模組售價 US$400、模組廠毛利率 40% 為例，COGS 約 US$240；其中外購 DSP 等矽晶片成本約 US$100（供應商毛利率約 80%）。Credo 自製同等矽內容成本約 US$20，可把 COGS 降到約 US$160，同價下毛利率約 60%；若 ZeroFlap 取得 25% 溢價（ASP US$500），毛利率約 68%。管理層同時表示，初期代工成本高於大型模組廠內部成本，毛利需隨量產改善。

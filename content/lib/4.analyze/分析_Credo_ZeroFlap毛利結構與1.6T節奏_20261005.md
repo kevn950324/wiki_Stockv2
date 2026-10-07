@@ -1,9 +1,10 @@
 ---
 title: "分析_Credo_ZeroFlap毛利結構與1.6T節奏_20261005"
 query_date: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-07
 sources:
   - "[[活動_Credo_凱基CallMemo_20261005]]"
+  - "[[活動_Credo_凱基CallMemo_校正逐字稿_20261005]]"
   - "[[memo_國泰證期_CredoCallMemo_20260902]]"
   - "[[報告_GFHK_Credo_20260901]]"
   - "[[memo_AceCamp_Credo_800G光模組與1.6TAEC_20260930]]"
@@ -59,7 +60,7 @@ Thesis 預告：ZeroFlap 的高毛利來自「自有矽不必付給晶片廠毛�
 |------|-----------|----------|------|
 | ZeroFlap 定價 | 「適度溢價」，幅度未定；以 AEC 早期經驗看，首家大客戶會壓價 | 首批 hyperscaler 訂單的毛利可能低於長期水準 | 中 |
 | 渠道衝突 | 賣 DSP／PIC 給模組廠，同時自賣模組；衝突尚未出現 | ZeroFlap ASP 三位數、DSP 二位數，衝突時公司偏向模組 | 中 |
-| 微發光源 | microLED 與 microVCSEL 都用 | 貿聯與 ams OSRAM 的 microVCSEL 路線不一定是 ALC 的替代威脅 | 中 |
+| 微發光源 | microLED（非雷射）與 microVCSEL（雷射）都用，重點在微發光源本身（校正稿） | 貿聯與 ams OSRAM 的 microVCSEL 路線不一定是 ALC 的替代威脅 | 中 |
 | CPO 時程 | 至少還要數年 | 「CPO 取代 AEC」的估值折價有修正空間，但需第三方驗證 | 中 |
 
 ## Insight 結論
@@ -97,20 +98,21 @@ Thesis 預告：ZeroFlap 的高毛利來自「自有矽不必付給晶片廠毛�
 | ZeroFlap FY27 貢獻逾 US$100mn | guidance | [[memo_國泰證期_CredoCallMemo_20260902]] | 2026-09-02 | 中 |
 | 光學量產高峰在 FY2H27 | management outlook | [[報告_GFHK_Credo_20260901]] | 2026-09-02 | 中 |
 | NPO 用 PIC 於 FY28 開始貢獻營收 | guidance | [[活動_Credo_凱基CallMemo_20261005]] | 2026-10-05 | 中 |
-| 已取得 US$50M scale-up Retimer 訂單 | fact（公司說法，客戶未具名） | 同上 | 2026-10-05 | 中 |
+| 已取得 US$50M scale-up Retimer 訂單（Blue Heron，UALink over Ethernet、200G/lane） | fact（公司說法，客戶未具名） | 同上；產品名與協定依 [[活動_Credo_凱基CallMemo_校正逐字稿_20261005]] | 2026-10-05 | 中 |
 | 3nm 與雷射是光學供給最緊環節 | 公司說法 | 同上 | 2026-10-05 | 中 |
 
 > [!todo] 反證條件 / 待確認
-> - [ ] 回聽或比對官方資料，確認 ZeroFlap 放量是 FY27 下半年還是 FY28 下半年；若為 FY28，FY27 光學逾 US$600mn 的組成需重估。
+> - [ ] 回聽或比對官方資料，確認 ZeroFlap 放量是 FY27 下半年還是 FY28 下半年；若為 FY28，FY27 光學逾 US$600mn 的組成需重估。（2026-10-07：校正版逐字稿仍作 FY28，尚未以官方資料確認）
 > - [ ] 若 ZeroFlap 溢價明顯低於 25%，或代工成本無法下降，光學毛利會低於公司平均，「新產品毛利在 60% 高段」的說法失效。
 > - [ ] 追蹤首家 hyperscaler ZeroFlap 客戶與價格條件；目前只揭露 TensorWave。
 > - [ ] 觀察最大客戶之一的 NIC 何時轉向 1.6T；若 800G 週期延長，1.6T 營收占比將低於預期。
-> - [ ] 確認 US$50M scale-up Retimer 的 OEM 與 GPU 廠，以及「UAL over Ethernet」是否為 UALink 或 Ethernet 的辨識錯誤。
+> - [ ] 確認 US$50M scale-up Retimer 的 OEM 與 GPU 廠。（協定已由校正版逐字稿確認為 UALink over Ethernet，產品為 Blue Heron Retimer）
 > - [ ] 若 CPO／NPO 導入比管理層預期快，AEC 在 scale-up 的角色可能被壓縮。
 
 ## 來源引用
 
 - [[活動_Credo_凱基CallMemo_20261005]] — 凱基主辦 Credo 管理層電話會議逐字稿，2026-10-05 提供
+- [[活動_Credo_凱基CallMemo_校正逐字稿_20261005]] — 同場電話會議校正版逐字稿，2026-10-07 入庫（更正 microVCSEL、Blue Heron、UALink over Ethernet）
 - [[memo_國泰證期_CredoCallMemo_20260902]] — 國泰證期，2026-09-02
 - [[報告_GFHK_Credo_20260901]] — GFHK，2026-09-02
 - [[memo_AceCamp_Credo_800G光模組與1.6TAEC_20260930]] — AceCamp Tech 匿名專家訪談，2026-09-30

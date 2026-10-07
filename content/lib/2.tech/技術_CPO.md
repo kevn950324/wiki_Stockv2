@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-10-05
+updated: 2026-10-07
 aliases:
   - CPO
   - Co-Packaged Optics
@@ -853,8 +853,9 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 ## 2026-09-08 SEMICON：早期 KGD 與主動對準設備
 
 - [[7728_光焱（櫃）]]稱 NightJar 高光譜影像系統可在 PIC 晶圓層級以絕對光功率映射定位 AWG 光損失路徑；單 die 掃描與分析約 1 秒，可將 KGD 前移至 insertion 0／1。此為公司說法，尚非特定客戶量產採用。
-- 均豪（4573）展示 1.6T 相容的 Dual-FA 自動主動對準系統；同步 TX／RX 耦合的理論工時可較循序流程減半。公司規劃 2026–2027 年多通道 FAU 組裝、2028 年 3.2T／6.4T CPO 平台，均為 management roadmap。
+- [[4573_高明鐵（櫃）]]（GMT）展示 1.6T 相容的 Dual-FA 自動主動對準系統；同步 TX／RX 耦合的理論工時可較循序流程減半。公司規劃 2026–2027 年多通道 FAU 組裝、2028 年 3.2T／6.4T CPO 平台，均為 management roadmap。
 - 兩案例支持瓶頸正往晶圓早期缺陷篩選、光損失可視化、奈米級對準與自動化吞吐量集中；不應推論為已取得特定 CPO 平台訂單。
+- 同份報告的其他重點：高盛認為測試設備商是 CPO 最早受惠者，因最終模組昂貴、愈早發現失效成本愈低，受訪業者普遍視 Insertion 2（雙面晶圓級測試）為必要；羅博特科／FiconTEC 目標明年晶圓級測試時間縮短 50%–60%、die 級測試加速 4 倍，未來一年出貨機台數將超過過去 25 年累計的一半。FAU 由 40 通道（3.2T）往 80 通道（6.4T）與 100 通道升級（[[3363_上詮（櫃）]]）；CW 雷射 InP 磊晶由 70／100mW（scale-out）升至 100mW 以上（NPO）與 300／400mW（CPO）（[[2455_全新（市）]]）。均屬公司說法與券商觀點（中）。
 
 來源：[[報告_GoldmanSachs_SEMICON台灣光子測試_20260908]]、[[260908_gs_GMT]]（Goldman Sachs，2026-09-08；公司說法／信心中）。
 
