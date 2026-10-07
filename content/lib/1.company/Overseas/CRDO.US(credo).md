@@ -178,6 +178,7 @@ flowchart LR
 
 ## 來源
 
+- [[報告_MorganStanley_貿聯_20261006]]（Morgan Stanley，2026-10-06）：MS 指貿聯與 Credo 合作 ALC，作為 AEC 在 3.2T 前後可能觸及擴展極限時的光互連延伸；屬券商觀點。
 - [[memo_AceCamp_Credo_800G光模組與1.6TAEC_20260930]] — AceCamp Tech匿名專家訪談，2026-09-30；主體辨識高信心，訂單、價格與量產時程低信心。
 - [[活動_Credo_凱基CallMemo_20261005]] — 凱基主辦管理層電話會議逐字稿，2026-10-05 提供；1.6T 時程、ZeroFlap 毛利算式、DustPhotonics 與 scale-up 進度。
 - [[活動_Credo_凱基CallMemo_校正逐字稿_20261005]] — 同一場電話會議的校正版逐字稿（使用者提供，2026-10-07 入庫）；更正 microVCSEL 屬雷射、scale-up Retimer 為 Blue Heron、協定為 UALink over Ethernet。

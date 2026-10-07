@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 環節/光纖
   - 產業/光通訊
-updated: 2026-09-19
+updated: 2026-10-07
 aliases:
   - Corning
   - 康寧
@@ -103,6 +103,7 @@ flowchart LR
 
 ## 來源
 
+- [[報告_MorganStanley_貿聯_20261006]]（Morgan Stanley，2026-10-06）：MS 指 [[3665_貿聯-KY（市）]] 與 Corning 合作 shuffle box（光纖重排盒），屬貿聯光互連布局之一；合作規模未揭露。
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（GF×Corning ECTC 2026，2026-06-29）
 - [[技術_光互連]]（NVIDIA×Corning 戰略合作 2026-05-06）
 - [[技術_玻璃基板]]（玻璃基板原片供應）

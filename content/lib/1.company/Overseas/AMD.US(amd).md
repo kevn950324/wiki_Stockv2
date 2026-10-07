@@ -12,7 +12,7 @@ tags:
   - 技術/CoWoS
   - 產業/AI伺服器
   - 環節/IC設計
-updated: 2026-09-29
+updated: 2026-10-07
 aliases:
   - AMD
   - Advanced Micro Devices
@@ -219,6 +219,7 @@ AMD 將 ROCm 升級為 **ROCm.AI**，整合 **Hyperloom AI 最佳化引擎**：
 
 ## 來源
 
+- [[報告_Daiwa_景碩_20261006]]（Daiwa，2026-10-06）：Daiwa 估 [[3189_景碩（市）]] 在 AMD Venice 取得 teens% 載板份額、4Q26 起逐步放量；屬券商估計。
 - [[報告_GFHK_AMD更新_20260701]]（廣發香港，AMD Advancing AI Takeaways，2026-07-23）
 - [[報告_AMD_AdvancingAIDay_20260727]]（富邦投顧，AMD AI Day 報告，2026-07-27）
 - [[報告_SemiAnalysis_AMD_AdvancingAI2026_20260724]]（SemiAnalysis，"Can AMD break the CUDA Moat?"，2026-07-24）

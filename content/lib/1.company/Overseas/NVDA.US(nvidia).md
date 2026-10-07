@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-10-05
+updated: 2026-10-07
 aliases:
   - NVIDIA
   - 輝達
@@ -324,6 +324,7 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 ## 來源
 
+- [[報告_Daiwa_景碩_20261006]]（Daiwa，2026-10-06）：Daiwa 估 [[3189_景碩（市）]] 在 NVIDIA CPU 載板市占 70%–80%，NVIDIA CPU 約占景碩營收 5%–10%；屬券商估計，與景碩論壇所稱 Vera 80–100% 口徑不同。
 - [[memo_Coherent專家訪談_光模組量價_NPO_OCS_EML與獲利目標_日期不詳]] — Coherent 專家訪談整理稿，日期不詳（2026-10-05 收錄）；NVIDIA 占 Coherent 光學模組銷售額約 48%、2027 年約 300 台 OCS，低信心
 - [[活動_NVIDIA_earnings_call座談摘要_20260827]] — FQ2 FY27 earnings call 座談摘要（LINE 群組轉傳），2026-08-27
 - [[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]] — 群組轉傳之財報、AWS GPU 採購與聯發科投資新聞
