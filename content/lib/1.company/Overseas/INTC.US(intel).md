@@ -14,11 +14,12 @@ tags:
   - 環節/先進封裝服務
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-10-06
+updated: 2026-10-08
 aliases:
   - Intel
   - 英特爾
 related_companies:
+  - "[[3653_健策（市）]]"
   - "[[2330_台積電（市）]]"
   - "[[AAPL.US(apple)]]"
   - "[[AMKR.US(amkor)]]"
@@ -119,6 +120,7 @@ flowchart LR
 
 | 公司 | 關係 | 說明 |
 |------|------|------|
+| [[3653_健策（市）]] | CPU 零組件供應關聯 | 凱基 2026-10-07 提及健策 Intel PC 業務與 CPU carrier／socket 成長機會；券商轉述／中信心，未揭露新訂單規模 |
 | [[2330_台積電（市）]] | 玻璃基板路線同儕 / 競爭 | TSMC 走 CoPoS 對外服務，Intel 走自製垂直整合 |
 | [[AAPL.US(apple)]] | 玻璃基板路線同儕 | Apple 走三星電機 T-glass，Intel 自製 |
 | [[AMKR.US(amkor)]] | 先進封裝服務同儕 | Amkor 接 TSMC CoWoS 外溢，Intel 走垂直整合 |
@@ -193,6 +195,7 @@ CEO Lip-Bu Tan 接任後的核心重點：
 > MS 比較 CoWoS、CoPoS、SoIC 與 EMIB：EMIB 在大於 9.7 倍光罩時以基板級橋接取得面積與成本優勢，代價是頻寬與執行風險，這是 Intel 爭取 AI ASIC 封裝第二供應源的主要論點。
 
 ## 來源
+- [[報告_凱基_健策規格升級_20261007]] — 凱基投顧，2026-10-07；Intel CPU carrier／socket 下游關聯。
 - [[報告_MorganStanley_台積電3Q26預覽與聯電2027_20261005]] — Morgan Stanley，2026-10-05；EMIB-M／EMIB-T 產能、Humufish 與台積電外包觀察。
 - [[報告_Omdia_CIOE展會回顧_202609]] — Omdia／Mingyang Lyu，2026-09（僅揭露月份；p.22，矽光子異質整合）。
 - [[BofA-Intel read through 20260724]]（BofA Global Research，2026-07-24；Intel 製程達標、先進封裝與產業鏈估值更新）

@@ -5,8 +5,10 @@ tags:
   - 產業/光通訊
   - 環節/光電芯片
 maturity: developing
-updated: 2026-10-06
+updated: 2026-10-08
 aliases:
+  - TFLN後段製程
+  - 硬脆材料切割
   - TFLN
   - 薄膜鈮酸鋰
   - Thin-Film Lithium Niobate
@@ -23,6 +25,32 @@ aliases:
 ---
 
 # 技術_TFLN
+
+## 硬脆材料與後段服務瓶頸
+
+凱基 2026-10-07 指出 TFLN 材料硬且脆，使後段加工較複雜。研究重點從調變器電光性能延伸到金凸塊、切割與其他後段服務：材料／晶粒在切割與搬運時的損傷控制、切割後邊緣品質、良率與後續封裝整合，決定平台能否由元件展示進入可重複量產。報告未提供切割刀具、雷射條件、量產良率或具名合作客戶，因此不設定自行推導的製程門檻。
+
+[[6147_頎邦（櫃）]] 有多個 TFLN 專案，服務可能由 Bumping 延伸至其他後段；凱基認為較有意義放量在 2028 年，未納入本期獲利模型。屬券商 thesis／中低信心，不是已確認量產合約。既有 Nomura 時程與本期來源按發布日並列；TFLN 是調變材料平台，與 [[技術_矽光子（SiPh）]] 的系統整合可共存，不能僅由材料名稱推導代工歸屬。
+
+```mermaid
+flowchart LR
+    A[TFLN 元件 / 晶圓] --> B[凸塊與後段加工]
+    B --> C[切割 / 晶粒處理]
+    C --> D[封裝與光電驗證]
+    D --> E[客戶量產認證]
+    classDef material fill:#b2f2bb,stroke:#2f9e44,color:#111;
+    classDef process fill:#d0bfff,stroke:#7048e8,color:#111;
+    classDef customer fill:#fff3bf,stroke:#f08c00,color:#111;
+    class A material;
+    class B,C,D process;
+    class E customer;
+```
+
+圖說：後段觀察流程示意，非來源確認的單一客戶完整製程；各環節順序與承接範圍依專案而異。
+
+來源：[[報告_凱基_頎邦光通訊與韓系轉單_20261007]]（凱基投顧，2026-10-07）。催化劑同步 [[時程_2026-2028十月券商催化劑]]。
+
+後段能力在整體光互聯鏈的位置見 [[供應鏈_AI光互聯]]。
 
 ## 定義
 
