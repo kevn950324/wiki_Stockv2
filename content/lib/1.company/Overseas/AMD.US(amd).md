@@ -12,7 +12,7 @@ tags:
   - 技術/CoWoS
   - 產業/AI伺服器
   - 環節/IC設計
-updated: 2026-10-07
+updated: 2026-10-08
 aliases:
   - AMD
   - Advanced Micro Devices
@@ -20,6 +20,7 @@ aliases:
   - Instinct
   - EPYC
 related_companies:
+  - "[[3189_景碩（市）]]"
   - "[[META.US(meta)]]"
   - "[[AVGO.US(broadcom)]]"
   - "[[NVDA.US(nvidia)]]"
@@ -207,6 +208,8 @@ AMD 將 ROCm 升級為 **ROCm.AI**，整合 **Hyperloom AI 最佳化引擎**：
 
 ## 相關公司
 
+[[3189_景碩（市）]] 為載板供應鏈觀察公司；華南 2026-10-07 memo 提及 AMD 客戶占比，但分母及期間未明，保留需求關聯，不外推單一料號份額。來源：[[活動_華南投顧_景碩3189_20261007]]，信心中低。
+
 | 公司 | 關係 | 說明 |
 |------|------|------|
 | [[META.US(meta)]] | OCI 共編夥伴 | 買方（CSP）角色 |
@@ -262,6 +265,8 @@ AMD 將 ROCm 升級為 **ROCm.AI**，整合 **Hyperloom AI 最佳化引擎**：
 - [[報告_統一_英特爾Arm與MetaMuse新聞評析_20260922]]（統一投顧，2026-09-22；Meta Muse 與 CPU／GPU 需求評析）
 
 - [[報告_UBS_緯穎_20260918]]（2026-09-18）
+
+- [[活動_華南投顧_景碩3189_20261007]]（2026-10-07）
 
 ## 相關頁面
 

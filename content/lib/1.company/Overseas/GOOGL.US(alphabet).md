@@ -14,13 +14,14 @@ tags:
   - 主題/Gemini
   - 主題/Waymo
   - 環節/雲端服務
-updated: 2026-10-05
+updated: 2026-10-08
 aliases:
   - Google
   - Alphabet
   - GOOGL
   - GOOG
 related_companies:
+  - "[[6257_矽格（市）]]"
   - "MSFT.US(microsoft)"
   - "AMZN.US(amazon)"
   - "[[META.US(meta)]]"
@@ -185,6 +186,8 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 
 ## 相關公司
 
+[[6257_矽格（市）]] 的華南 2026-10-06 memo 提及 Google 的 ASIC 測試需求線索；未揭露直接合約及特定晶片，僅保留供應鏈關聯，不推為 Google 直接採購承諾。來源：[[活動_華南投顧_矽格6257_20261006]]，信心中低。
+
 | 公司 | 關係 | 說明 |
 |---|---|---|
 | MSFT.US(microsoft) | 雲端 + AI 主要競爭者 | Azure OpenAI vs GCP Gemini |
@@ -245,6 +248,8 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 - [[報告_UBS_ASIC_CPU驅動CoWoS擴產_20260922]]（2026-09-22）
 - [[報告_UBS_創意電子CPU專案與CSP成長_20260922]]（2026-09-22）
 - [[報告_UBS_聯發科TPU與ASIC專案_20260923]]（2026-09-23）
+
+- [[活動_華南投顧_矽格6257_20261006]]（2026-10-06）
 
 ## 相關頁面
 
