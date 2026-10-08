@@ -9,7 +9,7 @@ tags:
   - 環節/半導體設備製造
   - 環節/半導體設備製造
   - 產業/半導體
-updated: 2026-08-20
+updated: 2026-10-08
 aliases:
   - Lam Research
   - 科林研發
@@ -37,6 +37,9 @@ Lam Research 是半導體製程設備商，覆蓋蝕刻、沉積與相關服務�
 | CSBG | 設備服務與備品 |
 
 ## 圖片 / 架構圖
+
+![[報告_BofA_AgenticAI半導體市場_20260929_p03.png]]
+圖說：BofA 的 AI 系統與記憶體需求模型，為 NAND 設備投資 thesis 的需求背景；表格不是 Lam 設備收入或已獲訂單，且市場分類存在重疊。
 
 ```mermaid
 flowchart LR
@@ -78,7 +81,18 @@ flowchart LR
 > - 晶圓廠無塵室擴充與 WFE 資本支出可能低於預期。
 > - 成熟製程、中國市場與車用／工控需求仍影響服務業務節奏。
 
+## 2026-09-29 Agentic AI 研究更新
+
+| 券商／日期 | 評等 | 目標價 | 評價基礎 | 來源／信心 |
+|---|---|---:|---|---|
+| BofA，2026-09-29 | Buy | US$385 | 29× CY2028E P/E | [[報告_BofA_AgenticAI半導體市場_20260929]]，estimate／中 |
+
+BofA 將 Lam Research 列為 4Q26 top picks，看好 NAND greenfield 擴產與升級支出；風險包括記憶體 capex 延後、蝕刻／清洗市占變動、設備商整併與中國曝險。AI 市場模型不是 Lam 已獲設備訂單。 上述均為 BofA estimate／thesis、信心中；與既有不同報告日期、年度、SBC 及產品範圍並列。
+
+跨模型與驗證框架：[[分析_AgenticAI需求到供電與材料獲利的驗證_20260929]]。
+
 ## 來源
+- [[報告_BofA_AgenticAI半導體市場_20260929]] — BofA，2026-09-29；Agentic AI 產業模型、個股估值與風險
 
 - [[報告_CTBC_LamResearch_20260730]]（2026-07-30）
 

@@ -4,9 +4,14 @@ tags:
   - 技術/AI推論
   - 技術/ASIC
   - 產業/AI伺服器
-updated: 2026-09-26
-image_status: "待補來源圖"
+updated: 2026-10-08
+image_status: "已有來源圖"
 aliases:
+  - Agentic AI
+  - Agentic CPU
+  - Agent node
+  - AI head node
+  - Agent orchestration
   - AI inference
   - 推論加速器
   - 雲端ASIC
@@ -31,6 +36,9 @@ AI 推論是模型完成訓練後，在雲端、邊緣或終端執行預測、�
 
 ## 圖解
 
+![[報告_BofA_AgenticAI半導體市場_20260929_p08.png]]
+圖說：BofA 2026-09-29 將傳統伺服器、AI head node 與 agent node 拆分；CPU 用於序列式任務、工具調用與資料存取，並與 GPU／XPU 平行運算共存，市場份額為券商模型。
+
 ```mermaid
 flowchart LR
     A[模型與工作負載] --> B[客製 XPU／ASIC]
@@ -53,6 +61,22 @@ flowchart LR
 圖說：NVLink Fusion 讓客製 XPU 不必與 GPU 生態完全分離，而可透過共同 scale-up／scale-out fabric、CPU 與 HBM 整合進 rack-scale AI factory。
 
 ## 技術原理
+
+### 代理工作負載與系統供給（2026-09-29）
+
+| 功能／口徑 | 與模型推論的關係 | 投資觀察 |
+|---|---|---|
+| Agent orchestration／工具調用 | CPU 負責序列控制、外部 API、資料庫與記憶體 I/O；GPU／ASIC 負責平行模型推論 | [[INTC.US(intel)]]、[[AMD.US(amd)]] 及 [[NVDA.US(nvidia)]] 的 CPU 收入需分 head node／獨立 agent node，不能由固定 CPU:GPU 比直接推估 |
+| 晶片顆數→die→rack→GW | ASIC／GPU 多 die 與密度提升使 rack 數不一定隨算力增加 | UBS 估 NVIDIA racks 2027／28 約 16.8／16.5 萬架，但 GPU 約 1,430／1,830 萬顆；兩組數字不矛盾 |
+| IT compute power→facility powered shell | IT 負載乘 PUE 才是機房總用電；土地／殼體、電網、設備交期亦須同步 | UBS 2026–30 累計約 340GW IT、PUE 1.12 對應約 380GW 設施需求；不是今天已可用電力 |
+| 晶片數→收入 | 每 GW 內容值、CPU／網路／HBM 組合及年度換代共同改變收入 | 單位占比、GW 占比與營收占比不可互換；ASIC 可有較高算力占比但較低美元份額 |
+
+與單次模型呼叫相比，代理任務會反覆執行推論、規劃與工具操作；串行延遲、CPU 可用核心、記憶體容量與 I/O 可能成為端到端瓶頸。這使 CPU、DRAM／eSSD、網路與 XPU 的需求互補，但特定產品是否替代仍取決於實際 workload 與成本。
+
+![[報告_UBS_AI算力與資料中心電力供給_20260929_p11.png]]
+圖說：UBS 的 Blackwell／Rubin／Feynman 與 AMD 機架 TDP 情境；Rubin 200kW、Feynman 1,200kW、MI500 1,000kW 是模型配置，並非統一正式產品功耗。
+
+來源：[[報告_BofA_AgenticAI半導體市場_20260929]]、[[報告_UBS_AI算力與資料中心電力供給_20260929]]（2026-09-29；estimate／中）。模型差異與來源內部單位疑義見 [[分析_AgenticAI需求到供電與材料獲利的驗證_20260929]]；驗證節點見 [[時程_2026-2028九月底AI材料與算力驗證]]。
 
 推論平台的核心不只在加速器，也包括記憶體階層、互連、供電與散熱。ASIC 可針對固定模型或資料流最佳化能效與成本；GPU 則保有較高的軟體彈性。推論工作負載若由單一模型推理擴展至多代理、長上下文與多模態，會推高記憶體容量、互連頻寬與系統級協同需求。
 
@@ -100,6 +124,8 @@ Dynamo 則位於軟體調度層，把 prefill、decode 與 KV cache routing 解�
 - NVLink 相容性降低整合門檻的同時，也提高客製 XPU 對 NVIDIA fabric、軟體與平台路線的依賴。
 
 ## 來源
+- [[報告_BofA_AgenticAI半導體市場_20260929]] — BofA，2026-09-29；CPU head node／agent node、TAM 與 GW 模型
+- [[報告_UBS_AI算力與資料中心電力供給_20260929]] — UBS，2026-09-29；晶片／die／rack／GW、PUE、電力條件
 
 - [[報告_DIGITIMES_AI推論時代_2027雲端運算平台_20260822]] — DIGITIMES，下載日 2026-08-21
 - [[報告_Citi_聯發科_20260831]] — Citi Research，2026-08-31；NVIDIA 投資與 NVLink Fusion 合作

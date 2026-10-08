@@ -28,7 +28,7 @@ related_companies:
   - "[[AMD.US(amd)]]"
   - "[[NVDA.US(nvidia)]]"
   - "[[供應鏈_CPO]]"
-image_status: "待補來源圖"
+image_status: "已有來源圖"
 ---
 
 # AVGO.US(broadcom)
@@ -79,6 +79,8 @@ Broadcom（AVGO），全球 AI ASIC 及雲端網路半導體霸主，同時擁�
 
 ## AI ASIC 市場展望
 
+UBS 2026-09-29 模型估 ASIC 單位 2027／28 約 1,560／1,320 萬顆，顆數下降但 die 數約增 57%；GPU 與 ASIC 的 2030 GW 份額約 57%／43%，美元營收約 70%／30%，反映不同定價與多 die 配置。這是產業模型，不是 Broadcom 全部訂單或份額指引。來源 [[報告_UBS_AI算力與資料中心電力供給_20260929]]，estimate／中。
+
 | 年度 | AI ASIC 市場規模（不含網路）| Broadcom 市占 | Broadcom AI 營收（含網路） |
 |------|------------------------|------------|----------------------|
 | 2024 | <USD 11bn | >70% | — |
@@ -112,6 +114,10 @@ AI ASIC 市場 CAGR 2025-28E：72%（Bernstein）；$60-70B in CY26（JPM 2026-0
 
 ## 圖片/架構圖
 
+![[報告_BofA_AgenticAI半導體市場_20260929_p03.png]]
+
+圖說：BofA 2026-09-29 第 3 頁的 AI 加速器收入模型包含 Broadcom 的曆年預估，並列出整體伺服器、網路與儲存市場。這是券商 estimate，不能直接當作 Broadcom 全公司營收或已取得訂單；內文與表格的市場總額版本差異另見本批分析頁。
+
 ```mermaid
 flowchart LR
     ASIC[Tomahawk 5<br/>51.2T switch ASIC] --> OE[8 × 6.4T<br/>Bailly silicon photonics engines]
@@ -127,6 +133,10 @@ flowchart LR
 圖說：Bailly 將 Tomahawk 5、8 個 6.4T 矽光子引擎、可現場更換的遠端雷射模組與 400G 光纖埠整合為 51.2T CPO 交換器；架構依 Broadcom 2024-03-14 官方公告整理。
 
 ## 時間軸
+
+| 時間 | 事件 | 類型 | 重要性 | 備註 |
+|---|---|---|---|---|
+| 約 2026-12（預估） | FQ4 財報可能帶來資本回饋更新 | 財報／資本回饋 | ⭐⭐ | BofA 2026-09-29 預期可能提高買回，非公司已宣布；[[時程_2026-2028九月底AI材料與算力驗證]] |
 
 | 時間 | 事件 | 類型 | 重要性 | 備註 |
 |------|------|------|--------|------|
@@ -190,7 +200,19 @@ flowchart LR
 - FY26／FY27／FY28 AI 半導體營收口徑約 US$58bn／115bn／230bn；FY27–FY28 仍受 wafer、substrate、HBM、land、power 與 site 同步供給限制，信心中。
 - Tomahawk 6 的 100G／200G SerDes 已廣泛部署，Tomahawk Ultra 於本季開始導入 scale-up，200Tbps Tomahawk 7 已 tape-out；公司未提供固定 XPU attach rate。來源：[[AVGO Q3 Earnings Call memo_Fubon 20260903]]。
 
+## 2026-09-29 Agentic AI 研究更新
+
+| 券商／日期 | 評等 | 目標價 | 評價基礎 | 來源／信心 |
+|---|---|---:|---|---|
+| BofA，2026-09-29 | Buy | US$530 | 30× CY2027E P/E | [[報告_BofA_AgenticAI半導體市場_20260929]]，estimate／中 |
+
+BofA 的 AI 加速器收入模型 CY2026／27／28／30 為 US$49.8bn／102.6bn／187.3bn／251.8bn。這是曆年 accelerator 口徑，不能覆蓋既有 FY26／FY27／FY28 含 AI 網路的 US$58bn／115bn／230bn 公司展望。 上述均為 BofA estimate／thesis、信心中；與既有不同報告日期、年度、SBC 及產品範圍並列。
+
+跨模型與驗證框架：[[分析_AgenticAI需求到供電與材料獲利的驗證_20260929]]。
+
 ## 來源
+- [[報告_UBS_AI算力與資料中心電力供給_20260929]] — UBS，2026-09-29；ASIC 多 die、GW 與收入份額
+- [[報告_BofA_AgenticAI半導體市場_20260929]] — BofA，2026-09-29；Agentic AI 產業模型、個股估值與風險
 
 - [[報告_Broadcom_Bailly_51.2T_CPO_20240314]]（Broadcom 公司公告，2024-03-14；Bailly 51.2T CPO、Tomahawk 5、光引擎與 RLM）
 

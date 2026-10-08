@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 技術/矽光子
   - 環節/光纖與光通訊
-updated: 2026-10-04
+updated: 2026-10-08
 aliases:
   - Marvell
   - 邁威爾
@@ -100,6 +100,10 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 
 | 時間 | 事件 | 類型 | 重要性 | 備註 |
 |---|---|---|---|---|
+| 2026-10-06（原報告預告；日期已過） | Analyst Day | 發表／驗證 | ⭐⭐⭐ | BofA 2026-09-29 預告；本批未收活動結果，不推定已完成或新指引；[[時程_2026-2028九月底AI材料與算力驗證]] |
+
+| 時間 | 事件 | 類型 | 重要性 | 備註 |
+|---|---|---|---|---|
 | 2026-03-12 | Ara T／Ara X／Petra／Aquila M 1.6T DSP 平台宣布；OFC 2026 展示 | 新產品／驗證 | ⭐⭐⭐ | 公司公告 Ara 已大量出貨；四款新品自 2026Q1 起送樣，需追蹤客戶採用與量產收入 |
 
 > [!warning] 關鍵 claim：Celestial AI 營收 run-rate（需追蹤時程）
@@ -125,7 +129,18 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 - 這與本頁既有 PFMA「warm memory／KV Cache offload」定位方向一致，但本次未附 FMS 原始簡報，不能據此確認產品規格、客戶採用、量產時程或收入。CXL 的協定語意與 Photonic Fabric 的承載方式也需分開驗證。
 - 投資追蹤重點由「是否有光互連」進一步轉為：PFMA／OMIB 是否取得客戶、跨 rack 延遲與功耗、CXL switch／controller 整合方式，以及每 rack 光學內容值。詳見 [[分析_FMS2026_CXL記憶體池與光互連受惠邏輯]]。
 
+## 2026-09-29 Agentic AI 研究更新
+
+| 券商／日期 | 評等 | 目標價 | 評價基礎 | 來源／信心 |
+|---|---|---:|---|---|
+| BofA，2026-09-29 | Buy | US$365 | 33× CY2028E P/E（不含 SBC） | [[報告_BofA_AgenticAI半導體市場_20260929]]，estimate／中 |
+
+BofA 將 Marvell 列為 4Q26 top picks；客製 AI 加速器收入模型 CY2026／27／28／30 為 US$1.7bn／3.0bn／6.8bn／15.1bn，不包含所有光 DSP、AEC、交換器收入。其市場模型與公司 FY27／FY28 總營收目標分開。 上述均為 BofA estimate／thesis、信心中；與既有不同報告日期、年度、SBC 及產品範圍並列。
+
+跨模型與驗證框架：[[分析_AgenticAI需求到供電與材料獲利的驗證_20260929]]。
+
 ## 來源
+- [[報告_BofA_AgenticAI半導體市場_20260929]] — BofA，2026-09-29；Agentic AI 產業模型、個股估值與風險
 
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]]（Simple Tech Trend，2026-08-31；pJ/bit、plasmonics 與光子互連觀察）
 

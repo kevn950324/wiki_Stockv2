@@ -194,7 +194,18 @@ CEO Lip-Bu Tan 接任後的核心重點：
 ![[報告_MorganStanley_台積電3Q26預覽與聯電2027_20261005_007.png]]
 > MS 比較 CoWoS、CoPoS、SoIC 與 EMIB：EMIB 在大於 9.7 倍光罩時以基板級橋接取得面積與成本優勢，代價是頻寬與執行風險，這是 Intel 爭取 AI ASIC 封裝第二供應源的主要論點。
 
+## 2026-09-29 Agentic AI 研究更新
+
+| 券商／日期 | 評等 | 目標價 | 評價基礎 | 來源／信心 |
+|---|---|---:|---|---|
+| BofA，2026-09-29 | Buy | US$145 | 29× CY2030E EPS US$6，再折現兩年 | [[報告_BofA_AgenticAI半導體市場_20260929]]，estimate／中 |
+
+BofA 將 Intel 列為 4Q26 top picks，估 2030 伺服器 CPU 美元份額約 22%、顆數份額約 36%；Agentic AI CPU TAM 擴張與先進製程供給改善是 thesis，不能由市占下滑單獨推導收入萎縮。來源明確揭露 CY2030E EPS US$6；不由目標價倒推年度 EPS。 上述均為 BofA estimate／thesis、信心中；與既有不同報告日期、年度、SBC 及產品範圍並列。
+
+跨模型與驗證框架：[[分析_AgenticAI需求到供電與材料獲利的驗證_20260929]]。
+
 ## 來源
+- [[報告_BofA_AgenticAI半導體市場_20260929]] — BofA，2026-09-29；Agentic AI 產業模型、個股估值與風險
 - [[報告_凱基_健策規格升級_20261007]] — 凱基投顧，2026-10-07；Intel CPU carrier／socket 下游關聯。
 - [[報告_MorganStanley_台積電3Q26預覽與聯電2027_20261005]] — Morgan Stanley，2026-10-05；EMIB-M／EMIB-T 產能、Humufish 與台積電外包觀察。
 - [[報告_Omdia_CIOE展會回顧_202609]] — Omdia／Mingyang Lyu，2026-09（僅揭露月份；p.22，矽光子異質整合）。
@@ -224,6 +235,7 @@ CEO Lip-Bu Tan 接任後的核心重點：
 - [[報告_統一_英特爾Arm與MetaMuse新聞評析_20260922]]（統一投顧，2026-09-22；AI 代理對 CPU 需求的新聞評析）
 
 ## 相關頁面
+- [[技術_AI推論與ASIC平台]]
 
 - [[3013_晟銘電（市）]]
 - [[3680_家登（櫃）]]

@@ -6,7 +6,7 @@ tags:
   - 產業/記憶體
   - 產業/AI伺服器
 maturity: developing
-updated: 2026-10-04
+updated: 2026-10-08
 aliases:
   - HBM
   - High Bandwidth Memory
@@ -36,6 +36,10 @@ HBM（High Bandwidth Memory，高頻寬記憶體）是把多顆 DRAM die 垂直�
 *圖（統一證，2026-05-20）：DRAM 廠商製程推進（Ver. MD-2509-01 Simplified）。Samsung 1a/1b/1c/1d；SK Hynix 1b（2026 量產）→ 1c（2027 EUV，紅框）；Micron 1β（2026）→ 1γ EUV（2027，紅框）；CXMT G3/G4/G5（追趕中）；Nanya 1B（2027，紅框）→ 1C；Winbond 20nm（2026-27）→ 16nm（2028）；JHIOC 25nm→20nm。*
 
 ## 圖解
+
+![[報告_高盛_三星HBM與獲利預估_20260930_p04.png]]
+圖說：高盛 2026-09-30 的三星 HBM 營收及 DRAM／NAND OPM 模型；位元量、每 Gb 定價和 HBM 占 DRAM 收入比是三個不同指標。
+
 ```mermaid
 flowchart TB
     subgraph HBM堆疊
@@ -116,6 +120,8 @@ flowchart TB
 | NVIDIA 供應占比 | 綁定最大買方 | 三星目標 HBM4 供應占比 > 50% |
 
 ## 產業動能
+- **三星 HBM 量價同升模型：** [[報告_高盛_三星HBM與獲利預估_20260930]]（2026-09-30）估 [[005930.KR(samsung)]] 2027 HBM 位元約 210 億 Gb（年增逾 60%）、ASP 約 US$3.6/Gb（+130%），對應營收約 US$74bn（+274%），占三星 DRAM 營收約 19%（2026 約 8%）。均為 estimate／中信心；不是全產業 HBM TAM，也不能把 Gb 當成 GB。
+- **產品配置牽動一般 DRAM：** 同份高盛報告認為 HBM 集中投入會壓縮一般 DRAM 可供量，ASP 與位元供給需共同驗證；Google TPU 等 ASIC 與 NVIDIA HBM4 份額改善為渠道判讀，沒有新增確定份額。
 - **HBM 市占重排**：[[大和 韓國記憶體產業電話會議摘要]]（2026-07-02）估至 2027 [[005930.KR(samsung)]] 重返第一（~50%）、[[MU.US(micron)]] ~20%，[[000660.KR(sk_hynix)]] 市占由偏高回落。
 - **2027 為 HBM 漲價年**：HBM 2025.9 一年一約、2026 價格偏弱，2027.9 改約後大和預期顯著上漲。
 - **HBM4E 樣品競賽**：三星 HBM4E 用 1C DRAM + N4 logic die、效能 +20%；Hynix 樣品已出但 logic die 受限；美光可能用 N3（見各公司頁）。
@@ -153,6 +159,7 @@ flowchart TB
 - [[技術_CCL]]
 
 ## 來源
+- [[報告_高盛_三星HBM與獲利預估_20260930]] — Goldman Sachs，2026-09-30；三星 HBM 量價、營收 mix 與一般 DRAM 供給
 - [[報告_先進封裝技術發展方向_20260722]]（定錨，2026-07-22；HBM4 2048-bit、cHBM Marvell/4.1TB/s、NVIDIA Feynman cHBM、SK Hynix+TSMC One-Team ~70% Vera Rubin、Qualcomm HBC 警訊）
 - [[大和 韓國記憶體產業電話會議摘要]] — 大和，2026-07-02
 - [[260702_ms_nand-industry]] — 摩根士丹利，2026-07-02
@@ -160,6 +167,8 @@ flowchart TB
 - [[memo_廣發海外電子通信月度電話會議_20260814]] — 廣發海外電子通信，2026-08-14（Rubin Ultra 四種 HBM4／HBM4E 容量與產業降配趨勢；channel check，信心中）
 
 ## 相關頁面
+- [[分析_AgenticAI需求到供電與材料獲利的驗證_20260929]]
+- [[時程_2026-2028九月底AI材料與算力驗證]]
 
 - [[分析_2026Q3法說季_AI供應鏈瓶頸與擴產節奏_LINE彙整]]
 - [[分析_FMS2026_CXL記憶體池與光互連受惠邏輯]]
