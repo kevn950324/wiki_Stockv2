@@ -10,7 +10,19 @@ tags:
   - 產業/AI伺服器
   - 環節/散熱
   - 環節/電源
-updated: 2026-10-04
+updated: 2026-10-08
+aliases:
+  - QD
+  - Quick Disconnect
+  - 液冷快接頭
+  - UQD
+  - MQD
+  - ZQD
+  - UQD08
+  - ZQD06
+  - ZQD14
+  - miniQD
+  - rack manifold QD
 ---
 
 # 供應鏈_AI伺服器散熱
@@ -183,6 +195,31 @@ CDU（未建頁）：美系 Vertiv（CDU + 液冷一體化）、Schneider Electr
 其他 ODM：[[2382_廣達（市）]]、[[2317_鴻海（市）]]亦為台灣主要 AI 伺服器系統廠。
 
 ## 競爭格局
+
+### 2026-09-29 JPM：冷板與 QD 的規格價值
+
+冷板把晶片／背面元件的熱帶入水路；QD（Quick Disconnect，液冷快接頭）讓托盤與歧管水路可拆裝並控制漏液。托盤內接頭、托盤入口 plug 與 rack manifold socket 是不同位置，不能只用總顆數推營收。JPM 將 [[3017_奇鋐（市）]] 視為雙面冷板與材料升級受惠者，[[6805_富世達（市）]] 則從托盤內 QD 擴展至歧管端 UQD08，並可能受惠 ZQD 升級（estimate／thesis，信心中）。
+
+| QD 環節（JPM 模型） | GB300 NVL72 | VR200 NVL72 | VR Ultra NVL72（可能方案） |
+|---|---|---|---|
+| Compute tray 數量 | 18 | 18 | 18 |
+| 每 compute tray 內接頭 | 8 UQD | 20 MQD | 12 MQD＋8 ZQD06＋8 miniQD |
+| 每 compute tray 入口 | 2 UQD plug | 2 UQD plug | 2 ZQD14 plug |
+| Switch tray 數量 | 9 | 9 | 9；1.5U、雙層板 |
+| 每 switch tray 內接頭 | 18 MQD | 4 MQD | 8 MQD |
+| 每 switch tray 入口 | 2 UQD plug | 2 UQD plug | 2 ZQD14 plug |
+| 44U rack manifold 插座 | 88 UQD08 socket | 88 UQD08 socket | 88 ZQD014 socket（來源原標示） |
+| 全櫃 QD 內容值 | 約 US$9,400 | 約 US$11,000 | 約 US$20,500 |
+
+![[報告_JPM_富世達_20260929_p03.png]]
+
+圖說：JPM 的托盤與歧管 QD 對照表；ZQD014 為表內原標示，未自行與 ZQD14 合併。US$20,500 相較 VR200 約增 86%，報告正文概稱約 100%；兩者均屬 BOM 模型，非單一供應商營收。（2026-09-29，第 3 頁）
+
+- **冷板數量與材料**：JPM 估 Trainium 3／AMD MI450 在 4Q26 採雙面冷板，VR Ultra 可能在 2Q／2H27 增加背面冷卻及鑽石銅材料，compute tray 冷板內容值估 US$3,000–3,500、較前代 +50%。TPU v8 的鍍金及周邊 IC 冷板、TPU v9 的更大晶粒與功耗，是不同升級來源；TPU v9 雙面設計仍待定。
+- **QD 市場範圍與份額**：JPM 估富世達 VR200 QD 份額逾 50%，包含奇鋐 30–40% 與新增未具名冷板客戶 10–20%；UQD08 歧管插座擴大產品範圍，更多台灣／日本客戶仍送樣。份額分母限定 VR200 專案，不能當成全球 QD 市占，亦不能將送樣當成正式量產訂單。
+- **驗證指標**：冷板與 QD 的 ASP、接頭流量、漏液可靠度、客戶認證、實際份額及月營收需分開追蹤。ZQD ASP 約 2 倍不代表所有 QD 均漲價；光模組 OSFP／ELSFP 液冷為奇鋐市場擴張 thesis，尚未揭露確定訂單與時程。
+
+來源：[[報告_JPM_奇鋐_20260929]]、[[報告_JPM_富世達_20260929]]（J.P. Morgan，2026-09-29；券商 estimate／thesis，信心中，未作外部獨立驗證）。跨公司觀察見 [[時程_2026Q3Q4_AI網通與硬體催化劑]]。
 
 ### 功耗跳級驅動全面液冷
 
