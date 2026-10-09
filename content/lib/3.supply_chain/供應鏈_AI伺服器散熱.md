@@ -10,7 +10,7 @@ tags:
   - 產業/AI伺服器
   - 環節/散熱
   - 環節/電源
-updated: 2026-10-08
+updated: 2026-10-10
 aliases:
   - QD
   - Quick Disconnect
@@ -141,9 +141,12 @@ CDU（未建頁）：美系 Vertiv（CDU + 液冷一體化）、Schneider Electr
 | 廠商 | 地位 | 備註 |
 |------|------|------|
 | [[2308_台達電（市）]] | 台廠電源龍頭 | 800V HVDC 解決方案最完整；GB300 Sidecar 主供之一；2026F EPS +93% YoY |
+| [[2301_光寶科（市）]] | AI 電源供應商 | MS 2026-10-06 估 AI 電源第二大供應商，PSU／BBU 與 power shelf 升級；HVDC 驗證及液冷進度待追蹤（estimate，信心中） |
 | [[VRT.US(vertiv)]] | 電源機櫃全球領導 | Power rack / grey-space 方案（PSU + PDU 移出白空間）；對 800V vs 400V 架構中性受惠 |
 
-電源（未建頁）：光寶科 2301（power rack 轉型）、Legrand、Schneider、ABB、Hammond Power（grey-space 競爭）。800V HVDC 架構雖有時程延後，但 sidecar / power rack 轉型與架構選擇解耦，電源廠受惠不受波及。
+電源（未建頁）：Legrand、Schneider、ABB、Hammond Power（grey-space 競爭）。800V HVDC 架構雖有時程延後，但 sidecar / power rack 轉型與架構選擇解耦；實際受惠仍取決於交付、客戶份額與獲利。
+
+MS 2026-10-06 把完整 HVDC power rack 的每瓦內容值估為 in-rack PSU 的 4–5 倍，其中 PSU／BBU／其他占 BOM 約 50–55%／25–30%／15–20%。這是整櫃與單品的比較，不能直接推導 PSU ASP 或毛利同幅提升；2027 年預期有限部署、較廣採用在 2027 年底–2028，均屬 estimate（信心中）。架構與保護見 [[技術_800VDC供電架構]]。
 
 **功耗升級路徑**
 
@@ -326,6 +329,7 @@ AI 機櫃熱功耗突破 120 kW 後，氣冷散熱無法有效應對，**液冷�
 
 ## 來源
 
+- [[報告_MorganStanley_整合電源方案_20261006]]（MS，2026-10-06；p8–9、14–15、44，HVDC 整櫃內容與台達／光寶定位）
 - [[260828_daiwa_ Sunonwealth Electric Machine Industry]]（Daiwa，2026-08-28；建準伺服器風扇模組、EC 風扇與液冷產品展望）
 - [[報告_CTBC_AI散熱架構與材料_20260917]]（中信投顧，2026-09-17；VPD、雙面水冷板、Removable Lid 與鑽石銅材料路線）
 
