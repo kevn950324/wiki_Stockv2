@@ -10,8 +10,14 @@ tags:
   - 產業/AI伺服器
   - 環節/散熱
   - 環節/電源
-updated: 2026-10-10
+updated: 2026-10-11
 aliases:
+  - RDHx
+  - Rear-door Heat Exchanger
+  - 後門熱交換器
+  - Plate Heat Exchanger
+  - 板式熱交換器
+  - Rubin manifold
   - QD
   - Quick Disconnect
   - 液冷快接頭
@@ -199,6 +205,16 @@ MS 2026-10-06 把完整 HVDC power rack 的每瓦內容值估為 in-rack PSU 的
 
 ## 競爭格局
 
+### 2026-10-06 SinoPac：高力的液冷內容值與新應用
+
+[[8996_高力（市）]] 的液冷產品觀察涵蓋 Rubin manifold、CDU 與 RDHx（Rear-door Heat Exchanger，後門熱交換器）。Manifold 分配水路、CDU 管理冷卻液與迴路交換、RDHx 置於機櫃後門處理排風熱量，產品位置與計價分母不同；不能由 AI 機櫃總功耗直接回推任一公司的收入。SinoPac 估高力 2027／2028 液冷營收年增 60%／25%，並認為 CSP CDU 板式熱交換器及半導體設備液冷從 4Q26 有望增加貢獻（estimate／thesis，信心中）。
+
+報告以 [[SMCI.US(supermicro)]] 相關液冷為高力主成長來源；新增 CSP／半導體客戶未具名，未披露份額或已確認量產訂單。SinoPac 表中的「熱能產品」與「板式熱交換器」是公司產品分類，不能直接各自等同純 SOFC／純 AI 液冷業務。
+
+![[報告_CLSA_SinoPac_高力_20261006_002.png]]
+
+圖說：SinoPac 模型將板式熱交換器營收占比列為 2026／2027／2028 的 16%／16%／20%；占比與毛利率為券商假設，不是已實現的液冷市占。（來源：[[報告_CLSA_SinoPac_高力_20261006]]，2026-10-06。）
+
 ### 2026-09-29 JPM：冷板與 QD 的規格價值
 
 冷板把晶片／背面元件的熱帶入水路；QD（Quick Disconnect，液冷快接頭）讓托盤與歧管水路可拆裝並控制漏液。托盤內接頭、托盤入口 plug 與 rack manifold socket 是不同位置，不能只用總顆數推營收。JPM 將 [[3017_奇鋐（市）]] 視為雙面冷板與材料升級受惠者，[[6805_富世達（市）]] 則從托盤內 QD 擴展至歧管端 UQD08，並可能受惠 ZQD 升級（estimate／thesis，信心中）。
@@ -329,6 +345,7 @@ AI 機櫃熱功耗突破 120 kW 後，氣冷散熱無法有效應對，**液冷�
 
 ## 來源
 
+- [[報告_CLSA_SinoPac_高力_20261006]]（SinoPac 研究／CLSA 分發，2026-10-06；Rubin manifold、CDU／RDHx 與產品組合模型）
 - [[報告_MorganStanley_整合電源方案_20261006]]（MS，2026-10-06；p8–9、14–15、44，HVDC 整櫃內容與台達／光寶定位）
 - [[260828_daiwa_ Sunonwealth Electric Machine Industry]]（Daiwa，2026-08-28；建準伺服器風扇模組、EC 風扇與液冷產品展望）
 - [[報告_CTBC_AI散熱架構與材料_20260917]]（中信投顧，2026-09-17；VPD、雙面水冷板、Removable Lid 與鑽石銅材料路線）

@@ -9,13 +9,14 @@ tags:
   - 產業/AI伺服器
   - 技術/液冷
   - 環節/AI伺服器組裝
-updated: 2026-09-18
+updated: 2026-10-11
 aliases:
   - Super Micro Computer
   - Supermicro
   - 超微電腦
 related_companies:
   - "[[NVDA.US(nvidia)]]"
+  - "[[8996_高力（市）]]"
 ---
 
 # SMCI.US(supermicro)
@@ -97,6 +98,7 @@ flowchart LR
 | 公司 | 關係 | 說明 |
 |------|------|------|
 | [[NVDA.US(nvidia)]] | 上游平台夥伴 | GB300 NVL72、HGX B300／B200 與後續 Rubin 平台 |
+| [[8996_高力（市）]] | 液冷供應鏈 | SinoPac 2026-10-06 將 Supermicro 相關液冷列為高力主要成長來源；屬券商 thesis、中，未披露新增合約或份額 |
 
 > [!warning] 風險與注意事項
 > - **建設時程**：客戶端電力、液冷與機房未就緒，會使大型專案收入延後；延後不等於取消。
@@ -110,6 +112,7 @@ flowchart LR
 
 ## 來源
 
+- [[報告_CLSA_SinoPac_高力_20261006]]（SinoPac 研究／CLSA 分發，2026-10-06；高力的 Supermicro 相關液冷與 Rubin manifold／CDU／RDHx 需求情境）
 - [[報告_國泰_SuperMicroFY26財報_20260813]]（國泰證期研究部，2026-08-13；FY26Q4、FY27 指引、液冷產能與 DCBBS）
 - [[Super Micro Computer（SMCI US）0813]]（中信投顧，2026-08-13；GB300／Blackwell、DCBBS、液冷與 FY27–FY28 財務估計）
 
