@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-10-08
+updated: 2026-10-11
 aliases:
   - NVIDIA
   - 輝達
@@ -36,6 +36,8 @@ related_companies:
   - "[[技術_CPO]]"
   - "[[2454_聯發科（市）]]"
   - "[[索爾思光電（未）]]"
+  - "[[3653_健策（市）]]"
+  - "[[INTC.US(intel)]]"
 ---
 
 # NVDA.US(nvidia)
@@ -63,6 +65,10 @@ NVIDIA（輝達），全球 AI GPU 龍頭。本次主題範圍內的角色是**�
 | NVLink Fusion／NVLink-C2C／NVHBM | 讓第三方客製 XPU 接入 NVIDIA rack-scale AI factory | [[2454_聯發科（市）]] 等客製 ASIC 設計夥伴 |
 
 ## 圖片 / 架構圖
+
+![[報告_Aletheia_2027AI加速器關鍵變化_20261001_p002.png]]
+
+圖說：Aletheia p2：2027 晶片生產及理論功率；不等同當年安裝、通電及收入。
 
 ![[web_NVIDIA_CPO_20250826_001.webp]]
 *圖（NVIDIA Technical Blog，2025-08-26）：Quantum-X／Spectrum-X CPO 交換器的實體系統配置，對應光子引擎、光纖介面、液冷與 ELS 的整合。*
@@ -339,7 +345,23 @@ BofA 將 NVIDIA 列為 4Q26 top picks；AI 加速器收入模型為 CY2026／27�
 
 跨模型與驗證框架：[[分析_AgenticAI需求到供電與材料獲利的驗證_20260929]]。
 
+## 本批來源更新（2026-10-11 入庫）
+
+### 2026-10-01 Aletheia：同一電力預算下的 Rubin 部署
+
+本批補充關係：[[3653_健策（市）]] 為 JPM 9-29 研究的 Rubin 可拆式上蓋供應鏈；[[INTC.US(intel)]] 的 x86 server／client 合作由國泰 9-17 訪談轉述，不推定 NVIDIA 新晶圓代工訂單。
+
+Buy／TP US$340，20x FY28（CY27）EPS；FY 截至 1 月，FY27／28 non-GAAP EPS US$9.32／17.00，GAAP US$9.95／16.74，營收 US$407.605／758.364bn。財年、GAAP 與既有 BofA 曆年模型不能混用（estimate／中）。
+
+Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，不等於年內安裝。其 1GW、PUE 1.1 的 DSX 模型可放 Rubin MaxP 約 27.5 萬顆、MaxQ 33 萬、MaxLPS 40 萬；低功耗模式提高晶片數，效果取決於實際效能／工作負載。Rubin NVL72 約 225kW，Ultra 兩 tile MaxP／MaxQ／MaxLPS 約 235／170／140kW 是報告情境。
+
+時間軸：封測完整爬坡由 9–10 月延到 2026 年 11 月是 Aletheia 查核，HBM 供給為限制；FY27 Rubin 出貨由 160→150 萬顆的調整與年內生產不是同一口徑。Ultra 以 8 個 Oberon72 組 576-GPU pod、Kyber576 更晚，跨 rack 光互連需求仍需驗證。同步 [[時程_2026-2028十月券商催化劑]]；模型差異見 [[分析_2027加速器供電與ASIC價值移轉_20261001]]。
+
 ## 來源
+
+- [[報告_JPM_健策可拆式上蓋_20260929]] — JPM，2026-09-29；上蓋供應鏈與量產窗口（estimate／中）。
+- [[活動_國泰_美國參訪訪談紀要_20260914-18]] — 國泰，2026-09-17 Intel 訪談；x86 合作轉述（中）。
+- [[報告_Aletheia_2027AI加速器關鍵變化_20261001]] — Aletheia Capital，2026-10-01；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 - [[報告_UBS_AI算力與資料中心電力供給_20260929]] — UBS，2026-09-29；GPU／rack／GW 模型、機房供電限制
 - [[報告_高盛_三星HBM與獲利預估_20260930]] — Goldman Sachs，2026-09-30；三星 HBM4 供應改善估計
 - [[報告_BofA_AgenticAI半導體市場_20260929]] — BofA，2026-09-29；Agentic AI 產業模型、個股估值與風險

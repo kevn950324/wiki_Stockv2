@@ -9,7 +9,7 @@ tags:
   - 技術/NAND
   - 產業/記憶體
   - 環節/記憶體製造
-updated: 2026-07-03
+updated: 2026-10-11
 aliases:
   - SanDisk
   - SNDK
@@ -36,6 +36,10 @@ SanDisk 為由 Western Digital 分拆的 **NAND / SSD 大廠**，摩根士丹利
 | Client SSD / NAND | PC、消費 | 品牌、通路 |
 
 ## 圖片 / 架構圖
+
+![[活動_國泰_美國參訪訪談紀要_20260914-18_p088.png]]
+
+圖說：國泰 p88：Western Digital 訪談的儲存階層；用於對照 HDD／NAND／DRAM 分工，不是 SanDisk 效能證明。
 ```mermaid
 flowchart LR
     NAND[NAND] --> QLC[QLC eSSD]
@@ -107,7 +111,21 @@ flowchart LR
 > - 產品定位：業界推測其 datacenter 用低規 NAND 晶片，但仍具溢價；QLC eSSD 品質評價為觀察點。
 > - 循環風險：NAND ASP 若因中國廠擴產反轉，DC 儲存溢價收斂。
 
+## 本批來源更新（2026-10-11 入庫）
+
+### 2026-09 國泰參訪：NBM 長約與 HBF
+
+公司轉述 FY26Q4 營收 US$8.965bn、non-GAAP 毛利率 84.6%、營益率 79%、EPS US$39.25；屬訪談重述，信心中，未獨立核對申報。
+
+NBM 最低採購承諾 US$93.8bn，期末 RPO 59.8bn、含季後合約 91.1bn，財務擔保 16.5bn；8 客戶、FY27 約一半 bits／FY28 約三分之二鎖定、平均 4 年以上。RPO／承諾／擔保均不等於當期認列收入，與原頁 6 月 Bernstein 5 合約／較早 RPO 保留日期比較。FY28–30 毛利率約 80%、OPM 75%、FCF margin 50% 是公司目標；FY27／28 EPS 212／255 是來源中的 Bloomberg 共識，不是國泰個股模型。
+
+Kioxia JV 49.9%／50.1% 股權及約半產出，部分固定成本按約負擔；NAND wafer、後段封裝與 eSSD 控制器並非同一業務。HBF 基於 BiCS8 客製 die，稱已 tape-out、2027 送樣，容量為 HBM 8–16 倍是公司目標；基準收入未納 HBF。NAND 的隨機寫入／延遲限制仍在，HBF 不能直接取代 hot HBM／DRAM；TLC 支援效能型 KV Cache、QLC 支援容量需求。
+
+時間軸：2027 HBF 送樣、FY27–28 長約供量與現金收取、FY28–30 獲利率目標驗證；同步 [[時程_2026-2028十月券商催化劑]]。技術 [[技術_NAND快閃記憶體]]，活動分析 [[分析_國泰美國參訪_電力測試記憶體與太空驗證_20260914-18]]。
+
 ## 來源
+
+- [[活動_國泰_美國參訪訪談紀要_20260914-18]] — 國泰證期研究部，2026-09-18；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 - [[報告_Bernstein_SanDisk_20260630]]（Bernstein，2026-06-30；TP $3,000↑；LTA 地板價 $0.29/GB；FY27E EPS $243.73、FY28E $272）
 - [[260702_ms_nand-industry]] — 摩根士丹利，2026-07-02
 - [[大和 韓國記憶體產業電話會議摘要]] — 大和，2026-07-02

@@ -55,12 +55,23 @@ aliases:
   - RL
   - Laser Release Layer
   - 鐳射離型層
-updated: 2026-10-06
+  - "Humufish EMIB-T"
+  - "Triggerfish EMIB-T"
+  - "Merope SoIC"
+  - "Icefish SoIC"
+updated: 2026-10-11
 ---
 
 # 技術_CoWoS與先進封裝
 
 ## 圖解（補充：JPM 客戶需求分配）
+
+![[報告_JPM_台積電擴產與財測_20260930_p010.png]]
+
+圖說：JPM p10：CoWoS 類年底月產能與需求口徑。
+![[報告_Aletheia_2027AI加速器關鍵變化_20261001_p010.png]]
+
+圖說：Aletheia p10：TPU 多晶粒配置與 EMIB-T／SoIC 路線，屬研究版本。
 
 ![[報告_JPM_台積電CoWoS先進封裝_20260709_002.png]]
 *圖（J.P. Morgan，2026-07-09）：CoWoS 全球客戶需求堆疊圖（2023-2027E，千片/年）——NVIDIA 為絕對主力；AMD 2027E 大幅爬升；Broadcom（含 Google TPU）、Marvell + AWS、MediaTek 亦顯著成長。2027E 合計約 238 萬片/年。*
@@ -465,6 +476,8 @@ CoWoS 是近年 NVIDIA 出貨最主要的產能限制：
 
 ## 相關頁面
 
+- [[分析_2027加速器供電與ASIC價值移轉_20261001]]
+
 - [[603005.CN(crystal_optech)]]
 - [[688820.SH(sj_semiconductor)]]
 - [[分析_20260829-30專家紀要受訪公司辨識與追蹤]]
@@ -493,7 +506,21 @@ CoWoS 是近年 NVIDIA 出貨最主要的產能限制：
 - [[5234_達興材料（市）]]（TBM／RL、PSPI 與先進封裝材料）
 - [[7768_頌勝科技（市）]]（[[技術_CMP]] Pad／Membrane）
 
+## 2026-09-30／10-01：封裝面積、良率與價值含量
+
+JPM 模型台積電／非台積電 CoWoS 類年底月產能：2027 200／60 千片、2028 225／95 千片；SoIC 2026／27／28 為 26／35／70 千片。這是券商產能估計，與 WMCM、CoW／WoS 外包與產業總量需先校準分母。
+
+Aletheia 把 TPU v9 Humufish／Triggerfish 放在 1H28 EMIB-T；其中 Google 設計 compute、聯發科處理 I/O／其他整合，後續可能增加 HBM base die 內容值。v10 Merope／Icefish 以更多 compute、base、I/O 與 HBM 堆疊拉動 SoIC；Merope 合計約 44、Icefish 約 46 顆邏輯／HBM 元件，較 v9 約 24 顆提高整合複雜度，是研究版設計，不是官方 BOM。
+
+2.5D 的橋接／RDL 連接與 3D hybrid bonding 可同時使用：垂直堆疊縮短訊號路徑，但測試、KGD、熱阻、翹曲、對位與重工成本更重要。良率會隨多晶粒組合、bridge 製程及封裝階段而異，不能把某次 coupon 的良率套到最終良品。
+
+> [!warning] 良率不可直接排序
+> JPM 9-30 EMIB-T **基板**約 55%–60%；Aletheia 10-01 **封裝製程**約 50%、HVM 目標 80%；國泰 Intel IR 稱已達要求但未提供同分母數值。三者並列、待確認測試車與量測階段，不以數字高低直接判定誰正確。
+
 ## 來源
+
+- [[報告_Aletheia_2027AI加速器關鍵變化_20261001]] — Aletheia Capital，2026-10-01；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
+- [[報告_JPM_台積電擴產與財測_20260930]] — J.P. Morgan，2026-09-30；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 
 - [[報告_MorganStanley_台積電3Q26預覽與聯電2027_20261005]] — Morgan Stanley，2026-10-05；CoWoS／OSAT／SoIC／CoPoS／EMIB 產能與四方案比較。
 - [[memo_AceCamp_盛合晶微CoWoS-L封裝_20260820]] — AceCamp Tech 匿名專家會議，2026-08-20（中國境內 CoWoS 類封裝產能與供給瓶頸；客戶、產能與良率皆待查證）。

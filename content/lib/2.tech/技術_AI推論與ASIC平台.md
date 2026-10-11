@@ -4,7 +4,7 @@ tags:
   - 技術/AI推論
   - 技術/ASIC
   - 產業/AI伺服器
-updated: 2026-10-08
+updated: 2026-10-11
 image_status: "已有來源圖"
 aliases:
   - Agentic AI
@@ -22,6 +22,18 @@ aliases:
   - Mixture of Experts
   - Expert Parallelism
   - NVIDIA Dynamo
+  - "MaxP"
+  - "MaxQ"
+  - "MaxLPS"
+  - "Zebrafish"
+  - "Sunfish"
+  - "Whalefish"
+  - "Humufish"
+  - "Triggerfish"
+  - "Merope"
+  - "Icefish"
+  - "Prefill Decode Disaggregation"
+  - "KV prefix cache"
 related_companies:
   - "[[2454_聯發科（市）]]"
   - "[[NVDA.US(nvidia)]]"
@@ -35,6 +47,13 @@ related_companies:
 AI 推論是模型完成訓練後，在雲端、邊緣或終端執行預測、生成與代理任務的階段。DIGITIMES 2026-08-21 簡報估計，2027 年高階雲端 ASIC 出貨量約 1,526 萬顆、年增 110.9%，首次超過高階雲端 GPU 約 1,069 萬顆；此為簡報估計，非公司指引。
 
 ## 圖解
+
+![[報告_Aletheia_2027AI加速器關鍵變化_20261001_p002.png]]
+
+圖說：Aletheia p2：生產與功率模型。
+![[報告_Aletheia_2027AI加速器關鍵變化_20261001_p010.png]]
+
+圖說：Aletheia p10：TPU compute／I/O／封裝研究分工；配置及日期均待量產驗證。
 
 ![[報告_BofA_AgenticAI半導體市場_20260929_p08.png]]
 圖說：BofA 2026-09-29 將傳統伺服器、AI head node 與 agent node 拆分；CPU 用於序列式任務、工具調用與資料存取，並與 GPU／XPU 平行運算共存，市場份額為券商模型。
@@ -123,7 +142,20 @@ Dynamo 則位於軟體調度層，把 prefill、decode 與 KV cache routing 解�
 - 推論需求成長不必然等比例轉化為單一晶片廠商營收，需追蹤客戶自研、外包與平台混用。
 - NVLink 相容性降低整合門檻的同時，也提高客製 XPU 對 NVIDIA fabric、軟體與平台路線的依賴。
 
+## 2026-10-01：功率限制與 ASIC 設計價值移轉
+
+Aletheia 估 2027 生產 2,130 萬顆加速器，理論功率 52.6GW，含其他專案約 55GW；與新增設施 mid-40GW 有落差，但生產、出貨、安裝及通電可落後 2–3 季，IT／設施功率需再核對 PUE，不能直接判定某年全數需求消失。
+
+在同一設施電力限制下，MaxQ／MaxLPS 降每顆功耗可放入更多 GPU；有效 tokens/s、延遲、互連負擔與每瓦效率才是方案比較門檻。Rubin Ultra 以更小 rack 加更大 pod 提升密度，跨 rack 光互連需求仍可能上升。具體路線 [[分析_2027加速器供電與ASIC價值移轉_20261001]]。
+
+ASIC 前端 RTL／compute 設計的 AI 工具降低部分開發障礙，價值可能移向 I/O／SerDes、HBM base die、先進封裝與系統交付；這是券商 thesis，不能由 RTL 進度推定後段 qualification 完成。TPU v9 EMIB-T、v10 SoIC 皆將多晶粒良率、熱與通訊納入設計。
+
+國泰 GMI 訪談示範 prefill／decode 分離：prefill 偏運算、decode 偏記憶體頻寬；Dynamo 看 GPU 負載與 KV prefix 的位置調度，SSD warm cache 減少重做 prefill。32 GPU 場景稱速度 5.1x／吞吐 3.7x、成本降 30%，以及 cache 命中 3%→50%+，均為公司 benchmark，非通用保證。需同測 TTFT、TPOT、尾延遲、cache 命中率與 I/O；因資料搬移而增加的延遲可抵銷快取收益。
+
 ## 來源
+
+- [[報告_Aletheia_2027AI加速器關鍵變化_20261001]] — Aletheia Capital，2026-10-01；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
+- [[活動_國泰_美國參訪訪談紀要_20260914-18]] — 國泰證期研究部，2026-09-18；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 - [[報告_BofA_AgenticAI半導體市場_20260929]] — BofA，2026-09-29；CPU head node／agent node、TAM 與 GW 模型
 - [[報告_UBS_AI算力與資料中心電力供給_20260929]] — UBS，2026-09-29；晶片／die／rack／GW、PUE、電力條件
 
@@ -133,6 +165,8 @@ Dynamo 則位於軟體調度層，把 prefill、decode 與 KV cache routing 解�
 - [[video_NVIDIA_GTC2026_AI平台與NVL576_202603]] — NVIDIA GTC 2026 Session S81911；MoE expert parallelism、NVLink／NVSwitch、Dynamo 與 NVL576 原型
 
 ## 相關頁面
+
+- [[分析_國泰美國參訪_電力測試記憶體與太空驗證_20260914-18]]
 
 - [[0100.HK(minimax)]]
 - [[2513.HK(z.ai)]]

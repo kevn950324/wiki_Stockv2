@@ -14,7 +14,7 @@ tags:
   - 供應鏈/AI伺服器PCB
   - 環節/AI晶片設計
   - 產業/AI伺服器
-updated: 2026-10-08
+updated: 2026-10-11
 aliases:
   - Broadcom
   - 博通
@@ -28,6 +28,7 @@ related_companies:
   - "[[AMD.US(amd)]]"
   - "[[NVDA.US(nvidia)]]"
   - "[[供應鏈_CPO]]"
+  - "[[2454_聯發科（市）]]"
 image_status: "已有來源圖"
 ---
 
@@ -113,6 +114,10 @@ AI ASIC 市場 CAGR 2025-28E：72%（Bernstein）；$60-70B in CY26（JPM 2026-0
 | [[2327_國巨（市）]] | 被動元件（間接）| SEMCO 供 Broadcom MLCC，國巨為 MLCC 供應鏈參與者 |
 
 ## 圖片/架構圖
+
+![[報告_Aletheia_2027AI加速器關鍵變化_20261001_p015.png]]
+
+圖說：Aletheia p15：v8t／v8i 成本、ex-HBM 合成毛利與替代方案敏感度；正文版本差異另列。
 
 ![[報告_BofA_AgenticAI半導體市場_20260929_p03.png]]
 
@@ -210,7 +215,21 @@ BofA 的 AI 加速器收入模型 CY2026／27／28／30 為 US$49.8bn／102.6bn�
 
 跨模型與驗證框架：[[分析_AgenticAI需求到供電與材料獲利的驗證_20260929]]。
 
+## 本批來源更新（2026-10-11 入庫）
+
+### 2026-10-01 Aletheia：高內容值 TPU 與客戶集中
+
+Buy／TP US$500（原 525），20x FY27–28 平均 non-GAAP EPS（原 25x FY27）；FY 截至 10 月，FY26／27／28 non-GAAP EPS US$11.73／21.63／29.55，GAAP 9.60／19.40／27.42。營收 US$106.168／199.924／276.491bn、AI 收入 US$57.697／144.193／215.234bn 為 estimate／中。
+
+Aletheia 引述 2027 約 10GW 框架，其中 TPU 7–8、OpenAI 1–1.5、Meta 約 1GW；2028 20GW 仰賴 OpenAI 5GW 與供應於 1Q27 前確認。Google 目前占 AI 約 80%–90%、2028 可能降至約半是券商模型，非已完成客戶分散。
+
+v8i Sunfish、v8.5 Whalefish 與 v10 Merope 延續 Broadcom 方案；2027 TPU 顆數可與聯發科相近，但不同 compute／HBM 內容值使美元收入差異大。低毛利設計方、Google 自建 compute、AMD 潛在替代均屬競爭情境，不作已失單。84% ex-HBM 合成毛利、US$9,000／11,000 利潤版本及 v8t／v8i 誤植詳見 [[分析_2027加速器供電與ASIC價值移轉_20261001]]。
+
+時間軸：4Q27 Whalefish、1H29 Merope（均預估），1Q27 看供應與 OpenAI 計畫是否確定；同步 [[時程_2026-2028十月券商催化劑]]。
+
 ## 來源
+
+- [[報告_Aletheia_2027AI加速器關鍵變化_20261001]] — Aletheia Capital，2026-10-01；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 - [[報告_UBS_AI算力與資料中心電力供給_20260929]] — UBS，2026-09-29；ASIC 多 die、GW 與收入份額
 - [[報告_BofA_AgenticAI半導體市場_20260929]] — BofA，2026-09-29；Agentic AI 產業模型、個股估值與風險
 

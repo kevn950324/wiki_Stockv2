@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 環節/晶圓代工
   - 產業/光通訊
-updated: 2026-06-29
+updated: 2026-10-11
 aliases:
   - GlobalFoundries
   - GF
@@ -20,6 +20,7 @@ related_companies:
   - "[[GLW.US(corning)]]"
   - "[[COHR.US(coherent)]]"
   - "[[NVDA.US(nvidia)]]"
+  - "[[NVTS.US(navitas)]]"
 image_status: "待補來源圖"
 ---
 
@@ -58,6 +59,10 @@ GF 與 Corning 合作把 GLASSBRIDGE 離子交換玻璃連接器整合到 Fotoni
 
 ## 圖片 / 架構圖
 
+![[活動_國泰_美國參訪訪談紀要_20260914-18_p069.png]]
+
+圖說：國泰 p69：GaN 應用架構；與 Navitas 代工合作的 HVM 仍需獨立認證。
+
 ```mermaid
 flowchart LR
     A[Corning GLASSBRIDGE<br/>離子交換玻璃<br/>9µm 模場] --> B[GF Fotonix PIC<br/>SiN SSC<br/>Z-stop + fiducial]
@@ -95,7 +100,17 @@ flowchart LR
 | [[COHR.US(coherent)]] | 客戶 | Coherent 使用 GF Fotonix 代工 PIC |
 | [[2330_台積電（市）]] | 競爭對手 | COUPE 平台 |
 
+## 本批來源更新（2026-10-11 入庫）
+
+### 2026-09 國泰 Navitas 訪談：200mm GaN 合作
+
+Navitas CEO 稱美國 200mm Gen5 GaN 首批晶圓已於 9 月完成、10 月送樣、年底客戶測試、FY27 HVM，並以此銜接原 TSMC 代工來源。這是客戶端轉述／中信心，未由 GF 官方獨立驗證；GaN 與原頁 Fotonix 矽光子是不同平台，不混成同一訂單。
+
+供應鏈關係：[[NVTS.US(navitas)]] 為 GaN 合作／客戶端說法。時間軸：2026Q4 送樣與 qualification、FY27 量產驗證；同步 [[時程_2026-2028十月券商催化劑]]。
+
 ## 來源
+
+- [[活動_國泰_美國參訪訪談紀要_20260914-18]] — 國泰證期研究部，2026-09-18；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（GF×Corning 可拆連接器 ECTC 2026，2026-06-29）
 
@@ -103,6 +118,8 @@ flowchart LR
 - [[報告_開源證券_Tower半導體矽光代工_20260818]]（2026-08-18）
 
 ## 相關頁面
+
+- [[分析_國泰美國參訪_電力測試記憶體與太空驗證_20260914-18]]
 
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]
 - [[TSEM.US(tower semiconductor)]]

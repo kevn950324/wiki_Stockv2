@@ -5,7 +5,7 @@ tags:
   - 產業/記憶體
   - 產業/AI伺服器
 maturity: mature
-updated: 2026-10-04
+updated: 2026-10-11
 aliases:
   - NAND
   - NAND Flash
@@ -16,6 +16,14 @@ aliases:
   - SLC
   - Boot Drive
   - Super High IOPS
+  - "HBF"
+  - "High Bandwidth Flash"
+  - "高頻寬快閃記憶體"
+  - "NBM"
+  - "New Business Model"
+  - "HAMR"
+  - "High Bandwidth HDD"
+  - "Dual Pivot"
 ---
 
 # 技術_NAND快閃記憶體
@@ -33,6 +41,10 @@ NAND 快閃記憶體是非揮發性儲存的主流介質，以浮閘/電荷儲�
 *圖（統一證，2026-05-20）：主要 NAND 廠商製程推進（Ver. MN-2509-01 Simplified）。Samsung V8 236L（2025 量產）→ V9 286L → V10 4xxL；SK Hynix V8 238L → V9 321L；Kioxia/SanDisk BiCS8 218L（2025 量產）→ BiCS9 1yyL → BiCS10 332L → BiCS11 4xxL；Micron G8 232L → G9 276L；YMTC G5 Xtacking4 160L/267L（2026 紅框，加速擴張）；MXIC G1 48L → G2 92L → G3 192L。*
 
 ## 圖解
+
+![[活動_國泰_美國參訪訪談紀要_20260914-18_p088.png]]
+
+圖說：國泰 p88：儲存階層的容量與效能取捨；HDD、NAND、DRAM 互補，HBF 送樣仍待驗證。
 ```mermaid
 flowchart LR
     NAND[NAND 晶粒 SLC/MLC/TLC/QLC] --> CTRL[SSD 控制器]
@@ -100,7 +112,24 @@ flowchart LR
 - [[技術_HBM高頻寬記憶體]]
 - [[技術_CoWoS與先進封裝]]
 
+## 2026-09 國泰參訪：HBF 與儲存階層邊界
+
+SanDisk 稱基於 BiCS8 的 HBF 客製 die 已 tape-out、2027 送樣，容量目標為 HBM 的 8–16 倍；尚未納基準收入。HBF 以高並行／高頻寬設計擴大 NAND 使用場景，仍受 flash 隨機寫入、擦寫及延遲限制，不能視為 hot HBM／DRAM 的直接替代。TLC 偏效能與 KV 工作負載、QLC 偏容量；兩者需求可同時成長。
+
+Western Digital 訪談提供另一層：HBM／DRAM 保存熱資料與即時運算，NAND SSD 提供 warm cache／近線高效能容量，HDD 保存大量較冷資料。HAMR 提高面密度與容量，**不等於頻寬提高**；High Bandwidth HDD 與 Dual Pivot 才是平行存取／IOPS 路線。HDD 上的 KV Cache 是早期冷資料情境，不取代 active cache。
+
+| 技術 | 來源時程／目標 | 核對重點 |
+|---|---|---|
+| HBF | SanDisk 2027 送樣 | 介面、讀寫模式、實際延遲、客戶 qualification 與收入 |
+| HAMR | WDC 44TB 1H27／50TB 2H27，100TB 2029 目標 | 容量與頻寬分開；良率、頭／碟供給、客戶認證 |
+| High Bandwidth HDD | 5 客戶送樣、2x 頻寬到 2030 8x 潛力 | 特定測試與正式產品時程，非全面訂單 |
+| Dual Pivot | 2028 2x I/O 目標 | 雙致動器、成本、軟體與資料配置 |
+
+NBM 長約讓 SanDisk 資本支出與供量更可見，但 RPO、最低採購、擔保與收入需要分列；WDC HDD 長約與 SanDisk NAND 是不同公司與產品。分工／反證見 [[分析_國泰美國參訪_電力測試記憶體與太空驗證_20260914-18]]。
+
 ## 來源
+
+- [[活動_國泰_美國參訪訪談紀要_20260914-18]] — 國泰證期研究部，2026-09-18；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 - [[260702_ms_nand-industry]] — 摩根士丹利，2026-07-02
 - [[大和 韓國記憶體產業電話會議摘要]] — 大和，2026-07-02
 - [[20260521_0807_統一證to群益投信_記憶體技術概論與大廠現況分析_260520]] — 統一證券，2026-05-20（3D NAND Roadmap Ver.MN-2509-01；廠商製程節點路線圖）
