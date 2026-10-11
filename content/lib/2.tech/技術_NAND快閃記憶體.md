@@ -5,7 +5,7 @@ tags:
   - 產業/記憶體
   - 產業/AI伺服器
 maturity: mature
-updated: 2026-10-11
+updated: 2026-10-12
 aliases:
   - NAND
   - NAND Flash
@@ -127,7 +127,28 @@ Western Digital 訪談提供另一層：HBM／DRAM 保存熱資料與即時運�
 
 NBM 長約讓 SanDisk 資本支出與供量更可見，但 RPO、最低採購、擔保與收入需要分列；WDC HDD 長約與 SanDisk NAND 是不同公司與產品。分工／反證見 [[分析_國泰美國參訪_電力測試記憶體與太空驗證_20260914-18]]。
 
+## 2026-09-22：HBF 架構與 benchmark 的使用邊界
+
+HBF 以高並行 NAND／堆疊及互連拓展容量與讀取供給，HBM則維持熱資料的高頻寬低延遲角色。來源圖提出三種設計：
+
+| 配置 | 資料放置與功能 | 需核對的限制 |
+|---|---|---|
+| Prefill／decode disaggregation | Prefill用GDDR類配置、decode以HBF保存weights與KV cache | 分離造成的資料搬移、TTFT／TPOT、batch／context與cache locality |
+| HBF＋HBM混合 | 同一封裝部分stack positions改成HBF，增加read-optimized容量 | 實際pin／控制器／memory scheduling、頻寬與延遲，並非直接互換所有HBM |
+| HBM／HBF cached | HBM承擔分層cache、HBF保存weights與KV cache容量 | miss rate／熱資料工作集、寫入／擦寫耐久及尾延遲 |
+
+SanDisk的來源示意比較 **4TB HBF、4 GPU** 與 **192GB HBM-only、8 GPU** 相近token輸出；容量、GPU顆數與記憶體配置同時變動，未提供完整模型、precision、sequence length、batch、cache／軟體條件。這是公司scenario／benchmark（中低信心），不能泛化為「同規格GPU性能翻倍」、所有推論GPU減半或通用TCO下降幅度。
+
+![[報告_Aletheia_創意電子首次覆蓋_20260922_p009.png]]
+圖說：p9圖11／12包含三種架構及HBM8 GPU、HBF1／4 GPU的token輸出；測試條件未完整披露，圖中的曲線非全市場性能保證。
+
+[[3443_創意電子（市）]] 以GLink3D、die-to-die IP與APR參與 [[SNDK.US(sandisk)]]／[[000660.KR(sk_hynix)]] 堆疊，是Aletheia渠道研判，未經各公司官方確認。可觀察3D DFT、KGD、跨die STA、PI／SI／thermal與yield／qualification；量產及商業份額仍待確認。p8以8月投資人日轉述2027 tape-out／樣品、2028可能量產，與國泰9月「已tape-out、2027樣品」分別保存，不抹平日期／里程碑差異。
+
+來源：[[報告_Aletheia_創意電子首次覆蓋_20260922]]（2026-09-22，p8–9；技術／benchmark轉述、channel_check／中低）；[[活動_國泰_美國參訪訪談紀要_20260914-18]]（2026-09-18）。驗證框架：[[分析_創意COT獲利與營運資金驗證_20260922]]。
+
 ## 來源
+
+- [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；HBF配置、公司benchmark與堆疊IP／APR渠道研究。
 
 - [[活動_國泰_美國參訪訪談紀要_20260914-18]] — 國泰證期研究部，2026-09-18；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 - [[260702_ms_nand-industry]] — 摩根士丹利，2026-07-02

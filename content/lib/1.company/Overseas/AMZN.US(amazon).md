@@ -9,12 +9,13 @@ tags:
   - 產業/雲端
   - 產業/AI伺服器
   - 環節/雲端服務
-updated: 2026-09-29
+updated: 2026-10-12
 aliases:
   - Amazon
   - Amazon.com
   - AWS
 related_companies:
+  - "[[3443_創意電子（市）]]"
   - "[[索爾思光電（未）]]"
 ---
 
@@ -35,6 +36,10 @@ Amazon 是全球電子商務、雲端與廣告平台；AWS 為 AI 基礎設施�
 | Trainium／Inferentia | AI 加速器 | [[3443_創意電子（市）]]、伺服器供應鏈 |
 
 ## 圖片 / 架構圖
+
+![[報告_Aletheia_創意電子首次覆蓋_20260922_p002.png]]
+圖說：p2 將 AWS CPU 列為未納創意模型的選擇權；表格中的既有專案不證明 Graviton6 得標或供量。
+
 ```mermaid
 flowchart LR
   Capex[AWS AI資本支出] --> Chips[Trainium／Inferentia]
@@ -45,6 +50,11 @@ flowchart LR
 > AWS 的 AI 資本支出透過自研晶片與伺服器供應鏈，回到雲端服務成長與再投資循環。
 
 ## 時間軸
+
+| 時間／窗口 | 新增觀察 | 類型 | 重要性 | 來源與追蹤 |
+|---|---|---|---|---|
+| 2027H2／2028年中（情境） | Graviton6 規格／可能 general availability | 設計／供給驗證 | ⭐⭐ | Aletheia 2026-09-22／中低，[[報告_Aletheia_創意電子首次覆蓋_20260922]]；[[時程_2026-2028十月券商催化劑]] |
+
 | 時間 | 事件 | 類型 | 重要性 | 備註 |
 |---|---|---|---|---|
 | 2026Q3 | 營收指引 US$1,970–2,020 億 | 財測 | ⭐⭐⭐ | 公司指引，來源為富邦 memo |
@@ -62,7 +72,17 @@ flowchart LR
 > - AI 資本支出回收期、電力與晶片供給限制可能壓縮報酬。
 > - AWS 成長若放緩或雲端競爭加劇，估值與投資循環可能反轉。
 
+## Aletheia 2026-09-22：創意 COT／Turnkey 研究關聯
+
+來源轉述 [[3443_創意電子（市）]] 與 AWS CPU 專案接洽；作者依產品週期推測 Graviton6 規格約2H27、general availability 約2028年中，並以 Trainium3 的1 CPU:4 XPU 作平台情境。Graviton6 身分、合作範圍、時點與配置皆未獲 AWS 本次正式確認，屬 thesis／中低信心；本次是 **CPU 線索**，不驗證本頁既有 Trainium 設計服務關係。
+
+AWS 不在創意基準模型，100萬顆、TK3 毛利下約增加創意年 EPS40元只為有條件敏感度。原文稱 Graviton「62-bit」疑似誤植，本頁不採該字樣為CPU規格。
+
+來源：[[報告_Aletheia_創意電子首次覆蓋_20260922]]（2026-09-22；券商 estimate／channel_check／thesis，信心依上段）。分析：[[分析_創意COT獲利與營運資金驗證_20260922]]。
+
 ## 來源
+
+- [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；創意專案、合作分工與未確認的上行情境。
 - [[AMZN Q2 Earnings Call memo_Fubon 20260731]]（富邦證券，2026-07-31）
 
 - [[20260721_歐洲半導體：全球科技網路直播—ASML管理層路演、儲存創新與蘋果AI_MS]]（2026-07-21）

@@ -59,7 +59,13 @@ aliases:
   - "Triggerfish EMIB-T"
   - "Merope SoIC"
   - "Icefish SoIC"
-updated: 2026-10-11
+  - GLink3D
+  - GLink-3D
+  - GLink 2.5D
+  - UCIe-3D
+  - Advanced Packaging Technology
+  - APT
+updated: 2026-10-12
 ---
 
 # 技術_CoWoS與先進封裝
@@ -517,7 +523,29 @@ Aletheia 把 TPU v9 Humufish／Triggerfish 放在 1H28 EMIB-T；其中 Google �
 > [!warning] 良率不可直接排序
 > JPM 9-30 EMIB-T **基板**約 55%–60%；Aletheia 10-01 **封裝製程**約 50%、HVM 目標 80%；國泰 Intel IR 稱已達要求但未提供同分母數值。三者並列、待確認測試車與量測階段，不以數字高低直接判定誰正確。
 
+## 2026-09-22：GLink3D／APT 與 TK 工程邊界
+
+[[3443_創意電子（市）]] 的 APT 把 HBM、die-on-die 3D堆疊、2.5D die-to-die互連與外部PCIe／SerDes納入共同設計。GLink3D／UCIe-3D 是垂直互連與實作IP，CoWoS／InFO 是橫向封裝與製造平台；兩者可以疊加，不能把授權IP等同晶圓代工或完整量產案。
+
+| 工程層 | 流程／必要參數 | 瓶頸與驗證 |
+|---|---|---|
+| IP／互連 | PHY／controller、TX／RX大小、pitch／TSV／HB陣列與子系統整合 | 各die製程、訊號／時脈、測試協定及介面規格匹配，不能只比理論頻寬 |
+| 3D前後端實作 | top／bottom die floorplan、跨die STA／power sign-off、3D DFT | 走線／bump與PDN共同收斂；KGD篩選與跨die測試可降低昂貴封裝報廢 |
+| PI／SI／thermal co-design | 上下die與晶粒／封裝／系統共模擬、驗證流程 | 路徑雖縮短，垂直熱阻、電壓降、EM、翹曲／對位與散熱仍可能限制yield |
+| 製造與交付 | stack／package設計、qualification item與硬體、characterization、yield／DOE | 製程移轉與量產穩定性、測試相關性及供應商驗證，不能由tape-out直接推收入 |
+
+TK2 在客戶已交 GDSII 後，仍可負責中介層／RDL／基板、bump routing、SI／PI／熱、CP／FT與qualification；TK3承接已建立流程，仍須test correlation、良率／品質與產能管理。多晶粒架構可提高工程內容，但 Aletheia 所稱「TK3 毛利提升至low teens」為商業thesis／中低信心，不能當已公告通用定價。
+
+![[報告_Aletheia_創意電子首次覆蓋_20260922_p005.png]]
+圖說：p5 **圖7／8**呈現 APT、GLink3D與共同工程流程；同頁圖6的TPUv8變體／設計方有內部倒置，不能以它確認世代設計分工或得標。
+
+Google Icefish、HBF與COUPE PIC／EIC後段整合仍為研究選擇權；CPO接洽不等於已取得整體Turnkey合約。完整交付邊界見 [[技術_AI推論與ASIC平台]]，現金／量產驗證見 [[分析_創意COT獲利與營運資金驗證_20260922]]。
+
+來源：[[報告_Aletheia_創意電子首次覆蓋_20260922]]（2026-09-22，p4–5、8–14；技術轉述／中，客戶與財務thesis／中低）。
+
 ## 來源
+
+- [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；GLink3D／APT原理、TK後段工程與選擇權。
 
 - [[報告_Aletheia_2027AI加速器關鍵變化_20261001]] — Aletheia Capital，2026-10-01；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 - [[報告_JPM_台積電擴產與財測_20260930]] — J.P. Morgan，2026-09-30；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。

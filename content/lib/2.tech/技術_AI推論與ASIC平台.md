@@ -4,7 +4,7 @@ tags:
   - 技術/AI推論
   - 技術/ASIC
   - 產業/AI伺服器
-updated: 2026-10-11
+updated: 2026-10-12
 image_status: "已有來源圖"
 aliases:
   - Agentic AI
@@ -34,7 +34,20 @@ aliases:
   - "Icefish"
   - "Prefill Decode Disaggregation"
   - "KV prefix cache"
+  - COT
+  - Customer-Owned Tooling
+  - TK1
+  - TK2
+  - TK3
+  - Netlist-in
+  - GDS-in
+  - Production transfer
+  - APR
+  - Automatic Place and Route
+  - GDSII
+  - Physical implementation
 related_companies:
+  - "[[3443_創意電子（市）]]"
   - "[[2454_聯發科（市）]]"
   - "[[NVDA.US(nvidia)]]"
   - "[[GOOGL.US(alphabet)]]"
@@ -80,6 +93,27 @@ flowchart LR
 圖說：NVLink Fusion 讓客製 XPU 不必與 GPU 生態完全分離，而可透過共同 scale-up／scale-out fabric、CPU 與 HBM 整合進 rack-scale AI factory。
 
 ## 技術原理
+
+### COT 與 TK1／TK2／TK3：設計權與交付責任（2026-09-22）
+
+Customer-Owned Tooling 使客戶保有晶片 architecture、演算法、RTL、驗證及主要 compute 設計，再把不同成熟度的成果交給服務商。[[3443_創意電子（市）]] 的 TK1／2／3 表示 **接手點**，不表示三代晶片、也不是每個專案都依序經過的階段；契約仍可加入 IP／子系統整合責任。[[2454_聯發科（市）]] 的 I/O 設計與創意後段服務在特定 Google 方案可能互補，實際得標範圍需按專案驗證。
+
+| 接手模式 | 輸入／尚未完成 | 必要流程與驗證 | 主要限制 |
+|---|---|---|---|
+| TK1 Netlist-in | 已邏輯合成的閘級連線；尚無完整實體座標、金屬配線與電源網 | die估算／floorplan→macro與標準元件 placement→power-grid／bump-map→clock-tree synthesis→routing→DFT／STA→IR-drop、EM、SI分析→DRC／LVS／antenna→ECO／timing closure→GDSII→封裝、測試與量產 | PPA與時序／功耗／走線約束互相牽制；簽核、良率與EDA資源不能由前端RTL完成度替代 |
+| TK2 GDS-in | 晶粒 physical design 已sign-off；封裝／資格／量產未必完成 | mask與foundry協調、wafer starts、基板／RDL／bump、中介層、SI／PI／thermal、probe／load board／socket、CP／FT、silicon debug、可靠度與yield ramp | 晶粒PPA優化空間小；重大設計問題需客戶改GDS甚至重新tape-out。CoWoS／HBM／chiplet工作仍可能很重 |
+| TK3 Production transfer | 已有設計、mask、BOM、測試程式、golden samples與良率／品質規則 | test correlation→supplier qualification→良率／binning驗證→quality／change control→採購／產能／供應鏈與物流 | 前置NRE少不代表低風險；品質／供量與營運資金墊付仍決定交付能力 |
+
+TK1 對應物理後端工程，而非從零發明所有晶片功能；TK3 不應簡化為單純「GDS-in」。先進製程、複雜封裝與高功率加速器會同時推高 PDN、訊號、散熱、測試與製造限制。來源 p11 的多倍 reticle 描述未清楚區分單一晶粒與多晶粒封裝尺度，本頁不把多倍光罩尺寸當單一 monolithic die 規格。
+
+[[5274_信驊（市）]] 的 AST2600／2700 是本報告 TK1 服務模型案例；晶片品牌、架構與創意的實體實作／量產交付責任分開，專案 EPS 不代表信驊 EPS。
+
+![[報告_Aletheia_創意電子首次覆蓋_20260922_p010.png]]
+圖說：p10 圖13 的 Spec／Netlist／GDS／Mask／Logistics 與各 TK 覆蓋範圍；實際專案責任仍依契約。
+
+判斷指標應按 **工程交付、商業組合、現金循環** 分開：PPA／時序簽核與CP／FT良率驗證能力；NRE→turnkey轉換、TK1／2／3專案毛利與mix；wafer／HBM／載板付款到客戶收款的天數及預付款／合約負債。營收放量可能拉低合併毛利率，營業槓桿可能提高營業利益率，兩者都不保證自由現金流為正。
+
+來源：[[報告_Aletheia_創意電子首次覆蓋_20260922]]（2026-09-22，p10–14；服務定義轉述／中，商業結果thesis／中低）。封裝與IP原理見 [[技術_CoWoS與先進封裝]]；財務驗證見 [[分析_創意COT獲利與營運資金驗證_20260922]]。
 
 ### 代理工作負載與系統供給（2026-09-29）
 
@@ -153,6 +187,8 @@ ASIC 前端 RTL／compute 設計的 AI 工具降低部分開發障礙，價值�
 國泰 GMI 訪談示範 prefill／decode 分離：prefill 偏運算、decode 偏記憶體頻寬；Dynamo 看 GPU 負載與 KV prefix 的位置調度，SSD warm cache 減少重做 prefill。32 GPU 場景稱速度 5.1x／吞吐 3.7x、成本降 30%，以及 cache 命中 3%→50%+，均為公司 benchmark，非通用保證。需同測 TTFT、TPOT、尾延遲、cache 命中率與 I/O；因資料搬移而增加的延遲可抵銷快取收益。
 
 ## 來源
+
+- [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；COT、TK1–3、APR／簽核、量產與營運資金。
 
 - [[報告_Aletheia_2027AI加速器關鍵變化_20261001]] — Aletheia Capital，2026-10-01；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 - [[活動_國泰_美國參訪訪談紀要_20260914-18]] — 國泰證期研究部，2026-09-18；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。

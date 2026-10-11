@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 技術/矽光子
   - 環節/光纖與光通訊
-updated: 2026-10-08
+updated: 2026-10-12
 aliases:
   - Marvell
   - 邁威爾
@@ -19,6 +19,8 @@ aliases:
   - Photonic Fabric
   - plasmonics
 related_companies:
+  - "[[3443_創意電子（市）]]"
+  - "[[MSFT.US(microsoft)]]"
   - "[[NVDA.US(nvidia)]]"
   - "[[AVGO.US(broadcom)]]"
   - "[[2330_台積電（市）]]"
@@ -139,7 +141,17 @@ BofA 將 Marvell 列為 4Q26 top picks；客製 AI 加速器收入模型 CY2026�
 
 跨模型與驗證框架：[[分析_AgenticAI需求到供電與材料獲利的驗證_20260929]]。
 
+## Aletheia 2026-09-22：創意 COT／Turnkey 研究關聯
+
+Aletheia p6–7把 Microsoft Maia200 描述為客戶自主架構、Marvell／[[2330_台積電（市）]] 與 [[3443_創意電子（市）]] TK3 生產管理共同參與的鏈條，並稱 Marvell 取得 Maia300 設計。來源又推測創意可能贏回 Maia400 且已接洽：兩代專案與前端設計／後段交付角色分開，不能由「接洽」判定 Marvell 已失單。
+
+[[MSFT.US(microsoft)]] 的 Maia300 設計關係為券商 channel_check／中低；Maia400 勝率為 thesis／中低，未新增官方合約、金額、量產時點或 Marvell EPS 模型。
+
+來源：[[報告_Aletheia_創意電子首次覆蓋_20260922]]（2026-09-22；券商 estimate／channel_check／thesis，信心依上段）。分析：[[分析_創意COT獲利與營運資金驗證_20260922]]。
+
 ## 來源
+
+- [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；創意專案、合作分工與未確認的上行情境。
 - [[報告_BofA_AgenticAI半導體市場_20260929]] — BofA，2026-09-29；Agentic AI 產業模型、個股估值與風險
 
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]]（Simple Tech Trend，2026-08-31；pJ/bit、plasmonics 與光子互連觀察）

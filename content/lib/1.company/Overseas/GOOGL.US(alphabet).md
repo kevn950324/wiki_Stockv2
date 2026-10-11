@@ -14,13 +14,14 @@ tags:
   - 主題/Gemini
   - 主題/Waymo
   - 環節/雲端服務
-updated: 2026-10-08
+updated: 2026-10-12
 aliases:
   - Google
   - Alphabet
   - GOOGL
   - GOOG
 related_companies:
+  - "[[3443_創意電子（市）]]"
   - "[[005930.KR(samsung)]]"
   - "[[6257_矽格（市）]]"
   - "MSFT.US(microsoft)"
@@ -97,6 +98,11 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 
 ---
 
+## 圖片 / 架構圖
+
+![[報告_Aletheia_創意電子首次覆蓋_20260922_p002.png]]
+圖說：p2 的創意專案量與架構敘述；Axion 型號／系列、launch／收入時點存在來源內部分歧。
+
 ## Anthropic 持股
 
 - **Alphabet 為 Anthropic 最大外部投資方之一**
@@ -152,6 +158,11 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 ---
 
 ## 時間軸
+
+| 時間／窗口 | 新增觀察 | 類型 | 重要性 | 來源與追蹤 |
+|---|---|---|---|---|
+| 2027（時點分歧） | Axion3：4Q27 launch 對 early-year 收入／2H27 放量 | 設計／放量驗證 | ⭐⭐⭐ | Aletheia 2026-09-22／中低，[[報告_Aletheia_創意電子首次覆蓋_20260922]]；[[時程_2026-2028十月券商催化劑]] |
+
 
 | 時間 | 事件 | 類型 | 重要性 | 備註 |
 |---|---|---|---|---|
@@ -218,7 +229,17 @@ UBS 2026-09-29 的四 die TPUv9／高功率機架屬供給模型情境；2027 �
 
 ---
 
+## Aletheia 2026-09-22：創意 COT／Turnkey 研究關聯
+
+Aletheia 以 [[3443_創意電子（市）]] 承接 Axion CPU TK3／IP 與 SoIC 生產管理為主軸；TPUv8 的 CPU:TPU 約 1:2 是來源架構情境。其 2027 TPU 約820萬顆、Axion 系列約500萬顆以上，不宜按固定比率同時外推所有 GCP 一般運算 CPU。p2／15 Axion2 500萬、Axion3 30萬；p3另列 Axion2 約400–450萬、Axion3逾50萬；型號／系列口徑保留分歧。Axion3 p2「4Q27 launch」與 p3「early-2027收入、2H27有意義放量」待確認，均非 Google 正式供量承諾。
+
+COT 路線保有核心 compute 設計，[[2454_聯發科（市）]] 提供部分 I/O、創意提供物理實作／IP／交付服務；v10 Icefish 與創意 GLink3D 仍是研究選擇權，未納其基準獲利。p5 圖6 的 v8t／v8i 設計方及變體倒置，引用時以原文各段並列，不用該表定案。
+
+來源：[[報告_Aletheia_創意電子首次覆蓋_20260922]]（2026-09-22；券商 estimate／channel_check／thesis，信心依上段）。分析：[[分析_創意COT獲利與營運資金驗證_20260922]]。
+
 ## 來源
+
+- [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；創意專案、合作分工與未確認的上行情境。
 - [[報告_高盛_三星HBM與獲利預估_20260930]] — Goldman Sachs，2026-09-30；三星 TPU HBM 供應關聯
 - [[報告_UBS_AI算力與資料中心電力供給_20260929]] — UBS，2026-09-29；TPUv9 四 die、機架及供電模型
 

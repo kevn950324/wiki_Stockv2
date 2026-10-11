@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 產業/AI伺服器
   - 環節/雲端服務
-updated: 2026-10-05
+updated: 2026-10-12
 aliases:
   - Meta
   - Meta Platforms
@@ -18,6 +18,7 @@ aliases:
   - Meta Superintelligence Labs
   - MSL
 related_companies:
+  - "[[3443_創意電子（市）]]"
   - "[[AMD.US(amd)]]"
   - "[[AVGO.US(broadcom)]]"
   - "[[NVDA.US(nvidia)]]"
@@ -174,6 +175,11 @@ SemiAnalysis 估計 Meta 可盈利吸收 **10x 廣告推薦算力增加**，每�
 
 ## 時間軸
 
+| 時間／窗口 | 新增觀察 | 類型 | 重要性 | 來源與追蹤 |
+|---|---|---|---|---|
+| 2028 起（情境） | MTIA600 Phoebe 開發與創意 TK3 接洽 | 開發／選擇權 | ⭐⭐ | Aletheia 2026-09-22／中低，[[報告_Aletheia_創意電子首次覆蓋_20260922]]；[[時程_2026-2028十月券商催化劑]] |
+
+
 | 日期 | 事件 |
 |------|------|
 | 2025-06 | MSL 正式成立；Zuck 開始億元挖角 |
@@ -186,7 +192,17 @@ SemiAnalysis 估計 Meta 可盈利吸收 **10x 廣告推薦算力增加**，每�
 | 2026-07-09 | SemiAnalysis 評估 MSL 一年進展（看多，但謹慎） |
 | 2028（估計） | 導入 Coherent OCS（Coherent OCS 台數增至約 10,500 台）；Coherent 專家訪談 estimate，低信心 |
 
+## Aletheia 2026-09-22：創意 COT／Turnkey 研究關聯
+
+Aletheia 估 MTIA400 Iris+、450 Arke、500 Astrid 各世代整體年量約30–60萬顆級；2028 起 MTIA600 Phoebe **開始開發**、可能採 N2P／N3／N3E、SoIC＋CoWoS-L，並研判 [[3443_創意電子（市）]] 以 TK3 接洽。這是開發窗口與渠道 thesis／中低信心，不能改寫成 2028 已量產或已授予設計案。來源再提出創意可能承接含 Rivos compute 的 TK1 全案為情境。
+
+Meta 未納創意的基準模型：30萬顆、TK3 毛利假設下約增創意年EPS25元是敏感度，不是 Meta EPS，也不能直接加到創意年度預估。與既有 UBS「最快2028年中ASIC」及早期 Apollo／Rivos 規劃按來源／里程碑分開。
+
+來源：[[報告_Aletheia_創意電子首次覆蓋_20260922]]（2026-09-22；券商 estimate／channel_check／thesis，信心依上段）。分析：[[分析_創意COT獲利與營運資金驗證_20260922]]。
+
 ## 來源
+
+- [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；創意專案、合作分工與未確認的上行情境。
 
 - [[memo_Coherent專家訪談_光模組量價_NPO_OCS_EML與獲利目標_日期不詳]]（使用者提供，日期不詳，2026-10-05 收錄；Meta 2028 年導入 Coherent OCS，低信心）
 - [[報告_UBS_廣達_20260720]]（UBS，2026-07-20；Meta 等 ASIC 專案開始貢獻廣達營收）
