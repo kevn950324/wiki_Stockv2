@@ -5,11 +5,17 @@ tags:
   - 產業/光通訊
   - 環節/光通訊
 maturity: mature
-updated: 2026-10-05
+updated: 2026-10-12
 aliases:
   - FAU
   - Fiber Attach Unit
   - Fiber Array Unit
+  - Fiber Array
+  - 光纖陣列
+  - one-row FA
+  - GC FA
+  - PMLA
+  - prism/microlens array
   - 光纖接頭
   - dFAU
   - Detachable Fiber Array Unit
@@ -88,6 +94,20 @@ NVIDIA Quantum X：固定式 FAU，對應 18 芯；僅幾千台規模（2025 計
 | 外置 ELS | 36 芯、搭配保偏光纖；再依垂直／邊緣耦合區分平台 | 外部高功率 CW 經 PMF 傳至 PIC，光路較長、耦合損失較高 |
 | 內置 NPO CW | 32 芯；150／200mW CW 直接放在 ASIC 鄰近光引擎 | 不需外置 ELS 的 PMF 路徑，成本與維修性取捨不同 |
 
+### 光柵耦合 FA、邊緣耦合與 PMLA 的材料取捨
+
+CPO 光纖陣列依 PIC 端的耦合方式分流：**光柵耦合（GC）** 讓光從晶片表面以近垂直角度進出，FA 需把多根光纖以固定 pitch 與角度對準表面光柵；**邊緣耦合（EC）** 則從晶片側邊經模斑轉換器進出，Corning GlassBridge 屬此類可拆連接方案。兩者對 FA 結構、對位公差與封裝流程要求不同，不能用同一份額或單價比較。
+
+[[報告_Nomura_大立光CPO光纖陣列_20260709]] 轉述 [[3008_大立光（市）]] 觀點：GC 是主流設計路線，其 GC FA 不受 GlassBridge（EC）影響；已有 1 家客戶的單排 FA，2026-09 前 pilot run、最快 2027 年中量產。另一條光學路線是 PMLA（稜鏡／微透鏡陣列），用於光束轉向與準直：
+
+| 材料／製法 | 優點 | 限制 |
+|---|---|---|
+| 模造玻璃（大立光） | 插損低於 metalens | 公司優先度低於 FA |
+| Metalens（如亞光蝕刻式矽 metalens） | 可晶圓級製作、被動對位 | 大立光稱插損較高；屬競爭者觀點 |
+| 石英玻璃稜鏡（半導體級製程，供應商未具名） | 成本結構較佳、無熱效應 | 來源未揭露廠商與規格 |
+
+上述為單一券商轉述公司說法（信心中低），插損數值未揭露；需以客戶認證與實測插損驗證。
+
 ## 關鍵參數 / 判斷指標
 
 | 指標 | 意義 | 2026 觀察重點 |
@@ -137,15 +157,19 @@ Coherent 供應鏈中：蘅東光占 **約 40%** 份額（第二大）。
 | MPC 方案（獨家）| Senko（未建頁）| DFAU 連接器方案獨家方案 |
 | CPO Shuffle Box | [[COHR.US(coherent)]] | 北美 CPO Shuffle Box（$3,000–5,000）及 FAU 模組 |
 | 台灣 FAU / 光纖被動件 | [[3363_上詮（櫃）]] | FAU 台系供應商 |
+| CPO GC FA／PMLA（新進）| [[3008_大立光（市）]] | 手機鏡頭廠以自動化高精度對位切入；1 家客戶單排 FA，最快 2027 年中量產（Nomura 2026-07-09，estimate） |
+| EC 可拆玻璃連接器 | [[GLW.US(corning)]] | GlassBridge 邊緣耦合方案，與 GC FA 為不同路線 |
 
 ## 相關技術
 
 - [[技術_CPO]]（CPO 光引擎中 FAU 的角色）
 - [[技術_光模塊]]（可插拔光模組 FAU 用量演進）
 - [[技術_光互連]]（LPO/CPO/OCS 全景比較）
+- [[供應鏈_CPO]]（CPO 光學元件與 FAU 供應商地圖）
 
 ## 來源
 
+- [[報告_Nomura_大立光CPO光纖陣列_20260709]] — Nomura，2026-07-09（大立光 GC FA 客戶／試產／量產時點、GC vs EC、PMLA 材料取捨；券商轉述公司觀點，信心中低）。
 - [[memo_AceCamp_亨通光電_光纖與MPO展望_20260930]] — AceCamp Tech，2026-09-30（PMF幾何精度、應力棒與有效供給；匿名渠道／低至中信心）。
 
 - [[memo_无源光器件大厂调研_FAU_MMC_acecamptech_20260522]]（FAU 供需缺口、CPO FAU 認證、競爭格局、光纖供應）

@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 環節/光纖
   - 產業/光通訊
-updated: 2026-10-07
+updated: 2026-10-12
 aliases:
   - Corning
   - 康寧
@@ -21,6 +21,7 @@ related_companies:
   - "[[NVDA.US(nvidia)]]"
   - "[[INTC.US(intel)]]"
   - "[[3055_蔚華科（市）]]"
+  - "[[3008_大立光（市）]]"
 image_status: "待補來源圖"
 ---
 
@@ -94,15 +95,19 @@ flowchart LR
 | [[NVDA.US(nvidia)]] | 戰略合作 | 光纖供應，光進銅退 |
 | [[INTC.US(intel)]] | 玻璃客戶 | 3DGS 玻璃基板 |
 | [[3055_蔚華科（市）]] | 技術合作 | 國泰證期 2026-09-10 稱雙方合作玻璃基板光波導檢測；細節未公開 |
+| [[3008_大立光（市）]] | 替代路線 | Nomura 2026-07-09 轉述大立光聚焦光柵耦合（GC）FA，認為不受 GlassBridge 邊緣耦合（EC）方案影響；屬路線分工判斷，非份額數據 |
 
 ## 相關技術
 
 - [[技術_玻璃基板]]（Corning 是先進封裝玻璃原片主要供應商之一）
 - [[技術_矽光子（SiPh）]]（GLASSBRIDGE 連接矽光子 PIC 與光纖）
 - [[分析_CPO_NPO_XPO與409.6T光互連轉折]]（內／外置光源、PMF 與 FAU 價值量分流）
+- [[技術_FAU]]（GlassBridge 屬邊緣耦合可拆方案，與光柵耦合 FA 路線比較）
+- [[供應鏈_CPO]]（CPO 光纖、連接器與光學元件供應鏈）
 
 ## 來源
 
+- [[報告_Nomura_大立光CPO光纖陣列_20260709]]（Nomura，2026-07-09）：大立光稱 GC 為主流設計路線、其 FA 不受 Corning GlassBridge（EC）影響；為競爭對手觀點，信心中低。
 - [[報告_MorganStanley_貿聯_20261006]]（Morgan Stanley，2026-10-06）：MS 指 [[3665_貿聯-KY（市）]] 與 Corning 合作 shuffle box（光纖重排盒），屬貿聯光互連布局之一；合作規模未揭露。
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（GF×Corning ECTC 2026，2026-06-29）
 - [[技術_光互連]]（NVIDIA×Corning 戰略合作 2026-05-06）
