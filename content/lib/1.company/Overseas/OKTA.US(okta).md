@@ -10,7 +10,7 @@ tags:
   - 環節/SaaS平台
   - 主題/身份安全
   - 主題/AI驅動資安
-updated: 2026-10-05
+updated: 2026-10-22
 aliases:
   - Okta
 related_companies:
@@ -182,6 +182,8 @@ Oktane 的重點是 Okta 不再只在登入時授權，而是用 Agent Gateway �
 - [[Cybersec 260714 UBS_Positive June Q checks]]（2026-07-14）
 - [[Cybersec 260720 WF_2Q26 on-cycle security reseller survey]]（2026-07-20）
 
+- [[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（2026-10-22）
+
 ## 相關頁面
 
 - [[分析_Zscaler與Okta_Agent防護分工_20261005]] — Agent 端防護的流量層 vs 身份層分工。
@@ -191,3 +193,7 @@ Oktane 的重點是 Okta 不再只在登入時授權，而是用 Agent Gateway �
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[時程_2026AI軟體與軍工AIoT催化劑]]
 - [[分析_AI驅動資安支出2026]]
+
+### 2026-10-22 NVIDIA 代理安全平台
+
+- Okta 列名 NVIDIA OpenShell 平台投影片；作者認為 agent 需要身分、憑證與權限管理，身分管理需求為新增，Okta 與 CrowdStrike 偏受惠。來源：[[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（大叔美股筆記，2026-10-22；整理媒體報導與作者觀點，信心中）

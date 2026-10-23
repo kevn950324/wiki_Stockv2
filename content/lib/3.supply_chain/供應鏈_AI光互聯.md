@@ -8,7 +8,7 @@ tags:
   - 技術/矽光子（SiPh）
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-10-08
+updated: 2026-10-23
 ---
 
 # 供應鏈_AI光互聯
@@ -229,6 +229,7 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 
 ## 相關頁面
 
+- [[3406_玉晶光（市）]]
 - [[分析_2026Q3先進封裝與光互連供給瓶頸]]
 - [[分析_光通訊產業2026]]
 - [[分析_FMS2026_CXL記憶體池與光互連受惠邏輯]]
@@ -257,6 +258,7 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 
 ## 來源
 
+- [[research_產業合作技術發表_2026-10-23]] — 官方發表彙整，2026-10-20～22；Palomino GaN MicroLED 光互連 PO、正文×Starman 美國光收發模組廠。
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31
 
 - [[Optical Networking 260417 GS AI scale out scale up]]（Goldman Sachs，2026-04-17；TAM $15B→$154B；CPO TAM 逐年；BoM breakdown；Scale-up 佔 69%）
@@ -378,6 +380,14 @@ Semtech（[[SMTC.US(semtech)]]）以 AEC SerDes、1.6T CopperEdge／FiberEdge TI
 - **雷射與晶片：** [[2301_光寶科（市）]] 旗下 DenseLight 做 InP CW DFB／ELS；聯亞、華星光、IET-KY 的 InP 擴產與供給口徑見 [[技術_InP磷化銦]]。
 
 來源：[[活動_Semtech_FY2Q27法說_20260826]]、[[活動_華星光4979_國泰CallMemo_20260828]]、[[活動_晶技3042_法說與論壇Memo_20260819]]、[[活動_台嘉碩3221_CallMemo_20260806]]、[[活動_匯鑽科8431_元大論壇Memo_20260915]]、[[活動_光寶科2301_元大論壇Memo_20260909]]。
+
+## 2026-10-20～22 官方發表：MicroLED 光互連首張 PO、台廠美國光模組產地
+
+- **MicroLED 光互連路線（fact；小型公司自述）**：Palomino Laboratories（OTCQB: PALX，未建頁）2026-10-22 宣布取得未具名超大規模雲端業者首張採購單並附 SOW，交付 AI 光互連用 GaN MicroLED 晶片；SOW 是提高輸出功率與光纖耦合效率，公司稱其餘參數已符合客戶目標。2026-07 已送出第一代 MicroLED 光引擎原型，客戶實測頻寬高於原設計。未揭露金額、波長、頻寬與功耗。
+- **路線定位**：MicroLED 光互連以大量平行、低速率的 LED 通道取代雷射＋高速調變，主攻機櫃內短距離、低功耗連結，與 CPO／LPO 的雷射路線並行；同類業者另有 Avicena（Palomino 10-K 點名，未建頁）。目前仍是開發合約，對台灣雷射、矽光子與光模組廠短期影響有限（thesis／低）。
+- **台廠美國產地**：[[4906_正文（市）]] 與 Starman New Photonics（未建頁）2026-10-20 宣布在美國新澤西州合作生產 800G／1.6T 光收發模組，計畫投資 1.5 億美元、獲州稅抵免最高 3,750 萬美元；投產日與產能未揭露。這是光模組「非中國產地」需求延伸到美國本土製造的案例。
+
+來源：[[research_產業合作技術發表_2026-10-23]]（Palomino GlobeNewswire 新聞稿 2026-10-22；Starman 新聞稿 2026-10-20）。
 
 ## 相關頁面
 

@@ -14,7 +14,7 @@ tags:
   - 主題/Gemini
   - 主題/Waymo
   - 環節/雲端服務
-updated: 2026-10-12
+updated: 2026-10-22
 aliases:
   - Google
   - Alphabet
@@ -237,7 +237,16 @@ COT 路線保有核心 compute 設計，[[2454_聯發科（市）]] 提供部分
 
 來源：[[報告_Aletheia_創意電子首次覆蓋_20260922]]（2026-09-22；券商 estimate／channel_check／thesis，信心依上段）。分析：[[分析_創意COT獲利與營運資金驗證_20260922]]。
 
+## Google Cloud A5X：Vera Rubin NVL72 上線（2026-10-21）
+
+- NVIDIA 官方部落格（2026-10-21，fact／高）：Google Cloud A5X 執行個體採 [[NVDA.US(nvidia)]] Vera Rubin NVL72，搭配 ConnectX-9 SuperNIC、Google Cloud Virgo Network 與第四代液冷，正式上線「下個月」（2026 年 11 月），之後擴展至歐洲；首家客戶為倫敦 Ineffable Intelligence。
+- Google Cloud 規劃 Vera Rubin 基礎設施擴至最多 **96 萬顆 Rubin GPU**、橫跨多個場址；雙方另探索以 DSX MaxLPS 提升每瓦效能。
+- 意義：Google 同時擴大自研 TPU 與 NVIDIA GPU 兩條路，GPU 端規模以官方數字揭露；ODM 與零組件歸屬未揭露。
+- 來源：[[research_產業合作技術發表_2026-10-22]]（NVIDIA 部落格，2026-10-21）。
+
 ## 來源
+
+- [[research_產業合作技術發表_2026-10-22]] — NVIDIA 官方部落格彙整，2026-10-21；Google Cloud A5X（Vera Rubin NVL72）GA 與 96 萬顆 Rubin GPU 規劃。
 
 - [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；創意專案、合作分工與未確認的上行情境。
 - [[報告_高盛_三星HBM與獲利預估_20260930]] — Goldman Sachs，2026-09-30；三星 TPU HBM 供應關聯
@@ -283,8 +292,17 @@ COT 路線保有核心 compute 設計，[[2454_聯發科（市）]] 提供部分
 
 - [[活動_華南投顧_矽格6257_20261006]]（2026-10-06）
 
+- [[報告_富邦_北京上海路演ASIC_20261019]]（2026-10-19）
+
+- [[報告_Citi_聯發科2454_20261022]]（2026-10-21）
+
+- [[memo_LINE_金像電定穎上游材料CCL_20261022]]（2026-10-22）
+
+- [[報告_富邦_2027-2028半導體展望CoWoS模型_20261022]]（富邦投顧 2026-10-22 CoWoS 模型：Alphabet capex 2026E／27E／28E US$200.0／315.2／408.1bn；TPU v8i 2027／2028 年 561.8 萬／286.0 萬顆、v8t 349.3 萬／354.0 萬顆、v9i 7.8 萬／119.2 萬顆、v9t 4.7 萬／132.2 萬顆（estimate，中））
+
 ## 相關頁面
 
+- [[4062.JP(ibiden)]]
 - [[時程_2026-2027高速互連與分散式算力]]
 - [[分析_2026Q3先進封裝與光互連供給瓶頸]]
 - [[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]

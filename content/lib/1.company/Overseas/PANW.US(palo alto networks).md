@@ -10,7 +10,7 @@ tags:
   - 環節/SaaS平台
   - 主題/AI驅動資安
   - 主題/SASE
-updated: 2026-10-05
+updated: 2026-10-22
 aliases:
   - Palo Alto Networks
   - PANW
@@ -289,6 +289,10 @@ gantt
 - [[Cybersec 260710 Barclays_Another Security VaR Call]]（2026-07-10）
 - [[Cybersec 260710 WF_Preventive security sees temporary boost]]（2026-07-10）
 
+- [[報告_凱基_美國軟體3Q26預覽_20261015]]（2026-10-15）
+
+- [[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（2026-10-22）
+
 ## 相關頁面
 
 - [[分析_RBRK_Rubrik]]
@@ -305,3 +309,7 @@ gantt
 - [[技術_SASE]]
 - [[分析_Zscaler與Okta_Agent防護分工_20261005]]
 - [[分析_資安十強Agent端防護比較_20261005]]
+
+### 2026-10-22 NVIDIA 代理安全平台
+
+- Palo Alto 列名 NVIDIA OpenShell 平台投影片；作者列為「要觀察」：部分 runtime 監控搬到 DPU 硬體後，傳統軟體資安價值是否被壓縮。來源：[[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（大叔美股筆記，2026-10-22；整理媒體報導與作者觀點，信心中）

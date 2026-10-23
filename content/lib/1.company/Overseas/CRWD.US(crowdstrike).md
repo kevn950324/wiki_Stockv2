@@ -9,7 +9,7 @@ tags:
   - 產業/資安
   - 環節/SaaS平台
   - 主題/AI驅動資安
-updated: 2026-10-05
+updated: 2026-10-22
 aliases:
   - CrowdStrike
   - CRWD
@@ -211,6 +211,10 @@ gantt
 - [[Cybersec 260714 UBS_Positive June Q checks]] — UBS，2026-07-14
 - [[Cybersec 260720 WF_2Q26 on-cycle security reseller survey]] — Wells Fargo，2026-07-20
 
+- [[報告_凱基_美國軟體3Q26預覽_20261015]]（2026-10-15）
+
+- [[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（2026-10-22）
+
 ## 相關頁面
 
 - [[分析_20260826_AI軟體與晶片平台法說]]
@@ -228,3 +232,7 @@ gantt
 - [[分析_DevSecOps_AI安全衝擊]]
 - [[技術_EDR與XDR]]
 - [[技術_SASE]]
+
+### 2026-10-22 NVIDIA 代理安全平台
+
+- CrowdStrike 列名 NVIDIA OpenShell 平台投影片；作者將其與 Okta 列為偏受惠（端點與身分防護延伸到 agent），短期為夥伴、長期關係有變數。來源：[[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（大叔美股筆記，2026-10-22；整理媒體報導與作者觀點，信心中）

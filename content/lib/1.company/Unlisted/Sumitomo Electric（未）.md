@@ -65,6 +65,11 @@ image_status: "待補來源圖"
 
 `[待補來源圖]` 需官方 IR 光纖或電線電纜產品圖佐證，現有研究筆記不足以支撐產品示意圖。
 
+## Goldman Sachs 2026-07-07 亞洲科技 2H26 策略
+
+- GS 日本工業電子分析師估住友電工 AI／DC 相關產品的獲利占比由 FY25 的 15% 擴大到 FY28 的 42%，動能來自光纖光纜銷售擴大、光連接器增產，以及邊際利潤率高的光元件與 InP 基板；FY2E P/E 23x 被 GS 視為低估（estimate／中）。
+- 07-07 Buy，TP ¥3,400（附表收盤價 ¥2,593，上檔 31.1%），FY27／FY28 P/E 17.5x／14.1x。GS 也把住友電工與 JX 金屬列為 InP 基板材料主要廠商。框架見 [[分析_GS亞洲科技2H26投資策略_AI硬體循環與選股框架_20260707]]。
+
 ## 相關技術
 
 - [[技術_矽光子（SiPh）]]（準直鏡耦合技術應用）
@@ -73,6 +78,7 @@ image_status: "待補來源圖"
 
 ## 來源
 
+- [[260707_gs_asia-tech-2H26-strategy]] — Goldman Sachs，2026-07-07；亞洲科技 2H26 策略，AI／DC 獲利占比 15% → 42%、Buy／TP ¥3,400。
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（Shingo Nakamura et al., Sumitomo Electric × FICT, ECTC 2026，2026-06-29）
 - [[技術_TFLN]]（Nb₂O₅ 上游壟斷記載）
 - [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（Coherent 向住友採購 100G EML 的專家說法；日期不詳，2026-08-30 收錄，信心低）
@@ -81,3 +87,5 @@ image_status: "待補來源圖"
 
 - [[KYOCERA（未）]]
 - [[技術_玻璃基板]]
+- [[技術_光電芯片]]（CIC 2025 雷射晶片外售排名推定為 Company D：矽光 CW 外售第 1、市占 31.7%）
+- [[分析_專家口徑CW雷射營收估算2026-2028]]（70/100mW 矽光 CW 與內置 NPO 用 CW 的逐年營收估算）

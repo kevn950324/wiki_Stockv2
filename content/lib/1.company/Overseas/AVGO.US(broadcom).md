@@ -14,7 +14,7 @@ tags:
   - 供應鏈/AI伺服器PCB
   - 環節/AI晶片設計
   - 產業/AI伺服器
-updated: 2026-10-11
+updated: 2026-10-20
 aliases:
   - Broadcom
   - 博通
@@ -29,6 +29,8 @@ related_companies:
   - "[[NVDA.US(nvidia)]]"
   - "[[供應鏈_CPO]]"
   - "[[2454_聯發科（市）]]"
+  - "[[Anthropic（未）]]"
+  - "[[OpenAI（未）]]"
 image_status: "已有來源圖"
 ---
 
@@ -274,8 +276,14 @@ v8i Sunfish、v8.5 Whalefish 與 v10 Merope 延續 Broadcom 方案；2027 TPU �
 
 - [[活動_華南投顧_矽格6257_20261006]]（2026-10-06）
 
+- [[報告_富邦_北京上海路演ASIC_20261019]]（2026-10-19）
+
+- [[報告_富邦_2027-2028半導體展望CoWoS模型_20261022]]（富邦投顧 2026-10-22：Tomahawk 6 網路晶片為日月光 FoCoS 全方位服務三大產品之一（富邦調查，信心中））
+
 ## 相關頁面
 
+- [[技術_光電芯片]]（CIC 2025 雷射晶片外售排名推定為 Company B：全市場第 2、高速第 3、矽光 CW 第 3）
+- [[分析_專家口徑CW雷射營收估算2026-2028]]（矽光 CW 供應商之一；CW 逐年營收專家口徑 vs CIC）
 - [[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]
 - [[分析_2026Q3_AI硬體需求與供應限制_20260903]]
 - [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]
@@ -325,3 +333,15 @@ v8i Sunfish、v8.5 Whalefish 與 v10 Merope 延續 Broadcom 方案；2027 TPU �
 ### 來源（2026-10-04 LINE 彙整）
 
 - [[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]] — 群組轉傳之法說 GW 需求、TPU 傳聞與力成合資
+
+## 2026-10-19 富邦北京／上海路演回饋
+
+- 富邦投顧認為 AVGO 是短期 ASIC 族群中最具吸引力且被低估的標的：市場低估 2028 年 TPU 出貨量；TPU 出海口除 Google Cloud，也供應 Anthropic 的 TPU 機櫃（thesis／中）。
+- 非 TPU 客戶需求轉強（產業調查，estimate／中）：OpenAI 近期把 2027 年需求由原假設 100 萬顆上修到 300 萬顆；富邦認為 Anthropic 已與 AVGO 啟動首個自有 ASIC 專案，預計 2027 年中設計定案、2H28 量產（rumor→待驗證）。
+- 由於晶圓、先進封裝、基板與記憶體供給受限，CSP 需提前數年鎖產能，富邦稱至 2029 年量產的主要 ASIC 專案分配已大致確定，投資討論轉向辨識結構性贏家；框架上 ASIC 優於 GPU、互聯優於記憶體、CPU 優於高成本 XPU。
+- 長期富邦最看好 [[3443_創意電子（市）]]（AI XPU／CPU／車用市占提升最多）。
+
+> [!warning] Anthropic 與 AVGO 的 ASIC 關係尚屬券商調查
+> 富邦（2026-10-19）稱 Anthropic 已啟動與 AVGO 的首個 ASIC 專案；本頁 2026-09-03 段落則為群組轉傳的 Anthropic TPU（Ironwood／TPU v8i）GW 部署數字。兩者分屬「自有 ASIC」與「TPU 機櫃」不同口徑，皆未經公司正式揭露，並列保留。
+
+來源：[[報告_富邦_北京上海路演ASIC_20261019]]（富邦投顧，2026-10-19；路演回饋與產業調查，信心中）。

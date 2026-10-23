@@ -10,7 +10,7 @@ tags:
   - 產業/AI伺服器
   - 環節/散熱
   - 環節/電源
-updated: 2026-10-11
+updated: 2026-10-20
 aliases:
   - RDHx
   - Rear-door Heat Exchanger
@@ -240,6 +240,14 @@ MS 2026-10-06 把完整 HVDC power rack 的每瓦內容值估為 in-rack PSU 的
 
 來源：[[報告_JPM_奇鋐_20260929]]、[[報告_JPM_富世達_20260929]]（J.P. Morgan，2026-09-29；券商 estimate／thesis，信心中，未作外部獨立驗證）。跨公司觀察見 [[時程_2026Q3Q4_AI網通與硬體催化劑]]。
 
+### 2026-10-19 MS OCP：ZQD 展示與新平台 QD 試產
+
+- NVIDIA 在 OCP 展示 ZQD（追求更高單位面積流量），共 14 家供應商；展示牆可辨識 Lead Wealth、LOTES（[[3533_嘉澤（市）]]）、Luxshare、NETONX、JPC、Jubli、Auras（[[3324_雙鴻（市）]]）、Cooler Master、Danfoss、Envicool、Fositek（[[6805_富世達（市）]]）、Foxlink。MS 預期供應鏈雖在改善良率與成本，ZQD ASP 仍會高於現行 QD 每組 US$20–30（與 JPM「約 2 倍」方向一致，數值口徑不同）。圖見 [[6805_富世達（市）]]。
+- 非 NVIDIA 平台試產觀察：AMD MI455 Helios compute tray 為富世達 MQD02＋Parker UQD04；Microsoft Maia 300 compute tray 為富世達＋Staubli MQD03，風扇為 [[3017_奇鋐（市）]]（每 tray 8 顆），Maia 300 液冷移除逾 80% 機櫃熱。
+- 展示列名或試產不等於量產份額（channel_check／中）。
+
+來源：[[261019_ms_OCP-MGX]]（Morgan Stanley，2026-10-19）。
+
 ### 功耗跳級驅動全面液冷
 
 AI 機櫃熱功耗突破 120 kW 後，氣冷散熱無法有效應對，**液冷成為不可逆的轉換方向**。現有供應鏈格局：
@@ -300,6 +308,9 @@ AI 機櫃熱功耗突破 120 kW 後，氣冷散熱無法有效應對，**液冷�
 
 ## 相關頁面
 
+- [[CDNS.US(cadence)]]
+- [[IFX.DE(infineon)]]
+- [[SU.FR(schneider_electric)]]
 - [[2351_順德（市）]]
 - [[0100.HK(minimax)]]
 - [[2513.HK(z.ai)]]

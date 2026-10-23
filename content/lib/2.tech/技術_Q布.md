@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/PCB原材料
 maturity: developing
-updated: 2026-07-02
+updated: 2026-10-20
 aliases:
   - Q布
   - 石英布
@@ -113,3 +113,4 @@ Q布硬度極高，CO₂ 紅外激光（10.6µm）熱加工會導致 Q布/M9 基
 ## 相關頁面
 
 - [[技術_PCB鑽孔設備]]
+- [[技術_PTFE]]

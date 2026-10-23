@@ -6,7 +6,7 @@ tags:
   - 產業/消費電子
   - 產業/汽車電子
   - 產業/被動元件
-updated: 2026-10-04
+updated: 2026-10-23
 aliases:
   - MLCC
   - 積層陶瓷電容
@@ -133,6 +133,8 @@ flowchart TD
 ### 內嵌式 MLCC（Embedded MLCC）
 
 下一代 AI 伺服器 ABF 基板將直接整合 MLCC，縮短電流路徑、提升電源完整性。SEMCO 為主要推動者，已公告 2027-28 年向某全球科技客戶提供 KRW 1.5 兆（約 USD 1bn）矽電容供應協議。
+
+**2026-10-21 官方確認具名客戶專案**：[[009150.KR(semco)]] 與 NVIDIA 的 ABF 載板策略合作新聞稿明寫，計畫把 MLCC 與矽電容直接內埋在供應 NVIDIA 的載板中，用於電源管理與雜訊抑制（fact；內埋顆數、規格與量產時點未揭露）。這是內嵌式 MLCC 首次出現在具名 AI 晶片客戶的官方文件；對台系 MLCC 廠的替代程度仍 [待查證]。來源：[[research_產業合作技術發表_2026-10-23]]。
 
 ### 矽電容（Silicon Capacitor）
 
@@ -403,6 +405,7 @@ MLCC 價值鏈平均 PE 自 2026 年 2 月 28x → 2026 年 5 月底 **59x**，�
 
 ## 來源
 
+- [[research_產業合作技術發表_2026-10-23]] — 三星電機新聞稿彙整，2026-10-21；NVIDIA 載板內埋 MLCC／矽電容。
 - [[報告_Citi_村田製作所_20260629]] — Citi Research，2026-06-29（村田升評 Buy；AI GPU board 每塊 ~11,000 MLCC vs 一般伺服器 ~2,000；100µF 成未來標準；Murata AI MLCC 市占 ~50%；FY3/27 OP ¥440bn、FY3/28 ¥630bn、FY3/29 ¥800bn）
 - 報告_MS_AI半導體MLCC_20260623 — Morgan Stanley（Shawn Kim / Charlie Chan / Nigel van Putten / Daisy Dai / Lydia Lin），2026-06-23（Global Technology Webcast；AI server MLCC demand approaching $1B by 2027；top 5 MLCC suppliers ~87% global market share；Taiwan MLCC monthly sales growth turning positive）
 - [[報告_Vastpeak_被動元件產業_20260630]] — Vastpeak，2026-06-30（BB ratio/稼動率/交期全廠對比、2025 市占率、良率分層、稀土管制現況、TCC 圖解）
@@ -425,6 +428,7 @@ MLCC 價值鏈平均 PE 自 2026 年 2 月 28x → 2026 年 5 月底 **59x**，�
 
 ## 相關頁面
 
+- [[分析_GS亞洲科技2H26投資策略_AI硬體循環與選股框架_20260707]]（GS AI MLCC 產品組合、國巨／日系漲價時點）
 - [[分析_信昌電高壓MLCC與垂直整合追蹤_20260910]]
 - [[分析_半導體AI供應鏈與NPO轉折_20260824]]
 - [[供應鏈_AI伺服器PCB]]

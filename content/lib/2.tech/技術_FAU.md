@@ -5,9 +5,12 @@ tags:
   - 產業/光通訊
   - 環節/光通訊
 maturity: mature
-updated: 2026-10-12
+updated: 2026-10-22
 aliases:
   - FAU
+  - MCF FAU
+  - 多芯光纖FAU
+  - Multicore Fiber
   - Fiber Attach Unit
   - Fiber Array Unit
   - Fiber Array
@@ -169,6 +172,7 @@ Coherent 供應鏈中：蘅東光占 **約 40%** 份額（第二大）。
 
 ## 來源
 
+- [[research_產業合作技術發表_2026-10-22]] — APC 新聞稿，2026-10-20；4 芯 MCF 纜線／連接器／FAU 規格與 CPO 測試實務。
 - [[報告_Nomura_大立光CPO光纖陣列_20260709]] — Nomura，2026-07-09（大立光 GC FA 客戶／試產／量產時點、GC vs EC、PMLA 材料取捨；券商轉述公司觀點，信心中低）。
 - [[memo_AceCamp_亨通光電_光纖與MPO展望_20260930]] — AceCamp Tech，2026-09-30（PMF幾何精度、應力棒與有效供給；匿名渠道／低至中信心）。
 
@@ -193,6 +197,13 @@ Coherent 供應鏈中：蘅東光占 **約 40%** 份額（第二大）。
 | 價格與成本 | 長協20多元／米、現貨約40元／米、高精度70元／米以上 | 品質等級及合格率未給，不能由成本約售價十分之一推導90%毛利率 |
 
 來源：[[memo_AceCamp_亨通光電_光纖與MPO展望_20260930]]（AceCamp Tech，2026-09-30）。沒有對應中國公司頁，資料保存在本技術頁與分析頁，不新增公司頁。
+
+## 2026-10-20 APC 規格：4 芯多芯光纖 FAU 與 CPO 測試實務
+
+- **Advanced Photonics Coalition（APC）**（約 60 家會員組織，新聞稿未列名）於 2026-10-20 發布五份文件，其中與 FAU 直接相關的是「4-Core Multicore Fiber Cable, Connector and Fiber Array Unit Specification」，同時定義 4 芯多芯光纖（MCF）纜線、連接器與 FAU；另有 CPO 系統級架構、CPO 建議實務、CPO 用矽光子建議測試實務、矽光子製造規格（fact）。
+- 意義：多芯光纖讓一根光纖帶多個通道，可降低 CPO 出光端的光纖數量與 FAU 尺寸；有共同規格後，FAU 廠可依同一介面開發，與上方 dFAU／MPC 等專有方案並存。APC 規格是否被 NVIDIA、Broadcom 等主要 CPO 平台採用，新聞稿未說明。
+- 同日 NVIDIA 官方宣布矽品 CPO 光引擎產能 2027 年中擴 15 倍（[[供應鏈_CPO]]），FAU attach 屬光引擎封裝流程的一環，是需求面的平行訊號。
+- 來源：[[research_產業合作技術發表_2026-10-22]]（APC 新聞稿，2026-10-20）。
 
 ## 相關頁面
 

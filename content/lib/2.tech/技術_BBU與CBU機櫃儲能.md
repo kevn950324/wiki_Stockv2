@@ -6,7 +6,7 @@ tags:
   - 環節/電源
   - 產業/AI伺服器
 maturity: developing
-updated: 2026-10-11
+updated: 2026-10-19
 aliases:
   - BBU
   - Battery Backup Unit
@@ -153,11 +153,18 @@ GS TAM＝GPU／ASIC 功率需求×架構 attach rate×美元/kW ASP。2030 GPU�
 
 ## 來源
 
+- [[261019_citi_dynapack]] — Citi，2026-10-18；PSU 夥伴 PMIC 缺料延後 BBU 拉貨、12kW 自 11 月放量。
 - [[報告_高盛_BBU備援與峰值削減_20260924]] — Goldman Sachs，2026-09-24；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 
 - [[報告_MorganStanley_整合電源方案_20261006]] — Morgan Stanley，2026-10-06；p5–7、14–16、27–38、44。
 
+## 2026-10-18 Citi：PSU 缺料造成 BBU 出貨時點波動
+
+- Citi 通路調查：[[3211_順達科技（櫃）]] 主要 PSU 夥伴遭遇電源管理 IC 缺料，延後 BBU 拉貨，壓抑 3kW／5kW BBU 10 月出貨；12kW 新系列自 2026-11 加速出貨。Citi 視為時點問題，2027E BBU 需求強勁，且 HVDC 轉換中順達有機會從 Panasonic 取得市占。
+- 觀察：BBU 出貨受上游 PSU 系統整合節奏牽動，月營收波動不一定代表需求轉弱；需以 12kW 出貨與 HVDC 產品認證驗證。
+
 ## 相關頁面
 
+- [[分析_2026-10-19_OCP後AI硬體與PCB設備券商更新]]
 - [[分析_AI資料中心供電與電熱整合]]
 - [[時程_2026能源與AI電力設備]]

@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-10-11
+updated: 2026-10-23
 aliases:
   - NVIDIA
   - 輝達
@@ -357,7 +357,29 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 
 時間軸：封測完整爬坡由 9–10 月延到 2026 年 11 月是 Aletheia 查核，HBM 供給為限制；FY27 Rubin 出貨由 160→150 萬顆的調整與年內生產不是同一口徑。Ultra 以 8 個 Oberon72 組 576-GPU pod、Kyber576 更晚，跨 rack 光互連需求仍需驗證。同步 [[時程_2026-2028十月券商催化劑]]；模型差異見 [[分析_2027加速器供電與ASIC價值移轉_20261001]]。
 
+## 2026-10-19 OCP 2026：MGX 零組件升級
+
+- 系統層面無新硬體，重點在 ramp 時點（MS 調查）：VR200 機櫃已小量 ramp；Groq 3 LPX 機櫃 2026 年底／2027 年初跟進；獨立 Vera CPU 機櫃 1Q27 末／2Q27 初。
+- **PTFE**：Kyber 延後、Rubin Ultra 不再採 Kyber 後，焦點回到 Oberon；NVIDIA 重新評估 Rubin Ultra 採 PTFE，展示 NVLink PTFE PCB 與 7 家供應商（VGT、TTM、Taiflex、SYTECH、深南、景旺、Flexium），MS 認為名單有缺（[[2368_金像電（市）]]、[[3037_欣興（市）]] 亦在開發），導入時程未定。
+- **Ultra Dense Interconnect**：取代 [[APH.US(amphenol)]] HD2 的次世代 midplane／cable cartridge 連接器，6 家供應商，量產約兩年後；Kyber 板對板連接器（Voronoi）關鍵設計夥伴為 FIT。
+- **ZQD**：更高單位面積流量的新快接頭，14 家供應商展示，ASP 估高於現行 QD 每組 US$20–30。
+- 以上為 MS 現場觀察與供應鏈調查（channel_check／中）；細節見 [[技術_CCL]]、[[供應鏈_AI伺服器散熱]]、[[技術_正交背板]]。
+
+來源：[[261019_ms_OCP-MGX]]（Morgan Stanley，2026-10-19）。
+
+## GTC Berlin：供應鏈擴產、DSX POD 與 Google A5X（2026-10-21）
+
+- **供應鏈擴產（fact／高）**：NVIDIA 以產能預留／預付款綁定六家夥伴——載板 [[4062.JP(ibiden)]]（大野廠 3 倍、1Q28）、[[009150.KR(semco)]]（世宗／釜山）、[[3037_欣興（市）]]（KF 廠 2Q27–2028 中）；封裝 [[AMKR.US(amkor)]]（韓國 interposer 2028 底 +300% 以上）；測試 [[2449_京元電子（市）]]（11 億美元、美國廠 2027-04 量產）；CPO 光引擎矽品（[[3711_日月光投控（市）]]，2027 年中 15 倍）。三年內載板產能 2.5 倍，測試產能 2026→2027 倍增。細節見 [[供應鏈_先進封裝載板]]、[[供應鏈_半導體測試設備]]、[[供應鏈_CPO]]。
+- **DSX POD**：貨櫃式 Vera Rubin AI 工廠參考設計，部署由約 6 個月縮到最快 14 天，2027 年初交付；台系夥伴為 [[2317_鴻海（市）]]、[[2382_廣達（市）]]、[[3231_緯創（市）]]、[[4938_和碩（市）]]、[[2376_技嘉（市）]]、[[2308_台達電（市）]]。同日 DSX Flex／MaxLPS 電網協同見 [[技術_800VDC供電架構]]。
+- **雲端與生態**：[[GOOGL.US(alphabet)]] A5X（Vera Rubin NVL72）11 月 GA，規劃最多 96 萬顆 Rubin GPU；[[IFX.DE(infineon)]] 合作 800 VDC GaN HV IBC；[[CDNS.US(cadence)]] 於慕尼黑推出歐洲主權 AI 設計平台，規劃加入 Vera／Grace 與 Blackwell 系統。
+- 來源：[[research_產業合作技術發表_2026-10-22]]（NVIDIA 新聞稿與部落格、Infineon、Cadence 新聞稿，2026-10-21）。
+- **續報（2026-10-21～22）**：[[009150.KR(semco)]] 自家新聞稿補充載板範圍含網路交換器晶片載板、雙方共同出資專用線，並把 MLCC／矽電容內埋載板（見 [[供應鏈_先進封裝載板]]）。NVIDIA 另於 10-22 推出 AI 工廠 AIOps 平台 **Minerva**：整合 GPU、網路、儲存與排程器遙測，每小時分析數十億筆資料，以知識圖譜對應 GPU／SuperNIC／交換器／線纜並預測故障；IREN 已上線，[[DELL.US(dell)]]、Lenovo、[[SMCI.US(supermicro)]] 納入產品組合。屬軟體層，對硬體供應鏈影響有限（fact）。來源：[[research_產業合作技術發表_2026-10-23]]。
+
 ## 來源
+
+- [[research_產業合作技術發表_2026-10-23]] — 官方發表彙整，2026-10-21～22；三星電機載板新聞稿、Minerva AIOps。
+
+- [[research_產業合作技術發表_2026-10-22]] — GTC Berlin 官方發表彙整，2026-10-21；供應鏈六夥伴、DSX POD、Google A5X、Infineon、Cadence。
 
 - [[報告_JPM_健策可拆式上蓋_20260929]] — JPM，2026-09-29；上蓋供應鏈與量產窗口（estimate／中）。
 - [[活動_國泰_美國參訪訪談紀要_20260914-18]] — 國泰，2026-09-17 Intel 訪談；x86 合作轉述（中）。
@@ -510,8 +532,27 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 
 - [[活動_華南投顧_景碩3189_20261007]]（2026-10-07）
 
+- [[261019_ms_OCP-MGX]]（2026-10-19）
+
+- [[報告_富邦_SpaceX3Q26法說_20261021]]（2026-10-21）
+- [[報告_群益上海_玻璃材料_20261020]]（2026-10-20）
+
+- [[報告_MorganStanley_欣興3037_20261021]]（2026-10-21）
+
+- [[memo_LINE_金像電定穎上游材料CCL_20261022]]（2026-10-22）
+
+- [[memo_FOMOSoc_CoreWeave與AI基建_20261020]]（2026-10-20）
+- [[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（2026-10-22）
+
+- [[報告_富邦_2027-2028半導體展望CoWoS模型_20261022]]（富邦投顧 2026-10-22 CoWoS 模型：GPU 占 2028 年晶片價值 75.7%、額定功耗 70.3%；2028 年 R200 874.0 萬顆、R300 Ultra 377.4 萬顆、B300 148.5 萬顆；富邦估 NVIDIA 晶片毛利率 75–80%（estimate，中））
+
 ## 相關頁面
+
+- [[SU.FR(schneider_electric)]]
 - [[分析_美股低淨槓桿與高Beta曝險並存_20261002]]
+- [[技術_PTFE]]
+- [[6269_台郡（市）]]
+- [[8039_台虹（市）]]
 
 - [[2301_光寶科（市）]]
 - [[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]
@@ -652,3 +693,11 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 - [[分析_20260929-30專家紀要受訪公司辨識與供給驗證]]
 - [[技術_800VDC供電架構]]
 - [[時程_2026-2027高速互連與分散式算力]]
+
+### 2026-10-22 OpenShell／Sentry：代理安全綁定 BlueField
+
+- NVIDIA 推出開放代理安全平台，宣稱逾 100 家夥伴；投影片 25 家包括 AI 實驗室（Anthropic、OpenAI、Mistral、Perplexity、Fireworks）、雲端（AWS、Google Cloud、Microsoft、Oracle）、資安（CrowdStrike、Palo Alto、Fortinet、Cisco、Okta）、企業軟體與產業客戶。
+- 作者判斷重點在 Sentry 而非 OpenShell：軟體開源免費，監控須跑在 BlueField-4 DPU 上，若企業資安法遵要求硬體監控，每台 agent 伺服器多一顆 BlueField，並帶動 Vera CPU。hyperscaler 有自家隔離技術（如 AWS Nitro），較可能採用者為企業自建機房、主權 AI 與 neocloud。觀察點為後續財報 DPU 搭載率。
+- 保留：「100 家夥伴」列名不代表付費；毫秒級隔離為廠商說法未經獨立測試。
+- 來源：[[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（大叔美股筆記，2026-10-22；整理媒體報導與作者觀點，信心中）
+- [[CRWV.US(coreweave)]]

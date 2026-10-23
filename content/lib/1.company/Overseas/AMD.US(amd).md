@@ -12,7 +12,7 @@ tags:
   - 技術/CoWoS
   - 產業/AI伺服器
   - 環節/IC設計
-updated: 2026-10-11
+updated: 2026-10-20
 aliases:
   - AMD
   - Advanced Micro Devices
@@ -303,8 +303,16 @@ MI550 半配置 2H27、完整配置 1H28，16／32 GPU rack 約 100／200kW+、5
 
 - [[活動_華南投顧_景碩3189_20261007]]（2026-10-07）
 
+- [[261019_citi_wiwynn]]（2026-10-19）
+- [[261019_ms_OCP-MGX]]（2026-10-19）
+
+- [[報告_群益上海_玻璃材料_20261020]]（2026-10-20）
+
+- [[報告_富邦_2027-2028半導體展望CoWoS模型_20261022]]（富邦投顧 2026-10-22 CoWoS 模型：MI450X 2027／2028 年 100.8 萬／92.2 萬顆、MI500X 45.9 萬／184.1 萬顆；Venice CPU 為日月光 FoCoS 全方位服務三大產品之一（estimate，中））
+
 ## 相關頁面
 
+- [[4062.JP(ibiden)]]
 - [[2454_聯發科（市）]]
 - [[技術_AI推論與ASIC平台]]
 
@@ -372,3 +380,10 @@ MI550 半配置 2H27、完整配置 1H28，16／32 GPU rack 約 100／200kW+、5
 - 報告轉述 Meta 為 AMD 第二大客戶、雙方有最高 6GW Instinct 部署協議；客戶占比與部署規模應以公司公告／法說交叉驗證，不視為本次新增訂單。
 
 來源：[[報告_統一_英特爾Arm與MetaMuse新聞評析_20260922]]（統一投顧，2026-09-22）。
+
+## 2026-10-19 OCP 2026 Helios 觀察與 ODM 估計
+
+- MS：[[6669_緯穎（市）]]、Meta 與 AMD 在 OCP 展出 Helios 機櫃，與去年相比僅把 dummy tray 換成實際 compute tray；機櫃估 1Q27 ramp。試產觀察：MI455 Helios EAM PCB 供應商之一為深南電路，compute tray 快接頭為 [[6805_富世達（市）]]（MQD02）與 Parker（UQD04）；Helios switch tray 由 HPE 展出，另一供應商估為 Celestica（channel_check／中）。
+- Citi：估緯穎 2027 年 Helios 約 5k racks，4Q26 起小幅 ramp（estimate）。
+
+來源：[[261019_ms_OCP-MGX]]（Morgan Stanley，2026-10-19）；[[261019_citi_wiwynn]]（Citi，2026-10-19）。

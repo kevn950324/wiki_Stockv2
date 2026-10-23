@@ -11,7 +11,7 @@ tags:
   - 環節/光收發模組
   - 環節/InP磊晶
   - 環節/OCS
-updated: 2026-10-05
+updated: 2026-10-23
 related_companies:
   - "[[NVDA.US(nvidia)]]"
   - "[[GOOGL.US(alphabet)]]"
@@ -158,10 +158,12 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 
 ## 2026-09-14 高功率 CW 與 NPO 匿名訪談補充
 
-[[memo_AceCamp_Coherent高功率CW與NPO_20260914]] 的討論主體依加州／Greensboro 廠、泰國封裝、ELS 與高功率 CW 路徑判讀為 Coherent。訪談稱 350–400mW CW 的 2027 年供給規劃由約 1,600 萬顆上修至約 2,500 萬顆，且外置 ELS 的 NVIDIA NPO 與 120–150mW 內置 CW NPO 是兩條不同路線；真正限制仍是前段晶片與後段封裝的有效產出。
+[[memo_AceCamp_Coherent高功率CW與NPO_20260914]] 原依加州／Greensboro 廠、泰國封裝、ELS 與高功率 CW 路徑判讀為 Coherent；2026-10-23 更正為 [[LITE.US(lumentum)]]。訪談中「350–400mW CW 2027 年供給規劃由約 1,600 萬顆上修至約 2,500 萬顆」因此不是 Coherent 的數字。外置 ELS 的 NVIDIA NPO 與 120–150mW 內置 CW NPO 是兩條不同路線的產業觀察仍可參考。
 
-> [!warning] 匿名渠道估計，不是公司指引
-> 訪談所稱 2027／2028 CW、ELS 與 NPO 的產能、需求、價格、客戶驗證及 Fabrinet 代工安排均未獲 Coherent、客戶或代工商公開證實。應追蹤有效良率、實際出貨、NPO 規格定義與公司法說；不可將 2,500 萬顆規劃視為已承諾的營收或訂單。
+> [!warning] 2026-10-23 更正：此訪談主體是 Lumentum，不是 Coherent
+> - 該紀要與 [[memo_Lumentum_高功率CW與NPO專家會議_日期不詳]] 內文相同，是同一場訪談。
+> - 加州＋Greensboro 廠、泰國封裝、FY28 EPS US$40 對應 Lumentum（UHP 雷射由 California、UK、Greensboro 分工）；Coherent 沒有 Greensboro 廠。
+> - Coherent 的高功率 CW 量價改以 [[memo_Coherent專家訪談_光模組量價_NPO_OCS_EML與獲利目標_日期不詳]]（300mW 2026 年 320 萬個）與 [[memo_EML_InP_CW_ELS_NPO_CPO專家觀點_日期不詳]]（NVIDIA 2027 年 500 萬個 ELS 指引）為準；Coherent 2027 年高功率 CW 供給目前沒有獨立數字。換算見 [[分析_專家口徑CW雷射營收估算2026-2028]]。
 
 ## 2026-10-05 專家訪談：量價、DSP、NPO、OCS 與獲利目標
 
@@ -298,7 +300,7 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - [[memo_AceCamp_德科立DCI與物料瓶頸_20260829_70566441]] — AceCamp Tech，2026-08-29，匿名專家紀要。
 - [[memo_AceCamp_Coherent光模組OCS與1.6T_20260830]] — AceCamp Tech，2026-08-30，匿名 Coherent 相關專家；1.6T 良率、OCS 與毛利結構觀察，低信心。
 - [[memo_AceCamp_Coherent_ELS與InP供給_20260830]] — AceCamp Tech，2026-08-30，匿名 Coherent 相關專家；InP、EML、CW、ELS／FAU 觀察，低信心。
-- [[memo_AceCamp_Coherent高功率CW與NPO_20260914]] — AceCamp Tech，2026-09-14，匿名 Coherent 相關專家；高功率 CW、ELS 與外置／內置 NPO 路線，低信心。
+- [[memo_AceCamp_Coherent高功率CW與NPO_20260914]] — AceCamp Tech，2026-09-14；原判讀為 Coherent 相關專家，2026-10-23 更正為 Lumentum 主體（與 [[memo_Lumentum_高功率CW與NPO專家會議_日期不詳]] 同一場訪談），低信心。
 - [[memo_AceCamp_光庫科技泵浦雷射與海纜_20260901]] — AceCamp Tech，2026-09-01，匿名光庫科技相關訪談；泵浦雷射與海纜供應鏈觀察，低至中信心。
 - [[memo_AceCamp_Coherent液晶OCS模組_20260929]] — AceCamp Tech，2026-09-29，匿名 OCS 專家；液晶模組結構、價值量與蘇州組裝，主體中高信心、數字低信心。
 - [[memo_AceCamp_紅板科技光模組PCB與mSAP_20260930]] — AceCamp Tech，2026-09-30，紅板科技相關匿名訪談；Coherent 為光模組 PCB 客戶與 Cavity 工藝需求，低信心。
@@ -326,6 +328,7 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 
 ## 相關頁面
 
+- [[3406_玉晶光（市）]]
 - [[時程_2026-2027高速互連與分散式算力]]
 - [[分析_20260829-30專家紀要受訪公司辨識與追蹤]]
 - [[分析_2026Q3先進封裝與光互連供給瓶頸]]

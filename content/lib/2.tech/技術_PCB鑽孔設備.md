@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/PCB
 maturity: mature
-updated: 2026-07-20
+updated: 2026-10-20
 aliases:
   - PCB鑽孔設備
   - 激光鑽孔設備
@@ -170,3 +170,4 @@ quadrantChart
 ## 相關頁面
 
 - [[技術_背鑽]]
+- [[技術_PTFE]]

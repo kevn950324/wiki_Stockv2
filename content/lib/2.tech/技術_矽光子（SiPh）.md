@@ -295,6 +295,7 @@ Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重�
 
 ## 相關頁面
 
+- [[Ayar_Labs（未）]]
 - [[3587_閎康（櫃）]]
 - [[6257_矽格（市）]]
 - [[INTC.US(intel)]]

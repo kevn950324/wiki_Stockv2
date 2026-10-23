@@ -5,8 +5,10 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-10-07
+updated: 2026-10-22
 aliases:
+  - APC
+  - Advanced Photonics Coalition
   - CPO
   - Co-Packaged Optics
   - 共封裝光學
@@ -35,6 +37,18 @@ aliases:
   - Spectrum-X Photonics
   - Pluggable CPO
   - CPX
+  - Open CPX MSA
+  - CPC
+  - Co-Packaged Copper
+  - NPC
+  - Near-Packaged Copper
+  - IPO
+  - Interposer Optics
+  - ICA
+  - Interposer Copper Attach
+  - micro VCSEL
+  - ALC
+  - Active LED Cable
   - Micro Ring Modulator
   - Quantum-X
   - Spectrum-X Ethernet Photonics
@@ -320,7 +334,7 @@ flowchart TB
  | CPO 耦合設備（矽光方向）| ASMPT（新加坡上市，未建頁）| 技術接近 ficonTEC，主聚焦矽光，尚未切入 CPO |
 | 矽光子晶圓代工（光模組）| Tower Semiconductor（TSEM US，未建頁）| end-2026 矽光子月產能目標 **9,500 片/月**，主力客戶含 旭創科技 等光模組廠 |
 
-CPO 純玩家（本次未建頁）：Ayar Labs（TeraPHY，UCIe 光 retimer chiplet）、Nubis（2025/10 被 Ciena 收購，MZM、2D 光纖陣列）、Celestial AI（被 Marvell 收購，EAM、Photonic Fabric）、Lightmatter（Passage M1000 光中介層）、Xscape Photonics（ChromX 可程式雷射）、Ranovus（Odin OE）、Scintil（LEAF Light）。整合測試端（未建頁）：GlobalFoundries、Tower、ASE/SPIL、[[AMKR.US(amkor)]]、Fabrinet、Keysight、Teradyne。
+CPO 純玩家：[[Ayar_Labs（未）]]（TeraPHY，UCIe 光 retimer chiplet）；以下未建頁：Nubis（2025/10 被 Ciena 收購，MZM、2D 光纖陣列）、Celestial AI（被 Marvell 收購，EAM、Photonic Fabric）、Lightmatter（Passage M1000 光中介層）、Xscape Photonics（ChromX 可程式雷射）、Ranovus（Odin OE）、Scintil（LEAF Light）。整合測試端（未建頁）：GlobalFoundries、Tower、ASE/SPIL、[[AMKR.US(amkor)]]、Fabrinet、Keysight、Teradyne。
 
 ## CPO 光測試流程（Insertion 1-4）
 
@@ -654,12 +668,23 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 
 資料來源：SemiAnalysis / Daiwa Research
 
+## 2026-10-20～21 官方發表：光引擎產能、共同規格與機櫃級展示
+
+- **光引擎產能（NVIDIA，fact／高）**：NVIDIA 2026-10-21 供應鏈擴產新聞稿點名矽品（[[3711_日月光投控（市）]]）在台擴大 CPO 光引擎製造，2027 年中產能 15 倍、2028 年底前再翻倍。NVIDIA 首度以官方文件把光引擎封裝與載板、CoWoS、測試並列為產能瓶頸環節。
+- **共同規格（APC，fact）**：Advanced Photonics Coalition 2026-10-20 發布 CPO 系統級架構概覽、CPO 建議實務、CPO 用矽光子建議測試實務、矽光子製造規格與 4 芯多芯光纖 FAU 規格（[[技術_FAU]]），並著手機櫃級 OCS 需求。本頁既有 OCI MSA、ELS 等規格之外，多一套針對製造與測試的產業規範。
+- **機櫃級展示（緯穎，fact）**：[[6669_緯穎（市）]] 與 Ayar Labs、[[3443_創意電子（市）]] 在 OCP 2026 展示機櫃級 CPO 實機鏈路，熱與波長漂移下訊號穩定。
+- 供應鏈整理見 [[供應鏈_CPO]]；來源：[[research_產業合作技術發表_2026-10-22]]。
+
 ## 來源
+- [[research_產業合作技術發表_2026-10-22]] — NVIDIA／APC／緯穎官方發表彙整，2026-10-20～21；矽品光引擎 15 倍、APC CPO 規格、機櫃級 CPO 展示。
 - [[報告_Omdia_CIOE展會回顧_202609]] — Omdia／Mingyang Lyu，2026-09（僅揭露月份；pp.8、10–15、24–25、30–31）。
 - [[報告_Broadcom_Bailly_51.2T_CPO_20240314]] — Broadcom 公司公告，2024-03-14（Bailly 51.2T CPO：8×6.4T 光引擎、70% 光互連功耗節省、RLM 可維修設計）
 - [[web_NVIDIA_CPO_industry_collaboration_20250826]] — NVIDIA Technical Blog，2025-08-26
 
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31
+- [[261018_ms_OCP-takeaways]] — Morgan Stanley 硬體團隊，2026-10-18（OCP 2026：NPO／CPX／CPC、micro VCSEL、HVDC）
+- [[261018_ms_OCP-wrap-up]] — Morgan Stanley 半導體團隊，2026-10-18（IPO／ICA、CPO 測試流程）
+- [[261016_daiwa_ardentec]] — Daiwa，2026-10-16（欣銓子公司 CPO 測試放量）
 
 ## 本次 ingest 更新（2026-08-14）
 
@@ -699,6 +724,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 
 ## 相關頁面
 
+- [[分析_2026-10-19_OCP後AI硬體與PCB設備券商更新]]
 - [[分析_Credo_ZeroFlap毛利結構與1.6T節奏_20261005]]
 - [[603005.CN(crystal_optech)]]
 - [[分析_20260820專家會議受訪公司辨識]]
@@ -923,7 +949,54 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 > - [[報告_Omdia_CIOE展會回顧_202609]] p.14 轉述阿里雲：NPO 相較含 DSP 系統省電約 31%，隱含部分中國 ICP NPO 採線性／無 DSP 設計。
 > - 狀態：可能是區域或平台設計差異；「NPO 一定省掉 DSP」與「NPO 綁 DSP」都不宜當通則，需逐平台確認。判讀見 [[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]。
 
+## OCP 2026 光通訊日與券商 NPO／CPO 出貨預估（2026-10-15）
+
+**OCP Global Summit 2026 光通訊專場（MS 整理，industry claim／中）**：NVIDIA、Meta、Microsoft、Oracle、Broadcom、Celestica、Arista、Ciena、Amphenol、Lumentum、Huawei 等與會。
+- 主持人問各家採 CPO 或 NPO，幾乎所有公司都回答「兩者都用」。
+- 新光學技術的五項評估指標：效能、功耗、成本、部署速度、可靠度與可維修性；Huawei 認為 NPO 在可維護性、開放解耦、可得性與產業落地上占優。
+- CPO 失效原因：83–85% 來自外部光源（ELS），11–17% 來自光纖／連接器；灰塵與髒污也是常見原因。這對 ELSFP 可插拔外部光源的設計動機是直接佐證。
+- 光銅分工：scale-up 規模大於 576 顆加速器時走全光 pod；72–576 顆之間光與銅並存。「scale-in」被提為提升 AI 密度的新方向。
+- 來源：[[261015_ms_photonics]]（Morgan Stanley，2026-10-15；僅第 1 頁為內容，其餘為揭露）。
+
+**GF 10 月版出貨預估（estimate／中）**：
+- CPO 交換器出貨 4Q26／1Q27／2Q27 為 15k／16k／30k 台，2027 年 100k 台（GF 9-29 報告，FAU 良率改善）。
+- scale-up NPO 光引擎（OE）2027／2028 年 6.5M／42.4M 個；其中 NVIDIA 平台 6.0M／19.7M（假設 NVL576 推出時全面採 NPO，Rubin Ultra 每顆 NVSwitch 4 個 3.2T OE、Feynman 3 個），AWS Trainium 4（2028 年 12M 個、NPO 滲透 60%）、AMD MI550 與其他 CSP 合計。AWS Trainium 4 上市時程延後至 1Q28。
+- NPO 部分移除模組端 DSP，把訊號調節交給系統，TIA 與雷射驅動 IC 價值上升；每個 3.2T OE 內 TIA＋driver 約數十美元（高十位數）。GF 看好 Marvell 為主要受惠者、Semtech 次之。
+- 受惠零組件：FAU、CW 雷射、ELSFP、shuffle box、PIC、TIA／driver。GF 估波若威（3163，無公司頁）在 CPO shuffle box 市占約 55%、ASP US$5–6k、2H26 放量；Corning 為第二家 shuffle box 與 MMC 連接器主要供應商。
+- Google 可能把 TPU 互連由 3D torus 改為 6D torus，64 顆晶片單元的外部光鏈路由 96 增至 384，每顆晶片光埠由 1.5 增至 6；帶動 coherent lite 模組與 OCS 需求。
+- 來源：[[報告_GF_科技產業10月版_20261015]]（GF Securities (HK)，2026-10-15）。
+
+> [!warning] NPO／CPO 量產時點口徑
+> GF 預期 CPO／NPO 自 2H27 開始放量、NVL576 全面採 NPO；MS 轉述 OCP 與會者「CPO 與 NPO 並行」。本頁既有段落另有 Citi「交換器級先行、封裝級較晚」與 Coherent 專家 2027H2 擴產的說法。各來源對平台與口徑（scale-up／scale-out、交換器／光引擎）不同，並列保留，不合併成單一時程。
+
+## OCP 2026：降低可插拔光模組功耗的四條路線（Morgan Stanley，2026-10-18）
+
+- **CPO 仍是終極方案，但近期受良率與可維修性限制**；業界同時推進較務實的 NPO、CPC（co-packaged copper）與 NPC。NPO 犧牲部分功耗換取較寬鬆的對位與可維修性，技術成熟度與供應鏈較完整，MS 認為未來幾年可能取得不錯滲透。
+- **CPX 標準化**：Open CPX MSA 嘗試標準化可插拔 CPO／CPC 連接器，結構更接近 NPO／NPC；Samtec SI-FLY、Ciena Vesta 依 CPX 規格製造，Alpha Networks（明泰）展出採 CPX 可插拔光模組的交換器。
+- **銅線延伸**：Credo 展出 1.6T AEC（3.2T AEC 被認為難度很高）；Amphenol、TE、Molex 推 448G CPC 做托盤內連接（448G 銅線有效距離 <1m）。
+- **micro VCSEL（寬而慢）**：50–100m 短距可達 1–2 pJ/bit（CPO／NPO 約 5–10 pJ/bit），目前每通道 32Gbps、路線圖 100–200Gbps；Credo 1.6T ZeroFlap ALC 12W／端、50m、MTBF 約 1 億小時，ALAB 展出 PCIe over VCSEL NPO。MS 認為中期可在銅線到極限時取代短距 AEC，長期整合進 CPO；組裝夥伴為 [[3665_貿聯-KY（市）]]。
+- **交換器**：Edgecore（Accton）與 Celestica 展出基於 Tomahawk 6 的 1.6T 交換器（一般版與 CPO 版），Edgecore 另展出自有 LCOS 技術的 OCS；[[6285_啟碁（市）]] 展出 64×1.6TbE NPO 埠、102.4T 交換器與 OCS。
+- MS 結論：各方案會依用途的成本效益長期並存。
+
+![[261018_ms_OCP-takeaways_005.png]]
+*NVIDIA 簡報（MS 轉載）：CPO 縮短電訊號距離、降低功耗並提高頻寬密度，但帶來封裝、熱、製造與可維修性挑戰，部署需在系統效能與可製造性間取捨。*
+
+## IPO／ICA 與 CPO 測試流程（Morgan Stanley 半導體，2026-10-18）
+
+- **IPO（interposer optics）**：中國 CSP（阿里巴巴）在 OCP 提出由 XPO／NPO 走向 IPO 與 CPO 的光學外形，並將 IPO 與 ICA（interposer copper attach）整合；TE Connectivity 展出 224G／448G NPO／CPO socket 與 0.4mm pitch、最多 10,000 pin 的 ICA socket，強調高密度、低串擾與可重工。MS 看到 ICA／IPO 熱度上升，可能 2027 年量產，但成本仍是門檻。
+- **測試流程**：Insertion 1–2 為晶圓級（TSMC，EIC＆PIC、EIC die to PIC wafer），Insertion 3／3.5 為光學引擎 die／package 級、Insertion 4 為 CPO package（ASIC＋OE），由 SPIL 執行；2025–2026 為電性測試，2027E 起光電混合測試，並出現 scale-up CPO 交換器。
+- **設備／耗材**：PIC ATE 為 Advantest＋TEL＋FormFactor，[[2360_致茂（市）]] 認證中；Insertion 1 另一組為 Advantest＋[[6223_旺矽（櫃）]]；die-to-die prober 為 TEL 與旺矽；光學引擎 E/O 測試機、雷射可靠度與 ELS 光源測試頭為致茂；測試座／Hypersocket 為 [[6515_穎崴（市）]]；FT handler＋ELS 測試頭＋光學對位平台為 [[7769_鴻勁精密（市）]]；CPO SLT 測試機為致茂（認證中）。
+- **測試服務**：Daiwa 2026-10-16 指 [[3264_欣銓（櫃）]] 子公司 Giga Solution 已通過美系一線客戶 CPO 測試認證並放量，目前在 insertion 1，未來可延伸至 insertion 2、3。
+
+![[261018_ms_OCP-wrap-up_001.png]]
+*阿里巴巴 OCP 簡報（MS 轉載）：光學外形由可插拔、NPO 走向 interposer optics（IPO）與 ICA 整合，光引擎越來越靠近 ASIC。*
+
+> [!note] 與既有測試流程段落的關係
+> 本頁「CPO 光測試流程（Insertion 1-4）」段落為較早來源；MS 2026-10-18 表格把 2027E 起的光電測試與 scale-up CPO 交換器列入，並把致茂 PIC ATE 與 SLT 標為認證中。兩者並列，供應商地位以後續認證結果為準。
+
 ## 相關頁面
+
+- [[分析_2026-10-15_台積電3Q26法說與AI硬體券商更新]]
 
 - [[分析_20260918-29專家紀要公司辨識與光互連供給觀察]]
 - [[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]

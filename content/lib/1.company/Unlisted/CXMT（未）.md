@@ -10,7 +10,7 @@ tags:
   - 技術/HBM
   - 產業/記憶體
   - 環節/記憶體製造
-updated: 2026-08-12
+updated: 2026-10-22
 aliases:
   - 長鑫存儲
   - ChangXin Memory Technologies
@@ -115,9 +115,16 @@ SemiAnalysis 估 FY2026 全年營收 $50B+（來源：報告_SemiAnalysis_CXMT_D
 - [[cxmt-dram-ipo]]（2026-06-23）
 - [[報告_UBS_CXMT首次覆蓋_20260807]]（2026-08-07）
 
+- [[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]]（2026-10-21）
+
 ## 相關頁面
 
 - [[分析_CXMT_DRAM_IPO分析]]
 - [[分析_記憶體超級循環2026]]
 - [[技術_HBM高頻寬記憶體]]
 - [[時程_2026記憶體與AI催化劑]]
+
+### 2026-10-21 野村 Global Memory 提及
+
+- 長鑫 4F² 突破被列為近期記憶體股承壓的三大因素之一；10/31 正式三季報毛利率是否下彎為作者列出的檢查點。來源：[[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]]（大叔美股筆記轉述 Nomura 2026-10-19 Global Memory 報告，2026-10-21；券商 estimate＋作者評論，信心中）
+- [[時程_2026-2028十月券商催化劑]]

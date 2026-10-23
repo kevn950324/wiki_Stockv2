@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光纖與光通訊
   - 環節/光纖與光通訊
-updated: 2026-10-02
+updated: 2026-10-20
 aliases:
   - Amphenol
   - APH
@@ -74,6 +74,16 @@ Amphenol 是全球連接器與互連龍頭，在 AI 伺服器題材中的定位�
 > [!warning] 產業渠道觀察
 > 文中市占、NVIDIA／CSP 客戶關係、中國代工供應商份額、AEC 規格與 Rubin 放量均為匿名口徑，非公司或客戶確認。DAC 的成本優勢、AEC 在中距離連結的角色及高傳輸速率下的功耗／散熱限制，可作技術追蹤框架，不能轉化為 Amphenol 訂單或營收預測。
 
+## 2026-10-19 OCP：HD2 與次世代 Ultra Dense Interconnect
+
+![[261019_ms_OCP-MGX_006.png]]
+
+圖說：NVIDIA 在 OCP 2026 展示的 Ultra Dense Interconnect（含 cable cartridge）與 6 家供應商：Amphenol、Foxconn、Lead Wealth、LOTES、Luxshare、TE。此連接器規劃取代現行 Amphenol Paladin HD2，量產估約兩年後。（來源：NVIDIA，MS 2026-10-19 拍攝）
+
+- 現行 VR200 NVL72 midplane 與 cable cartridge 採 Amphenol Paladin HD2，MS 先前調查 ASP 每組約 US$70–90+。次世代 Kyber 機櫃將導入新 midplane 連接器「Voronoi」，MS 調查指 FIT（鴻海體系）為關鍵設計夥伴；Ultra Dense Interconnect 量產約兩年後，供應鏈目標 ASP 壓到 US$100 以下，pogo pin 供給為瓶頸（channel_check／中）。對 Amphenol 而言是現有 HD2 份額在下一世代被稀釋的風險。
+
+來源：[[261019_ms_OCP-MGX]]（Morgan Stanley，2026-10-19）。
+
 ## 來源
 
 - [[報告_Semianalysis_CPOand800VDC_20260609]]（800VDC Pushout & CPO Delays，2026-06-09）
@@ -82,3 +92,9 @@ Amphenol 是全球連接器與互連龍頭，在 AI 伺服器題材中的定位�
 - [[memo_AceCamp_高速銅纜與AEC供應鏈_20260918]]（2026-09-18；匿名產業訪談，低信心）
 
 相關分析：[[分析_20260908-18專家紀要受訪公司辨識與技術觀察]]。
+
+- [[261019_ms_OCP-MGX]]（2026-10-19）
+
+## 相關頁面
+
+- [[時程_2026Q3Q4_AI網通與硬體催化劑]]

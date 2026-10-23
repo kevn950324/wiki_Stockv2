@@ -6,7 +6,7 @@ tags:
   - 產業/記憶體
   - 產業/AI伺服器
 maturity: developing
-updated: 2026-10-08
+updated: 2026-10-22
 aliases:
   - HBM
   - High Bandwidth Memory
@@ -14,6 +14,16 @@ aliases:
   - HBM3e
   - HBM4
   - HBM4E
+  - HBM5
+  - HBM5E
+  - HBM6
+  - 客製HBM
+  - Custom HBM
+  - cHBM
+  - vHBM
+  - Vertical HBM
+  - 垂直HBM
+  - vEIM
 ---
 
 # 技術_HBM高頻寬記憶體
@@ -159,6 +169,7 @@ flowchart TB
 - [[技術_CCL]]
 
 ## 來源
+- [[research_產業合作技術發表_2026-10-22]] — Micron 技術說明會官方簡報，2026-10-21；HBM4→HBM6 年度節奏、標準／客製／垂直 HBM 三階段
 - [[報告_高盛_三星HBM與獲利預估_20260930]] — Goldman Sachs，2026-09-30；三星 HBM 量價、營收 mix 與一般 DRAM 供給
 - [[報告_先進封裝技術發展方向_20260722]]（定錨，2026-07-22；HBM4 2048-bit、cHBM Marvell/4.1TB/s、NVIDIA Feynman cHBM、SK Hynix+TSMC One-Team ~70% Vera Rubin、Qualcomm HBC 警訊）
 - [[大和 韓國記憶體產業電話會議摘要]] — 大和，2026-07-02
@@ -216,3 +227,25 @@ flowchart TB
 - **HBF（High Bandwidth Flash）：** 群組轉傳 HPCwire（2026-08-04）指出 HBM 約 1/3 容量用於 KV cache；HBF Gen2/3 每堆疊頻寬約 3 TB/s，接近 HBM4 的 3.3 TB/s；HBF 寫入慢，但 KV cache 多為唯讀，適合分層。KAIST roadmap：HBM5 2029 年 4 TB/s、HBM6 2032 年 8 TB/s、HBM7 2035 年 24 TB/s、HBM8 2038 年 64 TB/s（學術 roadmap，非廠商承諾）。
 - **三星 zHBM（FMS 轉傳）：** 將 HBM 堆疊於加速器上方，宣稱效能為 HBM5 的 4–8 倍、能效 3 倍，HCB 混合銅鍵合密度 10 倍；屬發表會概念，量產時點未揭露。
 - 來源：[[活動_Micron_FY4Q26法說_20261001]]、[[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]]（I023、I024、I059）。
+
+## 2026-10-21 Micron 官方 HBM 路線：年度節奏、客製 base die 與 vHBM
+
+Micron 技術說明會簡報（2026-10-21，fact／高；時程為目標量產時間，公司標示 directional）首次以官方文件公布到 2030 年的 HBM 節奏：
+
+| 年份 | 標準／客製 HBM | 垂直整合 |
+|------|----------------|----------|
+| 2026 | HBM4（12H 已出貨；HBM4E 送樣主要客戶） | — |
+| 2027 | HBM4E（起為 JEDEC＋客製 base die） | vHBM 1／vEIM 1 起步 |
+| 2028 | HBM5（對應 1δ DRAM） | vHBM 2／vEIM 2 |
+| 2029 | HBM5E | — |
+| 2030 | HBM6 | vHBM 3／vEIM 3 |
+
+（vHBM／vEIM 各代的確切年份依簡報橫軸示意，屬 directional。）
+
+- **三階段架構**：標準 HBM 在 interposer 上與運算晶片並排 → 客製 HBM 在 base die 加入客戶邏輯 → vHBM 把記憶體直接疊在運算晶片上，記憶體到運算的路徑最短、每瓦 token 數最高。這與 [[005930.KR(samsung)]] zHBM、SK hynix 3D 堆疊 DRAM 方向相同，三家都把「記憶體上疊到邏輯」列為 HBM 之後的下一步。
+- **封裝要求**：TSV／µbump 微縮、混合銅鍵合（[[技術_混合鍵合]]）、16H µbump 與混合堆疊、2.5D HBM 與 3D vHBM 整合、PHY 上方散熱片、熱感知設計。
+- **頻寬口徑**：Micron 以 2,048 bit × 11 Gbps 算出 HBM4 單 stack 約 2.8 TB/s；上方 HPCwire 轉述 HBM4 約 3.3 TB/s，差異來自腳位速率假設，並列保留。
+- **時程對照**：Micron HBM5 目標 2028、HBM6 2030，早於上方 KAIST 學術 roadmap（HBM5 2029、HBM6 2032）；前者是廠商量產目標、後者是學術推估，不互相否定。
+- **對台灣供應鏈**：客製 base die 由邏輯製程生產，對 [[2330_台積電（市）]] 等邏輯代工是增量（推論；Micron 未點名代工廠）。早報所記 NVIDIA 要求三家 HBM 供應商以台積電 3nm 製作 NVHBM base die，見 [[research_每日產業新聞_2026-10-22]]（媒體轉述）。
+
+來源：[[research_產業合作技術發表_2026-10-22]]（Micron 技術說明會簡報，2026-10-21）；公司細節見 [[MU.US(micron)]]。

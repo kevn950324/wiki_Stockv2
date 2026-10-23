@@ -114,6 +114,7 @@ flowchart LR
 
 ## 相關頁面
 
+- [[IFX.DE(infineon)]]
 - [[分析_MorganStanley_GlobalTechnology_Analog_20260902]]
 - [[8261_富鼎（市）]]
 - [[供應鏈_AI伺服器散熱]]

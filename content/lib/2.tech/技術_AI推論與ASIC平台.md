@@ -4,7 +4,7 @@ tags:
   - 技術/AI推論
   - 技術/ASIC
   - 產業/AI伺服器
-updated: 2026-10-12
+updated: 2026-10-22
 image_status: "已有來源圖"
 aliases:
   - Agentic AI
@@ -184,6 +184,12 @@ Aletheia 估 2027 生產 2,130 萬顆加速器，理論功率 52.6GW，含其他
 
 ASIC 前端 RTL／compute 設計的 AI 工具降低部分開發障礙，價值可能移向 I/O／SerDes、HBM base die、先進封裝與系統交付；這是券商 thesis，不能由 RTL 進度推定後段 qualification 完成。TPU v9 EMIB-T、v10 SoIC 皆將多晶粒良率、熱與通訊納入設計。
 
+### 2026-10-19：Maia 300 與 ASIC 專案分配
+
+- [[MSFT.US(microsoft)]] Maia 300 機櫃：96 顆加速器、167 kW、HBM 27.7 TB，2027 年量產部署並以多 GW 規模作為主要推論平台；公司稱每 MW token 數較領先 GPU 系統多 40%。這是 CSP 以自研 ASIC 改善推論經濟性的直接案例（[[261019_ms_OCP-MGX]]）。
+- 富邦投顧產業調查：晶圓、先進封裝、基板與記憶體受限，CSP 須提前數年鎖產能，至 2029 年量產的主要 ASIC 專案分配已大致確定；OpenAI 2027 年需求上修至 300 萬顆、Anthropic 首個 AVGO ASIC 估 2H28 量產。富邦框架：ASIC 優於 GPU、互聯優於記憶體、CPU 優於高成本 XPU（thesis／中，[[報告_富邦_北京上海路演ASIC_20261019]]）。
+- 中小型設計服務：[[8227_巨有科技（櫃）]] 2Q26 6–28nm 占營收 78%，4nm 專案估 1H27 Tape-out，轉單需求受台積電產能限制要到 2027 年兌現（[[報告_中信_巨有科技8227_20261020]]）。
+
 國泰 GMI 訪談示範 prefill／decode 分離：prefill 偏運算、decode 偏記憶體頻寬；Dynamo 看 GPU 負載與 KV prefix 的位置調度，SSD warm cache 減少重做 prefill。32 GPU 場景稱速度 5.1x／吞吐 3.7x、成本降 30%，以及 cache 命中 3%→50%+，均為公司 benchmark，非通用保證。需同測 TTFT、TPOT、尾延遲、cache 命中率與 I/O；因資料搬移而增加的延遲可抵銷快取收益。
 
 ## 來源
@@ -240,3 +246,11 @@ ASIC 前端 RTL／compute 設計的 AI 工具降低部分開發障礙，價值�
 - 對 [[2454_聯發科（市）]]，UBS 預期 TPU v9 2026 年 11 月前 tape-out、2028 年以 EMIB-T 放量；CoWoS 補充方案與 SpaceX／Tesla 等新設計案仍未定案。ASIC 規模化的限制不只設計能力，也取決於先進製程、HBM、ABF／EMIB 與封裝協同供給。
 
 來源：[[報告_UBS_創意電子CPU專案與CSP成長_20260922]]、[[報告_UBS_聯發科TPU與ASIC專案_20260923]]（UBS，2026-09-22～23；券商 estimate／中低信心）。
+
+## 2026-10-22 SemiAnalysis：華為 Ascend 950PR 實測
+
+- **晶片與分級**：950PR／DT 出現多種核心數、HBM 堆疊高度與快取容量的 SKU，華為同時對運算與記憶體分級，並把較弱記憶體配較弱運算（NVIDIA 只分級運算）；910B 亦有 910B1–4。實測樣品為 950PR_9579（28 個 cube core、128 GiB HBM），內含 Linx816 AArch64 AICPU（推測與 Kirin 9000S／9010 中核相同），此 SKU 7 顆配置、6 顆可見、5 顆執行。
+- **效能**：950PR 主打 prefill 與推薦，記憶體頻寬與核心數低於 950DT。1,055 個 BF16 GEMM 形狀中，華為最佳 kernel 達上限 99.7%；ridge 以下形狀中位數達成率 41.5%（H100 為 46.8%）；功耗約 599–600W、時脈 1500–1550MHz（參考 1650MHz）。絕對效能介於 A100 與 MI300X 之間。HBM 有效頻寬在小訊息時超越 H100，大訊息時利用率接近 H100。
+- **判斷**：硬體可能落後約 5 年（相對 A100），軟體已在前沿；中國電價便宜，perf/TCO 比 perf/watt 更適合比較。
+- **擴展**：華為 supernode 由 910 CloudMatrix384 延伸到 950 SuperPod，支援 wide EP；950DT superpod 的 EP16 dispatch／combine 走 URMA，為 pre／URMA／post 三個運算子（GB300 為單一融合呼叫）。
+- 來源：[[memo_SemiAnalysis_華為DeepSeek共生_Ascend950_20261022]]（SemiAnalysis，2026-10-22；實測與作者判斷，信心中；信件版截斷）

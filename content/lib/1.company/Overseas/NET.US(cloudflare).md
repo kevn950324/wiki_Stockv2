@@ -10,7 +10,7 @@ tags:
   - 環節/基礎建設
   - 主題/SASE
   - 主題/AI基礎建設
-updated: 2026-10-03
+updated: 2026-10-22
 aliases:
   - Cloudflare
   - NET
@@ -102,6 +102,8 @@ Truist（2026-06-08）的 Agentic Security Stack 中，NET 是「AI Gateway & Ed
 - [[Cybersec 260710 WF_Preventive security sees temporary boost]]（2026-07-10）
 - [[Cybersec 260720 WF_2Q26 on-cycle security reseller survey]]（2026-07-20）
 
+- [[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（2026-10-22）
+
 ## 相關頁面
 
 - [[8932_智通（櫃）]]
@@ -132,3 +134,7 @@ flowchart LR
 ```
 
 圖說：Cloudflare的開發者執行、AI流量管理與安全政策是不同服務層；不能把這些能力直接等同出租整台GPU VM。本次來源無圖，使用功能示意。
+
+### 2026-10-22 NVIDIA 代理安全平台
+
+- Cloudflare 未列在 NVIDIA 投影片，但報導指雙方分工：NVIDIA 管主機層行為、Cloudflare 管網路對外連線。來源：[[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（大叔美股筆記，2026-10-22；整理媒體報導與作者觀點，信心中）

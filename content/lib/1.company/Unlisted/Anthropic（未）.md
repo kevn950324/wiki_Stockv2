@@ -11,7 +11,7 @@ tags:
   - 環節/AI訓練
   - 環節/API服務
 maturity: private
-updated: 2026-10-03
+updated: 2026-10-22
 aliases:
   - Anthropic
   - Claude
@@ -21,6 +21,7 @@ related_companies:
   - "[[GOOGL.US(alphabet)]]"
   - "[[AMD.US(amd)]]"
   - "[[META.US(meta)]]"
+  - "[[AVGO.US(broadcom)]]"
 ---
 
 # Anthropic（未）
@@ -171,6 +172,10 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 - [[報告_JPM_GLM5.3與DeepSeek重新定價_20260816]]（2026-08-16）
 - [[報告_Jefferies_中國AI_Token支出與模型效率_20260810]]（2026-08-10）
 
+- [[報告_富邦_北京上海路演ASIC_20261019]]（2026-10-19）
+
+- [[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]]（2026-10-21）
+
 ## 相關頁面
 
 - [[0100.HK(minimax)]]
@@ -188,6 +193,7 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 - AMZN.US(amazon)（Amazon $4B 戰略投資者）
 - [[GOOGL.US(alphabet)]]（Google $2B 戰略投資者；模型部署 GCP）
 - [[META.US(meta)]]（潛在私有 Claude 實例夥伴；算力客戶）
+- [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 
 ## 2026-09-24～30 Akamai CPU基礎設施合作
 
@@ -206,4 +212,15 @@ Akamai（AKAM，未建頁）於2026-09-24公告與Anthropic擴大合作，提供
 | 2026-09-24 | Akamai公告擴大Anthropic CPU基建合作 | 合作 | ⭐⭐⭐ | fact／高信心；追蹤後續服務交付，不推導GPU卡數 |
 
 跨公司追蹤：[[時程_2026-2027高速互連與分散式算力]]。
+
+## 2026-10-19 自有 ASIC 專案（券商調查）
+
+- 富邦投顧產業調查認為 Anthropic 已與 [[AVGO.US(broadcom)]] 啟動首個 ASIC 專案，預計 2027 年中設計定案、2H28 量產；另稱 AVGO 的 TPU 出海口除 Google Cloud 外也供應 Anthropic 的 TPU 機櫃（rumor／中，未經公司揭露）。
+
+來源：[[報告_富邦_北京上海路演ASIC_20261019]]（富邦投顧，2026-10-19）。
 相關技術與分析：[[技術_邊緣AI]]、[[分析_20260930專家紀要公司辨識與商業化驗證]]。
+
+### 2026-10-21 野村：營收與獲利
+
+- 野村：Anthropic 封鎖蒸餾影響約 5%–7% 營收（一次性、主動選擇）；Meta 據報鼓勵員工由 Claude Code 改用 Muse Code 與 MetaCode，為真實客戶流失；Anthropic 2Q 轉為調整後營業獲利、3Q 維持。作者另指 Haiku 5.5 較前代便宜約 75%，壓低每 token 營收。三星、海力士、美光參與 H 輪。市場預期 OpenAI＋Anthropic 2026 合計約 US$1,000 億，需 4Q 季增 61%。來源：[[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]]（大叔美股筆記轉述 Nomura 2026-10-19 Global Memory 報告，2026-10-21；券商 estimate＋作者評論，信心中）
+- [[時程_2026-2028十月券商催化劑]]

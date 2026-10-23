@@ -5,8 +5,10 @@ tags:
   - 產業/記憶體
   - 產業/AI伺服器
 maturity: mature
-updated: 2026-10-12
+updated: 2026-10-22
 aliases:
+  - G11 NAND
+  - AI-class NAND
   - NAND
   - NAND Flash
   - 快閃記憶體
@@ -148,6 +150,7 @@ SanDisk的來源示意比較 **4TB HBF、4 GPU** 與 **192GB HBM-only、8 GPU** 
 
 ## 來源
 
+- [[research_產業合作技術發表_2026-10-22]] — Micron 技術說明會官方簡報，2026-10-21；G11 NAND >400 層、AI-class NAND、512TB SSD。
 - [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；HBF配置、公司benchmark與堆疊IP／APR渠道研究。
 
 - [[活動_國泰_美國參訪訪談紀要_20260914-18]] — 國泰證期研究部，2026-09-18；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
@@ -171,6 +174,17 @@ SanDisk的來源示意比較 **4TB HBF、4 GPU** 與 **192GB HBM-only、8 GPU** 
 
 > [!note] 信心
 > Kioxia 與 Micron 為公司公開說明，信心中高；群聯滿足率為論壇口頭說法，信心中；三星新品規格為群組轉傳媒體報導，信心中低。
+
+## 2026-10-21 Micron G11 NAND 與 AI-class NAND
+
+Micron 技術說明會簡報（2026-10-21，fact／高；時程為公司目標）：
+
+- **G11 NAND**：晶圓對晶圓鍵合（wafer-on-wafer bonding）、逾 400 層、業界領先 cell pitch，2H27 量產爬坡；位元密度約 G9 的 2 倍、I/O 速度最高 1.5 倍、每位元資料傳輸能耗降逾 25%。G11 之後規劃高遷移率新材料與超高密度 cell 架構。與三星 V10 BV-NAND 400 層同屬 400 層世代，鍵合式 CMOS 與陣列分離成為主流。
+- **AI-class NAND** 兩條路：(1) 高 IOPS SLC 設計，給 GPU 發起的小區塊存取（向量搜尋、KV cache）；(2) TSV 堆疊 NAND 加邏輯 base die 的高頻寬 AI-class NAND，在加速器旁放大容量層，與上方 HBF 路線概念相近。
+- **SSD 規格目標**：容量最高 512TB；高 IOPS SSD 達 2,500 萬～1 億 IOPS 小區塊存取。
+- 與既有資料：Micron FY4Q26 法說的「下一代節點 2H27」此處確認為 G11；上方三星 V10 數據為媒體轉傳，Micron 數據為官方簡報。
+
+來源：[[research_產業合作技術發表_2026-10-22]]（Micron 技術說明會簡報，2026-10-21）；公司細節見 [[MU.US(micron)]]。
 
 ## 相關頁面
 

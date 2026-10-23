@@ -75,6 +75,8 @@ Vertiv 是資料中心電源與熱管理（含 UPS、power rack、配電、液�
 
 ## 相關頁面
 
+- [[CDNS.US(cadence)]]
+- [[SU.FR(schneider_electric)]]
 - [[分析_AI資料中心供電與電熱整合]]
 - [[分析_20260820專家會議受訪公司辨識]]
 - [[供應鏈_AI伺服器散熱]]

@@ -10,7 +10,7 @@ tags:
   - 產業/AI半導體
   - 環節/AI軟體平台
   - 環節/AI軟體平台
-updated: 2026-10-05
+updated: 2026-10-22
 image_status: "待補來源圖"
 aliases:
   - OpenAI
@@ -18,6 +18,7 @@ aliases:
 related_companies:
   - "[[CBRS.US(cerebras)]]"
   - "[[NVDA.US(nvidia)]]"
+  - "[[AVGO.US(broadcom)]]"
 ---
 
 # OpenAI（未）
@@ -61,6 +62,7 @@ flowchart LR
 |--------|----------|------|------|
 | [[CBRS.US(cerebras)]] | 750MW，~$30B | take-or-pay（3 期） | 低延遲推理容量；最長延至 5 年；+1.25GW 選擇權 |
 | [[NVDA.US(nvidia)]] | 大規模 GPU 採購 | 硬體 | 訓練與主流推理基礎 |
+| [[AVGO.US(broadcom)]] | 自研 ASIC | 客製晶片 | 富邦（2026-10-19）產業調查：OpenAI 近期將 2027 年 ASIC 需求由原假設 100 萬顆上修至 300 萬顆（estimate／中） |
 
 ## 相關公司
 
@@ -68,6 +70,7 @@ flowchart LR
 |------|------|------|
 | [[CBRS.US(cerebras)]] | 主要算力供應商 | 750MW take-or-pay 推理算力合約 |
 | [[NVDA.US(nvidia)]] | GPU 供應商 | 訓練叢集主力 |
+| [[AVGO.US(broadcom)]] | ASIC 設計夥伴 | 2027 年需求據富邦調查上修至 300 萬顆 |
 
 > [!warning] 風險與注意事項
 > - 未上市，財務資訊不完整；客戶資訊來自供應商揭露
@@ -90,6 +93,11 @@ flowchart LR
 - [[報告_JPM_GLM5.3與DeepSeek重新定價_20260816]]（2026-08-16）
 - [[報告_Jefferies_中國AI_Token支出與模型效率_20260810]]（2026-08-10）
 
+- [[報告_富邦_北京上海路演ASIC_20261019]]（2026-10-19）
+
+- [[memo_FOMOSoc_CoreWeave與AI基建_20261020]]（2026-10-20）
+- [[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]]（2026-10-21）
+
 ## 相關頁面
 
 - [[0100.HK(minimax)]]
@@ -103,3 +111,9 @@ flowchart LR
 - [[AI_Coding_Agent_Buyi_856492_ndx]]
 - [[Avoid_AI_Budget_Blow_846413_ndx]]
 - [[NBIS.US(nebius)]]
+
+### 2026-10-21 野村：營收口徑
+
+- OpenAI 9 月年化 run-rate 約 US$500 億，市場流傳的 US$680–700 億含合作夥伴總營收（為與 Anthropic 比較）；CNBC「Q3 成長 77%」是 run-rate 成長而非認列營收。市場預期 OpenAI 與 Anthropic 2026 全年合計約 US$1,000 億，需 4Q 季增 61%；若 9 月 run-rate 持平，全年約 US$860 億。作者推測年底可能出現「兩大實驗室營收不如預期」標題，年增率仍接近 3 倍。OpenAI 亦為 CoreWeave 長約客戶（[[memo_FOMOSoc_CoreWeave與AI基建_20261020]]（FOMOSoc，2026-10-20；信件版截斷，信心中））。來源：[[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]]（大叔美股筆記轉述 Nomura 2026-10-19 Global Memory 報告，2026-10-21；券商 estimate＋作者評論，信心中）
+- [[時程_2026-2028十月券商催化劑]]
+- [[CRWV.US(coreweave)]]

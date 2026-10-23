@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/PCB
 maturity: mature
-updated: 2026-10-03
+updated: 2026-10-20
 aliases:
   - PCB
   - Printed Circuit Board
@@ -210,6 +210,7 @@ PCB 壓合後通孔（Through-hole Via）貫穿全板，但訊號往往只在特
 - [[分析_半導體AI供應鏈與NPO轉折_20260824]]
 - [[技術_矽微粉]]
 - [[技術_背鑽]]
+- [[技術_PTFE]]
 
 ## 2026-08-18 高階 PCB 與 Rubin 更新
 

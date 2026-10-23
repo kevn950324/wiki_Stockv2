@@ -146,3 +146,5 @@ related_topics:
 | NVIDIA 外置 350–400mW ELS NPO 與 AWS／Meta 內置 120–150mW NPO 並行驗證 | channel thesis | 同上 | 日期不詳 | 低 |
 | 內置 NPO 最快 2027H2 小量、2028 大規模部署 | channel estimate | 同上 | 日期不詳 | 低 |
 | 前段晶片與泰國封裝是 UHP CW 瓶頸，可能洽 Fabrinet 支援後段 | channel claim | 同上 | 日期不詳 | 低 |
+
+同一場訪談另以 [[memo_AceCamp_Coherent高功率CW與NPO_20260914]] 收錄（2026-10-23 確認主體為 Lumentum，不另計）。以上量價換算成逐年 CW 晶片營收，見 [[分析_專家口徑CW雷射營收估算2026-2028]]。

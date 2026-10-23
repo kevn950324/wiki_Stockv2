@@ -7,10 +7,12 @@ sector: 記憶體 / DRAM / HBM / NAND
 tags:
   - 公司/Micron
   - 技術/HBM
+  - 技術/DRAM
+  - 技術/NAND
+  - 供應鏈/記憶體
   - 產業/AI伺服器
   - 環節/記憶體製造
-  - 環節/記憶體製造
-updated: 2026-10-08
+updated: 2026-10-22
 aliases:
   - Micron
   - MU
@@ -26,6 +28,7 @@ related_companies:
   - "[[000660.KR(sk_hynix)]]"
   - "[[285A.JP(kioxia)]]"
   - "[[SNDK.US(sandisk)]]"
+  - "[[META.US(meta)]]"
 image_status: "待補來源圖"
 ---
 
@@ -129,7 +132,11 @@ flowchart LR
 | 2027 H1 | 台灣桐廬廠（30萬平方英尺）重要產品出貨 | 產能 | ⭐⭐⭐ | 較原計劃提前約一季 |
 | 2027 H1 | 新加坡先進封裝高量產產能貢獻 | 產能 | ⭐⭐ | |
 | 2027 H2 | 美國 Idaho ID1 晶圓廠首片晶圓 | 產能 | ⭐⭐ | |
-| 2027 H2 | 下一代 DRAM/NAND 節點量產 | 技術 | ⭐⭐⭐ | 1-delta / G10 節點 |
+| 2027 H2 | 下一代 DRAM/NAND 節點量產 | 技術 | ⭐⭐⭐ | 1-delta / G10 節點；2026-10-21 技術說明會確認 1δ 2H27 爬坡、NAND 為 G11（>400 層）2H27 量產 |
+| 2026-10-21 | 技術說明會（DeBoer）：HBM 年度節奏至 HBM6、vHBM／vEIM、不採 4F² | 技術路線 | ⭐⭐⭐ | [[research_產業合作技術發表_2026-10-22]] |
+| 2027 | HBM4E 量產（目標）；起為 JEDEC＋客製 base die | 技術 | ⭐⭐⭐ | 2026 已送樣主要客戶 |
+| 2028 | HBM5 量產（目標），對應 1δ DRAM | 技術 | ⭐⭐⭐ | 官方簡報，directional |
+| 2029–2030 | HBM5E（2029）、HBM6（2030）；vHBM 1–3、vEIM 1–3 同期展開 | 技術 | ⭐⭐ | 官方簡報，時程為目標 |
 | 2028 末 | 美國 Idaho ID2 晶圓廠首片晶圓 | 產能 | ⭐⭐ | |
 | 2028 後 | DRAM/NAND 產業供應逐步改善 | 產業 | ⭐⭐ | 目前缺乏明確可見度 |
 
@@ -147,6 +154,7 @@ flowchart LR
 | [[AMD.US(amd)]] | 客戶 | HBM for Instinct |
 | [[2330_台積電（市）]] | 無直接製造關係 | Micron 為自有 IDM；TSMC 為競品客戶代工 |
 | [[ASML.NL(asml)]] | 上游設備 | 多年期 EUV 供應協議（One Delta 節點） |
+| [[META.US(meta)]] | 客戶／共同研究 | 2026-10-21 技術說明會列出 Micron×Meta LPDDR6 資料中心記憶體聯合白皮書 |
 
 > [!warning] 風險與注意事項
 > - **週期性**：SCA 提供底價保護，但 NAND/DRAM 長期供需在 2028 後仍不確定；一旦供應追上需求，毛利率壓縮風險顯著
@@ -196,7 +204,33 @@ BofA 將 Micron 列為 4Q26 top picks，看好 HBM 與傳統記憶體供應受�
 
 跨模型與驗證框架：[[分析_AgenticAI需求到供電與材料獲利的驗證_20260929]]。
 
+## 技術路線圖：HBM 至 2030 與 vHBM（2026-10-21 技術說明會）
+
+官方簡報（Scott DeBoer，33 頁，2026-10-21；fact／高，路線圖時程為公司目標、標示 directional）：
+
+- **HBM 年度節奏**：HBM4（2026）→ HBM4E（2027）→ HBM5（2028）→ HBM5E（2029）→ HBM6（2030），並行 vHBM 1–3 與 vEIM 1–3。HBM4E 起為「JEDEC + custom」，後續再加 3D。2026 年已出貨 HBM4 12H、送樣 HBM4E 給主要客戶。HBM4 單 stack 約 2.8 TB/s（2,048 bit × 11 Gbps）。
+- **三種 HBM 架構**：標準 HBM（interposer 上並排）→ 客製 HBM（base die 加客戶邏輯）→ 垂直 HBM（vHBM，記憶體直接疊在運算晶片上，路徑最短）。封裝要素：TSV／µbump 微縮、混合銅鍵合、16H µbump 與混合堆疊、2.5D HBM＋3D vHBM 整合、PHY 上方散熱片；見 [[技術_混合鍵合]]。
+- **DRAM**：1γ 已量產；1δ 為第五個領先節點、2H27 爬坡、美國製造，位元密度較 1γ 提升約 20% 中段，支援 HBM5／vHBM／vEIM。明確「延伸 6F²、開發 3D DRAM，不走 4F²」（二十年研究判定無可行微縮路徑）；路線含 EUV、晶圓鍵合、High-NA EUV。產品：LP6（功耗較 LP5 改善逾 35%）、DDR6（頻寬逾 DDR5 兩倍）、1TB RDIMM（能力展示）。
+- **NAND**：G11 採晶圓對晶圓鍵合、逾 400 層，2H27 量產爬坡，位元密度約 G9 兩倍、I/O 最高 1.5 倍；AI-class NAND（TSV 堆疊＋邏輯 base die、高 IOPS SLC），SSD 最高 512TB、2,500 萬～1 億 IOPS。
+- **合作與長期投資**：與多家 CSP 開發客製產品；與 [[META.US(meta)]] 合撰 LPDDR6 資料中心記憶體白皮書。
+- 與既有資料關係：上方 FY4Q26 法說「下一代節點 2H27 量產」與本簡報一致；早報 [[research_每日產業新聞_2026-10-22]] 以媒體轉述「不走 4F²」，此處以官方簡報確認。客製 base die 對邏輯晶圓代工（如 [[2330_台積電（市）]]）的需求屬推論，簡報未點名代工廠。
+
+```mermaid
+flowchart LR
+    S[標準 HBM<br/>HBM4 2026] --> C[客製 HBM<br/>HBM4E 2027 起<br/>JEDEC+custom base die]
+    C --> V[垂直 vHBM<br/>疊在運算晶片上<br/>vHBM1-3]
+    D[1δ DRAM 2H27] --> H5[HBM5 2028]
+    H5 --> H6[HBM5E 2029 → HBM6 2030]
+    classDef mem fill:#d0bfff,stroke:#7048e8,color:#111;
+    class S,C,V,D,H5,H6 mem;
+```
+圖說：依 Micron 2026-10-21 技術說明會簡報整理的 HBM 架構與年度節奏；時程為目標量產時間。
+
+來源：[[research_產業合作技術發表_2026-10-22]]（Micron 技術說明會簡報，2026-10-21）。
+
 ## 來源
+- [[research_產業合作技術發表_2026-10-22]] — Micron 技術說明會官方簡報，2026-10-21；HBM4→HBM6、vHBM／vEIM、1δ、不採 4F²、G11 NAND。
+- [[research_每日產業新聞_2026-10-22]] — 每日新聞彙整，2026-10-22；Micron 不走 4F² 媒體轉述。
 - [[報告_BofA_AgenticAI半導體市場_20260929]] — BofA，2026-09-29；Agentic AI 產業模型、個股估值與風險
 
 - [[活動_Micron_FY4Q26法說_20261001]] — 國泰證期 FY4Q26 法說 Call Memo，2026-10-01
@@ -229,7 +263,11 @@ BofA 將 Micron 列為 4Q26 top picks，看好 HBM 與傳統記憶體供應受�
 - [[報告_JPM_HBM市場更新_20260922]]（2026-09-22）
 - [[報告_UBS_智慧型手機記憶體成本_20260922]]（2026-09-22）
 
+- [[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]]（2026-10-21）
+
 ## 相關頁面
+
+- [[時程_2026-2028十月券商催化劑]]
 - [[分析_美股低淨槓桿與高Beta曝險並存_20261002]]
 
 - [[分析_2026Q3法說季_AI供應鏈瓶頸與擴產節奏_LINE彙整]]
@@ -245,3 +283,7 @@ BofA 將 Micron 列為 4Q26 top picks，看好 HBM 與傳統記憶體供應受�
 - [[技術_光模塊]]
 - [[供應鏈_記憶體]]
 - [[分析_記憶體超級循環2026]]
+
+### 2026-10-21 野村 Global Memory
+
+- 美光列入野村 9 家半導體淨現金統計（1Q24 US$270 億 → 2Q26 US$2,820 億），並參與 Anthropic H 輪；報告結論為記憶體供給吃緊至少到 2028 年。來源：[[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]]（大叔美股筆記轉述 Nomura 2026-10-19 Global Memory 報告，2026-10-21；券商 estimate＋作者評論，信心中）

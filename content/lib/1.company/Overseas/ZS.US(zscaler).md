@@ -10,7 +10,7 @@ tags:
   - 環節/SaaS平台
   - 主題/SASE
   - 主題/零信任
-updated: 2026-10-05
+updated: 2026-10-22
 aliases:
   - Zscaler
   - ZS
@@ -25,6 +25,7 @@ related_companies:
   - "[[OKTA.US(okta)]]"
   - "[[NET.US(cloudflare)]]"
   - "[[SAIL.US(sailpoint)]]"
+  - "[[FTNT.US(fortinet)]]"
 ---
 
 # ZS.US(zscaler)
@@ -246,6 +247,21 @@ ZS 是覆蓋範圍中最便宜的 best-of-breed 資安股（EV/FCF to Rev Growth
 
 Evercore ISI（2026-09-29）認為 Codex Security 的近期替代壓力較集中在漏洞發現、程式碼安全與攻擊路徑分析，未改變其對 ZS 核心 runtime 防護的看法；這不等同 SASE 競爭或執行風險已消失。詳見 [[分析_DevSecOps_AI安全衝擊]]、[[分析_Zscaler_CRO交接與非席次計價_20261005]]。
 
+## 凱基 3Q26 預覽（2026-10-15）：Agent 推升 Network Security，估值仍折價
+
+![[報告_凱基_美國軟體3Q26預覽_20261015_Agent資安架構.png]]
+*圖：凱基整理的 AI Agent 全生命週期資安架構（盤點 Agent → 身分與權限 → 資料／工具存取控制 → 測試與 Runtime 防護 → 持續監控與回應），ZS 出現在五段中的四段。來源：[[報告_凱基_美國軟體3Q26預覽_20261015]] slide 3。*
+
+- **估值折價**：ZS 2026–28 年營收 CAGR 17.1%（同業平均 16.3%），但 2027 EV／Sales 8.2x，低於同業平均 11.6x、FTNT 13.3x、PANW 19.4x；CRWD／PANW 營收 CAGR 22.6%／19.0%、EV／Sales 38.07x／19.39x。未來 12 個月 EV／Sales 約 8.2x，低於 2019 年以來均值 18.0x、接近 -1σ 7.5x（凱基，BBG 資料）。
+- **Agent 推升網路安全**：Agent 持續呼叫 API、跨系統操作，增加機器間流量與非人類身分管理需求；Gartner 估 AI Usage Control、AI Gateway 2027 年成長 73%、71%，高於整體 AI 資安 69%。凱基認為 Network Security（ZTNA、身分驗證與最小權限）最受惠。
+- **Agentic SecOps**：2026-09 推出 Agentic SOC（逾 50 個 Agent 執行分類、調查與回應），搭配 Exposure Management、Deception、威脅獵捕與 MDR；本季觀察計價方式、訂單貢獻與跨產品加購。
+- **FY4Q26／FY26 實績**：4Q26 營收 US$898mn（+25% YoY），新增 ARR US$246mn，高於市場預期約 12%；FY26 營收 US$3.35bn、期末 ARR US$3.77bn（皆 +25%），調整後營業利益率 22.88%（FY25 21.70%）。Z-Flex 單季 TCV 逾 US$770mn（季增逾 60%），採用客戶平均 ARR 提升近 30%。
+- **新產品**：AI Protect（2026-01）、AI Broker 與 Endpoint AI Security（2026-06）；FY4Q26 AI bookings 季增逾 50%、商機管線季增 75%，70% 交易搭售 Data Security，期末 AI ARR 約 US$70mn；Agent 相關產品預期 2H27 放量。Zero Trust Branch／Cloud ARR US$250mn（三年 CAGR 75%），約 30% ZIA 使用者尚未用 ZPA。Investor Day：40% Branch 客戶為新客戶，約 1/3 新客戶 ARR 來自新產品。
+- **指引與風險**：重申 FY27 ARR 年增 16.6–17.4%（凱基另寫營收及 ARR 指引上修至約 17%）；成長由 FY26 約 25% 放緩到約 17%，大型合約遞延、競爭加劇或 AI 安全變現慢於預期會壓抑估值修復。凱基維持偏正向看法。
+
+> [!note] 來源性質
+> 這份投影片原檔名含「Kevin (1)」且留有編輯註記，疑為凱基內部草稿；數字以投影片文字為準，信心中。
+
 ## 相關公司
 
 | 關係 | 公司 | 備註 |
@@ -257,6 +273,8 @@ Evercore ISI（2026-09-29）認為 Codex Security 的近期替代壓力較集中
 | MDR 整合（收購） | Red Canary（未建頁） | 2025-2026 收購，整合進度落後預期 |
 | AI 資安收購 | Symmetry（未建頁） | AI Access Graph，2026 年完成整合 |
 | AI 身份競品 | CyberArk（PANW 子品牌） | PAM / Agentic Identity |
+| 網路安全競品 | [[FTNT.US(fortinet)]] | FortiGate 整合防火牆與 SD-WAN；凱基 2027 EV／Sales 13.3x vs ZS 8.2x |
+| 同業估值參照 | [[CRWD.US(crowdstrike)]] | XDR／SOC 布局，2027 EV／Sales 38.07x（凱基）|
 
 ---
 
@@ -305,6 +323,7 @@ gantt
 
 ## 來源
 
+- [[報告_凱基_美國軟體3Q26預覽_20261015]] — 凱基投顧，2026-10-15；3Q26 預覽：Agent 推升 Network Security、估值折價、Agentic SOC 與 Z-Flex（疑為草稿版投影片）。
 - [[research_Zscaler_Okta_Agent防護_20261005]] — 網路搜尋（Zscaler 新聞稿、SiliconANGLE、Futurum），Agent 端防護，2026-10-05 擷取。
 - [[research_Okta_Zscaler_Agent防護更新_20261005]] — 網路搜尋，2026-10-05 擷取：Zscaler Agentic SOC 新聞稿（2026-09-09）、Oktane 2026 公告與 Blueprint Alliance（2026-09-22）。
 - [[報告_Barclays_Zscaler_CRO交接_20260924]] — Barclays，2026-09-24。

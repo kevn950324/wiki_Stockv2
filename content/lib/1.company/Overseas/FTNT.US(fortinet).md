@@ -11,7 +11,7 @@ tags:
   - 主題/NGFW
   - 主題/SASE
   - 主題/AI-SecOps
-updated: 2026-10-05
+updated: 2026-10-22
 aliases:
   - Fortinet
   - FTNT
@@ -193,6 +193,10 @@ FTNT 走「防火牆／閘道看得懂 agent 協定」的路線：在既有 Fort
 
 - [[Cybersec 260707 Evercore_Cybercheck round 1]]（2026-07-07）
 
+- [[報告_凱基_美國軟體3Q26預覽_20261015]]（2026-10-15）
+
+- [[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（2026-10-22）
+
 ## 相關頁面
 
 - [[分析_DevSecOps_AI安全衝擊]] — 2026-09-29 Evercore 的上線前／runtime 替代風險框架。
@@ -204,3 +208,7 @@ FTNT 走「防火牆／閘道看得懂 agent 協定」的路線：在既有 Fort
 - [[分析_資安十強Agent端防護比較_20261005]]
 - [[技術_SASE]]
 - [[技術_EDR與XDR]]
+
+### 2026-10-22 NVIDIA 代理安全平台
+
+- Fortinet 列名 NVIDIA OpenShell 平台投影片；作者與 Palo Alto 同列「要觀察」，風險為 runtime 監控移至 DPU 硬體。來源：[[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（大叔美股筆記，2026-10-22；整理媒體報導與作者觀點，信心中）
