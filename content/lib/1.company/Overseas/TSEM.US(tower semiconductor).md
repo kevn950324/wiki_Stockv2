@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 環節/晶圓代工
   - 產業/光通訊
-updated: 2026-08-24
+updated: 2026-10-25
 aliases:
   - Tower Semiconductor
   - TSEM
@@ -124,8 +124,15 @@ Latitude Design Systems（之光半導體）是 Tower SiPh 平台的 EDA 合作�
 
 來源：[[報告_開源證券_Tower半導體矽光代工_20260818]]（開源證券，2026-08-18）。
 
+### 2026-10-24 量子曝險（PhotonCap）
+
+PhotonCap 查核 Tower 自 2021 年以來的揭露，量子公司以合作夥伴身分出現的案例只有 Xanadu（2026-02 擴大合作），2025 年報正文未出現 quantum 一字；超導路線無公開資料。PhotonCap 將 Tower 定位為「附帶量子選項的 AI 矽光子代工」，量子曝險明顯低於 [[GFS.US(globalfoundries)]]。Xanadu 同時於 2026-10-06 宣布與 GF Malta 300mm 線多年期合作。詳見 [[技術_量子晶圓代工]]。
+
+來源：[[memo_PhotonCap_量子晶圓代工與隔離產線_20261024]]（PhotonCap，2026-10-24）。
+
 ## 相關頁面
 
+- [[技術_量子晶圓代工]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 - [[供應鏈_AI光互聯]]
 - [[技術_矽光子（SiPh）]]
@@ -137,3 +144,4 @@ Latitude Design Systems（之光半導體）是 Tower SiPh 平台的 EDA 合作�
 - [[Optical Networking 260417 GS AI scale out scale up]]（2026-04-17）
 - [[Yuanta Tower Semiconductor silicon photonics AI datacenter capacity reservation 260701]]（2026-07-01）
 - [[報告_開源證券_Tower半導體矽光代工_20260818]]（2026-08-18）
+- [[memo_PhotonCap_量子晶圓代工與隔離產線_20261024]]（PhotonCap，2026-10-24；量子曝險僅 Xanadu）

@@ -12,7 +12,7 @@ tags:
   - 技術/CoWoS
   - 產業/AI伺服器
   - 環節/IC設計
-updated: 2026-10-20
+updated: 2026-10-24
 aliases:
   - AMD
   - Advanced Micro Devices
@@ -163,6 +163,7 @@ AMD 將 ROCm 升級為 **ROCm.AI**，整合 **Hyperloom AI 最佳化引擎**：
 | Microsoft | 反轉：原因 MI300X 後 HBM 記憶體問題中止（跳過 MI325X/MI355X），2026 重新部署 MI455X Helios | Samsung 2023 HBM 品質問題 + 軟體問題導致 2023 年短暫離開 |
 | Meta | 部署自定義 Cut-down MI455X（Recsys 用）；標準版興趣待確認 | SemiAnalysis 建議 AMD 向 Meta TBD 推廣標準版 |
 | Cerebras | 分離式推論合作：Helios Prefill + Cerebras WSE Decode | 2H26 上線 |
+| Vultr | 2026-10-21 宣布印度清奈 20 MW MI355X 超級叢集（印度最大 AMD Instinct 部署），2027 年加入 MI455X 與 Helios 擴充 | 官方 fact；與美國俄亥俄州 Springfield 並列其兩大 AMD 據點，來源 [[research_產業合作技術發表_2026-10-24]] |
 
 **105% Equity Rebate 結構（AMD vs OpenAI/Meta）：**
 - AMD 給予 OpenAI / Meta 高達 **105% 股權折扣回饋**（clever financial engineering）
@@ -252,6 +253,7 @@ MI550 半配置 2H27、完整配置 1H28，16／32 GPU rack 約 100／200kW+、5
 
 ## 來源
 
+- [[research_產業合作技術發表_2026-10-24]] — Vultr Business Wire India 新聞稿，2026-10-21；清奈 20 MW MI355X 叢集、2027 MI455X／Helios 擴充。
 - [[報告_JPM_健策可拆式上蓋_20260929]] — JPM，2026-09-29；MI450 上蓋內容值與量產估計（中）。
 - [[報告_Aletheia_2027AI加速器關鍵變化_20261001]] — Aletheia Capital，2026-10-01；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 - [[報告_UBS_AI算力與資料中心電力供給_20260929]] — UBS，2026-09-29；Helios／MI500 功率與模型口徑疑義

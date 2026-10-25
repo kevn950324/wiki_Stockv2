@@ -9,7 +9,7 @@ tags:
   - 產業/雲端
   - 產業/AI伺服器
   - 環節/雲端服務
-updated: 2026-10-12
+updated: 2026-10-24
 aliases:
   - Amazon
   - Amazon.com
@@ -17,6 +17,8 @@ aliases:
 related_companies:
   - "[[3443_創意電子（市）]]"
   - "[[索爾思光電（未）]]"
+  - "[[MMM.US(3m)]]"
+  - "[[3406_玉晶光（市）]]"
 ---
 
 # AMZN.US(amazon)
@@ -59,14 +61,18 @@ flowchart LR
 |---|---|---|---|---|
 | 2026Q3 | 營收指引 US$1,970–2,020 億 | 財測 | ⭐⭐⭐ | 公司指引，來源為富邦 memo |
 | 2026H2 | AWS AI 與自研晶片年化營收持續成長 | 放量 | ⭐⭐⭐ | 公司說法／券商整理 |
+| 2026-10-19 | 與 3M 擴大策略商業關係，取得最多 3,162,015 股 3M 認股權證（依購買光連接等資料中心產品金額既得，累計 US$60 億全數既得） | 策略合作 | ⭐⭐ | 官方 fact（3M 8-K）；[[時程_2026Q3Q4_AI網通與硬體催化劑]] |
 
 ## 供應鏈位置
 - 下游：AI 伺服器、記憶體、ASIC 設計服務；相關主題見 [[供應鏈_記憶體]]。
+- 光互連採購：透過 [[MMM.US(3m)]] 擴大光連接產品採購，EBO ferrule 由 [[3406_玉晶光（市）]] 支援製造；見 [[供應鏈_AI光互聯]]。
 
 ## 相關公司
 | 公司 | 關係 | 說明 |
 |---|---|---|
 | [[3443_創意電子（市）]] | ASIC 設計服務 | 報告提及自研 AI 晶片供應鏈 read-through，非已確認訂單 |
+| [[MMM.US(3m)]] | 光連接供應商 | 2026-10-19 擴大策略商業關係，認股權證綁定光連接等產品累計購買額 |
+| [[3406_玉晶光（市）]] | 間接上游 | 3M EBO ferrule 製造夥伴，非 Amazon 直接供應商 |
 
 > [!warning] 風險與注意事項
 > - AI 資本支出回收期、電力與晶片供給限制可能壓縮報酬。
@@ -80,8 +86,31 @@ AWS 不在創意基準模型，100萬顆、TK3 毛利下約增加創意年 EPS40
 
 來源：[[報告_Aletheia_創意電子首次覆蓋_20260922]]（2026-09-22；券商 estimate／channel_check／thesis，信心依上段）。分析：[[分析_創意COT獲利與營運資金驗證_20260922]]。
 
+## 2026-10-23 SemiAnalysis：Trainium3 轉向訓練（TorchNeuron）
+
+SemiAnalysis 工程團隊實測 Trainium3 機櫃數週後的評估：Trainium 已在推論驗證（[[Anthropic（未）]] 以 Trainium2／3 跑正式推論與 RL rollouts），AWS 軟體策略轉向原生 PyTorch，目標補上研究型訓練的缺口；成熟度仍遠不及 CUDA，但方向正確（第三方實測，中信心）。
+
+- **TorchNeuron**：取代 PyTorch/XLA，支援 eager mode、torch.compile、torch.distributed 與 DTensor／SimpleFSDP／DDP，程式碼只需把 `.to("cuda")` 改成 `.to("neuron")`；AWS 延攬 Google 原生 Torch on TPU 負責人。Day 0 先做好 BF16，暫不支援 TorchAO MXFP8。已支援 Hugging Face Accelerate、TorchTitan 等生態，並投入 vLLM／SGLang 社群。
+- **TorchTitan 實測**：16 顆 Trainium2（64 個 LNC=2 邏輯核）訓練 Qwen3-32B，eager 11,099 tokens/s、MFU 23.89%；compiled 14,156 tokens/s、MFU 30.47%（1.28x）。gpt-oss 20B recipe 可直接跑；MoE 通訊尚未接上 PyTorch TokenSwitch API（AWS 承諾與 Meta PyTorch 團隊修改）。
+- **編譯時間是主要痛點**：首步 eager 184.6 秒、compiled 255.7 秒（平均步長 30–55 倍），gpt-oss 編譯 27 分 17 秒；新編譯後端目標將 time-to-first-step 縮短最多兩個數量級。
+- **MatMul／FlexAttention**：單一 Trainium3 邏輯核 MFU 在約 1 GFLOP 起高於 GB300，100 GFLOP 後 GB300／B200 較佳，1 TFLOP 以上 Trainium3 再領先；FlexAttention 96 項測試通過 89 項（93%），7 項失敗皆為大 batch／8,192 序列的編譯逾時。
+- **品質控管**：最多 80,000 個實體核用於自動化 CI，測試 10 萬以上 Hugging Face 模型的數值與效能對齊；Neuron Explorer profiler 評價優於 NVIDIA 與 AMD 工具。
+
+來源：[[memo_SemiAnalysis_Trainium3訓練與TorchNeuron_20261024]]（SemiAnalysis，2026-10-23；實測數字為第三方 fact，路線圖為公司目標）。相關：[[技術_AI推論與ASIC平台]]。
+
+## 2026-10 AWS「Early Rack Receipt」與 Dark GPU（轉述）
+
+FOMOSoc 引 Business Insider（10 月中）稱 AWS 內部「早期機櫃接收」流程：一個月內向 NVIDIA 提貨約 US$5bn GB300 機櫃，預計未來每月續拿約 US$3bn；部分機櫃放在中轉倉或電力未到位的機房（「暗 GPU」）。SemiAnalysis Podcast 的「GPU 過剩」原意是晶片拿得到、但土地、電力與廠房不足，並將 2027 年全球（不含中國）新增資料中心容量上調至近 50GW（已逾 24GW 進入後期施工）。屬媒體／電子報轉述，中低信心。來源：[[memo_FOMOSoc_KP思考筆記65_SpaceX特斯拉Nebius晶片過剩_20261024]]（2026-10-24）。
+
+## 2026-10-19 3M 光連接認股權證
+
+[[MMM.US(3m)]] 在 2026-10-19 的 Form 8-K 揭露：與 Amazon 全資子公司擴大策略商業關係，並發給 Amazon 另一子公司認股權證，最多可認購 3,162,015 股 3M 普通股，行使價 US$164.89、期間 7 年。85% 依 Amazon 購買光連接與其他資料中心產品的付款金額分批既得，累計付款達 US$60 億全數既得；其餘 15% 依未公開的事件里程碑既得。3M 同日宣布入股 [[3406_玉晶光（市）]] 約 4.7%，支援 EBO ferrule 與 CPO 光學件製造。60 億美元是既得門檻，不是採購承諾（官方 fact；需求規模為上限條件，信心中）。
+
 ## 來源
 
+- [[research_產業合作技術發表_2026-10-24]] — 3M 新聞稿與 Form 8-K，2026-10-19；Amazon 認股權證條款、3M 入股玉晶光。
+- [[memo_SemiAnalysis_Trainium3訓練與TorchNeuron_20261024]] — SemiAnalysis，2026-10-23；Trainium3 TorchNeuron／TorchTitan 實測、編譯時間、CI 與 profiler。
+- [[memo_FOMOSoc_KP思考筆記65_SpaceX特斯拉Nebius晶片過剩_20261024]] — FOMO研究院 KP，2026-10-24；AWS Early Rack Receipt、SemiAnalysis「晶片過剩」原意與 2027 年 50GW。
 - [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；創意專案、合作分工與未確認的上行情境。
 - [[AMZN Q2 Earnings Call memo_Fubon 20260731]]（富邦證券，2026-07-31）
 

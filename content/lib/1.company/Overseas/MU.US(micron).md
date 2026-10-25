@@ -287,3 +287,7 @@ flowchart LR
 ### 2026-10-21 野村 Global Memory
 
 - 美光列入野村 9 家半導體淨現金統計（1Q24 US$270 億 → 2Q26 US$2,820 億），並參與 Anthropic H 輪；報告結論為記憶體供給吃緊至少到 2028 年。來源：[[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]]（大叔美股筆記轉述 Nomura 2026-10-19 Global Memory 報告，2026-10-21；券商 estimate＋作者評論，信心中）
+
+## 相關頁面
+
+- [[SIMO.US(silicon_motion)]]

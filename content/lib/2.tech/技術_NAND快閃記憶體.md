@@ -85,7 +85,7 @@ flowchart LR
 ## 產業動能
 - **KV Cache 帶動 eSSD**：[[大和 韓國記憶體產業電話會議摘要]]（2026-07-02）指 KV SSD 由三星、美光為主，TLC 為關鍵，大容量 QLC eSSD 快速增加。
 - **容量補充 vs. 利用率提升**：[[memo_FMS2026_CXL記憶體池與光互連_日期不詳]]（日期不詳，FMS 2026 觀察）把 NAND KV Cache offload 定位為增加較低成本容量，並把 CXL memory pooling 定位為提高既有 HBM／DRAM 利用率。兩者較可能是分層互補而非互斥替代；實際配置取決於 KV Cache 熱度、延遲容忍度、IOPS、資料搬移與 TCO。此為使用者產業觀察，CXL 與系統產品細節尚待原始簡報驗證，詳見 [[分析_FMS2026_CXL記憶體池與光互連受惠邏輯]]。
-- **Boot Drive 標準化**：[[260702_ms_nand-industry]]（2026-07-02）指 SIMO.US(silicon_motion) 佔 BlueField-3 boot drive 控制器 100%；Vera Rubin 標準化後 BlueField-4 加入 [[8299_群聯（櫃）]]、[[2379_瑞昱（市）]]。
+- **Boot Drive 標準化**：[[260702_ms_nand-industry]]（2026-07-02）指 [[SIMO.US(silicon_motion)]] 佔 BlueField-3 boot drive 控制器 100%；Vera Rubin 標準化後 BlueField-4 加入 [[8299_群聯（櫃）]]、[[2379_瑞昱（市）]]。
 - **利基 SLC/MLC 緊俏**：MS 看好 [[2337_旺宏（市）]]（Top Pick，SLC/MLC）、[[2344_華邦電子（市）]]（SLC）；3Q 漲 50–60%，enterprise HDD 轉用高密度 SLC。
 - **模組廠模式改變**：LTA 使記憶體高檔維持 3–5 年，低成本庫存耗盡後模組廠毛利趨穩（[[分析_記憶體超級循環2026]]）。
 - **原廠產品組合遷移（渠道觀察）**：[[memo_AceCamp_NAND供需與eSSD轉型_20260820]]（2026-08-20）稱部分原廠把產能轉向 eSSD、退出小容量 SLC／eMMC；這是匿名產業訪談，不能視為任何單一公司的產品公告，須以原廠產品 EOL、LTA 與 bit shipment 交叉驗證。
@@ -97,7 +97,7 @@ flowchart LR
 | NAND 原廠 | [[285A.JP(kioxia)]] | 純 NAND、hybrid bonding | MS 日本 Top Pick |
 | NAND 原廠 | [[SNDK.US(sandisk)]] | QLC eSSD、DC 轉型 | datacenter 占比拉升 |
 | NAND 原廠 | [[MU.US(micron)]]、[[005930.KR(samsung)]] | KV SSD 主供 | ASP、eSSD 產能 |
-| SSD 控制器 | SIMO.US(silicon_motion) | boot drive/eSSD 控制器 | MonTitan eSSD、BlueField |
+| SSD 控制器 | [[SIMO.US(silicon_motion)]] | boot drive/eSSD 控制器 | MonTitan eSSD、BlueField |
 | SSD 控制器 | [[8299_群聯（櫃）]] | 模組 + 控制器 | Kioxia dummy die 支援、3Q26 高峰 |
 | 利基 NAND | [[2337_旺宏（市）]]、[[2344_華邦電子（市）]] | SLC/MLC | 資料中心/HDD 拉貨 |
 

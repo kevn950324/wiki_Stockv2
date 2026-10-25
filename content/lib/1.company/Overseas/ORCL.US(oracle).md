@@ -139,6 +139,8 @@ flowchart LR
 
 - [[報告_富邦_2027-2028半導體展望CoWoS模型_20261022]]（富邦投顧 2026-10-22 CoWoS 模型：Oracle capex 2026E／27E／28E US$92.1／145.2／188.0bn（以晶片價值反推，estimate，中））
 
+- [[報告_永豐_BloomEnergy3Q26財報_20261023]]（永豐投顧 2026-10-23：Bloom 3Q26 產品營收未受 Oracle 新墨西哥 Jupiter 場址建設遞延影響（券商轉述，中））
+
 ## 相關頁面
 
 - [[DELL.US(dell)]]

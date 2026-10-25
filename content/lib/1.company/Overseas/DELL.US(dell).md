@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 產業/企業IT
   - 環節/AI伺服器組裝
-updated: 2026-10-01
+updated: 2026-10-24
 aliases:
   - Dell
   - Dell Technologies
@@ -47,7 +47,10 @@ Dell FY27（Feb 2026–Jan 2027）Q1 創歷史紀錄：
 
 | 產品 / 服務 | 應用 | 相關客戶 / 下游 |
 |-------------|------|-----------------|
-| AI 伺服器（PowerEdge AI、PowerRack）| AI 訓練/推論基礎設施 | NeoCloud、Sovereign AI、企業客戶、5,000+客戶 |
+| AI 伺服器（PowerEdge AI、PowerRack）| AI 訓練/推論基礎設施 | NeoCloud、Sovereign AI、企業客戶、6,500+客戶（2026-10） |
+| PowerEdge M9882（256 顆 Vera CPU、48U 機櫃）／R8822（氣冷雙路 Vera） | AI 代理協調、工具呼叫、程式執行與評估 | [[NVDA.US(nvidia)]] Vera CPU 平台；2027Q1／2026-10 供貨 |
+| PowerEdge XE9810（Groq 3 LPU 液冷推論機櫃） | 低延遲推論、穩定首字延遲 | NVIDIA Groq 3 LPU；2027Q1 供貨 |
+| Dell Modular Data Center with NVIDIA DSX POD | 貨櫃式 AI 工廠（含供電與液冷） | 2027 年初供貨 |
 | 傳統伺服器（PowerEdge 18代）| 一般企業運算、虛擬化 | 企業、SMB |
 | 企業儲存（PowerMax/PowerStore/PowerScale）| 儲存基礎設施 | 大型企業、CSP |
 | AI 數據平台（ObjectScale、PowerFlex）| AI 資料管理 | 企業 AI 工作負載 |
@@ -109,6 +112,10 @@ flowchart LR
 | 2026 全年 | DRAM/NAND 持續供應限制，AI 訂單積壓持續創高 | 供需 | ⭐⭐⭐ | 供應受限非需求受限 |
 | 2026 年底 | 預期 AI 訂單積壓仍顯著 | 展望 | ⭐⭐⭐ | |
 | 持續 | AI 客戶數從 5,000 持續增長（過去 6 個月 +50%）| 業務 | ⭐⭐ | NeoCloud/Sovereign/企業 |
+| 2026-10-21 | GTC Berlin 發表 M9882 Vera CPU 機櫃、XE9810 Groq 3 LPU 機櫃、R8822、DSX POD 模組化資料中心；AI Factory 客戶逾 6,500 家 | 新產品 | ⭐⭐ | 官方 fact |
+| 2026-10 | PowerEdge R8822（氣冷雙路 Vera CPU）供貨 | 新產品 | ⭐ | 公司新聞稿 |
+| 2027Q1 | M9882 與 XE9810 供貨 | 新產品 | ⭐⭐ | 公司新聞稿；[[時程_2026Q3Q4_AI網通與硬體催化劑]] |
+| 2027 年初 | Dell Modular Data Center with NVIDIA DSX POD 供貨 | 新產品 | ⭐⭐ | 公司新聞稿 |
 
 ## 供應鏈位置
 
@@ -151,8 +158,20 @@ flowchart LR
 - 該訪談將 CoreWeave、IREN、NScale、SpaceX 與 Nebius列為觀察中的 NeoCloud／客戶，並稱 Dell 對長約是否轉入 backlog 採較審慎定價策略，以避免記憶體與零組件成本上升侵蝕毛利；客戶份額、機櫃數、價格與毛利率均屬低信心 channel claim。
 - 訪談另估 AMD 平台約占 Dell AI 出貨一成。此為匿名人士說法，僅作平台多元化追蹤，不能取代 Dell 實際營收或產品組合揭露。
 
+### 2026-10-21 GTC Berlin：Vera CPU 機櫃與 Groq 3 LPU 機櫃
+
+Dell 在 NVIDIA GTC Berlin 發布新聞稿（Business Wire，2026-10-21），把 AI Factory with NVIDIA 擴到 CPU 與 LPU 兩種新機櫃型態（官方 fact）：
+- **PowerEdge M9882**：單一 48U 機櫃 256 顆 NVIDIA Vera CPU，專跑 AI 代理的協調、工具呼叫、程式執行與評估，推論留給 GPU 叢集；2027Q1 供貨。Dell 的論點是 CPU 與 GPU 資源池分開，各自依負載配置供電與散熱。未揭露記憶體與網路配置。
+- **PowerEdge XE9810**：Dell 首款 Groq LPU 機櫃級推論系統，16 個直接液冷運算托盤，採 NVIDIA Groq 3 LPU，主打穩定的首字延遲；2027Q1 供貨，未揭露每托盤 LPU 數與吞吐量。
+- **PowerEdge R8822**：氣冷雙路 Vera CPU 伺服器，標準 19 吋機櫃、最多 4 張雙寬 GPU，2026 年 10 月供貨，是新平台中最早出貨者。
+- **Dell Modular Data Center with NVIDIA DSX POD**：貨櫃式 AI 工廠，含運算、儲存、網路、機櫃級供電與液冷，接上備妥的電力即可，2027 年初供貨。另有 64GB GB10 桌上型（10-23 供貨）與 Windows 版 GB300 桌上型。
+- AI Factory 客戶數超過 6,500 家（上季 5,000 家）。
+
+與 [[NVDA.US(nvidia)]] 頁 MS OCP 調查口徑一致（Groq 3 LPX 機櫃 2026 年底／2027 年初、獨立 Vera CPU 機櫃 1Q27 末／2Q27 初）。對供應鏈的含義：Vera CPU 機櫃與 LPU 機櫃是 GPU 機櫃以外的新增機櫃型態，ODM、液冷與電源零組件多一條產品線（thesis／中）。來源：[[research_產業合作技術發表_2026-10-24]]。
+
 ## 來源
 
+- [[research_產業合作技術發表_2026-10-24]] — Dell Business Wire 新聞稿，2026-10-21；M9882、XE9810、R8822、DSX POD 模組化資料中心、客戶數 6,500。
 - [[活動_Dell法說_20260528]]（FY27 Q1 法說，2026-05-28；Jeff Clarke CEO / David Kennedy CFO）
 - 報告_MS_IT硬體企業伺服器_20260623（MS IT Hardware 企業伺服器需求報告，2026-06-23）
 - [[報告_GFHK_Dell_20260828]]（GF Securities，2026-08-28；Neocloud AI 伺服器需求、Rubin 競爭、FY27/FY28E EPS 與目標價）

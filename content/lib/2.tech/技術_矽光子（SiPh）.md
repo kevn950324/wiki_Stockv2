@@ -6,7 +6,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光電晶片
 maturity: developing
-updated: 2026-10-08
+updated: 2026-10-25
 aliases:
   - 光電同測
   - 自動光纖耦合
@@ -314,6 +314,7 @@ Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重�
 - [[Polariton（未）]]
 - [[Sumitomo Electric（未）]]
 - [[技術_玻璃基板]]
+- [[技術_量子晶圓代工]]
 
 ## 2026-08-20 Lumentum IR：SiPh 光源需求延伸至 CPO／NPO
 

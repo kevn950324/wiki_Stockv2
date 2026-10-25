@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 環節/晶圓代工
   - 產業/光通訊
-updated: 2026-10-11
+updated: 2026-10-25
 aliases:
   - GlobalFoundries
   - GF
@@ -108,7 +108,17 @@ Navitas CEO 稱美國 200mm Gen5 GaN 首批晶圓已於 9 月完成、10 月送�
 
 供應鏈關係：[[NVTS.US(navitas)]] 為 GaN 合作／客戶端說法。時間軸：2026Q4 送樣與 qualification、FY27 量產驗證；同步 [[時程_2026-2028十月券商催化劑]]。
 
+## 量子晶圓代工（PhotonCap，2026-10-24）
+
+- 政府資金：美國商務部 2026-05-21 與 9 家量子公司簽 US$2.013bn 意向書，GF 獲 US$375mn、IBM 獲 US$1bn，兩家合計 68%，用途是量子晶圓的製造技術開發。2026-09-08 CHIPS 獎助最高 US$375mn 定案；GF 同意以每股 US$37.85 對商務部發行 990 萬股新股，約占流通股 1.8%（PhotonCap 計算）。
+- 業務：2026-05 成立 Quantum Technology Solutions，正式列為「新量子業務」。光量子：PsiQuantum 自 2019 年合作，GF 300mm 量產線已接受其 NbN 單光子偵測層，雙方 2021 年在紐約（光子晶片）與德勒斯登（控制晶片）兩座 300mm 廠裝設專屬機台；Xanadu 2026-10-06 宣布多年期合作，把偵測器與氮化矽放上 Malta 300mm 線。矽自旋：Quantum Motion 在 22FDX 上做出逾 1,000 個量子點，另有 Equal1、Diraq。離子阱：Quantinuum 2026-09-08 列 GF 為下一代 300mm 離子阱製造廠之一。
+- 超導：GF 稱開發中，技術頁目前只列低溫讀取／控制晶片與超導互連，未揭露外部超導 qubit 代工實績。
+- 股價脈絡：截至 2026-10-23 收盤 GF 一年約漲 30%，PhotonCap 認為主要來自矽光子與美國本土製造預期，量子影響幾乎看不出來；GF 2025 年出貨超過 234 萬片 300mm 約當晶圓，量子晶片年需求僅數十到數百片（QCR）。
+- 詳見 [[技術_量子晶圓代工]]；同頁比較 [[TSEM.US(tower semiconductor)]] 量子曝險（僅 Xanadu）。
+
 ## 來源
+
+- [[memo_PhotonCap_量子晶圓代工與隔離產線_20261024]] — PhotonCap（Substack），2026-10-24；量子代工、商務部入股、PsiQuantum／Xanadu／Quantinuum 合作。
 
 - [[活動_國泰_美國參訪訪談紀要_20260914-18]] — 國泰證期研究部，2026-09-18；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 
@@ -125,3 +135,4 @@ Navitas CEO 稱美國 200mm Gen5 GaN 首批晶圓已於 9 月完成、10 月送�
 - [[TSEM.US(tower semiconductor)]]
 - [[INTC.US(intel)]]
 - [[技術_玻璃基板]]
+- [[技術_量子晶圓代工]]

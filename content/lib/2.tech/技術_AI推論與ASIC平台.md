@@ -4,7 +4,7 @@ tags:
   - 技術/AI推論
   - 技術/ASIC
   - 產業/AI伺服器
-updated: 2026-10-22
+updated: 2026-10-24
 image_status: "已有來源圖"
 aliases:
   - Agentic AI
@@ -254,3 +254,16 @@ ASIC 前端 RTL／compute 設計的 AI 工具降低部分開發障礙，價值�
 - **判斷**：硬體可能落後約 5 年（相對 A100），軟體已在前沿；中國電價便宜，perf/TCO 比 perf/watt 更適合比較。
 - **擴展**：華為 supernode 由 910 CloudMatrix384 延伸到 950 SuperPod，支援 wide EP；950DT superpod 的 EP16 dispatch／combine 走 URMA，為 pre／URMA／post 三個運算子（GB300 為單一融合呼叫）。
 - 來源：[[memo_SemiAnalysis_華為DeepSeek共生_Ascend950_20261022]]（SemiAnalysis，2026-10-22；實測與作者判斷，信心中；信件版截斷）
+
+## 2026-10-23 SemiAnalysis：Trainium3 從推論走向訓練
+
+- **推論 vs 訓練的軟體門檻**：推論只需前向、架構固定、少數熱點 kernel；訓練要求每個運算子都有反向傳播與廣泛 API，研究者頻繁改架構，因此過去 Trainium 適合推論、不適合研究訓練。
+- **TorchNeuron**：[[AMZN.US(amazon)]] 由 PyTorch/XLA（lazy tensor、無原生 eager、不支援 torch.distributed／DTensor）轉向原生 PyTorch 後端，`.to("neuron")` 即可；先做 BF16，MXFP8 延後。做法與 Google TorchTPU 打入 vLLM／SGLang 生態的路線相同。
+- **實測指標**：Qwen3-32B 於 16 顆 Trainium2 上 compiled MFU 30.47%；首步編譯 184.6–255.7 秒、gpt-oss 20B 編譯 27 分 17 秒為主要摩擦；FlexAttention 通過率 93%；MoE dispatch／combine（占通訊量 60–70%）尚未接上 TokenSwitch API。
+- **判讀**：ASIC 平台要從推論擴大到研究訓練，關鍵在框架相容性、編譯時間與 CI 數值對齊，而非單看峰值算力。
+- 來源：[[memo_SemiAnalysis_Trainium3訓練與TorchNeuron_20261024]]（SemiAnalysis，2026-10-23；第三方實測，信心中）。
+
+## 2026-10-23 M報：Maia 300 量體與 MAI-Base-2
+
+- [[MSFT.US(microsoft)]] Maia 300 採台積電 N2、目標至少 100 萬顆、每櫃 96 顆、原生 FP4；公司稱每單位電力推論效能比頂尖 GPU 高 40%。MAI-Base-2 為 2.8 兆參數 MoE（啟用約 800 億），約 16,000 張 GB200、38 天完成預訓練。量體口徑與富邦、Aletheia 不同，見 MSFT 頁。
+- 來源：[[memo_M報_346_特斯拉Roadster與微軟Maia300_20261023]]（M報，2026-10-23；公司宣稱 fact，主持人推估低信心）。

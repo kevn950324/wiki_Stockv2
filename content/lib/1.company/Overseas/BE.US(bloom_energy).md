@@ -10,7 +10,7 @@ tags:
   - 產業/資料中心電力
   - 產業/潔淨能源
   - 環節/電力設備
-updated: 2026-10-02
+updated: 2026-10-24
 aliases:
   - Bloom Energy
   - BE
@@ -19,7 +19,9 @@ related_companies:
   - "[[GEV.US(ge_vernova)]]"
   - "[[8996_高力（市）]]"
   - "[[2308_台達電（市）]]"
-image_status: "待補來源圖"
+  - "[[GOOGL.US(alphabet)]]"
+  - "[[NBIS.US(nebius)]]"
+image_status: "已嵌入來源圖"
 ---
 
 # BE.US(bloom_energy)
@@ -75,6 +77,28 @@ BE 為 SOFC 整機製造商，台灣供應鏈以高力（Kaori）為核心 SOFC 
 | 買方研究員 | 2026-06-01 | US 首選 Top Pick | — | "Power [Delta (2308 TT), BE]" | [[memo_AI半導體_top_picks_UMC_ABF_MLCC_ASIC_20260601]] |
 | 買方研究員 | 2026-06-15 | US Top Pick | — | "US stock top pick should be BE" | [[memo_AI半導體_top_picks_UMC_Kaori_ABF_Yageo_Delta_20260615]] |
 | 中國信託投顧 | 2026-09-11 | Overweight | US$294.60 | 13x FY2027E P/S | [[報告_中信投顧_BloomEnergy_20260911]] |
+| 永豐投顧 | 2026-10-23 | 買進（維持） | US$408 | 18x PSR × FY2027 RPS US$22.5 | [[報告_永豐_BloomEnergy3Q26財報_20261023]] |
+
+## 2026Q3 財報更新（永豐投顧 2026-10-23）
+
+- 3Q26 營收 US$1.236bn，年增 138%，高於市場預期 US$1.05bn 與永豐預期 US$1.08bn；產品營收 US$1.073bn（年增 179%），未受 [[ORCL.US(oracle)]] 新墨西哥 Jupiter 場址建設遞延影響。產品毛利率 37.9%（市場預期 37.3%）、服務毛利率 17.8%（略低於預期 18%，連續六季雙位數），OPM 18.24%，GAAP EPS US$0.78（預期 US$0.61）。
+- 全年指引第三度上修：營收由 US$3.9–4.2bn 上修，Non-GAAP EPS 由 US$2.85 上修至 US$3.4（公司指引，fact／高信心；確切區間見下方口徑差異）。
+- 現金流：3Q26 營業現金流 -US$27.15mn（提前備庫存、應收增加），capex US$154mn（Fremont 往 5GW 產能擴張）使 FCF -US$181mn；YTD FCF 仍淨增 US$41mn。自動化讓原 600 人產線在產能 100MW → 1GW 時不需增加人力。
+- AEP × [[GOOGL.US(alphabet)]] 懷俄明 702MW 燃料電池電廠（AEP 投資約 US$4bn、Google 20 年 PPA）：屬 AEP 2024-11 最高 1GW 框架（100MW 初始＋900MW 選擇權）、2026-01 約 US$2.65bn 無條件採購承諾內的使用，**不是新增訂單**。
+- [[NBIS.US(nebius)]] 約 300MW 資料中心供電按區塊交付，第一區塊幾乎就緒；Bloom 已達 100MW 級交付，最小系統 150kW。
+- TAM 由表後（BTM）延伸到表前（FTM）：受監管公用事業為避免大客戶自建電力流失費率基礎，將 SOFC 納入 IRP、作為配電網資產部署，可不綁定特定客戶先行採購。
+- 永豐產業估算：2026–2030 美國新增 AIDC 需求上修至 100GW、有效併網供給 33GW，缺口 85GW；其中 50GW 由燃氣渦輪／柴油機補、約 30GW 由再生能源＋儲能與 SOFC 補，BE 規劃 5GW 產能對應約 25GW 潛在市場（券商 estimate／中信心）。Bloom 自家調查：2035 年資料中心 100% 現場發電比重 44%。
+
+![[報告_永豐_BloomEnergy3Q26財報_20261023_001.png]]
+*圖：Bloom 3Q26 GAAP／Non-GAAP 毛利調節，產品毛利率 37.9%、安裝 -4.8%、服務 17.8%、電力 25.7%（來源：Bloom IR，經永豐 2026-10-23 轉載；高信心）*
+
+![[報告_永豐_BloomEnergy3Q26財報_20261023_002.png]]
+*圖：Bloom 資料中心調查，預期 100% 現場發電比重 2030 年 33%、2035 年 44%（2025-11 調查；公司調查，中信心）*
+
+> [!warning] 全年指引口徑差異（並列，未裁定）
+> - 永豐投顧（[[報告_永豐_BloomEnergy3Q26財報_20261023]]，2026-10-23）：2026 營收指引上修至 US$4.4–4.6bn、Non-GAAP EPS US$3.4。
+> - 國泰 Cathay Watch（[[memo_CathayWatch_AI科技股重挫與美債避險_20261023]]，2026-10-23）：全年營收 US$4.44–4.46bn、Non-GAAP 營業利益 US$0.96–1.03bn、EPS US$3.10–3.40；GAAP 毛利率 33.8%、非 GAAP 34.5%，盤後股價續跌 6.86%。
+> - 兩者皆轉述公司指引，需以 Bloom 官方新聞稿確認區間。
 
 ## 2026Q2 財報與資金更新
 
@@ -96,6 +120,8 @@ BE 為 SOFC 整機製造商，台灣供應鏈以高力（Kaori）為核心 SOFC 
 |------|------|------|--------|------|
 | 2026-06末 | 納入 Russell 1000 指數 | 指數化 | ⭐⭐⭐ | 被動資金流入催化劑 |
 | 2026-09-11 | 2Q26 超預期、全年 SOFC 出貨指引上修至 1.14–1.25GW | 基本面催化劑 | ⭐⭐⭐ | 公司指引；訂單與融資轉實際出貨仍待驗證 |
+| 2026-10-22 | 3Q26 營收 US$1.236bn（年增 138%），全年指引第三度上修；FCF 因備貨與 capex 轉負 | 基本面催化劑 | ⭐⭐⭐ | [[報告_永豐_BloomEnergy3Q26財報_20261023]]；[[時程_2026能源與AI電力設備]] |
+| 2026-10 | AEP 確認懷俄明 702MW 燃料電池電廠客戶為 Google（20 年 PPA） | 合約 | ⭐⭐ | 既有 900MW 選擇權額度內，非新增承諾 |
 | 2026-27 | Delta SOFC 訂單向 Kaori 採購開始 | 供應鏈影響 | ⭐⭐ | 擴大 SOFC 生態系 |
 | 2026-04 | Oracle/STACK New Mexico 替換氣機申請 → 改採 Bloom 燃料電池 | 合約 | ⭐⭐⭐ | FERC Section 7 阻擋氣體管線後的替代方案；Bloom 申請 37 tpy NOx |
 
@@ -112,6 +138,9 @@ BE 為 SOFC 整機製造商，台灣供應鏈以高力（Kaori）為核心 SOFC 
 |------|------|------|
 | [[8996_高力（市）]] | 上游 / 供應商 | SOFC 板式熱交換器/零件主要外包對象，台灣最直接受益 |
 | [[2308_台達電（市）]] | 生態影響 | Ceres Power 技術授權，SOFC 自研開發，擴大 SOFC 市場 TAM |
+| [[GOOGL.US(alphabet)]] | 終端用電客戶 | AEP 懷俄明 702MW 燃料電池電廠的 20 年購電方（2026-10 確認） |
+| [[NBIS.US(nebius)]] | 客戶 | 約 300MW 資料中心供電，按區塊逐步交付 |
+| [[ORCL.US(oracle)]] | 客戶 | 新墨西哥 Jupiter 場址；3Q26 產品營收未受其建設遞延影響 |
 
 > [!warning] 風險與注意事項
 > - **電力法規障礙**：資料中心 SOFC 現場發電需取得地方電力許可，各州規定不一
@@ -163,6 +192,8 @@ BE 為 SOFC 整機製造商，台灣供應鏈以高力（Kaori）為核心 SOFC 
 - [[memo_AI半導體_top_picks_update_UMC_Kaori_ABF_20260615v2]]（2026-06-15）
 - [[報告_中信投顧_BloomEnergy_20260911]]（中國信託投顧，2026-09-11；2Q26 財報、全年指引與第三方融資）
 - [[memo_AceCamp_xAI_Terafab與供應鏈_20260929]]（AceCamp Tech，2026-09-29；xAI／SpaceX 端匿名供應鏈訪談，低信心）
+- [[報告_永豐_BloomEnergy3Q26財報_20261023]]（永豐投顧，2026-10-23；3Q26 財報點評、TP US$408、AEP／Google、Nebius、BTM→FTM）
+- [[memo_CathayWatch_AI科技股重挫與美債避險_20261023]]（國泰 Cathay Watch，2026-10-23；3Q26 財報與全年指引、盤後股價）
 
 - [[us-grid-btm]]（2026-06-25）
 

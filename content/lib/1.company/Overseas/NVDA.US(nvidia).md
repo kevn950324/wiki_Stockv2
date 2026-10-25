@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-10-23
+updated: 2026-10-24
 aliases:
   - NVIDIA
   - 輝達
@@ -375,8 +375,13 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 - 來源：[[research_產業合作技術發表_2026-10-22]]（NVIDIA 新聞稿與部落格、Infineon、Cadence 新聞稿，2026-10-21）。
 - **續報（2026-10-21～22）**：[[009150.KR(semco)]] 自家新聞稿補充載板範圍含網路交換器晶片載板、雙方共同出資專用線，並把 MLCC／矽電容內埋載板（見 [[供應鏈_先進封裝載板]]）。NVIDIA 另於 10-22 推出 AI 工廠 AIOps 平台 **Minerva**：整合 GPU、網路、儲存與排程器遙測，每小時分析數十億筆資料，以知識圖譜對應 GPU／SuperNIC／交換器／線纜並預測故障；IREN 已上線，[[DELL.US(dell)]]、Lenovo、[[SMCI.US(supermicro)]] 納入產品組合。屬軟體層，對硬體供應鏈影響有限（fact）。來源：[[research_產業合作技術發表_2026-10-23]]。
 
+- **CPU 機櫃與 LPU 機櫃落地（fact）**：[[DELL.US(dell)]] 10-21 新聞稿發表 Vera CPU Rack 版本 PowerEdge M9882（48U、256 顆 Vera CPU）與首款 Groq 3 LPU 機櫃 XE9810（16 個液冷托盤），皆 2027Q1 供貨；另有氣冷雙路 Vera 伺服器 R8822（2026-10 供貨）。與上方 MS OCP 調查的 Groq 3 LPX 機櫃 2026 年底／2027 年初、獨立 Vera CPU 機櫃 1Q27 末／2Q27 初大致吻合，CPU 機櫃與 LPU 機櫃成為 GPU 機櫃以外的新增產品線。
+- **主權 AI：哈薩克（fact）**：NVIDIA 10-22 部落格：Firebird 已取得美國出口許可可進口 45,000 顆 Grace Blackwell GPU，第一期在 Data Center Valley 興建、2027Q3 商轉，規劃第二期後總潛在容量約 500 MW；Kazakhtelecom 已部署 400 顆 H200、480 顆 B300，2027 年規劃再部署 1,000 顆以上 GPU 及 Ekibastuz 地區 1,000 顆以上 Vera Rubin；NVIDIA 宣布投資 Higgsfield AI。黃仁勳 10-23 訪問阿斯塔納。未點名系統代工廠。
+- 來源：[[research_產業合作技術發表_2026-10-24]]（Dell Business Wire 新聞稿 2026-10-21；NVIDIA 部落格 2026-10-22）。
+
 ## 來源
 
+- [[research_產業合作技術發表_2026-10-24]] — 官方發表彙整，2026-10-21～22；Dell Vera CPU／Groq 3 LPU 機櫃、哈薩克 Firebird 45,000 顆 Grace Blackwell。
 - [[research_產業合作技術發表_2026-10-23]] — 官方發表彙整，2026-10-21～22；三星電機載板新聞稿、Minerva AIOps。
 
 - [[research_產業合作技術發表_2026-10-22]] — GTC Berlin 官方發表彙整，2026-10-21；供應鏈六夥伴、DSX POD、Google A5X、Infineon、Cadence。
@@ -546,8 +551,11 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 
 - [[報告_富邦_2027-2028半導體展望CoWoS模型_20261022]]（富邦投顧 2026-10-22 CoWoS 模型：GPU 占 2028 年晶片價值 75.7%、額定功耗 70.3%；2028 年 R200 874.0 萬顆、R300 Ultra 377.4 萬顆、B300 148.5 萬顆；富邦估 NVIDIA 晶片毛利率 75–80%（estimate，中））
 
+- [[memo_CathayWatch_AI科技股重挫與美債避險_20261023]]（國泰 Cathay Watch 2026-10-23：10-22 股價 -4.40%；推出 AI 維運平台 Minerva，IREN 已使用，Tesla、IBM、Lambda 計畫部署，Dell、Lenovo、Supermicro 整合進 AI 工廠維運產品（新聞轉述，中））
+
 ## 相關頁面
 
+- [[SIMO.US(silicon_motion)]]
 - [[SU.FR(schneider_electric)]]
 - [[分析_美股低淨槓桿與高Beta曝險並存_20261002]]
 - [[技術_PTFE]]

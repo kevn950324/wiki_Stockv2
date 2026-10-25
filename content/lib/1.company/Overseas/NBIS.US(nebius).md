@@ -9,13 +9,14 @@ tags:
   - 產業/AI雲端
   - 產業/AI伺服器
   - 環節/GPU雲端
-updated: 2026-08-23
+updated: 2026-10-24
 aliases:
   - Nebius
   - Nebius Group
 related_companies:
   - "[[OpenAI（未）]]"
   - "[[NVDA.US(nvidia)]]"
+  - "[[BE.US(bloom_energy)]]"
 ---
 
 # NBIS.US(nebius)
@@ -115,6 +116,18 @@ Nebius Group N.V. 為阿姆斯特丹掛牌（NASDAQ: NBIS）AI 雲端公司，20
 |------|------|------|
 | [[OpenAI（未）]] | 參考競品客戶 | Reflection AI 為 Nebius 代表客戶；OpenAI 選擇 Cerebras 而非 Nebius |
 | [[NVDA.US(nvidia)]] | 上游 GPU 供應商 | Nebius GPU 叢集主要採購來源 |
+| [[BE.US(bloom_energy)]] | 現場供電供應商 | 約 300MW 資料中心 SOFC 供電，按區塊逐步交付（永豐 2026-10-23） |
+
+## 2026-10 公開 GPU 即時租金（FOMOSoc 2026-10-24）
+
+10 月股價下跌近三成後，Nebius 把所有 GPU 即時租金公開在官網（免登入）。電子報整理的數字與推論：
+
+- **H100 成本線**：單顆約 US$25–40k、8 卡伺服器總成本約 US$200–400k，四年直線折舊相當於每 GPU 每小時 US$0.71–1.40（不含電費、冷卻、網路、利息）。Nebius H100 隨選牌價 US$4.50；Silicon Data H100 租金指數 2026 年 10 月均價約 US$2.5–2.9。
+- **兩個世界**：美國機房 B300 spot 均價由約 US$5.5 升至曾連四天 US$9.0–9.4，貼近 US$9.50 牌價上限；芬蘭機房 H100 spot 長期停在 US$0.79 下限，約牌價二折、僅貼折舊區間最低端。
+- **未揭露的關鍵**：spot 屬可搶占算力，若 H100 九成以上已被長約鎖定（市場推算合約均價 US$3–6、多附預付款、回本約 1 年 10 個月），US$0.79 只是剩餘產能；反之會壓毛利。地理供需亦分裂（美國 B300 vs 芬蘭 H100）。
+- **11 月財報追蹤**：H100／H200 長約覆蓋率、每 MW 長約報價能否守住 US$20–25mn、B300 高租金能否延續一整季。
+
+來源：[[memo_FOMOSoc_KP思考筆記65_SpaceX特斯拉Nebius晶片過剩_20261024]]（FOMO研究院 KP，2026-10-24；公開牌價為 fact，成本與合約推算為電子報 estimate／中低信心）。
 
 > [!warning] 風險與注意事項
 > - **建設執行風險**：功率啟動延遲 → 2H26 收入延後 + 近期 margin 受壓（BofA 核心風險）
@@ -124,6 +137,8 @@ Nebius Group N.V. 為阿姆斯特丹掛牌（NASDAQ: NBIS）AI 雲端公司，20
 
 ## 來源
 
+- [[memo_FOMOSoc_KP思考筆記65_SpaceX特斯拉Nebius晶片過剩_20261024]] — FOMO研究院 KP，2026-10-24；公開 GPU 即時租金、H100 折舊成本線、11 月財報追蹤指標。
+- [[報告_永豐_BloomEnergy3Q26財報_20261023]] — 永豐投顧，2026-10-23；Bloom 約 300MW 供電按區塊交付。
 - [[報告_GS_Nebius_2Q26前瞻_20260810]] — Goldman Sachs，2026-08-10；2026 營收指引 US$3.0–3.4bn、年底簽約電力目標 >4GW（company guidance／中信心）
 - [[報告_國泰_Nebius2Q26財報_20260813]] — 國泰證期研究部，2026-08-13；2Q26 實績、5GW 簽約電力目標、Vera Rubin 驗證與 2027 部署規劃（report fact／中信心）
 

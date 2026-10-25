@@ -8,7 +8,7 @@ tags:
   - 技術/矽光子（SiPh）
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-10-23
+updated: 2026-10-24
 ---
 
 # 供應鏈_AI光互聯
@@ -258,6 +258,7 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 
 ## 來源
 
+- [[research_產業合作技術發表_2026-10-24]] — 官方發表彙整，2026-10-19～23；3M×Amazon 認股權證、3M 入股玉晶光（EBO）。
 - [[research_產業合作技術發表_2026-10-23]] — 官方發表彙整，2026-10-20～22；Palomino GaN MicroLED 光互連 PO、正文×Starman 美國光收發模組廠。
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31
 
@@ -388,6 +389,14 @@ Semtech（[[SMTC.US(semtech)]]）以 AEC SerDes、1.6T CopperEdge／FiberEdge TI
 - **台廠美國產地**：[[4906_正文（市）]] 與 Starman New Photonics（未建頁）2026-10-20 宣布在美國新澤西州合作生產 800G／1.6T 光收發模組，計畫投資 1.5 億美元、獲州稅抵免最高 3,750 萬美元；投產日與產能未揭露。這是光模組「非中國產地」需求延伸到美國本土製造的案例。
 
 來源：[[research_產業合作技術發表_2026-10-23]]（Palomino GlobeNewswire 新聞稿 2026-10-22；Starman 新聞稿 2026-10-20）。
+
+## 2026-10-19 3M EBO：Amazon 採購綁定與玉晶光製造
+
+- **需求端（fact）**：[[MMM.US(3m)]] 與 [[AMZN.US(amazon)]] 擴大策略商業關係，認股權證最多 3,162,015 股，85% 依 Amazon 購買光連接等資料中心產品的付款金額既得，累計 US$60 億全數既得。這是 EBO 擴束光學連接器繼 [[MSFT.US(microsoft)]] Azure 部署後，第二家具名超大規模業者以財務條款綁定採購。
+- **製造端（fact）**：3M 預計取得 [[3406_玉晶光（市）]] 約 4.7% 股權（2026Q4 交割），玉晶光精密光學製造支援 EBO ferrule、CPO 方案與相關光互連應用的量產準備。
+- **解讀（thesis／中）**：EBO 以擴束透鏡放大光束、降低光纖端面污染與對準敏感度（一般技術原理，3M 新聞稿未說明規格），屬可插拔連接器環節，與 CPO 的 FAU、[[GLW.US(corning)]] GlassBridge 等 fiber-to-PIC 方案並行。60 億美元是既得門檻而非採購承諾，且涵蓋「其他資料中心產品」，不能全數視為 EBO 營收。
+
+來源：[[research_產業合作技術發表_2026-10-24]]（3M PR Newswire 新聞稿與 Form 8-K，2026-10-19）。
 
 ## 相關頁面
 

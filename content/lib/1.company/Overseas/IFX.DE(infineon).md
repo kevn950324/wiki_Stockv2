@@ -10,7 +10,7 @@ tags:
   - 環節/功率半導體
   - 產業/功率半導體
   - 產業/AI資料中心
-updated: 2026-10-22
+updated: 2026-10-25
 aliases:
   - Infineon
   - Infineon Technologies
@@ -97,7 +97,13 @@ flowchart LR
 > - **800V 導入節奏不確定**：既有券商與專家口徑對 800V 滲透率與時點差異大（2026 年底小量到 2028 年擴大），GaN 營收貢獻時點需追蹤。
 > - **競爭**：GaN IBC 有 Navitas、Innoscience、Vicor 等競爭者，NVIDIA 參考設計通常多供應商並存。
 
+## 量子：離子阱晶片製造（PhotonCap，2026-10-24）
+
+Infineon 與 Innsbruck 研究人員的論文指出，Villach 廠製作的一片 200mm 熔融石英晶圓可容納近 500 顆離子阱晶片。離子阱路線轉向以晶片上電子元件取代雷射控制 qubit 後，阱晶片已變成電極與配線晶圓問題；但耐數百伏 RF 電壓的電極與紫外到可見光波導仍不在標準 PDK 內。來源未提及商業代工合約。詳見 [[技術_量子晶圓代工]]。
+
 ## 來源
+
+- [[memo_PhotonCap_量子晶圓代工與隔離產線_20261024]] — PhotonCap（Substack），2026-10-24；Villach 200mm 熔融石英離子阱晶片。
 
 - [[research_產業合作技術發表_2026-10-22]] — Infineon 新聞稿，2026-10-21；與 NVIDIA 合作 800 VDC GaN HV IBC。
 - [[memo_AceCamp_Infineon_AI電源與800V_20260930]] — AceCamp Tech，2026-09-30；Infineon 視角的漲價與 800V 滲透率（低信心），詳見 [[技術_800VDC供電架構]]。
@@ -106,3 +112,4 @@ flowchart LR
 
 - [[技術_800VDC供電架構]]
 - [[技術_功率MOSFET]]
+- [[技術_量子晶圓代工]]
