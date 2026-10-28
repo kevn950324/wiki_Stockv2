@@ -8,13 +8,12 @@ tags:
   - 公司/3M
   - 產業/光通訊
   - 技術/連接器
+  - 技術/EBO
 updated: 2026-10-28
 aliases:
   - 3M
   - 3M Company
   - Minnesota Mining and Manufacturing
-  - EBO
-  - Expanded Beam Optical
 related_companies:
   - "[[3406_玉晶光（市）]]"
   - "[[AMZN.US(amazon)]]"
@@ -36,7 +35,7 @@ related_companies:
 
 ## 核心技術／競爭優勢
 
-- **EBO 擴束光學**：以透鏡把光束放大後再耦合，降低端面污染與對準精度要求，目標是減少資料中心光纖清潔與維運成本（一般技術原理；3M 新聞稿未揭露插入損耗等規格）。SemiAnalysis（2026-10-23）附圖顯示 ferrule 以全內反射鏡把光準直成擴束光、介面加 AR 鍍膜，並認為 EBO 最大價值在維運（維修快、停機短），低插拔力也有利提高密度；原理與 MMC 比較見 [[技術_MPO]]。
+- **EBO 擴束光學**：以透鏡把光束放大後再耦合，降低端面污染與對準精度要求，目標是減少資料中心光纖清潔與維運成本（一般技術原理；3M 新聞稿未揭露插入損耗等規格）。SemiAnalysis（2026-10-23）附圖顯示 ferrule 以全內反射鏡把光準直成擴束光、介面加 AR 鍍膜，並認為 EBO 最大價值在維運（維修快、停機短），低插拔力也有利提高密度；原理、參數與 MMC 比較見 [[技術_EBO擴束連接器]]。
 - **超大規模業者綁定**：已有 Azure 部署，再以認股權證把 Amazon 的採購金額與股權誘因綁在一起，形成兩家 CSP 的具名需求。
 - **標準化路徑**：主導 EBO MSA，拉進 Oracle、Meta 與連接器廠 Senko、Molex，降低單一供應商疑慮。
 - **製造外包到精密光學廠**：入股玉晶光取得塑膠精密光學的量產能力，不必自建微透鏡產線。
@@ -78,7 +77,7 @@ flowchart LR
 - 上游：[[3406_玉晶光（市）]]（EBO ferrule 與 CPO 光學件製造夥伴、3M 持股約 4.7%）。
 - 下游：[[AMZN.US(amazon)]]、[[MSFT.US(microsoft)]] 等超大規模雲端業者。
 - 同類／替代方案：[[GLW.US(corning)]] GlassBridge 等 fiber-to-PIC 連接方案。
-- 所屬供應鏈：[[供應鏈_AI光互聯]]、[[供應鏈_CPO]]；技術背景見 [[技術_光互連]]、[[技術_MPO]]（EBO vs MMC）。
+- 所屬供應鏈：[[供應鏈_AI光互聯]]、[[供應鏈_CPO]]；技術背景見 [[技術_EBO擴束連接器]]、[[技術_光互連]]、[[技術_MPO]]（EBO vs MMC）。
 
 ## 相關公司
 

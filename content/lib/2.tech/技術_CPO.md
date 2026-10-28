@@ -1012,3 +1012,4 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - [[分析_Omdia_CIOE2026_NPO部署與InP供給風險]]
 - [[時程_2026-2027高速互連與分散式算力]]
 - [[ANET.US(arista)]] — 主導 XPO MSA（12.8T 大型可插拔＋LPO），被視為延緩 CPO 全面替代的交換器品牌商。
+- [[技術_EBO擴束連接器]] — 3M EBO 擴束連接器；玉晶光與 3M 合作範圍含 CPO 光學件
