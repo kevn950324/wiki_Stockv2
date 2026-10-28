@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 產業/企業IT
   - 環節/AI伺服器組裝
-updated: 2026-10-24
+updated: 2026-10-27
 aliases:
   - Dell
   - Dell Technologies
@@ -19,6 +19,7 @@ related_companies:
   - "[[MU.US(micron)]]"
   - "[[2317_鴻海（市）]]"
   - "[[ORCL.US(oracle)]]"
+  - "[[3231_緯創（市）]]"
 ---
 
 # DELL.US(dell)
@@ -133,6 +134,7 @@ flowchart LR
 | [[NVDA.US(nvidia)]] | 關鍵上游 | AI GPU 主要供應商；Vera Rubin / RTX |
 | [[AMD.US(amd)]] | 替代平台／上游 | AI 加速器平台之一；匿名訪談估計其在 Dell AI 出貨中的比重約一成，非公司揭露 |
 | [[MU.US(micron)]] | 上游 / 瓶頸 | DRAM/NAND 最大供應瓶頸；SCA 客戶 |
+| [[3231_緯創（市）]] | ODM／EMS 代工 | 依 Dell 規格製造通用與 AI 伺服器，品牌、通路與售後由 Dell 掌握（匿名專家紀要） |
 
 > [!warning] 風險與注意事項
 > - **供應鏈依賴**：DRAM/NAND 為最大限制因素，若 Micron/三星/SK Hynix 供應緊張持續（或反轉），Dell AI 伺服器出貨節奏直接受影響
@@ -169,7 +171,21 @@ Dell 在 NVIDIA GTC Berlin 發布新聞稿（Business Wire，2026-10-21），把
 
 與 [[NVDA.US(nvidia)]] 頁 MS OCP 調查口徑一致（Groq 3 LPX 機櫃 2026 年底／2027 年初、獨立 Vera CPU 機櫃 1Q27 末／2Q27 初）。對供應鏈的含義：Vera CPU 機櫃與 LPU 機櫃是 GPU 機櫃以外的新增機櫃型態，ODM、液冷與電源零組件多一條產品線（thesis／中）。來源：[[research_產業合作技術發表_2026-10-24]]。
 
+### 2026-10-26 GFHK VR200 展望（Hold）
+
+- GFHK 維持中性，因 Dell 在 SpaceX 的份額流失更明顯（SpaceX 部分轉向 ODM 直供鴻海）；OEM 端看好 Lenovo 在 IREN、Nscale 等 Neocloud 的 AI 伺服器訂單。
+- 來源：[[報告_GFHK_VR200展望_20261026]]（廣發證券香港，2026-10-26），信心中。
+
+### 2026-10-28 ODM 端匿名專家觀點
+
+- [[memo_緯創緯穎_AWS客戶結構與ODM訂單機制專家觀點_日期不詳]] 的受訪者標記為緯創／緯穎端（Dell 以「某美系服務器與存儲 OEM 巨頭」代號出現，對應屬推定）。
+- 專家認為 Dell 是 OEM 中前景最好的一家：除 AI 伺服器訂單外，較早預見儲存風險並投入資金，2H25～2028 儲存供給相對穩定；自有儲存業務（併購 EMC 後）可承接 AI 帶動的儲存需求。另稱 Dell 積壓訂單轉換交付速度很快。
+- 記憶體漲價的直接受益者是 OEM：ODM 端記憶體採 consign 或由 OEM 議價後代採，議價權在 OEM。
+- 以上為 ODM 端匿名說法，rumor／低至中信心；與本頁 GFHK「SpaceX 份額流失、維持 Hold」的看法方向不同，並列保留。
+
 ## 來源
+
+- [[memo_緯創緯穎_AWS客戶結構與ODM訂單機制專家觀點_日期不詳]] — ODM 端匿名專家紀要，日期不詳（2026-10-28 入庫）；Dell 儲存布局與 OEM／ODM 分工。
 
 - [[research_產業合作技術發表_2026-10-24]] — Dell Business Wire 新聞稿，2026-10-21；M9882、XE9810、R8822、DSX POD 模組化資料中心、客戶數 6,500。
 - [[活動_Dell法說_20260528]]（FY27 Q1 法說，2026-05-28；Jeff Clarke CEO / David Kennedy CFO）
@@ -181,6 +197,7 @@ Dell 在 NVIDIA GTC Berlin 發布新聞稿（Business Wire，2026-10-21），把
 - [[memo_國泰證期_DellCallMemo_20260902]]（國泰證期研究部，2026-09-02）
 - [[memo_AceCamp_xAI伺服器供應鏈_Dell_20260820]]（AceCamp Tech／Dell 端匿名產業人士，2026-08-20；渠道觀察／低信心）
 - [[memo_AceCamp_Dell_Rubin與Neocloud出貨_20260829]]（AceCamp Tech／疑似 Dell 端匿名專家，2026-08-29；GB300、Rubin、NeoCloud 與毛利觀察／低信心）
+- [[報告_GFHK_VR200展望_20261026]] — GFHK VR200 展望，2026-10-26
 
 ## 2026-09-02 國泰證期 Call Memo 補充
 
@@ -203,6 +220,7 @@ Dell 在 NVIDIA GTC Berlin 發布新聞稿（Business Wire，2026-10-21），把
 
 ## 相關頁面
 
+- [[分析_緯創緯穎專家紀要_AWS集中度與ODM訂單機制_20261028]]
 - [[分析_20260820專家會議受訪公司辨識]]
 - [[分析_20260829-30專家紀要受訪公司辨識與追蹤]]
 - [[分析_2026Q3_AI硬體需求與供應限制_20260903]]
@@ -210,3 +228,5 @@ Dell 在 NVIDIA GTC Berlin 發布新聞稿（Business Wire，2026-10-21），把
 - [[分析_2026-08_AI網通與硬體報告更新]]
 - [[時程_2026記憶體與AI催化劑]]
 - [[SNX.US(td_synnex)]]
+- [[SPCX.US(spacex)]]（2026-10-27 批次新增引用）
+

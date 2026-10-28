@@ -12,7 +12,7 @@ tags:
   - 技術/CoWoS
   - 產業/AI伺服器
   - 環節/IC設計
-updated: 2026-10-24
+updated: 2026-10-27
 aliases:
   - AMD
   - Advanced Micro Devices
@@ -51,6 +51,14 @@ related_companies:
 Advanced Micro Devices（AMD）是全球第二大 x86 CPU 製造商，也是 AI 加速器（Instinct MI 系列）的主要供應商。2026-07-23 舉辦 **Advancing AI Day**（AMD AI Day），正式發表 Helios Rack、MI455X、Venice EPYC CPU 及 ROCm.AI 完整 AI 計算平台。
 
 在光互連戰略上，AMD 是 **OCI 200G MSA 的三家共同編輯之一**（與 Meta、Broadcom），以 XPU 廠商角色參與定義 scale-up 光互連開放標準。
+
+### 2026-10-27 GFHK 3Q26 法說預覽（Buy，TP US$720，原 700）
+
+- 法說 11-03；3Q26 營收預估 US$13.3bn（指引中值 US$13bn、BBG US$13.1bn、買方 US$13.3bn），含一個月 MI450 出貨；4Q26 預估 US$17.6bn（BBG US$16.3bn、買方 US$18–18.5bn）。預期結果符合但當季指引偏保守，並重申 2027 年資料中心年增遠超 100%。
+- 伺服器 CPU：2027E／2028E 營收年增 100%／50%；Intel 將更多需求轉回 18A，AMD 2027 年 2nm 晶圓配額增加；封裝以 [[3711_日月光投控（市）]] 為主要夥伴；Venice CoWoS 主線良率逾 99%、第二條線近 99%，2027 年出貨 >5mn 顆。
+- MI450／MI455X 按計畫，但 Helios 機櫃受重量與交換限制，2026 年底前出貨有限，待問題解決與 Anthropic 客製 MI455 就緒後 1Q27 放量；維持 2027 年 >20k 機櫃（多個 GW 級協議）。MI500 主流版採 dual-die／12-Hi HBM，高階 quad-die／8-Hi 2027 年底推出。
+- 2026E／2027E EPS -5%／+15%；TP 720（40x 2027E、28x 2028E）。
+- 來源：[[報告_GFHK_AMD3Q26預覽_20261027]]（廣發證券香港，2026-10-27），信心中。
 
 ## Instinct GPU 路線圖
 
@@ -311,6 +319,9 @@ MI550 半配置 2H27、完整配置 1H28，16／32 GPU rack 約 100／200kW+、5
 - [[報告_群益上海_玻璃材料_20261020]]（2026-10-20）
 
 - [[報告_富邦_2027-2028半導體展望CoWoS模型_20261022]]（富邦投顧 2026-10-22 CoWoS 模型：MI450X 2027／2028 年 100.8 萬／92.2 萬顆、MI500X 45.9 萬／184.1 萬顆；Venice CPU 為日月光 FoCoS 全方位服務三大產品之一（estimate，中））
+- [[報告_GFHK_AMD3Q26預覽_20261027]] — GFHK 3Q26 預覽，2026-10-27（Buy，TP US$720）
+
+- [[memo_大叔美股筆記_AnthropicS1七大重點_20261027]]（2026-10-27）
 
 ## 相關頁面
 

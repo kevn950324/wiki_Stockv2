@@ -90,6 +90,7 @@ OSAT（未建頁）：ASE/SPIL（3711.TW，Nvidia 供應鏈關鍵，含未來 Ru
 | 廠商 | 地位 | 備註 |
 |------|------|------|
 | [[LITE.US(lumentum)]] | 首批主供 | Nvidia 初期 CPO ELS 預期唯一供應商（June note 因 CPO 延後轉保守） |
+| [[4908_前鼎（櫃）]] | 台廠小量出貨 | 20dBm 8ch ELSFP 與 16ch DWDM 客製化 ELS 已過客戶樣品驗證、少量出貨；23dBm UHP ELSFP 原訂 2026Q3 完成驗證；客戶未揭露，非已確認 NVIDIA 供應商（[[報告_前鼎_2026法說簡報_20260417]]，2026-04-17，company outlook／中信心） |
 
 ELS（未建頁）：Coherent（COHR，估 2026 下半進入第二供應）、Furukawa、Broadcom 自供、源傑 Yuanjie（中）、仕佳 Shijia（中）。CW DFB 每顆 ~350mW；高功率雷射仍有護城河。
 
@@ -267,3 +268,4 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 ## 相關頁面
 
 - [[MMM.US(3m)]]
+- [[ANET.US(arista)]] — 交換器品牌商，走 XPO／NPO 可插拔路線，與 CPO 交換器路線競爭。

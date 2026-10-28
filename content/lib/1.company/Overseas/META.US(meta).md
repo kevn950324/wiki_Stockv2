@@ -29,6 +29,7 @@ related_companies:
   - "[[2382_廣達（市）]]"
   - "[[2360_致茂（市）]]"
   - "[[索爾思光電（未）]]"
+  - "[[ANET.US(arista)]]"
 ---
 
 # META.US(meta)
@@ -101,6 +102,7 @@ graph LR
 | [[COHR.US(coherent)]] | 光源供應商 | OCI ELSFP 規格受益 |
 | [[LITE.US(lumentum)]] | 光源供應商 | OCI ELSFP 規格受益 |
 | [[2382_廣達（市）]] | AI 伺服器／ASIC ODM | UBS 指 Meta 等 ASIC 專案自 2026Q2 開始貢獻廣達營收 |
+| [[ANET.US(arista)]] | 交換器供應商 | Leaf／Spine 品牌交換器；Prometheus 跨建築 Backend Aggregation 採 Arista 7800（Broadcom Jericho3），連接 2 km 到逾 100 km（[[research_產業合作技術發表_2026-10-26]]，Meta 官方技術部落格 2026-10-19） |
 
 ## Meta Superintelligence Labs（MSL）
 
@@ -277,6 +279,8 @@ Meta 未納創意的基準模型：30萬顆、TK3 毛利假設下約增創意年
 - [[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]]（轉述 Nomura 2026-10-19；Muse Code 取代 Claude Code）
 
 - [[報告_富邦_2027-2028半導體展望CoWoS模型_20261022]]（富邦投顧 2026-10-22 CoWoS 模型：Meta capex 2026E／27E／28E US$137.5／216.7／280.6bn；MTIA v3 2027／2028 年 46.4 萬／143.9 萬顆（estimate，中））
+
+- [[memo_緯創緯穎_AWS客戶結構與ODM訂單機制專家觀點_日期不詳]]（ODM 端匿名專家紀要，日期不詳，2026-10-28 入庫；Meta 約占該 ODM 通用伺服器出貨兩成多，M 客戶對應屬推定）
 
 ## 相關頁面
 

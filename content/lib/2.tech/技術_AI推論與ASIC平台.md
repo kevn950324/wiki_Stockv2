@@ -4,7 +4,7 @@ tags:
   - 技術/AI推論
   - 技術/ASIC
   - 產業/AI伺服器
-updated: 2026-10-24
+updated: 2026-10-27
 image_status: "已有來源圖"
 aliases:
   - Agentic AI
@@ -58,6 +58,15 @@ related_companies:
 ## 定義
 
 AI 推論是模型完成訓練後，在雲端、邊緣或終端執行預測、生成與代理任務的階段。DIGITIMES 2026-08-21 簡報估計，2027 年高階雲端 ASIC 出貨量約 1,526 萬顆、年增 110.9%，首次超過高階雲端 GPU 約 1,069 萬顆；此為簡報估計，非公司指引。
+
+### 2026-10-21 中信投顧 ASIC 產業近況
+
+- 市場：綜合研調（截至 2026 年中）預估未來 5–10 年 GPU 仍主導，但 AI ASIC CAGR 約 27%–35%，高於 GPU 的 14%–26%；CSP 以 GPU＋ASIC 雙線並進，ASIC 側重推論與邊緣運算。
+- 收入模式：NRE（架構設計、物理設計、IP 整合、Tape-out）一次性分段認列、毛利率 50%–80% 以上，為 Turnkey 先行指標，3nm／2nm 單案 NRE 倍增；Turnkey 代客戶投片並安排封測，高階 AI 晶片可達數十億美元，但稀釋毛利率。
+- 廠商分工：[[AVGO.US(broadcom)]] 市占約 60%–70%（TPU v7 Ghostfish、v8t Sunfish、Meta MTIA 300／400 Iris／450 Arke／500 Astrid、OpenAI Jalapeño、Anthropic、ByteDance N5）；[[MRVL.US(marvell)]] 市占由 2023 年不到 5% 升至 2026 年 25%（Trainium2／2.5／3 互聯、Maia 300、TPU 周邊、TPU v10 潛在設計廠之一），併 Celestial AI、Xconn 補強光互連。
+- 台廠：[[2454_聯發科（市）]] 取得 TPU v8i Zebrafish（2H26 量產）與 v9x Humufish／Triggerfish（4Q27 量產、Intel EMIB-T），2026 年 ASIC 營收目標逾 US$2bn、2027 年 US$12–16bn，市占目標上調至 15%–20%；[[3443_創意電子（市）]]（Maia、Cobalt、Axion2／3、Tesla AI5／AI6）；[[3661_世芯-KY（市）]]（Trainium3 量產、Trainium4 獨家設計）；[[8227_巨有科技（櫃）]]（台積電 DCA 成員，轉向 28nm 以下）。
+- 結論：中信認為台廠依 COT 模式提供整合服務，性價比高，ASIC 滲透率將逐步提高。
+- 來源：[[報告_中信_ASIC產業近況_20261021]]（中信投顧，2026-10-21），信心中。
 
 ## 圖解
 
@@ -205,9 +214,11 @@ ASIC 前端 RTL／compute 設計的 AI 工具降低部分開發障礙，價值�
 - [[報告_Citi_聯發科_20260831]] — Citi Research，2026-08-31；NVIDIA 投資與 NVLink Fusion 合作
 - [[報告_MorganStanley_聯發科_20260831]] — Morgan Stanley，2026-08-31；NVIDIA／Alphabet 參與 CB 與供應鏈資金用途 thesis
 - [[video_NVIDIA_GTC2026_AI平台與NVL576_202603]] — NVIDIA GTC 2026 Session S81911；MoE expert parallelism、NVLink／NVSwitch、Dynamo 與 NVL576 原型
+- [[報告_中信_ASIC產業近況_20261021]] — 中信投顧 ASIC 產業近況分享，2026-10-21
 
 ## 相關頁面
 
+- [[分析_緯創緯穎專家紀要_AWS集中度與ODM訂單機制_20261028]]
 - [[分析_國泰美國參訪_電力測試記憶體與太空驗證_20260914-18]]
 
 - [[0100.HK(minimax)]]

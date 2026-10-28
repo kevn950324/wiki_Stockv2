@@ -225,6 +225,7 @@ FY26 GAAP net loss $6.9bn 不代表本業同幅度惡化：Q4 債券換股使公
 | [[MTSI.US(macom)]] | 產業夥伴／競爭生態 | 光通訊 EIC／高速互連生態，與 Lumentum 互補或競爭 |
 | [[3105_穩懋（櫃）]] | 上游／foundry 生態 | InP／GaAs wafer foundry |
 | [[3450_聯鈞（市）]] | 下游／封裝 | CoS／光電封裝供應鏈，連結國際光元件廠 |
+| [[4908_前鼎（櫃）]] | 競爭 | 台廠 CPO ELSFP，20dBm 小量出貨、23dBm UHP 驗證中；規格與客戶規模仍低於 Lumentum |
 
 > [!warning] 風險與注意事項
 > - **需求／庫存週期**：AI 資本支出強勁不代表 Lumentum 每季線性成長；客戶可能提前拉貨後修正。

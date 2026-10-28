@@ -31,6 +31,7 @@ related_companies:
   - "[[2454_聯發科（市）]]"
   - "[[Anthropic（未）]]"
   - "[[OpenAI（未）]]"
+  - "[[ANET.US(arista)]]"
 image_status: "已有來源圖"
 ---
 
@@ -198,6 +199,7 @@ flowchart LR
 |------|------|------|
 | [[META.US(meta)]] | OCI MSA 共編 | Meta+Broadcom+AMD 三方 OCI 200G MSA（2026-03-11）|
 | [[AMD.US(amd)]] | OCI MSA 共編 | 同上 |
+| [[ANET.US(arista)]] | 下游品牌交換器客戶 | Arista 交換器採 Tomahawk／Jericho；Meta Prometheus 跨建築 Backend Aggregation 用 Arista 7800＋Jericho3（[[research_產業合作技術發表_2026-10-26]]，Meta 官方技術部落格 2026-10-19） |
 
 ## 近期營運與研究更新
 
@@ -280,6 +282,11 @@ v8i Sunfish、v8.5 Whalefish 與 v10 Merope 延續 Broadcom 方案；2027 TPU �
 
 - [[報告_富邦_2027-2028半導體展望CoWoS模型_20261022]]（富邦投顧 2026-10-22：Tomahawk 6 網路晶片為日月光 FoCoS 全方位服務三大產品之一（富邦調查，信心中））
 
+- [[memo_大叔美股筆記_AnthropicS1七大重點_20261027]]（2026-10-27）
+- [[報告_GFHK_欣興3037_20261026]]（2026-10-26）
+- [[報告_JPMorgan_台灣測試介面_20261026]]（2026-10-26）
+- [[報告_中信_ASIC產業近況_20261021]]（2026-10-21）
+
 ## 相關頁面
 
 - [[技術_光電芯片]]（CIC 2025 雷射晶片外售排名推定為 Company B：全市場第 2、高速第 3、矽光 CW 第 3）
@@ -311,6 +318,8 @@ v8i Sunfish、v8.5 Whalefish 與 v10 Merope 延續 Broadcom 方案；2027 TPU �
 - [[技術_光互連]]
 - [[技術_光模塊]]
 - [[技術_矽光子（SiPh）]]
+- [[技術_AI推論與ASIC平台]]（2026-10-27 批次新增引用）
+
 ## JPMorgan 2026-08-20 更新
 
 - [[260820_BroadcomAVGO_JPM_FY26_AI營收上看560億美元,_TPU設計贏單藍圖不變（非完整報告）]] 聚焦 FY26 AI 營收上看約 560 億美元與 TPU 設計贏單延續；因來源為非完整報告，僅作方向性紀錄。

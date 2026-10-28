@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-10-22
+updated: 2026-10-27
 aliases:
   - APC
   - Advanced Photonics Coalition
@@ -73,6 +73,7 @@ aliases:
   - Detachable Optical Connector
   - OCS
   - Optical Circuit Switch
+  - CPX Specification 1.0
 ---
 
 # 技術_CPO
@@ -86,6 +87,12 @@ CPO（Co-Packaged Optics，共封裝光學）是把「光引擎（Optical Engine
 CPO 在 **scale-out（後端橫向擴展）** 提供選項，但真正的主戰場是 **scale-up（縱向擴展，GPU 對 GPU 高頻寬低延遲互連）**——銅互連的觸及距離只有約 2 公尺，限制了單一 scale-up 域的「world size」，光互連是突破機櫃邊界把 world size 做大的關鍵。SemiAnalysis 判斷 CPO 的 TAM 會由 scale-up 主導。
 
 **NPO 是 CPO 前的風險折衷，而不是 CPO 的同義詞。**NPO（Near-Packaged Optics）把 OE 放在 ASIC 封裝旁、但保留獨立基板與可插拔／socketed 介面；高速電通道約 150 mm，介於前面板可插拔模組與 CPO 的 <10 mm 通道之間。[[報告_SemiAnalysis_NPO光互連接棒_20260713]] 認為，它可在保留較低功耗、供應商彈性與部分可維修性的同時，避開 CPO 的 attach yield 與供應商鎖定風險；這是研究機構情境推演，並非各平台已定案的採用承諾。
+
+### 2026-10-27 國泰晨報：CPO 標準化與磷化銦缺口
+
+- Open CPX MSA 推出全球首個 CPO 標準「Specification 1.0」，改採可插拔設計並統一介面，提升相容性與維修彈性，鴻騰精密、嘉澤等插槽廠有望受惠。CPO 可搭配 RF、MP 兩種插槽與 ELM、ILM 兩類雷射模組，形成四種架構；上詮、波若威等 FAU 供應鏈可望受惠。
+- 磷化銦（InP）基板與磊晶缺口逾三成，光通訊廠 12–18 個月產能多已售罄；聯亞、全新擴充磊晶，華星光放大代工與切割。矽品 CPO 光引擎產能 2027 年中增至 15 倍、2028 年底 30 倍。
+- 來源：[[memo_國泰_AI投資熱台股震盪_20261027]]（國泰證期晨報，2026-10-27），新聞整理，信心中。
 
 ## Rubin Ultra NVL576：官方已確認的交換骨架
 
@@ -685,6 +692,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - [[261018_ms_OCP-takeaways]] — Morgan Stanley 硬體團隊，2026-10-18（OCP 2026：NPO／CPX／CPC、micro VCSEL、HVDC）
 - [[261018_ms_OCP-wrap-up]] — Morgan Stanley 半導體團隊，2026-10-18（IPO／ICA、CPO 測試流程）
 - [[261016_daiwa_ardentec]] — Daiwa，2026-10-16（欣銓子公司 CPO 測試放量）
+- [[memo_國泰_AI投資熱台股震盪_20261027]] — 國泰證期晨報（產業段落），2026-10-27
 
 ## 本次 ingest 更新（2026-08-14）
 
@@ -997,8 +1005,10 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 ## 相關頁面
 
 - [[分析_2026-10-15_台積電3Q26法說與AI硬體券商更新]]
+- [[4908_前鼎（櫃）]]：台廠 ELSFP（20dBm 小量出貨、23dBm UHP 原訂 2026Q3 驗證）
 
 - [[分析_20260918-29專家紀要公司辨識與光互連供給觀察]]
 - [[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]
 - [[分析_Omdia_CIOE2026_NPO部署與InP供給風險]]
 - [[時程_2026-2027高速互連與分散式算力]]
+- [[ANET.US(arista)]] — 主導 XPO MSA（12.8T 大型可插拔＋LPO），被視為延緩 CPO 全面替代的交換器品牌商。

@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 技術/矽光子
   - 環節/光纖與光通訊
-updated: 2026-10-12
+updated: 2026-10-27
 aliases:
   - Marvell
   - 邁威爾
@@ -33,6 +33,12 @@ related_companies:
 ## 基本資料
 
 Marvell 是客製 ASIC 與資料中心連結（光 DSP、AEC、光模組元件）的主要供應商，並透過**收購 Celestial AI** 切入 scale-up 光互連。營收驅動來自客製運算（hyperscaler ASIC）、光學 DSP 與電互連。供應鏈位置：fabless，Celestial 的 Photonic Fabric chiplet 採 [[2330_台積電（市）]] 5nm。資料來源：SemiAnalysis CPO Book（2026-01-02）。
+
+### 2026-10-21 中信投顧 ASIC 產業近況
+
+- AI ASIC 市占由 2023 年不到 5% 升至 2026 年約 25%，為 CSP 在 Broadcom 之外的替代選擇；核心優勢在 800G／1.6T 光通訊與 Custom XPU，收購 Celestial AI、Xconn 補強機櫃內光互連與交換。
+- 設計案：AWS Trainium2、Trainium2.5、Trainium3（互聯）、Microsoft Maia 300、Google TPU 周邊晶片，並為 TPU v10 潛在設計廠商之一。
+- 來源：[[報告_中信_ASIC產業近況_20261021]]（中信投顧，2026-10-21），信心中。
 
 ## Polariton 收購（2026）— 調變器路線多元化
 
@@ -180,6 +186,7 @@ Aletheia p6–7把 Microsoft Maia200 描述為客戶自主架構、Marvell／[[2
 - [[報告_統一_華星光新聞評析_20260922]]（統一投顧，2026-09-22；800G ZR／ZR+ 與華星光供應鏈新聞評析）
 
 - [[報告_UBS_智邦_20260918]]（2026-09-18）
+- [[報告_中信_ASIC產業近況_20261021]] — 中信投顧 ASIC 產業近況，2026-10-21
 
 ## 相關頁面
 
@@ -207,6 +214,7 @@ Aletheia p6–7把 Microsoft Maia200 描述為客戶自主架構、Marvell／[[2
 - [[技術_CPO]]
 - [[技術_TFLN]]
 - [[技術_矽光子（SiPh）]]
+- [[技術_AI推論與ASIC平台]]（2026-10-27 批次新增引用）
 
 ## GF Securities 2026-08-28 更新
 

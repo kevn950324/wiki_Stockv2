@@ -38,6 +38,7 @@ related_companies:
   - "[[索爾思光電（未）]]"
   - "[[3653_健策（市）]]"
   - "[[INTC.US(intel)]]"
+  - "[[ANET.US(arista)]]"
 ---
 
 # NVDA.US(nvidia)
@@ -170,6 +171,7 @@ flowchart LR
 | [[AMKR.US(amkor)]] | 上游 OSAT / Rubin 外包 | 接 TSMC CoWoS 外溢 |
 | [[COHR.US(coherent)]] | 戰略投資／CPO 光學供應 | NVIDIA 入股 USD 20 億、InP CW 雷射供應；Citi 2026-09-21 轉述 COHR 已取得以 NVIDIA 為 anchor 的 CPO LTA，量產與收入待驗證 |
 | [[LITE.US(lumentum)]] | 戰略採購 | USD 20 億採購承諾，ECTC 2026 聯合論文 |
+| [[ANET.US(arista)]] | AI 網路競爭 | Spectrum-X 乙太網與 Arista（Broadcom 晶片）品牌交換器在 AI scale-out 網路競爭；Meta Prometheus 建築內用 Minipack3N（Spectrum-4），跨建築用 Arista 7800（[[research_產業合作技術發表_2026-10-26]]） |
 | [[GFS.US(globalfoundries)]] | 光連接器合作 | GLASSBRIDGE 可拆光纖連接器 |
 | [[GLW.US(corning)]] | 戰略合作 | 光纖取代銅纜（2026-05-06） |
 | [[3711_日月光投控（市）]] | 封測（Rubin 外溢） | 接 CoWoS 外溢封測 |
@@ -553,8 +555,16 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 
 - [[memo_CathayWatch_AI科技股重挫與美債避險_20261023]]（國泰 Cathay Watch 2026-10-23：10-22 股價 -4.40%；推出 AI 維運平台 Minerva，IREN 已使用，Tesla、IBM、Lambda 計畫部署，Dell、Lenovo、Supermicro 整合進 AI 工廠維運產品（新聞轉述，中））
 
+- [[報告_GFHK_VR200展望_20261026]]（2026-10-26）
+- [[報告_GoldmanSachs_800VDC電氣設備入門_20261021]]（2026-10-21）
+- [[報告_JPMorgan_Ibiden4062_20261022]]（2026-10-22）
+- [[報告_JPMorgan_台灣測試介面_20261026]]（2026-10-26）
+
+- [[memo_緯創緯穎_AWS客戶結構與ODM訂單機制專家觀點_日期不詳]]（ODM 端匿名專家紀要，日期不詳，2026-10-28 入庫；GPU 龍頭決定 CSP 訂單分配給哪些 ODM、AI 伺服器需提前半年溝通）
+
 ## 相關頁面
 
+- [[分析_緯創緯穎專家紀要_AWS集中度與ODM訂單機制_20261028]]
 - [[SIMO.US(silicon_motion)]]
 - [[SU.FR(schneider_electric)]]
 - [[分析_美股低淨槓桿與高Beta曝險並存_20261002]]

@@ -14,7 +14,7 @@ tags:
   - 產業/AI基礎建設
   - 地區/美國
   - 環節/衛星通訊
-updated: 2026-10-24
+updated: 2026-10-27
 aliases:
   - SpaceX
   - 太空探索技術公司
@@ -23,6 +23,8 @@ aliases:
   - Starlink Mobile
 related_companies:
   - "[[NVDA.US(nvidia)]]"
+  - "[[2317_鴻海（市）]]"
+  - "[[DELL.US(dell)]]"
 ---
 
 # SPCX.US(spacex)
@@ -32,6 +34,13 @@ related_companies:
 SpaceX（Space Exploration Technologies Corp.）是全球最大商業航太公司，同時擁有 Starlink 全球衛星寬頻網路與 xAI（2026-02 收購）AI 算力業務。2026-06 IPO 於 Nasdaq（代號 SPCX），主承銷商 Goldman Sachs、Morgan Stanley、JPMorgan 等。
 
 主要資料來源：說明書_SpaceX_IPO路演簡報_20260606
+
+### 2026-10-26 GFHK VR200 展望
+
+- GFHK 預期 SpaceX 為 2027 年最大 VR200 買家，20k 機櫃（需求 30k+，對應 10GW 淨增）。
+- 資金：US$500bn 建置（10GW × US$50bn／GW）需進一步舉債，2027 年營運現金流入約 US$200bn；近期 4Q26 CapEx 增至 US$35–40bn，資金來源為 Apollo 主導 US$40bn GPU 債（US$10bn 貸款＋US$30bn IG 債，FT 報導）、US$89.9bn 現金、CSP 大額預付款。
+- ODM 直供：[[2317_鴻海（市）]] Rubin 份額最高 50%（模型 40%–45%），和碩 <5%；[[3231_緯創（市）]] 經 [[DELL.US(dell)]] 的份額下降。
+- 來源：[[報告_GFHK_VR200展望_20261026]]（廣發證券香港，2026-10-26），信心中。
 
 ## IPO 概覽
 
@@ -238,3 +247,7 @@ SpaceX 與 Tesla、Intel 戰略合作打造全球最大晶片製造廠（Terafab
 - [[報告_UBS_聯發科TPU與ASIC專案_20260923]]（2026-09-23）
 
 - [[報告_富邦_2027-2028半導體展望CoWoS模型_20261022]]（富邦投顧 2026-10-22：富邦認為 SpaceX 可能成為聯發科下一個客製化 ASIC 客戶，預期 1Q27 定案、2028 年貢獻營收，尚未確認（thesis，中低））
+- [[報告_GFHK_VR200展望_20261026]] — GFHK VR200 展望，2026-10-26
+
+- [[memo_大叔美股筆記_AnthropicS1七大重點_20261027]]（2026-10-27）
+

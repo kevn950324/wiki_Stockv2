@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/CCL材料
 maturity: mature
-updated: 2026-10-22
+updated: 2026-10-27
 aliases:
   - FR-4
   - FR4
@@ -61,6 +61,22 @@ aliases:
 ## 定義
 
 CCL（Copper Clad Laminate，覆銅板）是 PCB 的核心基材，由銅箔 + 玻纖布（電子布）+ 樹脂系統壓合而成。AI 伺服器 CCL 的核心技術壁壘在於超低介電常數（Dk）和介電損耗（Df）、配合 Q布（石英布）的加工性、以及與 HVLP 銅箔的相容性。材料等級從 M7 到 M9/M10 每升一級售價提升 1.5–2 倍。
+
+### 2026-10-25／26 外資 TPCA 觀察（GS、BofA）
+
+- GS：高階 CCL ASP 2024–26 年每年成長 25%–50%（M7 2024、M8 2025、M9 2026 放量），M10 認證中、最早 2H27 出貨，M11 不晚於 2030 年；PTFE 量產最早 2H28 之後（PTFE PCB 良率 10%–15% vs M9＋Q-glass 80%–90%），Rubin Ultra 2H27 交換器 tray 較可能用 M9／M10＋Q-glass／HC。
+- GS：CPO 2028E 起用於 GPU 伺服器交換器 tray，屆時交換器板約占 2028E CCL TAM US$48bn 的 14%；極端情境全降為 M4／M7，TAM 減少不到 10%。
+- GS：ABF 載板 CCL TAM 2026 年 US$0.8–1.2bn → 2028 年 US$4.0–4.5bn；ABF 載板材料用量每 1–2 年倍增，每 1/4 張 ABF CCL 目前可做 6–8 顆高階載板，2028 年可能只剩 2–3 顆。日系在 ABF CCL／T-glass／微細銅箔市占逾 95%，終端客戶 1H26 起加速認證台陸供應商。
+- BofA：Q-glass＋HC 樹脂為近中期較適合的升級組合；CCL 廠更重視低 CTE，高 CTE 的 PTFE 不是長期方案，且在電鍍、鑽孔、壓合仍有弱點；台光電 M10（HC）1Q27 NPI、M11（Q-glass）研發中；台燿認為含布 core＋HC PP 最可行；PCB 4Q26–1Q27 可能因成本上漲再漲價。
+![[報告_GoldmanSachs_台灣PCB_CCL_TPCA巡禮_20261025_004.png]]
+
+圖說：GS 整理 M4 至 M11 CCL 世代的主流期間、對應應用（伺服器、交換器速率）與銅箔等級；M10 對應 3.2T 交換器與 HVLP5／6，M11 對應 6.4T。
+
+![[報告_BofA_TPCA2026_20261026_003.png]]
+
+圖說：台燿在 TPCA 展示的 core＋PP 材料組合可行性（HC／PTFE、有布／無布），打勾者為可行，含布 HC 組合可行性最高、無布 PTFE 多為問號或不可行。
+
+- 來源：[[報告_GoldmanSachs_台灣PCB_CCL_TPCA巡禮_20261025]]、[[報告_BofA_TPCA2026_20261026]]，信心中高。
 
 ## 圖解
 
@@ -280,6 +296,8 @@ AI 伺服器主要用**薄布**（1067 等規格），vs 消費電子常用厚�
 
 ## 來源
 - [[報告_UBS_南亞CCL漲價與產品升級_20260928]] — UBS，2026-09-28；一般品價格、M6+ mix、垂直整合與 Gen2 Low-Dk 紗
+- [[報告_GoldmanSachs_台灣PCB_CCL_TPCA巡禮_20261025]] — Goldman Sachs，2026-10-25
+- [[報告_BofA_TPCA2026_20261026]] — BofA，2026-10-26
 
 ## 2026-08-24 Rubin／AI PCB 補充
 

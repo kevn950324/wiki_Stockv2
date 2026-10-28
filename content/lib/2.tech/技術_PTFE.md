@@ -6,7 +6,7 @@ tags:
   - 環節/CCL材料
   - 產業/AI伺服器
 maturity: early
-updated: 2026-10-22
+updated: 2026-10-27
 aliases:
   - PTFE
   - 聚四氟乙烯
@@ -28,6 +28,8 @@ aliases:
   - NVLink PTFE PCB
   - 氟系樹脂CCL
   - 氟素樹脂
+  - BCB
+  - 苯並環丁烯
 related_companies:
   - "[[2383_台光電（市）]]"
   - "[[2368_金像電（市）]]"
@@ -51,6 +53,12 @@ PTFE（Polytetrafluoroethylene，聚四氟乙烯，俗稱鐵氟龍）是氟原�
 現在重要，是因為 NVIDIA 的 scale-up 互連往 224G／448G SerDes 推進，Rubin Ultra 的 NVL576（8 櫃）switch board 與背板損耗目標約 Df ≤0.0004，M9／M10 碳氫材料多數樣品只做到 0.00043–0.00045。PTFE 被視為延長銅互連壽命的材料解方：NVIDIA 在 GTC 2025 就表達過驗證意圖，並於 OCP 2026 首度展示 NVLink PTFE Board 與 7 家供應商。PTFE 的核心問題已從「電性夠不夠」變成「高層數板能不能穩定量產」，因此混壓（hybrid）結構、良率與壓合設備成為投資觀察重點。
 
 PTFE 屬於 [[技術_CCL]] 的樹脂路線分支，會牽動 [[技術_Q布]]（需求可能被部分取代）、[[技術_HVLP銅箔]]（需特殊粗化處理）、[[技術_正交背板]] 與 [[技術_PCB鑽孔設備]] 的規格；所屬供應鏈主軸為 [[供應鏈_AI伺服器PCB]]。
+
+### 2026-10-26 Morgan Stanley TPCA：PTFE 與替代材料
+
+- 無玻布 PTFE CCL 是 TPCA 展場投資人最常問的題目：純 PTFE 訊號完整性最佳，部分客戶偏好用於 midplane／交換器板，但高層數板加工性仍是挑戰，多層板需接近 400°C 的特殊高溫壓合機。
+- 台系 CCL 廠對 PTFE 較不積極，同時開發 HC、HC＋PTFE 混合與 BCB（苯並環丁烯）基材以達 M10 以上性能；MS 預期下一代 AI 機櫃 CCL 材料最晚 2027 年中確定。若不採 PTFE，對台光電與台燿偏正面、對生益略負面。
+- 來源：[[報告_MorganStanley_TPCA2026_20261026]]（Morgan Stanley，2026-10-26），信心中高。
 
 ## 圖解
 
@@ -259,6 +267,7 @@ gantt
 - [[報告_Daiwa_尖點鑽針產業升級_20260923]] — Daiwa，2026-09-23
 - [[報告_康和_上品4770_20261015]] — 康和，2026-10-15
 - [[memo_LINE_金像電定穎上游材料CCL_20261022]] — 使用者 LINE 產業交流筆記，2026-10-22
+- [[報告_MorganStanley_TPCA2026_20261026]] — Morgan Stanley 2026 TPCA Show Takeaways，2026-10-26
 
 ## 相關頁面
 

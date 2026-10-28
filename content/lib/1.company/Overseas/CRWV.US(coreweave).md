@@ -8,7 +8,7 @@ tags:
   - 公司/CoreWeave
   - 環節/雲端服務
   - 產業/AI伺服器
-updated: 2026-10-22
+updated: 2026-10-27
 aliases: [CoreWeave]
 related_companies:
   - "[[MSFT.US(microsoft)]]"
@@ -21,6 +21,13 @@ related_companies:
 
 ## 基本資料
 CoreWeave 是提供 GPU 雲端與 AI 基礎設施的雲端服務商，核心成長來自 AI 訓練與推論需求、資料中心擴張及大型客戶合約。公司股票於 Nasdaq 交易（CRWV）。
+
+### 2026-10-26 GFHK VR200 展望：融資風險可控
+
+- CDS 利差與無擔保票據殖利率 >15% 使股價自 10-13 起下跌約 30%；Blackstone COO Jon Gray 表示公司會「find a way through」，算力價格年增約 50%、H100 保值優於預期。
+- 結構：無擔保票據約 US$3.8bn（約占總負債 10%），2030 年 6 月前無到期；8 月 US$2.6bn DDTL 5.5（SOFR+5.50%）超額認購。GFHK 認為近期融資風險可控，但資金成本上升需留意。
+- 六大 Neocloud（SpaceX／CoreWeave／Nebius／Lambda／IREN／Nscale）2026E／2027E 淨增 3.5GW／12GW，對應 NVL72 機櫃 19k／34k（占產業 27%／35%）。
+- 來源：[[報告_GFHK_VR200展望_20261026]]（廣發證券香港，2026-10-26），信心中。
 
 ## 核心技術／競爭優勢
 - GPU 雲端資源池與高速網路、儲存、編排軟體整合。
@@ -84,6 +91,7 @@ CoreWeave 是提供 GPU 雲端與 AI 基礎設施的雲端服務商，核心成�
 - [[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]] — 大叔美股筆記轉述 Nomura，2026-10-21
 
 - [[報告_富邦_2027-2028半導體展望CoWoS模型_20261022]]（富邦投顧 2026-10-22 CoWoS 模型：CoreWeave capex 2026E／27E／28E US$28.2／44.5／57.6bn（以晶片價值反推，estimate，中））
+- [[報告_GFHK_VR200展望_20261026]] — GFHK VR200 展望，2026-10-26
 
 ## 相關頁面
 

@@ -147,6 +147,8 @@ Nebius Group N.V. 為阿姆斯特丹掛牌（NASDAQ: NBIS）AI 雲端公司，20
 
 - [[2026-07-20-NBIS.OQ-BofA Global Research-Nebius Group N.V. 2Q26 Preview focus is on capacity, capex...-123251711]]（2026-07-20）
 
+- [[報告_GFHK_VR200展望_20261026]]（2026-10-26）
+
 ## 相關頁面
 
 - [[時程_2026記憶體與AI催化劑]]

@@ -17,6 +17,7 @@ aliases:
 related_companies:
   - "[[NVDA.US(nvidia)]]"
   - "[[8996_高力（市）]]"
+  - "[[3231_緯創（市）]]"
 ---
 
 # SMCI.US(supermicro)
@@ -99,6 +100,7 @@ flowchart LR
 |------|------|------|
 | [[NVDA.US(nvidia)]] | 上游平台夥伴 | GB300 NVL72、HGX B300／B200 與後續 Rubin 平台 |
 | [[8996_高力（市）]] | 液冷供應鏈 | SinoPac 2026-10-06 將 Supermicro 相關液冷列為高力主要成長來源；屬券商 thesis、中，未披露新增合約或份額 |
+| [[3231_緯創（市）]] | 通用伺服器代工 | ODM 端匿名專家稱緯創只替 Supermicro 代工通用伺服器，AI 伺服器不經緯創（[[memo_緯創緯穎_AWS客戶結構與ODM訂單機制專家觀點_日期不詳]]；Supermicro 以「S 系」代號出現，對應屬推定，低至中信心） |
 
 > [!warning] 風險與注意事項
 > - **建設時程**：客戶端電力、液冷與機房未就緒，會使大型專案收入延後；延後不等於取消。
@@ -112,6 +114,7 @@ flowchart LR
 
 ## 來源
 
+- [[memo_緯創緯穎_AWS客戶結構與ODM訂單機制專家觀點_日期不詳]]（ODM 端匿名專家紀要，日期不詳，2026-10-28 入庫；緯創代工通用伺服器）
 - [[報告_CLSA_SinoPac_高力_20261006]]（SinoPac 研究／CLSA 分發，2026-10-06；高力的 Supermicro 相關液冷與 Rubin manifold／CDU／RDHx 需求情境）
 - [[報告_國泰_SuperMicroFY26財報_20260813]]（國泰證期研究部，2026-08-13；FY26Q4、FY27 指引、液冷產能與 DCBBS）
 - [[Super Micro Computer（SMCI US）0813]]（中信投顧，2026-08-13；GB300／Blackwell、DCBBS、液冷與 FY27–FY28 財務估計）
@@ -120,5 +123,6 @@ flowchart LR
 
 ## 相關頁面
 
+- [[分析_緯創緯穎專家紀要_AWS集中度與ODM訂單機制_20261028]]
 - [[6584_南俊國際（市）]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]

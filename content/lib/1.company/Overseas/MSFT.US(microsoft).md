@@ -22,6 +22,7 @@ related_companies:
   - "[[6669_緯穎（市）]]"
   - "[[3017_奇鋐（市）]]"
   - "[[6805_富世達（市）]]"
+  - "[[ANET.US(arista)]]"
 ---
 
 # MSFT.US(microsoft)
@@ -76,6 +77,7 @@ Microsoft 以 Azure、Microsoft 365、Copilot、Windows、企業資安與開發�
 |---|---|---|
 | [[GOOGL.US(alphabet)]] | 競爭 | 雲端、AI 模型與企業 AI 平台 |
 | [[META.US(meta)]] | 同業／客戶生態 | AI 基礎設施與模型需求 |
+| [[ANET.US(arista)]] | 交換器供應商 | Azure 的 Spine 與 DCI 層以 Arista 為主，TOR／Leaf 另用 Cisco、Dell（[[報告_福邦_PCB載板產業展望_20260401]]，引 650 Group，2026-04-01） |
 
 ## 風險與注意事項
 
@@ -135,6 +137,10 @@ Maia 2027E 約120萬顆（p2／15），Cobalt 2026E 24萬、2027E p2／15 20萬�
 - [[memo_FOMOSoc_CoreWeave與AI基建_20261020]]（2026-10-20）
 
 - [[報告_富邦_2027-2028半導體展望CoWoS模型_20261022]]（富邦投顧 2026-10-22 CoWoS 模型：Microsoft capex 2026E／27E／28E US$175.0／275.8／357.1bn；Maia 300 2027／2028 年 17.3 萬／59.6 萬顆；富邦引述 CFO 曾說 capex 約 67% 用於短期資產（GPU 與 CPU），但認為不等於純半導體支出（estimate，中））
+
+- [[memo_大叔美股筆記_AnthropicS1七大重點_20261027]]（2026-10-27）
+
+- [[memo_緯創緯穎_AWS客戶結構與ODM訂單機制專家觀點_日期不詳]]（ODM 端匿名專家紀要，日期不詳，2026-10-28 入庫；Microsoft 接近該 ODM 通用伺服器出貨三成，A 客戶對應屬推定）
 
 ## 相關頁面
 

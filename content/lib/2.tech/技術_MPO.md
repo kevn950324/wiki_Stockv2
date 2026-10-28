@@ -5,7 +5,7 @@ tags:
   - 產業/光通訊
   - 環節/光通訊
 maturity: mature
-updated: 2026-10-03
+updated: 2026-10-28
 aliases:
   - MPO
   - Multi-Fiber Push On
@@ -28,6 +28,12 @@ aliases:
   - OM5
   - OVD
   - PCVD
+  - 擴束光纖連接器
+  - 擴束連接器
+  - Expanded Beam connector
+  - XBO
+  - 光背板連接器
+  - Optical Backplane
 ---
 
 # 技術_MPO
@@ -40,7 +46,13 @@ aliases:
 
 **MMC**（Multi-Mode Connector，或 Senko SN-MT）是新一代連接器，正快速替代 MPO 在 AI 機柜 800G/1.6T 速率下的應用，單連接頭價值是 MPO 的 **4–5 倍**。
 
+**EBO**（Expanded Beam Optical，擴束光學連接器）不讓兩端光纖端面直接接觸，而是先把光束準直放大，跨過一段小空氣間隙再由對端聚焦回光纖。好處是對灰塵不敏感、插拔力小、維修快；代價是插入損耗高於 MMC 等實體接觸連接器、目前單價也較高。3M 是主要推動者（見 [[MMM.US(3m)]]），精密 ferrule 由 [[3406_玉晶光（市）]] 支援製造。
+
 ## 圖解
+
+![[memo_SemiAnalysis_EBO擴束連接器_20261024_002.jpg]]
+*圖（SemiAnalysis X 串文附圖，2026-10-23）：EBO 擴束連接器光路。光從左上光纖進入 ferrule，被全內反射（TIR）鏡面轉折並準直成較粗的擴束光；兩片 ferrule 之間有 AR 抗反射鍍膜以降低損耗與回波，接收端 ferrule 再把光聚焦回右下光纖。下半部為多芯 EBO 連接頭外觀與局部放大。和 MPO／MMC 靠插芯端面物理接觸不同，EBO 的對接面是擴束後的光斑，所以一粒灰塵只擋掉光斑的一小部分，這是它可以少清潔、少檢查的原因，也是插入損耗比 MMC 高的來源（多兩次準直／聚焦介面）。*
+
 
 ![[AI驅動光通訊產業前進-20260119_007.png]]
 *圖（群益投顧，2026-01）：矽光 Transceiver（左）vs 傳統 Transceiver（右）零組件對比。左側矽光模塊標示 MPO connector（多芯光纖連接器）← Fiber array → Silicon Photonics IC + Electronics IC；右側傳統模塊用 Laser Diode TOSA + PIN+TIA ROSA 分立結構。MPO 是矽光模塊的光纖 I/O 標準接口——一個 MPO-16 同時傳遞 16 根光纖，對應 800G（8+8）或 1.6T（16+16）通道需求，是高密度矽光模塊不可或缺的機械對準元件。*
@@ -92,6 +104,7 @@ aliases:
 | MMC 放量（2026）| 高單價替代，提升 ASP |
 | Google MPO 采購量 | 判斷 OCS 部署規模 |
 | AOC 條數增長 | Google 2025→2026：60→100–120 萬條 |
+| EBO vs MMC 插入損耗與單價差 | 決定 EBO 能否從維運密集位置擴大到光預算緊的鏈路 |
 
 ## 技術瓶頸 / 風險
 
@@ -127,6 +140,9 @@ aliases:
 | 台灣 FAU / 光纖被動件 | [[3363_上詮（櫃）]] | 光纖被動元件，FAU 台系供應商 |
 | 光纖被動元件 | [[6291_沛亨（市）]] | 台系光纖被動元件廠 |
 | 台系光纜 | [[6442_光聖（市）]] | 高芯數光纜，Torpedo Cable for Google OCS |
+| EBO 擴束連接器 | [[MMM.US(3m)]] | EBO 品牌與方案商，主導 EBO MSA |
+| EBO ferrule 精密光學 | [[3406_玉晶光（市）]] | 3M EBO ferrule 與 CPO 光學件製造夥伴 |
+| EBO 光背板連接器 | Senko（未建頁，日本） | ECOC 2026 展示 XBO 自動斷開／重新對接 |
 
 ## 相關技術
 
@@ -134,6 +150,7 @@ aliases:
 - [[技術_光互連]]（MPO 在光互連整體架構中的定位）
 - [[技術_CPO]]（CPO 交換機中板使用 32 芯 MPO）
 - [[技術_光模塊]]（AOC 含光模塊，與 MPO 競爭）
+- [[供應鏈_AI光互聯]]（EBO／MMC 連接器在 AI 光互連供應鏈的位置）
 
 ## NVIDIA CPO 交換機 MPO 規格
 
@@ -144,6 +161,7 @@ NVIDIA Quantum X800-Q3450 InfiniBand CPO 交換機：
 
 ## 來源
 
+- [[memo_SemiAnalysis_EBO擴束連接器_20261024]] — SemiAnalysis X 串文，2026-10-23（EBO 原理、EBO vs MMC 取捨、Senko XBO 光背板；分析機構觀點／中）。
 - [[memo_AceCamp_亨通光電_光纖與MPO展望_20260930]] — AceCamp Tech，2026-09-30（MPO規格、產量與多模光纖供給；匿名渠道／低信心）。
 
 - [[memo_光互联学习记录_MPO产业链_CPO设备_acecamptech_20260417]]（MPO 芯數演進、市場規模、插芯格局、國產代工）
@@ -165,3 +183,22 @@ NVIDIA Quantum X800-Q3450 InfiniBand CPO 交換機：
 
 來源：[[memo_AceCamp_亨通光電_光纖與MPO展望_20260930]]（2026-09-30）。
 相關分析：[[分析_20260930專家紀要公司辨識與商業化驗證]]。
+
+## 2026-10-23 EBO 擴束連接器：價值在維運，與 MMC 並存
+
+SemiAnalysis 在 ECOC 2026 後以 X 串文整理 EBO 的取捨（分析機構觀點，未附插損或價格數字）：
+
+| 面向 | EBO（擴束、非接觸） | MMC／標準實體接觸連接器 |
+|---|---|---|
+| 灰塵敏感度 | 低，安裝時可減少清潔與檢查工時 | 高，每次插拔需清潔與端面檢查 |
+| 插拔力與密度 | 插拔力低，有利於提高連接器密度 | 多芯彈簧加壓，插拔力較高 |
+| 插入損耗 | 較高 | 較低，光預算緊時仍佔優勢 |
+| 目前成本 | 較高 | 較低 |
+| 最大價值 | 維運：維修更快、停機更短 | 光預算與成本 |
+
+- **路線判斷（thesis／中）**：SemiAnalysis 預期兩者並存，依密度、可維修性與光預算選用，不是 EBO 全面取代 MMC。這與本頁「MMC 取代 MPO」趨勢不衝突：MMC 仍是光預算緊鏈路的主力，EBO 先切維運密集與難以清潔的位置。
+- **上市時間不一定提前（thesis／中）**：佈線變快不等於算力更早產生營收；機櫃常分批到貨、施工隊並行作業，上線調校（commissioning）仍需時間。人工節省確定存在，但對 time-to-revenue 的影響視部署而定。投資上不宜把 EBO 價值主張直接換算成 CSP 提早上線的收益。
+- **光背板新應用（fact＋thesis）**：光背板內部沒有清楚的清潔通道，EBO 不需清潔的特性因此更有用。Senko（未建頁）在 ECOC 展示以 EBO 為基礎的 XBO 光背板連接器，可自動斷開與重新對接（fact，展會展示）；方向是維修時減少人工插拔，但採用仍取決於系統設計與驗證（thesis／低）。
+- **對台廠的意義**：[[3406_玉晶光（市）]] 的 EBO ferrule 機會建立在 3M 方案滲透上；若 EBO 定位是「維運密集位置」而非全面替代，UBS 估的 EBO TAM（約 US$1 億）較可能是逐步滲透，而不是一次性換代（thesis／中）。
+
+來源：[[memo_SemiAnalysis_EBO擴束連接器_20261024]]（SemiAnalysis X 串文，2026-10-23）。

@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 技術/800VDC
   - 環節/電源
-updated: 2026-09-19
+updated: 2026-10-27
 aliases:
   - Vertiv
   - 維諦
@@ -27,6 +27,12 @@ image_status: "待補來源圖"
 ## 基本資料
 
 Vertiv 是資料中心電源與熱管理（含 UPS、power rack、配電、液冷）的領導廠商，是 AI 機櫃供電架構轉換（含 800VDC / HVDC sidecar）的核心受惠者之一。營收驅動來自 AI 資料中心的電力與散熱基礎設施擴張。供應鏈位置：資料中心電力鏈核心廠商，服務 hyperscaler 與 Neocloud 的機櫃級供電。資料來源：SemiAnalysis 800VDC note（2026-06-09）。
+
+### 2026-10-21 Goldman Sachs 800VDC 入門（Buy）
+
+- 資料中心約占營收 85%（雲端與代管客戶逾 50%）。2026 Investor Day：2025–30 年推論算力 CAGR 38%、訓練 11%、傳統 10%；資料中心市場 CAGR 約 18%–20%（雲端與代管 23%–25%）；2026–30 年累計新增 140GW、每年 20–35GW；每 MW 內容價值 US$3.25–3.75mn（較前次區間高 10%–15%）。
+- 與 NVIDIA 開發 800VDC：PowerDirect 5000 sidecar（最高 900kW，釋出 8–16U 給運算）驗證中、2027 年初推出；另開發 MVDC UPS 與 SST、集中式整流器；預期 sidecar 1H27、原生 800V 2H27 開始、2028 年放量。
+- 來源：[[報告_GoldmanSachs_800VDC電氣設備入門_20261021]]（Goldman Sachs，2026-10-21），信心中高。
 
 ## 核心技術／競爭優勢
 
@@ -72,6 +78,7 @@ Vertiv 是資料中心電源與熱管理（含 UPS、power rack、配電、液�
 - [[nvidia-800-vdc-industry-alignment-white-paper]]（2026-08-20）
 - [[報告_大和_Vertiv電話會議摘要_20260810]]（2026-08-10）
 - [[memo_AceCamp_Vertiv北美液冷與800V專家訪談_20260828]]（AceCamp Tech 匿名專家訪談，2026-08-28；試製訂單與價值量需再驗證）
+- [[報告_GoldmanSachs_800VDC電氣設備入門_20261021]] — Goldman Sachs 800VDC primer，2026-10-21（Buy）
 
 ## 相關頁面
 
@@ -80,7 +87,7 @@ Vertiv 是資料中心電源與熱管理（含 UPS、power rack、配電、液�
 - [[分析_AI資料中心供電與電熱整合]]
 - [[分析_20260820專家會議受訪公司辨識]]
 - [[供應鏈_AI伺服器散熱]]
-
+- [[時程_2026-2028十月券商催化劑]]（2026-10-27 批次新增引用）
 
 ## 2026Q2 電話會議更新（大和，2026-08-10）
 

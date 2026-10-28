@@ -110,7 +110,7 @@ TrendForce 矽光子論壇補充：業界三大標準化組織並行，各自對
 |---------|---------|---------|
 | **OCI**（Optical Compute Interconnect）| Die-to-die 或板上光學（on-board optics）物理層（波長、調變方式）| Microsoft、NVIDIA、Broadcom、AMD |
 | **Open CPX** | 光學引擎（Optical Engine）整合至主機板的 Socket/電氣/散熱介面 | — |
-| **XPO** | 下一代可插拔光模組 Form Factor 標準（頻寬 + 散熱）| InnoLight、新易盛、Arista |
+| **XPO** | 下一代可插拔光模組 Form Factor 標準（頻寬 + 散熱）| InnoLight、新易盛、[[ANET.US(arista)]]（主導） |
 
 架構演進規律：NVIDIA NVL72→NVL256 採銅互連；**NVL576→NVL1152 開始採光互連**，機櫃間（Rack-to-Rack）電-光轉換延遲與能耗問題是驅動光互連標準化的核心動力。目標能耗：**2 picojoules/bit**。
 

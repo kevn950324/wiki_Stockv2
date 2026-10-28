@@ -11,7 +11,7 @@ tags:
   - 供應鏈/AI伺服器散熱
   - 環節/電力設備
   - 產業/資料中心電力
-updated: 2026-10-22
+updated: 2026-10-27
 aliases:
   - Schneider Electric
   - Schneider
@@ -34,6 +34,12 @@ Schneider Electric（施耐德電機，Euronext Paris：SU）是全球電力管�
 2026-10-21 Schneider 在 NVIDIA GTC Berlin 期間發表 RapidScale Modular Data Center Reference Design 115，針對 [[NVDA.US(nvidia)]] Vera Rubin 平台：4 個 scalable unit 組成一個 deployment unit，搭配戶外供電與冷卻模組，可重複擴充；RapidScale IT Pod 部署速度較傳統現場施工快 80%，與 Compass Datacenters 合作的工時研究顯示預製白空間模組減少 80% 現場安裝時間（fact；新聞稿全文未直接擷取，細節取自官方部落格與摘要）。同日 Schneider 也列入 NVIDIA DSX POD 合作夥伴。
 
 主要資料來源：[[research_產業合作技術發表_2026-10-22]]（Schneider 新聞稿與官方部落格、NVIDIA 新聞稿，2026-10-20～21）。
+
+### 2026-10-21 Goldman Sachs 800VDC 入門（Not Rated）
+
+- Data Centers & Networks 約占營收 30%：secure power 32%、electrical distribution 24%、transactional & edge 16%、cooling 7%、BMS 5%；每 MW 內容價值 US$1.3–3.3mn，高密度 AI 資料中心趨向上緣。
+- 與 NVIDIA 合作推出 Power Rack sidecar（單櫃最高 1.2MW、每排 4.8MW），為混合架構過渡方案；SST 兩方案：800VDC Power Center（2027，LV 轉換器＋TRU＋SST，約 4.8MW／feed）、800VDC Power Block（2028–29，34.5kV AC 直轉 800VDC，5–10MW／feed）；首批 SST 商用 2H27、2028–30 年加速。液冷經併購 Motivair 取得。
+- 來源：[[報告_GoldmanSachs_800VDC電氣設備入門_20261021]]（Goldman Sachs，2026-10-21），信心中高。
 
 ## 核心技術／競爭優勢
 
@@ -100,6 +106,7 @@ flowchart LR
 
 - [[research_產業合作技術發表_2026-10-22]] — Schneider 新聞稿與官方部落格、NVIDIA DSX POD 新聞稿，2026-10-20～21。
 - 既有 grey-space 與 CDU 定位：見 [[技術_800VDC供電架構]]、[[供應鏈_AI伺服器散熱]] 各自來源。
+- [[報告_GoldmanSachs_800VDC電氣設備入門_20261021]] — Goldman Sachs 800VDC primer，2026-10-21
 
 ## 相關頁面
 

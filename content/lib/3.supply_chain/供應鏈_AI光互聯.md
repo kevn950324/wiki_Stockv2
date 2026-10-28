@@ -8,7 +8,7 @@ tags:
   - 技術/矽光子（SiPh）
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-10-24
+updated: 2026-10-28
 ---
 
 # 供應鏈_AI光互聯
@@ -236,6 +236,7 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 - [[分析_貿聯-KY_2026Q2法說_AI基礎設施內容升級_20260821]]
 - [[分析_SEMICON_Taiwan_2026矽光子量產瓶頸]]
 - [[4979_華星光（櫃）]]
+- [[4908_前鼎（櫃）]]
 - [[分析_20260827_NVIDIA供應鏈與AI伺服器]]
 - [[3702_大聯大（市）]]
 - [[4966_譜瑞-KY（櫃）]]
@@ -258,6 +259,7 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 
 ## 來源
 
+- [[memo_SemiAnalysis_EBO擴束連接器_20261024]] — SemiAnalysis X 串文，2026-10-23；EBO vs MMC 取捨、Senko XBO 光背板。
 - [[research_產業合作技術發表_2026-10-24]] — 官方發表彙整，2026-10-19～23；3M×Amazon 認股權證、3M 入股玉晶光（EBO）。
 - [[research_產業合作技術發表_2026-10-23]] — 官方發表彙整，2026-10-20～22；Palomino GaN MicroLED 光互連 PO、正文×Starman 美國光收發模組廠。
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]] — Simple Tech Trend，2026-08-31
@@ -398,8 +400,18 @@ Semtech（[[SMTC.US(semtech)]]）以 AEC SerDes、1.6T CopperEdge／FiberEdge TI
 
 來源：[[research_產業合作技術發表_2026-10-24]]（3M PR Newswire 新聞稿與 Form 8-K，2026-10-19）。
 
+## 2026-10-23 SemiAnalysis：EBO 與 MMC 並存，光背板是新場景
+
+- **定位（thesis／中）**：EBO 以擴束光跨空氣間隙對接、不接觸光纖端面，灰塵敏感度低、插拔力低，最大價值在維運（維修快、停機短）；但插入損耗高於 MMC、目前也較貴。SemiAnalysis 預期兩者依密度、可維修性與光預算並存，不是全面替代。
+- **營收時點（thesis／中）**：佈線省工不一定讓算力更早產生營收，機櫃分批到貨與上線調校仍是瓶頸；EBO 對 CSP 的價值以長期維運成本為主。
+- **光背板（fact＋thesis）**：Senko（未建頁）在 ECOC 2026 展示以 EBO 為基礎的 XBO 光背板連接器，可自動斷開與重新對接；光背板內部難以清潔，是 EBO 的天然場景，但採用仍待系統設計與驗證。
+- **對 [[MMM.US(3m)]]／[[3406_玉晶光（市）]] 的含義**：EBO ferrule 需求較可能隨維運密集位置與光背板逐步滲透，不宜假設取代 MMC 的全部用量。原理圖與比較表見 [[技術_MPO]]。
+
+來源：[[memo_SemiAnalysis_EBO擴束連接器_20261024]]（SemiAnalysis X 串文，2026-10-23）。
+
 ## 相關頁面
 
 - [[分析_20260901-08專家紀要受訪公司辨識與供給觀察]]
 - [[分析_20260918-29專家紀要公司辨識與光互連供給觀察]]
 - [[分析_20260929-30專家紀要受訪公司辨識與供給驗證]]
+- [[ANET.US(arista)]] — 乙太網交換器品牌商；XPO MSA 主導、1.6T 交換器 2H26 試量產，光模組廠須通過其平台驗證。

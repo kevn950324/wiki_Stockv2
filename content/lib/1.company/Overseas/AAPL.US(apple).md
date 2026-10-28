@@ -26,6 +26,7 @@ related_companies:
   - "[[3017_奇鋐（市）]]"
   - "[[4958_臻鼎（市）]]"
   - "[[6269_台郡（市）]]"
+  - "[[ANET.US(arista)]]"
 ---
 
 # AAPL.US(apple)
@@ -126,6 +127,7 @@ flowchart LR
 | 三星電機（Samsung Electro-Mechanics） | 玻璃基板供應商 | T-glass 供應，本次未建頁 |
 | [[3008_大立光（市）]] | 鏡頭供應商 | 多家券商視為 iPhone 主鏡頭可變光圈主要供應商；實際份額未經 Apple 確認 |
 | [[2313_華通（市）]] | PCB 供應商 | Nomura Tech Tour（2026-08-20）轉述華通為 iPhone 主機板 mSAP 供應商之一，並與美系高階手機品牌協商成本轉嫁；份額未揭露 |
+| [[ANET.US(arista)]] | 資料中心交換器供應商 | Apple 資料中心 Leaf／Spine 採 Arista，TOR 另用 Cisco 與白牌（[[報告_福邦_PCB載板產業展望_20260401]]，引 650 Group，2026-04-01） |
 
 > [!warning] 風險與注意事項（本次範圍）
 > - **量產時點 = 三星電機目標**：「2027 後」是三星電機的內部量產目標，不是 Apple Baltra 出貨時點。實際 Apple 產品上線時點可能更晚
