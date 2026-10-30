@@ -11,7 +11,7 @@ tags:
   - 環節/品牌客戶
   - 產業/AI伺服器
   - 產業/智慧型手機
-updated: 2026-10-20
+updated: 2026-10-29
 aliases:
   - Apple
   - 蘋果
@@ -136,6 +136,14 @@ flowchart LR
 
 ## 近期營運與研究更新
 
+### 2026-10-29 MacBook Pro M5 Pro／M5 Max 發表（國泰 Call Memo；範圍待確認）
+
+- 新 14 吋／16 吋 MacBook Pro 搭載 M5 Pro 或 M5 Max，首度導入 PROLED XDR 串聯式 OLED（雙層自發光、HDR 峰值 2,000 尼特、全氧化物電晶體層）、螢幕觸控與動態島；M5 Pro 最高 18 核心 CPU／20 核心 GPU、記憶體頻寬 307GB/s，M5 Max 40 核心 GPU 版本 614GB/s、記憶體最高 128GB、SSD 最高 16TB；Wi-Fi 7、Bluetooth 6、Thunderbolt 5。台灣 10/30 預購、11/6 發售，NT$97,900 起。
+- GS 台灣 ODM 預覽另看好 Apple 供應鏈：2026 年摺疊機、2027 年 iPhone 20 外型改變支撐需求（[[報告_GoldmanSachs_台灣ODM品牌營收預覽_20261028]]）。
+
+來源：[[活動_AppleAAPL_國泰CallMemo_20261029]]。
+
+
 ### 2026-09 iPhone 18 事件觀察
 
 富邦投顧估算 iPhone 18 Pro Max／Fold 定價可能達 US$1,799／2,399，成本上升主因包括 2nm 晶圓、記憶體與快閃記憶體，以及鏡頭／軸承升規；這是券商模型，不是 Apple 定價或產品規格公告。報告並預期可變光圈鏡頭首度導入 iPhone 18，潛在受惠者為 [[3008_大立光（市）]]。
@@ -219,6 +227,9 @@ MS 維持 Overweight，目標價 US$355（原 360），採 35x CY27 EPS US$10.15
 - [[報告_UBS_智慧型手機記憶體成本_20260922]]（2026-09-22）
 
 - [[261019_gs_iphone-duo]]（2026-10-19）
+
+- [[報告_GoldmanSachs_台灣ODM品牌營收預覽_20261028]]（2026-10-28）
+- [[活動_AppleAAPL_國泰CallMemo_20261029]]（2026-10-29）
 
 ## 相關頁面
 

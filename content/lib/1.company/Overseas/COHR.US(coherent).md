@@ -11,8 +11,10 @@ tags:
   - 環節/光收發模組
   - 環節/InP磊晶
   - 環節/OCS
-updated: 2026-10-23
+updated: 2026-10-30
 related_companies:
+  - "[[GLW.US(corning)]]"
+  - "[[2317_鴻海（市）]]"
   - "[[NVDA.US(nvidia)]]"
   - "[[GOOGL.US(alphabet)]]"
   - "[[LITE.US(lumentum)]]"
@@ -105,6 +107,19 @@ related_companies:
 | [[LITE.US(lumentum)]] | 同業／替代供應商 | EML、CW 與 ELS 競爭；訪談給出 100G EML 價差口徑 |
 | [[GOOGL.US(alphabet)]] | OCS 客戶（匿名訪談） | 2026-09-29 訪談以 Google 320×320 方案說明液晶 OCS 模組；2026-10-05 收錄訪談稱 Google 占 2026 年 OCS 約 1,300／1,400 台、光學模組銷售額約 23%；均未獲公司確認 |
 | [[META.US(meta)]] | 潛在 OCS 客戶（專家訪談） | 專家稱 Meta 於 2028 年導入 Coherent OCS，帶動台數增至 10,500 台；低信心 estimate |
+| [[GLW.US(corning)]] | DFAU 同業 | 2026-10-30 收錄訪談：兩家各自建立 DFAU 代工鏈，Coherent 自製 PMLA、Corning 外購 PMLA 後交代工廠組裝；低信心 |
+| [[2317_鴻海（市）]] | FAU 供應商（集團子公司工業富聯） | 2026-10-30 收錄訪談：工業富聯與光庫、蘅東光同為 Coherent FAU 供應商；低信心 |
+
+## 2026-10-30 CPO 無源器件專家訪談：ELSFP、DFAU 與福州擴產
+
+[[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] 原文以「公司」代稱，判讀為 Coherent（中高信心：自產 CW 與 PMLA、福州據點、200G VCSEL、Google OCS 環形器）。以下皆為 channel estimate，信心低至中低：
+
+- **ELSFP**：第一代（Quantum）由天孚主導；第二代（Spectrum）Coherent 份額預期最大，其次天孚，再次旭創、新易盛與 [[LITE.US(lumentum)]]。優勢是 CW 自產，對手需向 Lumentum 買 CW。ELS 現價 US$500–600、物料約 US$300，CW 約 US$30／顆。
+- **DFAU 分工**：Coherent 自製 PMLA，向光庫、工業富聯、蘅東光採購 FAU 後自行組裝 DFAU，份額排序依序為光庫、工業富聯、蘅東光，並自留部分產能。
+- **福州擴產**：CPO 一維 FAU 與 OCS 二維 FAU 月產能由數萬只擴至上百萬只，計畫新增逾萬名員工、廠房由 3 棟增至近 10 棟。
+- **其他**：800G 每季約 100–200 萬只委外，分配給天孚與 Fabrinet；Google OCS 環形器三家供應商之一；NVIDIA OCS 樣品供應商之一；與 Lumentum 開發 VCSEL demo，並研發 200G VCSEL。
+
+判讀見 [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]。
 
 ## NVIDIA 戰略投資（規則 #14 — 關係更新）
 
@@ -259,6 +274,7 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 | 2027 | OCS 增至約 4,400 台，NVIDIA 約 300 台首度導入 | 放量／驗證 | ⭐⭐ | 專家訪談 estimate；未獲 NVIDIA 確認 |
 | 2028 | OCS 約 10,500 台，新增 Meta | 放量／驗證 | ⭐⭐ | 專家訪談 estimate |
 | 2029 | 512×512 大埠數 OCS（由原規劃延後） | 技術下線 | ⭐ | 專家訪談；延後幅度未說明 |
+| 2027Q2～Q4 | 第二代（Spectrum）ELSFP 與 DFAU 小量轉放量，Coherent 預期取得最大 ELSFP 份額 | 放量 | ⭐⭐⭐ | [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]]；rumor／低 |
 
 → 跨公司比較詳見 [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 
@@ -294,6 +310,7 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 
 ## 來源
 
+- [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄；「公司」判讀為 Coherent；ELSFP 份額、DFAU 分工、福州 FAU 擴產，低至中低信心）
 - [[memo_Coherent專家訪談_光模組量價_NPO_OCS_EML與獲利目標_日期不詳]] — 使用者提供之 Coherent 專家訪談整理稿，日期不詳（2026-10-05 收錄）；模組量價、DSP、NPO、FAU、OCS、EML／CW 與獲利目標，低信心
 - [[活動_聯鈞3450_法說Memo彙整_20260818]] — 聯鈞法說 Memo 彙整（群友、國泰、中信），2026-08-18；COSA 合作與 CW 雷射規格
 
@@ -362,3 +379,4 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - [[技術_銦行業]]
 - [[索爾思光電（未）]]
 - [[分析_索爾思光電800G與1.6T出貨追蹤]]
+- [[AXTI.US(axt)]]

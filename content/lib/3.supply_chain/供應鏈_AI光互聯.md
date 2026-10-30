@@ -256,6 +256,7 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 - [[分析_頎邦矽光GoldBump與營運轉型2026]]
 - [[分析_索爾思光電800G與1.6T出貨追蹤]]
 - HIMX.US(himax)
+- [[AXTI.US(axt)]]
 
 ## 來源
 

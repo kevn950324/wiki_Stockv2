@@ -117,6 +117,8 @@ SemiAnalysis 估 FY2026 全年營收 $50B+（來源：報告_SemiAnalysis_CXMT_D
 
 - [[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]]（2026-10-21）
 
+- [[memo_FOMOSoc_KP商周專欄記憶體資安NAND_20261027]]（2026-10-27）
+
 ## 相關頁面
 
 - [[分析_CXMT_DRAM_IPO分析]]

@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 環節/光纖
   - 產業/光通訊
-updated: 2026-10-12
+updated: 2026-10-30
 aliases:
   - Corning
   - 康寧
@@ -22,6 +22,10 @@ related_companies:
   - "[[INTC.US(intel)]]"
   - "[[3055_蔚華科（市）]]"
   - "[[3008_大立光（市）]]"
+  - "[[COHR.US(coherent)]]"
+  - "[[3363_上詮（櫃）]]"
+  - "[[2317_鴻海（市）]]"
+  - "[[5803.JP(fujikura)]]"
 image_status: "待補來源圖"
 ---
 
@@ -96,6 +100,20 @@ flowchart LR
 | [[INTC.US(intel)]] | 玻璃客戶 | 3DGS 玻璃基板 |
 | [[3055_蔚華科（市）]] | 技術合作 | 國泰證期 2026-09-10 稱雙方合作玻璃基板光波導檢測；細節未公開 |
 | [[3008_大立光（市）]] | 替代路線 | Nomura 2026-07-09 轉述大立光聚焦光柵耦合（GC）FA，認為不受 GlassBridge 邊緣耦合（EC）方案影響；屬路線分工判斷，非份額數據 |
+| [[COHR.US(coherent)]] | DFAU 同業 | 2026-10-30 收錄訪談：兩家各自建立 DFAU 代工鏈，分工模式不同；低信心 |
+| [[3363_上詮（櫃）]] | Shuffle Box 競爭者 | 2026-10-30 收錄訪談：Corning 約 70% 份額，上詮、波若威為其他供應商；低信心 |
+| [[2317_鴻海（市）]] | DFAU 代工（集團子公司工業富聯） | 2026-10-30 收錄訪談：工業富聯在 Corning 鏈負責整個 DFAU；低信心 |
+| [[5803.JP(fujikura)]] | PMF 同業 | 2026-10-30 收錄訪談：保偏光纖供應商含 Corning、長飛、藤倉、Nufern |
+
+## 2026-10-30 CPO 被動件專家訪談：PMF、Shuffle Box 與 DFAU
+
+[[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]]（匿名，日期不詳；channel estimate，信心低至中低）：
+
+- **PMF（保偏光纖）**：嚴重缺貨，「有產能就有訂單」；售價約 US$4／m 以上，預期擴產期間先漲、擴產完成後再降。Corning 產能約 1 萬芯公里，2027 年需求被估為其十倍以上；Corning 訂單飽和，已接洽長盈通、烽火與長飛等中國代工，人選未定。天孚的保偏 FAU 向 Corning 與長飛採購 PMF。
+- **Shuffle Box**：每台 US$3,000–3,500，未來約 US$2,500；Corning 約 70% 份額，主因內部大量使用自家光纖；全數交太辰光（T&S）代工，與 [[供應鏈_CPO]] 既有說法一致。其他供應商為波若威、[[3363_上詮（櫃）]]，天孚計畫切入。
+- **DFAU**：Corning 外購 PMLA 後交蘅東光、仕佳、工業富聯組成完整 DFAU；仕佳為來料加工（Corning 提供光纖、MMC 與 V-Groove）。Corning 與 [[COHR.US(coherent)]]、天孚、Senko 同列 DFAU 主要參與者，但天孚的保偏處理能力被評為較強。
+
+判讀見 [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]。
 
 ## 相關技術
 
@@ -107,6 +125,7 @@ flowchart LR
 
 ## 來源
 
+- [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄；PMF 產能與代工、Shuffle Box 份額、DFAU 代工鏈，低至中低信心）
 - [[報告_Nomura_大立光CPO光纖陣列_20260709]]（Nomura，2026-07-09）：大立光稱 GC 為主流設計路線、其 FA 不受 Corning GlassBridge（EC）影響；為競爭對手觀點，信心中低。
 - [[報告_MorganStanley_貿聯_20261006]]（Morgan Stanley，2026-10-06）：MS 指 [[3665_貿聯-KY（市）]] 與 Corning 合作 shuffle box（光纖重排盒），屬貿聯光互連布局之一；合作規模未揭露。
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（GF×Corning ECTC 2026，2026-06-29）

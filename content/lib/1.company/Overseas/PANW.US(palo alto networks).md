@@ -293,6 +293,8 @@ gantt
 
 - [[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（2026-10-22）
 
+- [[memo_FOMOSoc_KP商周專欄記憶體資安NAND_20261027]]（2026-10-27）
+
 ## 相關頁面
 
 - [[分析_RBRK_Rubrik]]

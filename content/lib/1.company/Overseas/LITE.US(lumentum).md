@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 技術/CPO
   - 環節/光纖與光通訊
-updated: 2026-10-23
+updated: 2026-10-30
 aliases:
   - Lumentum
   - LITE
@@ -18,6 +18,7 @@ aliases:
   - CW DFB laser
   - Optical Circuit Switching
 related_companies:
+  - "[[AXTI.US(axt)]]"
   - "[[NVDA.US(nvidia)]]"
   - "[[AVGO.US(broadcom)]]"
   - "[[COHR.US(coherent)]]"
@@ -210,10 +211,11 @@ FY26 GAAP net loss $6.9bn 不代表本業同幅度惡化：Q4 債券換股使公
 
 ## 供應鏈位置
 
-- **上游**：InP substrate、MOCVD／MBE 與 wafer process；[[3105_穩懋（櫃）]]為相關 InP／GaAs foundry 生態，Lumentum 另以日本內部 wafer fabs 與 AXTI 等夥伴補足 substrate。
+- **上游**：InP substrate、MOCVD／MBE 與 wafer process；[[3105_穩懋（櫃）]]為相關 InP／GaAs foundry 生態，Lumentum 另以日本內部 wafer fabs 與 [[AXTI.US(axt)]] 等夥伴補足 substrate（FY2026Q4 法說證實本季與 AXT 簽額外基板協議）。
 - **製造**：日本 InP wafer fabs、Rose Orchard wafer capacity、泰國 transceiver packaging／test，及 Greensboro 既有 fab 轉 InP。
 - **下游**：[[NVDA.US(nvidia)]] 的 CPO／ELS 與 AI networking、hyperscaler 的 800G／1.6T cloud transceiver、Google／Meta／Microsoft 等 cloud customers，以及 telecom NEM／carrier。
 - **供應鏈主題**：[[供應鏈_CPO]]、[[供應鏈_AI光互聯]]、[[技術_光互連]]。
+- **ELS 的 CW 供應（2026-10-30 收錄訪談）**：[[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]]（匿名，日期不詳；低信心）稱 CW 由 Lumentum 與 [[COHR.US(coherent)]] 主導，天孚、旭創、新易盛的 ELSFP 都向 Lumentum 買 CW；Lumentum 自有 ELS 模組由雲暉負責，第二代 ELSFP 份額排在 Coherent、天孚、旭創、新易盛之後。因此 ELS 模組份額分散時，Lumentum 仍以 CW 受惠。另稱 Lumentum 為 NVIDIA OCS 樣品供應商之一，並與 Coherent 開發機櫃內 VCSEL demo。判讀見 [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]。
 
 ## 相關公司
 
@@ -243,6 +245,7 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 
 ## 來源
 
+- [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]]（匿名專家訪談，日期不詳，2026-10-30 收錄；CW 供應 ELSFP 廠、ELS 份額、NVIDIA OCS 樣品，低信心）
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]]（Simple Tech Trend，2026-08-31；InP／VCSEL／OCS 與 CPO 外部雷射觀察）
 
 - [Lumentum FY26 Q4／全年正式財報新聞稿](https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results/default.aspx)（2026-08-11；公司正式數字與 FY27 Q1 guidance）
@@ -295,6 +298,7 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 - [[分析_Coherent毛利率與1.6T良率爬坡]]
 - [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
 - [[技術_InP磷化銦]]
+- [[AXTI.US(axt)]]
 ---
 ### 基本資料（歷史補充）
 

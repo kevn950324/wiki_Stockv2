@@ -145,3 +145,5 @@ PhotonCap 查核 Tower 自 2021 年以來的揭露，量子公司以合作夥伴
 - [[Yuanta Tower Semiconductor silicon photonics AI datacenter capacity reservation 260701]]（2026-07-01）
 - [[報告_開源證券_Tower半導體矽光代工_20260818]]（2026-08-18）
 - [[memo_PhotonCap_量子晶圓代工與隔離產線_20261024]]（PhotonCap，2026-10-24；量子曝險僅 Xanadu）
+
+- [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄；CPO 無源器件與 OCS 供應鏈，判讀見 [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]，低信心）

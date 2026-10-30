@@ -5,8 +5,11 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-10-27
+updated: 2026-10-30
 aliases:
+  - ELSFP
+  - 雙極隔離器
+  - 外置光源
   - APC
   - Advanced Photonics Coalition
   - CPO
@@ -683,6 +686,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - 供應鏈整理見 [[供應鏈_CPO]]；來源：[[research_產業合作技術發表_2026-10-22]]。
 
 ## 來源
+- [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄；Quantum／Spectrum 配置、ELS 結構與成本、ELSFP 份額、無源器件放量節點；低至中低信心）。
 - [[research_產業合作技術發表_2026-10-22]] — NVIDIA／APC／緯穎官方發表彙整，2026-10-20～21；矽品光引擎 15 倍、APC CPO 規格、機櫃級 CPO 展示。
 - [[報告_Omdia_CIOE展會回顧_202609]] — Omdia／Mingyang Lyu，2026-09（僅揭露月份；pp.8、10–15、24–25、30–31）。
 - [[報告_Broadcom_Bailly_51.2T_CPO_20240314]] — Broadcom 公司公告，2024-03-14（Bailly 51.2T CPO：8×6.4T 光引擎、70% 光互連功耗節省、RLM 可維修設計）
@@ -1002,7 +1006,51 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 > [!note] 與既有測試流程段落的關係
 > 本頁「CPO 光測試流程（Insertion 1-4）」段落為較早來源；MS 2026-10-18 表格把 2027E 起的光電測試與 scale-up CPO 交換器列入，並把致茂 PIC ATE 與 SLT 標為認證中。兩者並列，供應商地位以後續認證結果為準。
 
+## 2026-10-30 專家訪談：ELS 拆解、ELSFP 份額與無源器件放量節點
+
+[[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]]（匿名，日期不詳；原文「公司」判讀為 [[COHR.US(coherent)]]）。以下為 channel estimate，信心低至中低。
+
+**兩代 CPO 交換器配置**：
+
+| 項目 | Quantum（Q3450，第一代量產） | Spectrum（第二代） |
+|---|---|---|
+| 交換 ASIC | 4 | 1 |
+| 總頻寬 | 115.2T（NVIDIA 官方） | 102.4T（NVIDIA 官方） |
+| MPO | 144（144×800G） | 128 |
+| 光引擎 | 72 × 1.6T | 32 × 3.2T |
+| FAU | 72（第一代 18 芯不可插拔） | 32（36 芯可插拔 DFAU） |
+| ELS | 18 | 16 |
+
+> [!warning] 總頻寬標示對調
+> 原文寫 Quantum 102.4T、Spectrum 115.2T；本頁上方 NVIDIA 官方資料為 Quantum-X Q3450 115.2T、Spectrum-X 102.4T，且 144×800G＝115.2T。判定原文對調，表中採官方數字。Spectrum 每台 16 個 ELS 也可解釋 [[分析_ELS出貨量預測2026-2028]] 中 GS「409.6T 版 64 個」的差異：409.6T 約為 4 倍 102.4T，16×4＝64，兩者可能分別指 102.4T 與 409.6T 版本。
+
+**ELS 模組拆解**：每個 ELS 有 8 路，每路是 1 顆 CW、2 片透鏡（準直＋匯聚）、1 個雙極隔離器（等於兩個隔離器整合，光模組多用單極）與 1 根 PMF；8 根 PMF 以 4 根一組經保偏 FA 輸出。
+
+| 項目 | 單價 | 每個 ELS 用量 |
+|---|---|---|
+| CW 雷射 | 約 US$30 | 8 |
+| 透鏡（2 片） | 合計 US$1.25–1.5 | 8 組 |
+| 雙極隔離器 | US$6–7 | 8 |
+| PMF | US$4–5／根 | 8 |
+| **ELS 售價／物料** | **US$500–600／約 US$300** | 未來降至 US$400–450 |
+
+元件供應：CW 由 Coherent 與 [[LITE.US(lumentum)]] 主導；模壓透鏡為騰景、炬光、藍特，蝕刻矽透鏡為蘇納光電（全球 60%–70%）、炬光、東田微、邁時；隔離器為光隆、昂納、鑫宇、無限光、中航光電旗下東莞翔通（上市公司中規模最大），天孚、東田微也能做；PMF 為 [[GLW.US(corning)]]、長飛、[[5803.JP(fujikura)]]、Nufern。以上中國廠商均未建頁。
+
+**ELSFP 份額**：第一代（Quantum）幾乎由天孚主導；第二代（Spectrum）預期 Coherent 份額最大，其次天孚，再次旭創、新易盛與 Lumentum。Coherent 的優勢是 CW 自產，天孚、旭創、新易盛的 CW 向 Lumentum 採購；Lumentum 的 ELS 模組由雲暉負責。這與本頁「Lumentum 為 Nvidia 初批 CPO ELS 獨家供應商」並不矛盾：前者指 ELS 模組封裝，後者指雷射晶片來源。
+
+**製程分工**：NVIDIA（Mellanox）設計 PIC → [[TSEM.US(tower semiconductor)]] 流片 → [[2330_台積電（市）]] 封裝 → [[3711_日月光投控（市）]] 等測試；台積電不做 Tower 的流片業務。NVIDIA 把目前 CPO 都歸在 scale-out（機櫃間）層。
+
+**放量節點**：CPO 目前每月出貨僅數千至一萬個；考慮 2–3 個月備料與運輸組裝，2027Q2 小量出貨、2027Q3～Q4 NPO／CPO 每月數十萬至數百萬個。NPO MSA 尚未定案，規模出貨 2027H2 起、2027 年底到 2028 年明顯放量；2026 年 NPO 大量出貨的說法需保留。無源器件單價可能是傳統光模組的 5–10 倍，但除天孚外淨利率約 8%–15%、代工型 3%–5%。
+
+**內置與外置光源**：內置方案把 CW 緊鄰 PIC，經透鏡與隔離器進入 PIC，不需保偏器件，結構類似 DR 光模組，但溫度可能縮短雷射壽命；部分客戶因可靠度考量選外置。最終取決於 CSP。與本頁上方「內置與外置 CW 的功率預算」一致。
+
+**VCSEL**：用於機櫃內 20–30 公尺短距連接，對溫度與污染較不敏感；Broadcom、NVIDIA 有興趣，Coherent 與 Lumentum 在做 demo，Coherent 另在研發 200G VCSEL。詳見 [[技術_光互連]] 的 1060nm VCSEL 段落。
+
+判讀見 [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]；FAU 細節見 [[技術_FAU]]。
+
 ## 相關頁面
+
+- [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]
 
 - [[分析_2026-10-15_台積電3Q26法說與AI硬體券商更新]]
 - [[4908_前鼎（櫃）]]：台廠 ELSFP（20dBm 小量出貨、23dBm UHP 原訂 2026Q3 驗證）

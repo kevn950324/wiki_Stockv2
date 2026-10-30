@@ -6,7 +6,7 @@ tags:
   - 技術/CPO
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-10-22
+updated: 2026-10-30
 ---
 
 # 供應鏈_CPO
@@ -204,9 +204,11 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 - [[APH.US(amphenol)]]
 - 技術：[[技術_CPO]]
 - 對照供應鏈：[[供應鏈_先進封裝載板]]、[[供應鏈_AI伺服器PCB]]
+- [[AXTI.US(axt)]]
 
 ## 來源
 
+- [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄；ELS／FAU／Shuffle Box／PMF 第二層供應商與單價，低至中低信心）。
 - [[報告_Omdia_CIOE展會回顧_202609]] — Omdia／Mingyang Lyu，2026-09（僅揭露月份；pp.8、12、18–22、27–31）。
 - [[報告_Broadcom_Bailly_51.2T_CPO_20240314]] — Broadcom 公司公告，2024-03-14（Bailly 51.2T CPO 與 remote laser module）
 - [[web_NVIDIA_CPO_industry_collaboration_20250826]] — NVIDIA Technical Blog，2025-08-26
@@ -265,7 +267,34 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 
 來源：[[research_產業合作技術發表_2026-10-22]]（NVIDIA 新聞稿 2026-10-21、APC 新聞稿 2026-10-20、緯穎新聞稿 2026-10-20）。
 
+## 2026-10-30 專家訪談：ELS、FAU、Shuffle Box 與 PMF 的供應商分工
+
+[[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]]（匿名，日期不詳；原文「公司」判讀為 [[COHR.US(coherent)]]）把 CPO 被動件拆到第二層供應商。以下為 channel estimate，信心低至中低；中國廠商均未建頁。
+
+| 環節 | 單價／規模 | 主要供應商 | 備註 |
+|---|---|---|---|
+| ELS 模組 | US$500–600 → US$400–450 | 第一代：天孚；第二代：Coherent > 天孚 > 旭創、新易盛、[[LITE.US(lumentum)]] | 自產 CW 是份額關鍵 |
+| CW 雷射 | 約 US$30／顆 | Coherent、Lumentum | 天孚、旭創、新易盛向 Lumentum 採購 |
+| 透鏡 | 每路 US$1.25–1.5 | 蝕刻矽透鏡：蘇納（60%–70%）、炬光、東田微、邁時；模壓玻璃：騰景、炬光、藍特 | 矽透鏡有成本優勢 |
+| 雙極隔離器 | US$6–7 | 光隆、昂納、鑫宇、無限光、東莞翔通（中航光電） | 天孚、東田微也能做，但非龍頭 |
+| PMF | US$4／m 以上 | [[GLW.US(corning)]]、長飛、[[5803.JP(fujikura)]]、Nufern | Corning 約 1 萬芯公里、需求十倍以上；接洽長盈通、烽火、長飛代工 |
+| 保偏 FA | — | 天孚、蘅東光、光庫、雍邑 | 天孚能力最強 |
+| DFAU（Coherent 鏈） | 售價最高 US$300，目標 US$150–200 | 光庫 > 工業富聯 > 蘅東光，Coherent 自製 PMLA | 供應商交 FAU，Coherent 組 DFAU |
+| DFAU（Corning 鏈） | 同上 | 蘅東光、仕佳、工業富聯（[[2317_鴻海（市）]] 集團） | 供應商組完整 DFAU |
+| V-Groove | US$5–6 | 炬光（供工業富聯等） | 傳已鎖定部分產能 |
+| Shuffle Box | US$3,000–3,500 → 約 US$2,500 | Corning 約 70%（全交太辰光代工）、波若威、[[3363_上詮（櫃）]]；天孚計畫切入；Molex 表現不佳 | 內含 1,152＋128 根光纖，人工密集 |
+| MMC | 12 芯 US$6–8 | US Conec（授權＋約 3 個月培訓）、Senko（夥伴致尚） | 一個 MPO 位置可放 3 個 MMC |
+| CPO 製程 | — | PIC 流片 [[TSEM.US(tower semiconductor)]] → 封裝 [[2330_台積電（市）]] → 測試 [[3711_日月光投控（市）]] | NVIDIA 設計 PIC |
+
+- **與既有表格的關係**：上方「ELS（外部材料）」表把 Lumentum 列為首批主供，指雷射晶片；本訪談的「天孚主導第一代」指 ELS 模組封裝，兩者可並存。Shuffle Box「Corning 分包給 T&S（太辰光）」與既有表一致，本次補上 Corning 約 70% 份額。
+- **Broadcom 鏈**：光庫部分參與、長飛可能客製光纖；Broadcom 也在找 FA 供應商（天孚、雍邑），FAU 為 40 芯、方案 3.6T，出貨預期較少。
+- **放量節點**：2027Q2 小量、2027Q3～Q4 NPO／CPO 每月數十萬至數百萬個；無源器件淨利率除天孚外約 8%–15%，代工 3%–5%。
+
+判讀見 [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]。
+
 ## 相關頁面
+
+- [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]
 
 - [[MMM.US(3m)]]
 - [[ANET.US(arista)]] — 交換器品牌商，走 XPO／NPO 可插拔路線，與 CPO 交換器路線競爭。

@@ -11,7 +11,7 @@ tags:
   - 產業/光通訊
   - 環節/光纖與光通訊
   - 環節/光纖與光通訊
-updated: 2026-08-30
+updated: 2026-10-29
 aliases:
   - Sumitomo Electric
   - 住友電工
@@ -19,6 +19,7 @@ aliases:
   - 5802
 related_companies:
   - "[[COHR.US(coherent)]]"
+  - "[[MMM.US(3m)]]"
 image_status: "待補來源圖"
 ---
 
@@ -47,6 +48,10 @@ image_status: "待補來源圖"
 
 做法：off-axis 拋物面準直鏡（3D 列印在 PIC 與玻璃基板兩端溝槽），PIC 用 Au stud bump 熱壓覆晶，灌折射率匹配透明樹脂（n=1.46）。
 
+### 3M EBO 擴束連接器組裝夥伴
+
+2025-03-19 與 [[MMM.US(3m)]] 簽 assembler agreement，可銷售採用 3M EBO ferrule 的光纖連接產品。住友電工自行開發 3M EBO ferrule 的端接設備，首批產品為單模／多模 12／16 芯 EBO 跳線（工廠端接），規劃再推配線面板、interconnect panel、cassette 與預端接高芯數光纜，OFC 2025 首展；2026-05 也是 EBO MSA 創始成員。資料中心連接器端的擴束與本公司 CPO 端準直鏡擴束耦合同原理，細節見 [[技術_EBO擴束連接器]]（[[research_EBO技術細節_2026-10-28]]，fact／高）。
+
 ### TFLN 上游原料（重要）
 
 住友電工掌握 6N 級高純度 Nb₂O₅——鈮酸鋰晶體的核心原料，與巴西 CBMM 戰略合作。中國管控稀有材料後，住友擴產計劃停止（詳見 [[技術_TFLN]]）。
@@ -60,6 +65,7 @@ image_status: "待補來源圖"
 | 公司 | 關係 | 說明 |
 |------|------|------|
 | [[COHR.US(coherent)]] | 潛在客戶／EML 採購 | Coherent 專家稱 100G EML 外採增加；信心低 |
+| [[MMM.US(3m)]] | 技術授權方／ferrule 供應 | 2025-03 簽 EBO assembler agreement，以 3M ferrule 做 EBO 跳線與配線產品 |
 
 ## 圖片/架構圖
 
@@ -78,6 +84,7 @@ image_status: "待補來源圖"
 
 ## 來源
 
+- [[research_EBO技術細節_2026-10-28]] — 網路彙整，擷取 2026-10-28；3M EBO assembler agreement（2025-03）、EBO MSA 成員。
 - [[260707_gs_asia-tech-2H26-strategy]] — Goldman Sachs，2026-07-07；亞洲科技 2H26 策略，AI／DC 獲利占比 15% → 42%、Buy／TP ¥3,400。
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（Shingo Nakamura et al., Sumitomo Electric × FICT, ECTC 2026，2026-06-29）
 - [[技術_TFLN]]（Nb₂O₅ 上游壟斷記載）

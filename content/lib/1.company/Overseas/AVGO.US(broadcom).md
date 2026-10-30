@@ -14,7 +14,7 @@ tags:
   - 供應鏈/AI伺服器PCB
   - 環節/AI晶片設計
   - 產業/AI伺服器
-updated: 2026-10-20
+updated: 2026-10-30
 aliases:
   - Broadcom
   - 博通
@@ -199,6 +199,7 @@ flowchart LR
 |------|------|------|
 | [[META.US(meta)]] | OCI MSA 共編 | Meta+Broadcom+AMD 三方 OCI 200G MSA（2026-03-11）|
 | [[AMD.US(amd)]] | OCI MSA 共編 | 同上 |
+| [[3363_上詮（櫃）]] | CPO FAU（關係未確認） | 2026-10-30 收錄匿名訪談稱 Broadcom CPO FAU 為 40 芯；上詮 2026Q3 出貨 40 通道 FAU（GS），客戶未具名，不能推定為 Broadcom 供應商 |
 | [[ANET.US(arista)]] | 下游品牌交換器客戶 | Arista 交換器採 Tomahawk／Jericho；Meta Prometheus 跨建築 Backend Aggregation 用 Arista 7800＋Jericho3（[[research_產業合作技術發表_2026-10-26]]，Meta 官方技術部落格 2026-10-19） |
 
 ## 近期營運與研究更新
@@ -233,6 +234,7 @@ v8i Sunfish、v8.5 Whalefish 與 v10 Merope 延續 Broadcom 方案；2027 TPU �
 
 ## 來源
 
+- [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄）：Broadcom CPO FAU 為 40 芯、方案約 3.6T（主流為 36 芯、3.2T），出貨預期較少；光庫部分參與、長飛可能客製光纖，並在接觸天孚、雍邑等 FA 供應商；Broadcom 與 NVIDIA 對機櫃內 VCSEL 方案有興趣。均為 channel estimate，信心低；判讀見 [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]。
 - [[報告_Aletheia_2027AI加速器關鍵變化_20261001]] — Aletheia Capital，2026-10-01；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 - [[報告_UBS_AI算力與資料中心電力供給_20260929]] — UBS，2026-09-29；ASIC 多 die、GW 與收入份額
 - [[報告_BofA_AgenticAI半導體市場_20260929]] — BofA，2026-09-29；Agentic AI 產業模型、個股估值與風險
@@ -286,6 +288,9 @@ v8i Sunfish、v8.5 Whalefish 與 v10 Merope 延續 Broadcom 方案；2027 TPU �
 - [[報告_GFHK_欣興3037_20261026]]（2026-10-26）
 - [[報告_JPMorgan_台灣測試介面_20261026]]（2026-10-26）
 - [[報告_中信_ASIC產業近況_20261021]]（2026-10-21）
+
+- [[memo_國泰證期_晨會聯電台光電台燿穩懋鴻勁_20261029]]（2026-10-29）
+- [[memo_外資_OAI採用TPU與精測下一代TPU訂單_20261029]]（2026-10-29）
 
 ## 相關頁面
 

@@ -5,7 +5,7 @@ tags:
   - 產業/光通訊
   - 環節/光通訊
 maturity: mature
-updated: 2026-10-28
+updated: 2026-10-30
 aliases:
   - MPO
   - Multi-Fiber Push On
@@ -151,6 +151,7 @@ NVIDIA Quantum X800-Q3450 InfiniBand CPO 交換機：
 
 ## 來源
 
+- [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄；MMC 價格與授權、Shuffle Box 價值構成，低至中低信心）。
 - [[memo_SemiAnalysis_EBO擴束連接器_20261024]] — SemiAnalysis X 串文，2026-10-23（EBO 原理、EBO vs MMC 取捨、Senko XBO 光背板；分析機構觀點／中）。
 - [[memo_AceCamp_亨通光電_光纖與MPO展望_20260930]] — AceCamp Tech，2026-09-30（MPO規格、產量與多模光纖供給；匿名渠道／低信心）。
 
@@ -190,3 +191,14 @@ SemiAnalysis 在 ECOC 2026 後以 X 串文整理 EBO 的取捨（分析機構觀
 - 營收時點、Senko XBO 光背板與玉晶光 ferrule 的投資含義，整理在 [[技術_EBO擴束連接器]]。
 
 來源：[[memo_SemiAnalysis_EBO擴束連接器_20261024]]（SemiAnalysis X 串文，2026-10-23）。
+
+## 2026-10-30 Shuffle Box 價值構成與 MMC 授權模式
+
+[[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]]（匿名，日期不詳；channel estimate，信心低至中低）：
+
+- **MMC 的角色**：升級到 MMC 是為了密度，同一個 MPO 安裝位置可放 3 個 MMC。MMC 只是連接頭，位於組件一端、與 Shuffle Box 對接；FAU 的核心是另一端的 V-Groove，與光引擎對接，因此 **MMC 不能取代 FAU**（見 [[技術_FAU]]）。
+- **MMC 價格**：12 芯 MMC 約 US$6–8，16 芯更高，整體趨勢下降；144 芯 MMC 連接器價值可達 1,000 多美元。
+- **授權模式**：主要兩套方案為 US Conec 與 Senko（夥伴致尚，未建頁），US Conec 較普及。US Conec 採專利授權＋約 3 個月培訓，實際技術約 2–3 週可掌握；預期光庫、蘅東光、仕佳等 FAU 廠都會陸續取得授權。這讓 US Conec 在 MMC 上的議價地位較強。
+- **Shuffle Box**：報價約 US$3,500（含光纖與 MPO／MMC），未來約 US$2,500；一般光纖成本占比低，連接器價值高。內部約 1,152＋128 根光纖需逐根分色與規劃，初期良率難拉高。[[GLW.US(corning)]] 約 70% 份額、全數交太辰光代工，其他供應商為波若威與 [[3363_上詮（櫃）]]。
+
+判讀見 [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]。

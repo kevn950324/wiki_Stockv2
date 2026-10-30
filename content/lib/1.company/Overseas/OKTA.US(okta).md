@@ -184,6 +184,9 @@ Oktane 的重點是 Okta 不再只在登入時授權，而是用 Agent Gateway �
 
 - [[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（2026-10-22）
 
+- [[memo_國泰證期_晨會聯電台光電台燿穩懋鴻勁_20261029]]（2026-10-29）
+- [[活動_ServiceNowNOW_國泰CallMemo_20261028]]（2026-10-28）
+
 ## 相關頁面
 
 - [[分析_Zscaler與Okta_Agent防護分工_20261005]] — Agent 端防護的流量層 vs 身份層分工。

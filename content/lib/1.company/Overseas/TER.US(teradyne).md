@@ -8,7 +8,7 @@ tags:
   - 公司/Teradyne
   - 環節/測試設備
   - 產業/半導體測試
-updated: 2026-08-19
+updated: 2026-10-28
 aliases:
   - Teradyne
   - 泰瑞達
@@ -94,6 +94,12 @@ flowchart LR
 > - Hyperscaler 認證到量產通常需 9–12 個月，市占改善未必按預期兌現。
 > - CPO 市場規模與採用節奏仍早期，不能視為已落地營收。
 
+## 2026-10-27 Morgan Stanley：3Q26 Earnings First Take
+
+- SepQ 營收 US$1,306mn（-1.7% QoQ、+69.8% YoY），高於 MS 預估 US$1,267mn；product test 明顯優於預期（點名 HDD），robotics 低於預期。DecQ 指引營收 US$1,300mn（-0.5% QoQ、+20.0% YoY），與 MS 預估 US$1,313mn 相近。
+- 法說關注：compute 客戶（尤其 custom ASIC）與 2027 年量產份額；短交期訂單承接能力與是否比照 Advantest 擴產；memory test（MS 模型年增 75%，韓國測試機進口數據顯示可能更高）；車用與工業測試機需求。MS Equal-weight，PT US$397。
+
 ## 來源
 
 - [[報告_富邦_Teradyne2Q26法說_20260730]] — 富邦，2026-07-30。
+- [[報告_MorganStanley_Teradyne_20261027]]

@@ -6,7 +6,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光電晶片
 maturity: developing
-updated: 2026-10-25
+updated: 2026-10-30
 aliases:
   - 光電同測
   - 自動光纖耦合
@@ -249,6 +249,16 @@ aliases:
 | 2029F | 22.07% |
 | 2030F | 35.74% |
 
+### SiPh 占 AI 光收發模組比重（研調 estimate 並列）
+
+[[research_產業合作技術發表_2026-10-30]] 收錄 TechInsights 2027 Outlook「Five Trends Reshaping the Market」（2026-10-29，官網與 GlobeNewswire 新聞稿）：預估**矽光子占 AI 光收發模組營收 42%**，並指 1.6T 光埠成為主流埠速。完整報告需註冊下載，方法論未取得；屬研調 estimate／中信心。
+
+> [!warning] 資訊衝突：SiPh 在光模組的占比口徑不一
+> - 本頁定義段（2026 OFC 口徑）：2026 年 SiPh 在光模組的滲透率已超 50%，1.6T 估 50–70%。
+> - 台積電 K.C. Hsu（SEMICON Taiwan 2026，見下方 2026-09 段）：2027 年矽光子占光收發模組市場逾 50%。
+> - TechInsights（2026-10-29）：矽光子占 **AI** 光收發模組**營收** 42%（報告為 2027 展望系列）。
+> - 判讀：三者分母不同（出貨量 vs 營收、全部光模組 vs AI 光模組、1.6T 單一速率 vs 全速率），且 SiPh 模組單價可能低於 EML 模組，營收占比低於出貨占比合理。並列保留，不合併為單一數字。
+
 ## 光傳輸技術光源比較
 
 | 技術 | 最大傳輸距離 | 速率（Gbps/lane）| 能耗（pJ/bit）| CMOS 整合難度 | 相對成本 |
@@ -267,6 +277,7 @@ Tower Semiconductor（[[TSEM.US(tower semiconductor)]]）是目前全球最重�
 
 ## 來源
 
+- [[research_產業合作技術發表_2026-10-30]] — TechInsights 2027 Outlook，2026-10-29（SiPh 占 AI 光收發模組營收 42%；研調 estimate）。
 - [[報告_Omdia_CIOE展會回顧_202609]] — Omdia／Mingyang Lyu，2026-09（僅揭露月份；pp.12、21–22）。
 - [[報告_國泰_嘉晶_20260924]] — 國泰證期研究部，2026-09-24；Ge／Si 磊晶、產能測算與客戶流程。
 
