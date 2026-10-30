@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-10-24
+updated: 2026-10-30
 aliases:
   - NVIDIA
   - 輝達
@@ -135,6 +135,7 @@ flowchart LR
 | 2025-08-26 | 公開 Quantum-X／Spectrum-X CPO 平台與 ELS 架構 | 技術下線／驗證 | ⭐⭐⭐ | 官方 Blog；200Gbps PAM4、TSMC COUPE、Q3450 115.2Tbps 全雙工與模組化 ELS 數字為公司說法 |
 | 2026-08-31 | 投資聯發科 US$3.5bn 可轉債，擴大 NVLink Fusion、Cloud AI Factory、AI PC／本地運算與車用合作 | 策略投資／平台合作 | ⭐⭐⭐ | 投資與合作公告為 fact；特定 XPU design win 仍待客戶與量產驗證 |
 | 2026Q4（預估） | Coherent 為 NVIDIA anchor customer 的 scale-out CPO 進入爬坡 | 技術下線／驗證 | ⭐⭐⭐ | [[報告_Citi_CoherentPhotonLink垂直整合_20260921]] 轉述 COHR 管理層；LTA 已稱取得，實際收入、型號與 NVIDIA 端部署仍待雙方確認 |
+| 2026-10-12 | 與 Cisco 發表 USFP 400G/lane 可插拔外型（16×400G＝6.4T，可擴至 12.8T），TE、[[APH.US(amphenol)]] 為夥伴 | 技術標準 | ⭐⭐⭐ | 官方 fact；MSA 待成立，見 [[技術_光模塊]]、[[時程_2026-2027高速互連與分散式算力]] |
 
 ## 供應鏈位置
 - **上游晶圓代工**：[[2330_台積電（市）]]（CoWoS 主代工）
@@ -188,6 +189,11 @@ ECTC 2026 NVIDIA 論文揭示其光互連技術棧演進路線，與 [[2330_台�
 | DWDM CW-DFB 外部雷射陣列 | TSMC COUPE + Lumentum | MRR DWDM；multiple-λ 共封裝 |
 | 可拆 GLASSBRIDGE 光纖連接器 | GlobalFoundries + Corning | TE 1.44 dB/facet，PDL 0.3 dB，MT 相容，被動對準 |
 | V-groove 玻璃耦合器 | Intel（平行生態）| 450 次熱循環 IL <0.7 dB，被動對準 |
+
+**2026-10 補充：可插拔與 CPO 雙軌**
+
+- **USFP（官方 fact／高）**：2026-10-12 與 Cisco 發表 USFP，首批 16 個 400G 全雙工通道、OSFP 尺寸、最高 100 W 且不需模組內冷卻迴路，支援交換器與 SuperNIC；TE Connectivity、[[APH.US(amphenol)]] 開發 cage／連接器／模組，並計畫成立社群主導的 multi-source 專案。NVIDIA 一面推 CPO（Quantum-X／Spectrum-X），一面為 400G/lane 世代保留可插拔路線（[[web_NVIDIA_Cisco_USFP可插拔光模組外型_20261012]]）。規格與 XPO 比較見 [[技術_光模塊]]。
+- **CPO 被動件（券商整理／中）**：招商證券把 Corning、SENKO、波若威、天孚列為 NVIDIA CPO 矽光生態官方 FAU 夥伴；102.4T CPO 交換器需 32 個 36 通道 hybrid FAU＋16 個 ELS 保偏 FAU；Rubin Ultra（576 GPU）2027H2 量產帶出柜間 scale-up 光互連與 Shuffle 需求，托盤前面板為 MMC16 × 64（[[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]]；見 [[技術_FAU]]）。
 
 > ⚠️ **路線觀察（規則 #14）**：NVIDIA 採**垂直整合**路線（NVLink 封閉生態），與 Meta+Broadcom+AMD 的 OCI 200G MSA **開放標準**路線形成對立。NVIDIA 以戰略入股 Coherent / 採購承諾 Lumentum 鎖定光學上游，而非透過開放 MSA 合作。
 
@@ -383,6 +389,10 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 
 ## 來源
 
+- [[web_NVIDIA_Cisco_USFP可插拔光模組外型_20261012]] — NVIDIA 新聞稿，2026-10-12；USFP 規格與 TE／Amphenol 生態系。
+- [[web_Cisco_USFP技術部落格_20261012]] — Cisco 部落格，2026-10-12；USFP 定位與多架構並存。
+- [[web_NVIDIA台灣_USFP中文新聞稿_20261012]] — NVIDIA 台灣中文新聞稿，2026-10-12。
+- [[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]] — 招商證券，2026-10-13；NVIDIA CPO FAU 夥伴、102.4T FAU 用量、Rubin Ultra scale-up 光互連（券商整理，信心中）。
 - [[research_產業合作技術發表_2026-10-24]] — 官方發表彙整，2026-10-21～22；Dell Vera CPU／Groq 3 LPU 機櫃、哈薩克 Firebird 45,000 顆 Grace Blackwell。
 - [[research_產業合作技術發表_2026-10-23]] — 官方發表彙整，2026-10-21～22；三星電機載板新聞稿、Minerva AIOps。
 
@@ -570,6 +580,7 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 
 ## 相關頁面
 
+- [[分析_FAU與MPO在ScaleUp時代的價值通脹_招商證券_20261030]]
 - [[分析_緯創緯穎專家紀要_AWS集中度與ODM訂單機制_20261028]]
 - [[SIMO.US(silicon_motion)]]
 - [[SU.FR(schneider_electric)]]

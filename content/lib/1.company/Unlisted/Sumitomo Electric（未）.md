@@ -11,7 +11,7 @@ tags:
   - 產業/光通訊
   - 環節/光纖與光通訊
   - 環節/光纖與光通訊
-updated: 2026-10-29
+updated: 2026-10-30
 aliases:
   - Sumitomo Electric
   - 住友電工
@@ -20,7 +20,6 @@ aliases:
 related_companies:
   - "[[COHR.US(coherent)]]"
   - "[[MMM.US(3m)]]"
-image_status: "待補來源圖"
 ---
 
 # Sumitomo Electric（未）
@@ -69,7 +68,12 @@ image_status: "待補來源圖"
 
 ## 圖片/架構圖
 
-`[待補來源圖]` 需官方 IR 光纖或電線電纜產品圖佐證，現有研究筆記不足以支撐產品示意圖。
+![[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013_p22.png]]
+*圖（招商證券，2026-10）：左上 MT-FA 實物圖引自住友電工 Optifrontier。MT-FA 一端是 MT 插芯、另一端是 FAU，把多根光纖耦合到光模組的 PIC；住友同時供應 MT 插芯與 MT-FA，屬光模組並行傳輸的關鍵被動件。右下為 NVIDIA Quantum CPO 交換器中 FAU 的位置。*
+
+### MT 插芯與布線（招商證券 2026-10-13）
+
+[[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]] 把住友列為 MT 插芯上游供應商（透過 US Conec 技術授權生產）與光纖光纜供應商，也列入北美布線方案商（MT 插芯＋光纖光纜），並在 EBO MSA 產業鏈表中與 Molex、SENKO 同列「連接器龍頭」。券商整理，信心中。
 
 ## Goldman Sachs 2026-07-07 亞洲科技 2H26 策略
 
@@ -84,6 +88,7 @@ image_status: "待補來源圖"
 
 ## 來源
 
+- [[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]] — 招商證券，2026-10-13；MT 插芯、MT-FA 與布線角色（券商整理，信心中）。
 - [[research_EBO技術細節_2026-10-28]] — 網路彙整，擷取 2026-10-28；3M EBO assembler agreement（2025-03）、EBO MSA 成員。
 - [[260707_gs_asia-tech-2H26-strategy]] — Goldman Sachs，2026-07-07；亞洲科技 2H26 策略，AI／DC 獲利占比 15% → 42%、Buy／TP ¥3,400。
 - [[research_simpletechtrend_CPO矽光子ECTC2026_20260629]]（Shingo Nakamura et al., Sumitomo Electric × FICT, ECTC 2026，2026-06-29）

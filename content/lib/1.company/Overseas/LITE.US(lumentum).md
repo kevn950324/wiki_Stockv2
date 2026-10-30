@@ -245,6 +245,7 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 
 ## 來源
 
+- [[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]]（招商證券，2026-10-13；引 Lumentum 簡報「scale-up CPO 用量為 scale-out 的 10 倍」：Phase 0 交換器間 CPO、Phase 1 跨機櫃 3–4 倍、Phase 2 再 3–4 倍；並估 6.4T NPO 光引擎 CW 價值為 1.6T 模組的 10 倍，券商轉述，信心中）
 - [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]]（匿名專家訪談，日期不詳，2026-10-30 收錄；CW 供應 ELSFP 廠、ELS 份額、NVIDIA OCS 樣品，低信心）
 - [[web_SEMICON_Taiwan_2026_矽光子國際論壇_20260831]]（Simple Tech Trend，2026-08-31；InP／VCSEL／OCS 與 CPO 外部雷射觀察）
 

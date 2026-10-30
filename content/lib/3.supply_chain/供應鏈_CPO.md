@@ -208,6 +208,7 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 
 ## 來源
 
+- [[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]] — 招商證券，2026-10-13（CPO 配套 FAU／Shuffle 市場規模、FAU 價值通脹、NVIDIA CPO FAU 官方夥伴、中國 FAU 廠進度；券商 estimate，信心中）。
 - [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄；ELS／FAU／Shuffle Box／PMF 第二層供應商與單價，低至中低信心）。
 - [[報告_Omdia_CIOE展會回顧_202609]] — Omdia／Mingyang Lyu，2026-09（僅揭露月份；pp.8、12、18–22、27–31）。
 - [[報告_Broadcom_Bailly_51.2T_CPO_20240314]] — Broadcom 公司公告，2024-03-14（Bailly 51.2T CPO 與 remote laser module）
@@ -292,8 +293,24 @@ CPO 鏡頭廠商利用精密光學製造優勢切入 OE 模組所需鏡頭，為
 
 判讀見 [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]。
 
+## 2026-10-13 招商證券：FAU／Shuffle 市場規模與 NVIDIA CPO 被動件夥伴
+
+[[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]]（招商證券，2026-10；券商 estimate／整理，信心中）補上市場規模與官方夥伴口徑：
+
+| 項目 | 招商口徑 | 與本頁既有資料的關係 |
+|---|---|---|
+| CPO 配套 FAU 市場 | 2027E 12 億 → 2028E 51 億 → 2030E 213 億元人民幣 | 首次有 FAU 單項市場估算；2028 年是招商認定的 scale-up 起量年 |
+| CPO 配套 Shuffle 市場 | 2027E 10 億 → 2028E 32 億 → 2030E 160 億元人民幣 | 與上方 Shuffle Box US$2,500–3,500 單價互相支撐，量的假設未揭露 |
+| 6.4T NPO 光引擎 FAU 價值 | US$280（OE 端 US$240＋ELS 端 US$40），為 1.6T 模組 US$20 的 14 倍 | 低於專家口徑 DFAU US$150–300／個，見 [[技術_FAU]] 衝突並列 |
+| 雙級隔離器 | 每顆 CW 配 1 個，6.4T OE 合計 US$48，為 1.6T 模組的 12 倍 | 與上表「雙極隔離器 US$6–7」單價一致（8 顆 CW × US$6） |
+| NVIDIA CPO 矽光生態官方 FAU 夥伴 | [[GLW.US(corning)]]、SENKO、波若威（3163，未建頁）、天孚 | 上方表的 TFC Optical 即天孚；上詮、連訊 AOPT 被列為切入高通道 FAU 的其他台廠 |
+| FAU 外包趨勢 | Corning、SENKO 等方案商傾向把 FAU 製造外包給中國廠 | 與上方「Corning 鏈：蘅東光、仕佳、工業富聯代工」一致 |
+
+另：致尚科技（中國，未建頁）配合 SENKO 開發的 MPC 已過客戶認證，招商預估 2026Q4 投產、2027 年爬坡；這是 SENKO 可拆卸 FAU 路線的量產時點。
+
 ## 相關頁面
 
+- [[分析_FAU與MPO在ScaleUp時代的價值通脹_招商證券_20261030]]
 - [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]
 
 - [[MMM.US(3m)]]

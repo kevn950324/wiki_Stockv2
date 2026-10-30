@@ -9,7 +9,7 @@ tags:
   - 產業/光通訊
   - 技術/連接器
   - 技術/EBO
-updated: 2026-10-29
+updated: 2026-10-30
 aliases:
   - 3M
   - 3M Company
@@ -104,10 +104,20 @@ flowchart LR
 > - SemiAnalysis（2026-10-23）指出 EBO 插入損耗高於 MMC、目前單價也較高，預期兩者依密度、可維修性與光預算並存，而非全面替代；佈線省工也不一定讓 CSP 提早產生營收（thesis／中）。
 > - 認股權證若全數既得，對 3M 既有股東有稀釋。
 
+## 2026-10-13 招商證券：EBO 的需求依據與競品
+
+[[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]]（招商證券，2026-10；券商整理，信心中）把 3M 列為 EBO 核心技術方，引述「90% 網路故障源自連接器端面污損」作為需求依據，並稱 [[MSFT.US(microsoft)]] Azure 與 3M 戰略合作、是首個公開部署 EBO 的 hyperscaler（與 UBS 口徑一致）。招商的 MSA 成員表比官方 16 家多列 NVIDIA、Credo、Microsoft、富士康、立訊等，口徑差異見 [[技術_EBO擴束連接器]]。同一份簡報也列出康普 FSC 自清潔連接器（[[APH.US(amphenol)]] 旗下）為另一條易維護路線，是 EBO 在「減少端面清潔」這項價值主張上的直接競品。
+
 ## 來源
 
+- [[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]] — 招商證券，2026-10-13；EBO MSA 產業鏈表、Azure 首個公開部署、康普 FSC 競品（券商整理，信心中）。
 - [[research_EBO技術細節_2026-10-28]] — 網路彙整，擷取 2026-10-28；EBO 規格、專利結構、US Conec／Sumitomo／Molex／Rosenberger 生態、2026-03 產能擴充、MSA 16 家成員（fact）。
 - [[research_產業合作技術發表_2026-10-28_2]] — 3M PR Newswire 新聞稿，2026-10-21；與 AWS 擴大 EBO 合作（官方 fact）。
 - [[research_產業合作技術發表_2026-10-24]] — 3M PR Newswire 新聞稿與 Form 8-K，2026-10-19；入股玉晶光、Amazon 認股權證條款（官方 fact）。
 - [[261015_ubs_genius]] — UBS，2026-10-15；EBO 部署於 Azure、EBO MSA 成員、EBO TAM 估算（券商 estimate）。
 - [[memo_SemiAnalysis_EBO擴束連接器_20261024]] — SemiAnalysis X 串文，2026-10-23；EBO 光路圖、EBO vs MMC 取捨、Senko XBO 光背板（分析機構觀點；未點名 3M）。
+
+## 相關頁面
+
+- [[APH.US(amphenol)]] — 旗下康普 FSC 自清潔連接器為 EBO 的易維護競品
+- [[分析_FAU與MPO在ScaleUp時代的價值通脹_招商證券_20261030]]

@@ -234,6 +234,7 @@ v8i Sunfish、v8.5 Whalefish 與 v10 Merope 延續 Broadcom 方案；2027 TPU �
 
 ## 來源
 
+- [[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]] — 招商證券，2026-10-13：稱 Broadcom 與 TE 相繼推出密度高於 Shuffle 的光背板；示意的 1,024 XPU scale-up 叢集為每顆 XPU 25.6 Tbps、交換器 204.8 Tbps，每機櫃 8,192（GPU 櫃）／32,768（交換器櫃）芯光纖。券商轉述，信心中；細節見 [[技術_MPO]]。
 - [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄）：Broadcom CPO FAU 為 40 芯、方案約 3.6T（主流為 36 芯、3.2T），出貨預期較少；光庫部分參與、長飛可能客製光纖，並在接觸天孚、雍邑等 FA 供應商；Broadcom 與 NVIDIA 對機櫃內 VCSEL 方案有興趣。均為 channel estimate，信心低；判讀見 [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]。
 - [[報告_Aletheia_2027AI加速器關鍵變化_20261001]] — Aletheia Capital，2026-10-01；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
 - [[報告_UBS_AI算力與資料中心電力供給_20260929]] — UBS，2026-09-29；ASIC 多 die、GW 與收入份額
@@ -294,6 +295,7 @@ v8i Sunfish、v8.5 Whalefish 與 v10 Merope 延續 Broadcom 方案；2027 TPU �
 
 ## 相關頁面
 
+- [[分析_FAU與MPO在ScaleUp時代的價值通脹_招商證券_20261030]]（光背板與 CPO 被動件價值通脹）
 - [[技術_光電芯片]]（CIC 2025 雷射晶片外售排名推定為 Company B：全市場第 2、高速第 3、矽光 CW 第 3）
 - [[分析_專家口徑CW雷射營收估算2026-2028]]（矽光 CW 供應商之一；CW 逐年營收專家口徑 vs CIC）
 - [[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]

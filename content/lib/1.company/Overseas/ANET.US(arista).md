@@ -161,3 +161,7 @@ flowchart LR
 - [[research_產業合作技術發表_2026-10-26]]（Meta 官方技術部落格，2026-10-19）：Prometheus 採 Arista 7800＋Jericho3
 
 - [[research_EBO技術細節_2026-10-28]]（網路彙整，擷取 2026-10-28）：2026-05 EBO 擴束光學連接器 MSA 創始成員，見 [[技術_EBO擴束連接器]]
+
+## 相關頁面
+
+- [[技術_光模塊]] — XPO 與 NVIDIA／Cisco USFP（2026-10-12）可插拔外型比較

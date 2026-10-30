@@ -9,7 +9,7 @@ tags:
   - 產業/雲端運算
   - 主題/AI平台
   - 環節/雲端服務
-updated: 2026-10-29
+updated: 2026-10-30
 aliases:
   - Microsoft
   - 微軟
@@ -23,6 +23,7 @@ related_companies:
   - "[[3017_奇鋐（市）]]"
   - "[[6805_富世達（市）]]"
   - "[[ANET.US(arista)]]"
+  - "[[MMM.US(3m)]]"
 ---
 
 # MSFT.US(microsoft)
@@ -90,6 +91,7 @@ Microsoft 以 Azure、Microsoft 365、Copilot、Windows、企業資安與開發�
 |---|---|---|
 | [[GOOGL.US(alphabet)]] | 競爭 | 雲端、AI 模型與企業 AI 平台 |
 | [[META.US(meta)]] | 同業／客戶生態 | AI 基礎設施與模型需求 |
+| [[MMM.US(3m)]] | EBO 連接器供應商 | Azure 2026-07 部署 3M EBO；招商證券（2026-10-13）稱 Azure 與 3M 戰略合作，為首個公開部署 EBO 的 hyperscaler（[[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]]，券商整理／中） |
 | [[ANET.US(arista)]] | 交換器供應商 | Azure 的 Spine 與 DCI 層以 Arista 為主，TOR／Leaf 另用 Cisco、Dell（[[報告_福邦_PCB載板產業展望_20260401]]，引 650 Group，2026-04-01） |
 
 ## 風險與注意事項
@@ -131,6 +133,7 @@ Maia 2027E 約120萬顆（p2／15），Cobalt 2026E 24萬、2027E p2／15 20萬�
 
 ## 來源
 
+- [[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]] — 招商證券，2026-10-13；Azure 為首個公開部署 3M EBO 的 hyperscaler、EBO MSA 成員表（券商整理，信心中）。
 - [[memo_M報_346_特斯拉Roadster與微軟Maia300_20261023]] — M報 #346，2026-10-23；Maia 300 生產目標、FP4、MAI-Base-2 訓練資源。
 
 - [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；創意專案、合作分工與未確認的上行情境。

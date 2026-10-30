@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 產業/AI伺服器
   - 環節/雲端服務
-updated: 2026-10-24
+updated: 2026-10-30
 aliases:
   - Meta
   - Meta Platforms
@@ -30,6 +30,7 @@ related_companies:
   - "[[2360_致茂（市）]]"
   - "[[索爾思光電（未）]]"
   - "[[ANET.US(arista)]]"
+  - "[[GLW.US(corning)]]"
 ---
 
 # META.US(meta)
@@ -102,7 +103,12 @@ graph LR
 | [[COHR.US(coherent)]] | 光源供應商 | OCI ELSFP 規格受益 |
 | [[LITE.US(lumentum)]] | 光源供應商 | OCI ELSFP 規格受益 |
 | [[2382_廣達（市）]] | AI 伺服器／ASIC ODM | UBS 指 Meta 等 ASIC 專案自 2026Q2 開始貢獻廣達營收 |
+| [[GLW.US(corning)]] | 光纖／布線供應商 | 招商證券（2026-10-13）稱 Corning 擴大北卡羅來納州產能以應對 Meta 訂單；Meta 在 OFC 2026 提出光背板需求 |
 | [[ANET.US(arista)]] | 交換器供應商 | Leaf／Spine 品牌交換器；Prometheus 跨建築 Backend Aggregation 採 Arista 7800（Broadcom Jericho3），連接 2 km 到逾 100 km（[[research_產業合作技術發表_2026-10-26]]，Meta 官方技術部落格 2026-10-19） |
+
+### 光背板需求（OFC 2026，招商證券轉述）
+
+[[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]]（招商證券，2026-10；券商轉述 Meta OFC 2026 簡報，信心中）收錄 Meta「Why Optical Backplane?」頁：在運算與網路機櫃導入光背板，可解決 NPO／CPO 整合光模組的安裝問題；Meta 假設採用盲插、非接觸、防塵的光連接器系統，好處是減少耗時的光纖安裝、系統級故障替換由數小時縮短為快速操作（支援 ELS 與內建雷射兩種方案），並讓較少光學專業的夥伴也能在場外完成整合。Meta 同時點出缺口：高密度盲插背板連接器，以及適合原位作業的檢測／清潔方案（Meta OBP rack concept）。這與 Meta 作為 EBO MSA 成員的立場一致（非接觸連接器，見 [[技術_EBO擴束連接器]]），也指向 Shuffle／光柔性板的新需求（見 [[技術_MPO]]）。
 
 ## Meta Superintelligence Labs（MSL）
 
@@ -243,6 +249,7 @@ Meta 未納創意的基準模型：30萬顆、TK3 毛利假設下約增創意年
 
 ## 來源
 
+- [[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]] — 招商證券，2026-10-13；Meta OFC 2026 光背板需求、Corning 北卡擴產應對 Meta 訂單（券商轉述，信心中）。
 - [[memo_FOMOSoc_KP思考筆記65_SpaceX特斯拉Nebius晶片過剩_20261024]] — FOMO研究院 KP，2026-10-24；C 類股 SEC 文件背景與談判過程。
 - [[memo_CathayWatch_AI科技股重挫與美債避險_20261023]] — 國泰 Cathay Watch，2026-10-23；支出承諾、CDS 與股價反應。
 - [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；創意專案、合作分工與未確認的上行情境。
@@ -288,6 +295,7 @@ Meta 未納創意的基準模型：30萬顆、TK3 毛利假設下約增創意年
 
 ## 相關頁面
 
+- [[分析_FAU與MPO在ScaleUp時代的價值通脹_招商證券_20261030]]
 - [[MU.US(micron)]]
 - [[時程_2026-2027高速互連與分散式算力]]
 - [[3443_創意電子（市）]]
