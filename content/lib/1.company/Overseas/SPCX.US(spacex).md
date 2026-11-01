@@ -14,7 +14,7 @@ tags:
   - 產業/AI基礎建設
   - 地區/美國
   - 環節/衛星通訊
-updated: 2026-10-28
+updated: 2026-10-30
 aliases:
   - SpaceX
   - 太空探索技術公司
@@ -244,6 +244,14 @@ SpaceX 與 Tesla、Intel 戰略合作打造全球最大晶片製造廠（Terafab
 - 作者推估：4Q26 AI 營收約 US$20bn、年底 AI ARR 約 US$105bn、2027 全年 AI 營收約 US$200bn；以上為作者 estimate，非公司指引。
 - SpaceX 與特斯拉已各自成立獨立董事特別委員會討論合併，條件未定；作者推測採全換股、約 20% 溢價，並認為特斯拉中國業務與上海廠（年產能約 100 萬台）為最大難題（推測情境，信心低）。
 
+## 近期營運與研究更新
+
+### 2026-10-30 國泰 Good Morning：Anthropic 為最大單一客戶
+
+- Anthropic 為 SpaceX 最大單一客戶，貢獻 3Q26 約 34.5% 營收；算力合約總支出最高 US$1,205 億、期限至 2029 年，2026-12 起每月平均約 US$31 億，Anthropic 可於 2027 年 1 月及 3 月後提前 90 天通知取消；政府機構貢獻 16.6% 營收。MS 另指 Starlink V3（2026-09-28 Starship 發射）帶動穩懋航太 RF 含量提升。
+
+來源：[[memo_國泰_GoodMorning_CSP財報與光通訊台廠_20261030]]、[[報告_MorganStanley_穩懋3105_20261029]]。
+
 ## 來源
 
 - [[memo_FOMOSoc_KP思考筆記65_SpaceX特斯拉Nebius晶片過剩_20261024]] — FOMO研究院 KP，2026-10-24；Tesla 合併表決門檻、Anthropic 90 天解約合約、資金缺口。
@@ -259,3 +267,9 @@ SpaceX 與 Tesla、Intel 戰略合作打造全球最大晶片製造廠（Terafab
 - [[memo_M報_SpaceX3Q26與併購特斯拉_20261027]]
 
 - [[memo_國泰_AI基建與半導體領漲_20261028]]（2026-10-28）
+
+- [[memo_FOMOSoc_Google3Q26財報解剖_20261029]]（2026-10-29）
+- [[memo_國泰_GoodMorning_CSP財報與光通訊台廠_20261030]]（2026-10-30）
+- [[報告_MorganStanley_穩懋3105_20261029]]（2026-10-29）
+
+- [[memo_FOMOSoc_AnthropicS1四大重點_20261031]]（2026-10-31）

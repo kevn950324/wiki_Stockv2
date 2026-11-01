@@ -100,3 +100,7 @@ Morgan Stanley 2026-08-10 的供應鏈查核顯示，記憶體短缺與超級節
 - [[memo_廣發海外電子通信月度電話會議_20260814]] — 廣發海外電子通信，2026-08-14
 - [[報告_SemiAnalysis_RubinUltraNVL576_20260810]] — SemiAnalysis，2026-08-10
 - [[video_NVIDIA_GTC2026_AI平台與NVL576_202603]] — NVIDIA GTC 2026 Session S81911，Ian Buck，2026-03
+
+## 相關頁面
+
+- [[分析_VeraRubin規格下修_NVLink與HBM4頻寬的產業影響_20261031]]

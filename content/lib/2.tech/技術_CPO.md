@@ -685,6 +685,15 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - **機櫃級展示（緯穎，fact）**：[[6669_緯穎（市）]] 與 Ayar Labs、[[3443_創意電子（市）]] 在 OCP 2026 展示機櫃級 CPO 實機鏈路，熱與波長漂移下訊號穩定。
 - 供應鏈整理見 [[供應鏈_CPO]]；來源：[[research_產業合作技術發表_2026-10-22]]。
 
+## 近期營運與研究更新
+
+### 2026-10-29 3Q26 法說：CPO 量產節點與測試設備放大
+
+- 日月光：CPO 4Q26 正式量產，2027 年 CPO 營收 >US$5 億（計入 LEAP；MS 自估 >US$6 億），公司認為 CPO 與 NPO 將並存（[[報告_MorganStanley_日月光投控3711_20261029]]、[[活動_日月光投控3711_國泰CallMemo_20261029]]）。
+- 致茂：CPO 客戶 2026 年底完成 pilot，已取得 1Q27 Spectrum 量產 PO；Insertion 3 量產測試機需求為 pilot 4–5 倍，另一客戶 9M27 pilot、4Q27 量產（[[報告_Citi_致茂2360_20261029]]、[[報告_MorganStanley_致茂2360_20261029]]）。
+- 聯亞：一般資料中心 CPO 短期量產機率不高，2H27 NPO 為過渡且多用外部光源；CSP 要求 CW 功率 250–300mW（[[活動_聯亞3081_永豐法說_20261028]]）。
+- 國泰講座：量產以 2.5D CPO 為主（台積電、NVIDIA、Broadcom），陸廠多採 NPO／OBO，3D CPO 為下世代；量產挑戰為光纖連接、維護測試、熱管理與互通性（[[memo_國泰證期_先進封裝HBM矽光子技術解析講座_20261029]]）。
+
 ## 來源
 - [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄；Quantum／Spectrum 配置、ELS 結構與成本、ELSFP 份額、無源器件放量節點；低至中低信心）。
 - [[research_產業合作技術發表_2026-10-22]] — NVIDIA／APC／緯穎官方發表彙整，2026-10-20～21；矽品光引擎 15 倍、APC CPO 規格、機櫃級 CPO 展示。
@@ -756,6 +765,7 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - [[6526_達發（市）]]
 - [[TER.US(teradyne)]]
 - [[分析_MS_AI供應鏈_HBM降規與Kyber延遲_20260810]]
+- [[分析_VeraRubin規格下修_NVLink與HBM4頻寬的產業影響_20261031]]
 - [[7907_源傑科技（興）]]
 - [[分析_日月光深度報告]]
 - [[分子尼奧（私）]]

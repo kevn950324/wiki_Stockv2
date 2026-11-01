@@ -307,6 +307,21 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 
 ## 近期營運與研究更新
 
+### 2026-10-30 Vera Rubin 官方規格下修：NVLink 6 與 HBM4 頻寬
+
+- NVIDIA 約於 2026-09 上旬修改產品頁：**現行 Vera Rubin** 每 GPU NVLink 6 由 3.6 降至 3.0 TB/s（約 −17%），HBM4 頻寬由 22 降至 19.2 TB/s（約 −13%，每 pin 約 11.7→9.6 Gbps）；NVL72 機櫃 NVLink 260→216 TB/s、HBM4 1,580→1,400 TB/s；HGX NVL8 HBM4 176→130 TB/s。每 GPU HBM4 容量 288GB 與 NVFP4 算力不變，scale-out 網路每 Superchip 0.8→0.9 TB/s（fact／官方產品頁，信心高）。
+- SemiAnalysis（2026-10-30）歸因於 448G 同時雙向 SerDes 在銅背板上的串擾與插入／反射損耗，NVIDIA 改以降低訊號速率換取穩定度（estimate，中）。NVIDIA 聲明新數字反映量產可持續的規格，NVL72 已全面量產出貨（company_comment）。
+- 產業影響（銅互連極限、光學 scale-up、低損耗材料、HBM 速度溢價、AMD 競爭）詳見 [[分析_VeraRubin規格下修_NVLink與HBM4頻寬的產業影響_20261031]]。
+
+### 2026-10-29～30 國泰：Rubin Ultra HBM 配置傳聞、Hugging Face 反壟斷問詢
+
+- 國泰 US Open Bell 傳 Rubin Ultra 改採 8 層 HBM4 與 HBM4E 混合方案，考量散熱、良率與供應（傳聞）。
+  > [!warning] 更正（2026-10-31）：國泰原文把「Rubin GPU 頻寬由 22 降至 19.2 TB/s」歸在 Rubin Ultra；依 NVIDIA 產品頁與官方聲明，19.2 TB/s 是**現行 Vera Rubin** 的修正規格（見上一節），與 Rubin Ultra HBM 分級不是同一事件。Rubin Ultra 的 HBM 分級另見 [[分析_MS_AI供應鏈_HBM降規與Kyber延遲_20260810]]。
+- 美國司法部就 NVIDIA 以 US$129.3 億收購 Hugging Face 展開反壟斷問詢，預計 1H27 完成交易（國泰 Good Morning）。
+- 台達電 3Q26 法說：800V HVDC 由 NVIDIA 推動、導入較慢；Vertiv 與 NVIDIA 合作 DSX／數位孿生方案。
+
+來源：[[memo_國泰_美股開盤AI基建記憶體光通訊_20261029]]、[[memo_國泰_GoodMorning_CSP財報與光通訊台廠_20261030]]、[[活動_台達電2308_國泰CallMemo_20261029]]、[[活動_VertivVRT_中信CallMemo_20261029]]。
+
 ### 2026-09-02 J.P. Morgan／2026-09-01 富邦與大和更新
 
 - J.P. Morgan NDR 指出 FY28 約 70% 年增框架由 hyperscaler、neocloud、AI lab、主權 AI 與企業需求共同支撐；若無供給限制，營收可能超過倍增。這是管理層／券商轉述，屬 outlook，不是已認列營收。
@@ -578,9 +593,19 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 
 - [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄；CPO 無源器件與 OCS 供應鏈，判讀見 [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]，低信心）
 
+- [[memo_國泰_GoodMorning_CSP財報與光通訊台廠_20261030]]（2026-10-30）
+- [[memo_國泰_美股開盤AI基建記憶體光通訊_20261029]]（2026-10-29）
+- [[memo_國泰證期_先進封裝HBM矽光子技術解析講座_20261029]]（2026-10-29）
+- [[memo_大叔美股筆記_Marvell洽購Lumentum_20261029]]（2026-10-29）
+- [[報告_Citi_台達電2308_20261029]]（2026-10-29）
+- [[報告_中信_台達電2308_20261030]]（2026-10-30）
+- [[活動_VertivVRT_中信CallMemo_20261029]]（2026-10-29）
+- [[活動_台達電2308_國泰CallMemo_20261029]]（2026-10-29）
+
 ## 相關頁面
 
 - [[分析_FAU與MPO在ScaleUp時代的價值通脹_招商證券_20261030]]
+- [[3008_大立光（市）]]（GS 2026-10-09 FAU 模型以 Spectrum-X Photonics 3.2T CPO 交換器作為主要需求基礎，非確認客戶關係）
 - [[分析_緯創緯穎專家紀要_AWS集中度與ODM訂單機制_20261028]]
 - [[SIMO.US(silicon_motion)]]
 - [[SU.FR(schneider_electric)]]
@@ -632,6 +657,7 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 - [[2324_仁寶（市）]]
 - [[8210_勤誠（市）]]
 - [[分析_MS_AI供應鏈_HBM降規與Kyber延遲_20260810]]
+- [[分析_VeraRubin規格下修_NVLink與HBM4頻寬的產業影響_20261031]]
 - [[4938_和碩（市）]]
 - [[NBIS.US(nebius)]]
 - [[OpenAI（未）]]

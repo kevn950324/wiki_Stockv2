@@ -6,7 +6,7 @@ tags:
   - 產業/記憶體
   - 產業/AI伺服器
 maturity: developing
-updated: 2026-10-22
+updated: 2026-10-30
 aliases:
   - HBM
   - High Bandwidth Memory
@@ -168,6 +168,20 @@ flowchart TB
 - [[技術_NAND快閃記憶體]]
 - [[技術_CCL]]
 
+## 近期營運與研究更新
+
+### 2026-10-29 國泰講座與三星 3Q26：HBM4 堆疊與 Hybrid Bonding
+
+- HBM3E 以前封裝高度限 720 微米（12-Hi 共 13 層、單層約 40 微米），HBM4 16-Hi 共 17 層、單層約 35 微米，JEDEC 放寬至 775 微米；Hybrid Bonding 可使 16 層堆疊厚度由 755 降至 595 微米（約 −20%），電極間距 20→10 微米、通道密度 2,500→10,000／mm²。主講人提及三星新世代 HBM Logic Die 可能委由台積電代工；HBM4 三星、美光、海力士皆通過 NVIDIA 認證（[[memo_國泰證期_先進封裝HBM矽光子技術解析講座_20261029]]，講者觀點）。
+- 三星 3Q26：HBM4 收入 QoQ 約 3 倍、占 HBM 約 60%；2027 年量價談定並售罄，HBM4E 1H27 量產（[[memo_廣發海外_三星電子3Q26業績紀要_20261029]]）。
+- 傳 Rubin Ultra 改採 8 層 HBM4／HBM4E 混合方案（[[memo_國泰_美股開盤AI基建記憶體光通訊_20261029]]，傳聞）。
+  > [!warning] 更正（2026-10-31）：國泰原文把頻寬 22→19.2 TB/s 歸在 Rubin Ultra；依 NVIDIA 產品頁與官方聲明，這是**現行 Vera Rubin** 的修正規格，見下一節。
+
+### 2026-10-30 Vera Rubin HBM4 頻寬官方下修
+
+- NVIDIA 約於 2026-09 上旬修改產品頁：Vera Rubin 每 GPU HBM4 頻寬 22→19.2 TB/s（約 −13%），每 pin 速率約 11.7→9.6 Gbps；NVL72 機櫃 1,580→1,400 TB/s，HGX NVL8 176→130 TB/s；每 GPU 容量 288GB 不變（fact／官方產品頁，信心高）。
+- 降速原因有兩種說法：TechPowerUp 認為問題在 NVIDIA 端介面，Wccftech 轉述是供應商難達原速度 bin（皆為 estimate，低）。對 HBM 的含義是位元需求不變，但速度 bin 門檻降低、高速 bin 的溢價可能被稀釋（inference，中低）。詳見 [[分析_VeraRubin規格下修_NVLink與HBM4頻寬的產業影響_20261031]]。
+
 ## 來源
 - [[research_產業合作技術發表_2026-10-22]] — Micron 技術說明會官方簡報，2026-10-21；HBM4→HBM6 年度節奏、標準／客製／垂直 HBM 三階段
 - [[報告_高盛_三星HBM與獲利預估_20260930]] — Goldman Sachs，2026-09-30；三星 HBM 量價、營收 mix 與一般 DRAM 供給
@@ -185,6 +199,7 @@ flowchart TB
 - [[分析_FMS2026_CXL記憶體池與光互連受惠邏輯]]
 - [[技術_大模型推理經濟學]]
 - [[分析_MS_AI供應鏈_HBM降規與Kyber延遲_20260810]]
+- [[分析_VeraRubin規格下修_NVLink與HBM4頻寬的產業影響_20261031]]
 - [[分析_CXMT_DRAM_IPO分析]]
 - [[技術_功率MOSFET]]
 - [[供應鏈_記憶體]]

@@ -243,6 +243,17 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 
 未來幾季優先追蹤：FY27 Q1 revenue／EPS 是否落在指引、1.6T 量與 yield、OCS 是否超過 triple-digit、EML unit growth、pump laser 長約與出貨、NPO／ELS 客戶公告、毛利 mix、inventory／CapEx／FCF，以及 Greensboro 轉換進度。
 
+## 近期營運與研究更新
+
+### 2026-10-28 傳 Marvell 洽購（傳聞）
+
+- **事件（傳聞，2026-10-28 Bloomberg）：** Marvell 與 Lumentum 進行進階併購洽談，最快一週內宣布；雙方未證實，價格與結構未公布。LITE 市值約 US$830 億、MRVL 約 US$2,210 億；消息後 LITE 盤後漲 11–17%，MRVL 10/29 收跌 13.24%。
+- **產業邏輯（大叔美股筆記）：** 800G／1.6T／CPO 需 DSP 與光元件協同設計，併購可把 DSP／SerDes 與雷射／EML 整合為一站式方案；市場傳 Lumentum 光學產能售罄至 2029 年。延續 Marvell 2025-12 以約 US$32.5 億（含里程碑上看 US$55 億）收購 Celestial AI。
+- **財務與監管疑慮：** Marvell 現金僅約標的市值 4.7%，預期以全股票為主，零溢價下 LITE 股東取得合併後約 27% 股權；LITE 市值／營收約 27 倍。NVIDIA 為 Lumentum 大客戶並自 2026-03 起持股約 US$20 億，垂直整併涉及競爭對手關鍵供應，FTC／DOJ、中國、歐盟審查可能以年計並附行為承諾。
+- **台廠連動（國泰 Good Morning）：** 訊芯-KY CPO 光引擎封測（51.2T 小量、102.4T 送樣）、鼎元 200G PD 認證、穩懋 PD、華星光（與 Marvell 800G ZR 長期合作）、聯亞列為可能受影響的台灣供應鏈。
+
+來源：[[memo_大叔美股筆記_Marvell洽購Lumentum_20261029]]、[[memo_國泰_GoodMorning_CSP財報與光通訊台廠_20261030]]。
+
 ## 來源
 
 - [[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]]（招商證券，2026-10-13；引 Lumentum 簡報「scale-up CPO 用量為 scale-out 的 10 倍」：Phase 0 交換器間 CPO、Phase 1 跨機櫃 3–4 倍、Phase 2 再 3–4 倍；並估 6.4T NPO 光引擎 CW 價值為 1.6T 模組的 10 倍，券商轉述，信心中）
@@ -284,6 +295,10 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 
 - [[memo_AceCamp_AEC與1.6T光模組供給_20260901]]（2026-09-01）
 - [[memo_AceCamp_光庫科技泵浦雷射與海纜_20260901]]（2026-09-01）
+
+- [[memo_國泰_GoodMorning_CSP財報與光通訊台廠_20261030]]（2026-10-30）
+- [[memo_大叔美股筆記_Marvell洽購Lumentum_20261029]]（2026-10-29）
+- [[報告_MorganStanley_穩懋3105_20261029]]（2026-10-29）
 
 ## 相關頁面
 

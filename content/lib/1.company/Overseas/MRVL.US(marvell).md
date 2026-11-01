@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 技術/矽光子
   - 環節/光纖與光通訊
-updated: 2026-10-27
+updated: 2026-10-30
 aliases:
   - Marvell
   - 邁威爾
@@ -155,6 +155,17 @@ Aletheia p6–7把 Microsoft Maia200 描述為客戶自主架構、Marvell／[[2
 
 來源：[[報告_Aletheia_創意電子首次覆蓋_20260922]]（2026-09-22；券商 estimate／channel_check／thesis，信心依上段）。分析：[[分析_創意COT獲利與營運資金驗證_20260922]]。
 
+## 近期營運與研究更新
+
+### 2026-10-28 傳洽購 Lumentum（傳聞）
+
+- **事件（傳聞，2026-10-28 Bloomberg）：** Marvell 與 Lumentum 進行進階併購洽談，最快一週內宣布；雙方未證實，價格與結構未公布。LITE 市值約 US$830 億、MRVL 約 US$2,210 億；消息後 LITE 盤後漲 11–17%，MRVL 10/29 收跌 13.24%。
+- **產業邏輯（大叔美股筆記）：** 800G／1.6T／CPO 需 DSP 與光元件協同設計，併購可把 DSP／SerDes 與雷射／EML 整合為一站式方案；市場傳 Lumentum 光學產能售罄至 2029 年。延續 Marvell 2025-12 以約 US$32.5 億（含里程碑上看 US$55 億）收購 Celestial AI。
+- **財務與監管疑慮：** Marvell 現金僅約標的市值 4.7%，預期以全股票為主，零溢價下 LITE 股東取得合併後約 27% 股權；LITE 市值／營收約 27 倍。NVIDIA 為 Lumentum 大客戶並自 2026-03 起持股約 US$20 億，垂直整併涉及競爭對手關鍵供應，FTC／DOJ、中國、歐盟審查可能以年計並附行為承諾。
+- **台廠連動（國泰 Good Morning）：** 訊芯-KY CPO 光引擎封測（51.2T 小量、102.4T 送樣）、鼎元 200G PD 認證、穩懋 PD、華星光（與 Marvell 800G ZR 長期合作）、聯亞列為可能受影響的台灣供應鏈。
+
+來源：[[memo_大叔美股筆記_Marvell洽購Lumentum_20261029]]、[[memo_國泰_GoodMorning_CSP財報與光通訊台廠_20261030]]。
+
 ## 來源
 
 - [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；創意專案、合作分工與未確認的上行情境。
@@ -187,6 +198,10 @@ Aletheia p6–7把 Microsoft Maia200 描述為客戶自主架構、Marvell／[[2
 
 - [[報告_UBS_智邦_20260918]]（2026-09-18）
 - [[報告_中信_ASIC產業近況_20261021]] — 中信投顧 ASIC 產業近況，2026-10-21
+
+- [[memo_國泰_GoodMorning_CSP財報與光通訊台廠_20261030]]（2026-10-30）
+- [[memo_大叔美股筆記_Marvell洽購Lumentum_20261029]]（2026-10-29）
+- [[報告_MorganStanley_致茂2360_20261029]]（2026-10-29）
 
 ## 相關頁面
 

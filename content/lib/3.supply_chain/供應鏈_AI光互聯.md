@@ -257,6 +257,7 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 - [[分析_索爾思光電800G與1.6T出貨追蹤]]
 - HIMX.US(himax)
 - [[AXTI.US(axt)]]
+- [[分析_VeraRubin規格下修_NVLink與HBM4頻寬的產業影響_20261031]]
 
 ## 來源
 

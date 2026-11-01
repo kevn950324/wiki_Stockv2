@@ -180,6 +180,7 @@ flowchart LR
 - [[分析_貿聯-KY_2026Q2法說_AI基礎設施內容升級_20260821]]
 - [[ALAB.US(astera labs)]]
 - [[SMTC.US(semtech)]]
+- [[分析_VeraRubin規格下修_NVLink與HBM4頻寬的產業影響_20261031]]
 
 ## 來源
 
