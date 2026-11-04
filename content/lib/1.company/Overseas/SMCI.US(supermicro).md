@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 技術/液冷
   - 環節/AI伺服器組裝
-updated: 2026-10-11
+updated: 2026-11-04
 aliases:
   - Super Micro Computer
   - Supermicro
@@ -112,14 +112,27 @@ flowchart LR
 
 - GFHK 將 Supermicro 列為 AI 伺服器散熱與整機整合受惠者，與鴻海並列 ODM／OEM 觀察標的；報告未提供新的公司營收或訂單數字，故僅作產業鏈補充。來源：[[報告_GHHK_AI伺服器散熱_20260901]]。
 
+## 近期營運與研究更新
+
+### 2026-11-04 FY1Q27 財報：營收 US$19.9bn、上修 FY27 至 US$72～82bn（富邦）
+
+- FY1Q27 營收 US$19.9bn（YoY +298%、QoQ +79%），含 US$2.3bn 前期遞延出貨；AI 解決方案占比由 59% 升至 71%；單一大客戶占 44%；non-GAAP 毛利率 12.8%（QoQ -480bps），營益率 10.9%，EPS US$1.81；現金轉換週期由 149 天降至 97 天，營運現金流 -US$434mn（fact）。
+- 指引：FY2027 營收上修至 US$72～82bn（原 US$65～72bn），毛利率 11.8～12.2%；FY2Q27 營收 US$19.5～21.5bn、毛利率 12.0～12.5%；下半年成長放緩反映零組件供應與資料中心建置不確定，非需求轉弱。
+- 營運：12 月月產能逾 8,000 櫃（液冷逾 4,000 櫃）；已出貨 NVIDIA Vera Rubin 機櫃，推進 AMD MI450 與 Arm 方案；DCBBS 整合硬體、SCM／SDM／SOM 軟體與部署服務；與 Cisco、NetApp 合作拓展企業 AI。
+- 來源：[[報告_富邦_SupermicroSMCI財報CallMemo_20261104]]。
+
 ## 來源
 
+- [[報告_富邦_SupermicroSMCI財報CallMemo_20261104]] — 富邦證券，2026-11-04 財報會議紀要。
 - [[memo_緯創緯穎_AWS客戶結構與ODM訂單機制專家觀點_日期不詳]]（ODM 端匿名專家紀要，日期不詳，2026-10-28 入庫；緯創代工通用伺服器）
 - [[報告_CLSA_SinoPac_高力_20261006]]（SinoPac 研究／CLSA 分發，2026-10-06；高力的 Supermicro 相關液冷與 Rubin manifold／CDU／RDHx 需求情境）
 - [[報告_國泰_SuperMicroFY26財報_20260813]]（國泰證期研究部，2026-08-13；FY26Q4、FY27 指引、液冷產能與 DCBBS）
 - [[Super Micro Computer（SMCI US）0813]]（中信投顧，2026-08-13；GB300／Blackwell、DCBBS、液冷與 FY27–FY28 財務估計）
 
 - [[報告_GHHK_AI伺服器散熱_20260901]]（2026-09-08）
+
+- [[報告_富邦_AMD財報CallMemo_20261104]]（2026-11-04）
+- [[活動_AMD_國泰CallMemo_20261104]]（2026-11-04）
 
 ## 相關頁面
 

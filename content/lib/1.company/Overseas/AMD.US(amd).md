@@ -12,7 +12,7 @@ tags:
   - 技術/CoWoS
   - 產業/AI伺服器
   - 環節/IC設計
-updated: 2026-10-27
+updated: 2026-11-04
 aliases:
   - AMD
   - Advanced Micro Devices
@@ -259,8 +259,21 @@ Buy／TP US$700（原採 SOTP），26x 2027–28 平均 non-GAAP EPS；CY26／27
 
 MI550 半配置 2H27、完整配置 1H28，16／32 GPU rack 約 100／200kW+、512-GPU pod，是研究版路線，不覆蓋原頁其他報告的 MI500／MI455 規格。Meta Muse 的每用戶 CPU、DRAM、eSSD 推算屬需求敏感度；AMD 參與 Google TPU 或與 Marvell 合作屬低信心 thesis，非設計贏單。時間軸與供給驗證同步 [[時程_2026-2028十月券商催化劑]]；細節 [[分析_2027加速器供電與ASIC價值移轉_20261001]]。
 
+## 近期營運與研究更新
+
+### 2026-11-04 3Q26 財報：2027 營收成長逾 80%、伺服器 CPU 倍增、4Q26 資料中心 AI 超越 CPU（國泰 call memo／富邦）
+
+- 3Q26 營收 US$13.4bn（YoY +45%、QoQ +16%），non-GAAP 毛利率 56%，營業利益 US$3.9bn，non-GAAP EPS US$2.09（GAAP US$1.46，含客戶認股權證 US$1.1bn 非現金費用）；資料中心 US$8.5bn（YoY +97%、QoQ +27%，占 64%），Client US$2.9bn、Gaming US$773mn（YoY -40%）、Embedded US$1.1bn（YoY +29%）（fact）。
+- 4Q26 指引：營收約 US$17bn（±3%，YoY +66%、QoQ +27%），資料中心 QoQ 約 +50%，資料中心 AI 首度超越伺服器 CPU；Client 與 Gaming QoQ 減逾 20%；毛利率約 55%。
+- 2027：整體營收成長逾 80%，伺服器 CPU 由逾 70% 上修為約倍增（主要來自出貨量與核心數），資料中心占營收逾 80%；已確保晶圓、載板、先進封裝、記憶體供給，需求仍高於供給；PC 市場以出貨年減雙位數規劃。
+- 產品：Venice 3Q26 認列營收，OEM／ODM 逾 240 個平台（較 Turin 多 20%）；Helion 全 CPU 機櫃最多 144 顆 Venice、近 7.4 萬執行緒，已貢獻 OCP；MI450（MI455X）系列量產出貨，Anthropic、Meta、Microsoft、OpenAI、Oracle 已上線首批 Helios；HPE、Dell、Lenovo、Supermicro 4Q26 開始出貨；MI500／MI600 與前沿實驗室共同設計、客戶規劃數 GW 部署。OpenAI 以 Turin 作為首個客製加速器平台主機 CPU。
+- 併購：低延遲推論晶片團隊（富邦寫 Taalas）與李飛飛 World Labs，預計年底前完成。伺服器 TAM 未來三到四年 CAGR 約 50%，伺服器 CPU TAM 2030 年約 US$220bn。
+- 來源：[[活動_AMD_國泰CallMemo_20261104]]、[[報告_富邦_AMD財報CallMemo_20261104]]。
+
 ## 來源
 
+- [[活動_AMD_國泰CallMemo_20261104]] — 國泰證期，2026-11-04 財報 call memo。
+- [[報告_富邦_AMD財報CallMemo_20261104]] — 富邦證券，2026-11-04 財報會議紀要。
 - [[research_產業合作技術發表_2026-10-24]] — Vultr Business Wire India 新聞稿，2026-10-21；清奈 20 MW MI355X 叢集、2027 MI455X／Helios 擴充。
 - [[報告_JPM_健策可拆式上蓋_20260929]] — JPM，2026-09-29；MI450 上蓋內容值與量產估計（中）。
 - [[報告_Aletheia_2027AI加速器關鍵變化_20261001]] — Aletheia Capital，2026-10-01；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
@@ -328,6 +341,8 @@ MI550 半配置 2H27、完整配置 1H28，16／32 GPU rack 約 100／200kW+、5
 - [[報告_Daiwa_景碩3189_20261030]]（2026-10-30）
 
 - [[報告_MorganStanley_美國CSP3Q26財報與台灣硬體供應鏈_20261102]]（2026-11-02）
+
+- [[報告_富邦_SupermicroSMCI財報CallMemo_20261104]]（2026-11-04）
 
 ## 相關頁面
 

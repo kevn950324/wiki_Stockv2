@@ -14,7 +14,7 @@ tags:
   - 主題/Gemini
   - 主題/Waymo
   - 環節/雲端服務
-updated: 2026-11-02
+updated: 2026-11-04
 aliases:
   - Google
   - Alphabet
@@ -203,6 +203,12 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 
 ## 近期營運與研究更新
 
+### 2026-11-03 M報 #349：Gemini 4 Carbon 與 3Q26 財報
+
+- Gemini 4 Carbon 在 Artificial Analysis Intelligence Index v5.0 得 59 分（Argon 50、Claude Opus 5.5 約 58、GPT-6 Astra 約 57）；Automation Bench、Terminal Bench Science 0.1 第一、Terminal Bench 4.0 第二；價格比 GPT-6 Astra 貴約兩成、比 Opus 5.5 便宜約三成。
+- 3Q26 營收約 US$127.58bn（YoY +24.65%），Google Cloud YoY +102.6%（前季約 82%，含 TPU 系統銷售）；搜尋 YoY 約 12%（前季約 16%）；營益率約 31.8%；自由現金流 -US$9.07bn；2026 資本支出指引 US$195～205bn 不變，2027 顯著增加（作者猜約 US$250bn）；股價盤後跌約 9%。
+- 來源：[[memo_M報_AnthropicS1與Google微軟財報_20261103]]。
+
 ### 2026-11-01 開源證券：3Q26 雲端與資本支出
 
 - 3Q26 營收 US$127.58bn（YoY +24.7%），Google Cloud US$30.71bn（YoY +102.6%）、營益率 36.2%（+12.5ppt）；資本支出 US$51.36bn（YoY +114.4%，約 65% 伺服器、35% 資料中心與網路），2026 年指引 US$195–205bn 維持，2027 再增。
@@ -281,6 +287,7 @@ COT 路線保有核心 compute 設計，[[2454_聯發科（市）]] 提供部分
 
 ## 來源
 
+- [[memo_M報_AnthropicS1與Google微軟財報_20261103]] — M報 #349，2026-11-03；Gemini 4 Carbon 與 3Q26 財報。
 - [[research_產業合作技術發表_2026-10-22]] — NVIDIA 官方部落格彙整，2026-10-21；Google Cloud A5X（Vera Rubin NVL72）GA 與 96 萬顆 Rubin GPU 規劃。
 
 - [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；創意專案、合作分工與未確認的上行情境。
@@ -374,6 +381,10 @@ COT 路線保有核心 compute 設計，[[2454_聯發科（市）]] 提供部分
 - [[報告_MorganStanley_創意3443_20261102]]（2026-11-02）
 - [[報告_MorganStanley_美國CSP3Q26財報與台灣硬體供應鏈_20261102]]（2026-11-02）
 
+- [[memo_SemiAnalysis_SpaceX資料中心13GW與BESS_20261103]]（2026-11-03）
+- [[活動_富世達6805_法說彙整_20261103]]（2026-11-03）
+- [[活動_是方6561_國泰CallMemo_20261103]]（2026-11-03）
+
 ## 相關頁面
 
 - [[6442_光聖（市）]] — Google 資料中心高芯數光纖配線供應商（招商 2026-10-13 列為 Google 布線供應商之一）
@@ -406,6 +417,7 @@ COT 路線保有核心 compute 設計，[[2454_聯發科（市）]] 提供部分
 - [[Anthropic（未）]]
 - 分析_AI雲端支出2026
 - 技術_TPU
+- [[6561_是方（櫃）]]
 
 ## Morgan Stanley 2026-07-23 更新
 

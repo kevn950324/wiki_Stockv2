@@ -11,7 +11,7 @@ tags:
   - 環節/AI訓練
   - 環節/API服務
 maturity: private
-updated: 2026-11-02
+updated: 2026-11-04
 aliases:
   - Anthropic
   - Claude
@@ -179,6 +179,15 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 
 ## 近期營運與研究更新
 
+### 2026-11-03 M報 #349：S1 文件重點（作者解讀，含推估）
+
+- S1 揭露股票代碼將用 ANT；上半年虧損 US$80.7bn 中約 US$72.4bn 為可轉債評價／轉換差額；2Q26 營業利益 US$974mn（fact，依 S1）。
+- 營收：2024 US$386mn、2025 US$4.585bn、1H26 US$16.29bn（YoY 約 +1,300%）；媒體揭露 3Q26 US$16.8bn；季增率 4Q25→1Q26 約 132%、1Q→2Q 約 144%、2Q→3Q 約 45%（作者整理）。
+- 推論毛利：1H26 推論算力成本約 US$2.38bn，作者估推論毛利率近 85%；1H26 整體運算支出約 US$8.945bn，訓練與內部使用約 US$6.565bn（約 73%）。
+- 採購承諾：未來 7～8 年約 US$850bn，其中不可取消約 US$430bn。
+- 作者推估（estimate）：3Q 底 ARR 約 US$70bn、年底目標 US$100bn ARR、2026 全年營收約 US$54bn、2027 成長 200～300%、2026 訓練算力約 US$13bn、3Q+4Q 營業利益可能逾 US$10bn；SpaceX 每 GW 年租約 US$50bn。
+- 來源：[[memo_M報_AnthropicS1與Google微軟財報_20261103]]。
+
 ### 2026-11-01～11-02 IPO 與算力合約
 
 - 國泰 Good Morning：最快 11 月中旬上市，募資上看 US$100bn、估值 US$1.5–2tn，可能引發科技股資金挪移。
@@ -190,6 +199,7 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 
 ## 來源
 
+- [[memo_M報_AnthropicS1與Google微軟財報_20261103]] — M報 #349，2026-11-03；S1 重點。
 - [[memo_AceCamp_Akamai_CPU算力與MaaS_20260930]] — AceCamp Tech匿名專家訪談，2026-09-30（Akamai CPU基建合作；GPU與MaaS部分為低信心渠道預估）。
 
 - 報告_SemiAnalysis_Anthropic_IPO財務分析_20260708（SemiAnalysis，Joey Brookhart/Crystal Huang/Dylan Patel，2026-07-08；Anthropic 3Q2026 non-GAAP 淨利 >$1B；ARR $60B+；融資歷史；Claude Code 7.3% GitHub commits；模型定價；IPO 背景）
@@ -223,6 +233,10 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 - [[memo_艦長J快訊_CSP未上線硬體與AI債務_20261101]]（2026-11-01）
 - [[報告_玉山_2027AI趨勢先進封裝玻璃基板光傳輸散熱_20261102]]（2026-11-02）
 - [[memo_SemiAnalysis_GDPx前沿模型能力基準_20261101]]（2026-11-01）
+
+- [[memo_SemiAnalysis_SpaceX資料中心13GW與BESS_20261103]]（2026-11-03）
+- [[報告_富邦_AMD財報CallMemo_20261104]]（2026-11-04）
+- [[活動_AMD_國泰CallMemo_20261104]]（2026-11-04）
 
 ## 相關頁面
 

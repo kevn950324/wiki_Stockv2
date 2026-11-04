@@ -199,6 +199,10 @@ Dell 在 NVIDIA GTC Berlin 發布新聞稿（Business Wire，2026-10-21），把
 - [[memo_AceCamp_Dell_Rubin與Neocloud出貨_20260829]]（AceCamp Tech／疑似 Dell 端匿名專家，2026-08-29；GB300、Rubin、NeoCloud 與毛利觀察／低信心）
 - [[報告_GFHK_VR200展望_20261026]] — GFHK VR200 展望，2026-10-26
 
+- [[報告_Daiwa_建準2421_20261103]]（2026-11-03）
+- [[報告_富邦_AMD財報CallMemo_20261104]]（2026-11-04）
+- [[活動_AMD_國泰CallMemo_20261104]]（2026-11-04）
+
 ## 2026-09-02 國泰證期 Call Memo 補充
 
 - FY2Q27 營收 US$47bn、ISG 營收 US$31.8bn、AI 伺服器營收 US$16.4bn，且 AI 訂單／積壓分別為 US$60.9bn／US$95bn，均為公司揭露的季度 fact。

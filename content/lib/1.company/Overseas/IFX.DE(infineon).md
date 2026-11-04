@@ -108,6 +108,9 @@ Infineon 與 Innsbruck 研究人員的論文指出，Villach 廠製作的一片 
 - [[research_產業合作技術發表_2026-10-22]] — Infineon 新聞稿，2026-10-21；與 NVIDIA 合作 800 VDC GaN HV IBC。
 - [[memo_AceCamp_Infineon_AI電源與800V_20260930]] — AceCamp Tech，2026-09-30；Infineon 視角的漲價與 800V 滲透率（低信心），詳見 [[技術_800VDC供電架構]]。
 
+- [[報告_中信_華邦電2344_20261104]]（2026-11-04）
+- [[活動_華邦電2344_國泰CallMemo_20261103]]（2026-11-03）
+
 ## 相關頁面
 
 - [[技術_800VDC供電架構]]

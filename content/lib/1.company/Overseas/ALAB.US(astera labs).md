@@ -6,11 +6,12 @@ exchange: NASDAQ
 sector: 資料中心互連晶片 / PCIe Switch / 光互連
 tags:
   - 公司/Overseas
+  - 公司/AsteraLabs
   - 產業/半導體
   - 技術/光互連
   - 環節/PCIe交換
   - 環節/UAL互連
-updated: 2026-07-07
+updated: 2026-11-04
 aliases:
   - Astera Labs
   - ALAB
@@ -89,9 +90,20 @@ related_companies:
 ## 相關頁面
 
 - [[SMTC.US(semtech)]]
+- [[時程_2026Q3Q4_AI網通與硬體催化劑]]
+
+## 近期營運與研究更新
+
+### 2026-11-04 3Q26 財報：Scorpio X 放量、NPO 4Q26 送樣（富邦）
+
+- 3Q26 營收 US$584.9mn（QoQ +49%、YoY +154%），non-GAAP 毛利率 72.4%，營益率 44.7%，EPS US$1.32；Scorpio X-Series 營收首度超越 P-Series，Scorpio 家族年化營收破 US$1bn（fact）。
+- 4Q26 指引：營收 US$730～750mn（中值 QoQ +27%），毛利率約 72%，營業費用 US$194～200mn，EPS US$1.62～1.66。
+- 產品：X-Series 已出貨兩家 hyperscaler，多家客戶 4Q26 取得產品、2H27 貢獻；NPO（TIA、Laser Driver）4Q26 送樣、約 6 個月認證後 2H27 貢獻，單顆 XPU 增數百美元內容；CPO 大規模導入 2028～2029；2030 年 scale-up 光互連 TAM US$40bn。單顆 XPU 內容已逾 US$1,000，目標每代翻倍；Leo 2 2027 年中量產；Custom Silicon 逾 10 個專案，2027 年底初步出貨；Orion 機櫃 2027 經 ODM／OEM 出貨，單櫃 ALAB 內容逾 US$10 萬。
+- 來源：[[報告_富邦_AsteraLabsALAB財報CallMemo_20261104]]。
 
 ## 來源
 
+- [[報告_富邦_AsteraLabsALAB財報CallMemo_20261104]] — 富邦證券，2026-11-04 財報會議紀要。
 - [[Datacenter Connectivity 250930 Bernstein ALAB MTSI SMTC CRDO]]（2025-09-30）
 - [[Optical Networking 260312 Citrini AI connectivity optics]]（2026-03-12）
 - [[Semiconductors 260615 MS public company bus tour ALAB MRVL INTC]]（2026-06-15）

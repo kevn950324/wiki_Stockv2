@@ -14,7 +14,7 @@ tags:
   - 產業/AI基礎建設
   - 地區/美國
   - 環節/衛星通訊
-updated: 2026-10-30
+updated: 2026-11-04
 aliases:
   - SpaceX
   - 太空探索技術公司
@@ -246,6 +246,13 @@ SpaceX 與 Tesla、Intel 戰略合作打造全球最大晶片製造廠（Terafab
 
 ## 近期營運與研究更新
 
+### 2026-11-03 SemiAnalysis：SpaceX 2027 年資料中心目標上修至約 13GW（信件版截斷）
+
+- 兩個月內已有 3.6GW 在建，SpaceX 將 2027 年估計由 10GW 上修至約 13GW；SemiAnalysis 已辨識逾 9GW 容量，相當於 Google 1999～2026 全部資料中心容量在 1.5 年內建成。
+- 建置速度：Colossus 1 改建 122 天 150MW、Colossus 2 91 天 210MW；MiniHard（Memphis）約 5 個月、Mississippi「Gun Range」約 4 個月；Project SPAM 10-05 開工、12 月首批上線；Starbase 兩座資料中心，2027（Vera Rubin）可能逾 1GW；TeraFab（100M sq ft、10GW+ 晶片廠）中高信心將含資料中心並可能對外出租。
+- 電力：追蹤逾 8GW behind-the-meter（含 FTAI、Solaris），Starbase 部署 APR 逾 1GW；Colossus 2 BESS 已裝 5.9GWh（美國最大）；TVA 供電 Macrohard 700MW、MiniHard 450MW，500kV GIS 2026-12-31 完工；Southaven 電廠 2027 年 7 月起只能運轉 1.24GW 銘牌容量，約 300MW 缺口以 PUE 1.10～1.15、BESS 與 SLA 分級補足。Tesla 可能製造模組化 MEP 設備。
+- 來源：[[memo_SemiAnalysis_SpaceX資料中心13GW與BESS_20261103]]。
+
 ### 2026-10-30 國泰 Good Morning：Anthropic 為最大單一客戶
 
 - Anthropic 為 SpaceX 最大單一客戶，貢獻 3Q26 約 34.5% 營收；算力合約總支出最高 US$1,205 億、期限至 2029 年，2026-12 起每月平均約 US$31 億，Anthropic 可於 2027 年 1 月及 3 月後提前 90 天通知取消；政府機構貢獻 16.6% 營收。MS 另指 Starlink V3（2026-09-28 Starship 發射）帶動穩懋航太 RF 含量提升。
@@ -254,6 +261,7 @@ SpaceX 與 Tesla、Intel 戰略合作打造全球最大晶片製造廠（Terafab
 
 ## 來源
 
+- [[memo_SemiAnalysis_SpaceX資料中心13GW與BESS_20261103]] — SemiAnalysis，2026-11-03；13GW 建置與 BESS（信件版截斷）。
 - [[memo_FOMOSoc_KP思考筆記65_SpaceX特斯拉Nebius晶片過剩_20261024]] — FOMO研究院 KP，2026-10-24；Tesla 合併表決門檻、Anthropic 90 天解約合約、資金缺口。
 - [[memo_CathayWatch_AI科技股重挫與美債避險_20261023]] — 國泰 Cathay Watch，2026-10-23；股票解禁與股價。
 - [[報告_中信_SpaceX_20261021]] — 中信投顧，2026-10-21；首次評等買進、TP US$220（20x 2027 PSR）、FY3Q26 三大部門與 Starlink 用戶數。
@@ -278,3 +286,5 @@ SpaceX 與 Tesla、Intel 戰略合作打造全球最大晶片製造廠（Terafab
 - [[報告_BofA_聯發科2454_20261030]]（2026-10-30）
 - [[報告_GoldmanSachs_昇達科3491_20261101]]（2026-11-01）
 - [[報告_UBS_聯發科2454_20261030]]（2026-10-30）
+
+- [[memo_M報_AnthropicS1與Google微軟財報_20261103]]（2026-11-03）

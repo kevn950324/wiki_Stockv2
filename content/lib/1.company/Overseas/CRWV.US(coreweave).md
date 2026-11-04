@@ -96,6 +96,8 @@ CoreWeave 是提供 GPU 雲端與 AI 基礎設施的雲端服務商，核心成�
 - [[memo_艦長J快訊_CSP未上線硬體與AI債務_20261101]]（2026-11-01）
 - [[報告_永豐投顧_11月台股策略選股_20261101]]（2026-11-01）
 
+- [[memo_M報_AnthropicS1與Google微軟財報_20261103]]（2026-11-03）
+
 ## 相關頁面
 
 - [[分析_Anthropic與OpenAI_PreIPO_TokenEconomics算力ASIC估值]]

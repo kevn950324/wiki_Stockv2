@@ -13,7 +13,7 @@ tags:
   - 產業/國防科技
   - 環節/AI軟體平台
   - 環節/AI軟體平台
-updated: 2026-06-30
+updated: 2026-11-04
 aliases:
   - Palantir
   - Palantir Technologies
@@ -115,8 +115,19 @@ flowchart LR
 > - **政府合約集中**：美國政府端佔比雖已降至 25% 左右，但政策/預算變化仍有影響
 > - **競爭加劇**：Databricks、Snowflake、ServiceNow 等企業 AI 平台競爭加劇
 
+## 近期營運與研究更新
+
+### 2026-11-03 FOMOSoc：3Q26 財報焦點（信件版截斷）
+
+- 3Q26 營收 US$2.313bn（YoY +96%、QoQ +20%），連續第 13 季加速；美國商業營收 US$984mn（YoY +148%、QoQ +29%）首度超越美國政府 US$953mn（YoY +96%）；整體商業 US$1.17bn 超越政府 US$1.15bn；調整後營益率 62%（去年同期 51%），Rule of 40 達 158%（fact）。
+- 4Q26 營收指引上調至約 US$2.651bn（市場預期約 US$2.47bn）；美國商業客戶 686 家（YoY +29%）；NDR 由 157% 升至 165%。
+- 案例：L3Harris 微調開放模型 48 小時內超越前沿模型、成本降 95%；NVIDIA 透過 Palantir post-training 自家開放模型；四個試點擴張案例 ACV 合計 US$76.5mn（家電製造商 US$1mn→US$15mn 等）。
+- 只收到信件版摘錄，新簽訂單放緩與 Apple 段落未收到。
+- 來源：[[memo_FOMOSoc_Palantir3Q26財報焦點_20261103]]。
+
 ## 來源
 
+- [[memo_FOMOSoc_Palantir3Q26財報焦點_20261103]] — FOMOSoc，2026-11-03；3Q26 財報焦點（信件版截斷）。
 - [[報告_中信_Palantir_PLTR_20251104]]（2025-11-04，中信投顧，張家瑜）
 
 ### 2026-08-23 CTBC 更新
