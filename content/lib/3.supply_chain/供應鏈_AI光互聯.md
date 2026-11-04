@@ -258,6 +258,7 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 - HIMX.US(himax)
 - [[AXTI.US(axt)]]
 - [[分析_VeraRubin規格下修_NVLink與HBM4頻寬的產業影響_20261031]]
+- [[6271_同欣電（市）]]（2026-11-02 批次新增引用）
 
 ## 來源
 

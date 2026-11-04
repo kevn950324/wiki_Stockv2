@@ -301,6 +301,10 @@ v8i Sunfish、v8.5 Whalefish 與 v10 Merope 延續 Broadcom 方案；2027 TPU �
 
 - [[memo_FOMOSoc_AnthropicS1四大重點_20261031]]（2026-10-31）
 
+- [[報告_元大_聯發科2454_20261030]]（2026-10-30）
+
+- [[活動_惠特私訪_20260422]]（2026-04-22）
+
 ## 相關頁面
 
 - [[分析_FAU與MPO在ScaleUp時代的價值通脹_招商證券_20261030]]（光背板與 CPO 被動件價值通脹）
@@ -325,7 +329,7 @@ v8i Sunfish、v8.5 Whalefish 與 v10 Merope 延續 Broadcom 方案；2027 TPU �
 - [[MTSI.US(macom)]]
 - [[2345_智邦（市）]]
 - [[8046_南電（市）]]
-- [[惠特（TW-ticker待確認）]]
+- [[6706_惠特（市）]]
 - [[技術_InP磷化銦]]
 - [[3711_日月光投控（市）]]
 - [[CRDO.US(credo)]]

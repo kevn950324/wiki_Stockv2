@@ -5,7 +5,7 @@ tags:
   - 產業/光通訊
   - 環節/光通訊
 maturity: developing
-updated: 2026-10-30
+updated: 2026-11-02
 aliases:
   - EBO
   - Expanded Beam Optical
@@ -120,6 +120,9 @@ flowchart LR
 - **ECOC 2026 Senko XBO**：Senko 展示以 EBO 為基礎的 XBO 光背板連接器，可自動斷開與重新對接，指向維修時減少人工插拔（[[memo_SemiAnalysis_EBO擴束連接器_20261024]]，展會 fact；採用 thesis／低）。
 - **2026-10-13 招商證券的產業鏈整理**：引述「90% 網路故障源自連接器端面污損」作為 EBO 的需求依據；Molex 示範 MPO 線組安裝 2 分 32 秒、VersaBeam EBO 9 芯線組 29 秒，省約 80%，與上方 Molex「最多快 85%」口徑接近。招商也列出康普 FSC（FastSelfClean）自清潔連接器作為另一條易維護路線：仍是實體接觸，但未插接時端面收在護套內、每次插入主動清潔，144 芯版本 1RU 可放 3,456 芯（[[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]]，券商整理／中）。
 - **2026-10-28 Citi／外電：玉晶光 EBO 營收占比**：Citi 估 EBO 於 2027 年占 [[3406_玉晶光（市）]] 營收 8%–10%，CPO 與 FAU 的 PMLA 仍需時間；外電轉述 EBO 除 Microsoft 外接下來還有 AWS，2028 年 TAM 約 US$2bn（[[memo_Citi_玉晶光3406_EBO成長動能_20261028]]、[[memo_外電整理_台表科欣興玉晶光旺宏_20261028]]，券商 estimate／中）。
+
+- **2026-11-02 本庫反推 UBS EBO TAM**：US$1 億＝2,000 萬顆加速器 × 每顆 5 個 ferrule × US$1，低於 UBS 範圍 4–12 個的中位數 8 個（US$1.6 億），且隱含 100% 滲透、ferrule 全由玉晶光供應。每 US$1 億營收在 OpM 30% 下約貢獻玉晶光 EPS NT$6（[[memo_玉晶光PQ模型反推_UBS_20261102]]，自建 estimate／低至中低）。
+- **2026-11-02 使用者 EBO 指引**：ferrule ASP US$1–2、毛利率 40%–50%、2028 年占玉晶光營收 20%。以 ASP US$1.5 回推，2028E EBO 營收約 US$3.06 億、每顆 GPU 約 10.2 個 ferrule（UBS 範圍 4–12 內），EBO EPS 約 NT$21（[[memo_玉晶光PQ模型_EBO假設更新_20261102]]，來源未註明，estimate／低至中低）。
 
 ## 應用場景
 

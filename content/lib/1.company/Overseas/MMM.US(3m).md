@@ -9,7 +9,7 @@ tags:
   - 產業/光通訊
   - 技術/連接器
   - 技術/EBO
-updated: 2026-10-30
+updated: 2026-11-02
 aliases:
   - 3M
   - 3M Company
@@ -116,6 +116,7 @@ flowchart LR
 - [[research_產業合作技術發表_2026-10-24]] — 3M PR Newswire 新聞稿與 Form 8-K，2026-10-19；入股玉晶光、Amazon 認股權證條款（官方 fact）。
 - [[261015_ubs_genius]] — UBS，2026-10-15；EBO 部署於 Azure、EBO MSA 成員、EBO TAM 估算（券商 estimate）。
 - [[memo_SemiAnalysis_EBO擴束連接器_20261024]] — SemiAnalysis X 串文，2026-10-23；EBO 光路圖、EBO vs MMC 取捨、Senko XBO 光背板（分析機構觀點；未點名 3M）。
+- [[memo_玉晶光PQ模型反推_UBS_20261102]] — 本庫反推，2026-11-02；UBS EBO ferrule TAM US$1 億隱含每顆 GPU 5 個、100% 滲透，並估 ferrule 約占 2028 年 EBO 整體市場 US$20 億的 5%（自建 estimate／低至中低）。
 
 ## 相關頁面
 

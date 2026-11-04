@@ -300,6 +300,10 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 - [[memo_大叔美股筆記_Marvell洽購Lumentum_20261029]]（2026-10-29）
 - [[報告_MorganStanley_穩懋3105_20261029]]（2026-10-29）
 
+- [[報告_GoldmanSachs_全新2455_20261102]]（2026-11-02）
+- [[報告_華南投顧_第四季總經股市產業展望_20261102]]（2026-11-02）
+- [[活動_同欣電6271_法說彙整_20261030]]（2026-10-30）
+
 ## 相關頁面
 
 - [[分析_20260908-18專家紀要受訪公司辨識與技術觀察]]（2026-10-23 將高功率 CW 訪談主體由 Coherent 更正為 Lumentum）
@@ -340,6 +344,7 @@ Lumentum 是光通訊與雷射元件大廠，在 CPO 浪潮中的關鍵角色是
 ### 圖片／架構圖（歷史補充）
 
 `[待補來源圖]` 需官方 IR 泵浦雷射或光源產品圖佐證，現有研究筆記不足以支撐產品示意圖。
+- [[6271_同欣電（市）]]（2026-11-02 批次新增引用）
 
 ## 泰國廠產能（小作文 2026-01）
 
@@ -456,6 +461,7 @@ ECTC 2026 論文：Lumentum 與 NVIDIA、[[2330_台積電（市）]] COUPE 平�
 - [[2026-08-12-LITE.OQ-Barclays-Lumentum Holdings Inc. Several Moving Pieces, All in Right ...-123789088]]（Barclays，2026-08-12）
 - [[2026-08-12-LITE.OQ-BNP Paribas-LUMENTUM HOLDINGS (+)  Lighting The Way-123789795]]（BNP Paribas，2026-08-12）
 - [[2026-08-12-LITE.OQ-JPMorgan-Lumentum F4Q26 Review Executing Ahead of Plan With Incremen...-123791452]]（JPMorgan，2026-08-12）
+- [[6706_惠特（市）]]
 
 ## 本次 ingest 更新（2026-09-01）
 

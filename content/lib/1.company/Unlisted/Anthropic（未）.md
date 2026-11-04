@@ -11,7 +11,7 @@ tags:
   - 環節/AI訓練
   - 環節/API服務
 maturity: private
-updated: 2026-11-01
+updated: 2026-11-02
 aliases:
   - Anthropic
   - Claude
@@ -177,6 +177,17 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 
 來源：報告_SemiAnalysis_企業Token預算調查_20260630
 
+## 近期營運與研究更新
+
+### 2026-11-01～11-02 IPO 與算力合約
+
+- 國泰 Good Morning：最快 11 月中旬上市，募資上看 US$100bn、估值 US$1.5–2tn，可能引發科技股資金挪移。
+- 艦長J：今年營收約 US$50bn，與算力商簽近 US$600bn 不可取消合約，為 AI 債務疑慮來源之一。玉山：Anthropic 首年採購高階 AI 伺服器即排名第八。SemiAnalysis GDPx：Opus 5.5 為最佳全能模型（晶片設計、硬體設計、量化交易第一）。
+
+> [!warning] 算力合約金額口徑：艦長J「近 US$600bn」；本頁既有記載 FOMOSoc 租賃＋購買承諾逾 US$587bn、大叔 US$780–810bn、永豐 US$637bn。
+
+來源：[[memo_國泰_GoodMorning_Anthropic上市聯發科鴻海聯電矽光子_20261102]]、[[memo_艦長J快訊_CSP未上線硬體與AI債務_20261101]]、[[報告_玉山_2027AI趨勢先進封裝玻璃基板光傳輸散熱_20261102]]、[[memo_SemiAnalysis_GDPx前沿模型能力基準_20261101]]。
+
 ## 來源
 
 - [[memo_AceCamp_Akamai_CPU算力與MaaS_20260930]] — AceCamp Tech匿名專家訪談，2026-09-30（Akamai CPU基建合作；GPU與MaaS部分為低信心渠道預估）。
@@ -208,6 +219,10 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 - [[memo_國泰證期_晨會日月光台達電譜瑞廣達AMZN_INTC_20261030]]（2026-10-30）
 - [[報告_Daiwa_台達電2308_20261029]]（2026-10-29）
 - [[memo_FOMOSoc_AnthropicS1四大重點_20261031]] — FOMO研究院電子報 KP 第 66 期 Anthropic S-1 深拆，2026-10-31
+- [[memo_國泰_GoodMorning_Anthropic上市聯發科鴻海聯電矽光子_20261102]]（2026-11-02）
+- [[memo_艦長J快訊_CSP未上線硬體與AI債務_20261101]]（2026-11-01）
+- [[報告_玉山_2027AI趨勢先進封裝玻璃基板光傳輸散熱_20261102]]（2026-11-02）
+- [[memo_SemiAnalysis_GDPx前沿模型能力基準_20261101]]（2026-11-01）
 
 ## 相關頁面
 

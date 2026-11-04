@@ -98,6 +98,9 @@ flowchart LR
 - [[memo_FOMOSoc_CoreWeave與AI基建_20261020]]（2026-10-20）
 - [[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]]（2026-10-21）
 
+- [[memo_SemiAnalysis_GDPx前沿模型能力基準_20261101]]（2026-11-01）
+- [[memo_艦長J快訊_CSP未上線硬體與AI債務_20261101]]（2026-11-01）
+
 ## 相關頁面
 
 - [[0100.HK(minimax)]]

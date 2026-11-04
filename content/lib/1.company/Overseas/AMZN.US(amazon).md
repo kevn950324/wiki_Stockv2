@@ -9,7 +9,7 @@ tags:
   - 產業/雲端
   - 產業/AI伺服器
   - 環節/雲端服務
-updated: 2026-10-30
+updated: 2026-11-02
 aliases:
   - Amazon
   - Amazon.com
@@ -110,6 +110,12 @@ FOMOSoc 引 Business Insider（10 月中）稱 AWS 內部「早期機櫃接收�
 
 ## 近期營運與研究更新
 
+### 2026-11-01 開源證券：3Q26 AWS
+
+- 營收 US$201.94bn（+12%），淨利 US$20.69bn（去年含 Anthropic 投資 US$9.5bn 收益）；4Q 指引 US$240–247bn；AWS US$45.98bn（+39%，近五年最快），積壓訂單 US$578bn（三位數成長），預期 2027–28 年 AWS +40%；3Q 資本支出 US$77.26bn，2026 年 US$220bn 維持、2027 再增。國泰 Good Morning：新增 US$80bn 融資工具。
+
+來源：[[報告_開源證券_海外AI巨頭財報總結_20261101]]、[[memo_國泰_GoodMorning_Anthropic上市聯發科鴻海聯電矽光子_20261102]]。
+
 ### 2026-10-29 3Q26 財報：AWS 加速、CapEx 續增（國泰 call memo／晨會）
 
 - **3Q26（fact）：** 營收 US$2,019 億（YoY +12%，低於預期 US$2,022.6 億），營業利益 US$281 億、營益率 13.9% 創高；EPS US$1.89（預期 US$1.97）。AWS 營收 US$460 億（YoY +39.3%）、營益率 38.7%、年化 run rate US$1,840 億；Ads US$196 億（YoY +12%，Prime Day 移至 2Q26 造成約 850bps 逆風）。
@@ -157,6 +163,13 @@ FOMOSoc 引 Business Insider（10 月中）稱 AWS 內部「早期機櫃接收�
 - [[活動_AmazonAMZN_國泰CallMemo_20261030]]（2026-10-30）
 
 - [[memo_FOMOSoc_AnthropicS1四大重點_20261031]]（2026-10-31）
+- [[報告_開源證券_海外AI巨頭財報總結_20261101]]（2026-11-01）
+- [[memo_國泰_GoodMorning_Anthropic上市聯發科鴻海聯電矽光子_20261102]]（2026-11-02）
+
+- [[memo_SemiAnalysis_資料中心反彈與2028建置_20261101]]（2026-11-01）
+
+- [[報告_MorganStanley_CloudSemis信驊瀾起與CSP資本支出_20261102]]（2026-11-02）
+- [[報告_MorganStanley_美國CSP3Q26財報與台灣硬體供應鏈_20261102]]（2026-11-02）
 
 ## 相關頁面
 
