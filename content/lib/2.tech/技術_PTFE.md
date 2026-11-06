@@ -6,7 +6,7 @@ tags:
   - 環節/CCL材料
   - 產業/AI伺服器
 maturity: early
-updated: 2026-10-27
+updated: 2026-11-05
 aliases:
   - PTFE
   - 聚四氟乙烯
@@ -246,8 +246,19 @@ gantt
 - [[技術_PCB鑽孔設備]]（PTFE 鑽孔、膠渣與鑽針黏附）
 - [[技術_背鑽]]
 
+## 近期營運與研究更新
+
+### 2026-11-04 台郡法說：純 PTFE 軟板路線
+
+- 台郡定位 PTFE 為高頻傳輸材料最後一個里程碑，含氟僅適用可回收管控的基礎建設；NVIDIA OCP 展示 NVLink PTFE 板，市場多討論混壓（含布）方案，台郡主攻純 PTFE，沿用 LCP 設備與經驗。backplane 若承擔約 80% 傳輸損耗，客戶先在 backplane 驗證；需 360 度以上高溫壓機，PTFE 材質軟、疊合後線路平整度是門檻，NVIDIA 用量大、非單一板廠可承擔。
+- 新廠投資規模 50~100 億元、年產值不低於 300 億元；導入時程取決於客戶驗證，connector 亦為瓶頸。
+
+來源：[[報告_中信_台郡6269_20261105]]、[[活動_台郡6269_富邦CallMemo_20261104]]。
+
 ## 來源
 
+- [[報告_中信_台郡6269_20261105]] — 中信投顧，2026-11-05
+- [[活動_台郡6269_富邦CallMemo_20261104]] — 富邦投顧 call memo，2026-11-04
 - [[報告_SemiAnalysis_PTFE延伸銅互連_20260820]] — SemiAnalysis，2026-08-20
 - [[JPM_PCB__CCL_and_Substra_2026-09-01_5431668(1)]] — J.P. Morgan，2026-09-01
 - [[GF - PCB- Content Upside & PTFE Adoption 20260909]] — GF Securities (HK)，2026-09-09

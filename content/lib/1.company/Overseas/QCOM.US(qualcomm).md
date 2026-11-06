@@ -109,6 +109,9 @@ flowchart LR
 
 來源：[[QCOM Q3 Earnings Call memo_Fubon 20260730]]（富邦證券，2026-07-30）；[[Qualcomm(QCOM,N_中立)-CTBC260730]]（中國信託，2026-07-30）。
 
+- [[報告_富邦_ArmARM財報CallMemo_20261105]]（2026-11-05）
+
 ## 相關頁面
 
 - [[時程_2026記憶體與AI催化劑]]
+- [[ARM.US(arm)]]

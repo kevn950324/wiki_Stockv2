@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 技術/矽光子
   - 環節/光纖與光通訊
-updated: 2026-10-30
+updated: 2026-11-04
 aliases:
   - Marvell
   - 邁威爾
@@ -26,6 +26,7 @@ related_companies:
   - "[[2330_台積電（市）]]"
   - "[[Polariton（未）]]"
   - "[[2360_致茂（市）]]"
+  - "[[ANET.US(arista)]]"
 ---
 
 # MRVL.US(marvell)
@@ -70,6 +71,12 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 - 公司表示 Ara 已向全球客戶大量出貨，Ara X、Ara T、Petra 與 Aquila M 自 2026Q1 起向客戶送樣；以上為公司官方產品與供貨說法，並不等同於特定客戶訂單或收入承諾。
 - Marvell 將 DSP、SerDes、交換器、互連、Driver、TIA、Silicon Photonics Light Engine 與 RELIANT telemetry 串成 scale-up、scale-out、scale-across 的端到端連結平台，強化其在 AI 資料中心互連的全棧定位。
 
+### 2026-03-16 加入 XPO MSA：外型與 DSP 架構分開
+
+- [[web_Marvell_加入XPOMSA_20260316]] 確認 Marvell 是 [[ANET.US(arista)]] 主導之 XPO MSA 創始成員，協議定義 AI 基礎建設用的新可插拔光模組外型（fact／高）。規格合作不等同於 Arista 已指定 Marvell 為獨家 DSP 供應商。
+- 單模組整合 64×200G＝12.8T，搭配約 400W 散熱能力的內建冷板；Marvell 以 16 顆模組／204.8T、1U（1.75 吋）示意，Arista 原文則用 1OU，兩者機構單位差異保留於 [[技術_光模塊]]。
+- XPO 支援 fully retimed、half retimed、linear optics，可覆蓋 DR、FR、LR、SR、ZR／ZR+ 等配置。對 Marvell 的觀察重點是最終採用的 DSP／重定時產品組合，不能由 XPO 名稱推論「全面去 DSP」；這項投資判讀為 inference／中，尚無本來源支持的訂單、ASP 或量產收入。
+
 ## 圖片 / 架構圖
 
 ![[報告_Semianalysis_CPO_20260102_016.png]]
@@ -92,6 +99,7 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 ## 供應鏈位置
 
 - 製造夥伴：[[2330_台積電（市）]]（PF chiplet 5nm）
+- 標準生態夥伴：[[ANET.US(arista)]] 主導 XPO MSA，Marvell 於 2026-03-16 確認為創始成員；本來源未揭露直接採購或獨家供應合約。
 - 所屬供應鏈：[[供應鏈_CPO]]
 
 ## 相關公司
@@ -103,6 +111,7 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 | [[2330_台積電（市）]] | 製造夥伴 | Celestial PF chiplet 5nm 代工 |
 | [[Polariton（未）]] | 收購對象 | 2026 年收購，plasmonics 調變器技術整合中 |
 | [[2360_致茂（市）]] | 客戶／測試設備鏈 | Aletheia 將 Marvell 列為致茂高功耗高 site-count SLT 的潛在成長客戶，屬券商觀點 |
+| [[ANET.US(arista)]] | 標準生態夥伴 | Arista 主導 XPO MSA，Marvell 為創始成員；供貨份額未揭露 |
 
 ## 券商觀點與催化劑
 
@@ -113,6 +122,7 @@ Polariton 里程碑：2022 低溫驗證 → 2025-03 **1.1 THz 世界紀錄** →
 | 時間 | 事件 | 類型 | 重要性 | 備註 |
 |---|---|---|---|---|
 | 2026-03-12 | Ara T／Ara X／Petra／Aquila M 1.6T DSP 平台宣布；OFC 2026 展示 | 新產品／驗證 | ⭐⭐⭐ | 公司公告 Ara 已大量出貨；四款新品自 2026Q1 起送樣，需追蹤客戶採用與量產收入 |
+| 2026-03-16 | 確認成為 XPO MSA 創始成員，預告 OFC 2026 現場展示 | 標準合作／展示 | ⭐⭐ | [[web_Marvell_加入XPOMSA_20260316]]；加入為 fact／高，展示為當時預告；跨公司節點見 [[時程_2026-2027高速互連與分散式算力]] |
 
 > [!warning] 關鍵 claim：Celestial AI 營收 run-rate（需追蹤時程）
 > - 來源：[[報告_Semianalysis_CPO_20260102]]（2026-01-02）轉述 Marvell 交易摘要與 Barclays 會議。
@@ -168,6 +178,7 @@ Aletheia p6–7把 Microsoft Maia200 描述為客戶自主架構、Marvell／[[2
 
 ## 來源
 
+- [[web_Marvell_加入XPOMSA_20260316]] — Marvell 官方部落格，2026-03-16（創始成員、12.8T 與重定時／線性配置）。
 - [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；創意專案、合作分工與未確認的上行情境。
 - [[報告_BofA_AgenticAI半導體市場_20260929]] — BofA，2026-09-29；Agentic AI 產業模型、個股估值與風險
 
@@ -204,6 +215,11 @@ Aletheia p6–7把 Microsoft Maia200 描述為客戶自主架構、Marvell／[[2
 - [[報告_MorganStanley_致茂2360_20261029]]（2026-10-29）
 
 - [[活動_環宇-KY4991_國泰CallMemo_20261103]]（2026-11-03）
+
+- [[報告_Daiwa_信驊5274_20261105]]（2026-11-05）
+- [[報告_MorganStanley_ABF載板ATS財報影響_20261105]]（2026-11-05）
+
+- [[活動_環宇-KY4991_珩石資本法說筆記_20261103]]（2026-11-03）
 
 ## 相關頁面
 

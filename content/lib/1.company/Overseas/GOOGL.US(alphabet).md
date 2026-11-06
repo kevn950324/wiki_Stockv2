@@ -241,6 +241,13 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 
 來源：[[活動_AlphabetGOOGL_國泰CallMemo_20261029]]、[[memo_國泰證期_晨會聯電台光電台燿穩懋鴻勁_20261029]]。
 
+### 2026-11-05 SemiAnalysis：TPUv7 AgentX 推論基準
+
+- SemiAnalysis 公布 TPUv7（Ironwood）在 InferenceX／AgentX（長上下文、多輪 agentic 推論）四個模型的結果：GLM-5.2 FP8 在 60～300 tok/s/user 的 tokens per dollar 為 B200、B300、MI355X 的 1.2～2.7 倍；Qwen3.5 397B FP8 以 llm-d 分離式服務在各互動區間勝過 GB300 FP8，perf per dollar 為 GB300 NVL72 FP4 的 1.67 倍；Kimi K3 為 GB200、B200、B300、MI355X 的 1.15～2.5 倍，但 GB300 FP4 經 NVIDIA 四次更新後領先 1.5～2.6 倍；Meta Muse Spark Open（head dim 64，對 TPU 不友善）仍具 decode perf per dollar 競爭力（fact／第三方基準）。
+- 外部客戶：Oracle、OpenAI、Anthropic、Meta 皆已成為 TPU 客戶；Meta 以 SGLang-TorchTPU 在生產環境部署 TPUv7。TPUv7 無原生 FP4，FP4 支援需待 1Q27 的 TPUv8；Rubin NVL72 perf per dollar 最高為 TPUv7 的 6 倍，SemiAnalysis 認為應與 TPUv8i 比較。
+- 生態系：與 PyTorch、vLLM（Inferact、RedHat）、SGLang（RadixArk）、llm-d、Ray 合作；開源 TPU-Sync 主機 DRAM 卸載框架；decode megakernel、SparseCore 處理稀疏注意力等最佳化。
+- 來源：[[memo_SemiAnalysis_GoogleTPUv7推論AgentX_20261105]]。
+
 ## 相關公司
 
 [[005930.KR(samsung)]] 為 TPU HBM 需求關聯。高盛 2026-09-30 認為三星在 Google TPU 等 ASIC HBM 供應具較強位置，屬渠道 estimate／中；未披露 Google 確認採購金額、份額或新增協議。
@@ -385,6 +392,14 @@ COT 路線保有核心 compute 設計，[[2454_聯發科（市）]] 提供部分
 - [[活動_富世達6805_法說彙整_20261103]]（2026-11-03）
 - [[活動_是方6561_國泰CallMemo_20261103]]（2026-11-03）
 
+- [[報告_富邦_ArmARM財報CallMemo_20261105]]（2026-11-05）
+- [[memo_SemiAnalysis_GoogleTPUv7推論AgentX_20261105]] — SemiAnalysis 電子報，2026-11-05；TPUv7 AgentX 推論基準
+
+- [[報告_BofA_京元電2449_20261105]]（2026-11-05）
+- [[報告_Citi_京元電2449_20261105]]（2026-11-05）
+- [[報告_Citi_創意3443_20261105]]（2026-11-05）
+- [[報告_中信_欣興3037_20261106]]（2026-11-06）
+
 ## 相關頁面
 
 - [[6442_光聖（市）]] — Google 資料中心高芯數光纖配線供應商（招商 2026-10-13 列為 Google 布線供應商之一）
@@ -402,6 +417,7 @@ COT 路線保有核心 compute 設計，[[2454_聯發科（市）]] 提供部分
 - [[分析_Gartner生成式AI模型市場與Token效率_20260906]]
 - [[分析_Gartner生成式AI模型市場與Token效率_20260906]]
 - [[分析_Lumentum_CPO_NPO_OCS與雷射產能_20260820]]
+- [[ARM.US(arm)]]
 
 - [[供應鏈_AI光互聯]]
 - [[2480_敦陽科（市）]]

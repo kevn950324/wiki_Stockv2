@@ -201,6 +201,14 @@ ASIC 前端 RTL／compute 設計的 AI 工具降低部分開發障礙，價值�
 
 國泰 GMI 訪談示範 prefill／decode 分離：prefill 偏運算、decode 偏記憶體頻寬；Dynamo 看 GPU 負載與 KV prefix 的位置調度，SSD warm cache 減少重做 prefill。32 GPU 場景稱速度 5.1x／吞吐 3.7x、成本降 30%，以及 cache 命中 3%→50%+，均為公司 benchmark，非通用保證。需同測 TTFT、TPOT、尾延遲、cache 命中率與 I/O；因資料搬移而增加的延遲可抵銷快取收益。
 
+## 2026-11-05 SemiAnalysis：TPUv7 AgentX 推論基準
+
+- AgentX 衡量 agentic 工作負載四要素：多輪（數十至數百輪）、長上下文、高前綴重用、子代理突發；InferenceX 已涵蓋 TPUv7、OpenAI Jalapeño、NVIDIA Rubin NVL72、AMD，即將加入 SambaNova 與 Trainium2／3。
+- 結果：TPUv7 FP8 為 GLM-5.2 最便宜的 FP8 方案（tokens per dollar 為 B200、B300、MI355X 的 1.2～2.7 倍、H200 的 4.4 倍），但 GB300／GB200 FP4 在 100 tok/s/user 為 TPUv7 的 3.6／3.5 倍；Qwen3.5 397B FP8 為 GB300 NVL72 FP4 的 1.67 倍；Kimi K3 上市時 TPUv7 為 GB300 的 0.77～0.91 倍，經 NVIDIA 四次更新後 GB300 FP4 領先 1.5～2.6 倍，VR200 為 TPUv7 的 4.3～5.6 倍。
+- 技術：decode megakernel（AMD 稱 MonoKernel，GLM-5.2 於 8 顆 MI350X 將 decode kernel launch 由約 2,459 次降至 210 次、batch 1 快 2.31 倍）；decode context parallelism（DCP）處理 MLA／壓縮 KV；TPUv7 SparseCore 處理 DSA 稀疏注意力索引；llm-d 快取感知路由使 decode cache hit rate 由 56% 升至 76%；KV cache 經 TPU-Sync 卸載至主機 DRAM。
+- 限制：TPUv7 無原生 FP4，TPUv8 FP4 支援待 1Q27；模型 head dim 64 時 TPU 脈動陣列 25% 被 padding；Anthropic、Google DeepMind 與未來 OpenAI 會為 TPU 共同設計注意力形狀。
+- 來源：[[memo_SemiAnalysis_GoogleTPUv7推論AgentX_20261105]]。
+
 ## 來源
 
 - [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；COT、TK1–3、APR／簽核、量產與營運資金。
@@ -215,6 +223,7 @@ ASIC 前端 RTL／compute 設計的 AI 工具降低部分開發障礙，價值�
 - [[報告_MorganStanley_聯發科_20260831]] — Morgan Stanley，2026-08-31；NVIDIA／Alphabet 參與 CB 與供應鏈資金用途 thesis
 - [[video_NVIDIA_GTC2026_AI平台與NVL576_202603]] — NVIDIA GTC 2026 Session S81911；MoE expert parallelism、NVLink／NVSwitch、Dynamo 與 NVL576 原型
 - [[報告_中信_ASIC產業近況_20261021]] — 中信投顧 ASIC 產業近況分享，2026-10-21
+- [[memo_SemiAnalysis_GoogleTPUv7推論AgentX_20261105]] — SemiAnalysis 電子報，2026-11-05；TPUv7 AgentX 推論基準
 
 ## 相關頁面
 

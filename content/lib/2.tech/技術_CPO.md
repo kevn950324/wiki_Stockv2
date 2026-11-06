@@ -1096,6 +1096,8 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 ## 相關頁面
 
 - [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]
+- [[1597_直得（櫃）]] — CPO Insertion 1～4 測試與主動光學對位的精密運動平台供應商（[[活動_直得1597_國泰CallMemo_20261105]]）
+- [[2360_致茂（市）]] — Citi：CPO 客戶 1Q27 量產，Insertion 3 測試機需求 YoY 4～5 倍（[[報告_Citi_致茂2360_20261105]]）
 
 - [[分析_2026-10-15_台積電3Q26法說與AI硬體券商更新]]
 - [[4908_前鼎（櫃）]]：台廠 ELSFP（20dBm 小量出貨、23dBm UHP 原訂 2026Q3 驗證）

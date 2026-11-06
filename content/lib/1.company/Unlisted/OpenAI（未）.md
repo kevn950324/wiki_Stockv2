@@ -105,6 +105,10 @@ flowchart LR
 - [[報告_富邦_AMD財報CallMemo_20261104]]（2026-11-04）
 - [[活動_AMD_國泰CallMemo_20261104]]（2026-11-04）
 
+- [[memo_FOMOSoc_AMD3Q26財報解剖_20261104]]（2026-11-04）
+
+- [[memo_SemiAnalysis_GoogleTPUv7推論AgentX_20261105]]（2026-11-05）
+
 ## 相關頁面
 
 - [[0100.HK(minimax)]]

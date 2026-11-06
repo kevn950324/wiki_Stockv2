@@ -15,13 +15,11 @@ tags:
   - 技術/800G乙太網路
   - 技術/1.6T乙太網路
   - 技術/scale-across
-updated: 2026-10-26
+updated: 2026-11-04
 aliases:
   - Arista
   - Arista Networks
   - ANET
-  - XPO
-  - XPO MSA
 related_companies:
   - "[[AVGO.US(broadcom)]]"
   - "[[META.US(meta)]]"
@@ -33,6 +31,7 @@ related_companies:
   - "[[6274_台燿（市）]]"
   - "[[2368_金像電（市）]]"
   - "[[7907_源傑科技（興）]]"
+  - "[[MRVL.US(marvell)]]"
 image_status: "已有來源圖"
 ---
 
@@ -54,6 +53,12 @@ Arista Networks 是美國資料中心乙太網交換器與網路軟體公司，�
 - **主導 XPO MSA、推 LPO**：2026 年 3 月主導成立 XPO MSA，推出更大尺寸的可插拔光模組外型，每模組 12.8T（約 8 個傳統光模組整合），1U 交換器最多裝 16 個 XPO、面板總頻寬 204.8T，保留熱插拔，並可搭配液冷、LPO 省掉 DSP；目標與 Tomahawk 7（1,024 條 200G SerDes）同期上市（[[報告_SemiAnalysis_NPO光互連接棒_20260713]]、[[memo_光通信大厂调研_CPO出货量_FAU_MPC方案_acecamptech_20260529]]）。
 - **大型叢集的 Spine／DCI 地位**：Spine 與 DCI 結構較複雜，CSP 多採品牌交換器；微軟的 Spine 與 DCI、Meta 的 Leaf／Spine 都以 Arista 為主要品牌（[[報告_福邦_PCB載板產業展望_20260401]]，引 650 Group）。
 
+### XPO 官方資料補充（2026-03）
+
+- [[web_Arista_XPO液冷可插拔光模組_20260311]] 明確定義 XPO 為 eXtra-dense Pluggable Optics：兩片 32 通道 paddle card 共用模組內液冷板，單顆 12.8T，相當於八顆 1.6T OSFP；16 顆合計 204.8T，官方圖說採 1OU，前面板頻寬密度約為 OSFP 的 4 倍（官方規格 fact／高）。先前專家資料寫 1U；機構單位差異見 [[技術_光模塊]]，不直接當成相同高度。
+- 散熱支援約 400W 高功耗光學配置；這是配置／散熱能力，不代表典型功耗。Arista 稱較氣冷 OSFP 元件溫度低 20–25°C、降低共用元件數及熱應力，有助可靠性，屬 company_comment／中，非第三方測試結論。
+- MSA 由 45 家創始成員共同參與；[[MRVL.US(marvell)]] 2026-03-16 確認為創始成員，且 XPO 可支援 fully retimed、half retimed 與 linear optics。因此 XPO 可搭配 DSP 或 LPO，不能將外型規格與去 DSP 混為一談。兩文均未確認量產日期或特定客戶訂單。
+
 ## 產品與應用
 
 | 產品 / 服務 | 應用 | 相關客戶 / 下游 |
@@ -65,6 +70,10 @@ Arista Networks 是美國資料中心乙太網交換器與網路軟體公司，�
 | XPO 光模組外型（MSA） | Tomahawk 7 世代高密度前面板 | 光模組夥伴：InnoLight、新易盛等 |
 
 ## 圖片 / 架構圖
+
+![[web_Arista_XPO液冷可插拔光模組_20260311_003.png]]
+
+圖說：Arista 204.8T 前面板配置示意，16 顆 XPO 安排於一個 Open Compute rack unit；這是設計示意，不代表已量產交付。來源：[[web_Arista_XPO液冷可插拔光模組_20260311]]，2026-03-11。
 
 ![[2026年網通產業展望_snapshot_c_112625_003.png]]
 
@@ -109,6 +118,8 @@ flowchart LR
 | 時間 | 事件 | 類型 | 重要性 | 備註 |
 |------|------|------|--------|------|
 | 2026-03 | 主導成立 XPO MSA | 技術標準 | ⭐⭐ | OFC 2026 發表 12.8T XPO |
+| 2026-03-11（原頁顯示日期） | 官方部落格介紹 12.8T XPO、內建液冷與 45 家創始成員生態 | 規格升級 | ⭐⭐ | [[web_Arista_XPO液冷可插拔光模組_20260311]]，fact／高；非商業量產日期；見 [[時程_2026-2027高速互連與分散式算力]] |
+| 2026-03-16 | Marvell 確認加入 Arista 主導的 XPO MSA，成為創始成員 | 標準合作 | ⭐⭐ | [[web_Marvell_加入XPOMSA_20260316]]，fact／高；非獨家供貨公告；跨公司節點見 [[時程_2026-2027高速互連與分散式算力]] |
 | 2026-08-05 | 2Q26 財報，2026 年營收目標上修到 126 億美元 | 財報 | ⭐⭐⭐ | AI fabric ≥35 億美元 |
 | 2H26 | 1.6T 交換器試量產 | 放量 | ⭐⭐⭐ | 1.6T 客戶為個位數但都是大客戶 |
 | 2026-10-19 | Meta 公開 Prometheus 跨建築網路採 Arista 7800 | 客戶驗證 | ⭐⭐ | Jericho3 深緩衝 |
@@ -139,6 +150,7 @@ flowchart LR
 | [[6274_台燿（市）]] | 上游材料 | 800G 交換器 CCL |
 | [[2368_金像電（市）]] | 上游 PCB | 400G 交換器 PCB |
 | [[7907_源傑科技（興）]] | 上游光模組（驗證中） | 1.6T LPO＋OEQ 送測；NPO 由 Arista 先導入 |
+| [[MRVL.US(marvell)]] | 標準生態夥伴 | XPO MSA 創始成員；共同推動可插拔外型，未由此確認獨家 DSP 採購關係 |
 
 > [!warning] 風險與注意事項
 > - 客戶集中：營收高度依賴 Microsoft、Meta 等少數 CSP，單一客戶資本支出調整影響大。
@@ -149,6 +161,8 @@ flowchart LR
 
 ## 來源
 
+- [[web_Arista_XPO液冷可插拔光模組_20260311]] — Arista 官方部落格，2026-03-11（XPO 架構、面板密度、液冷與可靠性設計）。
+- [[web_Marvell_加入XPOMSA_20260316]] — Marvell 官方部落格，2026-03-16（創始成員及重定時／線性架構支援）。
 - [[260805_ms_accton]]（Morgan Stanley，2026-08-05）：Arista 2Q26 財報與 2026 年財測
 - [[報告_GF_科技產業10月版_20261015]]（廣發證券香港，2026-10-15）：評等、目標價與 EPS 預估
 - [[報告_SemiAnalysis_NPO光互連接棒_20260713]]（SemiAnalysis，2026-07-13）：XPO vs. NPO

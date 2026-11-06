@@ -11,7 +11,7 @@ tags:
   - 環節/光收發模組
   - 環節/InP磊晶
   - 環節/OCS
-updated: 2026-10-30
+updated: 2026-11-05
 related_companies:
   - "[[GLW.US(corning)]]"
   - "[[2317_鴻海（市）]]"
@@ -255,6 +255,8 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 
 | 時間 | 事件 | 類型 | 資訊狀態 |
 |---|---|---|---|
+| FY3Q27～CY27 底 | PhotonLink 單季營收逾 US$1 億 → 逾 US$2.5 億；2H27 CPO／NPO scale-up 出貨 | 放量 | 公司指引；[[活動_CoherentCOHR_國泰CallMemo_20261104]] |
+| CY28 初 | 大型 AI 公司 5 年約 US$200 億 PhotonLink LTA 開始放量 | 訂單 | 公司說法；[[活動_CoherentCOHR_國泰CallMemo_20261104]] |
 | 2026-09 至 2026Q4（預估） | 德科立視角 DCI 樣品／認證接觸 | 驗證 | 計畫未核實，非正式批量訂單；[[時程_2026-2028_SOFC與載板DCI驗證]] |
 
 ### 既有時間軸
@@ -308,8 +310,22 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - 群組另轉傳 GIS-KY 接獲 Coherent CPO 光耦合元件（800G／1.6T）大單、Lumentum 轉述 Coherent 模組毛利約 mid-30%，均屬轉傳或第三方說法，信心低。
 - 來源：[[活動_聯鈞3450_法說Memo彙整_20260818]]、[[memo_LINE投資人超商_產業消息與群友討論彙整_20260725-20261004]]（I091）。
 
+## 近期營運與研究更新
+
+### 2026-11-04 FY1Q27 財報（國泰 call memo）：PhotonLink 再簽 5 年約 US$200 億 LTA、毛利率長期目標上修
+
+- FY1Q27（fact）：營收 US$23.7 億（QoQ +16%、YoY +50%；pro-forma YoY +56%），毛利率 40.6%（QoQ +37bps、YoY +184bps，定價優化、投入成本下降、良率改善與 6 吋 InP）；營業費用 US$4.12 億，營益率 23.2%；EPS US$2.09（QoQ +20%、YoY +80%）；資本支出 US$7.76 億，季末現金 US$23.4 億。
+- 資料中心與通訊占營收 82%，QoQ +21%、YoY +79%；資料中心 QoQ +17%、YoY +85%；1.6T 向多家客戶放量、800G 續增。通訊 QoQ +34%、YoY +84%，scale-across 營收逾 US$2 億（QoQ +53%，年化接近 US$10 億），multi-rail FY3Q27 放量，scale-across 單季營收 CY27 底前約倍增。工業持平但半導體設備訂單回升；CO2 雷射與硒化鋅光學用於 AI 伺服器 PCB 鑽孔。
+- PhotonLink：9 月 ECOC 推出整合光學平台（雷射、雷射模組、光纖組件等，涵蓋 CPO／NPO／scale-out／scale-up／chip-to-chip）。FY1Q27 與一家大型 AI 公司簽 5 年約 US$200 億 LTA，CY28 初放量，另有既有 NVIDIA LTA；逾 10 件 CPO、逾 10 件 NPO、逾 5 件 chip-to-chip 合作。PhotonLink 營收 FY3Q27 逾 US$1 億、CY27 底前單季逾 US$2.5 億；2H27 開始出貨 CPO／NPO scale-up 產品。100Tbps XPU／交換器晶片 PhotonLink 內容價值約 US$15,000。CPO＋NPO＋chip-to-chip 2030 年市場約 US$300 億。
+- InP：內部產能年倍增、較計畫提前一季，EML 單季產量新高（100G、200G）；德州與瑞典 6 吋產線良率優於 3 吋；CPO 用 400mW CW laser 屬 NVIDIA 合作範圍，FY2Q27 開始貢獻；CY27 底前產能再倍增，蘇黎世 1H27 開始 6 吋 InP。OCS 擴及 scale-across／out／up，320×320 平台，兩據點擴產。
+- 展望：FY2Q27 營收 US$25.5~27.5 億、毛利率 40~42%、EPS US$2.28~2.48；FY27 結束前首個單季營收 US$30 億，FY27 pro-forma 成長逾 60%；FY28 單季 US$40 億可見度清楚；CY28 底前首個單季毛利率逾 45%（較 18 個月前長期目標高 300bps）。CY27 訂單覆蓋佳，訂單延伸至 CY28；Thermadite 散熱材料 FY2Q27 送原型、2H27 貢獻。
+- 原訊息於 Q&A 第 21 題中段中斷，後續未收到。
+
+來源：[[活動_CoherentCOHR_國泰CallMemo_20261104]]。
+
 ## 來源
 
+- [[活動_CoherentCOHR_國泰CallMemo_20261104]] — 國泰證期 call memo（LINE），2026-11-04；FY1Q27 財報
 - [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄；「公司」判讀為 Coherent；ELSFP 份額、DFAU 分工、福州 FAU 擴產，低至中低信心）
 - [[memo_Coherent專家訪談_光模組量價_NPO_OCS_EML與獲利目標_日期不詳]] — 使用者提供之 Coherent 專家訪談整理稿，日期不詳（2026-10-05 收錄）；模組量價、DSP、NPO、FAU、OCS、EML／CW 與獲利目標，低信心
 - [[活動_聯鈞3450_法說Memo彙整_20260818]] — 聯鈞法說 Memo 彙整（群友、國泰、中信），2026-08-18；COSA 合作與 CW 雷射規格

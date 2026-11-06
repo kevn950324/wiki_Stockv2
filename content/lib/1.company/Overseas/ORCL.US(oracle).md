@@ -153,6 +153,9 @@ flowchart LR
 - [[報告_富邦_AMD財報CallMemo_20261104]]（2026-11-04）
 - [[活動_AMD_國泰CallMemo_20261104]]（2026-11-04）
 
+- [[memo_FOMOSoc_AMD3Q26財報解剖_20261104]]（2026-11-04）
+- [[報告_富邦_ArmARM財報CallMemo_20261105]]（2026-11-05）
+
 ## 相關頁面
 
 - [[DELL.US(dell)]]
@@ -165,3 +168,4 @@ flowchart LR
 - [[供應鏈_AI光互聯]]
 - [[MMM.US(3m)]]（EBO MSA：3M 主導、Oracle 共同主席）
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]（EBO MSA 初版規格待定）
+- [[ARM.US(arm)]]

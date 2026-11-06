@@ -8,7 +8,7 @@ tags:
   - 公司/CoreWeave
   - 環節/雲端服務
   - 產業/AI伺服器
-updated: 2026-10-27
+updated: 2026-11-06
 aliases: [CoreWeave]
 related_companies:
   - "[[MSFT.US(microsoft)]]"
@@ -86,6 +86,7 @@ CoreWeave 是提供 GPU 雲端與 AI 基礎設施的雲端服務商，核心成�
 > - 客戶集中、GPU 供應與雲端價格競爭會影響成長品質。
 
 ## 來源
+- [[memo_M報_350_Intel財報與AgenticAI_CPU需求_20261106]] — M報 #350，2026-11-06；作者引用 CoreWeave 無擔保公司債次級市場殖利率約 15%，作為 AI 投資便宜資金轉緊的訊號（作者觀點）。
 - [[CoreWeave（CRWV US）0818]] — 券商研究，2026-08-18
 - [[memo_FOMOSoc_CoreWeave與AI基建_20261020]] — FOMOSoc 電子報，2026-10-20（信件版截斷）
 - [[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]] — 大叔美股筆記轉述 Nomura，2026-10-21

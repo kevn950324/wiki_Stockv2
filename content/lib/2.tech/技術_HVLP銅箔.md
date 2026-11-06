@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/PCB材料
 maturity: developing
-updated: 2026-10-20
+updated: 2026-11-05
 aliases:
   - HVLP
   - HVLP4
@@ -115,8 +115,22 @@ gantt
 
 → [[供應鏈_AI伺服器PCB]]
 
+## 近期營運與研究更新
+
+### 2026-11-04 Morgan Stanley：HVLP4 供需與市占模型
+
+- MS 更新 HVLP4 供需模型（納入金居馬來西亞擴產與中韓廠擴產計畫）：2026E 供需比 89%、2027E 108%（供給缺口約 8%）、2028E 87%（過剩約 13%）；比值 >100% 代表供不應求。
+- 依產能估 HVLP4 市占：2026E 三井金屬 38%、Furukawa 15%、Fukuda 13%、金居 12%、CFL 4%、其他 17%；2028E 三井 23%、金居 22%、Furukawa 8%、Fukuda 4%、CFL 4%、其他 39%。金居馬來西亞新廠 2028 年底起新增約 2 萬噸／年 HVLP3/4；4Q26 起加工費調漲約 10%，主要競爭者最快 12 月宣布調漲。
+- 金居 RG 系列約相當 HVLP1/2，為伺服器 R-PCB 銅箔主力。
+
+![[報告_MorganStanley_金居8358_20261104_001.png]]
+*圖（Morgan Stanley，2026-11-04）：金居 HVLP3/4 與 RG 產能假設，以及 2026E／2028E 全球 HVLP4 供應商產能市占，顯示 2028 年金居與中韓廠擴產後供給轉鬆、三井市占下滑。*
+
+來源：[[報告_MorganStanley_金居8358_20261104]]。
+
 ## 來源
 
+- [[報告_MorganStanley_金居8358_20261104]] — Morgan Stanley，2026-11-04；HVLP4 供需與市占模型
 - [[報告_Semianalysis_PCB_20250826]]（AI Server PCB Super Cycle; Copper Foil Content Upgrade，2025-08-26）
 
 ---

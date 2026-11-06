@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/CCL材料
 maturity: mature
-updated: 2026-10-27
+updated: 2026-11-05
 aliases:
   - FR-4
   - FR4
@@ -294,7 +294,16 @@ AI 伺服器主要用**薄布**（1067 等規格），vs 消費電子常用厚�
 
 → [[供應鏈_AI伺服器PCB]]
 
+## 近期營運與研究更新
+
+### 2026-11-04 Panasonic 新竹 CCL 廠火災（Morgan Stanley）
+
+- Panasonic 新竹廠月產能約 20 萬張，以 M6／M7 與部分低階 BT 載板 CCL 為主；高階 M7／M8 主要在福島。Panasonic 正把產能轉向美國 hyperscaler 自研 ASIC 用高階 CCL，火災可能加速轉移，短期訂單外溢台廠；MS 認為台光電最可能受惠，其次台燿與生益科技。
+
+來源：[[報告_MorganStanley_PanasonicCCL廠火災影響_20261104]]。
+
 ## 來源
+- [[報告_MorganStanley_PanasonicCCL廠火災影響_20261104]] — Morgan Stanley，2026-11-04
 - [[報告_UBS_南亞CCL漲價與產品升級_20260928]] — UBS，2026-09-28；一般品價格、M6+ mix、垂直整合與 Gen2 Low-Dk 紗
 - [[報告_GoldmanSachs_台灣PCB_CCL_TPCA巡禮_20261025]] — Goldman Sachs，2026-10-25
 - [[報告_BofA_TPCA2026_20261026]] — BofA，2026-10-26

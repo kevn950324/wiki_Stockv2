@@ -203,6 +203,8 @@ Dell 在 NVIDIA GTC Berlin 發布新聞稿（Business Wire，2026-10-21），把
 - [[報告_富邦_AMD財報CallMemo_20261104]]（2026-11-04）
 - [[活動_AMD_國泰CallMemo_20261104]]（2026-11-04）
 
+- [[memo_FOMOSoc_AMD3Q26財報解剖_20261104]]（2026-11-04）
+
 ## 2026-09-02 國泰證期 Call Memo 補充
 
 - FY2Q27 營收 US$47bn、ISG 營收 US$31.8bn、AI 伺服器營收 US$16.4bn，且 AI 訂單／積壓分別為 US$60.9bn／US$95bn，均為公司揭露的季度 fact。

@@ -428,6 +428,18 @@ Ibiden（日本，未建頁）：全球 ABF 載板龍頭，NV GB300 主供應商
 
 客戶出資設備有指定用途，需求減少時難以轉投其他客戶；判斷供給需同時看材料、良率、產品組合和設備可轉用性。原文 2028 年同列 65 與 80 million units，年度及計量頻率待確認，不併入本頁既有標準化產能表。
 
+## 2026-11-05～06 新增：GPU／ASIC 載板規格、EMIB 與 AT&S
+
+- 中信投顧整理主流 GPU／ASIC 載板規格：NVIDIA H200 55x55mm／12L、B200／B300 75x85mm／16～20L、Rubin 95x95～100x100mm／18～24L、Rubin Ultra 120x120mm+／24～30L；AMD MI450 110x110mm／26～28L；Google TPU v7 80x80～90x90mm／14～18L、v8i／v8t 100x100mm／18～22L；AWS Trainium 4 90x90～100x100mm／18～24L；Microsoft Maia M300 105x105mm／24L；Meta MTIA3 100x100mm／24L。中信估單顆晶片 ABF 消耗量增加 10～12 倍、content value 提升 4 倍以上，2027 年 ABF 供需缺口逾 30%、漲幅上看 30%（[[報告_中信_欣興3037_20261106]]）。
+- EMIB vs CoWoS：CoWoS 為晶片 → 台積電中介層 → 載板三層，載板屬被動承載；EMIB 移除中介層，在載板增層中埋入矽橋完成高密度互連，EMIB-T 再於矽橋加入 TSV 以支援更大封裝與 HBM4。載板廠需挖槽、對位埋入矽橋並控制大尺寸翹曲，content value 高於 CoWoS；欣興 EMIB 良率目標 50%，EMIB 載板供應商約 5 家、EMIB-T 約 3 家（[[報告_中信_欣興3037_20261106]]）。
+- T-glass：約 70% 需求來自 ABF、30% 來自 BT；Nittobo 約占供給 40%，2027 年新產能增幅有限，缺口延續至 2028 年（中信）。
+- AT&S：Microelectronics（ABF）EBIT margin 3Q 季增 580bp 至 30.5%（量、組合、報價改善），Kulim 擴產 EUR1.5～2.0bn 由 AMD 與另一科技大廠長約支撐，並擴大與 Marvell 合作；MS 視為欣興、南電正面訊號（[[報告_MorganStanley_ABF載板ATS財報影響_20261105]]）。
+- 南電 4Q26 ABF 漲約 10%（Daiwa），不接受 LTA、議價力最高；欣興 4Q26 ABF QoQ +10%、ABF 毛利率往 50% 以上（中信）。
+
+![[報告_中信_欣興3037_20261106_002.png]]
+
+圖說：中信示意 EMIB 與 CoWoS 封裝結構差異——EMIB 以埋入載板的矽橋取代整片中介層，部分封裝工序內化到載板製程，是 EMIB 平台載板單價高於 CoWoS 的原因。
+
 ## 來源（補充）
 
 - [[報告_富邦_TPCA2026Day2_20261021]] — 富邦投顧，2026-10-21；TPCA Day2：Nittobo T-glass 擴產與缺口、景碩 Multi-Layer Core／Glass／Ceramic Core。
@@ -563,6 +575,9 @@ Morgan Stanley（2026-02-22）首次升評欣興至 OW（from EW）、南電至 
 - [[memo_ABF载板专家访谈总结_供需格局演变_材料瓶颈_acecamptech_20260518]]（供給瓶頸層級、定價機制、CoWoP 評估）
 - [[memo_ABF需求被出货量模型低估_AI时代_acecamptech_20260526]]（正確需求方程、FC-BGA 格局、CoPoS 延遲）
 - [[memo_日本CCL龙头产品及供应链分析_acecamptech_20260427]]（Resonac 市場地位、T-glass 供應鏈層級）
+- [[報告_中信_欣興3037_20261106]] — 中信投顧，2026-11-06；GPU／ASIC 載板規格、EMIB、T-glass
+- [[報告_MorganStanley_ABF載板ATS財報影響_20261105]] — Morgan Stanley，2026-11-05；AT&S 財報對 ABF 同業意涵
+- [[報告_Daiwa_南電8046_20261105]] — Daiwa，2026-11-05；南電 4Q26 ABF 漲價
 
 ## 相關頁面
 
