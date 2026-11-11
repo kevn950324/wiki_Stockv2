@@ -5,7 +5,7 @@ tags:
   - 產業/光通訊
   - 環節/光通訊
 maturity: mature
-updated: 2026-11-02
+updated: 2026-11-07
 aliases:
   - FAU
   - MCF FAU
@@ -80,6 +80,8 @@ dFAU／DFAU 的官方全名是 **Detachable Fiber Array Unit（可拆卸式光�
 
 ![[報告_Semianalysis_CPO_20260102_010.png]]
 *圖（SemiAnalysis，2026-01）：NPO（Near-Packaged Optics）架構剖面——FAU 標示於 PIC+EIC 光引擎（Optical Engine）與光纖陣列的對接界面。圖中呈現的是 FAU 的光學對準位置，不足以單憑剖面判定其為固定式或可拆式；dFAU 則是另以可重複插拔介面改善測試與維修性的設計。*
+
+供應鏈圖譜：[[供應鏈_FAU.canvas]]——從 SMF／PMF、V-Groove、PMLA、MMC、UV 膠等零組件，經穿纖、固化、研磨製成 FAU，再由主動對位耦合貼上 PIC 光引擎，各環節標註廠商與設備（2026-11-07 依本頁與 [[供應鏈_CPO]] 既有口徑整理）。
 
 ## 技術原理
 

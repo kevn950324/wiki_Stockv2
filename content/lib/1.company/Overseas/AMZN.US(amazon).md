@@ -9,16 +9,20 @@ tags:
   - 產業/雲端
   - 產業/AI伺服器
   - 環節/雲端服務
-updated: 2026-11-02
+updated: 2026-11-10
 aliases:
   - Amazon
   - Amazon.com
   - AWS
+  - Amazon Bedrock
+  - AWS GovCloud
+  - Nitro Sandboxes
 related_companies:
   - "[[3443_創意電子（市）]]"
   - "[[索爾思光電（未）]]"
   - "[[MMM.US(3m)]]"
   - "[[3406_玉晶光（市）]]"
+  - "[[Anthropic（未）]]"
 ---
 
 # AMZN.US(amazon)
@@ -110,6 +114,12 @@ FOMOSoc 引 Business Insider（10 月中）稱 AWS 內部「早期機櫃接收�
 
 ## 近期營運與研究更新
 
+### 2026-11-09 Bedrock 首日上架 Claude Fable 5.2、推出 Nitro Sandboxes（官方）
+
+- [[Anthropic（未）]] 發表 Claude Fable 5.2 當天，AWS 即在 Amazon Bedrock、Claude Platform on AWS 與 AWS GovCloud (US) 上架；Mythos 5.2 在 GovCloud 只開放給經 Anthropic Cyber Verification Program 列入允許名單的機構。延續 AWS 作為 Anthropic 主要雲端與 Trainium 算力夥伴的關係。
+- Nitro Sandboxes：以 Nitro 硬體隔離執行不受信任的工作負載（AI agent、LLM 產生的程式碼），支援 EKS、ECS、EC2；同日 EKS Auto Mode／Karpenter 支援 Dynamic Resource Allocation（NVIDIA GPU 與 EFA）。
+- 來源：[[research_產業合作技術發表_2026-11-10_2]]（AWS What's New，fact）。
+
 ### 2026-11-01 開源證券：3Q26 AWS
 
 - 營收 US$201.94bn（+12%），淨利 US$20.69bn（去年含 Anthropic 投資 US$9.5bn 收益）；4Q 指引 US$240–247bn；AWS US$45.98bn（+39%，近五年最快），積壓訂單 US$578bn（三位數成長），預期 2027–28 年 AWS +40%；3Q 資本支出 US$77.26bn，2026 年 US$220bn 維持、2027 再增。國泰 Good Morning：新增 US$80bn 融資工具。
@@ -130,6 +140,7 @@ FOMOSoc 引 Business Insider（10 月中）稱 AWS 內部「早期機櫃接收�
 
 ## 來源
 
+- [[research_產業合作技術發表_2026-11-10_2]] — AWS What's New 官方彙整，2026-11-09；Bedrock／GovCloud 上架 Claude Fable 5.2 與 Mythos 5.2、Nitro Sandboxes。
 - [[research_產業合作技術發表_2026-10-24]] — 3M 新聞稿與 Form 8-K，2026-10-19；Amazon 認股權證條款、3M 入股玉晶光。
 - [[memo_SemiAnalysis_Trainium3訓練與TorchNeuron_20261024]] — SemiAnalysis，2026-10-23；Trainium3 TorchNeuron／TorchTitan 實測、編譯時間、CI 與 profiler。
 - [[memo_FOMOSoc_KP思考筆記65_SpaceX特斯拉Nebius晶片過剩_20261024]] — FOMO研究院 KP，2026-10-24；AWS Early Rack Receipt、SemiAnalysis「晶片過剩」原意與 2027 年 50GW。
@@ -177,6 +188,16 @@ FOMOSoc 引 Business Insider（10 月中）稱 AWS 內部「早期機櫃接收�
 - [[報告_富邦_ArmARM財報CallMemo_20261105]]（2026-11-05）
 
 - [[報告_中信_欣興3037_20261106]]（2026-11-06）
+
+- [[報告_BofA_緯穎6669_20261107]]（2026-11-07）
+- [[報告_MorganStanley_世芯3661_20261108]]（2026-11-08）
+- [[報告_MorganStanley_緯穎6669_20261108]]（2026-11-08）
+- [[報告_中信_世芯3661_20261109]]（2026-11-09）
+- [[報告_中信_勤誠8210_20261109]]（2026-11-09）
+
+- [[報告_Daiwa_金像電2368_20261110]]（2026-11-10）
+- [[報告_GoldmanSachs_金像電2368_20261110]]（2026-11-10）
+- [[報告_凱基_臻鼎4958_20261110]]（2026-11-10）
 
 ## 相關頁面
 

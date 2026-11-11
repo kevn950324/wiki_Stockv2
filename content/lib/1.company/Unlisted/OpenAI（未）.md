@@ -10,7 +10,7 @@ tags:
   - 產業/AI半導體
   - 環節/AI軟體平台
   - 環節/AI軟體平台
-updated: 2026-10-22
+updated: 2026-11-11
 image_status: "待補來源圖"
 aliases:
   - OpenAI
@@ -76,6 +76,10 @@ flowchart LR
 > - 未上市，財務資訊不完整；客戶資訊來自供應商揭露
 > - Stargate 計畫執行延遲風險；資本配置可能調整供應商組合
 
+## 2026-11-10 台積電入股
+
+- 台積電 11/10 董事會核准以不超過 5 億美元認購 OpenAI Group PBC 特別股（與 Anthropic 合計最高 10 億美元）。[[報告_群益_台積電投資Anthropic與OpenAI_20261111]]
+
 ## 來源
 
 - [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29。
@@ -108,6 +112,9 @@ flowchart LR
 - [[memo_FOMOSoc_AMD3Q26財報解剖_20261104]]（2026-11-04）
 
 - [[memo_SemiAnalysis_GoogleTPUv7推論AgentX_20261105]]（2026-11-05）
+- [[memo_SemiAnalysis_中國內蒙古Galaxy園區800VDC與SGLS_20261107]]（2026-11-07；Stargate Abilene 規模對照：Crusoe 2024 年中動工、租給 Oracle 供 OpenAI 使用，8 棟 1.2GW 電力約 820MW 關鍵 IT 容量，擴建後全場 1.5GW IT；信件版截斷，信心中）
+
+- [[報告_群益_台積電投資Anthropic與OpenAI_20261111]]（2026-11-11）
 
 ## 相關頁面
 

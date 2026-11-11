@@ -11,17 +11,22 @@ tags:
   - 環節/AI訓練
   - 環節/API服務
 maturity: private
-updated: 2026-11-04
+updated: 2026-11-11
 aliases:
   - Anthropic
   - Claude
   - Anthropic PBC
+  - Claude Fable 5.2
+  - Claude Mythos 5.2
+  - Claude Cowork
+  - Cyber Verification Program
 related_companies:
-  - "AMZN.US(amazon)"
+  - "[[AMZN.US(amazon)]]"
   - "[[GOOGL.US(alphabet)]]"
   - "[[AMD.US(amd)]]"
   - "[[META.US(meta)]]"
   - "[[AVGO.US(broadcom)]]"
+  - "[[CRWD.US(crowdstrike)]]"
 ---
 
 # Anthropic（未）
@@ -118,6 +123,9 @@ Anthropic 是美國 AI 安全公司，旗下 **Claude** 模型系列為主力產
 | Claude Sonnet 4.6 | $3 | $15 | 當前版本 |
 | Claude Haiku 4.5 | $1 | $5 | 低成本高速 |
 
+> [!info] 2026-11-09 新世代定價
+> Claude Fable 5.2：每百萬 token 輸入 $8、輸出 $40（比 Fable 5 的 $10／$50 低 20%）；fast mode 為 $16／$80，生成速度最高 2.5 倍。Mythos 5.2 與 Fable 5.2 是同一個模型，只開放給審核機構。來源：[[research_產業合作技術發表_2026-11-10_2]]（Anthropic 官方，fact）。
+
 ## EPS 記錄
 
 - **3Q2026 Non-GAAP 淨利**：>$1B（報告標題直接揭示）
@@ -179,6 +187,16 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 
 ## 近期營運與研究更新
 
+### 2026-11-09 Claude Fable 5.2／Mythos 5.2 發表（官方）
+
+- **雙軌發布**：兩者是同一個底層模型。Fable 5.2 加強資安與生物領域防護，開放所有用戶；Mythos 5.2 只透過 Cyber Verification Program 或 Life Sciences Verification Program 開放給審核機構。官方稱多數評測能力高於 Opus 5.5。
+- **Benchmark**（Fable 5.2 對 Opus 5.5）：FrontierSWE v2 69.9% 對 62.3%；Humanity's Last Exam（含工具）74.2% 對 67.7%；Remote Labor Index 41.3% 對 21.3%；FrontierCode 2.0（Xhigh）49.1% 對 45.5%。資安：Mythos 5.2 的 CVE Rediscovery 89.6%，找到的漏洞比 Opus 5.5 多 10.2%、比 Mythos 5.1 多 14.4%。
+- **速度與定價**：輸出比 5.1 快最多 30%；API $8／$40，fast mode $16／$80（見上方模型定價）。
+- **通路**：AWS（Bedrock、GovCloud 同日上架；GovCloud 的 Mythos 5.2 限審核名單）、Google Cloud、Microsoft Azure／Foundry；Claude Enterprise 客戶可用以 Mythos 5.2 為底的 Claude Security。
+- **安全**：防濫用分類器誤擋比 Fable 5.1 少約 55%；反蒸餾防禦使被蒐集資料減少 90%～99%；部分 AI 研發能力刻意壓在 Opus 5.5 水準；外部測試者包含英國 AI Security Institute 與 METR。
+- **資安生態**：CrowdStrike 11-03 宣布把 Falcon Guardian AIDR 原生整合進 Claude Cowork，由 Anthropic 開放部署、CrowdStrike 負責工程與測試（見 [[CRWD.US(crowdstrike)]]）。
+- 來源：[[research_產業合作技術發表_2026-11-10_2]]（官方新聞稿，fact）。
+
 ### 2026-11-03 M報 #349：S1 文件重點（作者解讀，含推估）
 
 - S1 揭露股票代碼將用 ANT；上半年虧損 US$80.7bn 中約 US$72.4bn 為可轉債評價／轉換差額；2Q26 營業利益 US$974mn（fact，依 S1）。
@@ -197,8 +215,16 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 
 來源：[[memo_國泰_GoodMorning_Anthropic上市聯發科鴻海聯電矽光子_20261102]]、[[memo_艦長J快訊_CSP未上線硬體與AI債務_20261101]]、[[報告_玉山_2027AI趨勢先進封裝玻璃基板光傳輸散熱_20261102]]、[[memo_SemiAnalysis_GDPx前沿模型能力基準_20261101]]。
 
+## 2026-11-10 S1 第三季數字與台積電入股
+
+- M報整理更新版 S1：3Q26 營收 169.56 億美元（季增 46.7%、年增 1126.9%），模型降價與合約折扣抵銷約 6 億美元營收成長；營收成本約 24.32 億美元，推論毛利率約 85.7%（上半年 85.4%）。[[memo_M報_Anthropic_S1第三季更新_20261110]]
+- 總算力費用由 2Q26 55.58 億美元增至 3Q26 98.63 億美元，訓練與內部用途由約 38.7 億美元增至約 74.3 億美元；SpaceX 來自 Anthropic 的收入由約 15.2 億美元增至約 50.3 億美元，約占新增算力費用八成（作者推論）。
+- 3Q26 GAAP 營業虧損 5.67 億美元，含 19.6 億美元非現金慈善費用，排除後營業利益約 14 億美元；作者估 IPO 估值約 1.5 兆美元（thesis，非公司資訊）。
+- 台積電 11/10 董事會核准以不超過 5 億美元認購 Anthropic 普通股，價格依 IPO 價格而定。[[報告_群益_台積電投資Anthropic與OpenAI_20261111]]
+
 ## 來源
 
+- [[research_產業合作技術發表_2026-11-10_2]] — 官方發表彙整，2026-11-10；Fable 5.2／Mythos 5.2、AWS 上架、CrowdStrike×Claude Cowork。
 - [[memo_M報_AnthropicS1與Google微軟財報_20261103]] — M報 #349，2026-11-03；S1 重點。
 - [[memo_AceCamp_Akamai_CPU算力與MaaS_20260930]] — AceCamp Tech匿名專家訪談，2026-09-30（Akamai CPU基建合作；GPU與MaaS部分為低信心渠道預估）。
 
@@ -242,8 +268,12 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 
 - [[memo_SemiAnalysis_GoogleTPUv7推論AgentX_20261105]]（2026-11-05）
 
+- [[報告_群益_台積電投資Anthropic與OpenAI_20261111]]（2026-11-11）
+
 ## 相關頁面
 
+- [[分析_AI驅動資安支出2026]]
+- [[分析_資安十強Agent端防護比較_20261005]]
 - [[0100.HK(minimax)]]
 - [[2513.HK(z.ai)]]
 - [[分析_中國基礎模型_Token經濟與算力瓶頸_20260905]]

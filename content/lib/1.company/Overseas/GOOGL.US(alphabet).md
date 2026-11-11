@@ -14,12 +14,18 @@ tags:
   - 主題/Gemini
   - 主題/Waymo
   - 環節/雲端服務
-updated: 2026-11-04
+updated: 2026-11-10
 aliases:
   - Google
   - Alphabet
   - GOOGL
   - GOOG
+  - TPU 8t
+  - TPU 8i
+  - TPU 8tx
+  - TPU 8i Max
+  - GTIG
+  - Google Threat Intelligence Group
 related_companies:
   - "[[3443_創意電子（市）]]"
   - "[[005930.KR(samsung)]]"
@@ -32,6 +38,7 @@ related_companies:
   - "[[2454_聯發科（市）]]"
   - "[[COHR.US(coherent)]]"
   - "[[MA.US(mastercard)]]"
+  - "[[AMD.US(amd)]]"
 ---
 
 # GOOGL.US(alphabet)
@@ -182,6 +189,7 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 | 2026 年底起 | 外部 TPU 系統收入加速 | 放量 | ⭐⭐⭐ | 2Q26 已開始交付；多數既有協議收入預計 2027 年認列 |
 | 2026-08-31 | 參與聯發科 US$3.9bn 海外可轉債發行 | 策略投資／供應鏈 | ⭐⭐⭐ | 參與為 fact；Alphabet 個別投資金額未於本次來源單獨揭露 |
 | 2026／2027（估計） | 向 Coherent 採購 OCS 約 1,300 台／約 4,000 台 | 供應鏈／放量 | ⭐⭐ | Coherent 專家訪談 estimate，低信心；不等於 Google OCS 全路線總量 |
+| 2026-11-10 | 第八代 TPU 新增 8tx（機密運算推論，搭 AMD EPYC）與 8i Max（雙 8i 封裝）；GKE OCS dynamic slicing GA | 技術／產品 | ⭐⭐⭐ | 官方 fact；GA 時程與完整規格未揭露，[[research_產業合作技術發表_2026-11-10_2]] |
 
 ---
 
@@ -202,6 +210,22 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 來源：[[memo_AceCamp_Coherent液晶OCS模組_20260929]]（2026-09-29）、[[memo_AceCamp_Infineon_AI電源與800V_20260930]]（2026-09-30）；辨識見 [[分析_20260929-30專家紀要受訪公司辨識與供給驗證]]。
 
 ## 近期營運與研究更新
+
+### 2026-11-10 第八代 TPU：新增 8tx 與 8i Max（官方）
+
+- **四款系統**：TPU 8t（大規模訓練，訓練效能最高為上一代 2.7 倍）、TPU 8i（推論，推論性價比提升最多 80%，晶片間通訊延遲減半，低延遲 Boardfly 網路），以及本次新增：
+  - **TPU 8tx**：與 8t 同一顆晶片，搭配 [[AMD.US(amd)]] 第五代 EPYC 主機，提供硬體級機密運算，隔離使用中的資料與模型權重；多步驟 agent 延遲比 8t 低最多一半，官方稱效能損失接近零。也適合小規模訓練。
+  - **TPU 8i Max**：一個封裝放兩顆 TPU 8i，運算、SRAM 與 HBM 頻寬都是 8i 的兩倍，同樣機櫃空間放入兩倍矽面積，鎖定超長 context。
+- **軟體堆疊**：TorchTPU（原生 PyTorch／Hugging Face，vLLM 與 SGLang 的 TPU backend）、開源 TPU Sync（KV cache 分層，KV 傳輸延遲與首 token 時間降超過 90%）、開源 XLA Serving Engine、Agent Compute Engine（閒置 agent session 暫停與恢復）、Cloud Pathways 在 GKE GA；TPU agent 套件（preview）可整合 Claude Code、Cursor、Antigravity。
+- **光通訊相關**：GKE dynamic slicing GA，以 OCS 光路交換依需求組合或切分 TPU cube，工作啟動快最多 5 倍、故障恢復快最多 4.5 倍（OCS 原理見 [[技術_光互連]]）。
+- 文中未揭露 FLOPS、HBM 容量、ICI 頻寬、pod 規模、GA 時程，也未點名客戶，只說 TPU 有近 100 家客戶。
+- 來源：[[research_產業合作技術發表_2026-11-10_2]]（Google Cloud Blog，Amin Vahdat，fact）。
+
+### 2026-11-03 GTIG：LLMJacking 威脅研究（官方）
+
+- Google Threat Intelligence Group 揭露攻擊者盜用雲端身分憑證（IAM、Service Account key、GitHub PAT、session token）後轉售 LLM API 存取：單一事件一天詐欺費用超過 US$10 萬，部分組織撤銷權限前累計約 US$100 萬；已形成初始入侵者與「LLM Mixer」轉售商的分工；另有攻擊者利用 LiteLLM 漏洞 CVE-2026-40217 提權。
+- 意義：AI 用量本身成為新的攻擊面與成本風險，見 [[分析_AI驅動資安支出2026]]。
+- 來源：[[research_產業合作技術發表_2026-11-10_2]]（fact，威脅研究）。
 
 ### 2026-11-03 M報 #349：Gemini 4 Carbon 與 3Q26 財報
 
@@ -294,6 +318,7 @@ COT 路線保有核心 compute 設計，[[2454_聯發科（市）]] 提供部分
 
 ## 來源
 
+- [[research_產業合作技術發表_2026-11-10_2]] — 官方發表彙整，2026-11-10；TPU 8tx／8i Max、TPU Sync、GKE OCS dynamic slicing、GTIG LLMJacking。
 - [[memo_M報_AnthropicS1與Google微軟財報_20261103]] — M報 #349，2026-11-03；Gemini 4 Carbon 與 3Q26 財報。
 - [[research_產業合作技術發表_2026-10-22]] — NVIDIA 官方部落格彙整，2026-10-21；Google Cloud A5X（Vera Rubin NVL72）GA 與 96 萬顆 Rubin GPU 規劃。
 
@@ -399,6 +424,17 @@ COT 路線保有核心 compute 設計，[[2454_聯發科（市）]] 提供部分
 - [[報告_Citi_京元電2449_20261105]]（2026-11-05）
 - [[報告_Citi_創意3443_20261105]]（2026-11-05）
 - [[報告_中信_欣興3037_20261106]]（2026-11-06）
+
+- [[報告_MorganStanley_世芯3661_20261108]]（2026-11-08）
+- [[報告_中信_勤誠8210_20261109]]（2026-11-09）
+
+- [[報告_MorganStanley_CloudSemis信驊瀾起降評_20261109]]（2026-11-09）
+- [[報告_中信_定穎投控3715_20261110]]（2026-11-10）
+
+- [[報告_Daiwa_金像電2368_20261110]]（2026-11-10）
+- [[報告_GoldmanSachs_金像電2368_20261110]]（2026-11-10）
+- [[報告_凱基_ASIC設計服務聯發科創意世芯_20261110]]（2026-11-10）
+- [[報告_凱基_臻鼎4958_20261110]]（2026-11-10）
 
 ## 相關頁面
 

@@ -14,7 +14,7 @@ tags:
   - 產業/AI基礎建設
   - 地區/美國
   - 環節/衛星通訊
-updated: 2026-11-04
+updated: 2026-11-11
 aliases:
   - SpaceX
   - 太空探索技術公司
@@ -258,6 +258,10 @@ SpaceX 與 Tesla、Intel 戰略合作打造全球最大晶片製造廠（Terafab
 - Anthropic 為 SpaceX 最大單一客戶，貢獻 3Q26 約 34.5% 營收；算力合約總支出最高 US$1,205 億、期限至 2029 年，2026-12 起每月平均約 US$31 億，Anthropic 可於 2027 年 1 月及 3 月後提前 90 天通知取消；政府機構貢獻 16.6% 營收。MS 另指 Starlink V3（2026-09-28 Starship 發射）帶動穩懋航太 RF 含量提升。
 
 來源：[[memo_國泰_GoodMorning_CSP財報與光通訊台廠_20261030]]、[[報告_MorganStanley_穩懋3105_20261029]]。
+
+## 2026-11-10 Anthropic 算力收入
+
+- M報交叉比對：SpaceX 來自 Anthropic 的收入由 2Q26 約 15.2 億美元增至 3Q26 約 50.3 億美元，約占 Anthropic 新增總算力費用八成。[[memo_M報_Anthropic_S1第三季更新_20261110]]
 
 ## 來源
 

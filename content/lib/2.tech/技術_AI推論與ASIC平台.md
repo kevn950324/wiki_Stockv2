@@ -4,9 +4,16 @@ tags:
   - 技術/AI推論
   - 技術/ASIC
   - 產業/AI伺服器
-updated: 2026-10-27
+updated: 2026-11-10
 image_status: "已有來源圖"
 aliases:
+  - TPU 8t
+  - TPU 8i
+  - TPU 8tx
+  - TPU 8i Max
+  - Boardfly
+  - Confidential computing
+  - 機密運算
   - Agentic AI
   - Agentic CPU
   - Agent node
@@ -51,6 +58,7 @@ related_companies:
   - "[[2454_聯發科（市）]]"
   - "[[NVDA.US(nvidia)]]"
   - "[[GOOGL.US(alphabet)]]"
+  - "[[AMD.US(amd)]]"
 ---
 
 # 技術_AI推論與ASIC平台
@@ -209,7 +217,25 @@ ASIC 前端 RTL／compute 設計的 AI 工具降低部分開發障礙，價值�
 - 限制：TPUv7 無原生 FP4，TPUv8 FP4 支援待 1Q27；模型 head dim 64 時 TPU 脈動陣列 25% 被 padding；Anthropic、Google DeepMind 與未來 OpenAI 會為 TPU 共同設計注意力形狀。
 - 來源：[[memo_SemiAnalysis_GoogleTPUv7推論AgentX_20261105]]。
 
+## 2026-11-10 Google 第八代 TPU：同晶片分化成四種系統（官方）
+
+第八代 TPU 不再是「訓練一款、推論一款」，而是用兩顆基礎晶片（8t、8i）做出四種系統，對應不同推論場景：
+
+| 系統 | 晶片 | 定位 | 官方揭露重點 |
+|---|---|---|---|
+| TPU 8t | 8t | 大規模訓練 | 訓練效能最高為上一代 2.7 倍 |
+| TPU 8i | 8i | 即時推論 | 推論性價比提升最多 80%；晶片間通訊延遲減半；低延遲 Boardfly 網路 |
+| TPU 8tx | 8t | 機密運算推論、小規模訓練 | 搭 [[AMD.US(amd)]] 第五代 EPYC 主機，硬體隔離資料與權重；多步驟 agent 延遲比 8t 低最多一半 |
+| TPU 8i Max | 雙 8i 同封裝 | 超長 context、機櫃密度 | 運算、SRAM、HBM 頻寬為 8i 兩倍，同機櫃放兩倍矽面積 |
+
+- 解讀角度（事實層）：8tx 把機密運算做成推論產品線，對象是不願把權重或資料交給雲端明文處理的客戶；8i Max 以雙晶片封裝提高單機櫃 HBM 頻寬，回應 agent 長 context 的記憶體瓶頸。兩者都是封裝與系統層的變化，未揭露新晶片製程、FLOPS、HBM 容量或 GA 時程。
+- 配套軟體：TPU Sync 開源（KV cache 分層於 HBM／主機 DRAM／儲存，首 token 時間降超過 90%）；GKE dynamic slicing 以 OCS 動態組合 TPU cube（故障恢復快最多 4.5 倍；OCS 原理見 [[技術_光互連]]）。
+- 與 SemiAnalysis 的連結：上一節指 TPUv7 無原生 FP4、TPUv8 FP4 待 1Q27，並認為 Rubin 應與 TPUv8i 比較；本次官方文章未提 FP4。
+- 來源：[[research_產業合作技術發表_2026-11-10_2]]（Google Cloud Blog，fact）。
+
 ## 來源
+
+- [[research_產業合作技術發表_2026-11-10_2]] — Google Cloud Blog 官方彙整，2026-11-10；第八代 TPU 四款系統、TPU Sync、OCS dynamic slicing。
 
 - [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；COT、TK1–3、APR／簽核、量產與營運資金。
 

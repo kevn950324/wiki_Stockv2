@@ -1,0 +1,500 @@
+{
+	"nodes": [
+		{
+			"id": "da1ffd2c25436d81",
+			"type": "group",
+			"label": "⑤ 光引擎模組／終端平台",
+			"x": 2220,
+			"y": 260,
+			"width": 400,
+			"height": 1522
+		},
+		{
+			"id": "43e7ab159d54d190",
+			"type": "group",
+			"label": "④ FAU attach：貼上 PIC",
+			"x": 1620,
+			"y": 260,
+			"width": 440,
+			"height": 1522
+		},
+		{
+			"id": "bf75a95efd59ec04",
+			"type": "group",
+			"label": "③ FAU 成品廠",
+			"x": 1060,
+			"y": 260,
+			"width": 440,
+			"height": 1522
+		},
+		{
+			"id": "a6e55768d0dcdfec",
+			"type": "group",
+			"label": "② FAU 製程（排纖成 FAU）",
+			"x": 540,
+			"y": 260,
+			"width": 400,
+			"height": 1522
+		},
+		{
+			"id": "4bf8c58cab2f205c",
+			"type": "group",
+			"label": "① 零組件／原材料",
+			"x": 20,
+			"y": 260,
+			"width": 400,
+			"height": 1522
+		},
+		{
+			"id": "5b5258712124a98a",
+			"type": "text",
+			"text": "# FAU 供應鏈：零組件 → FAU 成品 → 貼上 PIC\n以 CPO／NPO 36 芯 hybrid FAU（32 SMF＋4 PMF）為主軸。技術細節與來源見 [[技術_FAU]]、[[供應鏈_CPO]]、[[技術_MPO]]。\n份額、單價多為匿名專家／券商 estimate（信心低至中），以文字頁口徑為準。",
+			"x": 0,
+			"y": -40,
+			"width": 1500,
+			"height": 118
+		},
+		{
+			"id": "6a19f7ce57d4dbad",
+			"type": "text",
+			"text": "**圖例**\n🟧 外部材料　🟩 基板\n🟪 製程環節　🟥 設備\n🟦 核心廠商　🟨 終端",
+			"x": 1640,
+			"y": -40,
+			"width": 420,
+			"height": 144
+		},
+		{
+			"id": "bd59d1474d52bf36",
+			"type": "text",
+			"text": "**單模光纖 SMF**\n36 芯 hybrid FAU 中的 32 根\n[[GLW.US(corning)]]、[[5803.JP(fujikura)]]、[[Sumitomo Electric（未）]]、長飛",
+			"x": 40,
+			"y": 320,
+			"width": 360,
+			"height": 144,
+			"color": "#ffd8a8"
+		},
+		{
+			"id": "fb6d180c6cd01892",
+			"type": "text",
+			"text": "**保偏光纖 PMF**（外置 ELS 才需要）\n36 芯中的 4 根；約 US$4／m，嚴重缺貨\n[[GLW.US(corning)]]（約 1 萬芯公里）、長飛、[[5803.JP(fujikura)]]、Nufern、亨通（MCVD 轉產）\n⚠ 瓶頸：應力棒、預製棒、包層精度 ±0.2–0.3µm",
+			"x": 40,
+			"y": 504,
+			"width": 360,
+			"height": 222,
+			"color": "#ffd8a8"
+		},
+		{
+			"id": "52253158adcae33b",
+			"type": "text",
+			"text": "**V-Groove 基板／蓋板**\n36 芯量產 US$5–6；pitch 250µm → <127µm\n炬光科技（晶圓級，定位 X<250nm，傳已鎖產能）\n[[3406_玉晶光（市）]]（送樣中）\n[[HIMX.US(himax)]]（NIL V-groove 底板）",
+			"x": 40,
+			"y": 766,
+			"width": 360,
+			"height": 196,
+			"color": "#b2f2bb"
+		},
+		{
+			"id": "d46420f3309b1732",
+			"type": "text",
+			"text": "**PMLA 稜鏡／微透鏡陣列**\n把光路轉 90° 垂直打進 PIC 光柵耦合器\n[[COHR.US(coherent)]] 自製｜[[GLW.US(corning)]] 外購\n[[3008_大立光（市）]] 模造玻璃\n[[HIMX.US(himax)]] NIL（22-lens＋45° 稜鏡）\n[[3019_亞光（市）]] 矽 metalens\n[[3406_玉晶光（市）]] 稜鏡（送樣中）",
+			"x": 40,
+			"y": 1002,
+			"width": 360,
+			"height": 248,
+			"color": "#ffd8a8"
+		},
+		{
+			"id": "913f5bd0d0331a87",
+			"type": "text",
+			"text": "**MT 插芯／MMC 連接頭**（FAU 另一端）\n12 芯 MMC US$6–8，36 芯 FAU 用 3–4 個\nUS Conec（專利授權＋約 3 個月培訓）\nSenko SN-MT（夥伴致尚）\n授權生產：[[Sumitomo Electric（未）]]、[[5803.JP(fujikura)]]\n自製：[[3363_上詮（櫃）]]；[[3406_玉晶光（市）]] MT ferrule 送樣",
+			"x": 40,
+			"y": 1290,
+			"width": 360,
+			"height": 248,
+			"color": "#ffd8a8"
+		},
+		{
+			"id": "a13eed061b1606ed",
+			"type": "text",
+			"text": "**UV 膠、隔離片、透鏡**\nUV 膠用於蓋板固化與 PIC 貼合\n隔離片／透鏡是整合光源最缺的兩項\n（wiki 尚無具名供應商）",
+			"x": 40,
+			"y": 1578,
+			"width": 360,
+			"height": 144,
+			"color": "#ffd8a8"
+		},
+		{
+			"id": "04fcc59260ae1c18",
+			"type": "text",
+			"text": "**① 基座台階研磨＋V 槽切割**\nDISCO 開槽／劃片機；晶圓級加工可降低累計誤差",
+			"x": 560,
+			"y": 320,
+			"width": 360,
+			"height": 118,
+			"color": "#d0bfff"
+		},
+		{
+			"id": "2bf1f7c6493c4279",
+			"type": "text",
+			"text": "**② 穿纖：光纖逐根排入 V 槽**\n8→36 通道，精度 5µm → 3µm，落位誤差 0.1µm 級；一根不合格整支報廢\n⚠ 半人工穿纖＋光纖微裂＝良率最大瓶頸（熟練工需 3–4 個月）",
+			"x": 560,
+			"y": 478,
+			"width": 360,
+			"height": 170,
+			"color": "#d0bfff"
+		},
+		{
+			"id": "856873dad565ef52",
+			"type": "text",
+			"text": "**③ 上蓋板＋UV 膠固化**",
+			"x": 560,
+			"y": 688,
+			"width": 360,
+			"height": 66,
+			"color": "#d0bfff"
+		},
+		{
+			"id": "e4474795374962fc",
+			"type": "text",
+			"text": "**④ 端面切割研磨（如 42°）＋貼 PMLA**",
+			"x": 560,
+			"y": 794,
+			"width": 360,
+			"height": 66,
+			"color": "#d0bfff"
+		},
+		{
+			"id": "cdeeb24e84d09262",
+			"type": "text",
+			"text": "**⑤ 另一端端接 MMC／MPO → (D)FAU 成品**\n主料 BOM 約 US$50–70\n售價最高約 US$300，客戶目標 US$150–200",
+			"x": 560,
+			"y": 900,
+			"width": 360,
+			"height": 118,
+			"color": "#d0bfff"
+		},
+		{
+			"id": "3f9a091336797fbc",
+			"type": "text",
+			"text": "**排纖／FA 耦合設備**\n[[6706_惠特（市）]] FAU 排纖（32＋4/6＝40 芯）\n興啟航（2026-10 逸飛激光收購，FA 耦合）\nDISCO 開槽／劃片機",
+			"x": 560,
+			"y": 1078,
+			"width": 360,
+			"height": 170,
+			"color": "#ffc9c9"
+		},
+		{
+			"id": "cfbfc4614f8b8872",
+			"type": "text",
+			"text": "**FAU 成品規格**\n• 可插拔：MT-FA 2×8ch（約 US$20／套）\n• CPO／NPO：36ch hybrid（32 SMF＋4 PMF）\n• ELS 端：8ch 保偏 FAU\n• Broadcom：40 芯｜OCS：2D FAU（24×16）\n• 下一代 72–100 芯，2×36／4×18 預研",
+			"x": 1080,
+			"y": 320,
+			"width": 400,
+			"height": 196,
+			"color": "#a5d8ff"
+		},
+		{
+			"id": "f21e82f2c4698456",
+			"type": "text",
+			"text": "**中國 FAU 廠**\n天孚通信（第一代主供、保偏 FA 良率最佳）\n光庫科技（加華微捷＋安捷訊；Coherent 鏈份額第一）\n蘅東光（Coherent＋Corning 雙鏈）\n仕佳光子（Corning 來料加工）\n長芯博創、億源通、騰景、愛德泰",
+			"x": 1080,
+			"y": 556,
+			"width": 400,
+			"height": 222,
+			"color": "#a5d8ff"
+		},
+		{
+			"id": "1a9f7ab88a680605",
+			"type": "text",
+			"text": "**台灣／日本 FAU 廠**\n[[3363_上詮（櫃）]]（NVIDIA scale-up、40 芯）\n[[2317_鴻海（市）]]（工業富聯：Coherent／Corning 雙鏈）\n[[3008_大立光（市）]] GC FA（已過認證，2H27 量產）\n波若威 3163、連訊 AOPT（未建頁）\n[[Sumitomo Electric（未）]]、Orbray",
+			"x": 1080,
+			"y": 818,
+			"width": 400,
+			"height": 248,
+			"color": "#a5d8ff"
+		},
+		{
+			"id": "4d2475214be7bc1e",
+			"type": "text",
+			"text": "**DFAU 方案商／整合者**\n[[COHR.US(coherent)]]：買 FAU＋自製 PMLA 自組 DFAU；福州目標百萬只／月\n[[GLW.US(corning)]]：整支 DFAU 外包；GlassBridge（EC 被動對準）\nSenko MPC＋Lightmatter vClick（可拆 dFAU：<1.5dB、50＋次插拔）\nHD Optics（稱 DFAU 份額 45–48%，實體待辨識）",
+			"x": 1080,
+			"y": 1106,
+			"width": 400,
+			"height": 274,
+			"color": "#a5d8ff"
+		},
+		{
+			"id": "98fca37c6ef5c7aa",
+			"type": "text",
+			"text": "**FAU 另一端：Shuffle Box → 面板 MPO**\nShuffle Box 約 US$3,000–3,500／台\n[[GLW.US(corning)]] 約 70%、[[3363_上詮（櫃）]]、[[COHR.US(coherent)]]\n[[3665_貿聯-KY（市）]]（OCP 展出 shuffle／FAU）",
+			"x": 1080,
+			"y": 1440,
+			"width": 400,
+			"height": 170,
+			"color": "#a5d8ff"
+		},
+		{
+			"id": "32a5611c05fb8222",
+			"type": "text",
+			"text": "**PIC＋EIC 光引擎（OE）**\n[[2330_台積電（市）]] COUPE → 矽品 on-substrate\n光柵耦合 GC（主流）／邊緣耦合 EC\n3.2T OE＝16 發 16 收＋4 CW → 36 芯，FAU 與 OE 一對一",
+			"x": 1640,
+			"y": 320,
+			"width": 400,
+			"height": 170,
+			"color": "#a5d8ff"
+		},
+		{
+			"id": "936a7bb658a79cb9",
+			"type": "text",
+			"text": "**① 主動對位耦合**\n通光找最大耦合功率，精度 <0.3µm（偏 0.5µm 掉 50% 功率）\n[[6271_同欣電（市）]] 新機台對位時間 <15 分鐘",
+			"x": 1640,
+			"y": 530,
+			"width": 400,
+			"height": 144,
+			"color": "#d0bfff"
+		},
+		{
+			"id": "e6582b4577104a3b",
+			"type": "text",
+			"text": "**② UV 膠固化**（固定式）\n或可拆 dFAU 以卡接介面重複插拔",
+			"x": 1640,
+			"y": 714,
+			"width": 400,
+			"height": 92,
+			"color": "#d0bfff"
+		},
+		{
+			"id": "3d017f2ab3b58635",
+			"type": "text",
+			"text": "**③ Insertion 3 測試**\nOE＋FAU 光通量與功能驗證",
+			"x": 1640,
+			"y": 846,
+			"width": 400,
+			"height": 92,
+			"color": "#d0bfff"
+		},
+		{
+			"id": "4748babef6e9b353",
+			"type": "text",
+			"text": "**Attach 執行者**\n矽品 SPIL（[[3711_日月光投控（市）]]；NVIDIA CPO OE，2027 中擴 15 倍）\n[[2330_台積電（市）]] COUPE（2D FAU，GC＋EC）\n[[6271_同欣電（市）]]（FAU 主動對位代工）\n環旭電子（爭取中）、[[4979_華星光（櫃）]]（NPO）\n自做：[[COHR.US(coherent)]]、[[3363_上詮（櫃）]]（PIC-FAU UV 膠）",
+			"x": 1640,
+			"y": 998,
+			"width": 400,
+			"height": 248,
+			"color": "#a5d8ff"
+		},
+		{
+			"id": "5543cfd2d092d829",
+			"type": "text",
+			"text": "**對位耦合設備**\nficonTEC（德，實質壟斷）\n[[6187_萬潤（市）]]（FAU 貼合＋光耦合，Insertion 2–3）\n[[6706_惠特（市）]]（上詮 PP 耦光急單）\n[[4573_高明鐵（櫃）]]（Dual FA，±50nm）\n興啟航（逸飛激光）",
+			"x": 1640,
+			"y": 1286,
+			"width": 400,
+			"height": 222,
+			"color": "#ffc9c9"
+		},
+		{
+			"id": "e7b043e9816b6a3c",
+			"type": "text",
+			"text": "**Insertion 3 測試設備**\n[[2360_致茂（市）]] ATE＋光學對準\n[[6223_旺矽（櫃）]] 探針台\n[[6710_汎銓（市）]] 光通量檢測\nTeradyne、Keysight",
+			"x": 1640,
+			"y": 1548,
+			"width": 400,
+			"height": 170,
+			"color": "#ffc9c9"
+		},
+		{
+			"id": "41cb88a8938449b9",
+			"type": "text",
+			"text": "**ELS 外置光源**\n每顆 CW 經 PMF＋8ch 保偏 FAU 送光進 OE\n102.4T CPO 約 16 個 ELS",
+			"x": 2240,
+			"y": 320,
+			"width": 360,
+			"height": 118,
+			"color": "#fff3bf"
+		},
+		{
+			"id": "96bf83d54a158798",
+			"type": "text",
+			"text": "**OE＋FAU → 與交換器 ASIC 共封裝**\n102.4T CPO：32 個 3.2T OE＋32 hybrid FAU＋16 ELS 保偏 FAU\n102.4T NPO：16 個 6.4T OE",
+			"x": 2240,
+			"y": 598,
+			"width": 360,
+			"height": 144,
+			"color": "#fff3bf"
+		},
+		{
+			"id": "ff3ccd2cc8712a08",
+			"type": "text",
+			"text": "**交換器平台／需求**\n[[NVDA.US(nvidia)]] Spectrum-X 32 FAU／台；Quantum-X 72／台\n[[AVGO.US(broadcom)]] 40 芯、3.6T\n[[GOOGL.US(alphabet)]] OCS：2D FAU\n2027E 約 2,000 萬顆 FAU（專家 estimate）",
+			"x": 2240,
+			"y": 782,
+			"width": 360,
+			"height": 222,
+			"color": "#fff3bf"
+		}
+	],
+	"edges": [
+		{
+			"id": "537fb0b930b557d4",
+			"fromNode": "52253158adcae33b",
+			"toNode": "04fcc59260ae1c18",
+			"toEnd": "arrow",
+			"label": "V 槽基板"
+		},
+		{
+			"id": "6fa406526ae6a772",
+			"fromNode": "bd59d1474d52bf36",
+			"toNode": "2bf1f7c6493c4279",
+			"toEnd": "arrow",
+			"label": "32 根"
+		},
+		{
+			"id": "7f3329c3803d114f",
+			"fromNode": "fb6d180c6cd01892",
+			"toNode": "2bf1f7c6493c4279",
+			"toEnd": "arrow",
+			"label": "4 根"
+		},
+		{
+			"id": "a11ea7bf8e170bcc",
+			"fromNode": "a13eed061b1606ed",
+			"toNode": "856873dad565ef52",
+			"toEnd": "arrow",
+			"label": "UV 膠"
+		},
+		{
+			"id": "de96999309f99e3f",
+			"fromNode": "d46420f3309b1732",
+			"toNode": "e4474795374962fc",
+			"toEnd": "arrow",
+			"label": "PMLA"
+		},
+		{
+			"id": "868c24f76aeb2be3",
+			"fromNode": "913f5bd0d0331a87",
+			"toNode": "cdeeb24e84d09262",
+			"toEnd": "arrow",
+			"label": "MMC"
+		},
+		{
+			"id": "ca8bb1f4401e8e61",
+			"fromNode": "04fcc59260ae1c18",
+			"toNode": "2bf1f7c6493c4279",
+			"toEnd": "arrow"
+		},
+		{
+			"id": "ec27320441339d6a",
+			"fromNode": "2bf1f7c6493c4279",
+			"toNode": "856873dad565ef52",
+			"toEnd": "arrow"
+		},
+		{
+			"id": "15f30c4b4b8b5062",
+			"fromNode": "856873dad565ef52",
+			"toNode": "e4474795374962fc",
+			"toEnd": "arrow"
+		},
+		{
+			"id": "9e99025411bc753a",
+			"fromNode": "e4474795374962fc",
+			"toNode": "cdeeb24e84d09262",
+			"toEnd": "arrow"
+		},
+		{
+			"id": "47b7578ee9189a86",
+			"fromNode": "3f9a091336797fbc",
+			"toNode": "2bf1f7c6493c4279",
+			"toEnd": "none",
+			"label": "設備"
+		},
+		{
+			"id": "9d285f5267bc5735",
+			"fromNode": "cdeeb24e84d09262",
+			"toNode": "bf75a95efd59ec04",
+			"toEnd": "arrow",
+			"label": "成品出貨"
+		},
+		{
+			"id": "8e87b1dad56e869e",
+			"fromNode": "4d2475214be7bc1e",
+			"toNode": "98fca37c6ef5c7aa",
+			"toEnd": "arrow",
+			"label": "MMC 端"
+		},
+		{
+			"id": "3eb158235dca4566",
+			"fromNode": "bf75a95efd59ec04",
+			"toNode": "936a7bb658a79cb9",
+			"toEnd": "arrow",
+			"label": "FAU 交貨"
+		},
+		{
+			"id": "65d27c096b93804e",
+			"fromNode": "32a5611c05fb8222",
+			"toNode": "936a7bb658a79cb9",
+			"toEnd": "arrow",
+			"label": "PIC 端"
+		},
+		{
+			"id": "44f923b05ef7ce98",
+			"fromNode": "936a7bb658a79cb9",
+			"toNode": "e6582b4577104a3b",
+			"toEnd": "arrow"
+		},
+		{
+			"id": "e6dad8a8d1dca93a",
+			"fromNode": "e6582b4577104a3b",
+			"toNode": "3d017f2ab3b58635",
+			"toEnd": "arrow"
+		},
+		{
+			"id": "3d5411d9559e25c2",
+			"fromNode": "a13eed061b1606ed",
+			"toNode": "e6582b4577104a3b",
+			"toEnd": "arrow",
+			"label": "UV 膠"
+		},
+		{
+			"id": "952d92dda09c28e4",
+			"fromNode": "4748babef6e9b353",
+			"toNode": "936a7bb658a79cb9",
+			"toEnd": "none",
+			"label": "執行"
+		},
+		{
+			"id": "44f1722d3f0e2112",
+			"fromNode": "5543cfd2d092d829",
+			"toNode": "936a7bb658a79cb9",
+			"toEnd": "none",
+			"label": "設備"
+		},
+		{
+			"id": "33ccff83829b841c",
+			"fromNode": "e7b043e9816b6a3c",
+			"toNode": "3d017f2ab3b58635",
+			"toEnd": "none",
+			"label": "設備"
+		},
+		{
+			"id": "84ddb9b751de785b",
+			"fromNode": "3d017f2ab3b58635",
+			"toNode": "96bf83d54a158798",
+			"toEnd": "arrow",
+			"label": "OE＋FAU"
+		},
+		{
+			"id": "079cc227b62b0f1a",
+			"fromNode": "41cb88a8938449b9",
+			"toNode": "96bf83d54a158798",
+			"toEnd": "arrow",
+			"label": "PMF 送光"
+		},
+		{
+			"id": "00e0b9c86561a897",
+			"fromNode": "96bf83d54a158798",
+			"toNode": "ff3ccd2cc8712a08",
+			"toEnd": "arrow"
+		}
+	]
+}

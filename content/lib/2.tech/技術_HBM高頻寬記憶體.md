@@ -6,7 +6,7 @@ tags:
   - 產業/記憶體
   - 產業/AI伺服器
 maturity: developing
-updated: 2026-10-30
+updated: 2026-11-11
 aliases:
   - HBM
   - High Bandwidth Memory
@@ -24,6 +24,10 @@ aliases:
   - Vertical HBM
   - 垂直HBM
   - vEIM
+  - Low Contact Force MEMS Probe Card
+  - 低接觸力MEMS探針卡
+  - microbump probing
+  - cHBM測試
 ---
 
 # 技術_HBM高頻寬記憶體
@@ -46,6 +50,9 @@ HBM（High Bandwidth Memory，高頻寬記憶體）是把多顆 DRAM die 垂直�
 *圖（統一證，2026-05-20）：DRAM 廠商製程推進（Ver. MD-2509-01 Simplified）。Samsung 1a/1b/1c/1d；SK Hynix 1b（2026 量產）→ 1c（2027 EUV，紅框）；Micron 1β（2026）→ 1γ EUV（2027，紅框）；CXMT G3/G4/G5（追趕中）；Nanya 1B（2027，紅框）→ 1C；Winbond 20nm（2026-27）→ 16nm（2028）；JHIOC 25nm→20nm。*
 
 ## 圖解
+
+![[2026-11-06 SWTest Day2_4.png]]
+圖說：SWTest Day2現場照片說明細pitch微凸塊的低接觸力需求；45→35µm與約1 gram force屬講者案例，非本頁所有HBM世代的通用規格。
 
 ![[報告_高盛_三星HBM與獲利預估_20260930_p04.png]]
 圖說：高盛 2026-09-30 的三星 HBM 營收及 DRAM／NAND OPM 模型；位元量、每 Gb 定價和 HBM 占 DRAM 收入比是三個不同指標。
@@ -92,6 +99,8 @@ flowchart TB
 > **中介層層數需求 5×** 指 HBM4 的 2,048-bit 介面使 CoWoS 中介層 routing 複雜度大幅上升（TSV 數量、RDL 層數均倍增），是 2027 年之後 CoWoS 産能壓力的結構性來源。
 
 ### cHBM（Custom HBM / Computational HBM）
+
+**測試介面補充（SWTest，2026-11-06）**：[[活動_SWTest_Day2光電測試與cHBM_20261106]] 指cHBM探針卡須同時涵蓋logic／memory，並在小pitch微凸塊上限制contact force。低力接觸可降低凸塊損傷，但仍須維持接觸電阻、訊號完整性、針尖壽命與測試涵蓋率；這是測試需求，不代表特定設備商已拿到客製HBM訂單。判讀見 [[分析_SWTest_INS2翹曲與cHBM探針門檻_20261106]]。
 
 **cHBM** 是在 HBM base die 上增加邏輯運算功能（near-memory computing），由 Marvell 等客製 ASIC 廠商主導開發：
 
@@ -183,6 +192,7 @@ flowchart TB
 - 降速原因有兩種說法：TechPowerUp 認為問題在 NVIDIA 端介面，Wccftech 轉述是供應商難達原速度 bin（皆為 estimate，低）。對 HBM 的含義是位元需求不變，但速度 bin 門檻降低、高速 bin 的溢價可能被稀釋（inference，中低）。詳見 [[分析_VeraRubin規格下修_NVLink與HBM4頻寬的產業影響_20261031]]。
 
 ## 來源
+- [[活動_SWTest_Day2光電測試與cHBM_20261106]] — 使用者SWTest Day2筆記與4張照片，2026-11-06；講者觀點／中低信心。
 - [[research_產業合作技術發表_2026-10-22]] — Micron 技術說明會官方簡報，2026-10-21；HBM4→HBM6 年度節奏、標準／客製／垂直 HBM 三階段
 - [[報告_高盛_三星HBM與獲利預估_20260930]] — Goldman Sachs，2026-09-30；三星 HBM 量價、營收 mix 與一般 DRAM 供給
 - [[報告_先進封裝技術發展方向_20260722]]（定錨，2026-07-22；HBM4 2048-bit、cHBM Marvell/4.1TB/s、NVIDIA Feynman cHBM、SK Hynix+TSMC One-Team ~70% Vera Rubin、Qualcomm HBC 警訊）

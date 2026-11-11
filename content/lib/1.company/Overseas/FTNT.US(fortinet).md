@@ -11,10 +11,12 @@ tags:
   - 主題/NGFW
   - 主題/SASE
   - 主題/AI-SecOps
-updated: 2026-10-22
+updated: 2026-11-10
 aliases:
   - Fortinet
   - FTNT
+  - FortiAIGate
+  - Equinix Distributed AI Hub
 related_companies:
   - "[[PANW.US(palo alto networks)]]"
   - "[[CRWD.US(crowdstrike)]]"
@@ -107,6 +109,13 @@ FTNT 走「防火牆／閘道看得懂 agent 協定」的路線：在既有 Fort
 - 公司引用 Gartner：保護 AI 生態系與 AI agent 的產品市場由 2026 年 $2.8B 成長到 2030 年 $16.4B（Gartner estimate，經 Fortinet 新聞稿轉述，中信心）。
 - 投資含義：MCP／A2A 偵測讓既有 FortiGate 裝機量直接多一個 AI 使用情境，但目前是「看得到」為主；真正攔截 agent 動作要靠 FortiAIGate 與 Virtue AI 的整合進度。十家比較見 [[分析_資安十強Agent端防護比較_20261005]]。
 
+### 2026-11-05 FortiAIGate 上架 Equinix Distributed AI Hub（官方）
+
+- FortiAIGate 成為 Equinix Distributed AI Hub 的驗證參考架構，即日起可用：雙向檢查 LLM 與 MCP 流量的 prompt 與回應並套用集中政策；依 token 追蹤 LLM 成本、設預算上限與警示；控管與檢查留在客戶自有基礎設施，支援資料落地要求；FortiGate 提供影子 AI 使用的可視性。
+- 檢查工作由 GPU（含 NVIDIA）負責，官方稱對 AI 工作負載零效能影響；雙方另合作 FortiGate VM on Equinix Network Edge。新聞稿未列具體 Equinix 站點。
+- 意義（事實層）：FortiAIGate 從企業內部署延伸到託管型 AI 資料中心，部署位置更靠近推論流量。Equinix 本庫無公司頁。
+- 來源：[[research_產業合作技術發表_2026-11-10_2]]（Fortinet 新聞稿，fact）。
+
 ## EPS 記錄
 
 | 年度 | 季度 | 指標 | 數值 | 備註 |
@@ -149,6 +158,7 @@ FTNT 走「防火牆／閘道看得懂 agent 協定」的路線：在既有 Fort
 | 持續 | AI DC build-out → FortiGate 高端需求 | 需求 | ⭐⭐⭐ | FG-4000/5000 多筆大型交易 |
 | 2026-06 | FortiSOC 上市（FortiAI-Assist 以 MCP 協調 agent） | 產品 | ⭐⭐ | [[research_Fortinet_Agent防護_20261005]] |
 | 2026-08-17 | 收購 Virtue AI（agent 攻擊測試與 runtime 防護） | 併購 | ⭐⭐ | 金額不重大；與 FortiAIGate 整合 |
+| 2026-11-05 | FortiAIGate 上架 Equinix Distributed AI Hub | 合作 | ⭐⭐ | 官方 fact；[[research_產業合作技術發表_2026-11-10_2]] |
 
 ---
 
@@ -177,6 +187,7 @@ FTNT 走「防火牆／閘道看得懂 agent 協定」的路線：在既有 Fort
 
 ## 來源
 
+- [[research_產業合作技術發表_2026-11-10_2]] — Fortinet 新聞稿官方彙整，2026-11-05；FortiAIGate 上架 Equinix Distributed AI Hub。
 - [[research_Fortinet_Agent防護_20261005]] — 網路搜尋，2026-10-05 擷取：Virtue AI 收購新聞稿（2026-08-17）、FortiOS 8.0 Agentic AI 協定文件、WWT FortiAIGate 介紹、FortiSOC 新聞稿（2026-06）。
 - [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29；正文將本公司列為核心 runtime 防護廠商，近期直接替代風險仍較集中於上線前工作流（券商 thesis／中信心）；本次只補來源追溯，跨公司財務附表保留於 Raw。
 

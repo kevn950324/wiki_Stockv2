@@ -4,10 +4,12 @@ tags:
   - 分析/投資觀察
   - 產業/AI伺服器
   - 技術/800VDC
-updated: 2026-10-10
+updated: 2026-11-08
 aliases:
   - AI資料中心 onsite power
   - AI資料中心電熱整合
+  - 源網荷儲
+  - SGLS
 related_companies:
   - "[[GEV.US(ge_vernova)]]"
   - "[[VRT.US(vertiv)]]"
@@ -17,6 +19,7 @@ related_companies:
 sources:
   - "[[報告_MorganStanley_整合電源方案_20261006]]"
   - "[[Sinopac_電力設備]]"
+  - "[[memo_SemiAnalysis_中國內蒙古Galaxy園區800VDC與SGLS_20261107]]"
 related_topics:
   - "[[技術_800VDC供電架構]]"
   - "[[技術_BBU與CBU機櫃儲能]]"
@@ -168,6 +171,16 @@ AI 資料中心的瓶頸正由伺服器採購延伸至可用電力、散熱與�
 - 受訪者對 SST 的看法是 2027H2 起訂單漸入、34.5kV 產品可能於 2027H2–2028 推出；此與功率半導體專家對 SST 長期驗證、約 2030 才廣泛應用的判斷並列。試點／推出產品與大規模商業化是不同階段，不合併為單一時程。
 
 來源：[[memo_AceCamp_Vertiv北美液冷與800V專家訪談_20260828]]（AceCamp Tech 匿名專家訪談，2026-08-28）、[[memo_AceCamp_SiC_GaN_AIDC專家訪談_20260827]]（2026-08-27）。
+
+## 2026-11-07 中國對照：自建綠電（SGLS）與垂直整合
+
+- **自帶電源模式（fact）**：中國稱「源網荷儲」（source-grid-load-storage, SGLS）：專案自建風／光電場、儲能與資料中心，以專線連接而不經公共電網。Envision Galaxy 園區（烏蘭察布，規劃 800MW IT，首期 120MW 2026-08 交付、全園區預計 2027 年底完成、所有四期為兩家網路巨頭 build-to-suit）目標前兩期用電 60% 以上來自自有風場：兩座風場相距約 80km、合計 420MW 裝置容量為 240MW 負載的 1.75 倍，搭配 4 小時儲能。
+- **風資源與成本（fact）**：內蒙古約占中國可用風資源 57%，風場平均年滿發約 2,800 小時（容量因數約 32%），烏蘭察布 35–40%。首期建置約一年完成、成本約美國五分之一；中國資料中心租金五年約腰斬至約 US$40/kW/月（不含電）、資本支出五年降約 25% 至每 MW 不到 US$3mn，內蒙古全包電價約 US$0.055/kWh。Envision 內蒙古資料中心規劃合計 3GW，內蒙古已宣布資料中心專案 25GW。
+- **與美國對照**：Stargate Abilene（Crusoe 開發、租給 [[ORCL.US(oracle)]]、供 [[OpenAI（未）]] 使用）約 820MW 關鍵 IT、擴建後 1.5GW IT，靠電網加現場燃氣渦輪；Galaxy 主要靠風電。美國以現場燃氣渦輪、燃料電池與電池補電力缺口；馬來西亞要求資料中心至少 30% 用電來自再生能源；中國核准偏好算電協同專案。
+- **投資觀察（thesis／中）**：電力取得與機房內供電架構重設計（800V DC、BBU／BESS 取代 UPS）兩個趨勢，讓能源／電池／電力設備業者（Envision、CATL × VNET × 中恒電氣）以垂直整合切入資料中心；目前 hyperscaler 選商仍以資源與實績為主，整合優勢尚未轉為訂單。這與本頁 time-to-power、onsite power thesis 一致，也說明 SST 與儲能整合在中國已有現場案例；技術細節見 [[技術_800VDC供電架構]]。
+- **資訊邊界**：信件版截斷，付費段未取得；Envision、CATL、VNET、中恒電氣本庫尚無公司頁，本次不新增 wikilink。
+
+來源：[[memo_SemiAnalysis_中國內蒙古Galaxy園區800VDC與SGLS_20261107]]（SemiAnalysis，2026-11-07；信件版截斷，信心中）。
 
 ## 相關頁面
 

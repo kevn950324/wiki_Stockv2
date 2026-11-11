@@ -9,12 +9,17 @@ tags:
   - 產業/資安
   - 環節/SaaS平台
   - 主題/AI驅動資安
-updated: 2026-10-22
+updated: 2026-11-10
 aliases:
   - CrowdStrike
   - CRWD
   - 群眾罷工
+  - Fiddler
+  - Fiddler AI
+  - Falcon Observe
+  - Falcon Guardian
 related_companies:
+  - "[[Anthropic（未）]]"
   - "[[PANW.US(palo alto networks)]]"
   - "[[ZS.US(zscaler)]]"
   - "S.US(sentinelone)"
@@ -144,6 +149,14 @@ CRWD 的主張是「端點是 AI agent 推理、規劃與執行的地方」，�
 - **未揭露**：Guardian 定價、ARR 與客戶數；AI Gateway 與託管服務上市日。
 - 十家公司比較見 [[分析_資安十強Agent端防護比較_20261005]]。
 
+## 2026-11-03 Fal.Con Europe：Claude Cowork 整合與收購 Fiddler（官方）
+
+- **Claude Cowork 原生防護**：Falcon Guardian AIDR 直接部署在 [[Anthropic（未）]] Claude Cowork 的執行環境內，涵蓋 agent 從建立到執行任務的全程，偵測惡意活動與資料外洩，並把 Cowork 納入 Falcon 安全控制平面（與 Cowork 既有的 VM、權限、管理控制並存）。Anthropic 開放部署，CrowdStrike 負責安裝、即時防護與更新的工程與測試；支援 Windows 與 Mac，未給 GA 日期，新聞稿註明含開發中功能。
+- **收購 Fiddler AI**：已簽定收購協議，金額未揭露，以現金為主、部分為附歸屬條件的股票；預計 FY27 第四季完成。Fiddler 做 agent 上線前評估、決策與工具呼叫追蹤、行為漂移與幻覺偵測、token 用量與花費監控，以 OpenTelemetry 接入，支援 LangGraph、Amazon Bedrock、AWS Strands、Google ADK。併入後名為 **Falcon Observe**（預計 FY27Q4 GA），與 Falcon Guardian 搭配：Guardian 管 agent 執行期安全，Observe 管 agent 行為是否可信。
+- 同場另發表 Agentic Adversary Emulation、Agentic SOC 延伸偵測「agent insider threat」、AI Kill Switch 與沙烏地主權雲（本次未逐篇讀取，只記標題）。
+- 意義（事實層）：CRWD 的 agent 產品從「防護」延伸到「可觀測性」，與 [[DDOG.US(datadog)]] 等可觀測性廠商的邊界開始重疊。
+- 來源：[[research_產業合作技術發表_2026-11-10_2]]（CrowdStrike 新聞稿，fact）。
+
 ## 相關公司
 
 | 關係 | 公司 | 備註 |
@@ -151,7 +164,7 @@ CRWD 的主張是「端點是 AI agent 推理、規劃與執行的地方」，�
 | 主要競品 | [[PANW.US(palo alto networks)]] | 雙雄格局，同為 Glasswing 創始夥伴，PANW 更偏平台整合 |
 | 主要競品（終端） | S.US(sentinelone) | EDR 直接競品，SentinelOne Purple AI |
 | 相關技術 | [[技術_可觀測性]] | CRWD Falcon 與 DDOG Observability 整合 |
-| AI 模型合作夥伴 | Anthropic（未建頁） | Glasswing + QuiltWorks |
+| AI 模型合作夥伴 | [[Anthropic（未）]] | Glasswing + QuiltWorks；2026-11-03 Falcon Guardian 原生整合進 Claude Cowork |
 | AI 模型合作夥伴 | OpenAI（未建頁） | QuiltWorks，TAC |
 | 合作 SI | Accenture、EY、IBM（未建頁） | QuiltWorks 系統整合夥伴 |
 | 合作／整合 | [[OKTA.US(okta)]] | Okta 以 Falcon Discover 做端點影子 agent 偵測；同為 Blueprint Alliance 創始成員（2026-09-22）；來源 [[research_Okta_Zscaler_Agent防護更新_20261005]] |
@@ -174,6 +187,7 @@ gantt
     Falcon IQ 發表（Fal.Con 2026） :milestone, 2026-08-31, 0d
     Falcon Guardian（Agent AIDR）發表 :milestone, 2026-09-01, 0d
     加入 Okta Blueprint Alliance :milestone, 2026-09-22, 0d
+    Claude Cowork 整合與收購 Fiddler :milestone, 2026-11-03, 0d
     Okta 端點影子 agent 偵測（Falcon Discover）GA 目標 :milestone, 2026-12-31, 0d
     section 重要報告
     JPM Weapons of Mass Disruption :milestone, 2026-04-27, 0d
@@ -191,6 +205,7 @@ gantt
 
 ## 來源
 
+- [[research_產業合作技術發表_2026-11-10_2]] — CrowdStrike 新聞稿官方彙整，2026-11-03；Claude Cowork 整合 Falcon Guardian、收購 Fiddler（Falcon Observe）。
 - [[research_CrowdStrike_Agent防護_20261005]] — 網路搜尋，2026-10-05 擷取：Falcon Guardian 新聞稿（2026-09-01）、Channel Insider、Falcon IQ 新聞稿（2026-08-31）、NVIDIA Blog。
 - [[research_Okta_Zscaler_Agent防護更新_20261005]] — 網路搜尋，2026-10-05 擷取：Oktane 2026 公告（Falcon Discover 整合、Blueprint Alliance）。
 - [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29；正文將本公司列為核心 runtime 防護廠商，近期直接替代風險仍較集中於上線前工作流（券商 thesis／中信心）；本次只補來源追溯，跨公司財務附表保留於 Raw。

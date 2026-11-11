@@ -9,7 +9,7 @@ tags:
   - 環節/雲端基礎設施
   - 環節/雲端資料庫
   - 產業/AI資料基礎設施
-updated: 2026-10-01
+updated: 2026-11-11
 aliases:
   - Oracle
   - ORCL
@@ -126,6 +126,13 @@ flowchart LR
 
 ## 來源
 
+![[報告_元大_全球經濟與金融市場展望_20261109_p20.png]]
+圖說：元大比較Oracle＋CoreWeave合計現金流與CapEx；用於觀察融資依賴，不能替代Oracle個別財報。
+
+- [[報告_元大_全球經濟與金融市場展望_20261109]] — 元大投顧，2026-11-09；與CoreWeave合計CapEx／OCF，不拆作Oracle單獨數據。判讀見 [[分析_元大AI基建監管與融資分化_20261109]]。
+
+元大p.20列Oracle＋CoreWeave最新季合計CapEx US$37.58bn、OCF US$19.65bn，約1.9倍，為資料彙整／中低信心；財季對齊待核，不能當Oracle個別現金缺口。監管、施工、通電與收款應分開追蹤。本批不將Microsoft終止租約的來源轉述升級為已確認合約變動。
+
 - [[memo_AceCamp_SOFC隔膜供應商與Bloom交付_20260829_70565484]] — AceCamp Tech，2026-08-29，匿名專家紀要。
 - [[memo_AceCamp_SOFC電堆製程與供應鏈_20260829_70566304]] — AceCamp Tech，2026-08-29，匿名專家紀要。
 - [[memo_AceCamp_AI資料中心現場供電_20260829_70565950]] — AceCamp Tech，2026-08-29，匿名專家紀要。
@@ -155,6 +162,9 @@ flowchart LR
 
 - [[memo_FOMOSoc_AMD3Q26財報解剖_20261104]]（2026-11-04）
 - [[報告_富邦_ArmARM財報CallMemo_20261105]]（2026-11-05）
+- [[memo_SemiAnalysis_中國內蒙古Galaxy園區800VDC與SGLS_20261107]]（2026-11-07；Abilene 園區由 Crusoe 開發並租給 Oracle、為 OpenAI 營運，約 820MW 關鍵 IT 容量，與中國 Envision Galaxy 800MW 園區對照；信件版截斷，信心中）
+
+- [[報告_MorganStanley_緯穎6669_20261108]]（2026-11-08）
 
 ## 相關頁面
 

@@ -8,7 +8,7 @@ tags:
   - 公司/CoreWeave
   - 環節/雲端服務
   - 產業/AI伺服器
-updated: 2026-11-06
+updated: 2026-11-11
 aliases: [CoreWeave]
 related_companies:
   - "[[MSFT.US(microsoft)]]"
@@ -41,6 +41,9 @@ CoreWeave 是提供 GPU 雲端與 AI 基礎設施的雲端服務商，核心成�
 | AI 基礎設施 | 模型開發、推理服務 | 客戶集中與資本支出 |
 
 ## 圖片 / 架構圖
+
+![[報告_元大_全球經濟與金融市場展望_20261109_p20.png]]
+圖說：元大比較四大CSP及Oracle＋CoreWeave合計CapEx／OCF；合計數不代表CoreWeave個別財報或融資缺口。
 
 圖說：CoreWeave 報告圖表呈現 AI 雲端需求與公司營運重點，對照 GPU 資源擴張與資本密集度。
 
@@ -86,6 +89,10 @@ CoreWeave 是提供 GPU 雲端與 AI 基礎設施的雲端服務商，核心成�
 > - 客戶集中、GPU 供應與雲端價格競爭會影響成長品質。
 
 ## 來源
+- [[報告_元大_全球經濟與金融市場展望_20261109]] — 元大投顧，2026-11-09；pp.19–21。判讀見 [[分析_元大AI基建監管與融資分化_20261109]]。
+
+元大將AI需求與個別融資能力分開：Oracle＋CoreWeave最新季CapEx合計US$37.58bn、OCF US$19.65bn，約1.9倍。資料財季及採樣範圍待核，屬機構彙整／中低信心；不能拆成公司單獨數字，也不代表融資必然中斷。
+
 - [[memo_M報_350_Intel財報與AgenticAI_CPU需求_20261106]] — M報 #350，2026-11-06；作者引用 CoreWeave 無擔保公司債次級市場殖利率約 15%，作為 AI 投資便宜資金轉緊的訊號（作者觀點）。
 - [[CoreWeave（CRWV US）0818]] — 券商研究，2026-08-18
 - [[memo_FOMOSoc_CoreWeave與AI基建_20261020]] — FOMOSoc 電子報，2026-10-20（信件版截斷）
