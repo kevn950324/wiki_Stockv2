@@ -5,14 +5,18 @@ tags:
   - 環節/AI基礎建設
   - 產業/資料中心
   - 產業/AI伺服器
-updated: 2026-08-12
+updated: 2026-11-13
 aliases:
   - GPU Backstop
   - Nvidia Backstop
   - AI Project Trinity
   - Neocloud Backstop
   - GPU租賃保底
+  - asset-level financing
+  - 專案融資
 related_companies:
+  - "[[NBIS.US(nebius)]]"
+  - "[[CRWV.US(coreweave)]]"
   - "[[NVDA.US(nvidia)]]"
   - "[[ORCL.US(oracle)]]"
   - "[[META.US(meta)]]"
@@ -99,6 +103,14 @@ Neocloud 建設必須同時解決三個關卡：
 
 每 100MW 保底對應 NVIDIA 擔保金額約 $5.9B。
 
+## 2026-11 可計費容量與融資邊界
+
+保底租約可改善可融資性，仍不能取代接電、上架與客戶驗收。[[memo_Notion_AceCamp_NeoCloud算力與電力交付_70569079_20261112]]（2026-11-12）估GPU到貨3–6個月、部分歐美供電等待24–48個月，並區分簽約、並網與活躍容量；其折減係數與最終比例並不完全一致，不採作所有專案通用轉換率。
+
+[[memo_Notion_AceCamp_CoreWeave融資與交付前瞻_70568985_20261110]]（2026-11-10）以新增1GW、US$20mn／MW機房成本與70%–80%貸款成本比，推算股本US$4bn–6bn，尚未計入GPU與網路設備。這是作者情境，不是[[CRWV.US(coreweave)]]財測；貸款成本比與以資產市值計算的LTV分母也可能不同。母公司無擔保債與SPV資產貸款需分開觀察，不能拿單一殖利率代表所有資金成本。
+
+評估[[NBIS.US(nebius)]]、[[CRWV.US(coreweave)]]等公司時，應同時追蹤可計費MW、長約／spot實現租金、客戶驗收與融資後股權報酬。來源租金有幣別及換算矛盾，不改寫為統一牌價；完整衝突與反證見[[分析_Neocloud電力轉換率與融資成本驗證_20261112]]。以上為專家estimate及作者thesis，信心中低。
+
 ## 相關工具（SemiAnalysis 配套）
 
 - **GPU Rental Pricing Index**：追蹤各 SKU / 各租期雙邊合約價格
@@ -108,9 +120,14 @@ Neocloud 建設必須同時解決三個關卡：
 
 ## 來源
 
+- [[memo_Notion_AceCamp_NeoCloud算力與電力交付_70569079_20261112]] — 2026-11-12，匿名專家，容量與租金口徑待核。
+- [[memo_Notion_AceCamp_CoreWeave融資與交付前瞻_70568985_20261110]] — 2026-11-10，作者前瞻／情境。
+
 - 報告_SemiAnalysis_NVIDIA_GPU_Backstop_AI_Trinity_20260706（SemiAnalysis，2026-07-06）
 
 ## 相關頁面
 
+- [[分析_TPU自研成本與折舊現金流邊界_20260417]]
+- [[分析_加速器樣品到整櫃交付的驗證_日期待確認]]
 - [[技術_人形機器人]]
 - [[技術_邊緣AI]]

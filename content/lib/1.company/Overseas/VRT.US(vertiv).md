@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 技術/800VDC
   - 環節/電源
-updated: 2026-10-30
+updated: 2026-11-13
 aliases:
   - Vertiv
   - 維諦
@@ -93,8 +93,11 @@ Vertiv 是資料中心電源與熱管理（含 UPS、power rack、配電、液�
 - [[memo_國泰_美股開盤AI基建記憶體光通訊_20261029]]（2026-10-29）
 - [[活動_VertivVRT_中信CallMemo_20261029]]（2026-10-29）
 
+- [[memo_Notion_AceCamp_Rubin排產與電源液冷資格_70560355_日期待確認]]（原日期未標）
+
 ## 相關頁面
 
+- [[分析_加速器樣品到整櫃交付的驗證_日期待確認]]
 - [[CDNS.US(cadence)]]
 - [[SU.FR(schneider_electric)]]
 - [[分析_AI資料中心供電與電熱整合]]

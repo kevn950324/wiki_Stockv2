@@ -15,7 +15,7 @@ tags:
   - 技術/800G乙太網路
   - 技術/1.6T乙太網路
   - 技術/scale-across
-updated: 2026-11-04
+updated: 2026-11-13
 aliases:
   - Arista
   - Arista Networks
@@ -176,6 +176,9 @@ flowchart LR
 
 - [[research_EBO技術細節_2026-10-28]]（網路彙整，擷取 2026-10-28）：2026-05 EBO 擴束光學連接器 MSA 創始成員，見 [[技術_EBO擴束連接器]]
 
+- [[memo_Notion_AceCamp_LCO微流道與雷射焊接_70567743_20261004]]（2026-10-04）
+
 ## 相關頁面
 
+- [[分析_LCO散熱外推與微冷板製程驗證_20261004]]
 - [[技術_光模塊]] — XPO 與 NVIDIA／Cisco USFP（2026-10-12）可插拔外型比較

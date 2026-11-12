@@ -11,7 +11,7 @@ tags:
   - 技術/光互連
   - 環節/PCIe交換
   - 環節/UAL互連
-updated: 2026-11-04
+updated: 2026-11-13
 aliases:
   - Astera Labs
   - ALAB
@@ -89,6 +89,7 @@ related_companies:
 
 ## 相關頁面
 
+- [[分析_記憶體介面晶片的根數世代與單價驗證_日期待確認]]
 - [[SMTC.US(semtech)]]
 - [[時程_2026Q3Q4_AI網通與硬體催化劑]]
 
@@ -108,3 +109,5 @@ related_companies:
 - [[Optical Networking 260312 Citrini AI connectivity optics]]（2026-03-12）
 - [[Semiconductors 260615 MS public company bus tour ALAB MRVL INTC]]（2026-06-15）
 - [[報告_SemiAnalysis_NPO光互連接棒_20260713]]（2026-07-13）
+
+- [[memo_Notion_AceCamp_TPUv9與Trainium交換價值_70562031_日期待確認]]（原日期未標）

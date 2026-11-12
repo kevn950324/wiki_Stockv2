@@ -4,9 +4,20 @@ tags:
   - 技術/AI推論
   - 技術/ASIC
   - 產業/AI伺服器
-updated: 2026-11-10
+updated: 2026-11-13
 image_status: "已有來源圖"
 aliases:
+  - FFN offload
+  - PAF
+  - MPU
+  - CXL memory pooling
+  - CXL記憶體池化
+  - RCD
+  - Registered Clock Driver
+  - MRDIMM
+  - Multiplexed Rank DIMM
+  - MRCD
+  - MDB
   - TPU 8t
   - TPU 8i
   - TPU 8tx
@@ -233,6 +244,24 @@ ASIC 前端 RTL／compute 設計的 AI 工具降低部分開發障礙，價值�
 - 與 SemiAnalysis 的連結：上一節指 TPUv7 無原生 FP4、TPUv8 FP4 待 1Q27，並認為 Rubin 應與 TPUv8i 比較；本次官方文章未提 FP4。
 - 來源：[[research_產業合作技術發表_2026-11-10_2]]（Google Cloud Blog，fact）。
 
+## 本批歷史訪談：CPU、TPU 卸載與合約的驗證邊界
+
+[[memo_Notion_AceCamp_TPU卸載架構與COT分工_70562075_日期待確認]]、[[memo_Notion_AceCamp_TPU出貨與v9路線圖_70562074_日期待確認]]、[[memo_Notion_AceCamp_TPUv9與Trainium交換價值_70562031_日期待確認]] 對 v8／v9、MPU、CXL 與 2026–28 交付提供匿名路線圖。v8i:MPU 1:2.5–3 不是所有平台固定配比；PAF／FFN 卸載要同時測記憶體節省、傳輸、排隊、CPU／MPU 成本及尾延遲，不能由單項 HBM 節省就認定系統更便宜。較早來源的預留產能與本頁較晚官方架構分開保存。
+
+| 模組／問題 | 原理與邊界 | 投資觀察 |
+|---|---|---|
+| Agent CPU | 序列控制、工具執行與記憶體 I/O | CPU:GPU 必須固定 socket／核心／負載口徑 |
+| CXL 記憶體池化 | 需要相干控制器、協定、韌體與軟體配合 | 任意 PCIe switch 不自動支持 GPU 相干記憶體池 |
+| DIMM 介面 | RCD／DB／MRCD／MDB／PMIC／TS 按模組型態與世代配置 | DRAM bit 增長不等 DIMM 根數或介面顆數同增 |
+| COT／NRE | 採購、IP、驗收與授權責任按合約分配 | COT 不普遍等於零 royalty，預付款不等收入 |
+| GPU／TPU 成本 | 硬體與自研皆可能資本化 | 含 NRE、軟體、良率、電費及利用率比較 TCO |
+
+[[memo_Notion_AceCamp_PCIe與CXL工程驗證_70561280_20260424]]（2026-04-24）尚無 Google PRD、CXL 工程樣未量產，與 [[memo_Notion_AceCamp_TPUv9與Trainium交換價值_70562031_日期待確認]]、[[memo_Notion_AceCamp_交換器定價與TPUEMS分工_70561979_日期待確認]] 的簽約／仍選供應商說法不同；不建立硬性定點。[[memo_Notion_AceCamp_記憶體介面根數與世代價值_70561970_日期待確認]] 的 MRDIMM 70–80 對 RDIMM 6 是 11.7–13.3 倍而非 6–7，且原文 DB 配置前後矛盾，不當通用 BOM。
+
+CPU 訪談 [[memo_Notion_AceCamp_CPU_GPU供需與CSP自研_70560703_20260413]] 至 [[memo_Notion_AceCamp_CPU價格與有效需求缺口_70562270_日期待確認]] 與 [[memo_Notion_AceCamp_CPU高核數價格與渠道_70560702_20260412]]、[[memo_Notion_AceCamp_伺服器CPU配比與提價_70561025_日期待確認]] 對囤貨、缺口及價格方向分歧；通路折扣、原廠牌價與產品 mix 不同，ISA 不單獨決定 Agent 能力。細節見 [[分析_Agent_CPU需求與Rubin成本口徑交叉檢查_20261028]]、[[分析_TPU架構卸載與ASIC合約口徑_日期待確認]]、[[分析_記憶體介面晶片的根數世代與單價驗證_日期待確認]]。
+
+[[memo_Notion_AceCamp_TPU成本折舊與現金流_70560967_20260417]]（2026-04-17）把外購 GPU 視為變動費而自研 TPU 視為固定成本，會計二分不成立；集團 FCF 差額也不能全部歸 TPU。見 [[分析_TPU自研成本與折舊現金流邊界_20260417]]。以上訪談／規劃 estimate 低至中信心，未取代具日期官方資料。
+
 ## 來源
 
 - [[research_產業合作技術發表_2026-11-10_2]] — Google Cloud Blog 官方彙整，2026-11-10；第八代 TPU 四款系統、TPU Sync、OCS dynamic slicing。
@@ -253,6 +282,12 @@ ASIC 前端 RTL／compute 設計的 AI 工具降低部分開發障礙，價值�
 
 ## 相關頁面
 
+- [[分析_ASIC分工與過手收入的獲利驗證_日期待確認]]
+- [[分析_Neocloud電力轉換率與融資成本驗證_20261112]]
+- [[分析_光互連缺口到有效交付與價值分配_20261112]]
+- [[分析_加速器樣品到整櫃交付的驗證_日期待確認]]
+- [[分析_記憶體長約價格與合格位元供給驗證_日期待確認]]
+- [[時程_Notion歷史訪談的2026-2031驗證窗口_20261113]]
 - [[分析_緯創緯穎專家紀要_AWS集中度與ODM訂單機制_20261028]]
 - [[分析_國泰美國參訪_電力測試記憶體與太空驗證_20260914-18]]
 

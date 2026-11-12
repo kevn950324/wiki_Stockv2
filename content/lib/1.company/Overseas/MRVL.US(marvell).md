@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 技術/矽光子
   - 環節/光纖與光通訊
-updated: 2026-11-04
+updated: 2026-11-13
 aliases:
   - Marvell
   - 邁威爾
@@ -176,6 +176,12 @@ Aletheia p6–7把 Microsoft Maia200 描述為客戶自主架構、Marvell／[[2
 
 來源：[[memo_大叔美股筆記_Marvell洽購Lumentum_20261029]]、[[memo_國泰_GoodMorning_CSP財報與光通訊台廠_20261030]]。
 
+## 2026-11 併購 Lumentum（FOMOSoc 分析）
+
+- 11/2 宣布全換股收購 Lumentum：每股換 4.5 股 Marvell，10/28 基準隱含企業價值約 1,150 億美元（溢價 23.9%），交割後 Marvell／Lumentum 股東持股 67%／33%，預計 1H28 交割，無 collar。
+- Marvell 股價 10/28 251.65 美元 → 11/9 154.60 美元（累計 -38.6%），隱含企業價值縮至約 700 億美元；傳聞至宣布三日跌 31.9%，同期費半約 -10%。
+- 作者論點：Marvell 以三分之一股權換 InP 雷射產能與 CPO 架構定義權（Control），而 NVIDIA 以 20 億美元投資鎖產能（Access）；CPO 外接 CW Laser 門檻低於 EML，雷射利潤率可能被壓縮。判斷標準：Lumentum 營業利益是否達 Marvell 一半。（thesis，[[memo_FOMOSoc_Marvell併購Lumentum_20261111]]，信件版截斷）
+
 ## 來源
 
 - [[web_Marvell_加入XPOMSA_20260316]] — Marvell 官方部落格，2026-03-16（創始成員、12.8T 與重定時／線性配置）。
@@ -221,8 +227,14 @@ Aletheia p6–7把 Microsoft Maia200 描述為客戶自主架構、Marvell／[[2
 
 - [[活動_環宇-KY4991_珩石資本法說筆記_20261103]]（2026-11-03）
 
+- [[memo_FOMOSoc_Marvell併購Lumentum_20261111]]（2026-11-11）
+
+- [[memo_Notion_AceCamp_TPUv9與Trainium交換價值_70562031_日期待確認]]（原日期未標）
+- [[memo_Notion_AceCamp_TPU卸載架構與COT分工_70562075_日期待確認]]（原日期未標）
+
 ## 相關頁面
 
+- [[分析_TPU架構卸載與ASIC合約口徑_日期待確認]]
 - [[技術_光模塊]]（元大 2026-09-21 光通訊產業報告引用）
 - [[分析_Credo_ZeroFlap毛利結構與1.6T節奏_20261005]]
 - [[分析_Coherent專家訪談_光模組量價NPO與OCS_20261005]]

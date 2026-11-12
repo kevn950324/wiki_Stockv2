@@ -9,11 +9,13 @@ tags:
   - 環節/雲端資料平台
   - 環節/AI資料治理
   - 產業/資料基礎設施
-updated: 2026-07-01
+updated: 2026-11-13
 aliases:
   - Snowflake
   - SNOW
 related_companies:
+  - "[[GOOGL.US(alphabet)]]"
+  - "[[AMZN.US(amazon)]]"
   - "[[ORCL.US(oracle)]]"
   - "[[MDB.US(mongodb)]]"
   - "[[DDOG.US(datadog)]]"
@@ -97,6 +99,34 @@ Snowflake（SNOW.US）是全球領先的資料雲端平台，以消費型計費�
 
 ---
 
+## 2026-09-30 CoCo活動、RPO與付費消費
+
+[[memo_Notion_AceCamp_Snowflake_CoCo使用到付費轉換_70567677_20260930]]指出首次activity帳戶可能仍在測試，舊POC轉production未必算首次活動；RPO又受capacity簽約與on-demand模式影響。因此需結合產品收入、付費consumption、production轉換及續約擴張，不能單憑活動數或RPO增速推估需求。
+
+來源稱自然語言查詢可能因追問／重試增加query及warehouse消耗，屬expert thesis／中低信心，沒有新增收入量化。每成功任務成本與客戶留存仍重要；不將低效率重試視為永續收入。文章CoCo／Cowork／MCT名稱與7月底GA說法需核對版本，與既有F1Q27帳戶資訊分開保留；ETL／Analytics比例不是官方分部披露。詳見[[分析_Snowflake活動到消費收入的轉換驗證_20260930]]。
+
+## 供應鏈位置與相關公司
+
+| 公司 | 關係 | 來源及邊界 |
+|---|---|---|
+| [[AMZN.US(amazon)]] | 雲端部署平台，同時以Redshift競爭 | 9-30匿名紀要描述AWS部署客群；未提供實際份額 |
+| [[GOOGL.US(alphabet)]] | GCP部署平台與BigQuery競品 | 同紀要未能量化BigQuery搶占Snowflake份額；Google Cloud成長不等於BigQuery收入 |
+
+## 圖片 / 架構圖
+
+```mermaid
+flowchart LR
+    A[首次活動或POC] --> B[生產工作流]
+    B --> C[付費credits與warehouse消費]
+    C --> D[續約與擴張]
+    E[成功率與重試成本] --> B
+    E --> D
+```
+
+*圖：依9-30匿名紀要整理的商業驗證順序，非公司公布的實測轉換率。*
+
 ## 來源
+
+- [[memo_Notion_AceCamp_Snowflake_CoCo使用到付費轉換_70567677_20260930]] — 2026-09-30日期欄，匿名專家，產品與內部使用說法未外部查證。
 
 - [[報告_凱基投顧_美國軟體產業_ORCL_SNOW_MDB_20260611]]（凱基，2026-06-11；F1Q27 財報 + FY27 展望）

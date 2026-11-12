@@ -8,7 +8,7 @@ tags:
   - 公司/Teradyne
   - 環節/測試設備
   - 產業/半導體測試
-updated: 2026-10-28
+updated: 2026-11-13
 aliases:
   - Teradyne
   - 泰瑞達
@@ -103,3 +103,9 @@ flowchart LR
 
 - [[報告_富邦_Teradyne2Q26法說_20260730]] — 富邦，2026-07-30。
 - [[報告_MorganStanley_Teradyne_20261027]]
+
+- [[memo_Notion_AceCamp_CPO電光測試與耗材壽命_70560925_20260416]]（2026-04-16）
+
+## 相關頁面
+
+- [[分析_CPO電光測試的接觸次數與合格吞吐量_20260416]]

@@ -93,6 +93,7 @@ Texas Instruments（TI）是全球主要類比 IC 與嵌入式半導體供應商
 
 ## 相關頁面
 
+- [[分析_導線架成本轉嫁與重複下單驗證_20260707]]
 - [[5274_信驊（市）]]
 - [[分析_MorganStanley_GlobalTechnology_Analog_20260902]]
 - [[技術_800VDC供電架構]]

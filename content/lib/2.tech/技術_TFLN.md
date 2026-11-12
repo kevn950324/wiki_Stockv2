@@ -227,6 +227,7 @@ Nokia Bell Labs（與 UC Davis 合作）在 ECTC 2026 發表首個 flip-chip 異
 
 ## 相關頁面
 
+- [[分析_矽光與TFLN的合格產出及預測口徑_20261013]]
 - [[Sumitomo Electric（未）]]
 - [[技術_OCI]]
 - [[技術_光互連]]

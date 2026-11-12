@@ -11,13 +11,14 @@ tags:
   - 主題/NGFW
   - 主題/SASE
   - 主題/AI-SecOps
-updated: 2026-11-10
+updated: 2026-11-13
 aliases:
   - Fortinet
   - FTNT
   - FortiAIGate
   - Equinix Distributed AI Hub
 related_companies:
+  - "[[NVDA.US(nvidia)]]"
   - "[[PANW.US(palo alto networks)]]"
   - "[[CRWD.US(crowdstrike)]]"
   - "[[ZS.US(zscaler)]]"
@@ -185,7 +186,24 @@ FTNT 走「防火牆／閘道看得懂 agent 協定」的路線：在既有 Fort
 
 ---
 
+## 2025Q4 至 2026Q1：產品出貨與服務轉換的歷史基線
+
+2025Q4 逐字稿的營收為 19.1 億美元、全年 68 億美元；其全年下一年度指引 75–77 億美元，不能採中文摘要的 7.5–7.7 億美元。2026-05-07 Q1 逐字稿記錄營收 18.5 億美元、產品 6.45 億（+41%）、服務 12.1 億（+11%），但服務 billings +27%，服務收入仍需按履約期攤認。這是歷史時間點，並非目前最新財測。來源：[[memo_Notion_財報狗_Fortinet2025Q4法說_62922b58_20260206]]（會議日待確認）、[[memo_Notion_財報狗_Fortinet2026Q1法說_36b4d050_20260507]]（2026-05-07）；轉錄數字中信心。
+
+| 觀察 | 正確分母與限制 | 驗證方式 |
+|---|---|---|
+| Unified SASE | Q4 billings +40%、占比 27%，ARR 12.8 億美元、+11%；FortiSASE ARR +90% 是較小子集 | 分開追蹤 SD-WAN、SSE、服務認列 |
+| 現金流 | Q1 FCF 10.1 億美元；調整後 10.7 億、58% margin，不能把 58% 套原始 FCF | 核對非 GAAP 調節表 |
+| 換機與提價 | 管理層稱未見明顯提前拉貨；Q4 所稱特定 SKU 漲 5–20% 並非全部產品 ASP | 與本頁較晚通路調研按日期並列，不互相抹除 |
+| AI 合作 | 逐字稿明述與 [[NVDA.US(nvidia)]] BlueField-3 的軟體防火牆合作 | 技術合作不等具名 AI 客戶或已量化收入 |
+
+> [!warning] 轉錄與指引邊界
+> Q1 逐字稿全年營收區間寫成 7.71–7.7 billion，次序倒置，不推測上界；當日 EPS 指引 3.10–3.16 美元保留為歷史 estimate。匿名中東 AI 客戶不推認公司名稱。完整比較及反證條件見 [[分析_Fortinet硬體成長到服務認列的驗證_20260507]]。
+
 ## 來源
+
+- [[memo_Notion_財報狗_Fortinet2026Q1法說_36b4d050_20260507]] — Notion 儲存來源；原日期與口徑見正文。
+- [[memo_Notion_財報狗_Fortinet2025Q4法說_62922b58_20260206]] — Notion 儲存來源；原日期與口徑見正文。
 
 - [[research_產業合作技術發表_2026-11-10_2]] — Fortinet 新聞稿官方彙整，2026-11-05；FortiAIGate 上架 Equinix Distributed AI Hub。
 - [[research_Fortinet_Agent防護_20261005]] — 網路搜尋，2026-10-05 擷取：Virtue AI 收購新聞稿（2026-08-17）、FortiOS 8.0 Agentic AI 協定文件、WWT FortiAIGate 介紹、FortiSOC 新聞稿（2026-06）。

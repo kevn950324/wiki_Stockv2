@@ -4,7 +4,7 @@ tags:
   - 技術/SASE
   - 技術/零信任
   - 產業/資安
-updated: 2026-10-05
+updated: 2026-11-13
 image_status: "待補來源圖"
 aliases:
   - SASE
@@ -21,6 +21,9 @@ aliases:
   - Zero Trust Branch
   - Zero Trust Cloud
   - Zero Trust for Agents
+  - 零信任
+  - WAF
+  - Web Application Firewall
 ---
 
 # 技術_SASE
@@ -162,6 +165,12 @@ Barclays（2026-09-29）的 [[報告_Barclays_Zscaler_投資人日預覽_2026092
 
 **瓶頸與風險**：身份／資料政策整合須符合客戶既有環境；裝置與流量擴張可能增加基礎設施成本；多產品綁售、替代競爭與折扣可能抵銷新增用量的收入。應以 [[分析_Zscaler_CRO交接與非席次計價_20261005]] 的 NNARR／新客戶／用量收入驗證框架追蹤。
 
+## 2026-11 事件需求與付費轉換
+
+[[memo_Notion_AceCamp_零信任WAF與Agent安全_70568810_20261104]]（Notion日期2026-11-04）認為漏洞事件後零信任與WAF較早取得預算，採購可能落後一至兩季，屬匿名專家estimate／低信心。WAF主要保護Web應用請求，ZTNA管理身份至應用的存取，兩者控制點不同；同一供應商可同時提供，不能由WAF事件需求直接推估SASE席次。
+
+商業驗證依序看事件諮詢、試用／POC、正式部署、模組加購與續約擴張。內部AI程式碼審查不等於對外安全產品收入；該來源未附一致的漏洞識別及官方公告，因此不採其名稱作修補依據。[[NET.US(cloudflare)]]等廠商的增量需求仍需付費合約支持。框架見[[分析_零信任與WAF需求到付費轉換_20261104]]。
+
 ## 相關公司
 
 - [[PANW.US(palo alto networks)]]
@@ -171,6 +180,8 @@ Barclays（2026-09-29）的 [[報告_Barclays_Zscaler_投資人日預覽_2026092
 - [[DDOG.US(datadog)]]
 
 ## 來源
+
+- [[memo_Notion_AceCamp_零信任WAF與Agent安全_70568810_20261104]] — AceCamp匿名專家，2026-11-04日期欄；事件至採購時間估計，未外部查證。
 
 - [[報告_Barclays_Zscaler_投資人日預覽_20260929]] — Barclays，2026-09-29。
 - [[報告_RBC_Zscaler_CRO交接_20260924]] — RBC Capital Markets，2026-09-24。
@@ -183,6 +194,7 @@ Barclays（2026-09-29）的 [[報告_Barclays_Zscaler_投資人日預覽_2026092
 
 ## 相關頁面
 
+- [[分析_Fortinet硬體成長到服務認列的驗證_20260507]]
 - [[分析_資安十強Agent端防護比較_20261005]]
 - [[分析_Check Point_GTM轉型與AI資安2026]]
 - [[FTNT.US(fortinet)]]

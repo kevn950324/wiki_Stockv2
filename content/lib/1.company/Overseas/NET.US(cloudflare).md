@@ -10,7 +10,7 @@ tags:
   - 環節/基礎建設
   - 主題/SASE
   - 主題/AI基礎建設
-updated: 2026-10-22
+updated: 2026-11-13
 aliases:
   - Cloudflare
   - NET
@@ -91,7 +91,15 @@ Truist（2026-06-08）的 Agentic Security Stack 中，NET 是「AI Gateway & Ed
 
 ---
 
+## 2026-11-04 零信任／WAF：需求至收入的轉換
+
+[[memo_Notion_AceCamp_零信任WAF與Agent安全_70568810_20261104]]認為零信任與WAF可能較早取得事件驅動的安全預算，轉採購或需一至兩季；屬匿名專家estimate／低信心，不是Cloudflare訂單或公司財測。觀察新增大客戶、POC轉付費、WAF／Zero Trust加購與續約擴張，避免由漏洞新聞直接估當季收入。
+
+既有競爭關係仍以[[ZS.US(zscaler)]]、[[PANW.US(palo alto networks)]]等平台為比較；內部AI程式碼審查與token優化不視為已新增付費產品。來源漏洞與模型名稱未有一致識別，不據此提供修補或產品規格。驗證與反證見[[分析_零信任與WAF需求到付費轉換_20261104]]、[[技術_SASE]]。
+
 ## 來源
+
+- [[memo_Notion_AceCamp_零信任WAF與Agent安全_70568810_20261104]] — 2026-11-04日期欄，匿名專家，原訪談日未核。
 
 - [[memo_AceCamp_Akamai_CPU算力與MaaS_20260930]] — AceCamp Tech匿名專家訪談，2026-09-30；主體為Akamai，Cloudflare僅為競品比較，能力與份額說法未經確認。
 

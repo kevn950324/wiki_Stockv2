@@ -6,7 +6,7 @@ tags:
   - 環節/電源
   - 產業/AI伺服器
 maturity: developing
-updated: 2026-10-19
+updated: 2026-11-13
 aliases:
   - BBU
   - Battery Backup Unit
@@ -151,6 +151,12 @@ BBU 削峰需高頻功率響應，UPS 保護列／機房與來源切換，CBU �
 
 GS TAM＝GPU／ASIC 功率需求×架構 attach rate×美元/kW ASP。2030 GPU／ASIC 功率 150,081MW、BBU 對應 113,029MW 均為模型；NVIDIA attach 2025→2030 38%→95%、其他 ASIC 30%→40%，分母不同。電池約占 BBU 模組 BOM 80%–90%，不能把系統收入全部當電芯收入。市場數字及內部矛盾見 [[分析_BBU市場模型與電芯模組整合分工_20260924]]。
 
+## Notion 補充：備援容量與供電層級（2026-11-13）
+
+[[memo_Notion_AceCamp_HVDC儲能與SST架構_70563333_日期待確認]]（日期未標）的 BBU／CBU／UPS 與 HVDC 估計需按 shelf、rack 與設施層分開。額定 kW 是瞬時功率，Wh／kWh 是能量；同一 kW 下不同備援秒數會有不同容量、成本與壽命，不能將三種方案 TAM 直接相加。原訪談與 [[memo_Notion_AceCamp_Rubin排產與電源液冷資格_70560355_日期待確認]] 的 PSU／shelf／rack 也有數量口徑差異：6,000 顆 PSU、每 shelf 6 顆只能得到 1,000 shelf，尚需每 rack shelf 數才能換算 rack。
+
+投資驗證以可用能量、老化後功率、冗餘、熱管理及系統驗收為準；訪談放量與份額為低信心 estimate，未視為已實現。完整比較見 [[分析_HVDC與儲能的層級及容量驗證_日期待確認]]。
+
 ## 來源
 
 - [[261019_citi_dynapack]] — Citi，2026-10-18；PSU 夥伴 PMIC 缺料延後 BBU 拉貨、12kW 自 11 月放量。
@@ -165,6 +171,7 @@ GS TAM＝GPU／ASIC 功率需求×架構 attach rate×美元/kW ASP。2030 GPU�
 
 ## 相關頁面
 
+- [[技術_燃氣輪機控制系統]]
 - [[分析_2026-10-19_OCP後AI硬體與PCB設備券商更新]]
 - [[分析_AI資料中心供電與電熱整合]]
 - [[時程_2026能源與AI電力設備]]
