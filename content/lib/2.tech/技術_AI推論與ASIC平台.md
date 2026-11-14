@@ -4,9 +4,16 @@ tags:
   - 技術/AI推論
   - 技術/ASIC
   - 產業/AI伺服器
-updated: 2026-11-13
+updated: 2026-11-14
 image_status: "已有來源圖"
 aliases:
+  - Stand-alone Vera
+  - Standalone Vera CPU
+  - Vera CPU
+  - Rubin GPU
+  - Vera Rubin Ultra
+  - Helios Rack
+  - AI250
   - FFN offload
   - PAF
   - MPU
@@ -65,6 +72,7 @@ aliases:
   - GDSII
   - Physical implementation
 related_companies:
+  - "[[QCOM.US(qualcomm)]]"
   - "[[3443_創意電子（市）]]"
   - "[[2454_聯發科（市）]]"
   - "[[NVDA.US(nvidia)]]"
@@ -262,7 +270,24 @@ CPU 訪談 [[memo_Notion_AceCamp_CPU_GPU供需與CSP自研_70560703_20260413]] �
 
 [[memo_Notion_AceCamp_TPU成本折舊與現金流_70560967_20260417]]（2026-04-17）把外購 GPU 視為變動費而自研 TPU 視為固定成本，會計二分不成立；集團 FCF 差額也不能全部歸 TPU。見 [[分析_TPU自研成本與折舊現金流邊界_20260417]]。以上訪談／規劃 estimate 低至中信心，未取代具日期官方資料。
 
+## 晶片、CPU 與機房交付的分層驗證（2026-11-14 收錄）
+
+[[memo_使用者_Analog載板資料中心與AI晶片_日期待確認_收錄20261114]]（使用者彙整，原機構／日期未提供；未外部查證）估 [[NVDA.US(nvidia)]] Stand-alone Vera 面向 Agent，2026H2／2027 出貨 200／500 萬顆，並稱 [[AMD.US(amd)]] Helios 2027Q1 爬坡有限、[[QCOM.US(qualcomm)]] AI250 尚未完成驗證（estimate／rumor，低）。這些名稱補入 aliases 供平台查詢，不代表技術等同或已量產。
+
+CPU 的序列控制、工具執行與記憶體 I/O，和 GPU／ASIC 的模型運算是互補流程。晶片到機房能提供付費算力，仍需 CPU／記憶體／互連配套、系統整合、燒機測試、供電冷卻及客戶驗收；任何一環受限都可能造成出貨與部署時間差。
+
+| 階段／參數 | 判斷方式 | 投資觀察 |
+|---|---|---|
+| 送樣→驗證→量產 | 固定晶片 SKU、客戶及驗收標準 | AI250 1Q27 是條件式觀察窗口，不是已公告延期或量產日 |
+| 獨立 CPU→GPU 伴隨 CPU | 分 CPU 顆數、socket、核心、機櫃與工作負載 | 不用 Vera 出貨直接推全伺服器 CPU 市占 |
+| GPU 出貨→認列→部署 | 固定期末存量、年度流量及同一供應商範圍 | 來源的全體落差 100 萬與 NVIDIA 未部署 100 萬不相加；顆數不能直接證明 12.5% 營收 |
+| 整櫃交付→通電→付費使用 | 觀察利用率、任務延遲與實收收入 | 供給恢復後仍低利用率，才加強需求不足的反證 |
+
+完整來源差異與反證：[[分析_功率漲價與AI晶片出貨部署落差_日期待確認_收錄20261114]]。本頁原有具日期的 Rubin／Helios 進度保留，日期未知筆記不覆蓋現況。
+
 ## 來源
+
+- [[memo_使用者_Analog載板資料中心與AI晶片_日期待確認_收錄20261114]] — 使用者提供，原日期未提供，2026-11-14 收錄。
 
 - [[research_產業合作技術發表_2026-11-10_2]] — Google Cloud Blog 官方彙整，2026-11-10；第八代 TPU 四款系統、TPU Sync、OCS dynamic slicing。
 

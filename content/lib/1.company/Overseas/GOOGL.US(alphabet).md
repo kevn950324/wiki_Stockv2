@@ -14,7 +14,7 @@ tags:
   - 主題/Gemini
   - 主題/Waymo
   - 環節/雲端服務
-updated: 2026-11-13
+updated: 2026-11-14
 aliases:
   - Google
   - Alphabet
@@ -27,6 +27,7 @@ aliases:
   - GTIG
   - Google Threat Intelligence Group
 related_companies:
+  - "[[OpenAI（未）]]"
   - "[[3443_創意電子（市）]]"
   - "[[005930.KR(samsung)]]"
   - "[[6257_矽格（市）]]"
@@ -166,6 +167,10 @@ Alphabet Inc.（Google 母公司），全球最大數位廣告公司、全球第
 
 ## 時間軸
 
+| 時間 | 本筆記追蹤節點 | 類型 | 重要性 | 來源與限制 |
+|---|---|---|---|---|
+| 2027（觀察） | 機房需求按原規劃與 TPU 算力兌現 | 需求驗證 | ⭐⭐ | field_observation／中低；相對 OpenAI 優勢為 thesis，[[時程_2026-2029功率調價與AI平台驗證]] |
+
 | 時間／窗口 | 新增觀察 | 類型 | 重要性 | 來源與追蹤 |
 |---|---|---|---|---|
 | 4Q26–2027 | TPU 系統銷售 4Q26 續擴、2027 年明顯放量；擴至客戶自有資料中心與 Oracle 等第三方平台 | TPU 外部化 | ⭐⭐⭐ | [[活動_AlphabetGOOGL_國泰CallMemo_20261029]] |
@@ -282,6 +287,7 @@ UBS 2026-09-29 的四 die TPUv9／高功率機架屬供給模型情境；2027 �
 
 | 公司 | 關係 | 說明 |
 |---|---|---|
+| [[OpenAI（未）]] | AI 模型／算力競爭 | 本筆記比較機房限制與 Google 自有 TPU／基建優勢；市占提升為條件式 thesis |
 | MSFT.US(microsoft) | 雲端 + AI 主要競爭者 | Azure OpenAI vs GCP Gemini |
 | AMZN.US(amazon) | 雲端主要競爭者 | AWS vs GCP |
 | [[META.US(meta)]] | 廣告 + AI 競爭者 | 數位廣告份額競爭 |
@@ -316,7 +322,18 @@ COT 路線保有核心 compute 設計，[[2454_聯發科（市）]] 提供部分
 - 意義：Google 同時擴大自研 TPU 與 NVIDIA GPU 兩條路，GPU 端規模以官方數字揭露；ODM 與零組件歸屬未揭露。
 - 來源：[[research_產業合作技術發表_2026-10-22]]（NVIDIA 部落格，2026-10-21）。
 
+## 產業筆記補充（2026-11-14 收錄；原日期未提供）
+
+來源：[[memo_使用者_Analog載板資料中心與AI晶片_日期待確認_收錄20261114]]（使用者彙整，機構未具名；原始日期未知，未外部查證）。
+
+- 筆記稱 Google 與 [[META.US(meta)]] 2027 機房需求維持原規劃（field_observation／中低），未提供規模與正式 capex 修正。
+- 筆記比較 [[OpenAI（未）]] 與 Google：前者對建設限制曝險最高、後者最低，若前沿實驗室因電力／建設拿不到算力，Google 可能以自有基建及 TPU 提高市占（thesis／低）。這是模型與算力服務的競爭情境，非市占已增加或 Google 完全沒有容量瓶頸。
+
+完整口徑與反證：[[分析_功率漲價與AI晶片出貨部署落差_日期待確認_收錄20261114]]；跨公司時程：[[時程_2026-2029功率調價與AI平台驗證]]。
+
 ## 來源
+
+- [[memo_使用者_Analog載板資料中心與AI晶片_日期待確認_收錄20261114]] — 使用者提供，原日期未提供，2026-11-14 收錄。
 
 - [[research_產業合作技術發表_2026-11-10_2]] — 官方發表彙整，2026-11-10；TPU 8tx／8i Max、TPU Sync、GKE OCS dynamic slicing、GTIG LLMJacking。
 - [[memo_M報_AnthropicS1與Google微軟財報_20261103]] — M報 #349，2026-11-03；Gemini 4 Carbon 與 3Q26 財報。

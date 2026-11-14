@@ -10,7 +10,7 @@ tags:
   - 技術/CPO
   - 環節/光纖
   - 產業/光通訊
-updated: 2026-11-13
+updated: 2026-11-14
 aliases:
   - Corning
   - 康寧
@@ -143,8 +143,19 @@ flowchart LR
 - [[技術_FAU]]（GlassBridge 屬邊緣耦合可拆方案，與光柵耦合 FA 路線比較）
 - [[供應鏈_CPO]]（CPO 光纖、連接器與光學元件供應鏈）
 
+## 2026-11-12 統一 3Q26 財報評析
+
+- 3Q26（fact／高）：核心營收 US$5.081bn（季增 7%、年增 19%，連續第十季年增）；光通訊 US$2.379bn（季增 15%、年增 44%），占比升至 47%，其中 Enterprise Network US$1.525bn（季增 20%、年增 84%），AI 相關產品年增逾 100%。核心毛利率 40.5%（季增 0.9ppt），核心營益率 22.7%，核心 EPS US$0.91。
+- 光纖需求：Scale-Out 每顆 GPU 約需 16 條光纖，Scale-Up 全面光連接理論可達約 160 條，預期 2028 年加速滲透；Enterprise 年化營收由約 US$1.4bn 增至約 US$6bn。布局 CPO、NPO、精密光學與 Glass Core Substrate（約 2030 年商業化）；2030 年光通訊 Photonics TAM 約 US$10bn（公司預期）。DCI 長期營收機會超過原 US$1bn 目標。
+- 其他事業：Solar 營收 US$436mn、部門淨損 US$7mn，晶圓與模組爬坡慢於規劃；Glass Innovations US$1.506bn（年減 3%），4Q 玻璃基板漲價；Automotive US$470mn。
+- Springboard：2026／2028／2030 年底年化營收目標 US$20bn／27–30bn／35–40bn，3Q26 已提前達標；2026 年 CapEx 約 US$2bn，部分客戶預付款鎖產能，NVIDIA、Meta 等 Hyperscaler 簽 2026–30 年數十億美元光纖長約。4Q26 指引核心營收 US$5.2–5.3bn、核心 EPS US$0.96–1.00。
+- 統一：買進，長線 TP US$147（30x 2027E），2026／2027／2028 年核心 EPS US$3.59／4.90／6.16（estimate）。
+- 來源：[[報告_統一_康寧GLW_20261112]]。
+
 ## 來源
 
+
+- [[報告_統一_康寧GLW_20261112]] — 統一投顧，2026-11-12；3Q26 財報評析、買進、TP US$147。
 - [[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]] — 招商證券，2026-10-13（2025 布線收入、擴產計畫、US Conec 持股、CPO FAU 產品；券商整理，信心中）
 - [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄；PMF 產能與代工、Shuffle Box 份額、DFAU 代工鏈，低至中低信心）
 - [[報告_Nomura_大立光CPO光纖陣列_20260709]]（Nomura，2026-07-09）：大立光稱 GC 為主流設計路線、其 FA 不受 Corning GlassBridge（EC）影響；為競爭對手觀點，信心中低。

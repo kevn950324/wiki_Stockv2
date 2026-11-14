@@ -325,6 +325,8 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 
 ## 來源
 
+- [[活動_AppliedOptoelectronicsAAOI_國泰CallMemo_20261112]] — AAOI 法說（國泰，2026-11-12）：高功率雷射供應者僅 AOI、Lumentum、Coherent。
+
 - [[活動_CoherentCOHR_國泰CallMemo_20261104]] — 國泰證期 call memo（LINE），2026-11-04；FY1Q27 財報
 - [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄；「公司」判讀為 Coherent；ELSFP 份額、DFAU 分工、福州 FAU 擴產，低至中低信心）
 - [[memo_Coherent專家訪談_光模組量價_NPO_OCS_EML與獲利目標_日期不詳]] — 使用者提供之 Coherent 專家訪談整理稿，日期不詳（2026-10-05 收錄）；模組量價、DSP、NPO、FAU、OCS、EML／CW 與獲利目標，低信心

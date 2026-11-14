@@ -184,6 +184,8 @@ Aletheia p6–7把 Microsoft Maia200 描述為客戶自主架構、Marvell／[[2
 
 ## 來源
 
+- [[活動_AppliedOptoelectronicsAAOI_國泰CallMemo_20261112]] — AAOI 法說（國泰，2026-11-12）：800G DSP 缺貨，AAOI 與 Marvell、Broadcom 協商並認證 Credo；Marvell 併購 Lumentum 後成為 AAOI 競爭對手。
+
 - [[web_Marvell_加入XPOMSA_20260316]] — Marvell 官方部落格，2026-03-16（創始成員、12.8T 與重定時／線性配置）。
 - [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；創意專案、合作分工與未確認的上行情境。
 - [[報告_BofA_AgenticAI半導體市場_20260929]] — BofA，2026-09-29；Agentic AI 產業模型、個股估值與風險
