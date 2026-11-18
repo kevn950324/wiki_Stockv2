@@ -249,6 +249,8 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 
 ## 來源
 
+- [[memo_元大_Anthropic上市進展FlashCall_20261111]]（2026-11-11，元大投顧邱元彥 Flash Call 潤稿）— IPO 進度、算力承諾及元大估值情境。財測為券商預估，會中所述 FCF 金額的期間待核。
+
 - [[memo_Anthropic_IPO路演中文逐字稿與PM摘要_日期待確認]]（路演日期不詳，2026-11-18 收錄）— 使用者提供管理層路演中文逐字稿、PM 摘要及會議紀要。管理層自報中信心，長期目標中低信心。
 
 - [[memo_MS_Anthropic_IPO投資人回饋與財務預測_日期待確認]]（會議日期不詳，使用者提供的潤稿節錄）。據編輯註，MS 分析師表示已確認 Amazon、Google 有分潤（revenue share）安排，Microsoft 是否有分潤仍不明。分潤安排僅見於會中陳述，合約條款待查。
