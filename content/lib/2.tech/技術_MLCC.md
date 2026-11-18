@@ -6,7 +6,7 @@ tags:
   - 產業/消費電子
   - 產業/汽車電子
   - 產業/被動元件
-updated: 2026-10-27
+updated: 2026-11-15
 aliases:
   - MLCC
   - 積層陶瓷電容
@@ -411,8 +411,18 @@ MLCC 價值鏈平均 PE 自 2026 年 2 月 28x → 2026 年 5 月底 **59x**，�
 - [[技術_800VDC供電架構]]（800V HVDC 升級拉動高壓 NP0/MLCC 需求）
 - [[技術_ABF載板]]（嵌入式 MLCC / 矽電容的下世代載板整合）
 
+## 2026-11-13 國票：日電貿 (3090 TT) AI MLCC 代理與交期
+
+- 3Q26：營收 58.61 億元（季增 13.7%／年增 44.7%），毛利率 21.12%（季增 3ppts），EPS 2.49 元；營收結構 MLCC 52%、固態電容 26%、電解電容 9%。
+- 供需：AI 高階 MLCC 供需緊俏，加上日韓原廠產能轉移，部分消費性料號交期拉長至 24–36 週；4Q26 AI 與一般型料號報價調漲，MLCC 營收占比估由 52% 升至 54%。
+- 良率：AI 高階 MLCC（高容值、高耐壓、高可靠度）良率依產品約 40%–80%，一般 MLCC 可達 99.9%，產能消耗大，緊俏預期延續至 2027 年。
+- 庫存：NVIDIA Vera Rubin 平台出貨遞延，客戶拉貨低於預期，3Q26 存貨升至 46.03 億元；預期 2027 年初 Rubin 放量後去化。
+- 2027：MLCC 占比估 57%、MLCC 營收年增 49.7%，AI 營收占比約 60%。國票由強力買進 TP 256 調為買進 TP 172；估 2026／2027 EPS 9.80／14.37 元（券商估計）。
+- 日電貿為文曄（持股 35.47%）子公司，尚無公司頁。來源：[[報告_國票_日電貿3090_20261113]]
+
 ## 來源
 
+- [[報告_國票_日電貿3090_20261113]]：國票日電貿法說更新（2026-11-13）
 - [[research_產業合作技術發表_2026-10-23]] — 三星電機新聞稿彙整，2026-10-21；NVIDIA 載板內埋 MLCC／矽電容。
 - [[報告_Citi_村田製作所_20260629]] — Citi Research，2026-06-29（村田升評 Buy；AI GPU board 每塊 ~11,000 MLCC vs 一般伺服器 ~2,000；100µF 成未來標準；Murata AI MLCC 市占 ~50%；FY3/27 OP ¥440bn、FY3/28 ¥630bn、FY3/29 ¥800bn）
 - 報告_MS_AI半導體MLCC_20260623 — Morgan Stanley（Shawn Kim / Charlie Chan / Nigel van Putten / Daisy Dai / Lydia Lin），2026-06-23（Global Technology Webcast；AI server MLCC demand approaching $1B by 2027；top 5 MLCC suppliers ~87% global market share；Taiwan MLCC monthly sales growth turning positive）

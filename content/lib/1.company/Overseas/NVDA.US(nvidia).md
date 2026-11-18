@@ -14,12 +14,13 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-11-14
+updated: 2026-11-18
 aliases:
   - NVIDIA
   - 輝達
   - Nvidia Backstop
 related_companies:
+  - "[[3665_貿聯-KY（市）]]"
   - "[[2317_鴻海（市）]]"
   - "[[005930.KR(samsung)]]"
   - "[[3189_景碩（市）]]"
@@ -158,6 +159,7 @@ flowchart LR
 
 | 公司 | 關係 | 說明 |
 |------|------|------|
+| [[3665_貿聯-KY（市）]] | 互連及交換器機構供應 | 貿聯 3Q26 會後筆記列 NVIDIA 為高成長客戶之一，以 DGX 為主，Interplex 供應交換器機殼。Rubin 線束追蹤見 [[分析_貿聯-KY_3Q26會後_電源與光互連放量_20261118]] |
 | [[2330_台積電（市）]] | 上游主代工 | CoWoS 主代工，Rubin 部分外溢出口 |
 | [[3037_欣興（市）]] | 上游 ABF 載板 | 載板供應，Ajinomoto 漲價傳導至此 |
 | [[8046_南電（市）]] | 上游 ABF 載板 | 同上 |
@@ -464,8 +466,33 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 
 完整口徑與反證：[[分析_功率漲價與AI晶片出貨部署落差_日期待確認_收錄20261114]]；跨公司時程：[[時程_2026-2029功率調價與AI平台驗證]]。Agent 與 CPU 平台：[[技術_AI推論與ASIC平台]]。
 
+## 2026-11-13 群益：更換執行長對台灣供應鏈影響
+
+- 結論：既有訂單多已進入認證或量產，短期影響有限；Neocloud（CoreWeave、Nebius）因與 NVIDIA 有投資、供應與算力承購關係，融資與採購進程最可能受影響；OEM（Dell、HPE、Supermicro）過往關係優勢可能消失；CSP 自研 ASIC 可能直接受惠。
+- 台廠分類：鴻海、英業達（GPU 伺服器 CSP 約 60%）影響較小；廣達、緯穎以 ODM-Direct 服務 CSP，ASIC 端可能受惠；緯創 Vera Rubin 世代主要客戶為 Dell，可能直接受影響但有限；川湖具 ASIC 平台先發優勢。
+- 半導體：上游晶圓代工與先進封裝相對具韌性；京元電 NVIDIA 訂單比重最高，可能面臨估值下修；欣銓、力成、矽格、頎邦受惠 ASIC 比重。台達電、奇鋐、光寶科營運不受影響。
+- 評等：台積電、台達電、光寶科、創意、世芯 Buy；奇鋐、鴻海、英業達、廣達、緯穎、聯發科 Trading Buy。來源：[[報告_群益_NVIDIA更換執行長對台灣供應鏈影響_20261113]]
+
+### 2026-11-13 SemiAnalysis 下修加速器需求，NVIDIA 承受最大減幅
+
+- **下修理由（thesis／中）**：(1) 前沿 AI 實驗室 3Q26 新增 ARR 放緩，重設整體 token 營收預期；(2) 資本市場緊縮，無 hyperscaler 承購的 AI 資本支出較難融資；(3) 美國期中選舉使原訂 2H27–1H28 的 5.8GW 美國資料中心供給遞延。客戶依 perf/TCO、perf/W 加上融資能力排序，最差平台受最大減幅。
+- **NVIDIA**：以算力營收計 2027E／2028E／2029E／2030E 出貨下修 22%／39%／56%／66%（以全口徑功耗計 14%／35%／50%／59%）；Feynman ASP 由約 US$110k 降至約 US$78k、Feynman Ultra 由約 US$175k 降至約 US$98k、Feynman Next 由約 US$191k 降至約 US$118k；Groq LPU 與獨立 CPU 一併下修。理由為 Anthropic 四大平台（TPU、Trainium、AMD、NVIDIA）中 NVIDIA 最邊際、OpenAI 優先部署 AMD（warrant）與自研 ASIC、NVIDIA 對 Neocloud 曝險最高且 RASA Act 可能將中國遠端存取視為出口。SemiAnalysis 稱模型不反映黃仁勳辭任，但領導層交接增加下行風險。
+- **近期**：Vera Rubin L6 板由 3Q 遞延至 4Q，約 10 萬顆 Rubin GPU 移至 4Q26，2026 年 Vera Rubin 維持約 98 萬顆；3Q 由 GB300 增加約 13 萬顆補位，4Q26 移除約 26 萬顆 GB300 與約 15 萬顆 H200；估 NVIDIA 3Q26 總營收約 US$1,091 億、4Q26 約 US$1,253 億；2027 年 ODM 模型對 Microsoft 的 Vera Rubin 機櫃減 200 櫃。
+- **其他平台**：Broadcom 2026–2030 ASIC 營收合計下修 11%（主要為 HBM 成本下降帶動 ASP）；MediaTek TPU v9i（Triggerfish）生命週期量減 42%、Humufish 2028–29 減 47 萬顆；AMD 以功耗計 2028E–2030E 下修 23%／55%／57%；Amazon Trainium 2027–2028 不下修。
+- **群益解讀**：對台廠 ODM 影響主要在 2028 年後，Vera Rubin 專案已定案、零組件出貨與預期相仿，鴻海、廣達稱 Vera Rubin 1Q27 如期放量，維持鴻海、廣達、緯穎 Trading Buy。
+- 來源：[[報告_SemiAnalysis_加速器需求與出貨下修_20261113]]、[[報告_群益_SemiAnalysis下修AI展望與ODM_20261117]]。
+
+> [!warning] 2027 出貨預估衝突
+> SemiAnalysis 下修 NVIDIA 2027E 22%（算力營收口徑），與既有 Rubin 2027 年 700–800 萬顆等預估並列；群益供應鏈調查稱 2027 ODM 出貨預期不變。未裁定。
+
 ## 來源
 
+- [[活動_貿聯3665_3Q26會後_日期待確認]] — 3Q26 會後筆記，2026-11-18 收錄，DGX、Interplex 交換器機殼及 Rubin 電源。
+
+- [[報告_SemiAnalysis_加速器需求與出貨下修_20261113]] — SemiAnalysis，2026-11-13；加速器需求與出貨下修。
+- [[報告_群益_SemiAnalysis下修AI展望與ODM_20261117]] — 群益投顧產業速報，2026-11-17。
+
+- [[報告_群益_NVIDIA更換執行長對台灣供應鏈影響_20261113]]：群益產業速報（2026-11-13）
 - [[memo_使用者_Analog載板資料中心與AI晶片_日期待確認_收錄20261114]] — 使用者提供，原日期未提供，2026-11-14 收錄。
 
 
@@ -761,6 +788,10 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 - [[memo_Notion_ScaleUp_CPO光源與FAU舊筆記_bd3fe2d7_20260618]]（2026-06-18）
 - [[memo_Notion_YahooFinance_SKhynix2026Q1法說_cecc08db_日期待確認]]（原日期未標）
 - [[memo_Notion_財報狗_Fortinet2025Q4法說_62922b58_20260206]]（2026-02-06）
+
+- [[報告_國金證券_通訊週報Anthropic路演與平頭哥分拆_20261115]]（2026-11-15）
+
+- [[報告_開源證券_電子週報Anthropic衝刺IPO與黃仁勳卸任_20261115]]（2026-11-15）
 
 ## 相關頁面
 

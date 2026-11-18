@@ -9,11 +9,12 @@ tags:
   - 產業/AI伺服器
   - 產業/企業IT
   - 環節/AI伺服器組裝
-updated: 2026-10-27
+updated: 2026-11-18
 aliases:
   - Dell
   - Dell Technologies
 related_companies:
+  - "[[3665_貿聯-KY（市）]]"
   - "[[NVDA.US(nvidia)]]"
   - "[[AMD.US(amd)]]"
   - "[[MU.US(micron)]]"
@@ -131,6 +132,7 @@ flowchart LR
 
 | 公司 | 關係 | 說明 |
 |------|------|------|
+| [[3665_貿聯-KY（市）]] | Interplex 機櫃供應 | 貿聯 3Q26 會後筆記列 Dell 為其成長率最高的客戶之一，亦為 Interplex 機櫃客戶（筆記轉述） |
 | [[NVDA.US(nvidia)]] | 關鍵上游 | AI GPU 主要供應商；Vera Rubin / RTX |
 | [[AMD.US(amd)]] | 替代平台／上游 | AI 加速器平台之一；匿名訪談估計其在 Dell AI 出貨中的比重約一成，非公司揭露 |
 | [[MU.US(micron)]] | 上游 / 瓶頸 | DRAM/NAND 最大供應瓶頸；SCA 客戶 |
@@ -183,7 +185,18 @@ Dell 在 NVIDIA GTC Berlin 發布新聞稿（Business Wire，2026-10-21），把
 - 記憶體漲價的直接受益者是 OEM：ODM 端記憶體採 consign 或由 OEM 議價後代採，議價權在 OEM。
 - 以上為 ODM 端匿名說法，rumor／低至中信心；與本頁 GFHK「SpaceX 份額流失、維持 Hold」的看法方向不同，並列保留。
 
+### 2026-11-16 GFHK：F3Q27 財報預覽，中期展望轉弱
+
+- 股價一個月下跌 24%（CoreWeave 融資疑慮、PC sell-through 疲弱、AI 股回檔）。GFHK 預估 F3Q27E 營收 US$54bn（指引與共識 US$49bn），毛利率 18.4%、EPS US$7.18（共識 19.2%、US$6.5），AI 機櫃出貨與 ASP 較高；FY27E AI 伺服器營收可能上調至 US$85bn、全年營收 US$200bn 以上。法說 11/24。
+- **逆風**：企業通用伺服器 1H26 提前拉貨後轉弱，FY2H27E 出貨半年減雙位數、FY27E 年減 9%，FY28E 可能年減超過雙位數；CSG 營收成長 FY27E 下修至 +6%、FY28E -6%（PC 出貨 FY28E 年減高個位數）。
+- **SpaceX 份額**：[[2317_鴻海（市）]] 取得 SpaceX 較大份額（最高 45%–50%，SpaceX 明年 2 萬櫃為業界最大買家）；tier-2 neocloud（Nscale、IREN、Crusoe、Lambda）支撐 VR200 backlog；Dell 在 L10 供應商緯創的業務占比下降。維持 GB／VR NVL72 機櫃出貨 FY27E／FY28E 17k／20k 櫃。
+- EPS FY27E／FY28E 調整 +2%／-3%，維持 Hold，TP 下修至 US$341（12x FY28E EPS）。來源：[[報告_GFHK_Dell_F3Q27預覽_20261116]]。
+
 ## 來源
+
+- [[活動_貿聯3665_3Q26會後_日期待確認]] — 3Q26 會後筆記，2026-11-18 收錄，Dell 客戶與 Interplex 機櫃。
+
+- [[報告_GFHK_Dell_F3Q27預覽_20261116]] — GF Securities (Hong Kong)，2026-11-16；F3Q27 預覽、Hold、TP US$341。
 
 - [[memo_緯創緯穎_AWS客戶結構與ODM訂單機制專家觀點_日期不詳]] — ODM 端匿名專家紀要，日期不詳（2026-10-28 入庫）；Dell 儲存布局與 OEM／ODM 分工。
 

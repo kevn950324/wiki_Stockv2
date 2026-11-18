@@ -8,7 +8,7 @@ tags:
   - 技術/矽光子（SiPh）
   - 產業/AI伺服器
   - 環節/光通訊
-updated: 2026-11-04
+updated: 2026-11-18
 ---
 
 # 供應鏈_AI光互聯
@@ -346,6 +346,15 @@ Nomura 在「Greater China Semi Renaissance」Anchor Report 中提出的光互�
 | NPO／CPO／ELS | [[LITE.US(lumentum)]]、[[NVDA.US(nvidia)]] | NPO 客戶興趣較廣，CPO 基準為 2H27 出貨／2028 部署；ELS 首張訂單與超高功率雷射出貨仍屬展望 | 中 |
 
 來源：[[2026-08-11-LITE.OQ-Jefferies-Delivering on Multiple Growth Vectors, NPO a New Leg to Scal...-123789110]]、[[2026-08-11-LITE.OQ-TD Cowen-Continued Strong Execution, But Cycle Questions Linger-123788973]]、[[2026-08-12-LITE.OQ-Barclays-Lumentum Holdings Inc. Several Moving Pieces, All in Right ...-123789088]]、[[2026-08-12-LITE.OQ-BNP Paribas-LUMENTUM HOLDINGS (+)  Lighting The Way-123789795]]、[[2026-08-12-LITE.OQ-JPMorgan-Lumentum F4Q26 Review Executing Ahead of Plan With Incremen...-123791452]]。
+
+## 貿聯 3Q26 會後：跳線與光學組裝
+
+| 環節 | 業務位置 | 驗證項目 |
+|---|---|---|
+| [[技術_MPO|MPO／MTP 跳線]] | [[3665_貿聯-KY（市）]] 旗下新富生組裝，既有客戶含 [[GLW.US(corning)]]，另有未具名美系客戶加單 | 台南廠試產後的客戶選廠及實際出貨，光纖重排盒另看排產 |
+| [[技術_光互連|microVCSEL ALC]] | [[CRDO.US(credo)]] 產品與貿聯精密組裝，筆記記錄台灣打樣 | 客戶認證、潔淨製程與高精度耦合，2H27 為潛在量產窗口 |
+
+來源為 [[活動_貿聯3665_3Q26會後_日期待確認]]（原日期未載，2026-11-18 收錄）。客戶加單與打樣為筆記轉述，量產為 estimate／中低信心。[[分析_貿聯-KY_3Q26會後_電源與光互連放量_20261118]]。
 
 ## 2026-09-06 貿聯法說補充
 

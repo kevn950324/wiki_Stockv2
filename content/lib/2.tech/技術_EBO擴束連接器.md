@@ -143,6 +143,7 @@ flowchart LR
 | 授權製造／組裝 | US Conec（未建頁）、[[Sumitomo Electric（未）]]、Rosenberger（未建頁） | US Conec 獲授權製造；Sumitomo、Rosenberger 以 3M ferrule 做跳線與連接器 | 目前組裝端多元，但 ferrule 仍集中在 3M 生態 |
 | 超大規模使用者 | [[MSFT.US(microsoft)]]、[[AMZN.US(amazon)]] | 已部署／採購綁定 | 是否有第三家 CSP 導入 |
 | 實體接觸替代方案 | [[GLW.US(corning)]] 等 MPO／MMC 供應商 | 同一連接位置的競爭與並存 | MMC 損耗與成本優勢能否守住光預算緊的鏈路 |
+| 台系跳線／連接器 | [[7861_貝爾威勒（市）]] | 取得 3M EBO 專利授權開發擴束光跳線，定位取代 MPO；NPI 送樣指標客戶 | 2027 年小量出貨、2H27 放量、2028 年貢獻明顯（公司說法） |
 
 > [!note] 信心水準
 > 3M 入股玉晶光、Amazon 認股權證條款、3M×AWS 合作、MSA 16 家成員、單模 < 0.70 dB／> 55 dB 規格為官方或產品頁 fact（高）；Azure 部署、85% 清潔時間節省為 UBS 轉述（中）；典型損耗 0.35–0.40 dB 只見於搜尋摘要（低）；玉晶光 2027 年營收貢獻為券商 estimate（中）；EBO 與 MMC 並存、光背板採用為 SemiAnalysis thesis（中／低）。3M 新聞稿未揭露產能數字與量產時程。
@@ -170,6 +171,7 @@ flowchart LR
 
 ## 來源
 
+- [[活動_貝爾威勒7861_法說彙整_20261116]] — 貝爾威勒上市前業績發表會，2026-11-16；EBO 取得 3M 專利授權、2H27 放量。
 - [[research_EBO技術細節_2026-10-28]] — 3M 規格、專利 US10746942、Rosenberger、Molex、US Conec、Sumitomo、EBO MSA 等網路彙整，擷取 2026-10-28
 - [[research_產業合作技術發表_2026-10-28_2]] — 3M×AWS 合作新聞稿，2026-10-21
 - [[memo_SemiAnalysis_EBO擴束連接器_20261024]] — SemiAnalysis（X 串文），2026-10-23

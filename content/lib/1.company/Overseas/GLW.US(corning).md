@@ -10,13 +10,14 @@ tags:
   - 技術/CPO
   - 環節/光纖
   - 產業/光通訊
-updated: 2026-11-14
+updated: 2026-11-18
 aliases:
   - Corning
   - 康寧
   - GLW
   - GLASSBRIDGE
 related_companies:
+  - "[[3665_貿聯-KY（市）]]"
   - "[[GFS.US(globalfoundries)]]"
   - "[[NVDA.US(nvidia)]]"
   - "[[INTC.US(intel)]]"
@@ -97,6 +98,7 @@ flowchart LR
 
 | 公司 | 關係 | 說明 |
 |------|------|------|
+| [[3665_貿聯-KY（市）]] | 光纖組件供應與合作 | 貿聯 3Q26 會後筆記列康寧為新富生既有客戶，券商另提貿聯與康寧合作光纖重排盒。見 [[供應鏈_AI光互聯]] |
 | [[GFS.US(globalfoundries)]] | 技術合作 | GLASSBRIDGE + Fotonix CPO 連接器 |
 | [[NVDA.US(nvidia)]] | 戰略合作 | 光纖供應，光進銅退 |
 | [[INTC.US(intel)]] | 玻璃客戶 | 3DGS 玻璃基板 |
@@ -153,6 +155,8 @@ flowchart LR
 - 來源：[[報告_統一_康寧GLW_20261112]]。
 
 ## 來源
+
+- [[活動_貿聯3665_3Q26會後_日期待確認]] — 3Q26 會後筆記，2026-11-18 收錄，康寧與新富生客戶關係。
 
 
 - [[報告_統一_康寧GLW_20261112]] — 統一投顧，2026-11-12；3Q26 財報評析、買進、TP US$147。

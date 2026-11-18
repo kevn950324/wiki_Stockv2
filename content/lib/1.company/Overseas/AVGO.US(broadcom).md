@@ -232,7 +232,15 @@ v8i Sunfish、v8.5 Whalefish 與 v10 Merope 延續 Broadcom 方案；2027 TPU �
 
 時間軸：4Q27 Whalefish、1H29 Merope（均預估），1Q27 看供應與 OpenAI 計畫是否確定；同步 [[時程_2026-2028十月券商催化劑]]。
 
+### 2026-11-13 SemiAnalysis：Broadcom 受影響最小
+
+- 2026–2030 年 ASIC 營收合計下修 11%，主要來自 HBM 成本下降使 ASP 降低，非量的削減；三大 ASIC 專案（TPU、OpenAI、Anthropic）兼具 perf／成本與功耗優勢，且 Broadcom 可為土地、電力、機殼與系統融資提供擔保（thesis／中）。
+- OpenAI Gen 2 Serrano 2029 年減 1GW、Gen 3 2030 年量大增；TPU 小幅下修，Anthropic 700MW TPU 因德州資料中心可能暫停由 2027 遞延至 2028（Crusoe／Goodnight 約 275MW 自 4Q27 遞延、Nexus Hubbard 330MW 未獲許可）；新創 MatX 需求下修。
+- 來源：[[報告_SemiAnalysis_加速器需求與出貨下修_20261113]]。
+
 ## 來源
+
+- [[報告_SemiAnalysis_加速器需求與出貨下修_20261113]] — SemiAnalysis，2026-11-13；ASIC 營收下修 11%、融資優勢。
 
 - [[報告_招商證券_FAU與MPO在ScaleUp時代的價值通脹_20261013]] — 招商證券，2026-10-13：稱 Broadcom 與 TE 相繼推出密度高於 Shuffle 的光背板；示意的 1,024 XPU scale-up 叢集為每顆 XPU 25.6 Tbps、交換器 204.8 Tbps，每機櫃 8,192（GPU 櫃）／32,768（交換器櫃）芯光纖。券商轉述，信心中；細節見 [[技術_MPO]]。
 - [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄）：Broadcom CPO FAU 為 40 芯、方案約 3.6T（主流為 36 芯、3.2T），出貨預期較少；光庫部分參與、長飛可能客製光纖，並在接觸天孚、雍邑等 FA 供應商；Broadcom 與 NVIDIA 對機櫃內 VCSEL 方案有興趣。均為 channel estimate，信心低；判讀見 [[分析_CPO無源器件ELS_FAU與Shuffle專家訪談_20261030]]。

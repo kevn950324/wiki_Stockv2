@@ -9,11 +9,12 @@ tags:
   - 環節/半導體設備製造
   - 環節/半導體設備製造
   - 產業/半導體
-updated: 2026-11-13
+updated: 2026-11-18
 aliases:
   - Lam Research
   - 科林研發
-related_companies: []
+related_companies:
+  - "[[3665_貿聯-KY（市）]]"
 ---
 
 # LRCX.US(lam_research)
@@ -80,7 +81,9 @@ flowchart LR
 
 ## 相關公司
 
-尚無本批可確認之公司級交易關係。
+| 公司 | 關係 | 說明 |
+|---|---|---|
+| [[3665_貿聯-KY（市）]] | 供應商 | 貿聯 3Q26 會後筆記的客戶名單列 Lam，交易品項未載（筆記轉述） |
 
 > [!warning] 風險與注意事項
 > - 晶圓廠無塵室擴充與 WFE 資本支出可能低於預期。
@@ -119,6 +122,8 @@ BofA 將 Lam Research 列為 4Q26 top picks，看好 NAND greenfield 擴產與�
 跨模型與驗證框架：[[分析_AgenticAI需求到供電與材料獲利的驗證_20260929]]。
 
 ## 來源
+
+- [[活動_貿聯3665_3Q26會後_日期待確認]] — 3Q26 會後筆記，2026-11-18 收錄，Lam 客戶關係。
 - [[報告_富邦_LamResearch1QFY27法說_20261022]] — 富邦證券法人業務處，2026-10-22；FY1Q27 法說 memo、WFE 2026／2027 展望
 - [[報告_BofA_AgenticAI半導體市場_20260929]] — BofA，2026-09-29；Agentic AI 產業模型、個股估值與風險
 
