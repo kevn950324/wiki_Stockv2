@@ -12,7 +12,7 @@ tags:
   - 技術/CoWoS
   - 產業/AI伺服器
   - 環節/IC設計
-updated: 2026-11-14
+updated: 2026-11-18
 aliases:
   - AMD
   - Advanced Micro Devices
@@ -148,6 +148,8 @@ AMD 將 ROCm 升級為 **ROCm.AI**，整合 **Hyperloom AI 最佳化引擎**：
 - vs ROCm 7：推論效能 +3.3×，訓練效能 +2.4×
 
 **Anthropic 案例**（AMD AI Day 現場分享）：Anthropic 部署 MI355 平台時，僅 1 位工程師利用 Claude 完成 Bring-up 與最佳化，凸顯 AI-assisted GPU 開發門檻大幅降低。
+
+[[Anthropic（未）]] 管理層在 IPO 路演另稱，Claude 在三天內於 AMD GPU 平台運作，並移植或撰寫近 100% 的 kernel。這組數字來自單次工程案例，路演未載 GPU 型號、部署規模或合約金額。詳見 [[分析_Anthropic_IPO路演算力效率與現金流_20261118]]。
 
 **SemiAnalysis 軟體進度評估（2026-07-24）：**
 
@@ -304,6 +306,8 @@ MI550 半配置 2H27、完整配置 1H28，16／32 GPU rack 約 100／200kW+、5
 完整口徑與反證：[[分析_功率漲價與AI晶片出貨部署落差_日期待確認_收錄20261114]]；術語母頁：[[技術_AI推論與ASIC平台]]。
 
 ## 來源
+
+- [[memo_Anthropic_IPO路演中文逐字稿與PM摘要_日期待確認]]（路演日期不詳，2026-11-18 收錄）— 第九節 AMD GPU 移植案例，Anthropic 管理層自報，信心中。
 
 - [[memo_使用者_Analog載板資料中心與AI晶片_日期待確認_收錄20261114]] — 使用者提供，原日期未提供，2026-11-14 收錄。
 
