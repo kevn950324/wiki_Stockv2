@@ -262,6 +262,8 @@ gantt
 
 ## 來源
 
+- [[memo_Notion_AceCamp_匿名_Agent資安零信任與用量收費_70569192_20261114]] — 2026-11-14（Notion 日期），資安產業專家比較。追蹤機器身分、用量與平台續約。判讀見 [[分析_AI商業化從交付到變現的五項檢查_20261118]]。
+
 - [[research_PaloAlto_Agent防護_20261005]] — 網路搜尋，2026-10-05 擷取：Prisma AIRS 3.0 新聞稿（2026-03-23）、Koi 收購完成新聞稿（2026-04-14）、Portkey／AI Gateway Blog（2026-05）、Futurum 評論。
 - [[報告_EvercoreISI_OpenAIDevDay資安影響_20260929]] — Evercore ISI，2026-09-29；正文將本公司列為核心 runtime 防護廠商，近期直接替代風險仍較集中於上線前工作流（券商 thesis／中信心）；本次只補來源追溯，跨公司財務附表保留於 Raw。
 

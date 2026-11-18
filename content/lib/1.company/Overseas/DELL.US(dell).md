@@ -194,6 +194,8 @@ Dell 在 NVIDIA GTC Berlin 發布新聞稿（Business Wire，2026-10-21），把
 
 ## 來源
 
+- [[memo_Notion_AceCamp_Dell_AI伺服器訂單與利潤率_70569333_20261118]] — 2026-11-18（Notion 日期），疑似 Dell 訪談。追蹤 AI 伺服器積壓轉換、企業客戶組合與服務附掛率。判讀見 [[分析_AI商業化從交付到變現的五項檢查_20261118]]。
+
 - [[活動_貿聯3665_3Q26會後_日期待確認]] — 3Q26 會後筆記，2026-11-18 收錄，Dell 客戶與 Interplex 機櫃。
 
 - [[報告_GFHK_Dell_F3Q27預覽_20261116]] — GF Securities (Hong Kong)，2026-11-16；F3Q27 預覽、Hold、TP US$341。

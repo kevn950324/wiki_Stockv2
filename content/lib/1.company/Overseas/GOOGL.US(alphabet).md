@@ -333,6 +333,8 @@ COT 路線保有核心 compute 設計，[[2454_聯發科（市）]] 提供部分
 
 ## 來源
 
+- [[memo_Notion_AceCamp_Google_AI搜尋廣告與歸因_70569349_20261118]] — 2026-11-18（Notion 日期），Google 搜尋主體。比較 AI 與傳統搜尋的廣告載入、點擊與歸因口徑。判讀見 [[分析_AI商業化從交付到變現的五項檢查_20261118]]。
+
 - [[memo_使用者_Analog載板資料中心與AI晶片_日期待確認_收錄20261114]] — 使用者提供，原日期未提供，2026-11-14 收錄。
 
 - [[research_產業合作技術發表_2026-11-10_2]] — 官方發表彙整，2026-11-10；TPU 8tx／8i Max、TPU Sync、GKE OCS dynamic slicing、GTIG LLMJacking。

@@ -142,6 +142,8 @@ flowchart LR
 | 2026-08-31 | 投資聯發科 US$3.5bn 可轉債，擴大 NVLink Fusion、Cloud AI Factory、AI PC／本地運算與車用合作 | 策略投資／平台合作 | ⭐⭐⭐ | 投資與合作公告為 fact；特定 XPU design win 仍待客戶與量產驗證 |
 | 2026Q4（預估） | Coherent 為 NVIDIA anchor customer 的 scale-out CPO 進入爬坡 | 技術下線／驗證 | ⭐⭐⭐ | [[報告_Citi_CoherentPhotonLink垂直整合_20260921]] 轉述 COHR 管理層；LTA 已稱取得，實際收入、型號與 NVIDIA 端部署仍待雙方確認 |
 | 2026-10-12 | 與 Cisco 發表 USFP 400G/lane 可插拔外型（16×400G＝6.4T，可擴至 12.8T），TE、[[APH.US(amphenol)]] 為夥伴 | 技術標準 | ⭐⭐⭐ | 官方 fact；MSA 待成立，見 [[技術_光模塊]]、[[時程_2026-2027高速互連與分散式算力]] |
+| 2026-11-12 | 黃仁勳辭去 CEO 與董事，Colette Kress 任代理 CEO | 治理 | ⭐⭐⭐ | [[活動_NVIDIANVDA_法說彙整_20261118]] |
+| 2027 年初（公司指引） | DSX POD 首批交付美國與中歐客戶 | 放量 | ⭐⭐⭐ | FY3Q27 法說；見 [[時程_2026-2027高速互連與分散式算力]] |
 
 ## 供應鏈位置
 - **上游晶圓代工**：[[2330_台積電（市）]]（CoWoS 主代工）
@@ -313,6 +315,19 @@ NVIDIA 承諾向 SemiAnalysis InferenceX 平台提交 **Vera Rubin** 可驗證�
 - 相關觀察與 ELS-COS 架構假說詳見 [[分析_光通_CPO與ELS-COS_20260901]]；目前僅列為低信心 rumor／thesis。
 
 ## 近期營運與研究更新
+
+### 2026-11-18 FY3Q27 法說：營收 US$115.8bn、FY28 成長預期上修至 75%、CEO 交接
+
+- 財報（fact）：FY3Q27 營收 US$115.8bn（QoQ +20%、YoY +103%），資料中心 US$107.6bn（QoQ +21%）；Hyperscale US$60bn（QoQ +23%）、ACI&E US$47bn（QoQ +18%、YoY 約 2 倍）；網通逾 US$21bn、Edge Computing US$8.2bn（QoQ +14%、YoY +42%）；GAAP／Non-GAAP 毛利率 74.8%／74.9%，Non-GAAP EPS US$2.68。對中國授權 Hopper 資料中心產品營收 US$2.4bn，已停止出貨且未納入指引。
+- 指引（公司說法）：FY4Q27 營收 US$130bn ±3%（含多 1 週），GAAP／Non-GAAP 毛利率 71%–72%，公司稱為本輪低點（履行既有訂單、成本上漲未完全轉嫁）；FY28 營收年增預期由 70% 上修至 75%、毛利率回升 72%–73%；Vera CPU 與企業業務 FY28 皆預期成長逾 1 倍。Rubin Ultra 2027、Feynman 2028 維持。
+- Vera Rubin：8 月開始量產出貨，首季貢獻近 US$20bn，為史上最快放量；hyperscaler 約 1 個月導入正式生產（GB 系列一半時間）；tokens/watt 為 GB300 的 10 倍。CPO 進入量產，Lambda 部署首個 Photonics CPO Switch（連接逾 1 萬顆 GB300）。
+- 供需與供應鏈：雲端產業 backlog US$2.5tn（3 個月前 US$2tn）；採購承諾增至 US$390bn；瓶頸為 wafer、載板、先進封裝。法說當天宣布與 [[3189_景碩（市）]]、[[009150.KR(semco)]] 簽載板新約，與矽品（[[3711_日月光投控（市）]]）簽先進封裝新約，延續 [[AMKR.US(amkor)]]、[[4062.JP(ibiden)]]、[[2449_京元電子（市）]]、[[3037_欣興（市）]] 合作；DSX POD 夥伴含 [[2317_鴻海（市）]]、Dell、Schneider、Vertiv，首批 2027 年初交付。
+- 治理：11-12 黃仁勳辭去 CEO 與董事，CFO Colette Kress 任代理 CEO；董事會無意讓其回任，委託 Heidrick & Struggles 遴選，並新設國家安全及出口管制監督委員會。
+- 融資：Neocloud 承諾 US$32bn、擔保總額 US$118bn（含 Ports-Pike 園區 US$105bn 信用支援，20 年租給 OpenAI，2028 年起分階段上線）；公司強調擔保在客戶完成 Land／Power／Shell 與融資後才生效，非新制度，未來支援將「有紀律、有選擇」。產能分配看資料中心就緒度、資金與 offtake，各類客戶同價。
+- 三家券商口徑差異：國泰與富邦以 US$116bn／1,160 億美元四捨五入；大和稱法說不到 50 分鐘、對管理層表現評價負面（sales note，非正式報告）。富邦另列 Bernstein、Evercore 等 2026-11-11～18 目標價 US$170–515。
+- 群益速報（2026-11-18）：維持鴻海、廣達、緯穎 Trading Buy；Vera CPU 帶動 2027 年新載板應用，全球載板產能 2027 年續緊，CCL／PCB 規格隨 Rubin Ultra、Feynman 升級，受惠台光電、景碩、欣興。
+- BIS 新規（2026-11-17，UBS／Morgan Stanley）：限制中國企業經第三國資料中心遠端取得先進算力，馬來西亞、泰國、印尼、新加坡出貨改需許可；UBS 估可能抽掉 1–2GW 需求、以 NVIDIA 受影響最大（約 10% 需求影響，US$30bn+/GW），短期可轉給其他客戶，偏長期議題（estimate／中）。
+- 來源：[[活動_NVIDIANVDA_法說彙整_20261118]]（國泰、富邦、大和 call memo，2026-11-18）；[[報告_群益_NVIDIA_FY3Q27財報_20261118]]；[[報告_UBS_全球IO半導體BIS雲端存取管制_20261117]]。
 
 ### 2026-11-09 AI觀察日記：Groq 技術授權與 AI 新創交易結構
 
@@ -486,6 +501,8 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 > SemiAnalysis 下修 NVIDIA 2027E 22%（算力營收口徑），與既有 Rubin 2027 年 700–800 萬顆等預估並列；群益供應鏈調查稱 2027 ODM 出貨預期不變。未裁定。
 
 ## 來源
+
+- [[memo_Notion_AceCamp_Microsoft_Maia與Copilot計費_70569355_20261118]] — 2026-11-18（Notion 日期），Microsoft 視角。採購節奏變化為情境；人事交接另以 NVIDIA 公告核對。判讀見 [[分析_AI商業化從交付到變現的五項檢查_20261118]]。
 
 - [[活動_貿聯3665_3Q26會後_日期待確認]] — 3Q26 會後筆記，2026-11-18 收錄，DGX、Interplex 交換器機殼及 Rubin 電源。
 
@@ -792,6 +809,10 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 - [[報告_國金證券_通訊週報Anthropic路演與平頭哥分拆_20261115]]（2026-11-15）
 
 - [[報告_開源證券_電子週報Anthropic衝刺IPO與黃仁勳卸任_20261115]]（2026-11-15）
+
+- [[報告_UBS_全球IO半導體BIS雲端存取管制_20261117]]（2026-11-17）
+- [[報告_群益_NVIDIA_FY3Q27財報_20261118]]（2026-11-18）
+- [[活動_NVIDIANVDA_法說彙整_20261118]]（2026-11-18）
 
 ## 相關頁面
 

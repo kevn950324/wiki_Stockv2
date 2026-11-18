@@ -205,6 +205,8 @@ gantt
 
 ## 來源
 
+- [[memo_Notion_AceCamp_匿名_Agent資安零信任與用量收費_70569192_20261114]] — 2026-11-14（Notion 日期），資安產業專家比較。端點業務與 Agent 身分及邊緣安全分開追蹤。判讀見 [[分析_AI商業化從交付到變現的五項檢查_20261118]]。
+
 - [[research_產業合作技術發表_2026-11-10_2]] — CrowdStrike 新聞稿官方彙整，2026-11-03；Claude Cowork 整合 Falcon Guardian、收購 Fiddler（Falcon Observe）。
 - [[research_CrowdStrike_Agent防護_20261005]] — 網路搜尋，2026-10-05 擷取：Falcon Guardian 新聞稿（2026-09-01）、Channel Insider、Falcon IQ 新聞稿（2026-08-31）、NVIDIA Blog。
 - [[research_Okta_Zscaler_Agent防護更新_20261005]] — 網路搜尋，2026-10-05 擷取：Oktane 2026 公告（Falcon Discover 整合、Blueprint Alliance）。

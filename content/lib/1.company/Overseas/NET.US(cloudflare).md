@@ -99,6 +99,8 @@ Truist（2026-06-08）的 Agentic Security Stack 中，NET 是「AI Gateway & Ed
 
 ## 來源
 
+- [[memo_Notion_AceCamp_匿名_Agent資安零信任與用量收費_70569192_20261114]] — 2026-11-14（Notion 日期），資安產業專家比較。多雲邊緣防護與實際合約消耗仍待驗證。判讀見 [[分析_AI商業化從交付到變現的五項檢查_20261118]]。
+
 - [[memo_Notion_AceCamp_零信任WAF與Agent安全_70568810_20261104]] — 2026-11-04日期欄，匿名專家，原訪談日未核。
 
 - [[memo_AceCamp_Akamai_CPU算力與MaaS_20260930]] — AceCamp Tech匿名專家訪談，2026-09-30；主體為Akamai，Cloudflare僅為競品比較，能力與份額說法未經確認。
