@@ -11,7 +11,7 @@ tags:
   - 環節/AI訓練
   - 環節/API服務
 maturity: private
-updated: 2026-11-16
+updated: 2026-11-18
 aliases:
   - Anthropic
   - Claude
@@ -241,6 +241,8 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 - 來源：[[報告_富邦_AnthropicIPO事件分析_20261116]]。
 
 ## 來源
+
+- [[memo_MS_Anthropic_IPO投資人回饋與財務預測_日期待確認]]（會議日期不詳，使用者提供的潤稿節錄）。據編輯註，MS 分析師表示已確認 Amazon、Google 有分潤（revenue share）安排，Microsoft 是否有分潤仍不明。分潤安排僅見於會中陳述，合約條款待查。
 
 - [[memo_Notion_AceCamp_匿名_企業AI與FDE交付_70569135_20261113]] — 2026-11-13（Notion 日期），匿名企業部署觀點。模型供應與前線工程方案的部署分工。判讀見 [[分析_AI商業化從交付到變現的五項檢查_20261118]]。
 
