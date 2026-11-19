@@ -234,6 +234,8 @@ Aletheia p6–7把 Microsoft Maia200 描述為客戶自主架構、Marvell／[[2
 - [[memo_Notion_AceCamp_TPUv9與Trainium交換價值_70562031_日期待確認]]（原日期未標）
 - [[memo_Notion_AceCamp_TPU卸載架構與COT分工_70562075_日期待確認]]（原日期未標）
 
+- [[報告_統一_Coherent_COHR_20261118]]（2026-11-18）
+
 ## 相關頁面
 
 - [[分析_TPU架構卸載與ASIC合約口徑_日期待確認]]

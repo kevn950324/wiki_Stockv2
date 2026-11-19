@@ -11,7 +11,7 @@ tags:
   - 環節/品牌客戶
   - 產業/AI伺服器
   - 產業/智慧型手機
-updated: 2026-10-29
+updated: 2026-11-19
 aliases:
   - Apple
   - 蘋果
@@ -212,6 +212,7 @@ MS 維持 Overweight，目標價 US$355（原 360），採 35x CY27 EPS US$10.15
 
 ## 來源
 
+- [[活動_玉晶光3406_富邦CallMemo_20261119]]（玉晶光 3Q26 法說，富邦投顧 call memo，2026-11-19；美系客戶 2027 年鏡頭市佔以持平規劃、forecast 與今年相當，可變光圈美系仍在認證，長距離潛望式為下一階段升規）
 - [[報告_Nomura_大立光CPO光纖陣列_20260709]]（Nomura，2026-07-09；iPhone 2027–2028 相機／鏡頭升規路徑與終端漲價影響，鏡頭供應商視角 estimate）
 - [[Nomura tech tour]]（Nomura Asia Tech Tour，2026-08-20；華通稱 iPhone 主機板供應商擅長 mSAP，並與美系高階手機品牌協商調價）
 - [[報告_MorganStanley_Apple產品路線與估值_20261001]] — Morgan Stanley，2026-10-01；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。

@@ -11,7 +11,7 @@ tags:
   - 環節/光收發模組
   - 環節/InP磊晶
   - 環節/OCS
-updated: 2026-11-13
+updated: 2026-11-19
 related_companies:
   - "[[GLW.US(corning)]]"
   - "[[2317_鴻海（市）]]"
@@ -323,7 +323,19 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 
 來源：[[活動_CoherentCOHR_國泰CallMemo_20261104]]。
 
+## 2026-11-18 統一投顧：FY1Q27 財報，光互連多引擎（買進，TP US$462→426）
+
+- FY1Q27 營收 US$2.37bn（QoQ +15.9%、YoY +49.9%），Non-GAAP 毛利率 40.6%、Non-GAAP EPS US$2.09（QoQ +20.1%、YoY +80.2%）；Datacenter & Communications US$1.952bn（YoY +79.1%），Industrial US$419mn（YoY -14.8%，含出售航太國防與 Munich 業務影響）（fact）。
+- FY2Q27 指引：營收 US$2.55–2.75bn（中位數 QoQ +11.8%），Non-GAAP 毛利率 40–42%、EPS US$2.28–2.48；800G／1.6T、Scale across／DCI 成長，工業部門受半導體設備帶動回升，PhotonLink 400mW CW Laser 開始少量貢獻（公司指引）。
+- 6 吋 InP：FY1Q27 InP 產能較去年同期翻倍、提前一季完成；德州與瑞典 6 吋線已量產 100G／200G EML、CW Laser 與高速 PD，良率優於 3 吋線；蘇黎世 6 吋線 1H27 投產；2027 年底產能再增一倍以上；已與五家以上基板供應商簽長約。新增產能主要供自家模組，內製與外購比例未明顯變化；公司目標 2028 年底前 Non-GAAP 毛利率突破 45%。
+- PhotonLink（2026-09 ECOC 發表）：整合 InP CW Laser、矽光子、精密耦合與光纖組件，供 CPO、NPO、Chip-to-Chip；ECOC 展示 6.4T NPO 光引擎。繼 NVIDIA 協議後，再與另一家大型 AI 客戶簽五年約 US$20bn PhotonLink 長約（400mW CW Laser 為核心，2028 年初貢獻）；另有 10 項以上 CPO、10 項 NPO、5 項 Chip-to-Chip 專案；FY3Q27 PhotonLink 單季營收逾 US$100mn、2027 年底逾 US$250mn；先 Scale out CPO，2H27 切入 Scale up CPO，NPO 2027 年底至 2028 年初導入。
+- Marvell 11-02 宣布全股票併購 Lumentum（預計 1H28 完成），統一認為凸顯 Coherent 作為獨立光學供應商的中立性價值。
+- 統一預估 FY2027 營收 US$11.6bn（YoY +63%）、EPS US$10.65；本益比由 60x 降至 40x，TP 由 US$462 降至 US$426，維持買進（estimate）。
+- 來源：[[報告_統一_Coherent_COHR_20261118]]。
+
 ## 來源
+
+- [[報告_統一_Coherent_COHR_20261118]]（統一投顧，2026-11-18；FY1Q27、買進 TP US$426）
 
 - [[活動_AppliedOptoelectronicsAAOI_國泰CallMemo_20261112]] — AAOI 法說（國泰，2026-11-12）：高功率雷射供應者僅 AOI、Lumentum、Coherent。
 

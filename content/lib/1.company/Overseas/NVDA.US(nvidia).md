@@ -14,7 +14,7 @@ tags:
   - 環節/IC設計
   - 產業/半導體
   - 產業/AI伺服器
-updated: 2026-11-18
+updated: 2026-11-19
 aliases:
   - NVIDIA
   - 輝達
@@ -500,7 +500,19 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 > [!warning] 2027 出貨預估衝突
 > SemiAnalysis 下修 NVIDIA 2027E 22%（算力營收口徑），與既有 Rubin 2027 年 700–800 萬顆等預估並列；群益供應鏈調查稱 2027 ODM 出貨預期不變。未裁定。
 
+## 2026-11-18 中信投顧：FY3Q27 財報與 FY4Q27 財測優於預期（買進，TP US$242）
+
+- FY3Q27（截至 2026-10-25）營收 US$116.0bn（YoY +103%、QoQ +20%），高於中信預期 US$110bn 與公司財測上緣；資料中心 US$107.6bn（YoY +110%、QoQ +21%），其中 Hyperscale US$60.1bn、ACIE（AI 雲、工業、企業、主權 AI）US$47.5bn；Edge Computing US$8.2bn（YoY +42%）。毛利率 74.9%、Non-GAAP EPS US$2.68（fact）。
+- FY4Q27 財測營收 US$130bn（±3%），毛利率 71–72%（近期低點）；FY2028 營收年增指引由 70% 上調至 75%，毛利率回升至 72–73%（公司指引）。
+- Vera Rubin 首季貢獻近 US$20bn，史上最快 ramp；Hyperscaler 導入生產環境平均約一個月（Grace Blackwell 的一半）。Vera Rubin Ultra 仍於 FY2028、Feynman 於 FY2029 推出；FY2028 CPU 營收預估翻倍以上；雲端在手訂單由 US$2trn 擴至 US$2.5trn；Frontier Labs（OpenAI、Anthropic 等）約占全年資料中心營收 15%。
+- 主權 AI 營收 YoY 逾三倍（澳洲夥伴 2027 年前開發至 2GW）、實體 AI 營收 YoY 近三倍、全年將破 US$25bn；Neocloud 融資擔保僅在土地、電力、機房與資本到位時生效。
+- CEO 過渡：董事長 Harvey Jones 表示董事會一致決議不再聘任黃仁勳為 CEO，已委託獵才；台積電高層於法說當週拜訪，記憶體與先進封裝產能已確保。FY3Q27 回購 US$22bn＋股利 US$6bn，新增 US$150bn 回購授權，剩餘 US$227bn 計畫於 FY2028 底前執行完畢。
+- 中信因高層變動下調評價基準：FY2028 EPS US$17.26 × 14x PER，TP US$242，維持買進。
+- 來源：[[報告_中信_NVIDIA_FY3Q27財報_20261118]]。
+
 ## 來源
+
+- [[報告_中信_NVIDIA_FY3Q27財報_20261118]]（中信投顧，2026-11-18；FY3Q27 財報、買進 TP US$242）
 
 - [[memo_Notion_AceCamp_Microsoft_Maia與Copilot計費_70569355_20261118]] — 2026-11-18（Notion 日期），Microsoft 視角。採購節奏變化為情境；人事交接另以 NVIDIA 公告核對。判讀見 [[分析_AI商業化從交付到變現的五項檢查_20261118]]。
 
@@ -813,6 +825,13 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 - [[報告_UBS_全球IO半導體BIS雲端存取管制_20261117]]（2026-11-17）
 - [[報告_群益_NVIDIA_FY3Q27財報_20261118]]（2026-11-18）
 - [[活動_NVIDIANVDA_法說彙整_20261118]]（2026-11-18）
+
+- [[報告_中信_雙鴻3324_20261119]]（2026-11-19）
+- [[活動_雙鴻3324_法說彙整_20261118]]（2026-11-18）
+
+- [[報告_凱基_伺服器CPU出貨展望_20261118]]（2026-11-18）
+
+- [[報告_統一_Coherent_COHR_20261118]]（2026-11-18）
 
 ## 相關頁面
 
