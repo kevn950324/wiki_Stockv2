@@ -698,8 +698,10 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - 致茂：CPO 客戶 2026 年底完成 pilot，已取得 1Q27 Spectrum 量產 PO；Insertion 3 量產測試機需求為 pilot 4–5 倍，另一客戶 9M27 pilot、4Q27 量產（[[報告_Citi_致茂2360_20261029]]、[[報告_MorganStanley_致茂2360_20261029]]）。
 - 聯亞：一般資料中心 CPO 短期量產機率不高，2H27 NPO 為過渡且多用外部光源；CSP 要求 CW 功率 250–300mW（[[活動_聯亞3081_永豐法說_20261028]]）。
 - 國泰講座：量產以 2.5D CPO 為主（台積電、NVIDIA、Broadcom），陸廠多採 NPO／OBO，3D CPO 為下世代；量產挑戰為光纖連接、維護測試、熱管理與互通性（[[memo_國泰證期_先進封裝HBM矽光子技術解析講座_20261029]]）。
+- 康和論壇（2026-11-19）：AI DC 分四種網路（Scale-across／Scale-out／Scale-up／Scale-in），光電轉換介面由 Pluggable → LPO → XPO → NPO → CPO 往晶片端移動；Scale-out 路線已明確，Scale-up 仍在技術討論，NPO 被視為過渡但期間長，CPO 與既有架構長期並存。光引擎＝PIC＋EIC＋耦合封裝，台積電 COUPE 以 SoIC（F2F）接合 PIC／EIC、Intel OCI 採 Edge Coupling＋WDM；Grating Coupling 公差容忍度大但頻寬受限，Edge Coupling 可分波多工但對位要求高。另一路線為「慢而寬」：Microsoft MOSAIC、Avicena MicroLED（0.1pJ/bit）＋多模光纖。FAU 耦合為量產門檻，Teramount（Molex 併購）被動對位、Corning 玻璃橋、合聖 metalens 為解法；Marvell 以 US$115bn 併購 Lumentum 顯示產業由元件分工走向系統整合（[[memo_康和論壇_AI光互連新賽局_20261119]]，講者觀點／中）。
 
 ## 來源
+- [[memo_康和論壇_AI光互連新賽局_20261119]] — 康和投顧論壇 call memo，2026-11-19；四層網路、光引擎介面演進、FAU 耦合與慢而寬路線。
 - [[報告_元大_光通訊產業_20260921]] — 元大投顧，2026-09-21（SemiAnalysis NPO／CPO 3.2T 等效 OE 預估、插拔／NPO／CPO 比較、ELSFP）。
 - [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄；Quantum／Spectrum 配置、ELS 結構與成本、ELSFP 份額、無源器件放量節點；低至中低信心）。
 - [[research_產業合作技術發表_2026-10-22]] — NVIDIA／APC／緯穎官方發表彙整，2026-10-20～21；矽品光引擎 15 倍、APC CPO 規格、機櫃級 CPO 展示。

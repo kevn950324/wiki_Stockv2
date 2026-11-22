@@ -285,7 +285,18 @@ CPU 的序列控制、工具執行與記憶體 I/O，和 GPU／ASIC 的模型運
 
 完整來源差異與反證：[[分析_功率漲價與AI晶片出貨部署落差_日期待確認_收錄20261114]]。本頁原有具日期的 Rubin／Helios 進度保留，日期未知筆記不覆蓋現況。
 
+## 2026-11-19 中信投顧：GPU 與 ASIC 雙線並進
+
+- 2024–2030 年 AI ASIC CAGR 約 33%、GPU 約 26%（Silicon Analysts）；NVIDIA 2026 年 AI 基礎建設市占約 80%，中信 TP US$264（FY3Q27–FY2Q28 EPS US$12 × 22x）。
+- NVIDIA 機櫃出貨（中信 estimate）：GB200／300 2026F 7.0–8.0 萬櫃；VR200 NVL72 2026F 5,000–7,000 櫃（3Q26 底出貨、4Q26 放量）、2027F 8.0–10.0 萬櫃；Rubin Ultra（Kyber NVL144／576，800V DC）2027 年僅少量樣機、2028F 1.5–2.5 萬櫃。Rosa CPU 預計 2029 年搭配 Feynman，Feynman 採台積電 A16 與晶背供電。
+- AMD Helios：72 顆 MI455X＋18 顆 EPYC Venice，3Q26 底出貨、4Q26 大量量產；Helios 櫃數 2026F 1,000–3,000、2027F 2.5–3 萬、2028F 3–5 萬；OpenAI 4Q26 上線、Anthropic 最高 2GW。中信 AMD TP US$634（2027 EPS US$18.11 × 35x）。
+- ASIC 設計服務：NRE 毛利率 50%–80%、Turnkey 約 10%–25%；Broadcom 2027 年 ASIC 市占估 50%–60%，Marvell 為第二供應選擇（AWS Trainium、Microsoft Maia 300 4Q26）。
+- 台系：聯發科取得 Google TPU 多代 I/O 與後段設計（TPU v8i 起），ASIC 營收目標 2026 年 US$2.5bn、2027 年 US$16bn；創意 2027 年雲端營收占比 90%、3nm 以下 76%（Axion2／3、Tesla AI5、Cobalt 200）；世芯 Trainium3 量產延續至 2027、Trainium4 4Q26 tape-out、4Q27 小量試產、2028 放量，北美第二大客戶 2Q27 起每年數十億美元；巨有 2H26 轉單受限台積電產能、2027 兌現。
+- 來源：[[報告_中信_GPU與ASIC雙線並進_20261119]]（中信投顧產業簡報，2026-11；estimate／中）。
+
 ## 來源
+
+- [[報告_中信_GPU與ASIC雙線並進_20261119]] — 中信投顧，2026-11-19；GPU／ASIC 出貨時程、台系 ASIC 廠目標價。
 
 - [[memo_使用者_Analog載板資料中心與AI晶片_日期待確認_收錄20261114]] — 使用者提供，原日期未提供，2026-11-14 收錄。
 

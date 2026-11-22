@@ -49,7 +49,7 @@ SemiAnalysis 於 2026-06-25 發布美國電網 + BTM（Behind-The-Meter）分析
 | GE Vernova | 大型公用燃氣輪機（CCGT）為主，電網側暴露度高；2026 訂單可能已見頂 | 中 |
 | Siemens Energy | 同上 | 中 |
 | MHI（三菱重工）| 同上 | 中 |
-| Vistra / Constellation / Talen | IPP，依賴電網容量市場；BTM 興起 = 電網容量市場溢價下降 | 低 |
+| [[VST.US(vistra)|Vistra]] / Constellation / Talen | IPP，依賴電網容量市場；BTM 興起 = 電網容量市場溢價下降 | 低 |
 
 ## Insight 結論
 
