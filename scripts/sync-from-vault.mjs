@@ -1,33 +1,60 @@
-import { cp, mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises"
+import { copyFile, mkdir, readFile, readdir, rename, rm, stat, writeFile } from "node:fs/promises"
 import { existsSync } from "node:fs"
+import { randomUUID } from "node:crypto"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
+import { parseArgs } from "node:util"
 
-const vaultRoot = path.resolve(process.argv[2] ?? "..")
-const siteRoot = path.dirname(fileURLToPath(import.meta.url))
-const targetContent = path.join(siteRoot, "..", "content")
-const sourceLib = path.join(vaultRoot, "lib")
-const targetLib = path.join(targetContent, "lib")
-const sourceAttachments = path.join(vaultRoot, "data_base", "attachment")
-const targetAttachments = path.join(targetContent, "attachments")
-const sourceReports = path.join(vaultRoot, "output")
-const targetReports = path.join(siteRoot, "..", "content", "reports")
-const sourceRawData = path.join(vaultRoot, "data_base", "Raw_data")
-const targetRawData = path.join(siteRoot, "..", "content", "raw-data")
-const sourceMemo = path.join(sourceRawData, "memo")
-// Cloudflare Pages rejects single files over 25 MiB; larger PDFs stay private in the vault.
-const maxPublishBytes = 25 * 1024 * 1024
-const privateLibPages = [
-  path.join("1.company", "TW", "7853_政美應用（興）.md"),
-  path.join("4.analyze", "分析_政美應用先進封裝檢測與軟體轉型_20260904.md"),
-  path.join("5.schedule", "時程_2026-2028政美應用催化劑.md"),
-]
+const { values, positionals } = parseArgs({
+  options: { preview: { type: "boolean" } },
+  allowPositionals: true,
+})
+if (positionals.length > 1) throw new Error("Usage: sync-from-vault.mjs [vault] [--preview]")
+const vault = path.resolve(positionals[0] ?? "..")
+const content = fileURLToPath(new URL("../content/", import.meta.url))
+const manifest = path.join(vault, "proceed", "publish_preview.json")
+const raw = "data_base/Raw_data"
+const managed = new Set(["lib", "attachments", "reports", "raw-data"])
+const privatePages = new Set([
+  "lib/1.company/TW/7853_政美應用（興）.md",
+  "lib/4.analyze/分析_政美應用先進封裝檢測與軟體轉型_20260904.md",
+  "lib/5.schedule/時程_2026-2028政美應用催化劑.md",
+])
 const privateMarkers = ["政美應用", "memo_國泰證期_政美應用CallMemo_20260904"]
 
-async function writeRawDataSearchPage(targetFile, kind) {
-  const title = path.basename(targetFile, path.extname(targetFile))
-  const downloadName = encodeURI(path.basename(targetFile))
-  const page = `---
+// All manifest paths are relative to the vault (source) or site content (destination).
+function inside(root, relative) {
+  const dest = path.resolve(root, relative)
+  const rel = path.relative(root, dest)
+  if (!rel || rel.split(path.sep)[0] === ".." || path.isAbsolute(rel)) {
+    throw new Error(`Path outside ${root}: ${relative}`)
+  }
+  return dest
+}
+
+async function* files(root, prefix = "") {
+  const entries = await readdir(path.join(root, prefix), { withFileTypes: true })
+  entries.sort((a, b) => (a.name < b.name ? -1 : a.name > b.name ? 1 : 0))
+  for (const entry of entries) {
+    const rel = path.posix.join(prefix, entry.name)
+    if (entry.isDirectory()) yield* files(root, rel)
+    else if (entry.isFile()) yield rel
+    else throw new Error(`Unsupported file type: ${path.join(root, rel)}`)
+  }
+}
+
+function sanitize(original) {
+  if (!original.includes(" / 政美") && !privateMarkers.some((m) => original.includes(m))) return original
+  return original.replaceAll(" / 政美", "").split(/\r?\n/)
+    .filter((line) => !privateMarkers.some((marker) => line.includes(marker)))
+    .join("\n").replace(/\n{2,}$/, "\n")
+}
+
+function downloadPage(source) {
+  const name = path.posix.basename(source)
+  const title = path.posix.basename(name, path.posix.extname(name))
+  const kind = path.posix.extname(name).slice(1).toUpperCase()
+  return `---
 title: ${JSON.stringify(title)}
 tags:
   - Raw_data
@@ -39,119 +66,115 @@ tags:
 這是 Stock Wiki 公開原始資料索引頁。
 
 - 類型：${kind}
-- [下載原始檔案](./${downloadName})
+- [下載原始檔案](./${encodeURI(name)})
 `
-  await writeFile(`${targetFile}.md`, page, "utf8")
 }
 
-if (!existsSync(sourceLib)) throw new Error(`找不到 vault lib/: ${sourceLib}`)
-
-await rm(targetLib, { recursive: true, force: true })
-await cp(sourceLib, targetLib, { recursive: true })
-for (const relative of privateLibPages) {
-  const target = path.resolve(targetLib, relative)
-  if (!target.startsWith(`${path.resolve(targetLib)}${path.sep}`)) {
-    throw new Error(`拒絕移除 lib/ 以外的路徑: ${target}`)
-  }
-  await rm(target, { force: true })
+const planned = new Map()
+const generatedText = new Map()
+const skipped = []
+const retained = []
+const removed = []
+function add(category, source, destination, body) {
+  inside(content, destination)
+  if (planned.has(destination)) throw new Error(`Duplicate destination: ${destination}`)
+  planned.set(destination, { category, source, destination, change: "新增" })
+  if (body !== undefined) generatedText.set(destination, body)
 }
-await rm(targetAttachments, { recursive: true, force: true })
-await mkdir(targetAttachments, { recursive: true })
-await rm(targetReports, { recursive: true, force: true })
-await mkdir(targetReports, { recursive: true })
-await rm(targetRawData, { recursive: true, force: true })
-await mkdir(targetRawData, { recursive: true })
 
-const markdownFiles = []
-async function collect(dir) {
-  for (const entry of await readdir(dir, { withFileTypes: true })) {
-    const fullPath = path.join(dir, entry.name)
-    if (entry.isDirectory()) await collect(fullPath)
-    else if (entry.name.endsWith(".md")) markdownFiles.push(fullPath)
-  }
-}
-await collect(targetLib)
-
-for (const file of markdownFiles) {
-  const original = await readFile(file, "utf8")
-  if (!original.includes(" / 政美") && !privateMarkers.some((marker) => original.includes(marker))) {
+const embeds = new Set()
+for await (const source of files(vault, "lib")) {
+  if (privatePages.has(source)) {
+    skipped.push({ source, reason: "私人頁面" })
     continue
   }
-  const preservedMermaid = original.replaceAll(" / 政美", "")
-  const sanitized = preservedMermaid
-    .split(/\r?\n/)
-    .filter((line) => !privateMarkers.some((marker) => line.includes(marker)))
-    .join("\n")
-    .replace(/\n{2,}$/, "\n")
-  if (sanitized !== original) await writeFile(file, sanitized, "utf8")
+  if (!source.endsWith(".md")) {
+    add("知識庫隨附檔", source, source)
+    continue
+  }
+  const original = await readFile(inside(vault, source), "utf8")
+  const body = sanitize(original)
+  add("知識頁", source, source, body === original ? undefined : body)
+  for (const match of body.matchAll(/!\[\[([^\]|#]+)(?:\|[^\]]*)?\]\]/g)) embeds.add(match[1].trim())
 }
 
-const imageNames = new Set()
-for (const file of markdownFiles) {
-  const text = await readFile(file, "utf8")
-  for (const match of text.matchAll(/!\[\[([^\]|#]+)(?:\|[^\]]*)?\]\]/g)) imageNames.add(match[1].trim())
+for (const name of [...embeds].sort()) {
+  const asset = inside(path.join(vault, "data_base", "attachment"), name)
+  const report = inside(path.join(vault, "output"), name)
+  if (existsSync(asset)) {
+    const source = path.relative(vault, asset).split(path.sep).join("/")
+    add("引用附件", source, path.posix.join("attachments", name))
+    add("引用附件", source, name)
+  } else if (existsSync(report)) {
+    add("自製報告", path.posix.join("output", name), path.posix.join("reports", name))
+  } else {
+    skipped.push({ reference: name, reason: "找不到引用檔" })
+  }
 }
 
-if (existsSync(sourceAttachments)) {
-  for (const name of imageNames) {
-    const source = path.join(sourceAttachments, name)
-    const report = path.join(sourceReports, name)
-    if (existsSync(source)) {
-      // Quartz resolves ![[image.png]] from content/ root. Keep attachments/
-      // as an organized copy, while publishing the renderable asset at root.
-      await cp(source, path.join(targetAttachments, name))
-      await cp(source, path.join(targetContent, name))
+if (existsSync(path.join(vault, raw))) {
+  for await (const source of files(vault, raw)) {
+    const ext = path.posix.extname(source).toLowerCase()
+    const memoDocx = ext === ".docx" && source.startsWith(`${raw}/memo/`)
+    if (ext !== ".pdf" && !memoDocx) continue
+    if (ext === ".pdf" && (await stat(inside(vault, source))).size > 25 * 1024 * 1024) {
+      skipped.push({ source, reason: "PDF 超過 25 MiB" })
+      continue
     }
-    else if (existsSync(report)) await cp(report, path.join(targetReports, name))
+    const destination = path.posix.join("raw-data", path.posix.relative(raw, source))
+    add(memoDocx ? "原始資料 DOCX" : "原始資料 PDF", source, destination)
+    add("原檔下載頁", source, destination + ".md", downloadPage(source))
   }
 }
 
-const rawPdfFiles = []
-let skippedRawFiles = 0
-async function collectRawPdfs(dir) {
-  for (const entry of await readdir(dir, { withFileTypes: true })) {
-    const fullPath = path.join(dir, entry.name)
-    if (entry.isDirectory()) await collectRawPdfs(fullPath)
-    else if (entry.name.toLowerCase().endsWith(".pdf")) {
-      if ((await stat(fullPath)).size <= maxPublishBytes) rawPdfFiles.push(fullPath)
-      else skippedRawFiles += 1
+if (existsSync(content)) {
+  for await (const destination of files(content)) {
+    const entry = planned.get(destination)
+    if (!entry) {
+      if (managed.has(destination.split("/")[0])) removed.push(destination)
+      else retained.push(destination)
+      continue
+    }
+    const dest = inside(content, destination)
+    const source = inside(vault, entry.source)
+    const body = generatedText.get(destination)
+    const size = body === undefined ? (await stat(source)).size : Buffer.byteLength(body)
+    entry.change = "更新"
+    if ((await stat(dest)).size === size) {
+      const expected = body === undefined ? await readFile(source) : Buffer.from(body)
+      if (expected.equals(await readFile(dest))) entry.change = "相同"
     }
   }
 }
 
-if (existsSync(sourceRawData)) {
-  await collectRawPdfs(sourceRawData)
-  for (const source of rawPdfFiles) {
-    const relative = path.relative(sourceRawData, source)
-    const target = path.join(targetRawData, relative)
-    await mkdir(path.dirname(target), { recursive: true })
-    await cp(source, target)
-    await writeRawDataSearchPage(target, "PDF")
-  }
+const entries = [...planned.values()]
+const counts = {}
+const changes = { 新增: 0, 更新: 0, 相同: 0 }
+for (const { category, change } of entries) {
+  counts[category] = (counts[category] ?? 0) + 1
+  changes[change] += 1
+}
+const inventory = { sourceRoot: vault, destinationRoot: content, counts, changes, entries, removed, retained, skipped }
+await mkdir(path.dirname(manifest), { recursive: true })
+const temp = `${manifest}.${randomUUID()}.tmp`
+try {
+  await writeFile(temp, JSON.stringify(inventory, null, 2) + "\n", "utf8")
+  await rename(temp, manifest)
+} finally {
+  await rm(temp, { force: true })
 }
 
-const memoDocxFiles = []
-async function collectMemoDocx(dir) {
-  for (const entry of await readdir(dir, { withFileTypes: true })) {
-    const fullPath = path.join(dir, entry.name)
-    if (entry.isDirectory()) await collectMemoDocx(fullPath)
-    else if (entry.name.toLowerCase().endsWith(".docx")) memoDocxFiles.push(fullPath)
+console.log(`發布清單 ${manifest}`)
+console.table(counts)
+console.log(`新增 ${changes.新增}，更新 ${changes.更新}，相同 ${changes.相同}`)
+console.log(`同步目的檔 ${entries.length}，移除 ${removed.length}，網站既有保留 ${retained.length}，略過 ${skipped.length}`)
+if (!values.preview) {
+  for (const { source, destination, change } of entries) {
+    if (change === "相同") continue
+    const dest = inside(content, destination)
+    await mkdir(path.dirname(dest), { recursive: true })
+    if (generatedText.has(destination)) await writeFile(dest, generatedText.get(destination), "utf8")
+    else await copyFile(inside(vault, source), dest)
   }
+  for (const destination of removed) await rm(inside(content, destination))
 }
-
-if (existsSync(sourceMemo)) {
-  await collectMemoDocx(sourceMemo)
-  for (const source of memoDocxFiles) {
-    const relative = path.relative(sourceRawData, source)
-    const target = path.join(targetRawData, relative)
-    await mkdir(path.dirname(target), { recursive: true })
-    await cp(source, target)
-    await writeRawDataSearchPage(target, "DOCX")
-  }
-}
-
-console.log(`同步 lib 頁面：${markdownFiles.length}`)
-console.log(`同步引用圖片：${imageNames.size}`)
-console.log(`同步 Raw_data PDF：${rawPdfFiles.length}`)
-console.log(`略過超過 25 MiB 的 Raw_data 檔案：${skippedRawFiles}`)
-console.log(`同步 memo DOCX：${memoDocxFiles.length}`)
