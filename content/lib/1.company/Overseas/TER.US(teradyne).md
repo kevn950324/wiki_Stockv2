@@ -8,7 +8,7 @@ tags:
   - 公司/Teradyne
   - 環節/測試設備
   - 產業/半導體測試
-updated: 2026-11-13
+updated: 2026-11-24
 aliases:
   - Teradyne
   - 泰瑞達
@@ -105,6 +105,7 @@ flowchart LR
 - [[報告_MorganStanley_Teradyne_20261027]]
 
 - [[memo_Notion_AceCamp_CPO電光測試與耗材壽命_70560925_20260416]]（2026-04-16）
+- [[活動_高明鐵4573_技術論壇Memo_20261021]] — 高明鐵技術論壇 memo，2026-10-21（設備商口述：CPO Insertion 1 EIC／PIC tester 為 Teradyne、Advantest；Insertion 2 布局「已定」為 ficonTEC＋Teradyne 與 Advantest＋MPI 兩組；Insertion 4 handler 供應商亦列 Teradyne；thesis／中）
 
 ## 相關頁面
 

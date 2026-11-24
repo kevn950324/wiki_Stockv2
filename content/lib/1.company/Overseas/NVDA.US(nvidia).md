@@ -884,6 +884,7 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 
 - [[報告_中信_PCB機械鑽孔_20261119]]（2026-11-19）
 - [[報告_永豐_智璞專家分享會_矽光子與CPO趨勢_20260921]] — 永豐證券／智璞產業趨勢研究所，2026-09-21（2026H1 合計 US$6.5B 光通訊策略投資：Lumentum／Coherent／Marvell 各 US$2B、Ayar Labs US$0.5B；100k GPU AI 工廠 CPO 元件需求估算與輝達 vs 博通 CPO 供應鏈對照）
+- [[活動_高明鐵4573_技術論壇Memo_20261021]] — [[4573_高明鐵（櫃）]] 技術論壇 memo，2026-10-21（設備商口述：CPO 各 Insertion 用什麼設備由 NVIDIA 決定，Broadcom、AMD 等客戶另有偏好供應鏈；ADST 在 NVIDIA 併購 Mellanox 前即在供應鏈內、難以替換；NVIDIA 把 RCP 段集中在一家 OSAT，場地不足迫使客戶要求更高 UPH；thesis／中低）
 
 ## 相關頁面
 

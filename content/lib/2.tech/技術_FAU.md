@@ -62,7 +62,14 @@ aliases:
   - Ultra Compact FAU
   - DFAU36
   - Lens Array
+  - MLA
+  - FAU+MLA
   - 偏振軸對準
+  - RCP
+  - Receptacle
+  - Detachable RCP
+  - RCP 貼片
+  - FAU-prism
 ---
 
 # 技術_FAU
@@ -226,6 +233,7 @@ Coherent 供應鏈中：蘅東光占 **約 40%** 份額（第二大）。
 
 ## 來源
 
+- [[活動_高明鐵4573_技術論壇Memo_20261021]] — 高明鐵技術論壇 memo，2026-10-21（RCP 貼片、FAU 可替換與天孚／美系 FAU 傳言、FAU 組裝整線）。
 - [[memo_Notion_AceCamp_CPO_DFAU產能與耦合瓶頸_70568130_20261030]] — 2026-10-30，匿名廠商。
 - [[memo_Notion_AceCamp_Rubin_NPO可維修性與MMC供應_70567848_20261029]] — 2026-10-29，特定系統架構。
 - [[memo_Notion_AceCamp_光晶片功率驗證與DFAU量產_70568558_20261028]] — 2026-10-28，匿名廠商。
@@ -419,6 +427,31 @@ flowchart LR
 
 ![[報告_永豐_智璞專家分享會_矽光子與CPO趨勢_20260921_p44.png]]
 *圖（智璞 2026-09-21 整理 p44）：透鏡層將 PIC 次微米模場放大後再對接 FAU 單模光纖，對照裸纖、台積電內嵌微透鏡與合聖雙超穎透鏡之 1 dB 對準容差與台廠切入路線。*
+
+## 2026-10-21 RCP（receptacle）貼片與 FAU 組裝整線（高明鐵技術論壇）
+
+設備商 [[4573_高明鐵（櫃）]] 的口述，屬 thesis／中，客戶與 FAU 換供應商的說法為 rumor／低（[[活動_高明鐵4573_技術論壇Memo_20261021]]）：
+
+- **RCP 是 dFAU 的晶片端介面**：RCP 可想成 connector，先在切割後的 OE 晶片上主動對位貼好，上方 FAU 即可拆換、方便維修；過去 FAU 直接固化在晶片上幾乎不能重工。凡用 [[2330_台積電（市）]] 晶片且需插拔，就一定要做 RCP 貼片，台積 coupler 是標準平台。FAU unit＋RCP＋coupler 構成一個 module。
+- **FAU 供應商可替換**：RCP 標準化後，上方 FAU 只要相容即可自選，不一定用天孚。公司稱大廠過去用天孚 FAU，近期很多改用美國公司的 FAU（未具名）；SENKO、[[COHR.US(coherent)]]、[[GLW.US(corning)]] 都有自有 CPO FAU。
+- **良率與瓶頸**：RCP 沒貼準，光纖扣上去 IL 必然偏高，後段測試都不用做；RCP 貼片是目前 CPO Insertion 3 的最大設備瓶頸，詳見 [[供應鏈_光測試設備]]。
+- **精度要求**：FAU 直接對晶片、中間沒有透鏡做光學補償，對位精度由早期約 300 nm、1.6T 約 100 nm，到 3.2T 可能 50 nm。這與上段透鏡層放寬容差（±10–18 µm）的路線相反，兩者適用不同耦合架構，不宜直接比較。
+- **FAU 製造設備整線化**：高明鐵 2025 年開發 MT fiber 組裝設備、2025 年底起做 FAU-prism 與 MLA 組裝設備，規劃整條 FAU 產線（剝光纖、清潔、組光纖、prism、MLA、carrier、lid），目前為 8 channel FAU 組裝機。另做 multi-mode FAU 與 Micro LED、Micro VCSEL 短距光源貼合。
+
+```mermaid
+flowchart LR
+    W[PIC/OE 晶圓] -->|dicing| D[OE die]
+    D -->|主動對位貼片<br/>Insertion 3 前段| R[RCP 貼片]
+    R -->|烘烤| T[die-level 測試]
+    F[FAU 組裝<br/>剝纖・清潔・prism・MLA・carrier・lid] --> U[FAU unit]
+    U -->|插拔扣合| R
+    classDef step fill:#a5d8ff,stroke:#1c7ed6,color:#111
+    classDef part fill:#fff3bf,stroke:#e67700,color:#111
+    class W,D,R,T step
+    class F,U part
+```
+
+圖說：依高明鐵論壇口述整理的 detachable FAU 流程。RCP 在切割後貼到 OE die 上並固化，之後的 FAU unit 以插拔方式扣合，因此 FAU 可在不重工晶片的前提下更換；RCP 貼片精度直接決定後段 IL 與測試良率。
 
 ## 相關頁面
 
