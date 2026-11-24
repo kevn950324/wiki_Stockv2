@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/CCL材料
 maturity: mature
-updated: 2026-11-18
+updated: 2026-11-24
 aliases:
   - FR-4
   - FR4
@@ -323,7 +323,19 @@ AI 伺服器主要用**薄布**（1067 等規格），vs 消費電子常用厚�
 
 來源：[[報告_MorganStanley_PanasonicCCL廠火災影響_20261104]]。
 
+## 2026-11-23 UBS 台灣 CCL 首次覆蓋：規格驅動的結構性升級
+
+- 結論（thesis／中）：高階 CCL 進入規格驅動的多年結構升級，而非短期商品循環；設備交期、認證期與製程難度限制擴產。首次覆蓋台光電（Buy，TP NT$5,000）、台燿（Buy，TP NT$1,150）、聯茂（Buy，TP NT$650）。來源 [[報告_UBS_台灣CCL產業首次覆蓋_20261123]]。
+- 四大驅動：AI 終端量、每系統 CCL 用量、往低損耗等級遷移、平台更新週期縮短至一年一代。一般伺服器板 12–20 層，AI 伺服器 30–40+ 層，部分 AI 運算／交換板 40–70+ 層。
+- NVIDIA 材料路線：HGX（Ampere/Hopper）M6/M7 → GB200/GB300 M8 → Rubin NVL72 多數維持 M8、mid-plane 可能 M8.5 → Feynman M9/M10。Google TPU v8 轉 M8、v9 可能 M9；AWS Trainium 2/3 M8 → Trainium 4 M9。
+- 單位價值（CCL 廠說法）：compute 板 CCL 由 GB300 US$100–120 升至 VR200/300 US$150–300；switch 板由 US$150 升至 US$500–1,500；每櫃 CCL 價值 VR200/VR300 約 US$15,000–20,000／US$30,000–40,000。
+- 交期：玻纖布由約 2 週延長至 4 週、銅箔由約 2 週延長至 3–3.5 週；HVLP4+ 為 2026 年主流（Rubin、TPU v8、Trainium 3、MI400）。
+- 漲價：台系 CCL 1Q26、2Q26 各季漲 10–30%，8–9 月再雙位數；Panasonic 2026 年三輪調漲 30%/20%/30%（複合 103%）；E-glass 短缺約持續 2 年。
+- 產能：三家台廠 2027F 月產能合計增 32%、2028F 再增 27%；台光電 5.55mn→15.25mn 張（2025→2030F，+175%）、台燿 2.41mn→7.45mn 張（+209%）。
+- CPO／PTFE：CPO 去規格疑慮被高估，scale-out 至 2027 量產、hybrid scale-up 2028–29、全 CPO scale-up 2029–30；NPO 未來 2–3 年為主流，全 CPO 架構下 CCL 仍需 M6–M8；NVL576 CPO 使每 Oberon 櫃 switch tray 由 9 個增至 18 個。PTFE 良率低於 50%（M9 為 80–90%），Kyber 背板導入已延後；生益為 PTFE 擴大採用的主要受惠者，台光電主推 M10。
+
 ## 來源
+- [[報告_UBS_台灣CCL產業首次覆蓋_20261123]]（UBS，2026-11-23；台灣 CCL 首次覆蓋，材料路線、單位價值、CPO/PTFE 評估）
 - [[報告_未署名_CCL與散熱估值更新_20261109]] — 使用者提供的未署名簡報，日期依檔名2026-11-09。
 - [[報告_MorganStanley_PanasonicCCL廠火災影響_20261104]] — Morgan Stanley，2026-11-04
 - [[報告_UBS_南亞CCL漲價與產品升級_20260928]] — UBS，2026-09-28；一般品價格、M6+ mix、垂直整合與 Gen2 Low-Dk 紗

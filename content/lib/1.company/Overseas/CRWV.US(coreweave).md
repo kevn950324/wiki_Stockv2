@@ -8,7 +8,7 @@ tags:
   - 公司/CoreWeave
   - 環節/雲端服務
   - 產業/AI伺服器
-updated: 2026-11-16
+updated: 2026-11-23
 aliases: [CoreWeave]
 related_companies:
   - "[[MSFT.US(microsoft)]]"
@@ -89,7 +89,7 @@ CoreWeave 是提供 GPU 雲端與 AI 基礎設施的雲端服務商，核心成�
 |---|---|---|
 | [[MSFT.US(microsoft)]] | 客戶 | 約 US$190 億、5 年照付不議算力合約 |
 | [[META.US(meta)]] | 客戶 | 2026-03 綁 Meta 的 US$85 億無追索權專案貸款 |
-| [[OpenAI（未）]] | 客戶 | 長約客戶之一 |
+| [[OpenAI（未）]] | 算力長約客戶 | Bernstein 估既有協議約五年期，按批次延伸至 2030 年。 |
 | [[NVDA.US(nvidia)]] | 上游供應商 | GPU 主要來源 |
 
 > [!warning] 風險與注意事項
@@ -116,6 +116,8 @@ CoreWeave 是提供 GPU 雲端與 AI 基礎設施的雲端服務商，核心成�
 - 來源：[[活動_CoreWeaveCRWV_凱基CallMemo_20261119]]（凱基 call memo，2026-11-19，依逐字稿與公開資訊整理）。
 
 ## 來源
+- [[報告_Bernstein_OpenAI算力承諾_20261103]] — Bernstein，2026-11-03，既有 OpenAI 合約與續約風險，券商估計／中。
+- [[報告_Bernstein_北美資料中心可信容量_20261110]] — Bernstein，2026-11-10，開發商及場址權重模型。
 - [[活動_CoreWeaveCRWV_凱基CallMemo_20261119]]：凱基 call memo，2026-11-19；DDTL 融資成本、交付瓶頸、2028 轉盈
 - [[報告_國金證券_通訊週報Anthropic路演與平頭哥分拆_20261115]]：國金證券通訊週報，2026-11-15；3Q26 財報與全年指引
 - [[報告_國金證券_海外AI雲廠商融資現況_20261111]]：國金證券 AI 雲融資現況

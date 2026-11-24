@@ -9,11 +9,13 @@ tags:
   - 環節/雲端基礎設施
   - 環節/雲端資料庫
   - 產業/AI資料基礎設施
-updated: 2026-11-15
+updated: 2026-11-23
 aliases:
   - Oracle
   - ORCL
 related_companies:
+  - "[[OpenAI（未）]]"
+  - "[[MSFT.US(microsoft)]]"
   - "[[BE.US(bloom_energy)]]"
   - "[[SNOW.US(snowflake)]]"
   - "[[MDB.US(mongodb)]]"
@@ -88,6 +90,7 @@ Oracle Corporation（ORCL.US）是全球最大的企業資料庫廠商，近年�
 | 2026-06 | 本季新增 $67bn AI 合約，累計 BYOH/預付款 $75bn | ⭐⭐⭐⭐ | 4 家客戶各簽超過 $8bn 合約 |
 | FY26 全年 | 累計交付 1.2GW 資料中心容量 | ⭐⭐⭐ | F1Q27 預計再增近 1GW |
 | 2027H1 | Shackleford / Doña Ana 資料中心開始客戶交付 | ⭐⭐⭐ | Shackleford 已有 115MW 上線 |
+| 2028（券商估計） | 多數 OpenAI 合約容量可能上線 | ⭐⭐⭐ | 分批交付，須核對上電及驗收。[[時程_2026能源與AI電力設備]] |
 | FY27 | Oracle Health AI 版 Cerner 推出，預期重返雙位數成長 | ⭐⭐ | — |
 
 ---
@@ -129,7 +132,21 @@ flowchart LR
 - 甲骨文 5 年期債利差 11/6 為 267bp（6/1 120bp，+147bp）；2026 年 7 月標普將長期評級由 BBB 降至 BBB-，估剩餘履約義務約一半與 OpenAI 相關。
 - 為 RD Michigan（The Barn）US$14bn 債券提供租約與擔保，該債利差平均高甲骨文 111bp；11/2 增發與發債共融資 US$20bn。2027 預期 FCF -US$1.8bn，訂單儲備 US$664bn。來源：[[報告_國金證券_海外AI雲廠商融資現況_20261111]]
 
+## 2026-11 Oracle／OpenAI 合約與場址
+
+- [[OpenAI（未）]] 為 OCI 算力客戶。[[報告_Bernstein_OpenAI算力承諾_20261103]]（11-03）估約 3,000 億美元合約由 5–6 年期批次組成，多數容量可能在 2028 年上線，至 Oracle FY30 累計約認列 57% 合約價值。另有 [[MSFT.US(microsoft)]] 與 Oracle 為 OpenAI 提供 Abilene 初期訓練容量的協議，付款涉及 Microsoft 雲端點數（券商模型及轉述／中）。
+- [[報告_MorganStanley_美國期中選舉後AI投資機會_20261108]]（11-08，p64–65）追蹤新墨西哥 Jupiter 的空氣許可、威斯康辛 Lighthouse 的輸電接入及德州 Shackelford 的分期表後電力和空氣許可。上述變數可能推遲營收與資本支出，實際上線以個別專案公告為準（thesis／中）。
+- [[報告_Bernstein_北美資料中心可信容量_20261110]]（11-10）將 Oracle 單獨租戶權重 0.80 調至 0.75，Oracle／OpenAI 組合 0.85 調至 0.80（模型調整／中）。
+
+![[報告_Bernstein_OpenAI算力承諾_20261103_p013.png]]
+
+圖說：Bernstein 將 Oracle 對 OpenAI 供應算力的估計營收按場址、早期 Microsoft 協議及曆年分列。圖中營收為券商估計。
+
 ## 來源
+
+- [[報告_Bernstein_OpenAI算力承諾_20261103]] — Bernstein，2026-11-03，合約分批及營收模型。
+- [[報告_MorganStanley_美國期中選舉後AI投資機會_20261108]] — Morgan Stanley，2026-11-08，場址與信用風險。
+- [[報告_Bernstein_北美資料中心可信容量_20261110]] — Bernstein，2026-11-10，租戶權重。
 
 - [[報告_國金證券_海外AI雲廠商融資現況_20261111]]：國金證券 AI 雲融資現況
 ![[報告_元大_全球經濟與金融市場展望_20261109_p20.png]]

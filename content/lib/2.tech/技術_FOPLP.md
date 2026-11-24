@@ -4,7 +4,7 @@ tags:
   - 技術/FOPLP
   - 技術/面板級封裝
   - 產業/先進封裝
-updated: 2026-10-04
+updated: 2026-11-24
 image_status: "待補來源圖"
 aliases:
   - Fan-Out Panel-Level Packaging
@@ -55,8 +55,13 @@ flowchart LR
 - TGV 對玻璃基板加工與缺陷控制要求高，可能使導入時程延後。
 - 面板設備、材料與封裝規格尚未完全收斂，供應鏈受惠程度仍需以量產客戶與設備訂單驗證。
 
+## 2026-11-23 迅得 call memo：CoPoS 專用 Stocker
+
+- [[6438_迅得（市）]] 針對方型基板（CoPoS／FOPLP）推出 CoPoS 專用 Stocker 系列等設備；面板級封裝對載具規格、潔淨度與穩定性要求更高；CoWoS 智慧倉儲與搬運已大量出貨龍頭客戶（公司說法）。來源 [[活動_迅得6438_國泰CallMemo_20261123]]。
+
 ## 來源
 
+- [[活動_迅得6438_國泰CallMemo_20261123]]（國泰 call memo，2026-11-23；CoPoS Stocker）
 - [[報告_DIGITIMES_AI扇出型面板級封裝_20260822]] — DIGITIMES，下載日 2026-08-21
 - [[技術_CoWoS與先進封裝]] — 先進封裝產能與 CoPoS 對照
 

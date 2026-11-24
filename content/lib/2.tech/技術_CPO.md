@@ -5,7 +5,7 @@ tags:
   - 產業/AI伺服器
   - 環節/光通訊
 maturity: developing
-updated: 2026-11-04
+updated: 2026-11-24
 aliases:
   - ELSFP
   - 雙極隔離器
@@ -700,7 +700,14 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 - 國泰講座：量產以 2.5D CPO 為主（台積電、NVIDIA、Broadcom），陸廠多採 NPO／OBO，3D CPO 為下世代；量產挑戰為光纖連接、維護測試、熱管理與互通性（[[memo_國泰證期_先進封裝HBM矽光子技術解析講座_20261029]]）。
 - 康和論壇（2026-11-19）：AI DC 分四種網路（Scale-across／Scale-out／Scale-up／Scale-in），光電轉換介面由 Pluggable → LPO → XPO → NPO → CPO 往晶片端移動；Scale-out 路線已明確，Scale-up 仍在技術討論，NPO 被視為過渡但期間長，CPO 與既有架構長期並存。光引擎＝PIC＋EIC＋耦合封裝，台積電 COUPE 以 SoIC（F2F）接合 PIC／EIC、Intel OCI 採 Edge Coupling＋WDM；Grating Coupling 公差容忍度大但頻寬受限，Edge Coupling 可分波多工但對位要求高。另一路線為「慢而寬」：Microsoft MOSAIC、Avicena MicroLED（0.1pJ/bit）＋多模光纖。FAU 耦合為量產門檻，Teramount（Molex 併購）被動對位、Corning 玻璃橋、合聖 metalens 為解法；Marvell 以 US$115bn 併購 Lumentum 顯示產業由元件分工走向系統整合（[[memo_康和論壇_AI光互連新賽局_20261119]]，講者觀點／中）。
 
+## 2026-11-22 開源證券通訊週報：CPO 供應鏈加速構建、無源光器件需求
+
+- NVIDIA FY27 3Q 營收 US$115.8bn（年增 103%），FY28 營收成長指引由 70% 上調至 75%；NVIDIA 透過投資與合作支援缺乏擴產規模與資金的光元件夥伴，圍繞 CPO 建立新供應鏈。來源 [[報告_開源證券_通訊週報AI巨頭財報與CPO_20261122]]。
+- CPO 交換機內部大量光訊號傳輸，衍生內部光纖布線需求，帶動連接器、MPO 光纖跳線等無源光器件；TrendForce 預估 CPO/NPO 市場由 2025 年約 US$100mn 升至 2030 年 US$39bn 以上。
+- 國金同週觀察：OCP 峰會聚焦 XPO、NPO、CPO，光互聯標準化加速；9 月中國光模組出口金額年增 131.35%、1–9 月累計年增 56.62%（[[報告_國金證券_通訊週報算力管制與AnthropicIPO_20261122]]）。
+
 ## 來源
+- [[報告_開源證券_通訊週報AI巨頭財報與CPO_20261122]]（開源證券，2026-11-22；CPO 供應鏈與無源光器件）
 - [[memo_康和論壇_AI光互連新賽局_20261119]] — 康和投顧論壇 call memo，2026-11-19；四層網路、光引擎介面演進、FAU 耦合與慢而寬路線。
 - [[報告_元大_光通訊產業_20260921]] — 元大投顧，2026-09-21（SemiAnalysis NPO／CPO 3.2T 等效 OE 預估、插拔／NPO／CPO 比較、ELSFP）。
 - [[memo_CPO無源器件_ELS_FAU_Shuffle專家觀點_日期不詳]] — 匿名專家訪談，日期不詳（2026-10-30 收錄；Quantum／Spectrum 配置、ELS 結構與成本、ELSFP 份額、無源器件放量節點；低至中低信心）。
@@ -1099,6 +1106,28 @@ Goldman Sachs「The next mega trend in AI infrastructure」深入分析 GB300→
 > 元大 2026-07-23 版（本頁上方圖解引用）以「NPO／CPO 交換機 port 數」估 2026／2027／2028 年 100 萬／500 萬／1,000 萬個；09-21 版改引 SemiAnalysis「3.2T 等效光引擎」40 萬／320 萬／2,228 萬個。單位不同（port vs OE），且 2028 年 OE 口徑已高於 07-23 版 port 口徑，不能視為同口徑上修或下修。GF 10 月版 scale-up NPO OE 2027／2028 年 6.5M／42.4M 個，又高於本表，三者並列保留。
 
 來源：[[報告_元大_光通訊產業_20260921]]（元大投顧，2026-09-21；SemiAnalysis 數據轉引，信心中）。
+
+## 2026-09-21 永豐／智璞專家分享會：400G/lane 分水嶺、透鏡層與 NPO 分流
+
+[[報告_永豐_智璞專家分享會_矽光子與CPO趨勢_20260921]]（永豐證券／智璞產業趨勢研究所執行副總林偉智，2026-09-21）系統性拆解 CPO 的兩道物理牆、量產瓶頸與地緣政治變數：
+
+- **AI 光連結 TAM 與 CPO 滲透率（estimate／中）**：引述 BofA／[[LITE.US(lumentum)]]（2026-09），AI 光連結 TAM 由 2025 年約 US$18B 成長至 2030 年 US$90B+（CAGR ~40%）；頻寬需求倍數以 Scale-Across＝1× 為基準，Scale-Out 10×、Scale-Up 100×、Scale-In 1,000×。引述高盛（2026-09），CPO 光引擎出貨由 2026E 72 萬顆增至 2027E 852.8 萬顆（11.8×）、2028E 1,625.2 萬顆（+91%，較 2026 約 22×），但滲透率僅 1% → 6% → 9%，可插拔模組 2028 年仍占 91%（與上方元大引 SemiAnalysis 2027／2028 CPO OE 140.8 萬／750.8 萬顆及 GF 10 月版口徑並列保留）。
+- **400G/lane 為可插拔撞牆分水嶺**：1.6T full-DSP 可插拔功耗約 20–28W（DSP／SerDes 吃掉約 50%），對照 LRO ~15W、LPO 4–10W、NPO ~8W（[[MRVL.US(marvell)]] <5 pJ/bit 換算）、CPO 3.5–5.4W（[[AVGO.US(broadcom)]] 宣稱）。至 448G PAM4（400G/lane，Tomahawk 7 204.8T 估 2H26 tape-out、2028–2029），3.2T 可插拔功耗達 40–60W，突破 OSFP-XD 40W 散熱上限，CPO 才從可選轉為必要；LPO 至 200G/lane 亦吃緊，僅為過渡爭取時間。
+- **三階段採用與四大環節產值（estimate／中）**：Phase 0 Scale-out（2026 起，1×）→ Phase 1 Inter-rack scale-up（8 座機櫃，2027–28，高盛推估 ~5×）→ Phase 2 Intra-rack scale-up（2028 後）。四大環節產值占比：OE 光學引擎 55–70%（8–128 顆／台）、ELS 外部雷射 15–30%（16–64 個／台）、FAU 光纖陣列 5–15%（8–128 個／台）、Shuffle Box 2–8%（1 套／台）。以 10 萬顆 GPU 單一 AI 工廠（2-tier fat-tree、每 GPU 1×800G DR8）估算，約需 2,083 台 CPO 交換器、240 萬條 SMF、15 萬個資料 FAU、30 萬條 PMF、3.75 萬個 ELSFP 與 270 萬個耦合／測試點。
+- **良率複合效應與透鏡層上移**：單點良率 95% 在 16／32 通道下複合僅剩 44%／19%。[[2330_台積電（市）]] COUPE-GC 採內嵌 Si μLens＋Cu 背面金屬反射層（BMR）把 1 dB 對準容差由裸纖 ±0.5 µm 放寬至 ±10 µm（損耗 0.3–0.5 dB，Fast & Narrow，利於晶圓級測試）；COUPE-EC 則支援 8–32λ、單列（受 6 mm 邊寬限制約 40 通道上限）、次微米容差、1–1.5 dB（Slow & Wide）。關鍵商業含義：主動對位並未消失，而是先搬進晶圓廠透鏡層，2026–2027 量產仍以主動對位為主。
+- **NPO＝產能分流而非路線對手**：引述 [[LITE.US(lumentum)]]（2026-09-08 Citi TMT），2028 年 scale-up 光學需求一條 CPO 產能撐不起，NPO（OE 放 PCB 上距 ASIC 數公分、多一層 LGA socket，可用既有 OSAT）將與 CPO 出貨約各半；兩者光學零組件（OE／FAU／ELS／CW）用量相同，NPO 額外多一條 LGA socket BOM。
+- **地緣政治（fact／高）**：美國 FCC 於 2026-08-07 聯邦公報刊登供應鏈安全審查提案，重新定義「由誰製造」（第三地組裝或改掛品牌不再規避），光收發模組納入 HBOM／SBOM 揭露，並研議美國來源零組件占比 65%、2029 年後 75% 之門檻；台廠優勢在非中替代與可追溯性，風險在 InP 基板集中度。
+
+![[報告_永豐_智璞專家分享會_矽光子與CPO趨勢_20260921_006.png]]
+*圖（BofA／Lumentum，智璞 2026-09-21 整理 p12）：AI 光連結 TAM 由 2025 年 US$18B 成長至 2030F US$90B+（CAGR ~40%），其中 2030 年頻寬結構估計 Scale-out 55%、Scale-up 45%，Scale-up 為淨增量。*
+
+![[報告_永豐_智璞專家分享會_矽光子與CPO趨勢_20260921_p37.png]]
+*圖（台積電 SEMICON Taiwan 2026／住友電工，智璞 2026-09-21 整理 p37）：TSMC COUPE-GC 與 COUPE-EC 剖面與規格對照——兩者 3D SoIC 堆疊相同，差異在於光離開 PIC 的方向、波長數、對準容差（±10 µm vs 次微米）與晶圓級測試難易。*
+
+![[報告_永豐_智璞專家分享會_矽光子與CPO趨勢_20260921_p44.png]]
+*圖（智璞 2026-09-21 整理 p44）：透鏡層以模場放大（<1 µm → ~70 µm 準直光束 → ~9 µm SMF）放寬對準容差；次微米主動對準先往上游晶圓廠透鏡層遷移，2026–2027 年量產端仍以主動對位為主。*
+
+來源：[[報告_永豐_智璞專家分享會_矽光子與CPO趨勢_20260921]]（永豐證券／智璞產業趨勢研究所，2026-09-21）。
 
 ## 相關頁面
 

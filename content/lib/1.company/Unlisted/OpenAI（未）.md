@@ -10,8 +10,7 @@ tags:
   - 產業/AI半導體
   - 環節/AI軟體平台
   - 環節/AI軟體平台
-updated: 2026-11-14
-image_status: "待補來源圖"
+updated: 2026-11-23
 aliases:
   - OpenAI
   - Codex Security
@@ -20,6 +19,10 @@ related_companies:
   - "[[CBRS.US(cerebras)]]"
   - "[[NVDA.US(nvidia)]]"
   - "[[AVGO.US(broadcom)]]"
+  - "[[ORCL.US(oracle)]]"
+  - "[[MSFT.US(microsoft)]]"
+  - "[[AMZN.US(amazon)]]"
+  - "[[CRWV.US(coreweave)]]"
 ---
 
 # OpenAI（未）
@@ -40,6 +43,10 @@ OpenAI 為美國 AI 模型公司，開發並運營 ChatGPT、GPT-4o、o3 等大�
 Evercore 認為近期直接競爭壓力集中在漏洞／安全態勢管理、程式碼安全與攻擊路徑分析；runtime 的遙測、偵測、政策執行與深度部署仍重要（thesis／中信心）。這不構成新具名客戶、收入或與 runtime 廠商的合作關係揭露。詳見 [[分析_DevSecOps_AI安全衝擊]]。
 
 ## 圖片 / 架構圖
+
+![[報告_Bernstein_OpenAI算力承諾_20261103_p005.png]]
+
+圖說：Bernstein 依供應商與自建方式分列 OpenAI 基礎設施支出，並假設各項合約按期交付。長期付款曲線會隨交付、取消權及融資條件調整。
 
 ```mermaid
 flowchart LR
@@ -65,6 +72,10 @@ flowchart LR
 | [[NVDA.US(nvidia)]] | 大規模 GPU 採購 | 硬體 | 訓練與主流推理基礎 |
 | [[AVGO.US(broadcom)]] | 自研 ASIC | 客製晶片 | 富邦（2026-10-19）產業調查：OpenAI 近期將 2027 年 ASIC 需求由原假設 100 萬顆上修至 300 萬顆（estimate／中） |
 
+[[報告_Bernstein_OpenAI算力承諾_20261103]]（11-03）以各項合約均按期交付為前提，估至 2030 年基礎設施支出約 6,140 億美元，2031 年單年約 1,840 億美元。券商將雲端租約、共置、自建及硬體投入分拆，並指出交付時程、雲端點數、取消權及供應商融資會影響付款。報告引用的 7,500 億美元承諾額與模型估算的現金支出有不同認列基礎（estimate／中）。
+
+[[報告_Bernstein_北美資料中心可信容量_20261110]]（11-10）將 Oracle／OpenAI 組合的租戶權重由 0.85 降至 0.80。此為該模型對專案成案機率的評分。券商文中估 OpenAI 相關具名租戶的可信容量約 5.8 GW，涵蓋不同開發商和場址（estimate／中）。
+
 ## 相關公司
 
 | 公司 | 關係 | 說明 |
@@ -73,6 +84,10 @@ flowchart LR
 | [[CBRS.US(cerebras)]] | 主要算力供應商 | 750MW take-or-pay 推理算力合約 |
 | [[NVDA.US(nvidia)]] | GPU 供應商 | 訓練叢集主力 |
 | [[AVGO.US(broadcom)]] | ASIC 設計夥伴 | 2027 年需求據富邦調查上修至 300 萬顆 |
+| [[ORCL.US(oracle)]] | OCI 算力供應商 | Bernstein 估容量按 5–6 年期合約分批交付，多數可能在 2028 年上線。 |
+| [[MSFT.US(microsoft)]] | Azure 算力供應商與投資方 | Bernstein 引述新增 2,500 億美元 Azure 採購承諾。報告稱部分早期 Abilene 訓練容量經 Microsoft 雲端點數支付。 |
+| [[AMZN.US(amazon)]] | AWS 算力供應商 | Bernstein 列出 380 億美元七年期及追加 1,000 億美元八年期容量協議，新協議涉及最多 2 GW Trainium。 |
+| [[CRWV.US(coreweave)]] | Neocloud 算力供應商 | Bernstein 估現有合約分批延伸至 2030 年，續約與長期需求仍待驗證。 |
 
 > [!warning] 風險與注意事項
 > - 未上市，財務資訊不完整；客戶資訊來自供應商揭露
@@ -93,6 +108,11 @@ flowchart LR
 | 時間 | 事件 | 類型 | 重要性 | 備註 |
 |---|---|---|---|---|
 | 2027／2028（預估） | ASIC 出貨 70 萬顆後加速 | 放量驗證 | ⭐⭐⭐ | estimate／低；[[時程_2026-2029功率調價與AI平台驗證]] |
+| 2028（券商估計） | Oracle 多數 OpenAI 合約容量可能上線 | 算力交付 | ⭐⭐⭐ | 須核對上電及驗收。[[時程_2026能源與AI電力設備]] |
+
+## 第三方模型評測
+
+[[memo_AlexKrentsel_權重空間程式設計測試_20261102]]（11-02）在權重空間程式設計評測中，將 GPT 6.1 Sol 與 GPT 6 Astra 標為 PPO 基準的 18 倍及 22 倍。圖示只涵蓋特定測試，結果為社群作者自報（信心低）。
 
 ## 產業筆記補充（2026-11-14 收錄；原日期未提供）
 
@@ -106,6 +126,11 @@ flowchart LR
 完整口徑與反證：[[分析_功率漲價與AI晶片出貨部署落差_日期待確認_收錄20261114]]；跨公司時程：[[時程_2026-2029功率調價與AI平台驗證]]。
 
 ## 來源
+
+- [[報告_國金證券_機器人週報GPT6.2Astra與Optimus量產_20261121]]（國金，2026-11-21；GPT-6.2 Astra／Sol 發布，控制雙臂機器人成功率 41.2%）
+- [[報告_Bernstein_OpenAI算力承諾_20261103]] — Bernstein，2026-11-03，合約與付款模型。
+- [[報告_Bernstein_北美資料中心可信容量_20261110]] — Bernstein，2026-11-10，租戶權重及場址模型。
+- [[memo_AlexKrentsel_權重空間程式設計測試_20261102]] — Alex Krentsel，2026-11-02，第三方評測截圖。
 
 - [[memo_Notion_AceCamp_匿名_企業AI與FDE交付_70569135_20261113]] — 2026-11-13（Notion 日期），匿名企業部署觀點。以模型服務切入客戶導入及跨場景複用。判讀見 [[分析_AI商業化從交付到變現的五項檢查_20261118]]。
 

@@ -5,7 +5,7 @@ tags:
   - 環節/AI基礎建設
   - 產業/資料中心
   - 產業/AI伺服器
-updated: 2026-11-13
+updated: 2026-11-23
 aliases:
   - GPU Backstop
   - Nvidia Backstop
@@ -14,6 +14,7 @@ aliases:
   - GPU租賃保底
   - asset-level financing
   - 專案融資
+  - colocation credit backstop
 related_companies:
   - "[[NBIS.US(nebius)]]"
   - "[[CRWV.US(coreweave)]]"
@@ -111,6 +112,14 @@ Neocloud 建設必須同時解決三個關卡：
 
 評估[[NBIS.US(nebius)]]、[[CRWV.US(coreweave)]]等公司時，應同時追蹤可計費MW、長約／spot實現租金、客戶驗收與融資後股權報酬。來源租金有幣別及換算矛盾，不改寫為統一牌價；完整衝突與反證見[[分析_Neocloud電力轉換率與融資成本驗證_20261112]]。以上為專家estimate及作者thesis，信心中低。
 
+## 共置租約的信用支持
+
+共置營運商可以由投資等級客戶直接承租，或由第三方為終端客戶提供信用支持。租約擔保的觸發條件、上限、期限和追索對象影響機房融資。GPU 保底則依合約約定提供算力承購或收入支持。兩種結構可以出現在同一專案，付款義務須按各自合約確認。
+
+![[報告_Bernstein_AI共置租約信用與電力資產_20261116_p004.png]]
+
+圖說：Bernstein 以 1,320 億美元樣本訂單拆解終端租戶及信用支持。其中約 85% 的合約金額來自共置。圖中待敲定的 RIOT 擔保仍屬情境，信心低。
+
 ## 相關工具（SemiAnalysis 配套）
 
 - **GPU Rental Pricing Index**：追蹤各 SKU / 各租期雙邊合約價格
@@ -119,6 +128,8 @@ Neocloud 建設必須同時解決三個關卡：
 - **AI TCO Model**：全面 IRR、DSCR、GPU 殘值模型
 
 ## 來源
+
+- [[報告_Bernstein_AI共置租約信用與電力資產_20261116]] — Bernstein，2026-11-16，共置租約的信用支持結構與樣本統計，信心中。
 
 - [[memo_Notion_AceCamp_NeoCloud算力與電力交付_70569079_20261112]] — 2026-11-12，匿名專家，容量與租金口徑待核。
 - [[memo_Notion_AceCamp_CoreWeave融資與交付前瞻_70568985_20261110]] — 2026-11-10，作者前瞻／情境。

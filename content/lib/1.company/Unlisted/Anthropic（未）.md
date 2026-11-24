@@ -11,7 +11,7 @@ tags:
   - 環節/AI訓練
   - 環節/API服務
 maturity: private
-updated: 2026-11-19
+updated: 2026-11-24
 aliases:
   - Anthropic
   - Claude
@@ -91,6 +91,13 @@ Anthropic 是美國 AI 安全公司，旗下 **Claude** 模型系列為主力產
 
 ![[20260709_0823_Anthropic_3Q26_Profit_Over_$1B_The_Anthropic_IPO_Financials_Sneak_004.png]]
 *圖（SemiAnalysis Tokenomics Model，2026-07-08）：Anthropic ARR 從 2024 年初接近 0 → 2025 年底 $9B → 2026 年 6/7 月 $60B+。Claude Code 上線後呈指數加速。*
+
+![[memo_TickerTrends_Anthropic營收年化追蹤_截至20261030_original.jpg]]
+
+圖說：TickerTrends 第三方追蹤截至 2026-10-30 的營收年化運行率為 823.3 億美元，較其 09-24 估計高 7.2%（estimate／中低）。圖表實心點另標已揭露數字，應與估計柱分讀。
+
+> [!warning] 營收年化口徑
+> 既有 M 報列第三季末年化約 700 億美元及年底目標 1,000 億美元。TickerTrends 的 823.3 億美元是 10 月下旬追蹤估計，三項數字的觀測日與推估方式各異。引用時應保留時點、來源及估計性質。
 
 ## 業務結構
 
@@ -187,6 +194,15 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 
 ## 近期營運與研究更新
 
+### 2026-11 收錄的第三方能力圖表
+
+- [[memo_AlexKrentsel_權重空間程式設計測試_20261102]]（11-02）把 Opus 5.5 在特定權重空間程式設計測試的分數標為 PPO 參考網路的 20 倍。社群自報，信心低。
+- [[memo_未署名_Anthropic研發自動化外推_日期待確認]] 依截至 2026-08 的圖表讀值進行外推。圖上 2027-11 達到 95% 全自動化的曲線假設約七個月時差模式重現。圖表明載觀測期間無任務達 AL5（未署名情境／低信心）。
+
+![[memo_未署名_Anthropic研發自動化外推_日期待確認_original.jpg]]
+
+圖說：藍色資料點來自作者從 Anthropic 公開圖表讀取的 AL2+ 至 AL4+ 數值。橘色 AL5 曲線全為情境外推。
+
 ### 2026-11-09 Claude Fable 5.2／Mythos 5.2 發表（官方）
 
 - **雙軌發布**：兩者是同一個底層模型。Fable 5.2 加強資安與生物領域防護，開放所有用戶；Mythos 5.2 只透過 Cyber Verification Program 或 Life Sciences Verification Program 開放給審核機構。官方稱多數評測能力高於 Opus 5.5。
@@ -266,7 +282,17 @@ SemiAnalysis 調查 >50 家企業（Databricks AI Summit，2026-06）：
 - 與 OpenAI 比較：OpenAI 2026-06 秘密遞件後延後，預計 2027 年才具上市條件，2026 年私募估值約 US$852bn（中信）。
 - 來源：[[報告_中信_AnthropicIPO評析_20261120]]（中信投顧，2026-11-20；公司揭露為 fact）。
 
+## 2026-11-22 國金證券通訊週報：Anthropic IPO 完成
+
+- 11 月 19 日於 Nasdaq 掛牌（代碼 ANT），發行價 US$83；初始募資約 US$81.3bn，超額配售全額行使後總額約 US$93.5bn，公司所得約 US$91.6bn，用於算力與基礎設施等；Google、NVIDIA 等七家機構私募認購約 US$26bn（fact）。來源 [[報告_國金證券_通訊週報算力管制與AnthropicIPO_20261122]]。
+- 同週 BIS 臨時最終規則將先進算力管制延伸至遠端存取，TSMC 與三星申請許可期間暫緩向部分中國客戶交貨（FT 報導）。
+
 ## 來源
+
+- [[報告_國金證券_通訊週報算力管制與AnthropicIPO_20261122]]（國金證券，2026-11-22；IPO 完成、募資約 US$93.5bn）
+- [[memo_TickerTrends_Anthropic營收年化追蹤_截至20261030]] — TickerTrends，截至 2026-10-30，第三方營收年化估計。
+- [[memo_AlexKrentsel_權重空間程式設計測試_20261102]] — Alex Krentsel，2026-11-02，第三方評測截圖。
+- [[memo_未署名_Anthropic研發自動化外推_日期待確認]] — 未署名情境圖，2026-11-23 收錄。
 
 - [[報告_中信_AnthropicIPO評析_20261120]]（中信投顧，2026-11-20；IPO 首日、股權架構、算力合約明細）
 

@@ -9,11 +9,13 @@ tags:
   - 產業/雲端運算
   - 主題/AI平台
   - 環節/雲端服務
-updated: 2026-11-18
+updated: 2026-11-23
 aliases:
   - Microsoft
   - 微軟
 related_companies:
+  - "[[OpenAI（未）]]"
+  - "[[ORCL.US(oracle)]]"
   - "[[3665_貿聯-KY（市）]]"
   - "[[3443_創意電子（市）]]"
   - "[[MRVL.US(marvell)]]"
@@ -107,6 +109,8 @@ Microsoft 以 Azure、Microsoft 365、Copilot、Windows、企業資安與開發�
 
 | 公司 | 關係 | 說明 |
 |---|---|---|
+| [[OpenAI（未）]] | Azure 算力客戶及被投資方 | Bernstein 轉述新增 2,500 億美元 Azure 服務採購承諾，分批交付與認列。 |
+| [[ORCL.US(oracle)]] | 初期訓練容量合作 | Bernstein 稱 Microsoft 與 Oracle 的 Abilene 協議為 OpenAI 提供訓練容量，並涉及既有雲端點數。 |
 | [[3665_貿聯-KY（市）]] | 供應商 | 貿聯 3Q26 會後筆記將 Microsoft 列入客戶名單，品項及直接或間接出貨口徑未載 |
 | [[GOOGL.US(alphabet)]] | 競爭 | 雲端、AI 模型與企業 AI 平台 |
 | [[META.US(meta)]] | 同業／客戶生態 | AI 基礎設施與模型需求 |
@@ -160,6 +164,8 @@ Maia 2027E 約120萬顆（p2／15），Cobalt 2026E 24萬、2027E p2／15 20萬�
 完整口徑與反證：[[分析_功率漲價與AI晶片出貨部署落差_日期待確認_收錄20261114]]；跨公司時程：[[時程_2026-2029功率調價與AI平台驗證]]。
 
 ## 來源
+
+- [[報告_Bernstein_OpenAI算力承諾_20261103]] — Bernstein，2026-11-03，Azure 採購承諾與 Abilene 付款安排，券商轉述／中。
 
 - [[memo_Notion_AceCamp_Microsoft_Maia與Copilot計費_70569355_20261118]] — 2026-11-18（Notion 日期），Microsoft 主體推定。Maia 外部容量與 Copilot 計量規則為待核情境。判讀見 [[分析_AI商業化從交付到變現的五項檢查_20261118]]。
 
