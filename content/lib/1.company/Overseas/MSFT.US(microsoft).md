@@ -240,6 +240,11 @@ Maia 2027E 約120萬顆（p2／15），Cobalt 2026E 24萬、2027E p2／15 20萬�
 
 - [[報告_富邦_2027全球電力產業展望_20261119]]（2026-11-19）
 
+- [[報告_中信_廣達2382_20261125]]（2026-11-25）
+- [[活動_WorkdayWDAY_國泰CallMemo_20261125]]（2026-11-25）
+- [[活動_安碁資訊6690_元大CallMemo_20261124]]（2026-11-24）
+- [[活動_宏碁資訊6811_元大CallMemo_20261124]]（2026-11-24）
+
 ## 相關頁面
 
 - [[MMM.US(3m)]]
@@ -260,3 +265,6 @@ Maia 2027E 約120萬顆（p2／15），Cobalt 2026E 24萬、2027E p2／15 20萬�
 ### 2026-10-20 CoreWeave 算力合約
 
 - FOMOSoc 指 Microsoft 與 [[CRWV.US(coreweave)]] 簽約金額約 US$190 億、5 年照付不議；文章提出 Microsoft 以 19 年長約向業主承租、對客戶僅 5 年合約的期限錯配風險外包給 CoreWeave（細節段落信件版未收錄）。野村：Microsoft Intelligent Cloud 2026 年 6 月季營益率約 41%。來源：[[memo_FOMOSoc_CoreWeave與AI基建_20261020]]（FOMOSoc，2026-10-20；信件版截斷，信心中）；[[memo_大叔美股筆記_野村GlobalMemory_AI營收與記憶體_20261021]]（大叔美股筆記轉述 Nomura 2026-10-19 Global Memory 報告，2026-10-21；券商 estimate＋作者評論，信心中）
+- [[WDAY.US(workday)]]（Sana 整合 Teams／Copilot）
+- [[6690_安碁資訊（櫃）]]（台灣微軟唯一資安 MSP）
+- [[6811_宏碁資訊（市）]]（Azure MSP／CSP 夥伴）

@@ -202,3 +202,4 @@ Oktane 的重點是 Okta 不再只在登入時授權，而是用 Agent Gateway �
 ### 2026-10-22 NVIDIA 代理安全平台
 
 - Okta 列名 NVIDIA OpenShell 平台投影片；作者認為 agent 需要身分、憑證與權限管理，身分管理需求為新增，Okta 與 CrowdStrike 偏受惠。來源：[[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（大叔美股筆記，2026-10-22；整理媒體報導與作者觀點，信心中）
+- [[WDAY.US(workday)]]（AI Agent 普及同受惠，國泰 2026-11-25）

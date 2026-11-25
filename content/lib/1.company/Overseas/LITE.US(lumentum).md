@@ -328,6 +328,8 @@ Lumentum 的投資核心已由「傳統電信復甦」切換為「AI 把光從�
 - [[報告_統一_Coherent_COHR_20261118]]（2026-11-18）
 - [[報告_永豐_智璞專家分享會_矽光子與CPO趨勢_20260921]] — 永豐證券／智璞產業趨勢研究所，2026-09-21（引述 2026-09-08 Citi TMT：EML 與 CPO 雷射全面短缺至 2027、2028 Scale-Up 需求再增 3–4 倍；2028 年 CPO／NPO 出貨約各半為產能分流；400mW ELS 合格供應商僅 Lumentum 與 Coherent，第三波產能 2028Q2）
 
+- [[活動_高明鐵4573_參訪電訪SEMICON閉門Memo_20260915]]（2026-09-15）
+
 ## 相關頁面
 
 - [[分析_光互連架構選擇與驗證良率瓶頸_20261030]]
@@ -492,6 +494,7 @@ ECTC 2026 論文：Lumentum 與 NVIDIA、[[2330_台積電（市）]] COUPE 平�
 - [[2026-08-12-LITE.OQ-BNP Paribas-LUMENTUM HOLDINGS (+)  Lighting The Way-123789795]]（BNP Paribas，2026-08-12）
 - [[2026-08-12-LITE.OQ-JPMorgan-Lumentum F4Q26 Review Executing Ahead of Plan With Incremen...-123791452]]（JPMorgan，2026-08-12）
 - [[6706_惠特（市）]]
+- [[4573_高明鐵（櫃）]]
 
 ## 本次 ingest 更新（2026-09-01）
 

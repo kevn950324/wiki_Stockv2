@@ -886,6 +886,11 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 - [[報告_永豐_智璞專家分享會_矽光子與CPO趨勢_20260921]] — 永豐證券／智璞產業趨勢研究所，2026-09-21（2026H1 合計 US$6.5B 光通訊策略投資：Lumentum／Coherent／Marvell 各 US$2B、Ayar Labs US$0.5B；100k GPU AI 工廠 CPO 元件需求估算與輝達 vs 博通 CPO 供應鏈對照）
 - [[活動_高明鐵4573_技術論壇Memo_20261021]] — [[4573_高明鐵（櫃）]] 技術論壇 memo，2026-10-21（設備商口述：CPO 各 Insertion 用什麼設備由 NVIDIA 決定，Broadcom、AMD 等客戶另有偏好供應鏈；ADST 在 NVIDIA 併購 Mellanox 前即在供應鏈內、難以替換；NVIDIA 把 RCP 段集中在一家 OSAT，場地不足迫使客戶要求更高 UPH；thesis／中低）
 
+- [[報告_中信_廣達2382_20261125]]（2026-11-25）
+- [[活動_DellDELL_國泰CallMemo_20261125]]（2026-11-25）
+
+- [[活動_耀穎光電7772_法說會後交流Memo_20261016]]（2026-10-16）
+
 ## 相關頁面
 
 - [[分析_Agent_CPU需求與Rubin成本口徑交叉檢查_20261028]]
@@ -1057,3 +1062,4 @@ Aletheia 估 2027 生產 950 萬顆 NVIDIA 加速器；單位是 production，�
 - 來源：[[memo_大叔美股筆記_NVIDIA_OpenShell代理安全_20261022]]（大叔美股筆記，2026-10-22；整理媒體報導與作者觀點，信心中）
 - [[CRWV.US(coreweave)]]
 - [[6561_是方（櫃）]]
+- [[7772_耀穎光電（櫃）]]

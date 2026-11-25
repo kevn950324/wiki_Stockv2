@@ -9,7 +9,7 @@ tags:
   - 產業/AI伺服器
   - 產業/企業IT
   - 環節/AI伺服器組裝
-updated: 2026-11-18
+updated: 2026-11-25
 aliases:
   - Dell
   - Dell Technologies
@@ -21,6 +21,7 @@ related_companies:
   - "[[2317_鴻海（市）]]"
   - "[[ORCL.US(oracle)]]"
   - "[[3231_緯創（市）]]"
+  - "[[2324_仁寶（市）]]"
 ---
 
 # DELL.US(dell)
@@ -81,6 +82,7 @@ flowchart LR
 | 季度 | 總營收 | ISG 營收 | AI 伺服器營收 | EPS | 毛利率 | 備註 |
 |------|--------|----------|--------------|-----|--------|------|
 | FY27 Q1（2026-05）| USD 43.8B（+88%）| USD 29.0B（+181%）| **USD 16.1B** | **USD 4.86**（+214%）| 18.1% | AI 訂單積壓 USD 51.3B |
+| FY27 Q3（2026-11）| USD 54.9B（+103%）| USD 42.0B（+198%）| **USD 22.0B** | **USD 9.45**（+265%）| 21.2% | AI 訂單 USD 60.2B、積壓 USD 132.3B；[[活動_DellDELL_國泰CallMemo_20261125]] |
 
 ### FY27 展望（法說指引，2026-05-28）
 
@@ -118,6 +120,8 @@ flowchart LR
 | 2026-10 | PowerEdge R8822（氣冷雙路 Vera CPU）供貨 | 新產品 | ⭐ | 公司新聞稿 |
 | 2027Q1 | M9882 與 XE9810 供貨 | 新產品 | ⭐⭐ | 公司新聞稿；[[時程_2026Q3Q4_AI網通與硬體催化劑]] |
 | 2027 年初 | Dell Modular Data Center with NVIDIA DSX POD 供貨 | 新產品 | ⭐⭐ | 公司新聞稿 |
+| 2026-11-24 | FY3Q27 法說：營收 US$54.9bn、AI backlog US$132.3bn；FY27 營收上修至 US$202bn、AI 伺服器 US$78bn；追加 US$25bn 回購 | 財報 | ⭐⭐⭐ | [[活動_DellDELL_國泰CallMemo_20261125]]；fact |
+| 4QFY27 | AI 伺服器營收指引 US$23.5bn；營收中位數 US$56.25bn | 財測 | ⭐⭐ | 公司指引，estimate |
 
 ## 供應鏈位置
 
@@ -192,7 +196,26 @@ Dell 在 NVIDIA GTC Berlin 發布新聞稿（Business Wire，2026-10-21），把
 - **SpaceX 份額**：[[2317_鴻海（市）]] 取得 SpaceX 較大份額（最高 45%–50%，SpaceX 明年 2 萬櫃為業界最大買家）；tier-2 neocloud（Nscale、IREN、Crusoe、Lambda）支撐 VR200 backlog；Dell 在 L10 供應商緯創的業務占比下降。維持 GB／VR NVL72 機櫃出貨 FY27E／FY28E 17k／20k 櫃。
 - EPS FY27E／FY28E 調整 +2%／-3%，維持 Hold，TP 下修至 US$341（12x FY28E EPS）。來源：[[報告_GFHK_Dell_F3Q27預覽_20261116]]。
 
+### 2026-11-25 FY3Q27 法說（國泰 call memo）：AI 伺服器 backlog US$132.3bn，全年營收上修至 US$202bn
+
+- 財報（fact／高）：3QFY27 營收 US$54.9bn（年增 103%），毛利 US$11.7bn、毛利率 21.2%；營業費用 US$3.8bn，占營收降至 7%，為公司 42 年新低；營業利益 US$7.8bn（年增 213%）、營益率 14.2%；稅後淨利 US$6.1bn，Non-GAAP 稀釋 EPS US$9.45（年增 265%），營收與 EPS 創新高。
+- ISG：營收 US$42bn（年增 198%，連續 11 季雙位數成長），其中 AI 伺服器 US$22bn、Traditional Server 及 Networking US$15bn（年增 235%）、Storage US$4.9bn（年增 24%）；ISG 營業利益 US$7.1bn（年增 308%），營益率 17%（年增 4.6ppt）。自 FY24 銷售 AI 伺服器以來，ISG 營收占比由 38% 升至近四季 68%、營業利益占比由 54% 升至 83%。
+- AI 訂單：新增訂單 US$60.2bn（第二個單季逾 US$60bn），季底 backlog US$132.3bn，近四季累計訂單 US$180bn、已出貨接近 US$66bn；新訂單以 NVIDIA (NVDA US) Vera Rubin NVL72 為主。Pipeline 為 backlog 數倍；AI Factory 客戶逾 7,500 家（最初 8 季增 3,000 家、近 3 季增 4,500 家），企業客戶為 pipeline 中成長最快類別，全球主要國家多有 2–3 個主權 AI 專案。Backlog 分布全球近 100 個資料中心據點，美國境內外數量相近，尚無客戶重新安排訂單時程。
+- 交付能力：出貨前完成 L11 以上整櫃測試（整櫃通電、散熱、Scale-up／Scale-out 網路驗證），交付後 6 小時內完成架設、設備利用率逾 99%；Time-to-First-Token 較競爭對手提前 4–6 週。3QFY27 率先出貨全液冷 Networking Rack，為唯一以標準 L11 Rack 提供 Compute、Accelerator 與 Networking 全 DLC 的 OEM，後續推出液冷 L11 Storage Rack。
+- 傳統伺服器：1Q／2Q／3QFY27 營收 US$8.5bn／10.5bn／15bn，前三季 US$34bn 已高於 FY26 全年 US$19.5bn，需求來自既有企業客戶汰換、電力與空間效率、資安與 AI 推論 CPU 需求。3Q 出貨台數下降但單機 CPU Core、DRAM、NAND 容量增加；US$3,000 以下伺服器市場大幅萎縮。17G 伺服器設備整合比約 7:1、18G 達 12–14:1；AI Agent 帶動的 CPU 伺服器（Harness：Container、Sandbox、I/O 與 Orchestration）ASP 約為一般企業伺服器 2 倍，但目前尚非最大營收來源。
+- Storage：Dell IP 儲存連續 7 季成長，非結構化儲存連續 3 季三位數成長，PowerStore 連續 10 季雙位數、PowerFlex 連續 3 季雙位數；AI 工作負載帶動 KV Cache、Context Layer 與 Agent 記憶等儲存需求，AI Data Platform 加入 Semantic Layer 與 Enterprise Knowledge Graph。
+- CSG：營收 US$12.9bn（年增 3%），營業利益 US$0.7bn、營益率 5.5%；零組件漲價使客戶優先把 IT 預算配置於伺服器與儲存，PC 汰換遞延。
+- 獲利率與供應：AI 伺服器整體獲利率維持中個位數百分比，Vera Rubin 依各客戶交付日期報價，未揭露相較 Blackwell 的 ASP 或獲利率差異。Enterprise NAND 與 Server DRAM 價格尚無下跌跡象，DRAM 晶圓轉向 HBM 排擠其他記憶體，供應緊張延續至 2027 年；預期明年零組件供需缺口擴大，資源優先配置予 ISG。下半年部分 PC 晶圓供應改配置於伺服器。
+- 信用控管：AI 客戶由 DFS 風險團隊審核資金來源與終端用戶合約，下單與投產前兩次審核；DFS 融資僅選擇性提供短期融資，3QFY27 AI 伺服器出貨 US$22bn，融資應收款僅季增 US$0.5bn。
+- 股東回饋：3QFY27 回饋 US$4.9bn 創單季新高（以均價 US$488 回購 900 萬股，每股股利約 US$0.63），董事會追加 US$25bn 回購授權；營業現金流 US$4.5bn，季底現金及投資 US$16.3bn。
+- 財測（公司指引）：4QFY27 營收中位數 US$56.25bn（年增 69%），ISG 年增約 120%，AI 伺服器季增至 US$23.5bn，Traditional Server 年增 137%，Storage 年增低十位數；Non-GAAP EPS 中位數 US$8.40（年增約 115%）。4Q ISG 營益率可能自 17% 回落（北美組合正常化），仍高於原區間上緣。FY27 營收 US$202bn（年增近 80%），AI 伺服器 US$78bn（原 US$74bn，FY26 的 3 倍以上），營益率年增約 3.5ppt，Non-GAAP EPS 中位數 US$29.68（年增近 190%）。FY28 PC 環境仍疲弱，ISG 需求強，Token 需求至 2030 年增約 87 倍、Training 約 5 倍，追蹤逾 200GW 資料中心專案。
+- 與先前預估差異：GFHK 2026-11-16 預估企業通用伺服器 FY2H27E 出貨半年減雙位數、FY27E 年減 9%；本次公司揭露 Traditional Server 營收 3Q 年增 235%、4Q 指引年增 137%（出貨台數下降但 ASP 大增），口徑一為出貨台數、一為營收，並列保留。
+- 台灣供應鏈（國泰 2026-11-25 晨會摘要，未收錄 Raw）：Dell AI 訂單由 [[3231_緯創（市）]] 承接，預期 [[2324_仁寶（市）]] 為 AI 新供應鏈。
+- 來源：[[活動_DellDELL_國泰CallMemo_20261125]]（國泰證期研究部，2026-11-25）。
+
 ## 來源
+
+- [[活動_DellDELL_國泰CallMemo_20261125]] — 國泰證期研究部 FY3Q27 法說 call memo，2026-11-25。
 
 - [[memo_Notion_AceCamp_Dell_AI伺服器訂單與利潤率_70569333_20261118]] — 2026-11-18（Notion 日期），疑似 Dell 訪談。追蹤 AI 伺服器積壓轉換、企業客戶組合與服務附掛率。判讀見 [[分析_AI商業化從交付到變現的五項檢查_20261118]]。
 
@@ -250,4 +273,4 @@ Dell 在 NVIDIA GTC Berlin 發布新聞稿（Business Wire，2026-10-21），把
 - [[時程_2026記憶體與AI催化劑]]
 - [[SNX.US(td_synnex)]]
 - [[SPCX.US(spacex)]]（2026-10-27 批次新增引用）
-
+- [[WDAY.US(workday)]]（同日法說：企業 Agentic AI 採用）

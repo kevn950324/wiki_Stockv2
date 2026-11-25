@@ -388,6 +388,8 @@ dFAU／DFAU 的可核實官方展開是 **Detachable Fiber Array Unit**，代表
 - [[報告_永豐_智璞專家分享會_矽光子與CPO趨勢_20260921]] — 永豐證券／智璞產業趨勢研究所，2026-09-21（NVIDIA 2026-03-02 投入 US$2B 策略協議；400mW 高功率 ELS 僅有兩家合格供應商之一，且同列輝達／博通雙陣營 FAU／耦合供應商）
 - [[活動_高明鐵4573_技術論壇Memo_20261021]] — [[4573_高明鐵（櫃）]] 技術論壇 memo，2026-10-21（設備商口述：Coherent 有自有 CPO FAU，且「那兩個 C」確定是高明鐵客戶；VCSEL 目前做最好的是 Coherent，短距 Micro VCSEL 已在出樣；thesis／中低；問題問的是 SENKO、Coherent、Corning 三家，回答「Corning 還在談、那兩個 C 確定是客戶」，推定指扣除 Corning 後的 SENKO 與 Coherent，原文用語不清）
 
+- [[活動_高明鐵4573_參訪電訪SEMICON閉門Memo_20260915]]（2026-09-15）
+
 ## 相關頁面
 
 - [[分析_SiC供電層級與材料市場口徑驗證_日期待確認]]

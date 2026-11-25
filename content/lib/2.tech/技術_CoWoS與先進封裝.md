@@ -65,7 +65,16 @@ aliases:
   - UCIe-3D
   - Advanced Packaging Technology
   - APT
-updated: 2026-11-02
+  - BSM
+  - Backside Metal
+  - Backside Metallization
+  - Metal TIM
+  - Die Bonder
+  - TCB
+  - Thermal Compression Bonding
+  - On-Substrate
+  - Active Alignment
+updated: 2026-11-25
 ---
 
 # 技術_CoWoS與先進封裝
@@ -520,6 +529,22 @@ CoWoS 是近年 NVIDIA 出貨最主要的產能限制：
 
 來源：[[報告_國泰證期_晨會聯發科聯亞光寶科鴻海頎邦新應材ABF_20261102]]、[[報告_國金證券_電子週報CoWoS漲價AI端側_20261101]]、[[報告_玉山_2027AI趨勢先進封裝玻璃基板光傳輸散熱_20261102]]、[[報告_華南投顧_第四季總經股市產業展望_20261102]]。
 
+### 2026-11-25 日月光專家會議：全製程工序、定價機制、設備瓶頸與 2028 產能分歧
+
+來源：[[活動_日月光投控3711_專家會議_20261125]]（OSAT 專家會議，2026-11-25；estimate／信心中）。
+
+- **全製程工序拆解（以 [[AMD.US(amd)]] 伺服器 CPU 為例）**：[[2330_台積電（市）]] 2nm 晶圓出廠 → [[3711_日月光投控（市）]] 執行 Bumping 與 Wafer Sort → 在送達的 Interposer 上製作約 2 層 RDL → 切割 Top Die 並透過 CoW 貼裝至 Interposer → **伺服器 CPU 增加一道 BSM（Backside Metal）工序** → On-Substrate（FC-BGA／LGA 封裝）→ 後段 Final Test（Burn-in、FT、SLT）由通富微電檳城廠完成。
+- **CoWoS 報價與 OS 成本轉嫁**：台積電對終端客戶 CoWoS（涵蓋 R／S／L）整片報價原則上為 **US$10,000–13,000／片**（CoWoS-L 約 **US$13,000**）；外包 OS 時由 OSAT **按顆（per unit）**報價，台積電加計約 **10%–12%** 利潤轉嫁終端客戶。2026 年 OS 外包漲幅達 **30%–40%**、2027 年漲幅趨緩；台積電約 80% CapEx 投向先進製程、CoWoS／OS 僅佔 <20%，並將 7–8 成 OS 委外給日月光／矽品。
+- **三大設備瓶頸**：
+  1. **Die Bonder**（Die 貼合至 Interposer）：[[6640_均華精密（市）]] 等台廠交期偏長（已致部分 CPU 1Q 出貨缺口），日月光正開發韓廠 Hanmi、荷蘭 Besi 作二／三供。
+  2. **On-Substrate TCB（熱壓鍵合）**：日月光主依賴 K&S，台積電另一線採 ASMPT。
+  3. **Metal TIM attach**（伺服器 CPU 散熱片 ring attach 前）：[[7751_竑騰（市）]] 為單一來源瓶頸（同供台積電、日月光、矽品、通富微電、[[AMKR.US(amkor)]] 與陸廠），日月光正尋求二／三供。
+- **產能口徑與 2028 轉折分歧**：專家稱台積電 CoWoS 2026 年 130K → 2027H1 160K → 2027H2 200K 片／月，但 **2028 年不再增加並顯著減少**（轉向 Panel-level／CoPoS）；日月光 FOCoS（以 interposer 晶圓計）現有 7K → 2027Q1 15K → 2027/10 20K → 2028Q1 30K → 2028 底 40K 片／月。
+
+> [!warning] 資訊衝突：2028 年 CoWoS 產能延續擴張 vs 轉向 CoPoS 縮減
+> - [[活動_日月光投控3711_專家會議_20261125]]（2026-11-25）：台積電 CoWoS 2027H2 達 200K 後，2028 年不再增加且顯著減少；日月光 FOCoS 2027 底約 20K、2028 底 40K。
+> - 主流賣方模型（MS 2026-10-05／JPM 2026-09-30／富邦 2026-10-22）：估 2028 年台積電 CoWoS 續擴至 205–260K、非台積電陣營 85–110K；且定錨 2026-07 提醒 CoPoS 存在最高 2 年遞延風險。並列保留，待 2027 設備訂單驗證。
+
 ## 相關頁面
 
 - [[分析_ASIC分工與過手收入的獲利驗證_日期待確認]]
@@ -595,6 +620,7 @@ Google Icefish、HBF與COUPE PIC／EIC後段整合仍為研究選擇權；CPO接
 
 ## 來源
 
+- [[活動_日月光投控3711_專家會議_20261125]] — 日月光專家會議，2026-11-25；全製程工序、CoWoS US$10,000–13,000 報價與 OS +10–12% 成本轉嫁、均華／K&S／竑騰設備瓶頸、2026–2028 產能口徑。
 - [[報告_Aletheia_創意電子首次覆蓋_20260922]] — Aletheia Capital，2026-09-22；GLink3D／APT原理、TK後段工程與選擇權。
 
 - [[報告_Aletheia_2027AI加速器關鍵變化_20261001]] — Aletheia Capital，2026-10-01；原始研究／訪談全文，數字及時程依本批註記保留來源口徑。
